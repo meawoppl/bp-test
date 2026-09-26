@@ -1,0 +1,6 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "lcsc")(type "KiCad")(uri "${KIPRJMOD}/lcsc/lcsc.pretty")(options "")(descr "LCSC/EasyEDA imported footprints"))
+  (lib (name "LED_SMD")(type "KiCad")(uri "${KIPRJMOD}/LED_SMD.pretty")(options "")(descr "Vendored KiCad stock LED footprints"))
+  (lib (name "Resistor_SMD")(type "KiCad")(uri "${KIPRJMOD}/Resistor_SMD.pretty")(options "")(descr "Vendored KiCad stock resistor footprints"))
+)

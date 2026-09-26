@@ -1,0 +1,5 @@
+"Comment","Designator","Footprint","LCSC Part #"
+"GREEN","D1","LED_SMD:LED_1206_3216Metric","C125084"
+"RED","D2","LED_SMD:LED_1206_3216Metric","C125086"
+"KH-BNC50-3511","J1","lcsc:ANT-TH_KH-BNC50-3511","C2837587"
+"1kR","R1","Resistor_SMD:R_0805_2012Metric","C17513"

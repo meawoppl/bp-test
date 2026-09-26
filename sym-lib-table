@@ -1,0 +1,7 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "bp-test")(type "KiCad")(uri "${KIPRJMOD}/bp-test.kicad_sym")(options "")(descr "Project-local simplified schematic symbols"))
+  (lib (name "lcsc")(type "KiCad")(uri "${KIPRJMOD}/lcsc/lcsc.kicad_sym")(options "")(descr "LCSC/EasyEDA imported symbols"))
+  (lib (name "Connector")(type "KiCad")(uri "${KICAD_SYMBOL_DIR}/Connector.kicad_sym")(options "")(descr "KiCad stock connector symbols"))
+  (lib (name "Device")(type "KiCad")(uri "${KICAD_SYMBOL_DIR}/Device.kicad_sym")(options "")(descr "KiCad stock device symbols"))
+)
