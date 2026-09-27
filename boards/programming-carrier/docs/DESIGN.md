@@ -131,10 +131,22 @@ of JLCPCB assembly stock. All assembly exports were regenerated.
 
 User review of the JLCPCB placement preview established that C113281
 (SN74LVC541APWR, U3–U11) needs 90 degrees clockwise relative to the native
-KiCad placement angle. `docs/jlcpcb-placement-offsets.json` records a -90°
-correction; the exporter applies it only to the JLCPCB CPL, yielding 270° for
-these nine top-side buffers. Native KiCad footprints and position export stay
-at 0°. Confirm the pin-1 marker is at each buffer's upper-left corner when
-viewing the board from the component side with USB at the top. Reuploading the
-corrected CPL replaces the need for the same manual rotation; do not apply it
-a second time in the assembler preview.
+KiCad placement angle. Later preview review added U1 (AP2112K) and U2
+(USBLC6-2SC6) at the same -90°, SW1 (JS102011SAQN) shifted 2.75 mm up and J3
+(TYPE-C-31-M-12) shifted 1.425 mm down on the board.
+
+These corrections are part-level fields on the symbols and footprints (hidden,
+F.Fab): `JLCPCB Rotation Offset` = `-90` on U1–U11; `JLCPCB Position Offset`
+in the footprint-local frame (KiCad +Y down, before rotation) = `0,-2.75` on
+SW1 (placed at 0°) and `0,-1.425` on J3 (placed at 180°). The exporters
+(`tools/hardware/carrier_export.py` and the kicad-pcb plugin) apply them only
+to the JLCPCB CPL: 270° for the buffers and U1, 180° for U2, SW1 +2.75 mm and
+J3 −1.425 mm in CPL +Y-up coordinates. Because the offsets are
+footprint-local, they stay valid if these parts are moved or rotated. Native
+KiCad footprints and position export are unchanged. The regenerated CPL is
+byte-identical to `releases/v1/CPL_carrier.csv`. The earlier LCSC-keyed
+`docs/jlcpcb-placement-offsets.json` table was removed; the frozen copy
+remains in `releases/v1/`. Confirm the pin-1 marker is at each buffer's
+upper-left corner when viewing the board from the component side with USB at
+the top. The corrected CPL already includes these corrections; do not apply
+them again in the assembler preview.
