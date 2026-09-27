@@ -68,7 +68,7 @@ The return-plane sampling report is `gps-feed-geometry.json`.
 Request a 50-ohm controlled-impedance outer-layer feed using this exact stackup
 and have the fabricator confirm finished copper/mask/etch geometry before release.
 These are nominal cross-section calculations, not VNA measurements or an RF
-sign-off. The rest of this board remains in routing development.
+sign-off. Carrier routing is complete; native electrical checks are clean. Hardware RF validation remains outstanding.
 
 ## Independent-tool discrepancy
 

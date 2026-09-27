@@ -1,0 +1,10 @@
+{
+  "USB_D+": {
+    "esd_to_module_track_length_mm": 38.69288597629122
+  },
+  "USB_D-": {
+    "esd_to_module_track_length_mm": 39.927200551342
+  },
+  "skew_mm": 1.2343145750507745,
+  "scope": "Shortest routed copper path from ESD IC board-side pins to J1, excludes package and via barrel lengths. Both paths use two through vias."
+}

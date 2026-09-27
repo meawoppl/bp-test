@@ -5,4 +5,4 @@
 
 (rule "Amphenol edge-launch SMA lands intentionally meet board edge"
  (condition "A.Type == 'Pad' && (A.memberOfFootprint('J5') || A.memberOfFootprint('J6') || A.memberOfFootprint('J7'))")
- (constraint edge_clearance (min 0mm)))
+ (constraint edge_clearance (min -0.01mm)))

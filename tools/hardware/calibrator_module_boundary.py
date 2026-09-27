@@ -30,7 +30,9 @@ for a,z in zip(pts,pts[1:]+pts[:1]):
  s=p.PCB_SHAPE(b);s.SetShape(p.SHAPE_T_SEGMENT);s.SetStart(p.VECTOR2I(*[p.FromMM(v) for v in a]));s.SetEnd(p.VECTOR2I(*[p.FromMM(v) for v in z]));s.SetLayer(p.F_Fab);s.SetWidth(p.FromMM(.12));b.Add(s);g.AddItem(s)
 # Visible side/bottom outline; top is flush with carrier edge, so omit top silk.
 silk=[(x-10,y-13.5),(x-10,y+30.7),(x+10,y+30.7),(x+10,y-13.5)]
-for a,z in zip(silk,silk[1:]):
+segments=list(zip(silk,silk[1:]))[:2]+[((x+10,y+30.7),(x+10,y-4.8)),((x+10,y-7.8),(x+10,y-13.5))]
+# Leave a 3 mm silk break around the run-mode pull-up R4 at the right edge.
+for a,z in segments:
  s=p.PCB_SHAPE(b);s.SetShape(p.SHAPE_T_SEGMENT);s.SetStart(p.VECTOR2I(*[p.FromMM(v) for v in a]));s.SetEnd(p.VECTOR2I(*[p.FromMM(v) for v in z]));s.SetLayer(p.F_SilkS);s.SetWidth(p.FromMM(.12));b.Add(s);g.AddItem(s)
 p.SaveBoard(str(D/'calibrator.kicad_pcb'),b)
 print('Module body:',pts,'; J1/J2/H1 grouped with outline; no placements changed.')

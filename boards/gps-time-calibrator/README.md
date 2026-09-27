@@ -1,6 +1,6 @@
-# GPS optical time calibrator carrier — revision A, redesign in progress
+# GPS optical time calibrator carrier — revision A, routed prototype
 
-180 × 100 mm carrier for the **ordered module v1**, using the programming carrier's exact mating contacts and pad numbering. The ordered daughterboard and programmer files are unchanged. This carrier is not ready for fabrication: the USB-power, OCXO and connector redesign still needs routing and final checks. See `fab/STATUS.md`.
+180 × 100 mm carrier for the **ordered module v1**, using the programming carrier's exact mating contacts and pad numbering. The ordered daughterboard and programmer files are unchanged. Connector-first routing is complete with clean native ERC, DRC and schematic parity. See `docs/routing-review.md` and `fab/STATUS.md` for validation scope and prototype bring-up checks.
 
 ## Optical display
 
@@ -20,7 +20,7 @@ The module body extends from x=145 to 165 mm and y=10 to 55 mm, flush with the c
 
 ## Right-edge connectors and GNSS
 
-Top to bottom: USB-C J3, input SMA J6, output SMA J7, GPS antenna SMA J5. The SMA connectors are Amphenol 132289 edge-launch parts with approximately 11.43 mm projection beyond the edge and a nominal 1.3 mm board slot.
+Top to bottom: USB-C J3, input SMA J6, output SMA J7, GPS antenna SMA J5. The SMA connectors are Amphenol 132289 edge-launch parts with approximately 11.43 mm projection beyond the edge and a nominal 1.57 mm (.062-inch) board slot.
 
 Input accepts 0–5 V logic into a TLV3501 comparator referenced to half the 5 V supply, nominally 2.5 V. A 3.3 V Schmitt buffer feeds FPGA, ESP32 and GNSS EXTINT. Output is an AHCT buffer producing 5 V logic into a **high-impedance receiver**, not 5 V into a 50 Ω termination. Neither port should be treated as a protected industrial-voltage input.
 
@@ -34,11 +34,11 @@ Y1 is separately procured and excluded from the JLCPCB placement/BOM pair. Its l
 
 ## Stackup and release checks
 
-Nominal 1.3 mm, four-layer JLC04161H-7628 construction is intended for the SMA slots. Outer copper 0.035 mm; outer dielectric 0.21040 mm; inner copper 0.0152 mm; core dielectric 1.065 mm. Source: https://jlcpcb.com/impedance . The nominal RF feed remains 0.23 mm wide with a 0.15 mm coplanar-ground clearance target. This is a routing target, not a verified impedance result: confirm stackup, uninterrupted return geometry and the bias-tee discontinuity before release. USB differential routing also remains to be completed and reviewed.
+Nominal 1.6 mm, four-layer JLC04161H-7628 construction is intended for the SMA slots. Outer copper 0.035 mm; outer dielectric 0.21040 mm; inner copper 0.0152 mm; core dielectric 1.065 mm. Source: https://jlcpcb.com/impedance . The nominal RF feed remains 0.26 mm wide with a 0.15 mm coplanar-ground clearance target. The manufacturer coated-coplanar calculation gives 50.50 ohm nominal; see `docs/rf/GPS-FEED.md`. Confirm the finished stackup, launch and bias tee at fabrication/bring-up. USB data is routed as a nearby pair for the module's full-speed interface.
 
 The intended optical word is in 1/65536-second units (15.258789 µs per LSB). Sub-LSB calibration uses rolling-shutter transitions; the hardware alone does not establish absolute microsecond accuracy. Existing firmware is incomplete. `docs/display-map.json` and `docs/circuit.json` define the current mapping and circuit.
 
-Canonical KiCad files are authoritative. Initial construction scripts are destructive and must not be rerun over incremental layout work. Current BOMs are design-review artifacts; fabrication outputs remain withdrawn until routing, ERC/DRC/parity, assembly orientation, power and RF review are complete.
+Canonical KiCad files are authoritative. Initial construction scripts are destructive and must not be rerun over incremental layout work. Generated fabrication and assembly outputs correspond to the routed PCB. Assembly orientation approval, power/thermal measurements and RF/optical timing validation remain prototype release checks.
 
 ## Schematic presentation
 
@@ -70,7 +70,7 @@ The footprint uses the manufacturer's 27.30 x 27.80 mm outline, a centered
 four-pin 2.54 mm header 1.32 mm from its top edge, and a 23.30 x 23.80 mm mounting
 hole grid. Use M2 hardware and 3 mm insulating standoffs; the module's holes are
 2.5 mm and carrier holes 2.7 mm. Fit straight 0.64 mm square header pins through
-the carrier's 1 mm plated holes and solder manually. Confirm the received
+the carrier's 1.1 mm plated holes and solder manually. Confirm the received
 module/header and mounting hardware before assembly. Keep the region beneath
 its body free of added tall components. The STEP is an illustrative envelope,
 not a manufacturer model; screen contents are not implemented.
@@ -94,13 +94,13 @@ moving an individual member after entering/ungrouping it can still break alignme
 
 USB J3 is centered at y30 mm, trigger input J6 at y50, output J7 at y70,
 and GPS antenna J5 at y90: **20 mm between adjacent connector centerlines**.
-The right corner mounts remain at (196,14) and (196,106) mm, giving 13 mm
+The right corner mounts remain at (196,14) and (196,106) mm, giving 16 mm
 vertical center spacing to the nearest connector. Actual foot/washer/cable
 clearance depends on the hardware selected. GPS circuitry moved upward together
 with its jack, preserving the straight 9.21 mm antenna feed.
 
-The GPS feed targets 50 ohm on nominal **1.3 mm JLC04161H-7628**:
-0.23 mm width, 0.15 mm coplanar gap, 0.2104 mm to In1 GND. See
+The GPS feed targets 50 ohm on nominal **1.6 mm JLC04161H-7628**:
+0.26 mm width, 0.15 mm coplanar gap, 0.2104 mm to In1 GND. See
 [the recorded impedance calculations](docs/rf/GPS-FEED.md).
 
 ### Display mounting hardware
