@@ -1,0 +1,6597 @@
+{
+  "J1": {
+    "value": "DF40C-40DP-0.4V(51)",
+    "mpn": "DF40C-40DP-0.4V(51)",
+    "lcsc": "C424643",
+    "footprint": "Calibrator:J1_Module_v1_Mate",
+    "pins": {
+      "20": null,
+      "19": null,
+      "18": null,
+      "17": null,
+      "16": null,
+      "15": null,
+      "14": "ESP_GPIO2",
+      "13": "ESP_GPIO1",
+      "12": "ESP_GPIO0_BOOT",
+      "11": null,
+      "10": "GND",
+      "9": "GND",
+      "8": "USB_D-",
+      "7": "USB_D+",
+      "6": "GND",
+      "5": "GND",
+      "4": "VIN_5V",
+      "3": "VIN_5V",
+      "2": "VIN_5V",
+      "1": "VIN_5V",
+      "21": null,
+      "22": "GND",
+      "23": null,
+      "24": null,
+      "25": null,
+      "26": "ESP_GPIO43_TXD",
+      "27": "ESP_GPIO44_RXD",
+      "28": null,
+      "29": null,
+      "30": "GND",
+      "31": "GND",
+      "32": null,
+      "33": null,
+      "34": null,
+      "35": null,
+      "36": null,
+      "37": null,
+      "38": null,
+      "39": "ESP_GPIO38",
+      "40": "ESP_GPIO21"
+    },
+    "kind": "connector",
+    "types": {},
+    "names": {
+      "20": "ESP_GPIO8",
+      "19": "ESP_GPIO7",
+      "18": "ESP_GPIO6",
+      "17": "ESP_GPIO5",
+      "16": "ESP_GPIO4",
+      "15": "ESP_GPIO3",
+      "14": "ESP_GPIO2",
+      "13": "ESP_GPIO1",
+      "12": "ESP_GPIO0_BOOT",
+      "11": "ESP_EN",
+      "10": "GND",
+      "9": "GND",
+      "8": "USB_D-",
+      "7": "USB_D+",
+      "6": "GND",
+      "5": "GND",
+      "4": "VIN_5V",
+      "3": "VIN_5V",
+      "2": "VIN_5V",
+      "1": "VIN_5V",
+      "21": "ESP_GPIO40",
+      "22": "GND",
+      "23": "ESP_GPIO39",
+      "24": "ESP_GPIO41",
+      "25": "ESP_GPIO42",
+      "26": "ESP_GPIO43_TXD",
+      "27": "ESP_GPIO44_RXD",
+      "28": "ESP_GPIO35",
+      "29": "ESP_GPIO33",
+      "30": "GND",
+      "31": "GND",
+      "32": "ESP_GPIO34",
+      "33": "ESP_GPIO46",
+      "34": "ESP_GPIO45",
+      "35": "ESP_GPIO15",
+      "36": "ESP_GPIO17",
+      "37": "ESP_GPIO16",
+      "38": "ESP_GPIO18",
+      "39": "ESP_GPIO38",
+      "40": "ESP_GPIO21"
+    },
+    "bom": true,
+    "position": [
+      155.0,
+      24.3,
+      0.0
+    ]
+  },
+  "J2": {
+    "value": "DF40C(2.0)-40DS-0.4V(51)",
+    "mpn": "DF40C(2.0)-40DS-0.4V(51)",
+    "lcsc": "C597934",
+    "footprint": "Calibrator:J2_Module_v1_Mate",
+    "pins": {
+      "20": "FPGA_IOT_43A",
+      "19": "FPGA_IOT_42B",
+      "18": "GND",
+      "17": "FPGA_IOT_41A",
+      "16": "FPGA_IOT_39A",
+      "15": "FPGA_IOT_38B",
+      "14": "FPGA_IOT_36B",
+      "13": "GND",
+      "12": "FPGA_IOB_25B_G3",
+      "11": "FPGA_IOB_29B",
+      "10": "FPGA_IOB_23B",
+      "9": null,
+      "8": "GND",
+      "7": "FPGA_IOB_20A",
+      "6": "FPGA_IOB_13B",
+      "5": "FPGA_IOB_22A",
+      "4": "FPGA_IOB_16A",
+      "3": "GND",
+      "2": "FPGA_IOB_18A",
+      "1": "GND",
+      "21": "FPGA_IOT_48B",
+      "22": "FPGA_IOT_46B_G0",
+      "23": "GND",
+      "24": "FPGA_IOT_45A_G1",
+      "25": "FPGA_IOT_50B",
+      "26": null,
+      "27": null,
+      "28": "GND",
+      "29": null,
+      "30": "FPGA_IOT_51A",
+      "31": null,
+      "32": "FPGA_IOB_3B_G6",
+      "33": null,
+      "34": null,
+      "35": null,
+      "36": null,
+      "37": null,
+      "38": null,
+      "39": null,
+      "40": null
+    },
+    "kind": "connector",
+    "types": {},
+    "names": {
+      "20": "FPGA_IOT_43A",
+      "19": "FPGA_IOT_42B",
+      "18": "GND",
+      "17": "FPGA_IOT_41A",
+      "16": "FPGA_IOT_39A",
+      "15": "FPGA_IOT_38B",
+      "14": "FPGA_IOT_36B",
+      "13": "GND",
+      "12": "FPGA_IOB_25B_G3",
+      "11": "FPGA_IOB_29B",
+      "10": "FPGA_IOB_23B",
+      "9": "FPGA_IOT_37A",
+      "8": "GND",
+      "7": "FPGA_IOB_20A",
+      "6": "FPGA_IOB_13B",
+      "5": "FPGA_IOB_22A",
+      "4": "FPGA_IOB_16A",
+      "3": "GND",
+      "2": "FPGA_IOB_18A",
+      "1": "GND",
+      "21": "FPGA_IOT_48B",
+      "22": "FPGA_IOT_46B_G0",
+      "23": "GND",
+      "24": "FPGA_IOT_45A_G1",
+      "25": "FPGA_IOT_50B",
+      "26": "FPGA_RGB0",
+      "27": "FPGA_RGB1",
+      "28": "GND",
+      "29": "FPGA_RGB2",
+      "30": "FPGA_IOT_51A",
+      "31": "FPGA_IOT_49A",
+      "32": "FPGA_IOB_3B_G6",
+      "33": "FPGA_IOT_44B",
+      "34": "FPGA_IOB_5B",
+      "35": "FPGA_IOB_0A",
+      "36": "FPGA_IOB_2A",
+      "37": "FPGA_IOB_4A",
+      "38": "FPGA_IOB_9B",
+      "39": "FPGA_IOB_8A",
+      "40": "FPGA_IOB_6A"
+    },
+    "bom": true,
+    "position": [
+      155.0,
+      49.3,
+      0.0
+    ]
+  },
+  "H1": {
+    "value": "M3",
+    "mpn": "M3",
+    "lcsc": "",
+    "footprint": "Calibrator:MountingHole_3.2mm_M3",
+    "pins": {},
+    "kind": "hole",
+    "types": {},
+    "names": {},
+    "bom": false,
+    "position": [
+      155.0,
+      36.8,
+      0.0
+    ]
+  },
+  "H2": {
+    "value": "M3",
+    "mpn": "M3",
+    "lcsc": "",
+    "footprint": "Calibrator:MountingHole_3.2mm_M3",
+    "pins": {},
+    "kind": "hole",
+    "types": {},
+    "names": {},
+    "bom": false,
+    "position": [
+      24.0,
+      14.0,
+      0.0
+    ]
+  },
+  "H3": {
+    "value": "M3",
+    "mpn": "M3",
+    "lcsc": "",
+    "footprint": "Calibrator:MountingHole_3.2mm_M3",
+    "pins": {},
+    "kind": "hole",
+    "types": {},
+    "names": {},
+    "bom": false,
+    "position": [
+      196.0,
+      14.0,
+      0.0
+    ]
+  },
+  "H4": {
+    "value": "M3",
+    "mpn": "M3",
+    "lcsc": "",
+    "footprint": "Calibrator:MountingHole_3.2mm_M3",
+    "pins": {},
+    "kind": "hole",
+    "types": {},
+    "names": {},
+    "bom": false,
+    "position": [
+      24.0,
+      106.0,
+      0.0
+    ]
+  },
+  "H5": {
+    "value": "M3",
+    "mpn": "M3",
+    "lcsc": "",
+    "footprint": "Calibrator:MountingHole_3.2mm_M3",
+    "pins": {},
+    "kind": "hole",
+    "types": {},
+    "names": {},
+    "bom": false,
+    "position": [
+      196.0,
+      106.0,
+      0.0
+    ]
+  },
+  "J3": {
+    "value": "USB-C 5V/3A + DATA",
+    "mpn": "TYPE-C-31-M-12",
+    "lcsc": "C165948",
+    "footprint": "Calibrator:USB_C_Receptacle_HRO_TYPE-C-31-M-12",
+    "pins": {
+      "A1": "GND",
+      "B12": "GND",
+      "A12": "GND",
+      "B1": "GND",
+      "A4": "USB_VBUS",
+      "B9": "USB_VBUS",
+      "A9": "USB_VBUS",
+      "B4": "USB_VBUS",
+      "A5": "CC1",
+      "B5": "CC2",
+      "A6": "USB_D+",
+      "B6": "USB_D+",
+      "A7": "USB_D-",
+      "B7": "USB_D-",
+      "A8": null,
+      "B8": null,
+      "S1": "GND"
+    },
+    "kind": "connector",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      197.2,
+      30,
+      90.0
+    ]
+  },
+  "U1": {
+    "value": "USBLC6-2SC6",
+    "mpn": "USBLC6-2SC6",
+    "lcsc": "C7519",
+    "footprint": "Calibrator:SOT-23-6_U1",
+    "pins": {
+      "1": "USB_D+",
+      "2": "GND",
+      "3": "USB_D-",
+      "4": "USB_D-",
+      "5": "USB_VBUS",
+      "6": "USB_D+"
+    },
+    "kind": "ic",
+    "types": {},
+    "names": {
+      "1": "IO1",
+      "2": "GND",
+      "3": "IO2",
+      "4": "IO2",
+      "5": "VBUS",
+      "6": "IO1"
+    },
+    "bom": true,
+    "position": [
+      188.5,
+      30,
+      180
+    ]
+  },
+  "C1": {
+    "value": "100nF",
+    "mpn": "CL21B104KBCNNNC",
+    "lcsc": "C1711",
+    "footprint": "Calibrator:C_0805_2012Metric",
+    "pins": {
+      "1": "USB_VBUS",
+      "2": "GND"
+    },
+    "kind": "c",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      186,
+      32.8,
+      180
+    ]
+  },
+  "U2": {
+    "value": "AP2112K-3.3",
+    "mpn": "AP2112K-3.3TRG1",
+    "lcsc": "C51118",
+    "footprint": "Calibrator:SOT-23-5",
+    "pins": {
+      "1": "VIN_5V",
+      "2": "GND",
+      "3": "VIN_5V",
+      "4": null,
+      "5": "+3V3_LOGIC"
+    },
+    "kind": "ic",
+    "types": {
+      "1": "power_in",
+      "2": "power_in",
+      "3": "input",
+      "4": "no_connect",
+      "5": "power_out"
+    },
+    "names": {
+      "1": "VIN",
+      "2": "GND",
+      "3": "EN",
+      "4": "NC",
+      "5": "VOUT"
+    },
+    "bom": true,
+    "position": [
+      172,
+      46,
+      0
+    ]
+  },
+  "C2": {
+    "value": "4.7uF",
+    "mpn": "CL21A475KAQNNNE",
+    "lcsc": "C1779",
+    "footprint": "Calibrator:C_0805_2012Metric",
+    "pins": {
+      "1": "VIN_5V",
+      "2": "GND"
+    },
+    "kind": "c",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      167.8,
+      46.95,
+      180
+    ]
+  },
+  "C3": {
+    "value": "4.7uF",
+    "mpn": "CL21A475KAQNNNE",
+    "lcsc": "C1779",
+    "footprint": "Calibrator:C_0805_2012Metric",
+    "pins": {
+      "1": "+3V3_LOGIC",
+      "2": "GND"
+    },
+    "kind": "c",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      176.2,
+      45.05,
+      0
+    ]
+  },
+  "U5": {
+    "value": "AP2112K-3.3",
+    "mpn": "AP2112K-3.3TRG1",
+    "lcsc": "C51118",
+    "footprint": "Calibrator:SOT-23-5",
+    "pins": {
+      "1": "VIN_5V",
+      "2": "GND",
+      "3": "VIN_5V",
+      "4": null,
+      "5": "+3V3_GPS"
+    },
+    "kind": "ic",
+    "types": {
+      "1": "power_in",
+      "2": "power_in",
+      "3": "input",
+      "4": "no_connect",
+      "5": "power_out"
+    },
+    "names": {
+      "1": "VIN",
+      "2": "GND",
+      "3": "EN",
+      "4": "NC",
+      "5": "VOUT"
+    },
+    "bom": true,
+    "position": [
+      179,
+      77.5,
+      0.0
+    ]
+  },
+  "C6": {
+    "value": "4.7uF",
+    "mpn": "CL21A475KAQNNNE",
+    "lcsc": "C1779",
+    "footprint": "Calibrator:C_0805_2012Metric",
+    "pins": {
+      "1": "VIN_5V",
+      "2": "GND"
+    },
+    "kind": "c",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      174.8,
+      78.45,
+      180
+    ]
+  },
+  "C7": {
+    "value": "4.7uF",
+    "mpn": "CL21A475KAQNNNE",
+    "lcsc": "C1779",
+    "footprint": "Calibrator:C_0805_2012Metric",
+    "pins": {
+      "1": "+3V3_GPS",
+      "2": "GND"
+    },
+    "kind": "c",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      183.2,
+      78.45,
+      0
+    ]
+  },
+  "R3": {
+    "value": "2.2k",
+    "mpn": "0805W8F2201T5E",
+    "lcsc": "C17520",
+    "footprint": "Calibrator:R_0805_2012Metric",
+    "pins": {
+      "1": "VIN_5V",
+      "2": "POWER_LED"
+    },
+    "kind": "r",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      183,
+      42.8,
+      180
+    ]
+  },
+  "D1": {
+    "value": "GREEN",
+    "mpn": "XL-1608SYGC-06",
+    "lcsc": "C965805",
+    "footprint": "Calibrator:LED_0603_1608Metric",
+    "pins": {
+      "1": "GND",
+      "2": "POWER_LED"
+    },
+    "kind": "led",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      179,
+      42.8,
+      180
+    ]
+  },
+  "R4": {
+    "value": "100k",
+    "mpn": "RC0805FR-07100KL",
+    "lcsc": "C96346",
+    "footprint": "Calibrator:R_0805_2012Metric",
+    "pins": {
+      "1": "ESP_GPIO0_BOOT",
+      "2": "+3V3_LOGIC"
+    },
+    "kind": "r",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      168,
+      68,
+      0
+    ]
+  },
+  "Q1": {
+    "value": "AO3400A",
+    "mpn": "AO3400A",
+    "lcsc": "C20917",
+    "footprint": "Calibrator:SOT-23",
+    "pins": {
+      "1": "GATE15",
+      "2": "GND",
+      "3": "LED_K15"
+    },
+    "kind": "mosfet",
+    "types": {},
+    "names": {
+      "1": "G",
+      "2": "S",
+      "3": "D"
+    },
+    "bom": true,
+    "position": [
+      32.0,
+      38.0,
+      -90.0
+    ]
+  },
+  "R100": {
+    "value": "100R",
+    "mpn": "RC0805FR-07100RL",
+    "lcsc": "C105577",
+    "footprint": "Calibrator:R_0805_2012Metric",
+    "pins": {
+      "1": "DRIVE15",
+      "2": "GATE15"
+    },
+    "kind": "r",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      32.0,
+      33.0,
+      -90.0
+    ]
+  },
+  "R120": {
+    "value": "100k",
+    "mpn": "RC0805FR-07100KL",
+    "lcsc": "C96346",
+    "footprint": "Calibrator:R_0805_2012Metric",
+    "pins": {
+      "1": "GATE15",
+      "2": "GND"
+    },
+    "kind": "r",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      35,
+      35,
+      90.0
+    ]
+  },
+  "R10": {
+    "value": "470R 1%",
+    "mpn": "0805W8F4700T5E",
+    "lcsc": "C17710",
+    "footprint": "Calibrator:R_0805_2012Metric",
+    "pins": {
+      "1": "VIN_5V",
+      "2": "LED_A0"
+    },
+    "kind": "r",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      32.0,
+      52.0,
+      90.0
+    ]
+  },
+  "D10": {
+    "value": "BLUE",
+    "mpn": "YLED1206B",
+    "lcsc": "C28310438",
+    "footprint": "Calibrator:LED_1206_3216Metric",
+    "pins": {
+      "1": "LED_K15",
+      "2": "LED_A0"
+    },
+    "kind": "led",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      32.0,
+      48.0,
+      -90.0
+    ]
+  },
+  "R26": {
+    "value": "470R 1%",
+    "mpn": "0805W8F4700T5E",
+    "lcsc": "C17710",
+    "footprint": "Calibrator:R_0805_2012Metric",
+    "pins": {
+      "1": "VIN_5V",
+      "2": "LED_A16"
+    },
+    "kind": "r",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      32.0,
+      64.0,
+      90.0
+    ]
+  },
+  "D26": {
+    "value": "BLUE",
+    "mpn": "YLED1206B",
+    "lcsc": "C28310438",
+    "footprint": "Calibrator:LED_1206_3216Metric",
+    "pins": {
+      "1": "LED_K15",
+      "2": "LED_A16"
+    },
+    "kind": "led",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      32.0,
+      60.0,
+      -90.0
+    ]
+  },
+  "R42": {
+    "value": "470R 1%",
+    "mpn": "0805W8F4700T5E",
+    "lcsc": "C17710",
+    "footprint": "Calibrator:R_0805_2012Metric",
+    "pins": {
+      "1": "VIN_5V",
+      "2": "LED_A32"
+    },
+    "kind": "r",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      32.0,
+      76.0,
+      90.0
+    ]
+  },
+  "D42": {
+    "value": "BLUE",
+    "mpn": "YLED1206B",
+    "lcsc": "C28310438",
+    "footprint": "Calibrator:LED_1206_3216Metric",
+    "pins": {
+      "1": "LED_K15",
+      "2": "LED_A32"
+    },
+    "kind": "led",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      32.0,
+      72.0,
+      -90.0
+    ]
+  },
+  "R58": {
+    "value": "470R 1%",
+    "mpn": "0805W8F4700T5E",
+    "lcsc": "C17710",
+    "footprint": "Calibrator:R_0805_2012Metric",
+    "pins": {
+      "1": "VIN_5V",
+      "2": "LED_A48"
+    },
+    "kind": "r",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      32.0,
+      88.0,
+      90.0
+    ]
+  },
+  "D58": {
+    "value": "BLUE",
+    "mpn": "YLED1206B",
+    "lcsc": "C28310438",
+    "footprint": "Calibrator:LED_1206_3216Metric",
+    "pins": {
+      "1": "LED_K15",
+      "2": "LED_A48"
+    },
+    "kind": "led",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      32.0,
+      84.0,
+      -90.0
+    ]
+  },
+  "C20": {
+    "value": "100nF",
+    "mpn": "CL21B104KBCNNNC",
+    "lcsc": "C1711",
+    "footprint": "Calibrator:C_0805_2012Metric",
+    "pins": {
+      "1": "VIN_5V",
+      "2": "GND"
+    },
+    "kind": "c",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      34.5,
+      43.5,
+      90.0
+    ]
+  },
+  "C40": {
+    "value": "10uF",
+    "mpn": "CL21A106KAYNNNE",
+    "lcsc": "C15850",
+    "footprint": "Calibrator:C_0805_2012Metric",
+    "pins": {
+      "1": "VIN_5V",
+      "2": "GND"
+    },
+    "kind": "c",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      32.0,
+      94.0,
+      0.0
+    ]
+  },
+  "Q2": {
+    "value": "AO3400A",
+    "mpn": "AO3400A",
+    "lcsc": "C20917",
+    "footprint": "Calibrator:SOT-23",
+    "pins": {
+      "1": "GATE14",
+      "2": "GND",
+      "3": "LED_K14"
+    },
+    "kind": "mosfet",
+    "types": {},
+    "names": {
+      "1": "G",
+      "2": "S",
+      "3": "D"
+    },
+    "bom": true,
+    "position": [
+      38.0,
+      38.0,
+      -90.0
+    ]
+  },
+  "R101": {
+    "value": "100R",
+    "mpn": "RC0805FR-07100RL",
+    "lcsc": "C105577",
+    "footprint": "Calibrator:R_0805_2012Metric",
+    "pins": {
+      "1": "DRIVE14",
+      "2": "GATE14"
+    },
+    "kind": "r",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      38.0,
+      33.0,
+      -90.0
+    ]
+  },
+  "R121": {
+    "value": "100k",
+    "mpn": "RC0805FR-07100KL",
+    "lcsc": "C96346",
+    "footprint": "Calibrator:R_0805_2012Metric",
+    "pins": {
+      "1": "GATE14",
+      "2": "GND"
+    },
+    "kind": "r",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      41,
+      35,
+      90.0
+    ]
+  },
+  "R11": {
+    "value": "470R 1%",
+    "mpn": "0805W8F4700T5E",
+    "lcsc": "C17710",
+    "footprint": "Calibrator:R_0805_2012Metric",
+    "pins": {
+      "1": "VIN_5V",
+      "2": "LED_A1"
+    },
+    "kind": "r",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      38.0,
+      52.0,
+      90.0
+    ]
+  },
+  "D11": {
+    "value": "BLUE",
+    "mpn": "YLED1206B",
+    "lcsc": "C28310438",
+    "footprint": "Calibrator:LED_1206_3216Metric",
+    "pins": {
+      "1": "LED_K14",
+      "2": "LED_A1"
+    },
+    "kind": "led",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      38.0,
+      48.0,
+      -90.0
+    ]
+  },
+  "R27": {
+    "value": "470R 1%",
+    "mpn": "0805W8F4700T5E",
+    "lcsc": "C17710",
+    "footprint": "Calibrator:R_0805_2012Metric",
+    "pins": {
+      "1": "VIN_5V",
+      "2": "LED_A17"
+    },
+    "kind": "r",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      38.0,
+      64.0,
+      90.0
+    ]
+  },
+  "D27": {
+    "value": "BLUE",
+    "mpn": "YLED1206B",
+    "lcsc": "C28310438",
+    "footprint": "Calibrator:LED_1206_3216Metric",
+    "pins": {
+      "1": "LED_K14",
+      "2": "LED_A17"
+    },
+    "kind": "led",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      38.0,
+      60.0,
+      -90.0
+    ]
+  },
+  "R43": {
+    "value": "470R 1%",
+    "mpn": "0805W8F4700T5E",
+    "lcsc": "C17710",
+    "footprint": "Calibrator:R_0805_2012Metric",
+    "pins": {
+      "1": "VIN_5V",
+      "2": "LED_A33"
+    },
+    "kind": "r",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      38.0,
+      76.0,
+      90.0
+    ]
+  },
+  "D43": {
+    "value": "BLUE",
+    "mpn": "YLED1206B",
+    "lcsc": "C28310438",
+    "footprint": "Calibrator:LED_1206_3216Metric",
+    "pins": {
+      "1": "LED_K14",
+      "2": "LED_A33"
+    },
+    "kind": "led",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      38.0,
+      72.0,
+      -90.0
+    ]
+  },
+  "R59": {
+    "value": "470R 1%",
+    "mpn": "0805W8F4700T5E",
+    "lcsc": "C17710",
+    "footprint": "Calibrator:R_0805_2012Metric",
+    "pins": {
+      "1": "VIN_5V",
+      "2": "LED_A49"
+    },
+    "kind": "r",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      38.0,
+      88.0,
+      90.0
+    ]
+  },
+  "D59": {
+    "value": "BLUE",
+    "mpn": "YLED1206B",
+    "lcsc": "C28310438",
+    "footprint": "Calibrator:LED_1206_3216Metric",
+    "pins": {
+      "1": "LED_K14",
+      "2": "LED_A49"
+    },
+    "kind": "led",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      38.0,
+      84.0,
+      -90.0
+    ]
+  },
+  "C21": {
+    "value": "100nF",
+    "mpn": "CL21B104KBCNNNC",
+    "lcsc": "C1711",
+    "footprint": "Calibrator:C_0805_2012Metric",
+    "pins": {
+      "1": "VIN_5V",
+      "2": "GND"
+    },
+    "kind": "c",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      40.5,
+      43.5,
+      90.0
+    ]
+  },
+  "C41": {
+    "value": "10uF",
+    "mpn": "CL21A106KAYNNNE",
+    "lcsc": "C15850",
+    "footprint": "Calibrator:C_0805_2012Metric",
+    "pins": {
+      "1": "VIN_5V",
+      "2": "GND"
+    },
+    "kind": "c",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      38.0,
+      94.0,
+      0.0
+    ]
+  },
+  "Q3": {
+    "value": "AO3400A",
+    "mpn": "AO3400A",
+    "lcsc": "C20917",
+    "footprint": "Calibrator:SOT-23",
+    "pins": {
+      "1": "GATE13",
+      "2": "GND",
+      "3": "LED_K13"
+    },
+    "kind": "mosfet",
+    "types": {},
+    "names": {
+      "1": "G",
+      "2": "S",
+      "3": "D"
+    },
+    "bom": true,
+    "position": [
+      44.0,
+      38.0,
+      -90.0
+    ]
+  },
+  "R102": {
+    "value": "100R",
+    "mpn": "RC0805FR-07100RL",
+    "lcsc": "C105577",
+    "footprint": "Calibrator:R_0805_2012Metric",
+    "pins": {
+      "1": "DRIVE13",
+      "2": "GATE13"
+    },
+    "kind": "r",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      44.0,
+      33.0,
+      -90.0
+    ]
+  },
+  "R122": {
+    "value": "100k",
+    "mpn": "RC0805FR-07100KL",
+    "lcsc": "C96346",
+    "footprint": "Calibrator:R_0805_2012Metric",
+    "pins": {
+      "1": "GATE13",
+      "2": "GND"
+    },
+    "kind": "r",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      47,
+      35,
+      90.0
+    ]
+  },
+  "R12": {
+    "value": "470R 1%",
+    "mpn": "0805W8F4700T5E",
+    "lcsc": "C17710",
+    "footprint": "Calibrator:R_0805_2012Metric",
+    "pins": {
+      "1": "VIN_5V",
+      "2": "LED_A2"
+    },
+    "kind": "r",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      44.0,
+      52.0,
+      90.0
+    ]
+  },
+  "D12": {
+    "value": "BLUE",
+    "mpn": "YLED1206B",
+    "lcsc": "C28310438",
+    "footprint": "Calibrator:LED_1206_3216Metric",
+    "pins": {
+      "1": "LED_K13",
+      "2": "LED_A2"
+    },
+    "kind": "led",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      44.0,
+      48.0,
+      -90.0
+    ]
+  },
+  "R28": {
+    "value": "470R 1%",
+    "mpn": "0805W8F4700T5E",
+    "lcsc": "C17710",
+    "footprint": "Calibrator:R_0805_2012Metric",
+    "pins": {
+      "1": "VIN_5V",
+      "2": "LED_A18"
+    },
+    "kind": "r",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      44.0,
+      64.0,
+      90.0
+    ]
+  },
+  "D28": {
+    "value": "BLUE",
+    "mpn": "YLED1206B",
+    "lcsc": "C28310438",
+    "footprint": "Calibrator:LED_1206_3216Metric",
+    "pins": {
+      "1": "LED_K13",
+      "2": "LED_A18"
+    },
+    "kind": "led",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      44.0,
+      60.0,
+      -90.0
+    ]
+  },
+  "R44": {
+    "value": "470R 1%",
+    "mpn": "0805W8F4700T5E",
+    "lcsc": "C17710",
+    "footprint": "Calibrator:R_0805_2012Metric",
+    "pins": {
+      "1": "VIN_5V",
+      "2": "LED_A34"
+    },
+    "kind": "r",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      44.0,
+      76.0,
+      90.0
+    ]
+  },
+  "D44": {
+    "value": "BLUE",
+    "mpn": "YLED1206B",
+    "lcsc": "C28310438",
+    "footprint": "Calibrator:LED_1206_3216Metric",
+    "pins": {
+      "1": "LED_K13",
+      "2": "LED_A34"
+    },
+    "kind": "led",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      44.0,
+      72.0,
+      -90.0
+    ]
+  },
+  "R60": {
+    "value": "470R 1%",
+    "mpn": "0805W8F4700T5E",
+    "lcsc": "C17710",
+    "footprint": "Calibrator:R_0805_2012Metric",
+    "pins": {
+      "1": "VIN_5V",
+      "2": "LED_A50"
+    },
+    "kind": "r",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      44.0,
+      88.0,
+      90.0
+    ]
+  },
+  "D60": {
+    "value": "BLUE",
+    "mpn": "YLED1206B",
+    "lcsc": "C28310438",
+    "footprint": "Calibrator:LED_1206_3216Metric",
+    "pins": {
+      "1": "LED_K13",
+      "2": "LED_A50"
+    },
+    "kind": "led",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      44.0,
+      84.0,
+      -90.0
+    ]
+  },
+  "C22": {
+    "value": "100nF",
+    "mpn": "CL21B104KBCNNNC",
+    "lcsc": "C1711",
+    "footprint": "Calibrator:C_0805_2012Metric",
+    "pins": {
+      "1": "VIN_5V",
+      "2": "GND"
+    },
+    "kind": "c",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      46.5,
+      43.5,
+      90.0
+    ]
+  },
+  "C42": {
+    "value": "10uF",
+    "mpn": "CL21A106KAYNNNE",
+    "lcsc": "C15850",
+    "footprint": "Calibrator:C_0805_2012Metric",
+    "pins": {
+      "1": "VIN_5V",
+      "2": "GND"
+    },
+    "kind": "c",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      44.0,
+      94.0,
+      0.0
+    ]
+  },
+  "Q4": {
+    "value": "AO3400A",
+    "mpn": "AO3400A",
+    "lcsc": "C20917",
+    "footprint": "Calibrator:SOT-23",
+    "pins": {
+      "1": "GATE12",
+      "2": "GND",
+      "3": "LED_K12"
+    },
+    "kind": "mosfet",
+    "types": {},
+    "names": {
+      "1": "G",
+      "2": "S",
+      "3": "D"
+    },
+    "bom": true,
+    "position": [
+      50.0,
+      38.0,
+      -90.0
+    ]
+  },
+  "R103": {
+    "value": "100R",
+    "mpn": "RC0805FR-07100RL",
+    "lcsc": "C105577",
+    "footprint": "Calibrator:R_0805_2012Metric",
+    "pins": {
+      "1": "DRIVE12",
+      "2": "GATE12"
+    },
+    "kind": "r",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      50.0,
+      33.0,
+      -90.0
+    ]
+  },
+  "R123": {
+    "value": "100k",
+    "mpn": "RC0805FR-07100KL",
+    "lcsc": "C96346",
+    "footprint": "Calibrator:R_0805_2012Metric",
+    "pins": {
+      "1": "GATE12",
+      "2": "GND"
+    },
+    "kind": "r",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      53,
+      35,
+      90.0
+    ]
+  },
+  "R13": {
+    "value": "470R 1%",
+    "mpn": "0805W8F4700T5E",
+    "lcsc": "C17710",
+    "footprint": "Calibrator:R_0805_2012Metric",
+    "pins": {
+      "1": "VIN_5V",
+      "2": "LED_A3"
+    },
+    "kind": "r",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      50.0,
+      52.0,
+      90.0
+    ]
+  },
+  "D13": {
+    "value": "BLUE",
+    "mpn": "YLED1206B",
+    "lcsc": "C28310438",
+    "footprint": "Calibrator:LED_1206_3216Metric",
+    "pins": {
+      "1": "LED_K12",
+      "2": "LED_A3"
+    },
+    "kind": "led",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      50.0,
+      48.0,
+      -90.0
+    ]
+  },
+  "R29": {
+    "value": "470R 1%",
+    "mpn": "0805W8F4700T5E",
+    "lcsc": "C17710",
+    "footprint": "Calibrator:R_0805_2012Metric",
+    "pins": {
+      "1": "VIN_5V",
+      "2": "LED_A19"
+    },
+    "kind": "r",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      50.0,
+      64.0,
+      90.0
+    ]
+  },
+  "D29": {
+    "value": "BLUE",
+    "mpn": "YLED1206B",
+    "lcsc": "C28310438",
+    "footprint": "Calibrator:LED_1206_3216Metric",
+    "pins": {
+      "1": "LED_K12",
+      "2": "LED_A19"
+    },
+    "kind": "led",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      50.0,
+      60.0,
+      -90.0
+    ]
+  },
+  "R45": {
+    "value": "470R 1%",
+    "mpn": "0805W8F4700T5E",
+    "lcsc": "C17710",
+    "footprint": "Calibrator:R_0805_2012Metric",
+    "pins": {
+      "1": "VIN_5V",
+      "2": "LED_A35"
+    },
+    "kind": "r",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      50.0,
+      76.0,
+      90.0
+    ]
+  },
+  "D45": {
+    "value": "BLUE",
+    "mpn": "YLED1206B",
+    "lcsc": "C28310438",
+    "footprint": "Calibrator:LED_1206_3216Metric",
+    "pins": {
+      "1": "LED_K12",
+      "2": "LED_A35"
+    },
+    "kind": "led",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      50.0,
+      72.0,
+      -90.0
+    ]
+  },
+  "R61": {
+    "value": "470R 1%",
+    "mpn": "0805W8F4700T5E",
+    "lcsc": "C17710",
+    "footprint": "Calibrator:R_0805_2012Metric",
+    "pins": {
+      "1": "VIN_5V",
+      "2": "LED_A51"
+    },
+    "kind": "r",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      50.0,
+      88.0,
+      90.0
+    ]
+  },
+  "D61": {
+    "value": "BLUE",
+    "mpn": "YLED1206B",
+    "lcsc": "C28310438",
+    "footprint": "Calibrator:LED_1206_3216Metric",
+    "pins": {
+      "1": "LED_K12",
+      "2": "LED_A51"
+    },
+    "kind": "led",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      50.0,
+      84.0,
+      -90.0
+    ]
+  },
+  "C23": {
+    "value": "100nF",
+    "mpn": "CL21B104KBCNNNC",
+    "lcsc": "C1711",
+    "footprint": "Calibrator:C_0805_2012Metric",
+    "pins": {
+      "1": "VIN_5V",
+      "2": "GND"
+    },
+    "kind": "c",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      52.5,
+      43.5,
+      90.0
+    ]
+  },
+  "C43": {
+    "value": "10uF",
+    "mpn": "CL21A106KAYNNNE",
+    "lcsc": "C15850",
+    "footprint": "Calibrator:C_0805_2012Metric",
+    "pins": {
+      "1": "VIN_5V",
+      "2": "GND"
+    },
+    "kind": "c",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      50.0,
+      94.0,
+      0.0
+    ]
+  },
+  "Q5": {
+    "value": "AO3400A",
+    "mpn": "AO3400A",
+    "lcsc": "C20917",
+    "footprint": "Calibrator:SOT-23",
+    "pins": {
+      "1": "GATE11",
+      "2": "GND",
+      "3": "LED_K11"
+    },
+    "kind": "mosfet",
+    "types": {},
+    "names": {
+      "1": "G",
+      "2": "S",
+      "3": "D"
+    },
+    "bom": true,
+    "position": [
+      56.0,
+      38.0,
+      -90.0
+    ]
+  },
+  "R104": {
+    "value": "100R",
+    "mpn": "RC0805FR-07100RL",
+    "lcsc": "C105577",
+    "footprint": "Calibrator:R_0805_2012Metric",
+    "pins": {
+      "1": "DRIVE11",
+      "2": "GATE11"
+    },
+    "kind": "r",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      56.0,
+      33.0,
+      -90.0
+    ]
+  },
+  "R124": {
+    "value": "100k",
+    "mpn": "RC0805FR-07100KL",
+    "lcsc": "C96346",
+    "footprint": "Calibrator:R_0805_2012Metric",
+    "pins": {
+      "1": "GATE11",
+      "2": "GND"
+    },
+    "kind": "r",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      59,
+      35,
+      90.0
+    ]
+  },
+  "R14": {
+    "value": "470R 1%",
+    "mpn": "0805W8F4700T5E",
+    "lcsc": "C17710",
+    "footprint": "Calibrator:R_0805_2012Metric",
+    "pins": {
+      "1": "VIN_5V",
+      "2": "LED_A4"
+    },
+    "kind": "r",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      56.0,
+      52.0,
+      90.0
+    ]
+  },
+  "D14": {
+    "value": "BLUE",
+    "mpn": "YLED1206B",
+    "lcsc": "C28310438",
+    "footprint": "Calibrator:LED_1206_3216Metric",
+    "pins": {
+      "1": "LED_K11",
+      "2": "LED_A4"
+    },
+    "kind": "led",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      56.0,
+      48.0,
+      -90.0
+    ]
+  },
+  "R30": {
+    "value": "470R 1%",
+    "mpn": "0805W8F4700T5E",
+    "lcsc": "C17710",
+    "footprint": "Calibrator:R_0805_2012Metric",
+    "pins": {
+      "1": "VIN_5V",
+      "2": "LED_A20"
+    },
+    "kind": "r",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      56.0,
+      64.0,
+      90.0
+    ]
+  },
+  "D30": {
+    "value": "BLUE",
+    "mpn": "YLED1206B",
+    "lcsc": "C28310438",
+    "footprint": "Calibrator:LED_1206_3216Metric",
+    "pins": {
+      "1": "LED_K11",
+      "2": "LED_A20"
+    },
+    "kind": "led",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      56.0,
+      60.0,
+      -90.0
+    ]
+  },
+  "R46": {
+    "value": "470R 1%",
+    "mpn": "0805W8F4700T5E",
+    "lcsc": "C17710",
+    "footprint": "Calibrator:R_0805_2012Metric",
+    "pins": {
+      "1": "VIN_5V",
+      "2": "LED_A36"
+    },
+    "kind": "r",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      56.0,
+      76.0,
+      90.0
+    ]
+  },
+  "D46": {
+    "value": "BLUE",
+    "mpn": "YLED1206B",
+    "lcsc": "C28310438",
+    "footprint": "Calibrator:LED_1206_3216Metric",
+    "pins": {
+      "1": "LED_K11",
+      "2": "LED_A36"
+    },
+    "kind": "led",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      56.0,
+      72.0,
+      -90.0
+    ]
+  },
+  "R62": {
+    "value": "470R 1%",
+    "mpn": "0805W8F4700T5E",
+    "lcsc": "C17710",
+    "footprint": "Calibrator:R_0805_2012Metric",
+    "pins": {
+      "1": "VIN_5V",
+      "2": "LED_A52"
+    },
+    "kind": "r",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      56.0,
+      88.0,
+      90.0
+    ]
+  },
+  "D62": {
+    "value": "BLUE",
+    "mpn": "YLED1206B",
+    "lcsc": "C28310438",
+    "footprint": "Calibrator:LED_1206_3216Metric",
+    "pins": {
+      "1": "LED_K11",
+      "2": "LED_A52"
+    },
+    "kind": "led",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      56.0,
+      84.0,
+      -90.0
+    ]
+  },
+  "C24": {
+    "value": "100nF",
+    "mpn": "CL21B104KBCNNNC",
+    "lcsc": "C1711",
+    "footprint": "Calibrator:C_0805_2012Metric",
+    "pins": {
+      "1": "VIN_5V",
+      "2": "GND"
+    },
+    "kind": "c",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      58.5,
+      43.5,
+      90.0
+    ]
+  },
+  "C44": {
+    "value": "10uF",
+    "mpn": "CL21A106KAYNNNE",
+    "lcsc": "C15850",
+    "footprint": "Calibrator:C_0805_2012Metric",
+    "pins": {
+      "1": "VIN_5V",
+      "2": "GND"
+    },
+    "kind": "c",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      56.0,
+      94.0,
+      0.0
+    ]
+  },
+  "Q6": {
+    "value": "AO3400A",
+    "mpn": "AO3400A",
+    "lcsc": "C20917",
+    "footprint": "Calibrator:SOT-23",
+    "pins": {
+      "1": "GATE10",
+      "2": "GND",
+      "3": "LED_K10"
+    },
+    "kind": "mosfet",
+    "types": {},
+    "names": {
+      "1": "G",
+      "2": "S",
+      "3": "D"
+    },
+    "bom": true,
+    "position": [
+      62.0,
+      38.0,
+      -90.0
+    ]
+  },
+  "R105": {
+    "value": "100R",
+    "mpn": "RC0805FR-07100RL",
+    "lcsc": "C105577",
+    "footprint": "Calibrator:R_0805_2012Metric",
+    "pins": {
+      "1": "DRIVE10",
+      "2": "GATE10"
+    },
+    "kind": "r",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      62.0,
+      33.0,
+      -90.0
+    ]
+  },
+  "R125": {
+    "value": "100k",
+    "mpn": "RC0805FR-07100KL",
+    "lcsc": "C96346",
+    "footprint": "Calibrator:R_0805_2012Metric",
+    "pins": {
+      "1": "GATE10",
+      "2": "GND"
+    },
+    "kind": "r",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      65,
+      35,
+      90.0
+    ]
+  },
+  "R15": {
+    "value": "470R 1%",
+    "mpn": "0805W8F4700T5E",
+    "lcsc": "C17710",
+    "footprint": "Calibrator:R_0805_2012Metric",
+    "pins": {
+      "1": "VIN_5V",
+      "2": "LED_A5"
+    },
+    "kind": "r",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      62.0,
+      52.0,
+      90.0
+    ]
+  },
+  "D15": {
+    "value": "BLUE",
+    "mpn": "YLED1206B",
+    "lcsc": "C28310438",
+    "footprint": "Calibrator:LED_1206_3216Metric",
+    "pins": {
+      "1": "LED_K10",
+      "2": "LED_A5"
+    },
+    "kind": "led",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      62.0,
+      48.0,
+      -90.0
+    ]
+  },
+  "R31": {
+    "value": "470R 1%",
+    "mpn": "0805W8F4700T5E",
+    "lcsc": "C17710",
+    "footprint": "Calibrator:R_0805_2012Metric",
+    "pins": {
+      "1": "VIN_5V",
+      "2": "LED_A21"
+    },
+    "kind": "r",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      62.0,
+      64.0,
+      90.0
+    ]
+  },
+  "D31": {
+    "value": "BLUE",
+    "mpn": "YLED1206B",
+    "lcsc": "C28310438",
+    "footprint": "Calibrator:LED_1206_3216Metric",
+    "pins": {
+      "1": "LED_K10",
+      "2": "LED_A21"
+    },
+    "kind": "led",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      62.0,
+      60.0,
+      -90.0
+    ]
+  },
+  "R47": {
+    "value": "470R 1%",
+    "mpn": "0805W8F4700T5E",
+    "lcsc": "C17710",
+    "footprint": "Calibrator:R_0805_2012Metric",
+    "pins": {
+      "1": "VIN_5V",
+      "2": "LED_A37"
+    },
+    "kind": "r",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      62.0,
+      76.0,
+      90.0
+    ]
+  },
+  "D47": {
+    "value": "BLUE",
+    "mpn": "YLED1206B",
+    "lcsc": "C28310438",
+    "footprint": "Calibrator:LED_1206_3216Metric",
+    "pins": {
+      "1": "LED_K10",
+      "2": "LED_A37"
+    },
+    "kind": "led",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      62.0,
+      72.0,
+      -90.0
+    ]
+  },
+  "R63": {
+    "value": "470R 1%",
+    "mpn": "0805W8F4700T5E",
+    "lcsc": "C17710",
+    "footprint": "Calibrator:R_0805_2012Metric",
+    "pins": {
+      "1": "VIN_5V",
+      "2": "LED_A53"
+    },
+    "kind": "r",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      62.0,
+      88.0,
+      90.0
+    ]
+  },
+  "D63": {
+    "value": "BLUE",
+    "mpn": "YLED1206B",
+    "lcsc": "C28310438",
+    "footprint": "Calibrator:LED_1206_3216Metric",
+    "pins": {
+      "1": "LED_K10",
+      "2": "LED_A53"
+    },
+    "kind": "led",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      62.0,
+      84.0,
+      -90.0
+    ]
+  },
+  "C25": {
+    "value": "100nF",
+    "mpn": "CL21B104KBCNNNC",
+    "lcsc": "C1711",
+    "footprint": "Calibrator:C_0805_2012Metric",
+    "pins": {
+      "1": "VIN_5V",
+      "2": "GND"
+    },
+    "kind": "c",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      64.5,
+      43.5,
+      90.0
+    ]
+  },
+  "C45": {
+    "value": "10uF",
+    "mpn": "CL21A106KAYNNNE",
+    "lcsc": "C15850",
+    "footprint": "Calibrator:C_0805_2012Metric",
+    "pins": {
+      "1": "VIN_5V",
+      "2": "GND"
+    },
+    "kind": "c",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      62.0,
+      94.0,
+      0.0
+    ]
+  },
+  "Q7": {
+    "value": "AO3400A",
+    "mpn": "AO3400A",
+    "lcsc": "C20917",
+    "footprint": "Calibrator:SOT-23",
+    "pins": {
+      "1": "GATE9",
+      "2": "GND",
+      "3": "LED_K9"
+    },
+    "kind": "mosfet",
+    "types": {},
+    "names": {
+      "1": "G",
+      "2": "S",
+      "3": "D"
+    },
+    "bom": true,
+    "position": [
+      68.0,
+      38.0,
+      -90.0
+    ]
+  },
+  "R106": {
+    "value": "100R",
+    "mpn": "RC0805FR-07100RL",
+    "lcsc": "C105577",
+    "footprint": "Calibrator:R_0805_2012Metric",
+    "pins": {
+      "1": "DRIVE9",
+      "2": "GATE9"
+    },
+    "kind": "r",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      68.0,
+      33.0,
+      -90.0
+    ]
+  },
+  "R126": {
+    "value": "100k",
+    "mpn": "RC0805FR-07100KL",
+    "lcsc": "C96346",
+    "footprint": "Calibrator:R_0805_2012Metric",
+    "pins": {
+      "1": "GATE9",
+      "2": "GND"
+    },
+    "kind": "r",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      71,
+      35,
+      90.0
+    ]
+  },
+  "R16": {
+    "value": "470R 1%",
+    "mpn": "0805W8F4700T5E",
+    "lcsc": "C17710",
+    "footprint": "Calibrator:R_0805_2012Metric",
+    "pins": {
+      "1": "VIN_5V",
+      "2": "LED_A6"
+    },
+    "kind": "r",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      68.0,
+      52.0,
+      90.0
+    ]
+  },
+  "D16": {
+    "value": "BLUE",
+    "mpn": "YLED1206B",
+    "lcsc": "C28310438",
+    "footprint": "Calibrator:LED_1206_3216Metric",
+    "pins": {
+      "1": "LED_K9",
+      "2": "LED_A6"
+    },
+    "kind": "led",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      68.0,
+      48.0,
+      -90.0
+    ]
+  },
+  "R32": {
+    "value": "470R 1%",
+    "mpn": "0805W8F4700T5E",
+    "lcsc": "C17710",
+    "footprint": "Calibrator:R_0805_2012Metric",
+    "pins": {
+      "1": "VIN_5V",
+      "2": "LED_A22"
+    },
+    "kind": "r",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      68.0,
+      64.0,
+      90.0
+    ]
+  },
+  "D32": {
+    "value": "BLUE",
+    "mpn": "YLED1206B",
+    "lcsc": "C28310438",
+    "footprint": "Calibrator:LED_1206_3216Metric",
+    "pins": {
+      "1": "LED_K9",
+      "2": "LED_A22"
+    },
+    "kind": "led",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      68.0,
+      60.0,
+      -90.0
+    ]
+  },
+  "R48": {
+    "value": "470R 1%",
+    "mpn": "0805W8F4700T5E",
+    "lcsc": "C17710",
+    "footprint": "Calibrator:R_0805_2012Metric",
+    "pins": {
+      "1": "VIN_5V",
+      "2": "LED_A38"
+    },
+    "kind": "r",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      68.0,
+      76.0,
+      90.0
+    ]
+  },
+  "D48": {
+    "value": "BLUE",
+    "mpn": "YLED1206B",
+    "lcsc": "C28310438",
+    "footprint": "Calibrator:LED_1206_3216Metric",
+    "pins": {
+      "1": "LED_K9",
+      "2": "LED_A38"
+    },
+    "kind": "led",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      68.0,
+      72.0,
+      -90.0
+    ]
+  },
+  "R64": {
+    "value": "470R 1%",
+    "mpn": "0805W8F4700T5E",
+    "lcsc": "C17710",
+    "footprint": "Calibrator:R_0805_2012Metric",
+    "pins": {
+      "1": "VIN_5V",
+      "2": "LED_A54"
+    },
+    "kind": "r",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      68.0,
+      88.0,
+      90.0
+    ]
+  },
+  "D64": {
+    "value": "BLUE",
+    "mpn": "YLED1206B",
+    "lcsc": "C28310438",
+    "footprint": "Calibrator:LED_1206_3216Metric",
+    "pins": {
+      "1": "LED_K9",
+      "2": "LED_A54"
+    },
+    "kind": "led",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      68.0,
+      84.0,
+      -90.0
+    ]
+  },
+  "C26": {
+    "value": "100nF",
+    "mpn": "CL21B104KBCNNNC",
+    "lcsc": "C1711",
+    "footprint": "Calibrator:C_0805_2012Metric",
+    "pins": {
+      "1": "VIN_5V",
+      "2": "GND"
+    },
+    "kind": "c",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      70.5,
+      43.5,
+      90.0
+    ]
+  },
+  "C46": {
+    "value": "10uF",
+    "mpn": "CL21A106KAYNNNE",
+    "lcsc": "C15850",
+    "footprint": "Calibrator:C_0805_2012Metric",
+    "pins": {
+      "1": "VIN_5V",
+      "2": "GND"
+    },
+    "kind": "c",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      68.0,
+      94.0,
+      0.0
+    ]
+  },
+  "Q8": {
+    "value": "AO3400A",
+    "mpn": "AO3400A",
+    "lcsc": "C20917",
+    "footprint": "Calibrator:SOT-23",
+    "pins": {
+      "1": "GATE8",
+      "2": "GND",
+      "3": "LED_K8"
+    },
+    "kind": "mosfet",
+    "types": {},
+    "names": {
+      "1": "G",
+      "2": "S",
+      "3": "D"
+    },
+    "bom": true,
+    "position": [
+      74.0,
+      38.0,
+      -90.0
+    ]
+  },
+  "R107": {
+    "value": "100R",
+    "mpn": "RC0805FR-07100RL",
+    "lcsc": "C105577",
+    "footprint": "Calibrator:R_0805_2012Metric",
+    "pins": {
+      "1": "DRIVE8",
+      "2": "GATE8"
+    },
+    "kind": "r",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      74.0,
+      33.0,
+      -90.0
+    ]
+  },
+  "R127": {
+    "value": "100k",
+    "mpn": "RC0805FR-07100KL",
+    "lcsc": "C96346",
+    "footprint": "Calibrator:R_0805_2012Metric",
+    "pins": {
+      "1": "GATE8",
+      "2": "GND"
+    },
+    "kind": "r",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      77,
+      35,
+      90.0
+    ]
+  },
+  "R17": {
+    "value": "470R 1%",
+    "mpn": "0805W8F4700T5E",
+    "lcsc": "C17710",
+    "footprint": "Calibrator:R_0805_2012Metric",
+    "pins": {
+      "1": "VIN_5V",
+      "2": "LED_A7"
+    },
+    "kind": "r",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      74.0,
+      52.0,
+      90.0
+    ]
+  },
+  "D17": {
+    "value": "BLUE",
+    "mpn": "YLED1206B",
+    "lcsc": "C28310438",
+    "footprint": "Calibrator:LED_1206_3216Metric",
+    "pins": {
+      "1": "LED_K8",
+      "2": "LED_A7"
+    },
+    "kind": "led",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      74.0,
+      48.0,
+      -90.0
+    ]
+  },
+  "R33": {
+    "value": "470R 1%",
+    "mpn": "0805W8F4700T5E",
+    "lcsc": "C17710",
+    "footprint": "Calibrator:R_0805_2012Metric",
+    "pins": {
+      "1": "VIN_5V",
+      "2": "LED_A23"
+    },
+    "kind": "r",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      74.0,
+      64.0,
+      90.0
+    ]
+  },
+  "D33": {
+    "value": "BLUE",
+    "mpn": "YLED1206B",
+    "lcsc": "C28310438",
+    "footprint": "Calibrator:LED_1206_3216Metric",
+    "pins": {
+      "1": "LED_K8",
+      "2": "LED_A23"
+    },
+    "kind": "led",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      74.0,
+      60.0,
+      -90.0
+    ]
+  },
+  "R49": {
+    "value": "470R 1%",
+    "mpn": "0805W8F4700T5E",
+    "lcsc": "C17710",
+    "footprint": "Calibrator:R_0805_2012Metric",
+    "pins": {
+      "1": "VIN_5V",
+      "2": "LED_A39"
+    },
+    "kind": "r",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      74.0,
+      76.0,
+      90.0
+    ]
+  },
+  "D49": {
+    "value": "BLUE",
+    "mpn": "YLED1206B",
+    "lcsc": "C28310438",
+    "footprint": "Calibrator:LED_1206_3216Metric",
+    "pins": {
+      "1": "LED_K8",
+      "2": "LED_A39"
+    },
+    "kind": "led",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      74.0,
+      72.0,
+      -90.0
+    ]
+  },
+  "R65": {
+    "value": "470R 1%",
+    "mpn": "0805W8F4700T5E",
+    "lcsc": "C17710",
+    "footprint": "Calibrator:R_0805_2012Metric",
+    "pins": {
+      "1": "VIN_5V",
+      "2": "LED_A55"
+    },
+    "kind": "r",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      74.0,
+      88.0,
+      90.0
+    ]
+  },
+  "D65": {
+    "value": "BLUE",
+    "mpn": "YLED1206B",
+    "lcsc": "C28310438",
+    "footprint": "Calibrator:LED_1206_3216Metric",
+    "pins": {
+      "1": "LED_K8",
+      "2": "LED_A55"
+    },
+    "kind": "led",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      74.0,
+      84.0,
+      -90.0
+    ]
+  },
+  "C27": {
+    "value": "100nF",
+    "mpn": "CL21B104KBCNNNC",
+    "lcsc": "C1711",
+    "footprint": "Calibrator:C_0805_2012Metric",
+    "pins": {
+      "1": "VIN_5V",
+      "2": "GND"
+    },
+    "kind": "c",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      76.5,
+      43.5,
+      90.0
+    ]
+  },
+  "C47": {
+    "value": "10uF",
+    "mpn": "CL21A106KAYNNNE",
+    "lcsc": "C15850",
+    "footprint": "Calibrator:C_0805_2012Metric",
+    "pins": {
+      "1": "VIN_5V",
+      "2": "GND"
+    },
+    "kind": "c",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      74.0,
+      94.0,
+      0.0
+    ]
+  },
+  "Q9": {
+    "value": "AO3400A",
+    "mpn": "AO3400A",
+    "lcsc": "C20917",
+    "footprint": "Calibrator:SOT-23",
+    "pins": {
+      "1": "GATE7",
+      "2": "GND",
+      "3": "LED_K7"
+    },
+    "kind": "mosfet",
+    "types": {},
+    "names": {
+      "1": "G",
+      "2": "S",
+      "3": "D"
+    },
+    "bom": true,
+    "position": [
+      80.0,
+      38.0,
+      -90.0
+    ]
+  },
+  "R108": {
+    "value": "100R",
+    "mpn": "RC0805FR-07100RL",
+    "lcsc": "C105577",
+    "footprint": "Calibrator:R_0805_2012Metric",
+    "pins": {
+      "1": "DRIVE7",
+      "2": "GATE7"
+    },
+    "kind": "r",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      80.0,
+      33.0,
+      -90.0
+    ]
+  },
+  "R128": {
+    "value": "100k",
+    "mpn": "RC0805FR-07100KL",
+    "lcsc": "C96346",
+    "footprint": "Calibrator:R_0805_2012Metric",
+    "pins": {
+      "1": "GATE7",
+      "2": "GND"
+    },
+    "kind": "r",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      83,
+      35,
+      90.0
+    ]
+  },
+  "R18": {
+    "value": "470R 1%",
+    "mpn": "0805W8F4700T5E",
+    "lcsc": "C17710",
+    "footprint": "Calibrator:R_0805_2012Metric",
+    "pins": {
+      "1": "VIN_5V",
+      "2": "LED_A8"
+    },
+    "kind": "r",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      80.0,
+      52.0,
+      90.0
+    ]
+  },
+  "D18": {
+    "value": "BLUE",
+    "mpn": "YLED1206B",
+    "lcsc": "C28310438",
+    "footprint": "Calibrator:LED_1206_3216Metric",
+    "pins": {
+      "1": "LED_K7",
+      "2": "LED_A8"
+    },
+    "kind": "led",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      80.0,
+      48.0,
+      -90.0
+    ]
+  },
+  "R34": {
+    "value": "470R 1%",
+    "mpn": "0805W8F4700T5E",
+    "lcsc": "C17710",
+    "footprint": "Calibrator:R_0805_2012Metric",
+    "pins": {
+      "1": "VIN_5V",
+      "2": "LED_A24"
+    },
+    "kind": "r",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      80.0,
+      64.0,
+      90.0
+    ]
+  },
+  "D34": {
+    "value": "BLUE",
+    "mpn": "YLED1206B",
+    "lcsc": "C28310438",
+    "footprint": "Calibrator:LED_1206_3216Metric",
+    "pins": {
+      "1": "LED_K7",
+      "2": "LED_A24"
+    },
+    "kind": "led",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      80.0,
+      60.0,
+      -90.0
+    ]
+  },
+  "R50": {
+    "value": "470R 1%",
+    "mpn": "0805W8F4700T5E",
+    "lcsc": "C17710",
+    "footprint": "Calibrator:R_0805_2012Metric",
+    "pins": {
+      "1": "VIN_5V",
+      "2": "LED_A40"
+    },
+    "kind": "r",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      80.0,
+      76.0,
+      90.0
+    ]
+  },
+  "D50": {
+    "value": "BLUE",
+    "mpn": "YLED1206B",
+    "lcsc": "C28310438",
+    "footprint": "Calibrator:LED_1206_3216Metric",
+    "pins": {
+      "1": "LED_K7",
+      "2": "LED_A40"
+    },
+    "kind": "led",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      80.0,
+      72.0,
+      -90.0
+    ]
+  },
+  "R66": {
+    "value": "470R 1%",
+    "mpn": "0805W8F4700T5E",
+    "lcsc": "C17710",
+    "footprint": "Calibrator:R_0805_2012Metric",
+    "pins": {
+      "1": "VIN_5V",
+      "2": "LED_A56"
+    },
+    "kind": "r",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      80.0,
+      88.0,
+      90.0
+    ]
+  },
+  "D66": {
+    "value": "BLUE",
+    "mpn": "YLED1206B",
+    "lcsc": "C28310438",
+    "footprint": "Calibrator:LED_1206_3216Metric",
+    "pins": {
+      "1": "LED_K7",
+      "2": "LED_A56"
+    },
+    "kind": "led",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      80.0,
+      84.0,
+      -90.0
+    ]
+  },
+  "C28": {
+    "value": "100nF",
+    "mpn": "CL21B104KBCNNNC",
+    "lcsc": "C1711",
+    "footprint": "Calibrator:C_0805_2012Metric",
+    "pins": {
+      "1": "VIN_5V",
+      "2": "GND"
+    },
+    "kind": "c",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      82.5,
+      43.5,
+      90.0
+    ]
+  },
+  "C48": {
+    "value": "10uF",
+    "mpn": "CL21A106KAYNNNE",
+    "lcsc": "C15850",
+    "footprint": "Calibrator:C_0805_2012Metric",
+    "pins": {
+      "1": "VIN_5V",
+      "2": "GND"
+    },
+    "kind": "c",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      80.0,
+      94.0,
+      0.0
+    ]
+  },
+  "Q10": {
+    "value": "AO3400A",
+    "mpn": "AO3400A",
+    "lcsc": "C20917",
+    "footprint": "Calibrator:SOT-23",
+    "pins": {
+      "1": "GATE6",
+      "2": "GND",
+      "3": "LED_K6"
+    },
+    "kind": "mosfet",
+    "types": {},
+    "names": {
+      "1": "G",
+      "2": "S",
+      "3": "D"
+    },
+    "bom": true,
+    "position": [
+      86.0,
+      38.0,
+      -90.0
+    ]
+  },
+  "R109": {
+    "value": "100R",
+    "mpn": "RC0805FR-07100RL",
+    "lcsc": "C105577",
+    "footprint": "Calibrator:R_0805_2012Metric",
+    "pins": {
+      "1": "DRIVE6",
+      "2": "GATE6"
+    },
+    "kind": "r",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      86.0,
+      33.0,
+      -90.0
+    ]
+  },
+  "R129": {
+    "value": "100k",
+    "mpn": "RC0805FR-07100KL",
+    "lcsc": "C96346",
+    "footprint": "Calibrator:R_0805_2012Metric",
+    "pins": {
+      "1": "GATE6",
+      "2": "GND"
+    },
+    "kind": "r",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      89,
+      35,
+      90.0
+    ]
+  },
+  "R19": {
+    "value": "470R 1%",
+    "mpn": "0805W8F4700T5E",
+    "lcsc": "C17710",
+    "footprint": "Calibrator:R_0805_2012Metric",
+    "pins": {
+      "1": "VIN_5V",
+      "2": "LED_A9"
+    },
+    "kind": "r",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      86.0,
+      52.0,
+      90.0
+    ]
+  },
+  "D19": {
+    "value": "BLUE",
+    "mpn": "YLED1206B",
+    "lcsc": "C28310438",
+    "footprint": "Calibrator:LED_1206_3216Metric",
+    "pins": {
+      "1": "LED_K6",
+      "2": "LED_A9"
+    },
+    "kind": "led",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      86.0,
+      48.0,
+      -90.0
+    ]
+  },
+  "R35": {
+    "value": "470R 1%",
+    "mpn": "0805W8F4700T5E",
+    "lcsc": "C17710",
+    "footprint": "Calibrator:R_0805_2012Metric",
+    "pins": {
+      "1": "VIN_5V",
+      "2": "LED_A25"
+    },
+    "kind": "r",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      86.0,
+      64.0,
+      90.0
+    ]
+  },
+  "D35": {
+    "value": "BLUE",
+    "mpn": "YLED1206B",
+    "lcsc": "C28310438",
+    "footprint": "Calibrator:LED_1206_3216Metric",
+    "pins": {
+      "1": "LED_K6",
+      "2": "LED_A25"
+    },
+    "kind": "led",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      86.0,
+      60.0,
+      -90.0
+    ]
+  },
+  "R51": {
+    "value": "470R 1%",
+    "mpn": "0805W8F4700T5E",
+    "lcsc": "C17710",
+    "footprint": "Calibrator:R_0805_2012Metric",
+    "pins": {
+      "1": "VIN_5V",
+      "2": "LED_A41"
+    },
+    "kind": "r",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      86.0,
+      76.0,
+      90.0
+    ]
+  },
+  "D51": {
+    "value": "BLUE",
+    "mpn": "YLED1206B",
+    "lcsc": "C28310438",
+    "footprint": "Calibrator:LED_1206_3216Metric",
+    "pins": {
+      "1": "LED_K6",
+      "2": "LED_A41"
+    },
+    "kind": "led",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      86.0,
+      72.0,
+      -90.0
+    ]
+  },
+  "R67": {
+    "value": "470R 1%",
+    "mpn": "0805W8F4700T5E",
+    "lcsc": "C17710",
+    "footprint": "Calibrator:R_0805_2012Metric",
+    "pins": {
+      "1": "VIN_5V",
+      "2": "LED_A57"
+    },
+    "kind": "r",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      86.0,
+      88.0,
+      90.0
+    ]
+  },
+  "D67": {
+    "value": "BLUE",
+    "mpn": "YLED1206B",
+    "lcsc": "C28310438",
+    "footprint": "Calibrator:LED_1206_3216Metric",
+    "pins": {
+      "1": "LED_K6",
+      "2": "LED_A57"
+    },
+    "kind": "led",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      86.0,
+      84.0,
+      -90.0
+    ]
+  },
+  "C29": {
+    "value": "100nF",
+    "mpn": "CL21B104KBCNNNC",
+    "lcsc": "C1711",
+    "footprint": "Calibrator:C_0805_2012Metric",
+    "pins": {
+      "1": "VIN_5V",
+      "2": "GND"
+    },
+    "kind": "c",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      88.5,
+      43.5,
+      90.0
+    ]
+  },
+  "C49": {
+    "value": "10uF",
+    "mpn": "CL21A106KAYNNNE",
+    "lcsc": "C15850",
+    "footprint": "Calibrator:C_0805_2012Metric",
+    "pins": {
+      "1": "VIN_5V",
+      "2": "GND"
+    },
+    "kind": "c",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      86.0,
+      94.0,
+      0.0
+    ]
+  },
+  "Q11": {
+    "value": "AO3400A",
+    "mpn": "AO3400A",
+    "lcsc": "C20917",
+    "footprint": "Calibrator:SOT-23",
+    "pins": {
+      "1": "GATE5",
+      "2": "GND",
+      "3": "LED_K5"
+    },
+    "kind": "mosfet",
+    "types": {},
+    "names": {
+      "1": "G",
+      "2": "S",
+      "3": "D"
+    },
+    "bom": true,
+    "position": [
+      92.0,
+      38.0,
+      -90.0
+    ]
+  },
+  "R110": {
+    "value": "100R",
+    "mpn": "RC0805FR-07100RL",
+    "lcsc": "C105577",
+    "footprint": "Calibrator:R_0805_2012Metric",
+    "pins": {
+      "1": "DRIVE5",
+      "2": "GATE5"
+    },
+    "kind": "r",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      92.0,
+      33.0,
+      -90.0
+    ]
+  },
+  "R130": {
+    "value": "100k",
+    "mpn": "RC0805FR-07100KL",
+    "lcsc": "C96346",
+    "footprint": "Calibrator:R_0805_2012Metric",
+    "pins": {
+      "1": "GATE5",
+      "2": "GND"
+    },
+    "kind": "r",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      95,
+      35,
+      90.0
+    ]
+  },
+  "R20": {
+    "value": "470R 1%",
+    "mpn": "0805W8F4700T5E",
+    "lcsc": "C17710",
+    "footprint": "Calibrator:R_0805_2012Metric",
+    "pins": {
+      "1": "VIN_5V",
+      "2": "LED_A10"
+    },
+    "kind": "r",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      92.0,
+      52.0,
+      90.0
+    ]
+  },
+  "D20": {
+    "value": "BLUE",
+    "mpn": "YLED1206B",
+    "lcsc": "C28310438",
+    "footprint": "Calibrator:LED_1206_3216Metric",
+    "pins": {
+      "1": "LED_K5",
+      "2": "LED_A10"
+    },
+    "kind": "led",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      92.0,
+      48.0,
+      -90.0
+    ]
+  },
+  "R36": {
+    "value": "470R 1%",
+    "mpn": "0805W8F4700T5E",
+    "lcsc": "C17710",
+    "footprint": "Calibrator:R_0805_2012Metric",
+    "pins": {
+      "1": "VIN_5V",
+      "2": "LED_A26"
+    },
+    "kind": "r",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      92.0,
+      64.0,
+      90.0
+    ]
+  },
+  "D36": {
+    "value": "BLUE",
+    "mpn": "YLED1206B",
+    "lcsc": "C28310438",
+    "footprint": "Calibrator:LED_1206_3216Metric",
+    "pins": {
+      "1": "LED_K5",
+      "2": "LED_A26"
+    },
+    "kind": "led",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      92.0,
+      60.0,
+      -90.0
+    ]
+  },
+  "R52": {
+    "value": "470R 1%",
+    "mpn": "0805W8F4700T5E",
+    "lcsc": "C17710",
+    "footprint": "Calibrator:R_0805_2012Metric",
+    "pins": {
+      "1": "VIN_5V",
+      "2": "LED_A42"
+    },
+    "kind": "r",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      92.0,
+      76.0,
+      90.0
+    ]
+  },
+  "D52": {
+    "value": "BLUE",
+    "mpn": "YLED1206B",
+    "lcsc": "C28310438",
+    "footprint": "Calibrator:LED_1206_3216Metric",
+    "pins": {
+      "1": "LED_K5",
+      "2": "LED_A42"
+    },
+    "kind": "led",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      92.0,
+      72.0,
+      -90.0
+    ]
+  },
+  "R68": {
+    "value": "470R 1%",
+    "mpn": "0805W8F4700T5E",
+    "lcsc": "C17710",
+    "footprint": "Calibrator:R_0805_2012Metric",
+    "pins": {
+      "1": "VIN_5V",
+      "2": "LED_A58"
+    },
+    "kind": "r",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      92.0,
+      88.0,
+      90.0
+    ]
+  },
+  "D68": {
+    "value": "BLUE",
+    "mpn": "YLED1206B",
+    "lcsc": "C28310438",
+    "footprint": "Calibrator:LED_1206_3216Metric",
+    "pins": {
+      "1": "LED_K5",
+      "2": "LED_A58"
+    },
+    "kind": "led",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      92.0,
+      84.0,
+      -90.0
+    ]
+  },
+  "C30": {
+    "value": "100nF",
+    "mpn": "CL21B104KBCNNNC",
+    "lcsc": "C1711",
+    "footprint": "Calibrator:C_0805_2012Metric",
+    "pins": {
+      "1": "VIN_5V",
+      "2": "GND"
+    },
+    "kind": "c",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      94.5,
+      43.5,
+      90.0
+    ]
+  },
+  "C50": {
+    "value": "10uF",
+    "mpn": "CL21A106KAYNNNE",
+    "lcsc": "C15850",
+    "footprint": "Calibrator:C_0805_2012Metric",
+    "pins": {
+      "1": "VIN_5V",
+      "2": "GND"
+    },
+    "kind": "c",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      92.0,
+      94.0,
+      0.0
+    ]
+  },
+  "Q12": {
+    "value": "AO3400A",
+    "mpn": "AO3400A",
+    "lcsc": "C20917",
+    "footprint": "Calibrator:SOT-23",
+    "pins": {
+      "1": "GATE4",
+      "2": "GND",
+      "3": "LED_K4"
+    },
+    "kind": "mosfet",
+    "types": {},
+    "names": {
+      "1": "G",
+      "2": "S",
+      "3": "D"
+    },
+    "bom": true,
+    "position": [
+      98.0,
+      38.0,
+      -90.0
+    ]
+  },
+  "R111": {
+    "value": "100R",
+    "mpn": "RC0805FR-07100RL",
+    "lcsc": "C105577",
+    "footprint": "Calibrator:R_0805_2012Metric",
+    "pins": {
+      "1": "DRIVE4",
+      "2": "GATE4"
+    },
+    "kind": "r",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      98.0,
+      33.0,
+      -90.0
+    ]
+  },
+  "R131": {
+    "value": "100k",
+    "mpn": "RC0805FR-07100KL",
+    "lcsc": "C96346",
+    "footprint": "Calibrator:R_0805_2012Metric",
+    "pins": {
+      "1": "GATE4",
+      "2": "GND"
+    },
+    "kind": "r",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      101,
+      35,
+      90.0
+    ]
+  },
+  "R21": {
+    "value": "470R 1%",
+    "mpn": "0805W8F4700T5E",
+    "lcsc": "C17710",
+    "footprint": "Calibrator:R_0805_2012Metric",
+    "pins": {
+      "1": "VIN_5V",
+      "2": "LED_A11"
+    },
+    "kind": "r",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      98.0,
+      52.0,
+      90.0
+    ]
+  },
+  "D21": {
+    "value": "BLUE",
+    "mpn": "YLED1206B",
+    "lcsc": "C28310438",
+    "footprint": "Calibrator:LED_1206_3216Metric",
+    "pins": {
+      "1": "LED_K4",
+      "2": "LED_A11"
+    },
+    "kind": "led",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      98.0,
+      48.0,
+      -90.0
+    ]
+  },
+  "R37": {
+    "value": "470R 1%",
+    "mpn": "0805W8F4700T5E",
+    "lcsc": "C17710",
+    "footprint": "Calibrator:R_0805_2012Metric",
+    "pins": {
+      "1": "VIN_5V",
+      "2": "LED_A27"
+    },
+    "kind": "r",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      98.0,
+      64.0,
+      90.0
+    ]
+  },
+  "D37": {
+    "value": "BLUE",
+    "mpn": "YLED1206B",
+    "lcsc": "C28310438",
+    "footprint": "Calibrator:LED_1206_3216Metric",
+    "pins": {
+      "1": "LED_K4",
+      "2": "LED_A27"
+    },
+    "kind": "led",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      98.0,
+      60.0,
+      -90.0
+    ]
+  },
+  "R53": {
+    "value": "470R 1%",
+    "mpn": "0805W8F4700T5E",
+    "lcsc": "C17710",
+    "footprint": "Calibrator:R_0805_2012Metric",
+    "pins": {
+      "1": "VIN_5V",
+      "2": "LED_A43"
+    },
+    "kind": "r",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      98.0,
+      76.0,
+      90.0
+    ]
+  },
+  "D53": {
+    "value": "BLUE",
+    "mpn": "YLED1206B",
+    "lcsc": "C28310438",
+    "footprint": "Calibrator:LED_1206_3216Metric",
+    "pins": {
+      "1": "LED_K4",
+      "2": "LED_A43"
+    },
+    "kind": "led",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      98.0,
+      72.0,
+      -90.0
+    ]
+  },
+  "R69": {
+    "value": "470R 1%",
+    "mpn": "0805W8F4700T5E",
+    "lcsc": "C17710",
+    "footprint": "Calibrator:R_0805_2012Metric",
+    "pins": {
+      "1": "VIN_5V",
+      "2": "LED_A59"
+    },
+    "kind": "r",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      98.0,
+      88.0,
+      90.0
+    ]
+  },
+  "D69": {
+    "value": "BLUE",
+    "mpn": "YLED1206B",
+    "lcsc": "C28310438",
+    "footprint": "Calibrator:LED_1206_3216Metric",
+    "pins": {
+      "1": "LED_K4",
+      "2": "LED_A59"
+    },
+    "kind": "led",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      98.0,
+      84.0,
+      -90.0
+    ]
+  },
+  "C31": {
+    "value": "100nF",
+    "mpn": "CL21B104KBCNNNC",
+    "lcsc": "C1711",
+    "footprint": "Calibrator:C_0805_2012Metric",
+    "pins": {
+      "1": "VIN_5V",
+      "2": "GND"
+    },
+    "kind": "c",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      100.5,
+      43.5,
+      90.0
+    ]
+  },
+  "C51": {
+    "value": "10uF",
+    "mpn": "CL21A106KAYNNNE",
+    "lcsc": "C15850",
+    "footprint": "Calibrator:C_0805_2012Metric",
+    "pins": {
+      "1": "VIN_5V",
+      "2": "GND"
+    },
+    "kind": "c",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      98.0,
+      94.0,
+      0.0
+    ]
+  },
+  "Q13": {
+    "value": "AO3400A",
+    "mpn": "AO3400A",
+    "lcsc": "C20917",
+    "footprint": "Calibrator:SOT-23",
+    "pins": {
+      "1": "GATE3",
+      "2": "GND",
+      "3": "LED_K3"
+    },
+    "kind": "mosfet",
+    "types": {},
+    "names": {
+      "1": "G",
+      "2": "S",
+      "3": "D"
+    },
+    "bom": true,
+    "position": [
+      104.0,
+      38.0,
+      -90.0
+    ]
+  },
+  "R112": {
+    "value": "100R",
+    "mpn": "RC0805FR-07100RL",
+    "lcsc": "C105577",
+    "footprint": "Calibrator:R_0805_2012Metric",
+    "pins": {
+      "1": "DRIVE3",
+      "2": "GATE3"
+    },
+    "kind": "r",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      104.0,
+      33.0,
+      -90.0
+    ]
+  },
+  "R132": {
+    "value": "100k",
+    "mpn": "RC0805FR-07100KL",
+    "lcsc": "C96346",
+    "footprint": "Calibrator:R_0805_2012Metric",
+    "pins": {
+      "1": "GATE3",
+      "2": "GND"
+    },
+    "kind": "r",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      107,
+      35,
+      90.0
+    ]
+  },
+  "R22": {
+    "value": "470R 1%",
+    "mpn": "0805W8F4700T5E",
+    "lcsc": "C17710",
+    "footprint": "Calibrator:R_0805_2012Metric",
+    "pins": {
+      "1": "VIN_5V",
+      "2": "LED_A12"
+    },
+    "kind": "r",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      104.0,
+      52.0,
+      90.0
+    ]
+  },
+  "D22": {
+    "value": "BLUE",
+    "mpn": "YLED1206B",
+    "lcsc": "C28310438",
+    "footprint": "Calibrator:LED_1206_3216Metric",
+    "pins": {
+      "1": "LED_K3",
+      "2": "LED_A12"
+    },
+    "kind": "led",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      104.0,
+      48.0,
+      -90.0
+    ]
+  },
+  "R38": {
+    "value": "470R 1%",
+    "mpn": "0805W8F4700T5E",
+    "lcsc": "C17710",
+    "footprint": "Calibrator:R_0805_2012Metric",
+    "pins": {
+      "1": "VIN_5V",
+      "2": "LED_A28"
+    },
+    "kind": "r",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      104.0,
+      64.0,
+      90.0
+    ]
+  },
+  "D38": {
+    "value": "BLUE",
+    "mpn": "YLED1206B",
+    "lcsc": "C28310438",
+    "footprint": "Calibrator:LED_1206_3216Metric",
+    "pins": {
+      "1": "LED_K3",
+      "2": "LED_A28"
+    },
+    "kind": "led",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      104.0,
+      60.0,
+      -90.0
+    ]
+  },
+  "R54": {
+    "value": "470R 1%",
+    "mpn": "0805W8F4700T5E",
+    "lcsc": "C17710",
+    "footprint": "Calibrator:R_0805_2012Metric",
+    "pins": {
+      "1": "VIN_5V",
+      "2": "LED_A44"
+    },
+    "kind": "r",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      104.0,
+      76.0,
+      90.0
+    ]
+  },
+  "D54": {
+    "value": "BLUE",
+    "mpn": "YLED1206B",
+    "lcsc": "C28310438",
+    "footprint": "Calibrator:LED_1206_3216Metric",
+    "pins": {
+      "1": "LED_K3",
+      "2": "LED_A44"
+    },
+    "kind": "led",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      104.0,
+      72.0,
+      -90.0
+    ]
+  },
+  "R70": {
+    "value": "470R 1%",
+    "mpn": "0805W8F4700T5E",
+    "lcsc": "C17710",
+    "footprint": "Calibrator:R_0805_2012Metric",
+    "pins": {
+      "1": "VIN_5V",
+      "2": "LED_A60"
+    },
+    "kind": "r",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      104.0,
+      88.0,
+      90.0
+    ]
+  },
+  "D70": {
+    "value": "BLUE",
+    "mpn": "YLED1206B",
+    "lcsc": "C28310438",
+    "footprint": "Calibrator:LED_1206_3216Metric",
+    "pins": {
+      "1": "LED_K3",
+      "2": "LED_A60"
+    },
+    "kind": "led",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      104.0,
+      84.0,
+      -90.0
+    ]
+  },
+  "C32": {
+    "value": "100nF",
+    "mpn": "CL21B104KBCNNNC",
+    "lcsc": "C1711",
+    "footprint": "Calibrator:C_0805_2012Metric",
+    "pins": {
+      "1": "VIN_5V",
+      "2": "GND"
+    },
+    "kind": "c",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      106.5,
+      43.5,
+      90.0
+    ]
+  },
+  "C52": {
+    "value": "10uF",
+    "mpn": "CL21A106KAYNNNE",
+    "lcsc": "C15850",
+    "footprint": "Calibrator:C_0805_2012Metric",
+    "pins": {
+      "1": "VIN_5V",
+      "2": "GND"
+    },
+    "kind": "c",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      104.0,
+      94.0,
+      0.0
+    ]
+  },
+  "Q14": {
+    "value": "AO3400A",
+    "mpn": "AO3400A",
+    "lcsc": "C20917",
+    "footprint": "Calibrator:SOT-23",
+    "pins": {
+      "1": "GATE2",
+      "2": "GND",
+      "3": "LED_K2"
+    },
+    "kind": "mosfet",
+    "types": {},
+    "names": {
+      "1": "G",
+      "2": "S",
+      "3": "D"
+    },
+    "bom": true,
+    "position": [
+      110.0,
+      38.0,
+      -90.0
+    ]
+  },
+  "R113": {
+    "value": "100R",
+    "mpn": "RC0805FR-07100RL",
+    "lcsc": "C105577",
+    "footprint": "Calibrator:R_0805_2012Metric",
+    "pins": {
+      "1": "DRIVE2",
+      "2": "GATE2"
+    },
+    "kind": "r",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      110.0,
+      33.0,
+      -90.0
+    ]
+  },
+  "R133": {
+    "value": "100k",
+    "mpn": "RC0805FR-07100KL",
+    "lcsc": "C96346",
+    "footprint": "Calibrator:R_0805_2012Metric",
+    "pins": {
+      "1": "GATE2",
+      "2": "GND"
+    },
+    "kind": "r",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      113,
+      35,
+      90.0
+    ]
+  },
+  "R23": {
+    "value": "470R 1%",
+    "mpn": "0805W8F4700T5E",
+    "lcsc": "C17710",
+    "footprint": "Calibrator:R_0805_2012Metric",
+    "pins": {
+      "1": "VIN_5V",
+      "2": "LED_A13"
+    },
+    "kind": "r",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      110.0,
+      52.0,
+      90.0
+    ]
+  },
+  "D23": {
+    "value": "BLUE",
+    "mpn": "YLED1206B",
+    "lcsc": "C28310438",
+    "footprint": "Calibrator:LED_1206_3216Metric",
+    "pins": {
+      "1": "LED_K2",
+      "2": "LED_A13"
+    },
+    "kind": "led",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      110.0,
+      48.0,
+      -90.0
+    ]
+  },
+  "R39": {
+    "value": "470R 1%",
+    "mpn": "0805W8F4700T5E",
+    "lcsc": "C17710",
+    "footprint": "Calibrator:R_0805_2012Metric",
+    "pins": {
+      "1": "VIN_5V",
+      "2": "LED_A29"
+    },
+    "kind": "r",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      110.0,
+      64.0,
+      90.0
+    ]
+  },
+  "D39": {
+    "value": "BLUE",
+    "mpn": "YLED1206B",
+    "lcsc": "C28310438",
+    "footprint": "Calibrator:LED_1206_3216Metric",
+    "pins": {
+      "1": "LED_K2",
+      "2": "LED_A29"
+    },
+    "kind": "led",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      110.0,
+      60.0,
+      -90.0
+    ]
+  },
+  "R55": {
+    "value": "470R 1%",
+    "mpn": "0805W8F4700T5E",
+    "lcsc": "C17710",
+    "footprint": "Calibrator:R_0805_2012Metric",
+    "pins": {
+      "1": "VIN_5V",
+      "2": "LED_A45"
+    },
+    "kind": "r",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      110.0,
+      76.0,
+      90.0
+    ]
+  },
+  "D55": {
+    "value": "BLUE",
+    "mpn": "YLED1206B",
+    "lcsc": "C28310438",
+    "footprint": "Calibrator:LED_1206_3216Metric",
+    "pins": {
+      "1": "LED_K2",
+      "2": "LED_A45"
+    },
+    "kind": "led",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      110.0,
+      72.0,
+      -90.0
+    ]
+  },
+  "R71": {
+    "value": "470R 1%",
+    "mpn": "0805W8F4700T5E",
+    "lcsc": "C17710",
+    "footprint": "Calibrator:R_0805_2012Metric",
+    "pins": {
+      "1": "VIN_5V",
+      "2": "LED_A61"
+    },
+    "kind": "r",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      110.0,
+      88.0,
+      90.0
+    ]
+  },
+  "D71": {
+    "value": "BLUE",
+    "mpn": "YLED1206B",
+    "lcsc": "C28310438",
+    "footprint": "Calibrator:LED_1206_3216Metric",
+    "pins": {
+      "1": "LED_K2",
+      "2": "LED_A61"
+    },
+    "kind": "led",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      110.0,
+      84.0,
+      -90.0
+    ]
+  },
+  "C33": {
+    "value": "100nF",
+    "mpn": "CL21B104KBCNNNC",
+    "lcsc": "C1711",
+    "footprint": "Calibrator:C_0805_2012Metric",
+    "pins": {
+      "1": "VIN_5V",
+      "2": "GND"
+    },
+    "kind": "c",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      112.5,
+      43.5,
+      90.0
+    ]
+  },
+  "C53": {
+    "value": "10uF",
+    "mpn": "CL21A106KAYNNNE",
+    "lcsc": "C15850",
+    "footprint": "Calibrator:C_0805_2012Metric",
+    "pins": {
+      "1": "VIN_5V",
+      "2": "GND"
+    },
+    "kind": "c",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      110.0,
+      94.0,
+      0.0
+    ]
+  },
+  "Q15": {
+    "value": "AO3400A",
+    "mpn": "AO3400A",
+    "lcsc": "C20917",
+    "footprint": "Calibrator:SOT-23",
+    "pins": {
+      "1": "GATE1",
+      "2": "GND",
+      "3": "LED_K1"
+    },
+    "kind": "mosfet",
+    "types": {},
+    "names": {
+      "1": "G",
+      "2": "S",
+      "3": "D"
+    },
+    "bom": true,
+    "position": [
+      116.0,
+      38.0,
+      -90.0
+    ]
+  },
+  "R114": {
+    "value": "100R",
+    "mpn": "RC0805FR-07100RL",
+    "lcsc": "C105577",
+    "footprint": "Calibrator:R_0805_2012Metric",
+    "pins": {
+      "1": "DRIVE1",
+      "2": "GATE1"
+    },
+    "kind": "r",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      116.0,
+      33.0,
+      -90.0
+    ]
+  },
+  "R134": {
+    "value": "100k",
+    "mpn": "RC0805FR-07100KL",
+    "lcsc": "C96346",
+    "footprint": "Calibrator:R_0805_2012Metric",
+    "pins": {
+      "1": "GATE1",
+      "2": "GND"
+    },
+    "kind": "r",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      119,
+      35,
+      90.0
+    ]
+  },
+  "R24": {
+    "value": "470R 1%",
+    "mpn": "0805W8F4700T5E",
+    "lcsc": "C17710",
+    "footprint": "Calibrator:R_0805_2012Metric",
+    "pins": {
+      "1": "VIN_5V",
+      "2": "LED_A14"
+    },
+    "kind": "r",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      116.0,
+      52.0,
+      90.0
+    ]
+  },
+  "D24": {
+    "value": "BLUE",
+    "mpn": "YLED1206B",
+    "lcsc": "C28310438",
+    "footprint": "Calibrator:LED_1206_3216Metric",
+    "pins": {
+      "1": "LED_K1",
+      "2": "LED_A14"
+    },
+    "kind": "led",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      116.0,
+      48.0,
+      -90.0
+    ]
+  },
+  "R40": {
+    "value": "470R 1%",
+    "mpn": "0805W8F4700T5E",
+    "lcsc": "C17710",
+    "footprint": "Calibrator:R_0805_2012Metric",
+    "pins": {
+      "1": "VIN_5V",
+      "2": "LED_A30"
+    },
+    "kind": "r",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      116.0,
+      64.0,
+      90.0
+    ]
+  },
+  "D40": {
+    "value": "BLUE",
+    "mpn": "YLED1206B",
+    "lcsc": "C28310438",
+    "footprint": "Calibrator:LED_1206_3216Metric",
+    "pins": {
+      "1": "LED_K1",
+      "2": "LED_A30"
+    },
+    "kind": "led",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      116.0,
+      60.0,
+      -90.0
+    ]
+  },
+  "R56": {
+    "value": "470R 1%",
+    "mpn": "0805W8F4700T5E",
+    "lcsc": "C17710",
+    "footprint": "Calibrator:R_0805_2012Metric",
+    "pins": {
+      "1": "VIN_5V",
+      "2": "LED_A46"
+    },
+    "kind": "r",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      116.0,
+      76.0,
+      90.0
+    ]
+  },
+  "D56": {
+    "value": "BLUE",
+    "mpn": "YLED1206B",
+    "lcsc": "C28310438",
+    "footprint": "Calibrator:LED_1206_3216Metric",
+    "pins": {
+      "1": "LED_K1",
+      "2": "LED_A46"
+    },
+    "kind": "led",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      116.0,
+      72.0,
+      -90.0
+    ]
+  },
+  "R72": {
+    "value": "470R 1%",
+    "mpn": "0805W8F4700T5E",
+    "lcsc": "C17710",
+    "footprint": "Calibrator:R_0805_2012Metric",
+    "pins": {
+      "1": "VIN_5V",
+      "2": "LED_A62"
+    },
+    "kind": "r",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      116.0,
+      88.0,
+      90.0
+    ]
+  },
+  "D72": {
+    "value": "BLUE",
+    "mpn": "YLED1206B",
+    "lcsc": "C28310438",
+    "footprint": "Calibrator:LED_1206_3216Metric",
+    "pins": {
+      "1": "LED_K1",
+      "2": "LED_A62"
+    },
+    "kind": "led",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      116.0,
+      84.0,
+      -90.0
+    ]
+  },
+  "C34": {
+    "value": "100nF",
+    "mpn": "CL21B104KBCNNNC",
+    "lcsc": "C1711",
+    "footprint": "Calibrator:C_0805_2012Metric",
+    "pins": {
+      "1": "VIN_5V",
+      "2": "GND"
+    },
+    "kind": "c",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      118.5,
+      43.5,
+      90.0
+    ]
+  },
+  "C54": {
+    "value": "10uF",
+    "mpn": "CL21A106KAYNNNE",
+    "lcsc": "C15850",
+    "footprint": "Calibrator:C_0805_2012Metric",
+    "pins": {
+      "1": "VIN_5V",
+      "2": "GND"
+    },
+    "kind": "c",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      116.0,
+      94.0,
+      0.0
+    ]
+  },
+  "Q16": {
+    "value": "AO3400A",
+    "mpn": "AO3400A",
+    "lcsc": "C20917",
+    "footprint": "Calibrator:SOT-23",
+    "pins": {
+      "1": "GATE0",
+      "2": "GND",
+      "3": "LED_K0"
+    },
+    "kind": "mosfet",
+    "types": {},
+    "names": {
+      "1": "G",
+      "2": "S",
+      "3": "D"
+    },
+    "bom": true,
+    "position": [
+      122.0,
+      38.0,
+      -90.0
+    ]
+  },
+  "R115": {
+    "value": "100R",
+    "mpn": "RC0805FR-07100RL",
+    "lcsc": "C105577",
+    "footprint": "Calibrator:R_0805_2012Metric",
+    "pins": {
+      "1": "DRIVE0",
+      "2": "GATE0"
+    },
+    "kind": "r",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      122.0,
+      33.0,
+      -90.0
+    ]
+  },
+  "R135": {
+    "value": "100k",
+    "mpn": "RC0805FR-07100KL",
+    "lcsc": "C96346",
+    "footprint": "Calibrator:R_0805_2012Metric",
+    "pins": {
+      "1": "GATE0",
+      "2": "GND"
+    },
+    "kind": "r",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      125,
+      35,
+      90.0
+    ]
+  },
+  "R25": {
+    "value": "470R 1%",
+    "mpn": "0805W8F4700T5E",
+    "lcsc": "C17710",
+    "footprint": "Calibrator:R_0805_2012Metric",
+    "pins": {
+      "1": "VIN_5V",
+      "2": "LED_A15"
+    },
+    "kind": "r",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      122.0,
+      52.0,
+      90.0
+    ]
+  },
+  "D25": {
+    "value": "BLUE",
+    "mpn": "YLED1206B",
+    "lcsc": "C28310438",
+    "footprint": "Calibrator:LED_1206_3216Metric",
+    "pins": {
+      "1": "LED_K0",
+      "2": "LED_A15"
+    },
+    "kind": "led",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      122.0,
+      48.0,
+      -90.0
+    ]
+  },
+  "R41": {
+    "value": "470R 1%",
+    "mpn": "0805W8F4700T5E",
+    "lcsc": "C17710",
+    "footprint": "Calibrator:R_0805_2012Metric",
+    "pins": {
+      "1": "VIN_5V",
+      "2": "LED_A31"
+    },
+    "kind": "r",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      122.0,
+      64.0,
+      90.0
+    ]
+  },
+  "D41": {
+    "value": "BLUE",
+    "mpn": "YLED1206B",
+    "lcsc": "C28310438",
+    "footprint": "Calibrator:LED_1206_3216Metric",
+    "pins": {
+      "1": "LED_K0",
+      "2": "LED_A31"
+    },
+    "kind": "led",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      122.0,
+      60.0,
+      -90.0
+    ]
+  },
+  "R57": {
+    "value": "470R 1%",
+    "mpn": "0805W8F4700T5E",
+    "lcsc": "C17710",
+    "footprint": "Calibrator:R_0805_2012Metric",
+    "pins": {
+      "1": "VIN_5V",
+      "2": "LED_A47"
+    },
+    "kind": "r",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      122.0,
+      76.0,
+      90.0
+    ]
+  },
+  "D57": {
+    "value": "BLUE",
+    "mpn": "YLED1206B",
+    "lcsc": "C28310438",
+    "footprint": "Calibrator:LED_1206_3216Metric",
+    "pins": {
+      "1": "LED_K0",
+      "2": "LED_A47"
+    },
+    "kind": "led",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      122.0,
+      72.0,
+      -90.0
+    ]
+  },
+  "R73": {
+    "value": "470R 1%",
+    "mpn": "0805W8F4700T5E",
+    "lcsc": "C17710",
+    "footprint": "Calibrator:R_0805_2012Metric",
+    "pins": {
+      "1": "VIN_5V",
+      "2": "LED_A63"
+    },
+    "kind": "r",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      122.0,
+      88.0,
+      90.0
+    ]
+  },
+  "D73": {
+    "value": "BLUE",
+    "mpn": "YLED1206B",
+    "lcsc": "C28310438",
+    "footprint": "Calibrator:LED_1206_3216Metric",
+    "pins": {
+      "1": "LED_K0",
+      "2": "LED_A63"
+    },
+    "kind": "led",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      122.0,
+      84.0,
+      -90.0
+    ]
+  },
+  "C35": {
+    "value": "100nF",
+    "mpn": "CL21B104KBCNNNC",
+    "lcsc": "C1711",
+    "footprint": "Calibrator:C_0805_2012Metric",
+    "pins": {
+      "1": "VIN_5V",
+      "2": "GND"
+    },
+    "kind": "c",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      124.5,
+      43.5,
+      90.0
+    ]
+  },
+  "C55": {
+    "value": "10uF",
+    "mpn": "CL21A106KAYNNNE",
+    "lcsc": "C15850",
+    "footprint": "Calibrator:C_0805_2012Metric",
+    "pins": {
+      "1": "VIN_5V",
+      "2": "GND"
+    },
+    "kind": "c",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      122.0,
+      94.0,
+      0.0
+    ]
+  },
+  "R140": {
+    "value": "100k",
+    "mpn": "RC0805FR-07100KL",
+    "lcsc": "C96346",
+    "footprint": "Calibrator:R_0805_2012Metric",
+    "pins": {
+      "1": "FPGA_IOB_18A",
+      "2": "GND"
+    },
+    "kind": "r",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      34.0,
+      15.0,
+      90.0
+    ]
+  },
+  "R141": {
+    "value": "100k",
+    "mpn": "RC0805FR-07100KL",
+    "lcsc": "C96346",
+    "footprint": "Calibrator:R_0805_2012Metric",
+    "pins": {
+      "1": "FPGA_IOB_16A",
+      "2": "GND"
+    },
+    "kind": "r",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      40.0,
+      15.0,
+      90.0
+    ]
+  },
+  "R142": {
+    "value": "100k",
+    "mpn": "RC0805FR-07100KL",
+    "lcsc": "C96346",
+    "footprint": "Calibrator:R_0805_2012Metric",
+    "pins": {
+      "1": "FPGA_IOB_22A",
+      "2": "GND"
+    },
+    "kind": "r",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      46.0,
+      15.0,
+      90.0
+    ]
+  },
+  "R143": {
+    "value": "100k",
+    "mpn": "RC0805FR-07100KL",
+    "lcsc": "C96346",
+    "footprint": "Calibrator:R_0805_2012Metric",
+    "pins": {
+      "1": "FPGA_IOB_13B",
+      "2": "GND"
+    },
+    "kind": "r",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      52.0,
+      15.0,
+      90.0
+    ]
+  },
+  "R144": {
+    "value": "100k",
+    "mpn": "RC0805FR-07100KL",
+    "lcsc": "C96346",
+    "footprint": "Calibrator:R_0805_2012Metric",
+    "pins": {
+      "1": "FPGA_IOB_20A",
+      "2": "GND"
+    },
+    "kind": "r",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      58.0,
+      15.0,
+      90.0
+    ]
+  },
+  "R145": {
+    "value": "100k",
+    "mpn": "RC0805FR-07100KL",
+    "lcsc": "C96346",
+    "footprint": "Calibrator:R_0805_2012Metric",
+    "pins": {
+      "1": "FPGA_IOB_23B",
+      "2": "GND"
+    },
+    "kind": "r",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      64.0,
+      15.0,
+      90.0
+    ]
+  },
+  "R146": {
+    "value": "100k",
+    "mpn": "RC0805FR-07100KL",
+    "lcsc": "C96346",
+    "footprint": "Calibrator:R_0805_2012Metric",
+    "pins": {
+      "1": "FPGA_IOB_29B",
+      "2": "GND"
+    },
+    "kind": "r",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      70.0,
+      15.0,
+      90.0
+    ]
+  },
+  "R147": {
+    "value": "100k",
+    "mpn": "RC0805FR-07100KL",
+    "lcsc": "C96346",
+    "footprint": "Calibrator:R_0805_2012Metric",
+    "pins": {
+      "1": "FPGA_IOB_25B_G3",
+      "2": "GND"
+    },
+    "kind": "r",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      76.0,
+      15.0,
+      90.0
+    ]
+  },
+  "U3": {
+    "value": "SN74LVC541APWR",
+    "mpn": "SN74LVC541APWR",
+    "lcsc": "C113281",
+    "footprint": "Calibrator:TSSOP-20_4.4x6.5mm_P0.65mm",
+    "pins": {
+      "1": "GND",
+      "19": "GND",
+      "10": "GND",
+      "20": "+3V3_LOGIC",
+      "2": "FPGA_IOB_18A",
+      "18": "DRIVE15",
+      "3": "FPGA_IOB_16A",
+      "17": "DRIVE14",
+      "4": "FPGA_IOB_22A",
+      "16": "DRIVE13",
+      "5": "FPGA_IOB_13B",
+      "15": "DRIVE12",
+      "6": "FPGA_IOB_20A",
+      "14": "DRIVE11",
+      "7": "FPGA_IOB_23B",
+      "13": "DRIVE10",
+      "8": "FPGA_IOB_29B",
+      "12": "DRIVE9",
+      "9": "FPGA_IOB_25B_G3",
+      "11": "DRIVE8"
+    },
+    "kind": "ic",
+    "types": {
+      "1": "input",
+      "19": "input",
+      "10": "power_in",
+      "20": "power_in",
+      "2": "input",
+      "18": "output",
+      "3": "input",
+      "17": "output",
+      "4": "input",
+      "16": "output",
+      "5": "input",
+      "15": "output",
+      "6": "input",
+      "14": "output",
+      "7": "input",
+      "13": "output",
+      "8": "input",
+      "12": "output",
+      "9": "input",
+      "11": "output"
+    },
+    "names": {
+      "1": "~OE1",
+      "19": "~OE2",
+      "10": "GND",
+      "20": "VCC",
+      "2": "A0",
+      "18": "Y0",
+      "3": "A1",
+      "17": "Y1",
+      "4": "A2",
+      "16": "Y2",
+      "5": "A3",
+      "15": "Y3",
+      "6": "A4",
+      "14": "Y4",
+      "7": "A5",
+      "13": "Y5",
+      "8": "A6",
+      "12": "Y6",
+      "9": "A7",
+      "11": "Y7"
+    },
+    "bom": true,
+    "position": [
+      57.0,
+      24.0,
+      90.0
+    ]
+  },
+  "C4": {
+    "value": "100nF",
+    "mpn": "CL21B104KBCNNNC",
+    "lcsc": "C1711",
+    "footprint": "Calibrator:C_0805_2012Metric",
+    "pins": {
+      "1": "+3V3_LOGIC",
+      "2": "GND"
+    },
+    "kind": "c",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      51.75,
+      21.1375,
+      180.0
+    ]
+  },
+  "R148": {
+    "value": "100k",
+    "mpn": "RC0805FR-07100KL",
+    "lcsc": "C96346",
+    "footprint": "Calibrator:R_0805_2012Metric",
+    "pins": {
+      "1": "FPGA_IOT_36B",
+      "2": "GND"
+    },
+    "kind": "r",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      82.0,
+      15.0,
+      90.0
+    ]
+  },
+  "R149": {
+    "value": "100k",
+    "mpn": "RC0805FR-07100KL",
+    "lcsc": "C96346",
+    "footprint": "Calibrator:R_0805_2012Metric",
+    "pins": {
+      "1": "FPGA_IOT_38B",
+      "2": "GND"
+    },
+    "kind": "r",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      88.0,
+      15.0,
+      90.0
+    ]
+  },
+  "R150": {
+    "value": "100k",
+    "mpn": "RC0805FR-07100KL",
+    "lcsc": "C96346",
+    "footprint": "Calibrator:R_0805_2012Metric",
+    "pins": {
+      "1": "FPGA_IOT_39A",
+      "2": "GND"
+    },
+    "kind": "r",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      94.0,
+      15.0,
+      90.0
+    ]
+  },
+  "R151": {
+    "value": "100k",
+    "mpn": "RC0805FR-07100KL",
+    "lcsc": "C96346",
+    "footprint": "Calibrator:R_0805_2012Metric",
+    "pins": {
+      "1": "FPGA_IOT_41A",
+      "2": "GND"
+    },
+    "kind": "r",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      100.0,
+      15.0,
+      90.0
+    ]
+  },
+  "R152": {
+    "value": "100k",
+    "mpn": "RC0805FR-07100KL",
+    "lcsc": "C96346",
+    "footprint": "Calibrator:R_0805_2012Metric",
+    "pins": {
+      "1": "FPGA_IOT_42B",
+      "2": "GND"
+    },
+    "kind": "r",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      106.0,
+      15.0,
+      90.0
+    ]
+  },
+  "R153": {
+    "value": "100k",
+    "mpn": "RC0805FR-07100KL",
+    "lcsc": "C96346",
+    "footprint": "Calibrator:R_0805_2012Metric",
+    "pins": {
+      "1": "FPGA_IOT_43A",
+      "2": "GND"
+    },
+    "kind": "r",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      112.0,
+      15.0,
+      90.0
+    ]
+  },
+  "R154": {
+    "value": "100k",
+    "mpn": "RC0805FR-07100KL",
+    "lcsc": "C96346",
+    "footprint": "Calibrator:R_0805_2012Metric",
+    "pins": {
+      "1": "FPGA_IOT_48B",
+      "2": "GND"
+    },
+    "kind": "r",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      118.0,
+      15.0,
+      90.0
+    ]
+  },
+  "R155": {
+    "value": "100k",
+    "mpn": "RC0805FR-07100KL",
+    "lcsc": "C96346",
+    "footprint": "Calibrator:R_0805_2012Metric",
+    "pins": {
+      "1": "FPGA_IOT_45A_G1",
+      "2": "GND"
+    },
+    "kind": "r",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      124.0,
+      15.0,
+      90.0
+    ]
+  },
+  "U4": {
+    "value": "SN74LVC541APWR",
+    "mpn": "SN74LVC541APWR",
+    "lcsc": "C113281",
+    "footprint": "Calibrator:TSSOP-20_4.4x6.5mm_P0.65mm",
+    "pins": {
+      "1": "GND",
+      "19": "GND",
+      "10": "GND",
+      "20": "+3V3_LOGIC",
+      "2": "FPGA_IOT_36B",
+      "18": "DRIVE7",
+      "3": "FPGA_IOT_38B",
+      "17": "DRIVE6",
+      "4": "FPGA_IOT_39A",
+      "16": "DRIVE5",
+      "5": "FPGA_IOT_41A",
+      "15": "DRIVE4",
+      "6": "FPGA_IOT_42B",
+      "14": "DRIVE3",
+      "7": "FPGA_IOT_43A",
+      "13": "DRIVE2",
+      "8": "FPGA_IOT_48B",
+      "12": "DRIVE1",
+      "9": "FPGA_IOT_45A_G1",
+      "11": "DRIVE0"
+    },
+    "kind": "ic",
+    "types": {
+      "1": "input",
+      "19": "input",
+      "10": "power_in",
+      "20": "power_in",
+      "2": "input",
+      "18": "output",
+      "3": "input",
+      "17": "output",
+      "4": "input",
+      "16": "output",
+      "5": "input",
+      "15": "output",
+      "6": "input",
+      "14": "output",
+      "7": "input",
+      "13": "output",
+      "8": "input",
+      "12": "output",
+      "9": "input",
+      "11": "output"
+    },
+    "names": {
+      "1": "~OE1",
+      "19": "~OE2",
+      "10": "GND",
+      "20": "VCC",
+      "2": "A0",
+      "18": "Y0",
+      "3": "A1",
+      "17": "Y1",
+      "4": "A2",
+      "16": "Y2",
+      "5": "A3",
+      "15": "Y3",
+      "6": "A4",
+      "14": "Y4",
+      "7": "A5",
+      "13": "Y5",
+      "8": "A6",
+      "12": "Y6",
+      "9": "A7",
+      "11": "Y7"
+    },
+    "bom": true,
+    "position": [
+      105.0,
+      24.0,
+      90.0
+    ]
+  },
+  "C5": {
+    "value": "100nF",
+    "mpn": "CL21B104KBCNNNC",
+    "lcsc": "C1711",
+    "footprint": "Calibrator:C_0805_2012Metric",
+    "pins": {
+      "1": "+3V3_LOGIC",
+      "2": "GND"
+    },
+    "kind": "c",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      99.75,
+      21.1375,
+      180.0
+    ]
+  },
+  "U6": {
+    "value": "MAX-M10S-00B-01",
+    "mpn": "MAX-M10S-00B-01",
+    "lcsc": "C24834155",
+    "footprint": "Calibrator:ublox_MAX",
+    "pins": {
+      "1": "GND",
+      "2": "ESP_GPIO44_RXD",
+      "3": "ESP_GPIO43_TXD",
+      "4": "GPS_PPS",
+      "5": "TRIGGER_3V3",
+      "6": "+3V3_GPS",
+      "7": "+3V3_GPS",
+      "8": "+3V3_GPS",
+      "9": null,
+      "10": "GND",
+      "11": "GNSS_RF",
+      "12": "GND",
+      "13": null,
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": null,
+      "18": null
+    },
+    "kind": "ic",
+    "types": {},
+    "names": {
+      "1": "GND",
+      "2": "TXD",
+      "3": "RXD",
+      "4": "TIMEPULSE",
+      "5": "EXTINT",
+      "6": "V_BCKP",
+      "7": "V_IO",
+      "8": "VCC",
+      "9": "RESET_N",
+      "10": "GND",
+      "11": "RF_IN",
+      "12": "GND",
+      "13": "LNA_EN",
+      "14": "VCC_RF",
+      "15": "RESERVED",
+      "16": "RESERVED",
+      "17": "SDA",
+      "18": "SCL"
+    },
+    "bom": true,
+    "position": [
+      183.5,
+      86.7,
+      0.0
+    ]
+  },
+  "C8": {
+    "value": "100nF",
+    "mpn": "CL21B104KBCNNNC",
+    "lcsc": "C1711",
+    "footprint": "Calibrator:C_0805_2012Metric",
+    "pins": {
+      "1": "+3V3_GPS",
+      "2": "GND"
+    },
+    "kind": "c",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      175.3,
+      87.8,
+      180
+    ]
+  },
+  "C9": {
+    "value": "4.7uF",
+    "mpn": "CL21A475KAQNNNE",
+    "lcsc": "C1779",
+    "footprint": "Calibrator:C_0805_2012Metric",
+    "pins": {
+      "1": "+3V3_GPS",
+      "2": "GND"
+    },
+    "kind": "c",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      175.3,
+      91,
+      180
+    ]
+  },
+  "L1": {
+    "value": "27nH",
+    "mpn": "0805CS-270XGLC",
+    "lcsc": "C38841159",
+    "footprint": "Calibrator:L_Coilcraft_0805CS",
+    "pins": {
+      "1": "GNSS_RF",
+      "2": "ANT_BIAS"
+    },
+    "kind": "l",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      192.25,
+      87.2,
+      90.0
+    ]
+  },
+  "R5": {
+    "value": "10R 0.25W",
+    "mpn": "1206W4F100JT5E",
+    "lcsc": "C17903",
+    "footprint": "Calibrator:R_1206_3216Metric",
+    "pins": {
+      "1": "ANT_PWR",
+      "2": "ANT_BIAS"
+    },
+    "kind": "r",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      195,
+      79.5,
+      270
+    ]
+  },
+  "C10": {
+    "value": "10nF",
+    "mpn": "CL21B103KBANNNC",
+    "lcsc": "C1710",
+    "footprint": "Calibrator:C_0805_2012Metric",
+    "pins": {
+      "1": "ANT_BIAS",
+      "2": "GND"
+    },
+    "kind": "c",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      192.25,
+      83.5,
+      0.0
+    ]
+  },
+  "R6": {
+    "value": "100R",
+    "mpn": "RC0805FR-07100RL",
+    "lcsc": "C105577",
+    "footprint": "Calibrator:R_0805_2012Metric",
+    "pins": {
+      "1": "GPS_PPS",
+      "2": "FPGA_IOT_46B_G0"
+    },
+    "kind": "r",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      170,
+      87,
+      0.0
+    ]
+  },
+  "R7": {
+    "value": "100R",
+    "mpn": "RC0805FR-07100RL",
+    "lcsc": "C105577",
+    "footprint": "Calibrator:R_0805_2012Metric",
+    "pins": {
+      "1": "GPS_PPS",
+      "2": "ESP_GPIO38"
+    },
+    "kind": "r",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      170,
+      91,
+      0.0
+    ]
+  },
+  "U7": {
+    "value": "SN74LVC1G17DBVR",
+    "mpn": "SN74LVC1G17DBVR",
+    "lcsc": "C7836",
+    "footprint": "Calibrator:SOT-23-5",
+    "pins": {
+      "1": null,
+      "2": "TRIGGER_5V",
+      "3": "GND",
+      "4": "TRIGGER_3V3",
+      "5": "+3V3_LOGIC"
+    },
+    "kind": "ic",
+    "types": {},
+    "names": {
+      "1": "NC",
+      "2": "A",
+      "3": "GND",
+      "4": "Y",
+      "5": "VCC"
+    },
+    "bom": true,
+    "position": [
+      181,
+      53,
+      180
+    ]
+  },
+  "R8": {
+    "value": "1k",
+    "mpn": "0805W8F1001T5E",
+    "lcsc": "C17513",
+    "footprint": "Calibrator:R_0805_2012Metric",
+    "pins": {
+      "1": "TRIGGER_IN",
+      "2": "TRIGGER_LIMIT"
+    },
+    "kind": "r",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      191,
+      49.05,
+      180
+    ]
+  },
+  "R9": {
+    "value": "100k",
+    "mpn": "RC0805FR-07100KL",
+    "lcsc": "C96346",
+    "footprint": "Calibrator:R_0805_2012Metric",
+    "pins": {
+      "1": "TRIGGER_LIMIT",
+      "2": "GND"
+    },
+    "kind": "r",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      192,
+      46.3,
+      90
+    ]
+  },
+  "R80": {
+    "value": "100R",
+    "mpn": "RC0805FR-07100RL",
+    "lcsc": "C105577",
+    "footprint": "Calibrator:R_0805_2012Metric",
+    "pins": {
+      "1": "TRIGGER_3V3",
+      "2": "FPGA_IOT_50B"
+    },
+    "kind": "r",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      164.0,
+      98.0,
+      0.0
+    ]
+  },
+  "R81": {
+    "value": "100R",
+    "mpn": "RC0805FR-07100RL",
+    "lcsc": "C105577",
+    "footprint": "Calibrator:R_0805_2012Metric",
+    "pins": {
+      "1": "TRIGGER_3V3",
+      "2": "ESP_GPIO21"
+    },
+    "kind": "r",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      164.0,
+      101.0,
+      0.0
+    ]
+  },
+  "C11": {
+    "value": "100nF",
+    "mpn": "CL21B104KBCNNNC",
+    "lcsc": "C1711",
+    "footprint": "Calibrator:C_0805_2012Metric",
+    "pins": {
+      "1": "+3V3_LOGIC",
+      "2": "GND"
+    },
+    "kind": "c",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      176.8,
+      53.95,
+      180
+    ]
+  },
+  "C60": {
+    "value": "10uF",
+    "mpn": "CL21A106KAYNNNE",
+    "lcsc": "C15850",
+    "footprint": "Calibrator:C_0805_2012Metric",
+    "pins": {
+      "1": "VIN_5V",
+      "2": "GND"
+    },
+    "kind": "c",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      169,
+      40.5,
+      0
+    ]
+  },
+  "C61": {
+    "value": "10uF",
+    "mpn": "CL21A106KAYNNNE",
+    "lcsc": "C15850",
+    "footprint": "Calibrator:C_0805_2012Metric",
+    "pins": {
+      "1": "VIN_5V",
+      "2": "GND"
+    },
+    "kind": "c",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      173,
+      40.5,
+      0
+    ]
+  },
+  "C62": {
+    "value": "10uF",
+    "mpn": "CL21A106KAYNNNE",
+    "lcsc": "C15850",
+    "footprint": "Calibrator:C_0805_2012Metric",
+    "pins": {
+      "1": "VIN_5V",
+      "2": "GND"
+    },
+    "kind": "c",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      177,
+      40.5,
+      0
+    ]
+  },
+  "C63": {
+    "value": "10uF",
+    "mpn": "CL21A106KAYNNNE",
+    "lcsc": "C15850",
+    "footprint": "Calibrator:C_0805_2012Metric",
+    "pins": {
+      "1": "VIN_5V",
+      "2": "GND"
+    },
+    "kind": "c",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      181,
+      40.5,
+      0
+    ]
+  },
+  "U8": {
+    "value": "TPS2553DBVR",
+    "mpn": "TPS2553DBVR",
+    "lcsc": "C55266",
+    "footprint": "Calibrator:SOT-23-6_U8",
+    "pins": {
+      "1": "+3V3_GPS",
+      "2": "GND",
+      "3": "+3V3_GPS",
+      "4": null,
+      "5": "+3V3_GPS",
+      "6": "ANT_PWR"
+    },
+    "kind": "ic",
+    "types": {
+      "1": "power_in",
+      "2": "power_in",
+      "3": "input",
+      "4": "open_collector",
+      "5": "passive",
+      "6": "power_out"
+    },
+    "names": {
+      "1": "IN",
+      "2": "GND",
+      "3": "EN",
+      "4": "~FAULT",
+      "5": "ILIM",
+      "6": "OUT"
+    },
+    "bom": true,
+    "position": [
+      190.5,
+      77,
+      0
+    ]
+  },
+  "C12": {
+    "value": "100nF",
+    "mpn": "CL21B104KBCNNNC",
+    "lcsc": "C1711",
+    "footprint": "Calibrator:C_0805_2012Metric",
+    "pins": {
+      "1": "+3V3_GPS",
+      "2": "GND"
+    },
+    "kind": "c",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      186.3,
+      76.05,
+      180
+    ]
+  },
+  "J6": {
+    "value": "INPUT 5V / 2.5V THRESHOLD",
+    "footprint": "Calibrator:SMA_Amphenol_132289_EdgeMount",
+    "pins": {
+      "1": "TRIGGER_IN",
+      "2": "GND"
+    },
+    "lcsc": "C3172723",
+    "mpn": "132289",
+    "kind": "connector",
+    "types": {},
+    "names": {
+      "1": "SIGNAL",
+      "2": "GND"
+    },
+    "bom": true,
+    "position": [
+      197.46,
+      50.0,
+      0.0
+    ]
+  },
+  "J7": {
+    "value": "FPGA OUTPUT 5V",
+    "footprint": "Calibrator:SMA_Amphenol_132289_EdgeMount",
+    "pins": {
+      "1": "TRIGGER_OUT",
+      "2": "GND"
+    },
+    "lcsc": "C3172723",
+    "mpn": "132289",
+    "kind": "connector",
+    "types": {},
+    "names": {
+      "1": "SIGNAL",
+      "2": "GND"
+    },
+    "bom": true,
+    "position": [
+      197.46,
+      70.0,
+      0.0
+    ]
+  },
+  "J5": {
+    "value": "GPS ANTENNA",
+    "footprint": "Calibrator:SMA_Amphenol_132289_EdgeMount",
+    "pins": {
+      "1": "GNSS_RF",
+      "2": "GND"
+    },
+    "lcsc": "C3172723",
+    "mpn": "132289",
+    "kind": "connector",
+    "types": {},
+    "names": {
+      "1": "SIGNAL",
+      "2": "GND"
+    },
+    "bom": true,
+    "position": [
+      197.46,
+      90.0,
+      0.0
+    ]
+  },
+  "U9": {
+    "value": "TLV3501AIDBVR",
+    "footprint": "Calibrator:SOT-23-6_U9",
+    "pins": {
+      "1": "TRIGGER_VREF",
+      "2": "GND",
+      "3": "TRIGGER_LIMIT",
+      "4": "VIN_5V",
+      "5": "TRIGGER_5V",
+      "6": "GND"
+    },
+    "lcsc": "C193413",
+    "mpn": "TLV3501AIDBVR",
+    "kind": "ic",
+    "names": {
+      "1": "IN-",
+      "2": "GND",
+      "3": "IN+",
+      "4": "VCC",
+      "5": "OUT",
+      "6": "SHDN"
+    },
+    "types": {
+      "1": "input",
+      "2": "power_in",
+      "3": "input",
+      "4": "power_in",
+      "5": "output",
+      "6": "input"
+    },
+    "bom": true,
+    "position": [
+      186,
+      50,
+      180
+    ]
+  },
+  "R160": {
+    "value": "10k",
+    "footprint": "Calibrator:R_0805_2012Metric",
+    "pins": {
+      "1": "VIN_5V",
+      "2": "TRIGGER_VREF"
+    },
+    "lcsc": "C17414",
+    "mpn": "0805W8F1002T5E",
+    "kind": "r",
+    "names": {},
+    "types": {},
+    "bom": true,
+    "position": [
+      189,
+      54,
+      0
+    ]
+  },
+  "R161": {
+    "value": "10k",
+    "footprint": "Calibrator:R_0805_2012Metric",
+    "pins": {
+      "1": "TRIGGER_VREF",
+      "2": "GND"
+    },
+    "lcsc": "C17414",
+    "mpn": "0805W8F1002T5E",
+    "kind": "r",
+    "names": {},
+    "types": {},
+    "bom": true,
+    "position": [
+      189,
+      57,
+      180
+    ]
+  },
+  "C13": {
+    "value": "100nF",
+    "footprint": "Calibrator:C_0805_2012Metric",
+    "pins": {
+      "1": "TRIGGER_VREF",
+      "2": "GND"
+    },
+    "lcsc": "C1711",
+    "mpn": "CL21B104KBCNNNC",
+    "kind": "c",
+    "names": {},
+    "types": {},
+    "bom": true,
+    "position": [
+      192,
+      55.5,
+      270
+    ]
+  },
+  "C14": {
+    "value": "100nF",
+    "footprint": "Calibrator:C_0805_2012Metric",
+    "pins": {
+      "1": "VIN_5V",
+      "2": "GND"
+    },
+    "lcsc": "C1711",
+    "mpn": "CL21B104KBCNNNC",
+    "kind": "c",
+    "names": {},
+    "types": {},
+    "bom": true,
+    "position": [
+      181.8,
+      49.05,
+      180
+    ]
+  },
+  "U10": {
+    "value": "SN74AHCT1G125DBVR",
+    "footprint": "Calibrator:SOT-23-5_U10",
+    "pins": {
+      "1": "GND",
+      "2": "FPGA_IOT_51A",
+      "3": "GND",
+      "4": "TRIGGER_DRV",
+      "5": "VIN_5V"
+    },
+    "lcsc": "C7484",
+    "mpn": "SN74AHCT1G125DBVR",
+    "kind": "ic",
+    "names": {
+      "1": "~OE",
+      "2": "A",
+      "3": "GND",
+      "4": "Y",
+      "5": "VCC"
+    },
+    "types": {
+      "1": "input",
+      "2": "input",
+      "3": "power_in",
+      "4": "tri_state",
+      "5": "power_in"
+    },
+    "bom": true,
+    "position": [
+      188,
+      70,
+      0
+    ]
+  },
+  "R162": {
+    "value": "33R",
+    "footprint": "Calibrator:R_0805_2012Metric",
+    "pins": {
+      "1": "TRIGGER_DRV",
+      "2": "TRIGGER_OUT"
+    },
+    "lcsc": "C17634",
+    "mpn": "0805W8F330JT5E",
+    "kind": "r",
+    "names": {},
+    "types": {},
+    "bom": true,
+    "position": [
+      192,
+      70.95,
+      0
+    ]
+  },
+  "R163": {
+    "value": "100k",
+    "footprint": "Calibrator:R_0805_2012Metric",
+    "pins": {
+      "1": "FPGA_IOT_51A",
+      "2": "GND"
+    },
+    "lcsc": "C96346",
+    "mpn": "RC0805FR-07100KL",
+    "kind": "r",
+    "names": {},
+    "types": {},
+    "bom": true,
+    "position": [
+      184,
+      70,
+      180
+    ]
+  },
+  "C15": {
+    "value": "100nF",
+    "footprint": "Calibrator:C_0805_2012Metric",
+    "pins": {
+      "1": "VIN_5V",
+      "2": "GND"
+    },
+    "lcsc": "C1711",
+    "mpn": "CL21B104KBCNNNC",
+    "kind": "c",
+    "names": {},
+    "types": {},
+    "bom": true,
+    "position": [
+      190,
+      65.8,
+      90
+    ]
+  },
+  "U11": {
+    "value": "TUSB320LAIRWBR",
+    "footprint": "Calibrator:Texas_X2QFN-12_1.6x1.6mm_P0.4mm",
+    "pins": {
+      "1": "CC1",
+      "2": "CC2",
+      "3": "GND",
+      "4": "VBUS_DET",
+      "5": null,
+      "6": null,
+      "7": "CC_OUT1",
+      "8": "CC_OUT2",
+      "9": null,
+      "10": "GND",
+      "11": "GND",
+      "12": "USB_VBUS"
+    },
+    "lcsc": "C132554",
+    "mpn": "TUSB320LAIRWBR",
+    "kind": "ic",
+    "names": {
+      "1": "CC1",
+      "2": "CC2",
+      "3": "PORT_UFP",
+      "4": "VBUS_DET",
+      "5": "ADDR_NC",
+      "6": "OUT3",
+      "7": "OUT1",
+      "8": "OUT2",
+      "9": "ID",
+      "10": "GND",
+      "11": "EN_N",
+      "12": "VDD"
+    },
+    "types": {
+      "1": "bidirectional",
+      "2": "bidirectional",
+      "3": "input",
+      "4": "input",
+      "5": "input",
+      "6": "open_collector",
+      "7": "open_collector",
+      "8": "open_collector",
+      "9": "open_collector",
+      "10": "power_in",
+      "11": "input",
+      "12": "power_in"
+    },
+    "bom": true,
+    "position": [
+      188,
+      21,
+      0
+    ]
+  },
+  "U12": {
+    "value": "AP2112K-3.3",
+    "footprint": "Calibrator:SOT-23-5_U12",
+    "pins": {
+      "1": "USB_VBUS",
+      "2": "GND",
+      "3": "USB_VBUS",
+      "4": null,
+      "5": "+3V3_CC"
+    },
+    "lcsc": "C51118",
+    "mpn": "AP2112K-3.3TRG1",
+    "kind": "ic",
+    "names": {
+      "1": "VIN",
+      "2": "GND",
+      "3": "EN",
+      "4": "NC",
+      "5": "VOUT"
+    },
+    "types": {
+      "1": "power_in",
+      "2": "power_in",
+      "3": "input",
+      "4": "no_connect",
+      "5": "power_out"
+    },
+    "bom": true,
+    "position": [
+      176,
+      23,
+      0
+    ]
+  },
+  "U13": {
+    "value": "SN74LVC1G02DCKR",
+    "footprint": "Calibrator:SOT-353_SC-70-5",
+    "pins": {
+      "1": "CC_OUT1",
+      "2": "CC_OUT2",
+      "3": "GND",
+      "4": "USB_3A_EN",
+      "5": "+3V3_CC"
+    },
+    "lcsc": "C113520",
+    "mpn": "SN74LVC1G02DCKR",
+    "kind": "ic",
+    "names": {
+      "1": "A",
+      "2": "B",
+      "3": "GND",
+      "4": "Y",
+      "5": "VCC"
+    },
+    "types": {
+      "1": "input",
+      "2": "input",
+      "3": "power_in",
+      "4": "output",
+      "5": "power_in"
+    },
+    "bom": true,
+    "position": [
+      179,
+      30,
+      0
+    ]
+  },
+  "U14": {
+    "value": "TPS259531DSGR",
+    "footprint": "Calibrator:DFN-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm",
+    "pins": {
+      "1": "USB_DVDT",
+      "2": "USB_3A_EN",
+      "3": "USB_VBUS",
+      "4": "USB_VBUS",
+      "5": "VIN_5V",
+      "6": null,
+      "7": "USB_ILIM",
+      "8": "GND",
+      "9": "GND"
+    },
+    "lcsc": "C2155674",
+    "mpn": "TPS259531DSGR",
+    "kind": "ic",
+    "names": {
+      "1": "dVdt",
+      "2": "EN",
+      "3": "IN",
+      "4": "IN",
+      "5": "OUT",
+      "6": "FLT_N",
+      "7": "ILM",
+      "8": "GND",
+      "9": "EP"
+    },
+    "types": {
+      "1": "passive",
+      "2": "input",
+      "3": "power_in",
+      "4": "passive",
+      "5": "power_out",
+      "6": "open_collector",
+      "7": "passive",
+      "8": "power_in",
+      "9": "passive"
+    },
+    "bom": true,
+    "position": [
+      173,
+      34,
+      0
+    ]
+  },
+  "R164": {
+    "value": "300k",
+    "footprint": "Calibrator:R_0805_2012Metric",
+    "pins": {
+      "1": "USB_VBUS",
+      "2": "VBUS_DET_A"
+    },
+    "lcsc": "C17616",
+    "mpn": "0805W8F3003T5E",
+    "kind": "r",
+    "names": {},
+    "types": {},
+    "bom": true,
+    "position": [
+      178,
+      17,
+      0
+    ]
+  },
+  "R165": {
+    "value": "300k",
+    "footprint": "Calibrator:R_0805_2012Metric",
+    "pins": {
+      "1": "VBUS_DET_A",
+      "2": "VBUS_DET_B"
+    },
+    "lcsc": "C17616",
+    "mpn": "0805W8F3003T5E",
+    "kind": "r",
+    "names": {},
+    "types": {},
+    "bom": true,
+    "position": [
+      182,
+      17,
+      0
+    ]
+  },
+  "R166": {
+    "value": "300k",
+    "footprint": "Calibrator:R_0805_2012Metric",
+    "pins": {
+      "1": "VBUS_DET_B",
+      "2": "VBUS_DET"
+    },
+    "lcsc": "C17616",
+    "mpn": "0805W8F3003T5E",
+    "kind": "r",
+    "names": {},
+    "types": {},
+    "bom": true,
+    "position": [
+      186,
+      17,
+      0
+    ]
+  },
+  "R167": {
+    "value": "10k",
+    "footprint": "Calibrator:R_0805_2012Metric",
+    "pins": {
+      "1": "+3V3_CC",
+      "2": "CC_OUT1"
+    },
+    "lcsc": "C17414",
+    "mpn": "0805W8F1002T5E",
+    "kind": "r",
+    "names": {},
+    "types": {},
+    "bom": true,
+    "position": [
+      182.5,
+      26,
+      0
+    ]
+  },
+  "R168": {
+    "value": "10k",
+    "footprint": "Calibrator:R_0805_2012Metric",
+    "pins": {
+      "1": "+3V3_CC",
+      "2": "CC_OUT2"
+    },
+    "lcsc": "C17414",
+    "mpn": "0805W8F1002T5E",
+    "kind": "r",
+    "names": {},
+    "types": {},
+    "bom": true,
+    "position": [
+      186.5,
+      26,
+      0
+    ]
+  },
+  "R169": {
+    "value": "100k",
+    "footprint": "Calibrator:R_0805_2012Metric",
+    "pins": {
+      "1": "USB_3A_EN",
+      "2": "GND"
+    },
+    "lcsc": "C96346",
+    "mpn": "RC0805FR-07100KL",
+    "kind": "r",
+    "names": {},
+    "types": {},
+    "bom": true,
+    "position": [
+      176.5,
+      34,
+      0
+    ]
+  },
+  "R170": {
+    "value": "820R",
+    "footprint": "Calibrator:R_0805_2012Metric",
+    "pins": {
+      "1": "USB_ILIM",
+      "2": "GND"
+    },
+    "lcsc": "C17837",
+    "mpn": "0805W8F8200T5E",
+    "kind": "r",
+    "names": {},
+    "types": {},
+    "bom": true,
+    "position": [
+      173,
+      37.5,
+      0
+    ]
+  },
+  "C64": {
+    "value": "100nF",
+    "footprint": "Calibrator:C_0805_2012Metric",
+    "pins": {
+      "1": "USB_VBUS",
+      "2": "GND"
+    },
+    "lcsc": "C1711",
+    "mpn": "CL21B104KBCNNNC",
+    "kind": "c",
+    "names": {},
+    "types": {},
+    "bom": true,
+    "position": [
+      190,
+      18,
+      0
+    ]
+  },
+  "C65": {
+    "value": "4.7uF",
+    "footprint": "Calibrator:C_0805_2012Metric",
+    "pins": {
+      "1": "USB_VBUS",
+      "2": "GND"
+    },
+    "lcsc": "C1779",
+    "mpn": "CL21A475KAQNNNE",
+    "kind": "c",
+    "names": {},
+    "types": {},
+    "bom": true,
+    "position": [
+      171.8,
+      23.95,
+      180
+    ]
+  },
+  "C66": {
+    "value": "4.7uF",
+    "footprint": "Calibrator:C_0805_2012Metric",
+    "pins": {
+      "1": "+3V3_CC",
+      "2": "GND"
+    },
+    "lcsc": "C1779",
+    "mpn": "CL21A475KAQNNNE",
+    "kind": "c",
+    "names": {},
+    "types": {},
+    "bom": true,
+    "position": [
+      180.2,
+      22.05,
+      0
+    ]
+  },
+  "C67": {
+    "value": "100nF",
+    "footprint": "Calibrator:C_0805_2012Metric",
+    "pins": {
+      "1": "+3V3_CC",
+      "2": "GND"
+    },
+    "lcsc": "C1711",
+    "mpn": "CL21B104KBCNNNC",
+    "kind": "c",
+    "names": {},
+    "types": {},
+    "bom": true,
+    "position": [
+      179,
+      27,
+      0
+    ]
+  },
+  "C68": {
+    "value": "100nF",
+    "footprint": "Calibrator:C_0805_2012Metric",
+    "pins": {
+      "1": "USB_DVDT",
+      "2": "GND"
+    },
+    "lcsc": "C1711",
+    "mpn": "CL21B104KBCNNNC",
+    "kind": "c",
+    "names": {},
+    "types": {},
+    "bom": true,
+    "position": [
+      169.5,
+      34,
+      0
+    ]
+  },
+  "C69": {
+    "value": "100nF",
+    "footprint": "Calibrator:C_0805_2012Metric",
+    "pins": {
+      "1": "USB_VBUS",
+      "2": "GND"
+    },
+    "lcsc": "C1711",
+    "mpn": "CL21B104KBCNNNC",
+    "kind": "c",
+    "names": {},
+    "types": {},
+    "bom": true,
+    "position": [
+      173,
+      31,
+      0
+    ]
+  },
+  "U15": {
+    "value": "TPS62160DGKR",
+    "mpn": "TPS62160DGKR",
+    "lcsc": "C60726",
+    "pins": {
+      "1": "GND",
+      "2": "VIN_5V",
+      "3": "VIN_5V",
+      "4": "GND",
+      "5": "OCXO_FB",
+      "6": "+3V3_OCXO",
+      "7": "OCXO_SW",
+      "8": null
+    },
+    "names": {
+      "1": "PGND",
+      "2": "VIN",
+      "3": "EN",
+      "4": "AGND",
+      "5": "FB",
+      "6": "VOS",
+      "7": "SW",
+      "8": "PG"
+    },
+    "types": {
+      "1": "power_in",
+      "2": "power_in",
+      "3": "input",
+      "4": "power_in",
+      "5": "input",
+      "6": "input",
+      "7": "power_out",
+      "8": "open_collector"
+    },
+    "footprint": "Calibrator:U3_VSSOP-8_3x3mm_P0.65mm",
+    "kind": "ic",
+    "bom": true,
+    "position": [
+      174,
+      64,
+      0
+    ]
+  },
+  "L2": {
+    "value": "2.2uH",
+    "mpn": "XFL3012-222MEC",
+    "lcsc": "C3911432",
+    "pins": {
+      "1": "OCXO_SW",
+      "2": "+3V3_OCXO"
+    },
+    "names": {},
+    "types": {},
+    "footprint": "Calibrator:L4_L_XFL3012_222MEC",
+    "kind": "l",
+    "bom": true,
+    "position": [
+      179.5,
+      63.675,
+      0
+    ]
+  },
+  "C70": {
+    "value": "10uF / 25V",
+    "mpn": "CL21A106KAYNNNE",
+    "lcsc": "C15850",
+    "pins": {
+      "1": "VIN_5V",
+      "2": "GND"
+    },
+    "names": {},
+    "types": {},
+    "footprint": "Calibrator:C_0805_2012Metric",
+    "kind": "c",
+    "bom": true,
+    "position": [
+      168.7,
+      63,
+      90
+    ]
+  },
+  "C71": {
+    "value": "22uF / 25V",
+    "mpn": "CL21A226MAQNNNE",
+    "lcsc": "C45783",
+    "pins": {
+      "1": "+3V3_OCXO",
+      "2": "GND"
+    },
+    "names": {},
+    "types": {},
+    "footprint": "Calibrator:C_0805_2012Metric",
+    "kind": "c",
+    "bom": true,
+    "position": [
+      183,
+      62,
+      90
+    ]
+  },
+  "C72": {
+    "value": "22uF / 25V",
+    "mpn": "CL21A226MAQNNNE",
+    "lcsc": "C45783",
+    "pins": {
+      "1": "+3V3_OCXO",
+      "2": "GND"
+    },
+    "names": {},
+    "types": {},
+    "footprint": "Calibrator:C_0805_2012Metric",
+    "kind": "c",
+    "bom": true,
+    "position": [
+      183,
+      66,
+      90
+    ]
+  },
+  "R171": {
+    "value": "75kR",
+    "mpn": "RC0805FR-0775KL",
+    "lcsc": "C137491",
+    "pins": {
+      "1": "+3V3_OCXO",
+      "2": "OCXO_FB"
+    },
+    "names": {},
+    "types": {},
+    "footprint": "Calibrator:R_0805_2012Metric",
+    "kind": "r",
+    "bom": true,
+    "position": [
+      178,
+      69,
+      0
+    ]
+  },
+  "R172": {
+    "value": "24kR",
+    "mpn": "0805W8F2402T5E",
+    "lcsc": "C17575",
+    "pins": {
+      "1": "OCXO_FB",
+      "2": "GND"
+    },
+    "names": {},
+    "types": {},
+    "footprint": "Calibrator:R_0805_2012Metric",
+    "kind": "r",
+    "bom": true,
+    "position": [
+      174,
+      69,
+      0
+    ]
+  },
+  "Y1": {
+    "value": "AOC97FAJC-10.0000",
+    "mpn": "AOC97FAJC-10.0000",
+    "lcsc": "",
+    "supplier_url": "https://www.digikey.com/en/products/detail/abracon-llc/AOC97FAJC-10-0000/24393648",
+    "assembly": "Manual",
+    "footprint": "Calibrator:AOC97_9.7x7.5mm",
+    "pins": {
+      "1": null,
+      "2": "GND",
+      "3": "OCXO_CLK",
+      "4": "+3V3_OCXO"
+    },
+    "names": {
+      "1": "DNC",
+      "2": "GND",
+      "3": "OUT 10MHz",
+      "4": "VDD"
+    },
+    "types": {
+      "1": "no_connect",
+      "2": "power_in",
+      "3": "output",
+      "4": "power_in"
+    },
+    "kind": "ic",
+    "bom": true,
+    "position": [
+      154,
+      65,
+      0
+    ]
+  },
+  "C73": {
+    "value": "100nF",
+    "footprint": "Calibrator:C_0805_2012Metric",
+    "pins": {
+      "1": "+3V3_OCXO",
+      "2": "GND"
+    },
+    "lcsc": "C1711",
+    "mpn": "CL21B104KBCNNNC",
+    "kind": "c",
+    "names": {},
+    "types": {},
+    "bom": true,
+    "position": [
+      146.3,
+      63,
+      0.0
+    ]
+  },
+  "C74": {
+    "value": "10uF / 25V",
+    "mpn": "CL21A106KAYNNNE",
+    "lcsc": "C15850",
+    "pins": {
+      "1": "+3V3_OCXO",
+      "2": "GND"
+    },
+    "names": {},
+    "types": {},
+    "footprint": "Calibrator:C_0805_2012Metric",
+    "kind": "c",
+    "bom": true,
+    "position": [
+      146.3,
+      66,
+      0.0
+    ]
+  },
+  "R173": {
+    "value": "33R",
+    "footprint": "Calibrator:R_0805_2012Metric",
+    "pins": {
+      "1": "OCXO_CLK",
+      "2": "FPGA_IOB_3B_G6"
+    },
+    "lcsc": "C17634",
+    "mpn": "0805W8F330JT5E",
+    "kind": "r",
+    "names": {},
+    "types": {},
+    "bom": true,
+    "position": [
+      162,
+      61,
+      0.0
+    ]
+  },
+  "C75": {
+    "value": "1nF",
+    "footprint": "Calibrator:C_0805_2012Metric",
+    "pins": {
+      "1": "TRIGGER_LIMIT",
+      "2": "GND"
+    },
+    "lcsc": "C5375915",
+    "mpn": "TCC0805COG102G500BT",
+    "kind": "c",
+    "names": {},
+    "types": {},
+    "bom": true,
+    "position": [
+      188.8,
+      46.3,
+      90
+    ]
+  },
+  "DS1": {
+    "value": "HS96L03W2C03",
+    "mpn": "HS96L03W2C03",
+    "lcsc": "C5248080",
+    "supplier_url": "https://www.lcsc.com/product-detail/C5248080.html",
+    "assembly": "Manual",
+    "footprint": "Calibrator:HS96L03W2C03_27.3x27.8mm",
+    "pins": {
+      "1": "GND",
+      "2": "+3V3_LOGIC",
+      "3": "ESP_GPIO2",
+      "4": "ESP_GPIO1"
+    },
+    "names": {
+      "1": "GND",
+      "2": "VCC",
+      "3": "SCL",
+      "4": "SDA"
+    },
+    "types": {
+      "1": "power_in",
+      "2": "power_in",
+      "3": "input",
+      "4": "bidirectional"
+    },
+    "kind": "ic",
+    "bom": true,
+    "position": [
+      147,
+      88,
+      0
+    ]
+  },
+  "R174": {
+    "value": "4.7k",
+    "mpn": "0805W8F4701T5E",
+    "lcsc": "C17673",
+    "footprint": "Calibrator:R_0805_2012Metric",
+    "pins": {
+      "1": "+3V3_LOGIC",
+      "2": "ESP_GPIO2"
+    },
+    "kind": "r",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      145.73,
+      71,
+      90
+    ]
+  },
+  "R175": {
+    "value": "4.7k",
+    "mpn": "0805W8F4701T5E",
+    "lcsc": "C17673",
+    "footprint": "Calibrator:R_0805_2012Metric",
+    "pins": {
+      "1": "+3V3_LOGIC",
+      "2": "ESP_GPIO1"
+    },
+    "kind": "r",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      151,
+      71,
+      90
+    ]
+  },
+  "C76": {
+    "value": "100nF",
+    "footprint": "Calibrator:C_0805_2012Metric",
+    "pins": {
+      "1": "+3V3_LOGIC",
+      "2": "GND"
+    },
+    "lcsc": "C1711",
+    "mpn": "CL21B104KBCNNNC",
+    "kind": "c",
+    "names": {},
+    "types": {},
+    "bom": true,
+    "position": [
+      140,
+      71,
+      0
+    ]
+  },
+  "C77": {
+    "value": "10uF",
+    "mpn": "CL21A106KAYNNNE",
+    "lcsc": "C15850",
+    "pins": {
+      "1": "+3V3_LOGIC",
+      "2": "GND"
+    },
+    "names": {},
+    "types": {},
+    "footprint": "Calibrator:C_0805_2012Metric",
+    "kind": "c",
+    "bom": true,
+    "position": [
+      135,
+      71,
+      0
+    ]
+  }
+}

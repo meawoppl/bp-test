@@ -1,0 +1,22 @@
+{
+  "components": 313,
+  "erc_violations": 0,
+  "parity_issues": 0,
+  "existing_pin_changes": {
+    "J1.13": "NC -> ESP_GPIO1 (OLED SDA)",
+    "J1.14": "NC -> ESP_GPIO2 (OLED SCL)"
+  },
+  "new_parts": [
+    "C75",
+    "C76",
+    "C77",
+    "R174",
+    "R175",
+    "DS1"
+  ],
+  "existing_tracks_preserved": true,
+  "drc_violations": 78,
+  "unconnected_items": 141,
+  "fabrication_ready": false,
+  "pcb_sha256": "3f52ea993ce7902f91a81c0b615b806375e522cc9acdde63f51a3cfef40a7e3c"
+}

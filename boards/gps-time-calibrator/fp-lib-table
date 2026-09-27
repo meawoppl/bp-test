@@ -1,0 +1,1 @@
+(fp_lib_table (lib (name "Calibrator") (type "KiCad") (uri "${KIPRJMOD}/Calibrator.pretty") (options "") (descr "Calibrator local libraries")))

@@ -1,0 +1,198 @@
+(footprint "KF128_5_08_2P"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Terminal Block Phoenix MKDS-1,5-2-5.08, 2 pins, pitch 5.08mm, size 10.2x9.8mm^2, drill diamater 1.3mm, pad diameter 2.6mm, see http://www.farnell.com/datasheets/100425.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_Phoenix")
+	(tags "THT Terminal Block Phoenix MKDS-1,5-2-5.08 pitch 5.08mm size 10.2x9.8mm^2 drill 1.3mm pad 2.6mm")
+	(property "Reference" "J4"
+		(at -3 2 180)
+		(layer "F.SilkS")
+		(uuid "d311aa4d-c46e-42a1-bacf-a9d0046a9a3f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "5V INPUT"
+		(at 2.54 5.66 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "abf54f63-3282-4d8c-906f-9aa013462000")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "db6a1de1-4232-407f-85eb-840bc4899831")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2647d71f-31eb-45fc-be91-c5ed7b5885b4")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "LCSC" "C474952"
+		(at 0 0 180)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "25402a5f-2760-4518-ba41-81e5bc215a35")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MPN" "KF128-5.08-2P-AA"
+		(at 0 0 180)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "cc3ec503-0c28-4492-a8f3-f6ecb17f480c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -3.04 -5.9)
+		(end 8.12 -5.9)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "762df5a0-dc22-4e32-8980-2ed1187fc4b8")
+	)
+	(fp_line
+		(start -3.04 5.8)
+		(end -3.04 -5.9)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "604473ca-fdc8-4183-91f6-345972dd6e24")
+	)
+	(fp_line
+		(start 8.12 -5.9)
+		(end 8.12 5.8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "f3342a97-fa22-4d0d-ac96-608295980b18")
+	)
+	(fp_line
+		(start 8.12 5.8)
+		(end -3.04 5.8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "9e90c03c-b9cb-4d0c-b2f0-d02852be8aee")
+	)
+	(fp_line
+		(start -2.54 -5.4)
+		(end 7.62 -5.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "1339de78-7ff9-4b21-b0df-d6ee25c8d575")
+	)
+	(fp_line
+		(start -2.54 5.3)
+		(end -2.54 -5.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "30683119-55d9-4008-ae5b-374049d65e05")
+	)
+	(fp_line
+		(start 7.62 -5.4)
+		(end 7.62 5.3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "9d3d8db8-290a-4b2a-b5c4-ba2d7a4f7ec9")
+	)
+	(fp_line
+		(start 7.62 5.3)
+		(end -2.54 5.3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "074f4d52-71cd-4cb3-80e0-4e1d797f5301")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 2.54 3.2 0)
+		(layer "F.Fab")
+		(uuid "61fd85e9-1e46-4c01-9ac1-cbf4997616c0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 2.8 2.8)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "6c84379d-05df-4013-83b0-c9406909a2ad")
+	)
+	(pad "2" thru_hole circle
+		(at 5.08 0)
+		(size 2.8 2.8)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e046646e-234d-4cf9-98ea-43b1cdcbc638")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/3dmodels/KF128_5_08_2P_envelope.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

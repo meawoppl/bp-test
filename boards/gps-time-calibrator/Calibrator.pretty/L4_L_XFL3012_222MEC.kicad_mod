@@ -1,0 +1,115 @@
+(footprint "L4_L_XFL3012_222MEC"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "L2"
+		(at 0 -3 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ae774724-dac2-4ae5-b264-5a685d146144")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(property "Value" "2.2uH"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e2024e7d-6bf8-4d10-baec-b9c68db15242")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "092cf3a2-2160-438c-9234-ff68ac35f703")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e16c511b-3844-411e-9772-6de8d69f8a56")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "MPN" "XFL3012-222MEC"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "16a760d9-85f5-4c71-8520-4ac601679816")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer" "Coilcraft"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "0fbe786b-5c1e-4322-ae47-cc05fb13cc45")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC" "C3911432"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "984443a8-390d-488b-8eb7-9bab497e1ec6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(pad "1" smd rect
+		(at -1.015 0)
+		(size 1 2.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0)
+		(uuid "994d8b8f-88ac-4dc0-a34f-5a5196d75029")
+	)
+	(pad "2" smd rect
+		(at 1.015 0)
+		(size 1 2.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0)
+		(uuid "d7a12d68-fbd6-4fb5-ad89-4a1bdbdea96d")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/3dmodels/Coilcraft_XFL3012.step"
+		(offset
+			(xyz 0 0 0.05)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

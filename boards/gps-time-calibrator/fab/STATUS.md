@@ -1,0 +1,1 @@
+Fabrication exports withdrawn during USB-C power, OCXO and edge-SMA redesign. Old outputs are preserved under tmp/calibrator-power/stale-fab for comparison only. Do not order until current routing, ERC/DRC/parity and placement review are complete.

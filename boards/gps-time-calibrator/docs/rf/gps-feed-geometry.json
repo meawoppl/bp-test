@@ -1,0 +1,35 @@
+{
+  "centerline_samples": 115,
+  "missing_In1_GND": [],
+  "gap_samples": [
+    {
+      "x_mm": 190,
+      "edge_gaps_mm": [
+        0.155,
+        0.155
+      ]
+    },
+    {
+      "x_mm": 191,
+      "edge_gaps_mm": [
+        0.155,
+        0.155
+      ]
+    },
+    {
+      "x_mm": 193,
+      "edge_gaps_mm": [
+        0.155,
+        0.155
+      ]
+    },
+    {
+      "x_mm": 194,
+      "edge_gaps_mm": [
+        0.155,
+        0.155
+      ]
+    }
+  ],
+  "scope": "Pointwise filled-copper audit, not 3D EM validation"
+}

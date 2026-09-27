@@ -1,0 +1,162 @@
+[
+  {
+    "bit": 15,
+    "column": 0,
+    "signal": "FPGA_IOB_18A",
+    "module_contact": 2,
+    "gate": "GATE15",
+    "drive": "DRIVE15",
+    "drain": "LED_K15",
+    "mosfet": "Q1"
+  },
+  {
+    "bit": 14,
+    "column": 1,
+    "signal": "FPGA_IOB_16A",
+    "module_contact": 4,
+    "gate": "GATE14",
+    "drive": "DRIVE14",
+    "drain": "LED_K14",
+    "mosfet": "Q2"
+  },
+  {
+    "bit": 13,
+    "column": 2,
+    "signal": "FPGA_IOB_22A",
+    "module_contact": 5,
+    "gate": "GATE13",
+    "drive": "DRIVE13",
+    "drain": "LED_K13",
+    "mosfet": "Q3"
+  },
+  {
+    "bit": 12,
+    "column": 3,
+    "signal": "FPGA_IOB_13B",
+    "module_contact": 6,
+    "gate": "GATE12",
+    "drive": "DRIVE12",
+    "drain": "LED_K12",
+    "mosfet": "Q4"
+  },
+  {
+    "bit": 11,
+    "column": 4,
+    "signal": "FPGA_IOB_20A",
+    "module_contact": 7,
+    "gate": "GATE11",
+    "drive": "DRIVE11",
+    "drain": "LED_K11",
+    "mosfet": "Q5"
+  },
+  {
+    "bit": 10,
+    "column": 5,
+    "signal": "FPGA_IOB_23B",
+    "module_contact": 10,
+    "gate": "GATE10",
+    "drive": "DRIVE10",
+    "drain": "LED_K10",
+    "mosfet": "Q6"
+  },
+  {
+    "bit": 9,
+    "column": 6,
+    "signal": "FPGA_IOB_29B",
+    "module_contact": 11,
+    "gate": "GATE9",
+    "drive": "DRIVE9",
+    "drain": "LED_K9",
+    "mosfet": "Q7"
+  },
+  {
+    "bit": 8,
+    "column": 7,
+    "signal": "FPGA_IOB_25B_G3",
+    "module_contact": 12,
+    "gate": "GATE8",
+    "drive": "DRIVE8",
+    "drain": "LED_K8",
+    "mosfet": "Q8"
+  },
+  {
+    "bit": 7,
+    "column": 8,
+    "signal": "FPGA_IOT_36B",
+    "module_contact": 14,
+    "gate": "GATE7",
+    "drive": "DRIVE7",
+    "drain": "LED_K7",
+    "mosfet": "Q9"
+  },
+  {
+    "bit": 6,
+    "column": 9,
+    "signal": "FPGA_IOT_38B",
+    "module_contact": 15,
+    "gate": "GATE6",
+    "drive": "DRIVE6",
+    "drain": "LED_K6",
+    "mosfet": "Q10"
+  },
+  {
+    "bit": 5,
+    "column": 10,
+    "signal": "FPGA_IOT_39A",
+    "module_contact": 16,
+    "gate": "GATE5",
+    "drive": "DRIVE5",
+    "drain": "LED_K5",
+    "mosfet": "Q11"
+  },
+  {
+    "bit": 4,
+    "column": 11,
+    "signal": "FPGA_IOT_41A",
+    "module_contact": 17,
+    "gate": "GATE4",
+    "drive": "DRIVE4",
+    "drain": "LED_K4",
+    "mosfet": "Q12"
+  },
+  {
+    "bit": 3,
+    "column": 12,
+    "signal": "FPGA_IOT_42B",
+    "module_contact": 19,
+    "gate": "GATE3",
+    "drive": "DRIVE3",
+    "drain": "LED_K3",
+    "mosfet": "Q13"
+  },
+  {
+    "bit": 2,
+    "column": 13,
+    "signal": "FPGA_IOT_43A",
+    "module_contact": 20,
+    "gate": "GATE2",
+    "drive": "DRIVE2",
+    "drain": "LED_K2",
+    "mosfet": "Q14"
+  },
+  {
+    "bit": 1,
+    "column": 14,
+    "signal": "FPGA_IOT_48B",
+    "module_contact": 21,
+    "gate": "GATE1",
+    "drive": "DRIVE1",
+    "drain": "LED_K1",
+    "mosfet": "Q15"
+  },
+  {
+    "bit": 0,
+    "column": 15,
+    "signal": "FPGA_IOT_45A_G1",
+    "module_contact": 24,
+    "gate": "GATE0",
+    "drive": "DRIVE0",
+    "drain": "LED_K0",
+    "mosfet": "Q16"
+  }
+]

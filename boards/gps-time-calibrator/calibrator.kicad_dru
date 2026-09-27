@@ -1,0 +1,8 @@
+(version 1)
+(rule "GNSS coated coplanar feed clearance"
+ (condition "A.Type == 'Track' && A.NetName == 'GNSS_RF' && B.Type == 'Zone' && B.NetName == 'GND'")
+ (constraint clearance (min 0.15mm)))
+
+(rule "Amphenol edge-launch SMA lands intentionally meet board edge"
+ (condition "A.Type == 'Pad' && (A.memberOfFootprint('J5') || A.memberOfFootprint('J6') || A.memberOfFootprint('J7'))")
+ (constraint edge_clearance (min 0mm)))

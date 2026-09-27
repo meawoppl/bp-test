@@ -1,0 +1,1 @@
+(sym_lib_table (lib (name "Calibrator") (type "KiCad") (uri "${KIPRJMOD}/Calibrator.kicad_sym") (options "") (descr "Calibrator local libraries")))

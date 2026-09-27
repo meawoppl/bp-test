@@ -1,0 +1,18 @@
+{
+  "geometry": "cpwg",
+  "layer": "F.Cu",
+  "width_mm": 0.26,
+  "width_mil": 10.24,
+  "height_mm": 0.2104,
+  "epsilon_r": 4.4,
+  "results": {
+    "z0_ohm": 77.77,
+    "epsilon_eff": 2.354,
+    "delay_ps_per_mm": 5.12,
+    "delay_ps_per_inch": 130.0,
+    "loss_db_per_m": 10.807,
+    "loss_db_per_inch": 0.2745
+  },
+  "gap_mm": 0.15,
+  "construction": null
+}

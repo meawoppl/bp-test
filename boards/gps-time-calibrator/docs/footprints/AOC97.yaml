@@ -1,0 +1,19 @@
+# Abracon AOC97 datasheet Rev A, 2026-09-01, page 4 (10 MHz variant).
+# Top view: pin 1 bottom-left NC, pin 2 bottom-right GND,
+# pin 3 top-right OUT, pin 4 top-left VDD; pad centers +/-3, +/-2 mm.
+# Official crystal generator; final pad shape changed to 1.50 mm circles.
+footprint_name: AOC97_9.7x7.5mm
+addSizeFootprintName: false
+pins: 4
+pad_sep_x: 6.0
+pad_sep_y: 4.0
+pad: [1.5, 1.5]
+pack_width: 9.7
+pack_height: 7.5
+pack_bevel: 0.3
+hasAdhesive: false
+style: rect
+lib_name: Calibrator
+manufacturer: Abracon
+part_number: AOC97FAJC-10.0000
+datasheet: https://abracon.com/datasheets/AOC97.pdf

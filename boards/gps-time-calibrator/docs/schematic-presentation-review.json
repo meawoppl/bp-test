@@ -1,0 +1,25 @@
+{
+  "sheet_count": 1,
+  "paper": "A1",
+  "components": 307,
+  "exact_net_membership_preserved": true,
+  "component_values_and_footprints_preserved": true,
+  "pin_names_numbers_and_types_preserved": true,
+  "pcb_bytes_unchanged_except_hierarchy_paths": true,
+  "erc_violations": 0,
+  "schematic_parity_issues": 0,
+  "pcb_routing_status": "Unchanged: 78 existing DRC issues and 141 unrouted items.",
+  "visual_review": [
+    "whole sheet",
+    "module interfaces",
+    "USB-C power",
+    "GNSS and antenna bias",
+    "trigger input and output",
+    "OCXO buck and clock",
+    "buffer bias and decoupling",
+    "LDO and bulk reservoir",
+    "four repeated optical banks"
+  ],
+  "schematic_sha256": "324a2ab24bbfff6c95fad6ca2127aab7ff5b4c582458435cf80293c1f6fdce99",
+  "scope": "Historical presentation-only review before C75 and OLED addition; see REVIEW.json and trigger-oled-review.json for current revision."
+}

@@ -1,0 +1,45 @@
+{
+  "stage": "Support placement and OLED mounting specification updated; routing incomplete. NOT FOR FABRICATION.",
+  "erc_violations": 0,
+  "drc_violations": 74,
+  "drc_categories": {
+    "silk_over_copper": 20,
+    "copper_edge_clearance": 15,
+    "silk_overlap": 7,
+    "silk_edge_clearance": 6,
+    "track_dangling": 21,
+    "via_dangling": 5
+  },
+  "unconnected_items": 154,
+  "schematic_parity_issues": 0,
+  "pcb_sha256": "d1c83c7e441f344e48690f07cee870bc23abb224d7363ad308531550c4e88aa3",
+  "placement_checks": {
+    "passives_0805_or_larger": 204,
+    "reset_and_boot_switches_removed": true,
+    "module_top_flush": true,
+    "gps_rf_straight_length_mm": 9.21
+  },
+  "remaining_validation": [
+    "Finish routing the relocated module and new power/OCXO circuits",
+    "Resolve remaining DRC dangling copper, silk and SMA board-edge conditions",
+    "Review USB differential geometry and GNSS return path against 1.3 mm JLC04161H-7628",
+    "Verify JLCPCB centroids and rotations for new parts",
+    "Measure warmup current, transient response, optical timing and GNSS performance"
+  ],
+  "notes": [
+    "Y1 is manual assembly with an illustrative dimensional 3D envelope.",
+    "Ordered module and programmer source files were not modified.",
+    "Old fabrication artifacts are quarantined; current BOM is for design review only.",
+    "Trigger C75 1nF RC filter added; nominal rising edge delay 0.696 us, pending measurement.",
+    "DS1 manual-assembly 3.3V OLED added with GPIO1 SDA/GPIO2 SCL and local bypassing.",
+    "Module body envelope corrected and grouped with J1, J2, H1; no connector movement.",
+    "Right-edge USB/SMA spacing 20 mm; GPS feed calculation recorded in docs/rf/GPS-FEED.md.",
+    "Right-side USB/trigger/GNSS support parts regrouped; obsolete local routing removed. Physical shorts and courtyard overlaps checked after refill: zero.",
+    "OLED mount: four Wurth 960030010 3 mm insulating spacers and M2 through hardware; see display-mounting.md and mechanical-bom.csv.",
+    "Daughterboard exact F.Fab outline plus visible side/bottom silk grouped with mating connectors.",
+    "OLED now uses standard soldered 1x4 2.54 mm header at 3 mm gap, M2x10 hardware; header drill 1.1 mm.",
+    "ESP_GPIO1 SDA and ESP_GPIO2 SCL share right-side B.Cu corridor with 0.6 mm center separation on vertical run; two obsolete SCL vias removed. Native DRC finds no issues or opens on either net. Whole-board DRC remains 74 and 154 opens."
+  ],
+  "schematic_review": "schematic-presentation-review.json",
+  "quality_status": "Not green: routing and layout-quality cleanup remain. Latest report: tmp/calibrator-support-placement/quality.json."
+}
