@@ -51,7 +51,7 @@ Hard-coded values become a per-board config, e.g. `boards/<b>/pcbtools.json`:
 | `apply_thermal_reliefs.py` | `fixes/thermal_reliefs` | Policy: spokes for ordinary pads, solid for EP/RF. |
 | `add_visible_pin1_markers.py` | `fixes/pin1_dots` | Needs a "has polarity" heuristic instead of ref skips. |
 | `place_silkscreen.py` | `fixes/silkscreen` | Uniform size, hide passives, corner placement, avoid vias. |
-| `carrier_export.py` + `jlcpcb-placement-offsets.json` | `export/jlc` | CPL with LCSC-keyed rotation/offset table and native-rotation assertion. **Also share the offsets table across boards.** |
+| `carrier_export.py` | `export/jlc` | CPL with part-level `JLCPCB Rotation Offset` / `JLCPCB Position Offset` fields (footprint-local; the kicad-pcb plugin applies the same fields). The old LCSC-keyed offsets table is deprecated. |
 | `export_module.py` | `export/fab` | ERC/DRC/Gerbers/drill/BOM/CPL/STEP/GLB plus hash manifest. Overlaps the `kicad-export` skill; merge into it. |
 
 ## Tier 2: worth extracting with more work
