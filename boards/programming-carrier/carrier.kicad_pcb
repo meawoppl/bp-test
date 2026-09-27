@@ -9197,6 +9197,18 @@
 				)
 			)
 		)
+		(property "JLCPCB Rotation Offset" "-90"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e0bfeb45-4717-5048-a2ea-899981868d77")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property "MPN" "SN74LVC541APWR"
 			(at 0 0 0)
 			(layer "F.SilkS")
@@ -14287,6 +14299,18 @@
 				)
 			)
 		)
+		(property "JLCPCB Rotation Offset" "-90"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "65fa6dcb-1ef1-57bd-81bf-2c8af72a0075")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property "MPN" "SN74LVC541APWR"
 			(at 0 0 0)
 			(layer "F.SilkS")
@@ -15123,6 +15147,18 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "d532beaf-29f3-45d5-9d6a-0267dfce777e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Position Offset" "0,-2.75"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c0377eb8-8ff9-5fe5-ab63-d41be6c6dc52")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16765,6 +16801,18 @@
 				)
 			)
 		)
+		(property "JLCPCB Rotation Offset" "-90"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c9cde32b-f52a-5102-9fb3-c9a4d0dd4567")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property "MPN" "SN74LVC541APWR"
 			(at 0 0 0)
 			(layer "F.SilkS")
@@ -18297,6 +18345,18 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "fd3e665e-4982-4c57-b8ad-05eafbad4eb1")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Position Offset" "0,-1.425"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "91d2bfbc-7d45-5bb4-b9ea-9b9db5a57667")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23124,6 +23184,18 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "181cdc3e-dcf0-4370-8a08-16d25df7fd76")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Rotation Offset" "-90"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2d42ba2b-a39c-5a5b-80ea-fc1fde6ee4a5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28657,6 +28729,18 @@
 				)
 			)
 		)
+		(property "JLCPCB Rotation Offset" "-90"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f2af4a4e-e708-5a6e-8f79-9d8e366f1309")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property "MPN" "SN74LVC541APWR"
 			(at 0 0 0)
 			(layer "F.SilkS")
@@ -32944,6 +33028,18 @@
 				)
 			)
 		)
+		(property "JLCPCB Rotation Offset" "-90"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "75c57da1-6e9f-533f-a4aa-12569d3caa09")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property "MPN" "SN74LVC541APWR"
 			(at 0 0 0)
 			(layer "F.SilkS")
@@ -33799,6 +33895,18 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "b97bb15d-549d-4a35-8300-276dc6bb8e95")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Rotation Offset" "-90"
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "52c57717-f439-5d8c-a406-cc194a7b9736")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42195,6 +42303,18 @@
 				)
 			)
 		)
+		(property "JLCPCB Rotation Offset" "-90"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "21e62ca8-b37a-5762-aed3-295992cbc105")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property "MPN" "SN74LVC541APWR"
 			(at 0 0 0)
 			(layer "F.SilkS")
@@ -42831,6 +42951,18 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "c3123347-e03f-43db-81d1-c71238a0f5d4")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Rotation Offset" "-90"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1d01590a-de60-5c6c-bb69-cb7923691fd0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45387,6 +45519,18 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "4f9e7a1f-794f-42da-9660-b618e2ab5d14")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Rotation Offset" "-90"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "237efcdf-6278-5317-86f8-5b8656d59783")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -52502,6 +52646,18 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "104d8f07-140b-4945-8f92-de4b27424eb6")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Rotation Offset" "-90"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "da603ecb-6c32-51fe-894c-069118bbf120")
 			(effects
 				(font
 					(size 1.27 1.27)
