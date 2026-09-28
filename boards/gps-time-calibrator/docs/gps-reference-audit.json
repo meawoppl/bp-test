@@ -1,0 +1,6 @@
+{
+  "pcb_sha256": "b9802557a61592a05d2fcfeda2b24f9dc5735761b6f3b5c4e38e9035233ce65f",
+  "checks": "VCC_RF bias tee, direct 1k PPS LED, separate 33R timing fanouts, reset end-to-end module mapping, corrected unused pin names",
+  "reset": "ESP32 U1.44 GPIO40 -> module/carrier J1.21 -> R180 33R -> MAX-M10S U6.9",
+  "result": "pass"
+}

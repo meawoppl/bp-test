@@ -1,5 +1,7 @@
 # Routing review — 2026-09-26
 
+Historical baseline. The [2026-09-27 display reroute](display-bus-reroute.md) supersedes the buffer mapping, placements, counts and export details below.
+
 Pre-routing checkpoint: `127c1f3`, pushed on `gps-calibrator-routing` before edits.
 The canonical carrier PCB is authoritative; ordered module/programmer files were
 not modified. Connector pin numbering, optical LED mapping and schematic nets

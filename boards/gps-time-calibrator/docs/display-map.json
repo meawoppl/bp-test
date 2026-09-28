@@ -7,7 +7,10 @@
     "gate": "GATE15",
     "drive": "DRIVE15",
     "drain": "LED_K15",
-    "mosfet": "Q1"
+    "mosfet": "Q1",
+    "buffer": "U3",
+    "buffer_input_pin": 9,
+    "buffer_output_pin": 11
   },
   {
     "bit": 14,
@@ -17,7 +20,10 @@
     "gate": "GATE14",
     "drive": "DRIVE14",
     "drain": "LED_K14",
-    "mosfet": "Q2"
+    "mosfet": "Q2",
+    "buffer": "U3",
+    "buffer_input_pin": 8,
+    "buffer_output_pin": 12
   },
   {
     "bit": 13,
@@ -27,7 +33,10 @@
     "gate": "GATE13",
     "drive": "DRIVE13",
     "drain": "LED_K13",
-    "mosfet": "Q3"
+    "mosfet": "Q3",
+    "buffer": "U3",
+    "buffer_input_pin": 7,
+    "buffer_output_pin": 13
   },
   {
     "bit": 12,
@@ -37,7 +46,10 @@
     "gate": "GATE12",
     "drive": "DRIVE12",
     "drain": "LED_K12",
-    "mosfet": "Q4"
+    "mosfet": "Q4",
+    "buffer": "U3",
+    "buffer_input_pin": 6,
+    "buffer_output_pin": 14
   },
   {
     "bit": 11,
@@ -47,116 +59,152 @@
     "gate": "GATE11",
     "drive": "DRIVE11",
     "drain": "LED_K11",
-    "mosfet": "Q5"
+    "mosfet": "Q5",
+    "buffer": "U3",
+    "buffer_input_pin": 5,
+    "buffer_output_pin": 15
   },
   {
     "bit": 10,
     "column": 5,
-    "signal": "FPGA_IOB_23B",
-    "module_contact": 10,
+    "signal": "FPGA_IOT_37A",
+    "module_contact": 9,
     "gate": "GATE10",
     "drive": "DRIVE10",
     "drain": "LED_K10",
-    "mosfet": "Q6"
+    "mosfet": "Q6",
+    "buffer": "U3",
+    "buffer_input_pin": 4,
+    "buffer_output_pin": 16
   },
   {
     "bit": 9,
     "column": 6,
-    "signal": "FPGA_IOB_29B",
-    "module_contact": 11,
+    "signal": "FPGA_IOB_23B",
+    "module_contact": 10,
     "gate": "GATE9",
     "drive": "DRIVE9",
     "drain": "LED_K9",
-    "mosfet": "Q7"
+    "mosfet": "Q7",
+    "buffer": "U3",
+    "buffer_input_pin": 3,
+    "buffer_output_pin": 17
   },
   {
     "bit": 8,
     "column": 7,
-    "signal": "FPGA_IOB_25B_G3",
-    "module_contact": 12,
+    "signal": "FPGA_IOB_29B",
+    "module_contact": 11,
     "gate": "GATE8",
     "drive": "DRIVE8",
     "drain": "LED_K8",
-    "mosfet": "Q8"
+    "mosfet": "Q8",
+    "buffer": "U3",
+    "buffer_input_pin": 2,
+    "buffer_output_pin": 18
   },
   {
     "bit": 7,
     "column": 8,
-    "signal": "FPGA_IOT_36B",
-    "module_contact": 14,
+    "signal": "FPGA_IOB_25B_G3",
+    "module_contact": 12,
     "gate": "GATE7",
     "drive": "DRIVE7",
     "drain": "LED_K7",
-    "mosfet": "Q9"
+    "mosfet": "Q9",
+    "buffer": "U4",
+    "buffer_input_pin": 9,
+    "buffer_output_pin": 11
   },
   {
     "bit": 6,
     "column": 9,
-    "signal": "FPGA_IOT_38B",
-    "module_contact": 15,
+    "signal": "FPGA_IOT_36B",
+    "module_contact": 14,
     "gate": "GATE6",
     "drive": "DRIVE6",
     "drain": "LED_K6",
-    "mosfet": "Q10"
+    "mosfet": "Q10",
+    "buffer": "U4",
+    "buffer_input_pin": 8,
+    "buffer_output_pin": 12
   },
   {
     "bit": 5,
     "column": 10,
-    "signal": "FPGA_IOT_39A",
-    "module_contact": 16,
+    "signal": "FPGA_IOT_38B",
+    "module_contact": 15,
     "gate": "GATE5",
     "drive": "DRIVE5",
     "drain": "LED_K5",
-    "mosfet": "Q11"
+    "mosfet": "Q11",
+    "buffer": "U4",
+    "buffer_input_pin": 7,
+    "buffer_output_pin": 13
   },
   {
     "bit": 4,
     "column": 11,
-    "signal": "FPGA_IOT_41A",
-    "module_contact": 17,
+    "signal": "FPGA_IOT_39A",
+    "module_contact": 16,
     "gate": "GATE4",
     "drive": "DRIVE4",
     "drain": "LED_K4",
-    "mosfet": "Q12"
+    "mosfet": "Q12",
+    "buffer": "U4",
+    "buffer_input_pin": 6,
+    "buffer_output_pin": 14
   },
   {
     "bit": 3,
     "column": 12,
-    "signal": "FPGA_IOT_42B",
-    "module_contact": 19,
+    "signal": "FPGA_IOT_41A",
+    "module_contact": 17,
     "gate": "GATE3",
     "drive": "DRIVE3",
     "drain": "LED_K3",
-    "mosfet": "Q13"
+    "mosfet": "Q13",
+    "buffer": "U4",
+    "buffer_input_pin": 5,
+    "buffer_output_pin": 15
   },
   {
     "bit": 2,
     "column": 13,
-    "signal": "FPGA_IOT_43A",
-    "module_contact": 20,
+    "signal": "FPGA_IOT_42B",
+    "module_contact": 19,
     "gate": "GATE2",
     "drive": "DRIVE2",
     "drain": "LED_K2",
-    "mosfet": "Q14"
+    "mosfet": "Q14",
+    "buffer": "U4",
+    "buffer_input_pin": 4,
+    "buffer_output_pin": 16
   },
   {
     "bit": 1,
     "column": 14,
-    "signal": "FPGA_IOT_48B",
-    "module_contact": 21,
+    "signal": "FPGA_IOT_43A",
+    "module_contact": 20,
     "gate": "GATE1",
     "drive": "DRIVE1",
     "drain": "LED_K1",
-    "mosfet": "Q15"
+    "mosfet": "Q15",
+    "buffer": "U4",
+    "buffer_input_pin": 3,
+    "buffer_output_pin": 17
   },
   {
     "bit": 0,
     "column": 15,
-    "signal": "FPGA_IOT_45A_G1",
-    "module_contact": 24,
+    "signal": "FPGA_IOT_48B",
+    "module_contact": 21,
     "gate": "GATE0",
     "drive": "DRIVE0",
     "drain": "LED_K0",
-    "mosfet": "Q16"
+    "mosfet": "Q16",
+    "buffer": "U4",
+    "buffer_input_pin": 2,
+    "buffer_output_pin": 18
   }
 ]

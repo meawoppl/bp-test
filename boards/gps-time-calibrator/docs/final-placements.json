@@ -18,8 +18,8 @@
     "footprint": "Calibrator:C_0805_2012Metric"
   },
   "C73": {
-    "x_mm": 146.3,
-    "y_mm": 63.0,
+    "x_mm": 145.3,
+    "y_mm": 60.0,
     "rotation_deg": 180.0,
     "footprint": "Calibrator:C_0805_2012Metric"
   },
@@ -48,8 +48,8 @@
     "footprint": "Calibrator:C_0805_2012Metric"
   },
   "R9": {
-    "x_mm": 192.0,
-    "y_mm": 46.3,
+    "x_mm": 191.7,
+    "y_mm": 46.3375,
     "rotation_deg": 90.0,
     "footprint": "Calibrator:R_0805_2012Metric"
   },
@@ -59,17 +59,29 @@
     "rotation_deg": 0.0,
     "footprint": "Calibrator:C_0805_2012Metric"
   },
+  "D74": {
+    "x_mm": 197.0,
+    "y_mm": 81.7,
+    "rotation_deg": 90.0,
+    "footprint": "Calibrator:LED_0603_1608Metric"
+  },
   "R80": {
-    "x_mm": 164.0,
-    "y_mm": 98.0,
-    "rotation_deg": 0.0,
+    "x_mm": 174.0,
+    "y_mm": 49.0,
+    "rotation_deg": 180.0,
     "footprint": "Calibrator:R_0805_2012Metric"
   },
   "R129": {
     "x_mm": 89.0,
-    "y_mm": 35.0,
+    "y_mm": 36.15,
     "rotation_deg": 90.0,
     "footprint": "Calibrator:R_0805_2012Metric"
+  },
+  "TP63": {
+    "x_mm": 146.25,
+    "y_mm": 68.0875,
+    "rotation_deg": 0.0,
+    "footprint": "Calibrator:TP_1p0mm"
   },
   "D73": {
     "x_mm": 122.0,
@@ -114,9 +126,9 @@
     "footprint": "Calibrator:R_0805_2012Metric"
   },
   "C15": {
-    "x_mm": 190.0,
+    "x_mm": 188.0,
     "y_mm": 65.8,
-    "rotation_deg": 90.0,
+    "rotation_deg": 180.0,
     "footprint": "Calibrator:C_0805_2012Metric"
   },
   "D43": {
@@ -143,9 +155,15 @@
     "rotation_deg": -90.0,
     "footprint": "Calibrator:R_0805_2012Metric"
   },
+  "TP24": {
+    "x_mm": 188.5875,
+    "y_mm": 72.5,
+    "rotation_deg": 0.0,
+    "footprint": "Calibrator:TP_1p0mm"
+  },
   "C65": {
     "x_mm": 171.8,
-    "y_mm": 23.95,
+    "y_mm": 22.05,
     "rotation_deg": 180.0,
     "footprint": "Calibrator:C_0805_2012Metric"
   },
@@ -179,16 +197,40 @@
     "rotation_deg": -90.0,
     "footprint": "Calibrator:LED_1206_3216Metric"
   },
+  "TP2": {
+    "x_mm": 168.05,
+    "y_mm": 43.0,
+    "rotation_deg": 0.0,
+    "footprint": "Calibrator:TP_1p0mm"
+  },
+  "R178": {
+    "x_mm": 162.0,
+    "y_mm": 62.2,
+    "rotation_deg": 180.0,
+    "footprint": "Calibrator:R_0805_2012Metric"
+  },
+  "U15": {
+    "x_mm": 160.5,
+    "y_mm": 70.0,
+    "rotation_deg": 0.0,
+    "footprint": "Calibrator:SOT-223-6"
+  },
   "C8": {
-    "x_mm": 175.3,
+    "x_mm": 174.0,
     "y_mm": 87.8,
     "rotation_deg": 180.0,
     "footprint": "Calibrator:C_0805_2012Metric"
   },
+  "TP5": {
+    "x_mm": 178.3,
+    "y_mm": 73.55,
+    "rotation_deg": 0.0,
+    "footprint": "Calibrator:TP_1p0mm"
+  },
   "C4": {
-    "x_mm": 51.75,
-    "y_mm": 21.1375,
-    "rotation_deg": 180.0,
+    "x_mm": 59.5,
+    "y_mm": 26.8625,
+    "rotation_deg": 0.0,
     "footprint": "Calibrator:C_0805_2012Metric"
   },
   "R107": {
@@ -209,6 +251,12 @@
     "rotation_deg": 90.0,
     "footprint": "Calibrator:C_0805_2012Metric"
   },
+  "TP15": {
+    "x_mm": 167.5,
+    "y_mm": 81.1,
+    "rotation_deg": 0.0,
+    "footprint": "Calibrator:TP_1p0mm"
+  },
   "R20": {
     "x_mm": 92.0,
     "y_mm": 52.0,
@@ -217,9 +265,15 @@
   },
   "C3": {
     "x_mm": 176.2,
-    "y_mm": 45.05,
+    "y_mm": 27.049999,
     "rotation_deg": 0.0,
     "footprint": "Calibrator:C_0805_2012Metric"
+  },
+  "TP26": {
+    "x_mm": 166.55,
+    "y_mm": 35.5,
+    "rotation_deg": 0.0,
+    "footprint": "Calibrator:TP_1p0mm"
   },
   "C41": {
     "x_mm": 38.0,
@@ -229,7 +283,7 @@
   },
   "C7": {
     "x_mm": 183.2,
-    "y_mm": 78.45,
+    "y_mm": 76.55,
     "rotation_deg": 0.0,
     "footprint": "Calibrator:C_0805_2012Metric"
   },
@@ -252,9 +306,9 @@
     "footprint": "Calibrator:R_0805_2012Metric"
   },
   "C2": {
-    "x_mm": 167.8,
-    "y_mm": 46.95,
-    "rotation_deg": 180.0,
+    "x_mm": 168.75,
+    "y_mm": 26.1,
+    "rotation_deg": 90.0,
     "footprint": "Calibrator:C_0805_2012Metric"
   },
   "U6": {
@@ -271,14 +325,14 @@
   },
   "R8": {
     "x_mm": 191.0,
-    "y_mm": 49.05,
+    "y_mm": 50.0,
     "rotation_deg": 180.0,
     "footprint": "Calibrator:R_0805_2012Metric"
   },
   "C70": {
-    "x_mm": 168.7,
-    "y_mm": 63.0,
-    "rotation_deg": 90.0,
+    "x_mm": 162.0,
+    "y_mm": 64.4,
+    "rotation_deg": 0.0,
     "footprint": "Calibrator:C_0805_2012Metric"
   },
   "C24": {
@@ -288,9 +342,9 @@
     "footprint": "Calibrator:C_0805_2012Metric"
   },
   "U3": {
-    "x_mm": 57.0,
+    "x_mm": 53.65,
     "y_mm": 24.0,
-    "rotation_deg": 90.0,
+    "rotation_deg": -90.0,
     "footprint": "Calibrator:TSSOP-20_4.4x6.5mm_P0.65mm"
   },
   "DS1": {
@@ -310,12 +364,6 @@
     "y_mm": 30.0,
     "rotation_deg": 90.0,
     "footprint": "Calibrator:USB_C_Receptacle_HRO_TYPE-C-31-M-12"
-  },
-  "C67": {
-    "x_mm": 179.0,
-    "y_mm": 27.0,
-    "rotation_deg": 0.0,
-    "footprint": "Calibrator:C_0805_2012Metric"
   },
   "D47": {
     "x_mm": 62.0,
@@ -341,6 +389,12 @@
     "rotation_deg": 90.0,
     "footprint": "Calibrator:R_0805_2012Metric"
   },
+  "TP17": {
+    "x_mm": 186.3,
+    "y_mm": 44.75,
+    "rotation_deg": 0.0,
+    "footprint": "Calibrator:TP_1p0mm"
+  },
   "D50": {
     "x_mm": 80.0,
     "y_mm": 72.0,
@@ -349,8 +403,14 @@
   },
   "R132": {
     "x_mm": 107.0,
-    "y_mm": 35.0,
+    "y_mm": 36.15,
     "rotation_deg": 90.0,
+    "footprint": "Calibrator:R_0805_2012Metric"
+  },
+  "R179": {
+    "x_mm": 174.0,
+    "y_mm": 97.2,
+    "rotation_deg": 0.0,
     "footprint": "Calibrator:R_0805_2012Metric"
   },
   "J1": {
@@ -391,19 +451,13 @@
   },
   "R135": {
     "x_mm": 125.0,
-    "y_mm": 35.0,
+    "y_mm": 36.15,
     "rotation_deg": 90.0,
     "footprint": "Calibrator:R_0805_2012Metric"
   },
   "R44": {
     "x_mm": 44.0,
     "y_mm": 76.0,
-    "rotation_deg": 90.0,
-    "footprint": "Calibrator:R_0805_2012Metric"
-  },
-  "R148": {
-    "x_mm": 82.0,
-    "y_mm": 15.0,
     "rotation_deg": 90.0,
     "footprint": "Calibrator:R_0805_2012Metric"
   },
@@ -414,9 +468,9 @@
     "footprint": "Calibrator:C_0805_2012Metric"
   },
   "R161": {
-    "x_mm": 189.0,
-    "y_mm": 57.0,
-    "rotation_deg": 180.0,
+    "x_mm": 188.8,
+    "y_mm": 58.0,
+    "rotation_deg": 0.0,
     "footprint": "Calibrator:R_0805_2012Metric"
   },
   "R166": {
@@ -450,7 +504,7 @@
     "footprint": "Calibrator:SOT-23"
   },
   "C9": {
-    "x_mm": 175.3,
+    "x_mm": 174.0,
     "y_mm": 91.0,
     "rotation_deg": 180.0,
     "footprint": "Calibrator:C_0805_2012Metric"
@@ -481,21 +535,15 @@
   },
   "R121": {
     "x_mm": 41.0,
-    "y_mm": 35.0,
+    "y_mm": 36.15,
     "rotation_deg": 90.0,
     "footprint": "Calibrator:R_0805_2012Metric"
   },
   "U10": {
     "x_mm": 188.0,
-    "y_mm": 70.0,
+    "y_mm": 69.05,
     "rotation_deg": 0.0,
     "footprint": "Calibrator:SOT-23-5_U10"
-  },
-  "R150": {
-    "x_mm": 94.0,
-    "y_mm": 15.0,
-    "rotation_deg": 90.0,
-    "footprint": "Calibrator:R_0805_2012Metric"
   },
   "R58": {
     "x_mm": 32.0,
@@ -509,6 +557,12 @@
     "rotation_deg": -90.0,
     "footprint": "Calibrator:LED_1206_3216Metric"
   },
+  "TP12": {
+    "x_mm": 177.695,
+    "y_mm": 33.8,
+    "rotation_deg": 0.0,
+    "footprint": "Calibrator:TP_1p0mm"
+  },
   "D19": {
     "x_mm": 86.0,
     "y_mm": 48.0,
@@ -516,9 +570,9 @@
     "footprint": "Calibrator:LED_1206_3216Metric"
   },
   "R160": {
-    "x_mm": 189.0,
-    "y_mm": 54.0,
-    "rotation_deg": 0.0,
+    "x_mm": 188.8,
+    "y_mm": 55.0,
+    "rotation_deg": 180.0,
     "footprint": "Calibrator:R_0805_2012Metric"
   },
   "D20": {
@@ -526,6 +580,12 @@
     "y_mm": 48.0,
     "rotation_deg": -90.0,
     "footprint": "Calibrator:LED_1206_3216Metric"
+  },
+  "TP16": {
+    "x_mm": 161.1714,
+    "y_mm": 58.0589,
+    "rotation_deg": 0.0,
+    "footprint": "Calibrator:TP_1p0mm"
   },
   "D1": {
     "x_mm": 179.0,
@@ -545,6 +605,12 @@
     "rotation_deg": -90.0,
     "footprint": "Calibrator:SOT-23"
   },
+  "R176": {
+    "x_mm": 178.0,
+    "y_mm": 36.3,
+    "rotation_deg": 0.0,
+    "footprint": "Calibrator:R_0805_2012Metric"
+  },
   "R62": {
     "x_mm": 56.0,
     "y_mm": 88.0,
@@ -552,8 +618,8 @@
     "footprint": "Calibrator:R_0805_2012Metric"
   },
   "C11": {
-    "x_mm": 176.8,
-    "y_mm": 53.95,
+    "x_mm": 178.0,
+    "y_mm": 55.0,
     "rotation_deg": 180.0,
     "footprint": "Calibrator:C_0805_2012Metric"
   },
@@ -562,6 +628,12 @@
     "y_mm": 43.5,
     "rotation_deg": 90.0,
     "footprint": "Calibrator:C_0805_2012Metric"
+  },
+  "TP25": {
+    "x_mm": 171.5,
+    "y_mm": 66.45,
+    "rotation_deg": 0.0,
+    "footprint": "Calibrator:TP_1p0mm"
   },
   "C40": {
     "x_mm": 32.0,
@@ -581,12 +653,6 @@
     "rotation_deg": -90.0,
     "footprint": "Calibrator:SOT-23"
   },
-  "U8": {
-    "x_mm": 190.5,
-    "y_mm": 77.0,
-    "rotation_deg": 0.0,
-    "footprint": "Calibrator:SOT-23-6_U8"
-  },
   "R101": {
     "x_mm": 38.0,
     "y_mm": 33.0,
@@ -599,11 +665,11 @@
     "rotation_deg": 0.0,
     "footprint": "Calibrator:C_0805_2012Metric"
   },
-  "R146": {
-    "x_mm": 70.0,
-    "y_mm": 15.0,
-    "rotation_deg": 90.0,
-    "footprint": "Calibrator:R_0805_2012Metric"
+  "TP20": {
+    "x_mm": 176.9542,
+    "y_mm": 48.0,
+    "rotation_deg": 0.0,
+    "footprint": "Calibrator:TP_1p0mm"
   },
   "C30": {
     "x_mm": 94.5,
@@ -643,7 +709,7 @@
   },
   "R131": {
     "x_mm": 101.0,
-    "y_mm": 35.0,
+    "y_mm": 36.15,
     "rotation_deg": 90.0,
     "footprint": "Calibrator:R_0805_2012Metric"
   },
@@ -652,6 +718,12 @@
     "y_mm": 72.0,
     "rotation_deg": -90.0,
     "footprint": "Calibrator:LED_1206_3216Metric"
+  },
+  "TP65": {
+    "x_mm": 166.6208,
+    "y_mm": 14.0,
+    "rotation_deg": 0.0,
+    "footprint": "Calibrator:TP_1p0mm"
   },
   "R30": {
     "x_mm": 56.0,
@@ -697,13 +769,13 @@
   },
   "R128": {
     "x_mm": 83.0,
-    "y_mm": 35.0,
+    "y_mm": 36.15,
     "rotation_deg": 90.0,
     "footprint": "Calibrator:R_0805_2012Metric"
   },
   "R133": {
     "x_mm": 113.0,
-    "y_mm": 35.0,
+    "y_mm": 36.15,
     "rotation_deg": 90.0,
     "footprint": "Calibrator:R_0805_2012Metric"
   },
@@ -725,23 +797,11 @@
     "rotation_deg": -90.0,
     "footprint": "Calibrator:LED_1206_3216Metric"
   },
-  "U13": {
-    "x_mm": 179.0,
-    "y_mm": 30.0,
-    "rotation_deg": 0.0,
-    "footprint": "Calibrator:SOT-353_SC-70-5"
-  },
   "D49": {
     "x_mm": 74.0,
     "y_mm": 72.0,
     "rotation_deg": -90.0,
     "footprint": "Calibrator:LED_1206_3216Metric"
-  },
-  "R153": {
-    "x_mm": 112.0,
-    "y_mm": 15.0,
-    "rotation_deg": 90.0,
-    "footprint": "Calibrator:R_0805_2012Metric"
   },
   "R11": {
     "x_mm": 38.0,
@@ -761,15 +821,15 @@
     "rotation_deg": -90.0,
     "footprint": "Calibrator:SOT-23"
   },
+  "TP1": {
+    "x_mm": 187.05,
+    "y_mm": 14.5,
+    "rotation_deg": 0.0,
+    "footprint": "Calibrator:TP_1p0mm"
+  },
   "R51": {
     "x_mm": 86.0,
     "y_mm": 76.0,
-    "rotation_deg": 90.0,
-    "footprint": "Calibrator:R_0805_2012Metric"
-  },
-  "R154": {
-    "x_mm": 118.0,
-    "y_mm": 15.0,
     "rotation_deg": 90.0,
     "footprint": "Calibrator:R_0805_2012Metric"
   },
@@ -793,13 +853,13 @@
   },
   "R126": {
     "x_mm": 71.0,
-    "y_mm": 35.0,
+    "y_mm": 36.15,
     "rotation_deg": 90.0,
     "footprint": "Calibrator:R_0805_2012Metric"
   },
   "R162": {
     "x_mm": 192.0,
-    "y_mm": 70.95,
+    "y_mm": 70.0,
     "rotation_deg": 0.0,
     "footprint": "Calibrator:R_0805_2012Metric"
   },
@@ -809,17 +869,29 @@
     "rotation_deg": -90.0,
     "footprint": "Calibrator:LED_1206_3216Metric"
   },
+  "TP10": {
+    "x_mm": 191.15,
+    "y_mm": 21.2,
+    "rotation_deg": 0.0,
+    "footprint": "Calibrator:TP_1p0mm"
+  },
   "C71": {
-    "x_mm": 183.0,
-    "y_mm": 62.0,
+    "x_mm": 154.0,
+    "y_mm": 68.8,
     "rotation_deg": 90.0,
     "footprint": "Calibrator:C_0805_2012Metric"
   },
   "R120": {
     "x_mm": 35.0,
-    "y_mm": 35.0,
+    "y_mm": 36.15,
     "rotation_deg": 90.0,
     "footprint": "Calibrator:R_0805_2012Metric"
+  },
+  "TP23": {
+    "x_mm": 182.6125,
+    "y_mm": 71.35,
+    "rotation_deg": 0.0,
+    "footprint": "Calibrator:TP_1p0mm"
   },
   "R37": {
     "x_mm": 98.0,
@@ -832,6 +904,12 @@
     "y_mm": 18.0,
     "rotation_deg": 0.0,
     "footprint": "Calibrator:R_0805_2012Metric"
+  },
+  "TP27": {
+    "x_mm": 178.2125,
+    "y_mm": 94.4875,
+    "rotation_deg": 0.0,
+    "footprint": "Calibrator:TP_1p0mm"
   },
   "D62": {
     "x_mm": 56.0,
@@ -869,17 +947,23 @@
     "rotation_deg": 90.0,
     "footprint": "Calibrator:R_0805_2012Metric"
   },
-  "U15": {
-    "x_mm": 174.0,
-    "y_mm": 64.0,
+  "TP13": {
+    "x_mm": 170.2,
+    "y_mm": 97.2,
     "rotation_deg": 0.0,
-    "footprint": "Calibrator:U3_VSSOP-8_3x3mm_P0.65mm"
+    "footprint": "Calibrator:TP_1p0mm"
   },
   "J7": {
     "x_mm": 197.46,
     "y_mm": 70.0,
     "rotation_deg": 0.0,
     "footprint": "Calibrator:SMA_Amphenol_132289_EdgeMount"
+  },
+  "TP29": {
+    "x_mm": 196.0,
+    "y_mm": 78.0,
+    "rotation_deg": 0.0,
+    "footprint": "Calibrator:TP_1p0mm"
   },
   "C49": {
     "x_mm": 86.0,
@@ -912,9 +996,9 @@
     "footprint": "Calibrator:LED_1206_3216Metric"
   },
   "C13": {
-    "x_mm": 192.0,
-    "y_mm": 55.5,
-    "rotation_deg": -90.0,
+    "x_mm": 185.0,
+    "y_mm": 55.0,
+    "rotation_deg": 180.0,
     "footprint": "Calibrator:C_0805_2012Metric"
   },
   "C33": {
@@ -923,10 +1007,16 @@
     "rotation_deg": 90.0,
     "footprint": "Calibrator:C_0805_2012Metric"
   },
-  "R81": {
-    "x_mm": 164.0,
-    "y_mm": 101.0,
+  "C78": {
+    "x_mm": 182.0,
+    "y_mm": 36.3,
     "rotation_deg": 0.0,
+    "footprint": "Calibrator:C_0805_2012Metric"
+  },
+  "R81": {
+    "x_mm": 174.0,
+    "y_mm": 52.0,
+    "rotation_deg": 180.0,
     "footprint": "Calibrator:R_0805_2012Metric"
   },
   "C76": {
@@ -966,14 +1056,14 @@
     "footprint": "Calibrator:R_0805_2012Metric"
   },
   "R6": {
-    "x_mm": 170.0,
-    "y_mm": 87.0,
+    "x_mm": 174.0,
+    "y_mm": 85.6,
     "rotation_deg": 180.0,
     "footprint": "Calibrator:R_0805_2012Metric"
   },
   "R163": {
     "x_mm": 184.0,
-    "y_mm": 70.0,
+    "y_mm": 69.05,
     "rotation_deg": 180.0,
     "footprint": "Calibrator:R_0805_2012Metric"
   },
@@ -982,12 +1072,6 @@
     "y_mm": 72.0,
     "rotation_deg": -90.0,
     "footprint": "Calibrator:LED_1206_3216Metric"
-  },
-  "R149": {
-    "x_mm": 88.0,
-    "y_mm": 15.0,
-    "rotation_deg": 90.0,
-    "footprint": "Calibrator:R_0805_2012Metric"
   },
   "R35": {
     "x_mm": 86.0,
@@ -1007,6 +1091,12 @@
     "rotation_deg": -90.0,
     "footprint": "Calibrator:R_0805_2012Metric"
   },
+  "TP14": {
+    "x_mm": 171.4089,
+    "y_mm": 83.9214,
+    "rotation_deg": 0.0,
+    "footprint": "Calibrator:TP_1p0mm"
+  },
   "D34": {
     "x_mm": 80.0,
     "y_mm": 60.0,
@@ -1015,13 +1105,7 @@
   },
   "R122": {
     "x_mm": 47.0,
-    "y_mm": 35.0,
-    "rotation_deg": 90.0,
-    "footprint": "Calibrator:R_0805_2012Metric"
-  },
-  "R151": {
-    "x_mm": 100.0,
-    "y_mm": 15.0,
+    "y_mm": 36.15,
     "rotation_deg": 90.0,
     "footprint": "Calibrator:R_0805_2012Metric"
   },
@@ -1032,10 +1116,16 @@
     "footprint": "Calibrator:LED_1206_3216Metric"
   },
   "U4": {
-    "x_mm": 105.0,
+    "x_mm": 101.65,
     "y_mm": 24.0,
-    "rotation_deg": 90.0,
+    "rotation_deg": -90.0,
     "footprint": "Calibrator:TSSOP-20_4.4x6.5mm_P0.65mm"
+  },
+  "TP22": {
+    "x_mm": 171.7,
+    "y_mm": 54.0,
+    "rotation_deg": 0.0,
+    "footprint": "Calibrator:TP_1p0mm"
   },
   "Q9": {
     "x_mm": 80.0,
@@ -1050,8 +1140,8 @@
     "footprint": "Calibrator:LED_1206_3216Metric"
   },
   "R7": {
-    "x_mm": 170.0,
-    "y_mm": 91.0,
+    "x_mm": 174.0,
+    "y_mm": 82.6,
     "rotation_deg": 180.0,
     "footprint": "Calibrator:R_0805_2012Metric"
   },
@@ -1091,6 +1181,12 @@
     "rotation_deg": 90.0,
     "footprint": "Calibrator:R_0805_2012Metric"
   },
+  "TP18": {
+    "x_mm": 185.0,
+    "y_mm": 58.0,
+    "rotation_deg": 0.0,
+    "footprint": "Calibrator:TP_1p0mm"
+  },
   "C20": {
     "x_mm": 34.5,
     "y_mm": 43.5,
@@ -1111,7 +1207,7 @@
   },
   "C6": {
     "x_mm": 174.8,
-    "y_mm": 78.45,
+    "y_mm": 76.55,
     "rotation_deg": 180.0,
     "footprint": "Calibrator:C_0805_2012Metric"
   },
@@ -1147,7 +1243,7 @@
   },
   "U9": {
     "x_mm": 186.0,
-    "y_mm": 50.0,
+    "y_mm": 50.95,
     "rotation_deg": 180.0,
     "footprint": "Calibrator:SOT-23-6_U9"
   },
@@ -1157,15 +1253,9 @@
     "rotation_deg": 90.0,
     "footprint": "Calibrator:R_0805_2012Metric"
   },
-  "R155": {
-    "x_mm": 124.0,
-    "y_mm": 15.0,
-    "rotation_deg": 90.0,
-    "footprint": "Calibrator:R_0805_2012Metric"
-  },
   "U2": {
     "x_mm": 172.0,
-    "y_mm": 46.0,
+    "y_mm": 28.0,
     "rotation_deg": 0.0,
     "footprint": "Calibrator:SOT-23-5"
   },
@@ -1200,8 +1290,8 @@
     "footprint": "Calibrator:LED_1206_3216Metric"
   },
   "Y1": {
-    "x_mm": 154.0,
-    "y_mm": 65.0,
+    "x_mm": 153.0,
+    "y_mm": 62.0,
     "rotation_deg": 0.0,
     "footprint": "Calibrator:AOC97_9.7x7.5mm"
   },
@@ -1223,17 +1313,11 @@
     "rotation_deg": -90.0,
     "footprint": "Calibrator:LED_1206_3216Metric"
   },
-  "R152": {
-    "x_mm": 106.0,
-    "y_mm": 15.0,
-    "rotation_deg": 90.0,
-    "footprint": "Calibrator:R_0805_2012Metric"
-  },
-  "R172": {
-    "x_mm": 174.0,
-    "y_mm": 69.0,
+  "TP4": {
+    "x_mm": 177.1375,
+    "y_mm": 19.55,
     "rotation_deg": 0.0,
-    "footprint": "Calibrator:R_0805_2012Metric"
+    "footprint": "Calibrator:TP_1p0mm"
   },
   "D11": {
     "x_mm": 38.0,
@@ -1267,9 +1351,15 @@
   },
   "R123": {
     "x_mm": 53.0,
-    "y_mm": 35.0,
+    "y_mm": 36.15,
     "rotation_deg": 90.0,
     "footprint": "Calibrator:R_0805_2012Metric"
+  },
+  "TP19": {
+    "x_mm": 179.7,
+    "y_mm": 57.0,
+    "rotation_deg": 0.0,
+    "footprint": "Calibrator:TP_1p0mm"
   },
   "C61": {
     "x_mm": 173.0,
@@ -1283,11 +1373,17 @@
     "rotation_deg": -90.0,
     "footprint": "Calibrator:R_0805_2012Metric"
   },
-  "L2": {
-    "x_mm": 179.5,
-    "y_mm": 63.675,
+  "TP7": {
+    "x_mm": 180.8875,
+    "y_mm": 30.5,
     "rotation_deg": 0.0,
-    "footprint": "Calibrator:L4_L_XFL3012_222MEC"
+    "footprint": "Calibrator:TP_1p0mm"
+  },
+  "TP3": {
+    "x_mm": 167.6375,
+    "y_mm": 18.0,
+    "rotation_deg": 0.0,
+    "footprint": "Calibrator:TP_1p0mm"
   },
   "D52": {
     "x_mm": 92.0,
@@ -1337,6 +1433,12 @@
     "rotation_deg": -90.0,
     "footprint": "Calibrator:SOT-23"
   },
+  "TP21": {
+    "x_mm": 172.625,
+    "y_mm": 46.5,
+    "rotation_deg": 0.0,
+    "footprint": "Calibrator:TP_1p0mm"
+  },
   "C32": {
     "x_mm": 106.5,
     "y_mm": 43.5,
@@ -1362,9 +1464,9 @@
     "footprint": "Calibrator:LED_1206_3216Metric"
   },
   "R140": {
-    "x_mm": 34.0,
-    "y_mm": 15.0,
-    "rotation_deg": 90.0,
+    "x_mm": 115.0,
+    "y_mm": 23.0,
+    "rotation_deg": 0.0,
     "footprint": "Calibrator:R_0805_2012Metric"
   },
   "D65": {
@@ -1385,23 +1487,23 @@
     "rotation_deg": -90.0,
     "footprint": "Calibrator:LED_1206_3216Metric"
   },
+  "TP8": {
+    "x_mm": 164.7,
+    "y_mm": 61.9,
+    "rotation_deg": 0.0,
+    "footprint": "Calibrator:TP_1p0mm"
+  },
   "C5": {
-    "x_mm": 99.75,
-    "y_mm": 21.1375,
-    "rotation_deg": 180.0,
+    "x_mm": 107.5,
+    "y_mm": 26.8625,
+    "rotation_deg": 0.0,
     "footprint": "Calibrator:C_0805_2012Metric"
   },
   "U7": {
-    "x_mm": 181.0,
-    "y_mm": 53.0,
+    "x_mm": 180.0,
+    "y_mm": 50.95,
     "rotation_deg": 180.0,
     "footprint": "Calibrator:SOT-23-5"
-  },
-  "R147": {
-    "x_mm": 76.0,
-    "y_mm": 15.0,
-    "rotation_deg": 90.0,
-    "footprint": "Calibrator:R_0805_2012Metric"
   },
   "C44": {
     "x_mm": 56.0,
@@ -1411,7 +1513,7 @@
   },
   "R124": {
     "x_mm": 59.0,
-    "y_mm": 35.0,
+    "y_mm": 36.15,
     "rotation_deg": 90.0,
     "footprint": "Calibrator:R_0805_2012Metric"
   },
@@ -1420,18 +1522,6 @@
     "y_mm": 94.0,
     "rotation_deg": 0.0,
     "footprint": "Calibrator:C_0805_2012Metric"
-  },
-  "R142": {
-    "x_mm": 46.0,
-    "y_mm": 15.0,
-    "rotation_deg": 90.0,
-    "footprint": "Calibrator:R_0805_2012Metric"
-  },
-  "R144": {
-    "x_mm": 58.0,
-    "y_mm": 15.0,
-    "rotation_deg": 90.0,
-    "footprint": "Calibrator:R_0805_2012Metric"
   },
   "Q4": {
     "x_mm": 50.0,
@@ -1446,16 +1536,10 @@
     "footprint": "Calibrator:R_0805_2012Metric"
   },
   "R5": {
-    "x_mm": 195.0,
-    "y_mm": 79.5,
-    "rotation_deg": -90.0,
-    "footprint": "Calibrator:R_1206_3216Metric"
-  },
-  "R171": {
-    "x_mm": 178.0,
-    "y_mm": 69.0,
+    "x_mm": 191.0,
+    "y_mm": 79.8,
     "rotation_deg": 0.0,
-    "footprint": "Calibrator:R_0805_2012Metric"
+    "footprint": "Calibrator:R_1206_3216Metric"
   },
   "D67": {
     "x_mm": 86.0,
@@ -1468,12 +1552,6 @@
     "y_mm": 38.0,
     "rotation_deg": -90.0,
     "footprint": "Calibrator:SOT-23"
-  },
-  "R145": {
-    "x_mm": 64.0,
-    "y_mm": 15.0,
-    "rotation_deg": 90.0,
-    "footprint": "Calibrator:R_0805_2012Metric"
   },
   "R54": {
     "x_mm": 104.0,
@@ -1501,7 +1579,7 @@
   },
   "R125": {
     "x_mm": 65.0,
-    "y_mm": 35.0,
+    "y_mm": 36.15,
     "rotation_deg": 90.0,
     "footprint": "Calibrator:R_0805_2012Metric"
   },
@@ -1533,6 +1611,12 @@
     "x_mm": 62.0,
     "y_mm": 88.0,
     "rotation_deg": 90.0,
+    "footprint": "Calibrator:R_0805_2012Metric"
+  },
+  "R180": {
+    "x_mm": 174.0,
+    "y_mm": 94.0,
+    "rotation_deg": 0.0,
     "footprint": "Calibrator:R_0805_2012Metric"
   },
   "Q13": {
@@ -1578,8 +1662,8 @@
     "footprint": "Calibrator:C_0805_2012Metric"
   },
   "C14": {
-    "x_mm": 181.8,
-    "y_mm": 49.05,
+    "x_mm": 182.5,
+    "y_mm": 47.5,
     "rotation_deg": 180.0,
     "footprint": "Calibrator:C_0805_2012Metric"
   },
@@ -1606,6 +1690,12 @@
     "y_mm": 60.0,
     "rotation_deg": -90.0,
     "footprint": "Calibrator:LED_1206_3216Metric"
+  },
+  "R177": {
+    "x_mm": 174.0,
+    "y_mm": 79.8,
+    "rotation_deg": 180.0,
+    "footprint": "Calibrator:R_0805_2012Metric"
   },
   "C25": {
     "x_mm": 64.5,
@@ -1639,7 +1729,7 @@
   },
   "R130": {
     "x_mm": 95.0,
-    "y_mm": 35.0,
+    "y_mm": 36.15,
     "rotation_deg": 90.0,
     "footprint": "Calibrator:R_0805_2012Metric"
   },
@@ -1685,6 +1775,12 @@
     "rotation_deg": -90.0,
     "footprint": "Calibrator:LED_1206_3216Metric"
   },
+  "TP6": {
+    "x_mm": 146.25,
+    "y_mm": 57.5,
+    "rotation_deg": 0.0,
+    "footprint": "Calibrator:TP_1p0mm"
+  },
   "R53": {
     "x_mm": 98.0,
     "y_mm": 76.0,
@@ -1703,6 +1799,12 @@
     "rotation_deg": -90.0,
     "footprint": "Calibrator:R_0805_2012Metric"
   },
+  "TP28": {
+    "x_mm": 189.5,
+    "y_mm": 77.3375,
+    "rotation_deg": 0.0,
+    "footprint": "Calibrator:TP_1p0mm"
+  },
   "R3": {
     "x_mm": 183.0,
     "y_mm": 42.8,
@@ -1720,6 +1822,12 @@
     "y_mm": 17.0,
     "rotation_deg": 0.0,
     "footprint": "Calibrator:R_0805_2012Metric"
+  },
+  "TP64": {
+    "x_mm": 146.25,
+    "y_mm": 65.3875,
+    "rotation_deg": 0.0,
+    "footprint": "Calibrator:TP_1p0mm"
   },
   "L1": {
     "x_mm": 192.25,
@@ -1751,18 +1859,6 @@
     "rotation_deg": 90.0,
     "footprint": "Calibrator:R_0805_2012Metric"
   },
-  "R141": {
-    "x_mm": 40.0,
-    "y_mm": 15.0,
-    "rotation_deg": 90.0,
-    "footprint": "Calibrator:R_0805_2012Metric"
-  },
-  "R143": {
-    "x_mm": 52.0,
-    "y_mm": 15.0,
-    "rotation_deg": 90.0,
-    "footprint": "Calibrator:R_0805_2012Metric"
-  },
   "D31": {
     "x_mm": 62.0,
     "y_mm": 60.0,
@@ -1770,8 +1866,8 @@
     "footprint": "Calibrator:LED_1206_3216Metric"
   },
   "C74": {
-    "x_mm": 146.3,
-    "y_mm": 66.0,
+    "x_mm": 145.3,
+    "y_mm": 62.4,
     "rotation_deg": 180.0,
     "footprint": "Calibrator:C_0805_2012Metric"
   },
@@ -1781,15 +1877,33 @@
     "rotation_deg": 0.0,
     "footprint": "Calibrator:R_0805_2012Metric"
   },
+  "TP11": {
+    "x_mm": 189.9125,
+    "y_mm": 23.5,
+    "rotation_deg": 0.0,
+    "footprint": "Calibrator:TP_1p0mm"
+  },
+  "TP30": {
+    "x_mm": 58.575,
+    "y_mm": 21.1375,
+    "rotation_deg": 0.0,
+    "footprint": "Calibrator:TP_1p0mm"
+  },
   "C43": {
     "x_mm": 50.0,
     "y_mm": 94.0,
     "rotation_deg": 0.0,
     "footprint": "Calibrator:C_0805_2012Metric"
   },
+  "TP9": {
+    "x_mm": 170.2458,
+    "y_mm": 77.6333,
+    "rotation_deg": 0.0,
+    "footprint": "Calibrator:TP_1p0mm"
+  },
   "R173": {
     "x_mm": 162.0,
-    "y_mm": 61.0,
+    "y_mm": 59.9,
     "rotation_deg": 0.0,
     "footprint": "Calibrator:R_0805_2012Metric"
   },
@@ -1819,7 +1933,7 @@
   },
   "R127": {
     "x_mm": 77.0,
-    "y_mm": 35.0,
+    "y_mm": 36.15,
     "rotation_deg": 90.0,
     "footprint": "Calibrator:R_0805_2012Metric"
   },
@@ -1828,12 +1942,6 @@
     "y_mm": 38.0,
     "rotation_deg": -90.0,
     "footprint": "Calibrator:SOT-23"
-  },
-  "C72": {
-    "x_mm": 183.0,
-    "y_mm": 66.0,
-    "rotation_deg": 90.0,
-    "footprint": "Calibrator:C_0805_2012Metric"
   },
   "C10": {
     "x_mm": 192.25,
@@ -1867,14 +1975,8 @@
   },
   "R134": {
     "x_mm": 119.0,
-    "y_mm": 35.0,
+    "y_mm": 36.15,
     "rotation_deg": 90.0,
     "footprint": "Calibrator:R_0805_2012Metric"
-  },
-  "C12": {
-    "x_mm": 186.3,
-    "y_mm": 76.05,
-    "rotation_deg": 180.0,
-    "footprint": "Calibrator:C_0805_2012Metric"
   }
 }

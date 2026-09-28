@@ -1,0 +1,353 @@
+{
+  "pcb_sha256": "34ffd3d94bd70bf63b3aeaa7bd951701a0e9c58c0ce0248afd6ebb8a1af70774",
+  "count": 31,
+  "findings": [],
+  "probe_points": [
+    {
+      "ref": "TP1",
+      "label": "VBUS",
+      "net": "USB_VBUS",
+      "position_mm": [
+        187.05,
+        14.5
+      ],
+      "diameter_mm": 1.0,
+      "nearest_body_mm": 2.281
+    },
+    {
+      "ref": "TP2",
+      "label": "5V_LOAD",
+      "net": "VIN_5V",
+      "position_mm": [
+        168.05,
+        43.0
+      ],
+      "diameter_mm": 1.0,
+      "nearest_body_mm": 0.999
+    },
+    {
+      "ref": "TP3",
+      "label": "3V3_LOGIC",
+      "net": "+3V3_LOGIC",
+      "position_mm": [
+        167.6375,
+        18.0
+      ],
+      "diameter_mm": 1.0,
+      "nearest_body_mm": 1.437
+    },
+    {
+      "ref": "TP4",
+      "label": "3V3_CC",
+      "net": "+3V3_CC",
+      "position_mm": [
+        177.1375,
+        19.55
+      ],
+      "diameter_mm": 1.0,
+      "nearest_body_mm": 1.054
+    },
+    {
+      "ref": "TP5",
+      "label": "3V3_GPS",
+      "net": "+3V3_GPS",
+      "position_mm": [
+        178.3,
+        73.55
+      ],
+      "diameter_mm": 1.0,
+      "nearest_body_mm": 1.554
+    },
+    {
+      "ref": "TP6",
+      "label": "3V3_OCXO",
+      "net": "+3V3_OCXO",
+      "position_mm": [
+        146.25,
+        57.5
+      ],
+      "diameter_mm": 1.0,
+      "nearest_body_mm": 0.894
+    },
+    {
+      "ref": "TP7",
+      "label": "LOAD_EN",
+      "net": "ESP_GPIO4",
+      "position_mm": [
+        180.8875,
+        30.5
+      ],
+      "diameter_mm": 1.0,
+      "nearest_body_mm": 1.029
+    },
+    {
+      "ref": "TP8",
+      "label": "OCXO_EN",
+      "net": "ESP_GPIO5",
+      "position_mm": [
+        164.7,
+        61.9
+      ],
+      "diameter_mm": 1.0,
+      "nearest_body_mm": 0.479
+    },
+    {
+      "ref": "TP9",
+      "label": "GPS_EN",
+      "net": "ESP_GPIO6",
+      "position_mm": [
+        170.2458,
+        77.6333
+      ],
+      "diameter_mm": 1.0,
+      "nearest_body_mm": 1.875
+    },
+    {
+      "ref": "TP10",
+      "label": "PD_SDA",
+      "net": "USB_PD_SDA",
+      "position_mm": [
+        192.7,
+        23.5
+      ],
+      "diameter_mm": 1.0,
+      "nearest_body_mm": 0.659
+    },
+    {
+      "ref": "TP11",
+      "label": "PD_SCL",
+      "net": "USB_PD_SCL",
+      "position_mm": [
+        193.0,
+        21.5
+      ],
+      "diameter_mm": 1.0,
+      "nearest_body_mm": 0.199
+    },
+    {
+      "ref": "TP12",
+      "label": "I_MON",
+      "net": "ESP_GPIO3",
+      "position_mm": [
+        177.695,
+        33.8
+      ],
+      "diameter_mm": 1.0,
+      "nearest_body_mm": 1.029
+    },
+    {
+      "ref": "TP13",
+      "label": "PPS_SRC",
+      "net": "GPS_PPS",
+      "position_mm": [
+        170.2,
+        97.2
+      ],
+      "diameter_mm": 1.0,
+      "nearest_body_mm": 1.599
+    },
+    {
+      "ref": "TP14",
+      "label": "PPS_FPGA",
+      "net": "FPGA_IOT_46B_G0",
+      "position_mm": [
+        171.4089,
+        83.9214
+      ],
+      "diameter_mm": 1.0,
+      "nearest_body_mm": 0.452
+    },
+    {
+      "ref": "TP15",
+      "label": "PPS_ESP",
+      "net": "ESP_GPIO38",
+      "position_mm": [
+        167.5,
+        81.1
+      ],
+      "diameter_mm": 1.0,
+      "nearest_body_mm": 4.307
+    },
+    {
+      "ref": "TP16",
+      "label": "CLK_FPGA",
+      "net": "FPGA_IOB_3B_G6",
+      "position_mm": [
+        161.1714,
+        58.0589
+      ],
+      "diameter_mm": 1.0,
+      "nearest_body_mm": 0.37
+    },
+    {
+      "ref": "TP17",
+      "label": "TRIG_FILT",
+      "net": "TRIGGER_LIMIT",
+      "position_mm": [
+        186.3,
+        44.75
+      ],
+      "diameter_mm": 1.0,
+      "nearest_body_mm": 0.999
+    },
+    {
+      "ref": "TP18",
+      "label": "TRIG_2V5",
+      "net": "TRIGGER_VREF",
+      "position_mm": [
+        185.0,
+        58.0
+      ],
+      "diameter_mm": 1.0,
+      "nearest_body_mm": 1.499
+    },
+    {
+      "ref": "TP19",
+      "label": "TRIG_CMP",
+      "net": "TRIGGER_5V",
+      "position_mm": [
+        179.7,
+        57.0
+      ],
+      "diameter_mm": 1.0,
+      "nearest_body_mm": 0.499
+    },
+    {
+      "ref": "TP20",
+      "label": "TRIG_3V3",
+      "net": "TRIGGER_3V3",
+      "position_mm": [
+        176.9542,
+        48.0
+      ],
+      "diameter_mm": 1.0,
+      "nearest_body_mm": 0.753
+    },
+    {
+      "ref": "TP23",
+      "label": "OUT_FPGA",
+      "net": "FPGA_IOT_51A",
+      "position_mm": [
+        182.6125,
+        71.35
+      ],
+      "diameter_mm": 1.0,
+      "nearest_body_mm": 0.829
+    },
+    {
+      "ref": "TP24",
+      "label": "OUT_DRV",
+      "net": "TRIGGER_DRV",
+      "position_mm": [
+        188.5875,
+        72.5
+      ],
+      "diameter_mm": 1.0,
+      "nearest_body_mm": 1.229
+    },
+    {
+      "ref": "TP25",
+      "label": "GPS_TX",
+      "net": "ESP_GPIO44_RXD",
+      "position_mm": [
+        171.5,
+        66.45
+      ],
+      "diameter_mm": 1.0,
+      "nearest_body_mm": 5.989
+    },
+    {
+      "ref": "TP26",
+      "label": "GPS_RX",
+      "net": "ESP_GPIO43_TXD",
+      "position_mm": [
+        166.55,
+        35.5
+      ],
+      "diameter_mm": 1.0,
+      "nearest_body_mm": 1.054
+    },
+    {
+      "ref": "TP27",
+      "label": "GPS_RST_N",
+      "net": "GPS_RESET_N",
+      "position_mm": [
+        178.2125,
+        94.4875
+      ],
+      "diameter_mm": 1.0,
+      "nearest_body_mm": 1.967
+    },
+    {
+      "ref": "TP28",
+      "label": "ANT_PWR",
+      "net": "ANT_PWR",
+      "position_mm": [
+        189.5,
+        77.3375
+      ],
+      "diameter_mm": 1.0,
+      "nearest_body_mm": 0.822
+    },
+    {
+      "ref": "TP29",
+      "label": "ANT_BIAS",
+      "net": "ANT_BIAS",
+      "position_mm": [
+        196.0,
+        78.0
+      ],
+      "diameter_mm": 1.0,
+      "nearest_body_mm": 1.698
+    },
+    {
+      "ref": "TP30",
+      "label": "LED_OE_N",
+      "net": "FPGA_IOT_44B",
+      "position_mm": [
+        58.575,
+        21.1375
+      ],
+      "diameter_mm": 1.0,
+      "nearest_body_mm": 0.904
+    },
+    {
+      "ref": "TP63",
+      "label": "OLED_SCL",
+      "net": "ESP_GPIO2",
+      "position_mm": [
+        146.25,
+        68.0875
+      ],
+      "diameter_mm": 1.0,
+      "nearest_body_mm": 0.712
+    },
+    {
+      "ref": "TP64",
+      "label": "OLED_SDA",
+      "net": "ESP_GPIO1",
+      "position_mm": [
+        146.25,
+        65.3875
+      ],
+      "diameter_mm": 1.0,
+      "nearest_body_mm": 0.879
+    },
+    {
+      "ref": "TP65",
+      "label": "BOOT_N",
+      "net": "ESP_GPIO0_BOOT",
+      "position_mm": [
+        166.6208,
+        14.0
+      ],
+      "diameter_mm": 1.0,
+      "nearest_body_mm": 1.125
+    }
+  ],
+  "notes": [
+    "Component courtyard/bounding rectangles and complete assembled module/OLED envelopes checked.",
+    "Native DRC separately checks mask/silkscreen and electrical clearances.",
+    "Bare copper only: no paste and no purchased or populated testpoint parts."
+  ]
+}

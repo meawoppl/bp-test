@@ -1,6 +1,6 @@
 {
-  "pcb_sha256": "ee304100ca05cadf9d8865544b384edc278ae8377c83e229c9c2e139b29e5141",
-  "assembly_components": 306,
-  "bom_groups": 41,
-  "coordinate_convention": "mm, board drill/place origin; native KiCad Y preserved; part-specific JLCPCB rotation offsets applied from docs/jlcpcb-placement-offsets.json; T/B layers"
+  "pcb_sha256": "269331360d363d43ad04e7cff0ea60ba0e9c3d65c11c46d7439b64a1bca2b45f",
+  "assembly_components": 289,
+  "bom_groups": 37,
+  "coordinate_convention": "mm, absolute KiCad origin to match plugin Gerbers; native negative Y preserved; part-specific JLCPCB rotation offsets applied from docs/jlcpcb-placement-offsets.json; T/B layers"
 }

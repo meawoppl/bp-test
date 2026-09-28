@@ -35,5 +35,68 @@
     "verified_native_rotation_degrees": 90,
     "reason": "JLCPCB screenshot confirms downward shift. EasyEDA C165948 package origin y=2997.4175, shield rows y=2990.702 and 3007.158 (0.254 mm/unit); KiCad local shield rows -3.13 and +1.05. Mean local-origin correction 1.425012 mm. At 180 degrees this is downward on PCB, negative CPL Y. Rotated carrier connector to 90 degrees: local correction now -X in CPL.",
     "date": "2026-09-26"
+  },
+  "C7836": {
+    "mpn": "SN74LVC1G17DBVR",
+    "rotation_offset_degrees": 180,
+    "reason": "User verified JLCPCB preview correction: U7, U10",
+    "confirmed_by": "user JLCPCB preview observation",
+    "date": "2026-09-27"
+  },
+  "C7484": {
+    "mpn": "SN74AHCT1G125DBVR",
+    "rotation_offset_degrees": 180,
+    "reason": "User verified JLCPCB preview correction: U7, U10",
+    "confirmed_by": "user JLCPCB preview observation",
+    "date": "2026-09-27"
+  },
+  "C2877942": {
+    "mpn": "TPS7A4533DCQR",
+    "rotation_offset_degrees": -90,
+    "reason": "User verified JLCPCB preview correction: U15",
+    "confirmed_by": "user JLCPCB preview observation",
+    "date": "2026-09-27"
+  },
+  "C20917": {
+    "mpn": "AO3400A",
+    "rotation_offset_degrees": 180,
+    "reason": "User verified JLCPCB preview correction: Q1, Q2, Q3, Q4, Q5, Q6, Q7, Q8, Q9, Q10, Q11, Q12, Q13, Q14, Q15, Q16",
+    "confirmed_by": "user JLCPCB preview observation",
+    "date": "2026-09-27"
+  },
+  "C193413": {
+    "mpn": "TLV3501AIDBVR",
+    "rotation_offset_degrees": 180,
+    "reason": "User verified JLCPCB preview correction: U9 requires 180 degrees relative to previous CPL.",
+    "confirmed_by": "user JLCPCB preview observation",
+    "date": "2026-09-27"
+  },
+  "C24834155": {
+    "mpn": "MAX-M10S-00B-01",
+    "rotation_offset_degrees": 180,
+    "reason": "User verified JLCPCB preview correction: U6 requires 180 degrees relative to previous CPL.",
+    "confirmed_by": "user JLCPCB preview observation",
+    "date": "2026-09-27"
+  },
+  "C7471904": {
+    "mpn": "HUSB238_002DD",
+    "rotation_offset_degrees": -90,
+    "reason": "User verified JLCPCB preview correction: U11 requires 90 degrees clockwise relative to previous CPL.",
+    "confirmed_by": "user JLCPCB preview observation",
+    "date": "2026-09-27"
+  },
+  "C28310438": {
+    "mpn": "YLED1206B",
+    "rotation_offset_degrees": 180,
+    "reason": "JLCPCB close-up portal_pasted_image_260927_191227.png shows + at top (MOSFET cathode net) and - at bottom (resistor anode net). Rotate D10-D73 by 180 degrees so anode faces resistor and cathode faces MOSFET.",
+    "confirmed_by": "user JLCPCB preview close-up, checked against native LED pad nets",
+    "date": "2026-09-27"
+  },
+  "C30584801": {
+    "mpn": "YLED1206G",
+    "rotation_offset_degrees": 0,
+    "reason": "Verified EasyEDA C30584801 symbol 1=K,2=A and footprint LED1206-RD pad1 left/pad2 right match native KiCad LED local polarity. Old blue C28310438 symbol instead has 1=+,2=- and its 180 degree offset must not be inherited. Final preview should show cathode toward MOSFET and anode toward resistor.",
+    "date": "2026-09-27",
+    "confirmed_by": "EasyEDA product API pin mapping and footprint pad coordinates"
   }
 }

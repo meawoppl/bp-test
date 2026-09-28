@@ -4,15 +4,15 @@
 
 ## Optical display
 
-Four identical rows of sixteen blue 1206 LEDs show bit 15 at the left through bit 0 at the right. Rows update together, without multiplexing. Each LED has its own **470 Ω, 1%, 0805** resistor. Sixteen AO3400A MOSFETs switch the columns through two SN74LVC541 buffers, with individual gate resistors and pulldowns. Each column has 100 nF and 10 µF bypass capacitors. All discrete resistors, capacitors and inductors are 0805 or larger; exact substitutions are in `docs/passive-parts-0805.json`.
+Four identical rows of sixteen green 1206 LEDs (YLED1206G / C30584801) show bit 15 at the left through bit 0 at the right. Rows update together, without multiplexing. Each LED has its own **470 Ω, 1%, 0805** resistor. Sixteen AO3400A MOSFETs switch the columns through two SN74LVC541 buffers, with individual gate resistors and pulldowns. Each column has 100 nF and 10 µF bypass capacitors. All discrete resistors, capacitors and inductors are 0805 or larger; exact substitutions are in `docs/passive-parts-0805.json`.
 
 Expected display current is approximately 0.26–0.33 A with all LEDs on, depending on LED forward voltage. Equal resistors reduce electrical mismatch but do not remove optical bin variation; use a common LED lot and measure brightness, supply bounce and optical edge timing on assembled hardware.
 
 ## USB power and installation
 
-J3 is USB-C power and native USB data. A TUSB320 detects the source's **5 V / 3 A Type-C advertisement**. A NOR gate enables the TPS259531 eFuse only when both current-status outputs indicate 3 A. This is not higher-voltage USB-PD negotiation. A default-current or 1.5 A port leaves the main board off; the CC detector and its logic supply remain powered.
+J3 is USB-C power and native USB data. The daughterboard and local logic are always powered from VBUS. The ESP32 reads HUSB238 source/contract status over I²C, enables the TPS259531 switched 5 V domain, and independently controls GPS and OCXO regulator enables. The NOR gate is removed. HUSB238 defaults to a 5 V / 3 A request; higher-voltage requests are forbidden because the always-on domain is fed directly from VBUS.
 
-The eFuse has a nominal 2.48 A current limit and approximately 12 ms startup ramp. Downstream bulk capacitance is behind the eFuse. Module radio peaks, OCXO warmup and LED switching must be measured together before release. The external power terminal was removed to avoid backfeeding USB.
+The eFuse has a nominal 2.48 A switched-load limit and approximately 12 ms ramp. Its current mirror is filtered to ESP GPIO3 / ADC1_CH2. Always-on current bypasses this measurement. Firmware must enforce the source's total budget, sequence the rails, and prevent UART back-powering; this firmware is not implemented here. See [power control, pin mapping and thermal calculations](docs/power-control.md).
 
 There are no BOOT/RUN or RESET switches: the installed module stays in normal run mode using its own strap and EN pullups. Its existing firmware/ROM USB behavior must support the intended recovery procedure; this carrier does not provide a hardware boot override.
 
@@ -24,11 +24,11 @@ Top to bottom: USB-C J3, input SMA J6, output SMA J7, GPS antenna SMA J5. The SM
 
 Input accepts 0–5 V logic into a TLV3501 comparator referenced to half the 5 V supply, nominally 2.5 V. A 3.3 V Schmitt buffer feeds FPGA, ESP32 and GNSS EXTINT. Output is an AHCT buffer producing 5 V logic into a **high-impedance receiver**, not 5 V into a 50 Ω termination. Neither port should be treated as a protected industrial-voltage input.
 
-MAX-M10S provides UART to ESP GPIO43/44 and PPS to FPGA G0 / ESP GPIO38. Its RF pin 11 connects straight along the top layer to J5, following the original board's topology. The receiver was moved left to accommodate the larger 0805 bias choke and capacitor. A current-limited 3.3 V active-antenna bias feeds the line through 10 Ω and 27 nH; confirm antenna current/voltage and RF performance. VCC_RF is unused. Backup power follows the receiver supply; there is no battery.
+MAX-M10S provides UART to ESP GPIO43/44 and PPS to FPGA G0 / ESP GPIO38. Its RF pin 11 connects straight along the top layer to J5, following the original board's topology. The receiver was moved left to accommodate the larger 0805 bias choke and capacitor. The module's VCC_RF output feeds the antenna through 10 Ω and 27 nH; confirm antenna current (50 mA maximum), voltage drop and RF performance. The separate antenna power switch is removed. RESET_N connects to ESP32 GPIO40 through 33 Ω. Backup power follows the receiver supply; there is no battery.
 
 ## Precision oscillator
 
-Y1 is the manually assembled **Abracon AOC97FAJC-10.0000**, 10 MHz, 3.3 V OCXO. It has a dedicated TPS62160 1 A buck supply, local bypassing, and a 33 Ω series clock resistor to J2 pin 32 / FPGA IOB_3B_G6. Allow the specified warmup before precision measurements. This is a concrete replacement for the original project's unpopulated, untested oscillator provision; firmware must be adapted to 10 MHz.
+Y1 is the manually assembled **Abracon AOC97FAJC-10.0000**, 10 MHz, 3.3 V OCXO. It has a dedicated TPS7A4533 1.5 A linear supply, enabled by GPIO5, local bypassing, and a 33 Ω series clock resistor to J2 pin 32 / FPGA IOB_3B_G6. Allow the specified warmup before precision measurements. This is a concrete replacement for the original project's unpopulated, untested oscillator provision; firmware must be adapted to 10 MHz.
 
 Y1 is separately procured and excluded from the JLCPCB placement/BOM pair. Its local 3D model is an illustrative dimensional envelope, not manufacturer CAD.
 
@@ -57,6 +57,8 @@ amplitude, edge slew and component tolerances change them; short pulses can be r
 Account for the complete input path when validating absolute trigger timing.
 
 ### Date/time OLED
+
+[Display assembly instructions (PDF)](docs/display-mounting.pdf) · [Editable instructions](docs/display-mounting.md)
 
 DS1 is the HS HS96L03W2C03 (LCSC C5248080), a white 0.96-inch 128x64
 SSD1315 I2C OLED module. It is manually installed below the daughterboard/OCXO,
@@ -109,3 +111,29 @@ The OLED uses four Würth 960030010 insulating spacers (3 mm), M2×10 screws,
 M2 nuts and insulating washers. See [mounting/assembly notes](docs/display-mounting.md)
 and the separate [mechanical BOM](docs/mechanical-bom.csv). This hardware is not
 part of the SMT BOM/CPL. The 3D display envelope includes the spacers.
+
+## Display bus update (2026-09-27)
+
+See [display bus reroute](docs/display-bus-reroute.md) for the new FPGA mapping, shared active-low OE control, OCXO G6 verification and current export convention.
+
+Support passives and routing were tidied further; see [passive cleanup review](docs/passive-tidy-review.md) for current validation and outputs.
+
+The FPGA interface and USB VBUS routes were further simplified; see [I/O routing cleanup](docs/io-routing-cleanup.md).
+
+Reference PDFs and page-numbered Markdown extracts are indexed in [the shared datasheet library](../../libraries/datasheets/README.md).
+
+## Connector-side cleanup and PPS indication
+
+D74 above the GPS SMA follows PPS directly through its own 1k resistor; the redundant buffer is removed. See [GPS reference reconciliation](docs/gps-reference-review.md).
+USB power is grouped beside J3, trigger stages align with their SMA ports,
+and the input damping resistors and PPS fanout now sit beside their drivers.
+See [placement and routing review](docs/io-placement-review.md).
+
+## Bring-up access
+
+The carrier has 33 labeled, unpopulated signal/power probe pads outside the module/display envelopes. See [testpoint map](docs/testpoints.md) and [CSV](docs/testpoints.csv). Per-channel LED probe pads are intentionally omitted; use their existing component pads.
+
+## RFC snapshot — ordering deferred
+
+[The RFC v1 snapshot](releases/rfc-v1/README.md) preserves the current review files.
+Wait for validation of the ordered module and programming carrier before ordering this board.

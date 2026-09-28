@@ -19,7 +19,7 @@ for f in b.GetFootprints():
   lib.Models().clear();m=p.FP_3DMODEL();m.m_Filename='${KIPRJMOD}/3dmodels/CK_JS102011SAQN_envelope.step';lib.Add3DModel(m)
  if f.GetReference()=='Y1' and (D/'3dmodels/AOC97_10MHz_drawing_derived.step').exists():
   lib.Models().clear();m=p.FP_3DMODEL();m.m_Filename='${KIPRJMOD}/3dmodels/AOC97_10MHz_drawing_derived.step';lib.Add3DModel(m)
- envelopes={'U11':'TUSB320_X2QFN_envelope','U14':'TPS2595_WSON_envelope','L1':'Coilcraft_0805CS_envelope'}
+ envelopes={'U11':'HUSB238_DFN10_envelope','U14':'TPS2595_WSON_envelope','L1':'Coilcraft_0805CS_envelope'}
  if f.GetReference() in envelopes:
   path=D/'3dmodels'/(envelopes[f.GetReference()]+'.step')
   if path.exists():

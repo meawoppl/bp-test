@@ -1,0 +1,6 @@
+(footprint "TP_2p5mm" (version 20241229) (generator pcbnew) (layer "F.Cu")
+ (attr smd exclude_from_pos_files exclude_from_bom)
+ (fp_text reference "REF**" (at 0 -2) (layer "F.SilkS") (effects (font (size .9 .9) (thickness .15))))
+ (fp_text value "TP_2p5mm" (at 0 2) (layer "F.Fab") hide (effects (font (size 1 1) (thickness .15))))
+ (pad "1" smd circle (at 0 0) (size 2.5 2.5) (layers "F.Cu" "F.Mask") (solder_mask_margin .05))
+)

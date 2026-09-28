@@ -1,0 +1,485 @@
+{
+  "version": 1,
+  "generator": "kicad-pcb",
+  "project": "gps-time-calibrator",
+  "published_at_ms": 1790561776777,
+  "kicad_version": "10.0.6",
+  "hashes": {
+    "revision": "0663f3895a5f65ce3ffa",
+    "sch": "fff60ab77de495c61e224422300414be119d23f61ce8692d6f6ca7d390fc9270",
+    "pcb": "305b279eaacfabf970343f5c69b6960d411796ab75075a78434793b486584caa"
+  },
+  "source_files": {
+    "3dmodels/AOC97_10MHz_drawing_derived.step": "d60aaab6d11723a5cf8b94990a725e8660c58710ea62902f0f3b8285a8d35280",
+    "3dmodels/C_0805_2012Metric.step": "9a669c1a2f1ea25b88b401acef6efeaa80a067bd7da9db6993de719a7fbe155c",
+    "3dmodels/Coilcraft_0805CS_envelope.step": "7c51c474b7f49c6b8b865623946b8bbd8911d5cc15a50f34f3425df4c99a4252",
+    "3dmodels/DF40C_2_0_40DS.step": "4f8365e9aec11d5c10631f3741938ec3347739dd6dae62424c38ab0e2d4d4d94",
+    "3dmodels/DF40C_40DP.step": "3bf116d7d2aef6c7304d48ae7a7f788bd7493ec1b58db94bc5de7ddfdb024f66",
+    "3dmodels/HRO_TYPE-C-31-M-12.step": "fc1770056ba0984caf39886ed975c1e1d4a6b3be4c29206a9dd8fb3f3063d3f0",
+    "3dmodels/HS96L03W2C03_envelope.step": "a2c767701a8b75567b1fb29e83de837f921dc8c54ed7bf9663088bf712186c5f",
+    "3dmodels/HUSB238_DFN10_envelope.step": "48cf0b04f2912e7c6f1a5203bbdfc35a2a7d9e4a98432128f41f0f24109b088b",
+    "3dmodels/LED_0603_1608Metric.step": "98343205ec260ec165026ba2d44329a23096779ac36c553ea84aa7b370242e6d",
+    "3dmodels/LED_1206_3216Metric.step": "9de47a5de5d40bcdc5dcc40d5b9d41fc41af90bbd37d25c17d211285e1c63a6e",
+    "3dmodels/MAX_M10S_envelope.step": "331d90a805c7f55312a3ba2a6369f4d5818c85aa94908424da09d767274fdf2f",
+    "3dmodels/OLED_Header_1x04.step": "6b64ec6c8f5018812b1f47c791fa05bc457b5f3e6a4c8ddff055f514eeb9a846",
+    "3dmodels/R_0805_2012Metric.step": "ded342cdb394fb45395227beaaa75cc390613cf2581b29cd6d22c12abd6103b2",
+    "3dmodels/R_1206_3216Metric.step": "f5d1ea5c47935091292bd1c6c698e0df88d3d4bbf92bf66b4c97e49df5be9ebc",
+    "3dmodels/SMA_Amphenol_132289_EdgeMount.step": "eab4ddd93a669662d28c0d8dcbc380584abc16b56d4afc77c31e75b579c82044",
+    "3dmodels/SOT-223-6.step": "1b33df030ec34db0ad89dd6e137111aace7124400366bdd9cbf27b7036f43904",
+    "3dmodels/SOT-23-5.step": "720a6eab0024069bbee68e7cb4c3ff1149468a34611225cdc852662c5d0ec2b7",
+    "3dmodels/SOT-23-6.step": "c9fe686b4d1b56927a41fa84a9bc1efb61d8a45a123a3db43bcaa05c2891d635",
+    "3dmodels/SOT-23.step": "dd5d1711204e1d8d26cd11490923bd84340820baa69538c385a4300ec2539bc0",
+    "3dmodels/TPS2595_WSON_envelope.step": "021a81424c4f41551dad8f4f6284d7d37e50a375dde8975a95dbf5bf99825134",
+    "3dmodels/TSSOP-20_4.4x6.5mm_P0.65mm.step": "97339947f3a7196470ec2f1d9f9b92bb2fc2ab66ad53be0cf105192585ef3c9a",
+    "Calibrator.kicad_sym": "bde5e16a25119d2389e660e69dd030bfb67741d08138ebf50fdd8564a0baa5fc",
+    "Calibrator.pretty/AOC97_9.7x7.5mm.kicad_mod": "608ca9f4b01811d219c21c2a3d401da5f87026e92da3991f533476d1542c5c49",
+    "Calibrator.pretty/C60_C_0603_1608Metric.kicad_mod": "6e9a87124830f2564bb7213bfd1264254be3e789e044022b39ef2eb154345168",
+    "Calibrator.pretty/C61_C_0603_1608Metric.kicad_mod": "cdcc43e9f5e99112020a915cd0f4cc28887e5748d65e966e39a4873b2cbfc725",
+    "Calibrator.pretty/C67_C_0603_1608Metric.kicad_mod": "36f6025bdbf4444d58bbc2694232826912ca5e152918ddbc3783ef780c1ed997",
+    "Calibrator.pretty/C_0603_1608Metric.kicad_mod": "ec72270fdb09bd69d3ba19b388d61d49aa1612bcba3c1f116238f18e7ef7cd56",
+    "Calibrator.pretty/C_0603_1608Metric_Std.kicad_mod": "6443caee1041fdd101bea9e205dd74041a27576eb769d27faf125940cf67810d",
+    "Calibrator.pretty/C_0805_2012Metric.kicad_mod": "44ad91ec509bc712115151557204990e611a9925873672ad9c25cbbeaaf120ec",
+    "Calibrator.pretty/DFN-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm.kicad_mod": "635b75252c37484457c6521667defd8450278191e96c5b8a9b4fdbdcc95ae922",
+    "Calibrator.pretty/HS96L03W2C03_27.3x27.8mm.kicad_mod": "5bf333ed31c5822c34de04e3e72874a5f90137c216b46196a35e291f748a16da",
+    "Calibrator.pretty/HUSB238_DFN10_3x3mm.kicad_mod": "393455532e607ae7eef56189bc0bc7d231b7239f8f23676f0a2cc5053cd0c783",
+    "Calibrator.pretty/J1_Module_v1_Mate.kicad_mod": "d5f2e5d5570d31d2e317a25f3825613494be422d034c6912438d3a48f8be240c",
+    "Calibrator.pretty/J2_Module_v1_Mate.kicad_mod": "503124016f09b47c432615f30bd4714ce9c2eef434d0651df04e5b2acf95e20a",
+    "Calibrator.pretty/KF128_5_08_2P.kicad_mod": "7e5de55e0f2b260a7bddab07978dae62655dbe895704cf0d12b4349caac79184",
+    "Calibrator.pretty/L4_L_XFL3012_222MEC.kicad_mod": "62c5715d5a0158d034f5c628f442203e858495f451f85dc89b1348d7d89dbc09",
+    "Calibrator.pretty/LED_0603_1608Metric.kicad_mod": "6a76f9a89c313919ebd668f64ba35a996983e19fe1d8a1ba8938c6b3209397c9",
+    "Calibrator.pretty/LED_1206_3216Metric.kicad_mod": "5ab4af6ee74b4e97ca637206a3610a06e53d8bf2db0ad7b171af0741293492e7",
+    "Calibrator.pretty/L_0402_1005Metric.kicad_mod": "d4e47f466e1ef38257c745559d1a525d5915d76a86dad0336f6bba27d6c4ab41",
+    "Calibrator.pretty/L_0603_1608Metric.kicad_mod": "33686f793d7e315e395de843571bd0edf4ad6515dc973d1ab01e7c7ef4cd684d",
+    "Calibrator.pretty/L_0805_2012Metric.kicad_mod": "f196eac81f0aa8d337466e2944057160948a6e90f3016ed215533c1f8019c185",
+    "Calibrator.pretty/L_Coilcraft_0805CS.kicad_mod": "020f8d3c764b0cbd3974706273ed5aec24dbdc578c4b4b8574d1655754d3560c",
+    "Calibrator.pretty/MountingHole_3.2mm_M3.kicad_mod": "32928b0c833fa84f9019ecc5bbac86404bb3393d01e2e12ce6d1897833a45889",
+    "Calibrator.pretty/OLED_Header_1x04_P2.54mm.kicad_mod": "cd7b36a3123b43aa2f3a05c7297251ee4719c1681a5c595ee97fc95d79c5f2f8",
+    "Calibrator.pretty/PinHeader_1x04_P2.54mm_Vertical.kicad_mod": "1228affed1f4c80a004a17dbfffbccfcfbd08cd6b7a93e1eb778d26d4731e9e6",
+    "Calibrator.pretty/R64_R_0402_1005Metric.kicad_mod": "e5bf28f7f6310b35c7b366a2a286242bff9bade1cef5ecad9c03ceaac9d54652",
+    "Calibrator.pretty/R65_R_0402_1005Metric.kicad_mod": "191f20490378b6576b8a781667b12fe98b079dc0ca2be6f256f086601022f9e6",
+    "Calibrator.pretty/R_0603_1608Metric.kicad_mod": "b69df030664bdbcd6f767d687d340f658e95845ab32dd0328a242b6d18876d32",
+    "Calibrator.pretty/R_0603_1608Metric_Std.kicad_mod": "cad5e1570e1e1926873eef3bdf36ec0a63a5f5adb75f94cf47011f293c4dd67f",
+    "Calibrator.pretty/R_0805_2012Metric.kicad_mod": "164eee837c74aa72912abffc033ae70c26bd125dff7b108fd808b7e8279caab9",
+    "Calibrator.pretty/R_1206_3216Metric.kicad_mod": "367786477bfb872436ed618f92502d96871d06ccbc33ecd72b2ee9bb6378d747",
+    "Calibrator.pretty/SMA_Amphenol_132289_EdgeMount.kicad_mod": "131ad797b0a4722e9977994c858cfe171b3c85d8f79c8250318f4d813c41d1b1",
+    "Calibrator.pretty/SOT-223-6.kicad_mod": "dff4f8e812011fc39c87f0fbba973a4a07b5b79563d22567d06a7d4ffcb01e58",
+    "Calibrator.pretty/SOT-23-5.kicad_mod": "9e20c8ca68c866282157e535e64871e297f2f2fe5e4ce8942d92c246f90e5f7e",
+    "Calibrator.pretty/SOT-23-5_U10.kicad_mod": "ca2b4ce477941ac9a89cc35fb8b4c3daafcbe3a71b7330f89e77d10172d39f8f",
+    "Calibrator.pretty/SOT-23-5_U12.kicad_mod": "00e1d2dfad3d017f4a04dbf71b8ca56c47a4768d292cbd2943073630dc580944",
+    "Calibrator.pretty/SOT-23-6.kicad_mod": "6ea6fd1410ebc60c71271b6f419bff49112e6885db50986739ad5bf49a81a4cd",
+    "Calibrator.pretty/SOT-23-6_U1.kicad_mod": "b9b7031e734a2719846b1c86cd26cec8a077ab8e33d30822d24a2f710b31928a",
+    "Calibrator.pretty/SOT-23-6_U8.kicad_mod": "ed29ce91e7250900c0897711e6e84518048f26bb425bcde0b922370f92eb582e",
+    "Calibrator.pretty/SOT-23-6_U9.kicad_mod": "59a83a4fcf981c04267d74b5c87fd00920f58cf2db65a1c825e3e910c0ecbe04",
+    "Calibrator.pretty/SOT-23.kicad_mod": "7b6a510d8c1eb8db95798c7a03fe45dd11bd6953a3e9f69ec7d178e95c9f8dc4",
+    "Calibrator.pretty/SOT-353_SC-70-5.kicad_mod": "f23c14d8e9be3e7d79df08c1f08eed378067fe5f80c5dbdd9a2eda804c5e95cf",
+    "Calibrator.pretty/SW_SPDT_CK_JS102011SAQN.kicad_mod": "92f30d001a7e421d458481f3bae897aa4722f36c75195636f90ce6e22ba652fa",
+    "Calibrator.pretty/SW_SPST_TL3342.kicad_mod": "6e152ebe8f04c907c1528b6ee2b92fa561805098743d5fc20eb830a403e74714",
+    "Calibrator.pretty/TP_1p0mm.kicad_mod": "cb7897515de61312e83fe6f5710df730e6f2a49550f2f4f5117438fbb41c9475",
+    "Calibrator.pretty/TP_1p5mm.kicad_mod": "98251ef8b6c124aaaf74bc713f2e134369a5dc2af55091ad58f0217ba07330f9",
+    "Calibrator.pretty/TP_2mm.kicad_mod": "36de4bb72a703d405a9e94ce2d7d55cc21f203bb201a35ff3f026dec98dcc00d",
+    "Calibrator.pretty/TP_2p5mm.kicad_mod": "71c14f8756653afcdaea5de254e74c8d53f346a9cbc3443cbcfa38884c3aa562",
+    "Calibrator.pretty/TSSOP-20_4.4x6.5mm_P0.65mm.kicad_mod": "77a46f0f0f19ee0a527c7470468a19d5d12d9e99da605b6796e45f5532795a7b",
+    "Calibrator.pretty/TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal.kicad_mod": "d38ad836a33ba50a6448e5d69e3a0d01ae66d6a8ba7fc06dadcf3e88c409ddbd",
+    "Calibrator.pretty/Texas_X2QFN-12_1.6x1.6mm_P0.4mm.kicad_mod": "8db716f78688c3e7c715fc2b3dae2e2d462fda57688f1eccfe6303d8aa309c26",
+    "Calibrator.pretty/U.FL_Hirose_U.FL-R-SMT-1_Vertical.kicad_mod": "7fc8bd9a731bb41a95bd0f28b9ad80937860ca85c3a59420167af7c3e943e695",
+    "Calibrator.pretty/U3_VSSOP-8_3x3mm_P0.65mm.kicad_mod": "05eec188a62cd044631a1c78f0b1afc94e6afcd03b504bb812c526004358cd6a",
+    "Calibrator.pretty/USB_C_Receptacle_HRO_TYPE-C-31-M-12.kicad_mod": "a8b2567f354719951e86eb36297603cad23cd6780cc3a910a11bb37b6712f58b",
+    "Calibrator.pretty/ublox_MAX.kicad_mod": "d77d7d51e10f5a39f8fc2702a8da24277e900501ee23e668bd434f809fc2e883",
+    "calibrator.kicad_dru": "c0882e7ab5bfb19b7d2bceaeef93c28ae2f89d17b3894ad6f7c0c26c2200dc58",
+    "calibrator.kicad_pcb": "269331360d363d43ad04e7cff0ea60ba0e9c3d65c11c46d7439b64a1bca2b45f",
+    "calibrator.kicad_pro": "7f7f59761025ae92b7974513883d592a916df9ca9d3159724b0f3fff07766d2c",
+    "calibrator.kicad_sch": "83720f1f7ae7fc247a02e9fae07026d948f1a3e4f4cc3333ace505a0778fc420",
+    "fp-lib-table": "05fff45db77e0d148cfded88f2f82fba2217e40aad6bb76f6f1c092d4049db06",
+    "sym-lib-table": "073787a5a9b29f8b22d619526ac94d70db2ad528c0adb6a70a3d44232b7a84ed"
+  },
+  "stages": {
+    "bom": {
+      "input_key": "9444913ea79b5de9fa24ef19effedda41c034ef7f8d7361b01c7575049849fdc",
+      "ok": true,
+      "message": null,
+      "files": [
+        {
+          "path": "fab/bom/calibrator-bom.csv",
+          "sha256": "2205d962b03523988a0c34b344c5fcb1d7085e69a6b9a8afc74f5fbb9ee9f007",
+          "size": 15466
+        }
+      ]
+    },
+    "drc": {
+      "input_key": "e46211a5bb9ffde7df670cf8ff981a943ba58afafd1ddeca355a213e125b32df",
+      "ok": true,
+      "message": null,
+      "files": [
+        {
+          "path": "fab/checks/drc.json",
+          "sha256": "0087c6a81b648e37e0d101eb5a82f4e74d94053ee4ff01a2a4a7020adfe2c6ce",
+          "size": 1067
+        }
+      ]
+    },
+    "erc": {
+      "input_key": "d640193d60360f45fa74917846ec67b99de34bceb5b4b06506e704bdab2da165",
+      "ok": true,
+      "message": null,
+      "files": [
+        {
+          "path": "fab/checks/erc.json",
+          "sha256": "45746271a5cbf4f7ad6359118a19f2ce13ad3a87a4c96f482e1009e7276484a5",
+          "size": 983
+        }
+      ]
+    },
+    "gerbers": {
+      "input_key": "1cacc823fa084a6e097dec8768ad959ba5652983b359bbe6b2c1223be0761cd2",
+      "ok": true,
+      "message": null,
+      "files": [
+        {
+          "path": "fab/gerbers/calibrator-B_Adhesive.gba",
+          "sha256": "98d8a26128f4272e39f06c8138bbf7b6ff0cbf03ac778c586615b3430e768cc8",
+          "size": 496
+        },
+        {
+          "path": "fab/gerbers/calibrator-B_Courtyard.gbr",
+          "sha256": "e6d1fc65670c97c42083fa75ecae0f534957d049633923bdad019c076218d9a1",
+          "size": 1133
+        },
+        {
+          "path": "fab/gerbers/calibrator-B_Cu.gbl",
+          "sha256": "638facd9f572310358fe6fbc5c6340cc8088cb1fed8a465085514c0adaf81146",
+          "size": 263816
+        },
+        {
+          "path": "fab/gerbers/calibrator-B_Fab.gbr",
+          "sha256": "4d5cec80ac617809572deef456becad6531da7fd344972dd523a2c0dd586a138",
+          "size": 479
+        },
+        {
+          "path": "fab/gerbers/calibrator-B_Mask.gbs",
+          "sha256": "625d3171f966bf14ff576b56f9d6173fe18afcdb2c1d6f86f09e8b2b9f8c1bab",
+          "size": 1573
+        },
+        {
+          "path": "fab/gerbers/calibrator-B_Paste.gbp",
+          "sha256": "311b904aae1ee160084c068f0de041b039d5544d332082532b302d95d4cd6a9b",
+          "size": 731
+        },
+        {
+          "path": "fab/gerbers/calibrator-B_Silkscreen.gbo",
+          "sha256": "5198ace78ce93bc26f19fd246d91389c462809209ac85eaa24caf17163a01f8b",
+          "size": 498
+        },
+        {
+          "path": "fab/gerbers/calibrator-Edge_Cuts.gm1",
+          "sha256": "1dfe52b02ba2edec2574b56501259dd68b62c55838d23fca381d970947af7aa6",
+          "size": 727
+        },
+        {
+          "path": "fab/gerbers/calibrator-F_Adhesive.gta",
+          "sha256": "3076b93cfa125d744e57c30e48d18aacad89e217ae3d37003aff4f2ebcd3ab27",
+          "size": 496
+        },
+        {
+          "path": "fab/gerbers/calibrator-F_Courtyard.gbr",
+          "sha256": "275134e894e6277473358d490fd7e72f73225456b26e94e34c2aa7d7fb1dc507",
+          "size": 61180
+        },
+        {
+          "path": "fab/gerbers/calibrator-F_Cu.gtl",
+          "sha256": "973069fccfacd7a1c3848ef5d0a947d7b5dd19a312d04ec4b1b79ddc9cfe219e",
+          "size": 1238878
+        },
+        {
+          "path": "fab/gerbers/calibrator-F_Fab.gbr",
+          "sha256": "9748da296e02054d4e37350b1ac1ca101dcd003d92f3dab20563789bf953a9ee",
+          "size": 595626
+        },
+        {
+          "path": "fab/gerbers/calibrator-F_Mask.gts",
+          "sha256": "b6057698d5a5ddc78fe7accfb0853d29c7cc9dd43bbfcb35e0e89847ee46fbe7",
+          "size": 31812
+        },
+        {
+          "path": "fab/gerbers/calibrator-F_Paste.gtp",
+          "sha256": "a11fe7764826230005f21955917930c39485756fff679f3439a8ddc0eff1da52",
+          "size": 29653
+        },
+        {
+          "path": "fab/gerbers/calibrator-F_Silkscreen.gto",
+          "sha256": "c8733d73c04b5294724d0d9a75c1da53e7a63e621f17c880b7757b017b64adf4",
+          "size": 171643
+        },
+        {
+          "path": "fab/gerbers/calibrator-In1_Cu.g1",
+          "sha256": "7f7ca9d7e8e9636f6b95486ec23fb9e4ce873fcadad0d1f3b4e134801831e141",
+          "size": 259891
+        },
+        {
+          "path": "fab/gerbers/calibrator-In2_Cu.g2",
+          "sha256": "fa98b1ee404f925a6911ec1b16e754b48350f752e44e1cf083d3e47aafc661dc",
+          "size": 225638
+        },
+        {
+          "path": "fab/gerbers/calibrator-Margin.gbr",
+          "sha256": "22dd326f5e07c9ebaa85b01d60683eb7b75de6255e3222399dc8a9999ce65ec7",
+          "size": 470
+        },
+        {
+          "path": "fab/gerbers/calibrator-User_1.gbr",
+          "sha256": "22dd326f5e07c9ebaa85b01d60683eb7b75de6255e3222399dc8a9999ce65ec7",
+          "size": 470
+        },
+        {
+          "path": "fab/gerbers/calibrator-User_2.gbr",
+          "sha256": "22dd326f5e07c9ebaa85b01d60683eb7b75de6255e3222399dc8a9999ce65ec7",
+          "size": 470
+        },
+        {
+          "path": "fab/gerbers/calibrator-User_3.gbr",
+          "sha256": "22dd326f5e07c9ebaa85b01d60683eb7b75de6255e3222399dc8a9999ce65ec7",
+          "size": 470
+        },
+        {
+          "path": "fab/gerbers/calibrator-User_4.gbr",
+          "sha256": "22dd326f5e07c9ebaa85b01d60683eb7b75de6255e3222399dc8a9999ce65ec7",
+          "size": 470
+        },
+        {
+          "path": "fab/gerbers/calibrator-User_Comments.gbr",
+          "sha256": "b83a45e86a013806bb5633159fd73898bc13a2be483d0f47ffd0304af185892d",
+          "size": 1313
+        },
+        {
+          "path": "fab/gerbers/calibrator-User_Drawings.gbr",
+          "sha256": "314d078ef92d1051b234b99dc85d461c503ce43b5bcea9fe4e02c9798f57f185",
+          "size": 649
+        },
+        {
+          "path": "fab/gerbers/calibrator-User_Eco1.gbr",
+          "sha256": "90dd2841f12aeacda3eee4b77d87bddaf951d6b58989723b109a9daa4c7480f9",
+          "size": 470
+        },
+        {
+          "path": "fab/gerbers/calibrator-User_Eco2.gbr",
+          "sha256": "4ffcf7c5f5a82c0f0383cf8784b02058c0d121d049c0ff56322ab1033d6b0506",
+          "size": 470
+        },
+        {
+          "path": "fab/gerbers/calibrator-gerbers.zip",
+          "sha256": "163b6c0a5010afc0498f38bdda55121e2d6eccdad7bf7587e9d6c65b13e9b447",
+          "size": 503498
+        },
+        {
+          "path": "fab/gerbers/calibrator.drl",
+          "sha256": "e2d2eb9e7f344db94761d26f7e338db3aa47d2fdd508c3a8b8c6f7b2952d04c8",
+          "size": 5045
+        }
+      ]
+    },
+    "glb": {
+      "input_key": "7c9290da09d9d33a8606d36c649408080183c203d01fc7fdaa49a1ca49cba057",
+      "ok": true,
+      "message": null,
+      "files": [
+        {
+          "path": "fab/calibrator.glb",
+          "sha256": "63d49fffa274d5a2ddb39a15cbde3b71a508053fcad8c1c2fa003cf04a983b69",
+          "size": 21086996
+        }
+      ]
+    },
+    "jlcpcb": {
+      "input_key": "bb8c0a08b88a788a0a695c8c7cac12fc393ae255ffb8fe5bd6d975d17bc42746",
+      "ok": true,
+      "message": null,
+      "files": [
+        {
+          "path": "fab/jlcpcb/BOM_calibrator.csv",
+          "sha256": "627147fa507c43b5d52c9230b5adf03001553a9a726a2dc48bd86e038202b17b",
+          "size": 16254
+        },
+        {
+          "path": "fab/jlcpcb/CPL_calibrator.csv",
+          "sha256": "adc79c4c3425757c22d91c8afdaa14aa9f1b683ec8f4f2ee0bd86beface17cfb",
+          "size": 10967
+        },
+        {
+          "path": "fab/jlcpcb/calibrator-B_Adhesive.gba",
+          "sha256": "4e1a9a9273d9f647393b6a73a09de73ae99ab001ff1d2c97a198139266771015",
+          "size": 496
+        },
+        {
+          "path": "fab/jlcpcb/calibrator-B_Courtyard.gbr",
+          "sha256": "0926f14bb66b7db732f4e3ea2b268fda9660efbe4405622adce273e1b94ea9a7",
+          "size": 1133
+        },
+        {
+          "path": "fab/jlcpcb/calibrator-B_Cu.gbl",
+          "sha256": "b468f5e37c6e03a760a7f3b3d0b1fe7f155c1b36eb71047058a6f11d13e34e99",
+          "size": 263816
+        },
+        {
+          "path": "fab/jlcpcb/calibrator-B_Fab.gbr",
+          "sha256": "78726d3925694244bcc6e35c95dcf2501e36c38b032502f48213b9e94e420f92",
+          "size": 479
+        },
+        {
+          "path": "fab/jlcpcb/calibrator-B_Mask.gbs",
+          "sha256": "a20a428078e225604f36710d53b3a60d73373954e21ddde22bb8f4d1bb277fe9",
+          "size": 1573
+        },
+        {
+          "path": "fab/jlcpcb/calibrator-B_Paste.gbp",
+          "sha256": "1e5c928832c3fe635dca23ae94371596c68f60f0a677155b1116261815207d2f",
+          "size": 731
+        },
+        {
+          "path": "fab/jlcpcb/calibrator-B_Silkscreen.gbo",
+          "sha256": "5e6f0c87e32c65fef6d7a259046c27465410a48febf8b4d987ebae7ac632c69e",
+          "size": 498
+        },
+        {
+          "path": "fab/jlcpcb/calibrator-Edge_Cuts.gm1",
+          "sha256": "e44346d9f997e7b520ae665a901a708b2427d493dbb7ba14386cc1cbc44c1770",
+          "size": 727
+        },
+        {
+          "path": "fab/jlcpcb/calibrator-F_Adhesive.gta",
+          "sha256": "bcdd3a8236bd7d5fa578936c5189207a8954272fe596727a138ab952df90ed02",
+          "size": 496
+        },
+        {
+          "path": "fab/jlcpcb/calibrator-F_Courtyard.gbr",
+          "sha256": "ef77f22167424cbbc4bfe8c2acc4266299ec7934bc5eefb17586f8d0303f0ad2",
+          "size": 61180
+        },
+        {
+          "path": "fab/jlcpcb/calibrator-F_Cu.gtl",
+          "sha256": "cb93d6969d6e2c08965ef19df28a5067f69d48858315735ef0385c2d2e949cc7",
+          "size": 1238878
+        },
+        {
+          "path": "fab/jlcpcb/calibrator-F_Fab.gbr",
+          "sha256": "986e240952f8cb227faa472a807a48389730edce9b86d6c423a6d6ba319fef90",
+          "size": 595626
+        },
+        {
+          "path": "fab/jlcpcb/calibrator-F_Mask.gts",
+          "sha256": "f5c5bbe8653b3c12a46c9f3225fb9a6fc41435134246856ef8cc0ce7c5be2d6f",
+          "size": 31812
+        },
+        {
+          "path": "fab/jlcpcb/calibrator-F_Paste.gtp",
+          "sha256": "d701b6f44a811dbcae118ddf7a3c75f4a1f01683c6cb2ef546581035c1ad733e",
+          "size": 29653
+        },
+        {
+          "path": "fab/jlcpcb/calibrator-F_Silkscreen.gto",
+          "sha256": "0c9adc15be3b06831e2f1329b6fad71f68d431fe6a2ebcec19a54dfc3dff9fc9",
+          "size": 171643
+        },
+        {
+          "path": "fab/jlcpcb/calibrator-In1_Cu.g1",
+          "sha256": "22016cc0d1febee95f179777e357a73bfd0593a5373dcb9a388e75c0f788333d",
+          "size": 259891
+        },
+        {
+          "path": "fab/jlcpcb/calibrator-In2_Cu.g2",
+          "sha256": "3e94d3d5dfe38d99d835d3c55ee17b7aa4fa6807c8ff22327abaf6a06b6f1f0c",
+          "size": 225638
+        },
+        {
+          "path": "fab/jlcpcb/calibrator-Margin.gbr",
+          "sha256": "4a2e744bbbc284dd98eebc4d4f78070421329b40cbdd4268a433693445686eb6",
+          "size": 470
+        },
+        {
+          "path": "fab/jlcpcb/calibrator-User_1.gbr",
+          "sha256": "4a2e744bbbc284dd98eebc4d4f78070421329b40cbdd4268a433693445686eb6",
+          "size": 470
+        },
+        {
+          "path": "fab/jlcpcb/calibrator-User_2.gbr",
+          "sha256": "4a2e744bbbc284dd98eebc4d4f78070421329b40cbdd4268a433693445686eb6",
+          "size": 470
+        },
+        {
+          "path": "fab/jlcpcb/calibrator-User_3.gbr",
+          "sha256": "4a2e744bbbc284dd98eebc4d4f78070421329b40cbdd4268a433693445686eb6",
+          "size": 470
+        },
+        {
+          "path": "fab/jlcpcb/calibrator-User_4.gbr",
+          "sha256": "4a2e744bbbc284dd98eebc4d4f78070421329b40cbdd4268a433693445686eb6",
+          "size": 470
+        },
+        {
+          "path": "fab/jlcpcb/calibrator-User_Comments.gbr",
+          "sha256": "f935641d5645d941a548db421fab9e0932967cd453a0f3b596028a67bd39a1c1",
+          "size": 1313
+        },
+        {
+          "path": "fab/jlcpcb/calibrator-User_Drawings.gbr",
+          "sha256": "8f6d2ed1b2dbd398e2b2023003db5d7c97f29ce3c6fa36c39d5c27be5cfb2601",
+          "size": 649
+        },
+        {
+          "path": "fab/jlcpcb/calibrator-User_Eco1.gbr",
+          "sha256": "29745263cc9cd8c43cac2dc2310fd8681294994376b31c53b7b046baa5e8e206",
+          "size": 470
+        },
+        {
+          "path": "fab/jlcpcb/calibrator-User_Eco2.gbr",
+          "sha256": "99eb12ac4b69bd6e023d3fcb0261d5c8543596160663c22948437c88e198128e",
+          "size": 470
+        },
+        {
+          "path": "fab/jlcpcb/calibrator-jlcpcb.zip",
+          "sha256": "c5a00b8a5eed2a7be9be98161b33be4ffe54442e630dcb9645d5ec463cb919c6",
+          "size": 507111
+        },
+        {
+          "path": "fab/jlcpcb/calibrator.drl",
+          "sha256": "e2b16b22f9735bf22c7ae7748f5a8c42117c7c82d133a2de08b0e668b5dd4882",
+          "size": 5045
+        }
+      ]
+    },
+    "quality": {
+      "input_key": "5a8c94f142c6f4fa53cf00e143b0bb52d7a30406de7d201a677d05d4fb8e5da6",
+      "ok": false,
+      "message": "60 errors, 4839 warnings",
+      "files": [
+        {
+          "path": "fab/checks/quality.json",
+          "sha256": "d14cb362f304449b28eecdc4f9269d02ff47853720d4ad3033dddf02dd9ef67b",
+          "size": 2693392
+        }
+      ]
+    },
+    "schematic-pdf": {
+      "input_key": "6796775b68cb7324240027de4fc83dd96d4423e13d6ab8416810e40fe03f20d0",
+      "ok": true,
+      "message": null,
+      "files": [
+        {
+          "path": "fab/calibrator-schematic.pdf",
+          "sha256": "d21a388a0fe3a0f03c5f6ecf1d42f7a83d97150b03415a2a6d419d8fe77ab8fd",
+          "size": 805252
+        }
+      ]
+    },
+    "step": {
+      "input_key": "64106e201234da4a4013529db3ad7967e70dae5dd07deacd76b53cac24de1721",
+      "ok": true,
+      "message": null,
+      "files": [
+        {
+          "path": "fab/calibrator.step",
+          "sha256": "af7d1adab132c971760b290cb4c8146b02d342e74d6c8ecdbec6de684fefbeb3",
+          "size": 6600266
+        }
+      ]
+    }
+  }
+}

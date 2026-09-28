@@ -1,0 +1,14 @@
+{
+  "base_publish_revision": "0663f3895a5f65ce3ffa",
+  "pcb_sha256": "269331360d363d43ad04e7cff0ea60ba0e9c3d65c11c46d7439b64a1bca2b45f",
+  "policy": "Manual parts excluded; grouped BOM; saved JLCPCB rotation/position corrections; fabrication-only ZIP",
+  "files": {
+    "gerbers/calibrator-gerbers.zip": "35a5231a2f7a66bc4abd07abf650bc33ee7a0eccde5025d8607e1ad96db573ab",
+    "jlcpcb/calibrator-jlcpcb.zip": "558ef26a94fd66f7f8bc1ee6a155b5bef503232474d7b51db2b80ce62ba3692c",
+    "jlcpcb/BOM_calibrator.csv": "2b098291ca64b54e2b4cf976ffe0c3f226d4b979a09a891d7f85f3e1b05b4e51",
+    "jlcpcb/CPL_calibrator.csv": "7fc3d7677ba22a25624d2913122eae6afa2b19829a546c3e9c0fc1b0ccb090e1",
+    "bom/calibrator-native-positions.csv": "bd24059287bff5bdc1e400fc37900716dff7f96eed29eaabcfec3d0d5c8096c2",
+    "bom/calibrator-bom.csv": "8ce2fb99ee2c43d8f941423ac5aa2d47f354c736b57fd82af4eef2d82d904a98",
+    "bom/manual-assembly.csv": "9ec81a7cf32831550e3a0460ffc2f3fee48e4324c086f8bee3d3f0c0f65f1ea6"
+  }
+}

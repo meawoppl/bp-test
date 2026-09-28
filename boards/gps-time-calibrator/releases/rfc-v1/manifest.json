@@ -1,0 +1,26 @@
+{
+  "status": "RFC; not ordered; awaiting module and carrier validation",
+  "tag": "gps-calibrator-rfc-v1",
+  "source_sha256": {
+    "calibrator.kicad_pcb": "269331360d363d43ad04e7cff0ea60ba0e9c3d65c11c46d7439b64a1bca2b45f",
+    "calibrator.kicad_sch": "83720f1f7ae7fc247a02e9fae07026d948f1a3e4f4cc3333ace505a0778fc420",
+    "docs/circuit.json": "ccc99e5432fb1d7180bfcfc68136f9c2885aa5e4ab712ef78188c12f2155a578"
+  },
+  "files_sha256": {
+    "BOM_calibrator.csv": "2b098291ca64b54e2b4cf976ffe0c3f226d4b979a09a891d7f85f3e1b05b4e51",
+    "CPL_calibrator.csv": "7fc3d7677ba22a25624d2913122eae6afa2b19829a546c3e9c0fc1b0ccb090e1",
+    "EXPORT.json": "852fe2c3bd59266a1580dbfb8369b859d818ec2d7e68e0cba61798dcb8c30085",
+    "README.md": "bd3dcac9c3b3d0590623951110241b25324bb1b0c06cb27bcabddaa5302a64b2",
+    "assembly-finalization.json": "9e6abd1748ba5f843d77c2d1aac9ca1b379ab4758fc641caf56b135da27cdc54",
+    "calibrator-jlcpcb.zip": "558ef26a94fd66f7f8bc1ee6a155b5bef503232474d7b51db2b80ce62ba3692c",
+    "calibrator-schematic.pdf": "d21a388a0fe3a0f03c5f6ecf1d42f7a83d97150b03415a2a6d419d8fe77ab8fd",
+    "display-mounting.md": "6cb7570e2b02f92188f79fbc8c4b899510ffde4d72d23500b75c205fe884f9a3",
+    "drc.json": "0087c6a81b648e37e0d101eb5a82f4e74d94053ee4ff01a2a4a7020adfe2c6ce",
+    "erc.json": "45746271a5cbf4f7ad6359118a19f2ce13ad3a87a4c96f482e1009e7276484a5",
+    "gerbers.zip": "35a5231a2f7a66bc4abd07abf650bc33ee7a0eccde5025d8607e1ad96db573ab",
+    "green-led-review.md": "a9d896f9c658ee7cb7446c3e2732f8056872a6652ee9545268a95973e0da7568",
+    "jlcpcb-placement-offsets.json": "cebf905d5b0968bde67a7cb7b0705485b82153b72909b95d4d7a3ff52fe96fea",
+    "manual-assembly.csv": "9ec81a7cf32831550e3a0460ffc2f3fee48e4324c086f8bee3d3f0c0f65f1ea6",
+    "mechanical-bom.csv": "54ef38c703688e70f98aee22f9119d967091e54d7bf8a01cc9204589ca3c82d5"
+  }
+}

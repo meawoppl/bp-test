@@ -1,0 +1,5 @@
+Item,Quantity,Manufacturer,MPN,Description,Source
+OLED spacers,4,Wurth Elektronik,960030010,"Polyamide 3.0 mm length; OD 4.0 mm; ID 2.2 mm",https://www.we-online.com/components/products/datasheet/960030010.pdf
+OLED screws,4,Generic dimensional spec,,"M2x10 pan head stainless; pitch 0.4 mm; head OD <=4 mm",
+OLED nuts,4,Generic dimensional spec,,"M2 hex nut; pitch 0.4 mm; nominal thickness 1.6 mm",
+OLED washers,8,Generic dimensional spec,,"Nylon flat washer; ID 2.2 mm; OD <=4 mm; thickness 0.3 mm",

@@ -1,0 +1,34 @@
+{
+  "FPGA_IOT_50B": {
+    "before_mm": 59.68,
+    "after_mm": 24.04
+  },
+  "ESP_GPIO21": {
+    "before_mm": 85.68,
+    "after_mm": 45.73
+  },
+  "ESP_GPIO38": {
+    "before_mm": 75.57,
+    "after_mm": 71.07
+  },
+  "ESP_GPIO44_RXD": {
+    "before_mm": 67.85,
+    "after_mm": 67.85
+  },
+  "ESP_GPIO43_TXD": {
+    "before_mm": 68.96,
+    "after_mm": 68.96
+  },
+  "USB_ILIM": {
+    "before_mm": 39.33,
+    "after_mm": 12.55
+  },
+  "ESP_GPIO3": {
+    "before_mm": 15.57,
+    "after_mm": 44.41
+  },
+  "TRIGGER_3V3": {
+    "before_mm": 70.07,
+    "after_mm": 48.57
+  }
+}

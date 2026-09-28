@@ -1,0 +1,134 @@
+{
+  "source": "calibrator.kicad_pcb",
+  "summary": {
+    "by_rule": {
+      "decoupling_distance": {
+        "count": 27,
+        "profile_item": "decoupling.max_pin_distance_mm",
+        "severity": "warning",
+        "source": "plugin"
+      },
+      "mistake.bypass_capacitor.bypass_capacitor_placement_could_be_improved": {
+        "count": 28,
+        "profile_item": "decoupling.max_pin_distance_mm",
+        "severity": "info",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin": {
+        "count": 4504,
+        "profile_item": "decoupling.max_pin_distance_mm",
+        "severity": "warning",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.connectivity.led_missing_series_resistor": {
+        "count": 1,
+        "profile_item": null,
+        "severity": "warning",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.decoupling.missing_decoupling_capacitor": {
+        "count": 7,
+        "profile_item": "decoupling.max_pin_distance_mm",
+        "severity": "error",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.differential_pair.differential_pair_length_mismatch": {
+        "count": 1,
+        "profile_item": null,
+        "severity": "error",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.manufacturability.acute_angle_in_trace_acid_trap": {
+        "count": 10,
+        "profile_item": null,
+        "severity": "warning",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.manufacturability.thermal_imbalance_may_cause_tombstoning": {
+        "count": 113,
+        "profile_item": null,
+        "severity": "warning",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.power_trace.power_trace_too_narrow": {
+        "count": 6,
+        "profile_item": null,
+        "severity": "warning",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.thermal_management.thermal_pad_may_need_more_vias": {
+        "count": 2,
+        "profile_item": null,
+        "severity": "info",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.via_placement.via_in_smd_pad": {
+        "count": 1,
+        "profile_item": "vias.in_pad",
+        "severity": "error",
+        "source": "kct detect-mistakes"
+      },
+      "optimize_traces.mergeable_segments": {
+        "count": 1,
+        "profile_item": null,
+        "severity": "info",
+        "source": "kct optimize-traces"
+      },
+      "silk_explanatory_text": {
+        "count": 26,
+        "profile_item": "silkscreen.explanatory_text",
+        "severity": "error",
+        "source": "plugin"
+      },
+      "silk_over_copper": {
+        "count": 9,
+        "profile_item": "silkscreen.over_vias_or_pads",
+        "severity": "error",
+        "source": "kct check"
+      },
+      "silk_overlap": {
+        "count": 2,
+        "profile_item": "silkscreen.over_vias_or_pads",
+        "severity": "error",
+        "source": "kct check"
+      },
+      "silk_pad_clearance": {
+        "count": 5,
+        "profile_item": null,
+        "severity": "error",
+        "source": "kct check"
+      },
+      "silk_text_below_min": {
+        "count": 12,
+        "profile_item": "silkscreen.text_height_mm",
+        "severity": "warning",
+        "source": "plugin"
+      },
+      "silkscreen_line_width": {
+        "count": 33,
+        "profile_item": null,
+        "severity": "warning",
+        "source": "kct check"
+      },
+      "silkscreen_text_height": {
+        "count": 12,
+        "profile_item": "silkscreen.text_height_mm",
+        "severity": "warning",
+        "source": "kct check"
+      }
+    },
+    "errors": 51,
+    "infos": 31,
+    "suppressed": 0,
+    "warnings": 4718
+  },
+  "native_checks": {
+    "erc": 0,
+    "drc": 0,
+    "opens": 0,
+    "parity": 0,
+    "via_pad_drill_margin_findings": 0
+  },
+  "note": "Quality is not green. Heuristic counts include known optical labeling and all-to-all decoupling findings; consult power-control.md and routing-review.md.",
+  "notes": "Compact OCXO placement review; native ERC/DRC/parity and rotated-pad drill audit clean. See power-control.md for retained heuristic findings and thermal validation gates."
+}

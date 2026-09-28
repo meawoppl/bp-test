@@ -5,12 +5,12 @@
     "lcsc": "C424643",
     "footprint": "Calibrator:J1_Module_v1_Mate",
     "pins": {
-      "20": null,
-      "19": null,
-      "18": null,
-      "17": null,
-      "16": null,
-      "15": null,
+      "20": "USB_PD_SCL",
+      "19": "USB_PD_SDA",
+      "18": "ESP_GPIO6",
+      "17": "ESP_GPIO5",
+      "16": "ESP_GPIO4",
+      "15": "ESP_GPIO3",
       "14": "ESP_GPIO2",
       "13": "ESP_GPIO1",
       "12": "ESP_GPIO0_BOOT",
@@ -21,11 +21,11 @@
       "7": "USB_D+",
       "6": "GND",
       "5": "GND",
-      "4": "VIN_5V",
-      "3": "VIN_5V",
-      "2": "VIN_5V",
-      "1": "VIN_5V",
-      "21": null,
+      "4": "USB_VBUS",
+      "3": "USB_VBUS",
+      "2": "USB_VBUS",
+      "1": "USB_VBUS",
+      "21": "ESP_GPIO40",
       "22": "GND",
       "23": null,
       "24": null,
@@ -114,7 +114,7 @@
       "12": "FPGA_IOB_25B_G3",
       "11": "FPGA_IOB_29B",
       "10": "FPGA_IOB_23B",
-      "9": null,
+      "9": "FPGA_IOT_37A",
       "8": "GND",
       "7": "FPGA_IOB_20A",
       "6": "FPGA_IOB_13B",
@@ -126,7 +126,7 @@
       "21": "FPGA_IOT_48B",
       "22": "FPGA_IOT_46B_G0",
       "23": "GND",
-      "24": "FPGA_IOT_45A_G1",
+      "24": null,
       "25": "FPGA_IOT_50B",
       "26": null,
       "27": null,
@@ -135,7 +135,7 @@
       "30": "FPGA_IOT_51A",
       "31": null,
       "32": "FPGA_IOB_3B_G6",
-      "33": null,
+      "33": "FPGA_IOT_44B",
       "34": null,
       "35": null,
       "36": null,
@@ -364,9 +364,9 @@
     "lcsc": "C51118",
     "footprint": "Calibrator:SOT-23-5",
     "pins": {
-      "1": "VIN_5V",
+      "1": "USB_VBUS",
       "2": "GND",
-      "3": "VIN_5V",
+      "3": "USB_VBUS",
       "4": null,
       "5": "+3V3_LOGIC"
     },
@@ -388,7 +388,7 @@
     "bom": true,
     "position": [
       172.0,
-      46.0,
+      28.0,
       0.0
     ]
   },
@@ -398,7 +398,7 @@
     "lcsc": "C1779",
     "footprint": "Calibrator:C_0805_2012Metric",
     "pins": {
-      "1": "VIN_5V",
+      "1": "USB_VBUS",
       "2": "GND"
     },
     "kind": "c",
@@ -406,9 +406,9 @@
     "names": {},
     "bom": true,
     "position": [
-      167.8,
-      46.95,
-      180.0
+      168.75,
+      26.1,
+      90
     ]
   },
   "C3": {
@@ -426,7 +426,7 @@
     "bom": true,
     "position": [
       176.2,
-      45.05,
+      27.049999999999997,
       0.0
     ]
   },
@@ -438,7 +438,7 @@
     "pins": {
       "1": "VIN_5V",
       "2": "GND",
-      "3": "VIN_5V",
+      "3": "ESP_GPIO6",
       "4": null,
       "5": "+3V3_GPS"
     },
@@ -479,8 +479,8 @@
     "bom": true,
     "position": [
       174.8,
-      78.45,
-      180.0
+      76.55,
+      180
     ]
   },
   "C7": {
@@ -498,8 +498,8 @@
     "bom": true,
     "position": [
       183.2,
-      78.45,
-      0.0
+      76.55,
+      0
     ]
   },
   "R3": {
@@ -537,7 +537,7 @@
     "position": [
       179.0,
       42.8,
-      180.0
+      0
     ]
   },
   "R4": {
@@ -617,8 +617,8 @@
     "bom": true,
     "position": [
       35.0,
-      35.0,
-      90.0
+      36.15,
+      90
     ]
   },
   "R10": {
@@ -641,9 +641,9 @@
     ]
   },
   "D10": {
-    "value": "BLUE",
-    "mpn": "YLED1206B",
-    "lcsc": "C28310438",
+    "value": "GREEN",
+    "mpn": "YLED1206G",
+    "lcsc": "C30584801",
     "footprint": "Calibrator:LED_1206_3216Metric",
     "pins": {
       "1": "LED_K15",
@@ -657,7 +657,9 @@
       32.0,
       48.0,
       -90.0
-    ]
+    ],
+    "manufacturer": "YONGYUTAI",
+    "supplier_url": "https://www.lcsc.com/product-detail/C30584801.html"
   },
   "R26": {
     "value": "470R 1%",
@@ -679,9 +681,9 @@
     ]
   },
   "D26": {
-    "value": "BLUE",
-    "mpn": "YLED1206B",
-    "lcsc": "C28310438",
+    "value": "GREEN",
+    "mpn": "YLED1206G",
+    "lcsc": "C30584801",
     "footprint": "Calibrator:LED_1206_3216Metric",
     "pins": {
       "1": "LED_K15",
@@ -695,7 +697,9 @@
       32.0,
       60.0,
       -90.0
-    ]
+    ],
+    "manufacturer": "YONGYUTAI",
+    "supplier_url": "https://www.lcsc.com/product-detail/C30584801.html"
   },
   "R42": {
     "value": "470R 1%",
@@ -717,9 +721,9 @@
     ]
   },
   "D42": {
-    "value": "BLUE",
-    "mpn": "YLED1206B",
-    "lcsc": "C28310438",
+    "value": "GREEN",
+    "mpn": "YLED1206G",
+    "lcsc": "C30584801",
     "footprint": "Calibrator:LED_1206_3216Metric",
     "pins": {
       "1": "LED_K15",
@@ -733,7 +737,9 @@
       32.0,
       72.0,
       -90.0
-    ]
+    ],
+    "manufacturer": "YONGYUTAI",
+    "supplier_url": "https://www.lcsc.com/product-detail/C30584801.html"
   },
   "R58": {
     "value": "470R 1%",
@@ -755,9 +761,9 @@
     ]
   },
   "D58": {
-    "value": "BLUE",
-    "mpn": "YLED1206B",
-    "lcsc": "C28310438",
+    "value": "GREEN",
+    "mpn": "YLED1206G",
+    "lcsc": "C30584801",
     "footprint": "Calibrator:LED_1206_3216Metric",
     "pins": {
       "1": "LED_K15",
@@ -771,7 +777,9 @@
       32.0,
       84.0,
       -90.0
-    ]
+    ],
+    "manufacturer": "YONGYUTAI",
+    "supplier_url": "https://www.lcsc.com/product-detail/C30584801.html"
   },
   "C20": {
     "value": "100nF",
@@ -869,8 +877,8 @@
     "bom": true,
     "position": [
       41.0,
-      35.0,
-      90.0
+      36.15,
+      90
     ]
   },
   "R11": {
@@ -893,9 +901,9 @@
     ]
   },
   "D11": {
-    "value": "BLUE",
-    "mpn": "YLED1206B",
-    "lcsc": "C28310438",
+    "value": "GREEN",
+    "mpn": "YLED1206G",
+    "lcsc": "C30584801",
     "footprint": "Calibrator:LED_1206_3216Metric",
     "pins": {
       "1": "LED_K14",
@@ -909,7 +917,9 @@
       38.0,
       48.0,
       -90.0
-    ]
+    ],
+    "manufacturer": "YONGYUTAI",
+    "supplier_url": "https://www.lcsc.com/product-detail/C30584801.html"
   },
   "R27": {
     "value": "470R 1%",
@@ -931,9 +941,9 @@
     ]
   },
   "D27": {
-    "value": "BLUE",
-    "mpn": "YLED1206B",
-    "lcsc": "C28310438",
+    "value": "GREEN",
+    "mpn": "YLED1206G",
+    "lcsc": "C30584801",
     "footprint": "Calibrator:LED_1206_3216Metric",
     "pins": {
       "1": "LED_K14",
@@ -947,7 +957,9 @@
       38.0,
       60.0,
       -90.0
-    ]
+    ],
+    "manufacturer": "YONGYUTAI",
+    "supplier_url": "https://www.lcsc.com/product-detail/C30584801.html"
   },
   "R43": {
     "value": "470R 1%",
@@ -969,9 +981,9 @@
     ]
   },
   "D43": {
-    "value": "BLUE",
-    "mpn": "YLED1206B",
-    "lcsc": "C28310438",
+    "value": "GREEN",
+    "mpn": "YLED1206G",
+    "lcsc": "C30584801",
     "footprint": "Calibrator:LED_1206_3216Metric",
     "pins": {
       "1": "LED_K14",
@@ -985,7 +997,9 @@
       38.0,
       72.0,
       -90.0
-    ]
+    ],
+    "manufacturer": "YONGYUTAI",
+    "supplier_url": "https://www.lcsc.com/product-detail/C30584801.html"
   },
   "R59": {
     "value": "470R 1%",
@@ -1007,9 +1021,9 @@
     ]
   },
   "D59": {
-    "value": "BLUE",
-    "mpn": "YLED1206B",
-    "lcsc": "C28310438",
+    "value": "GREEN",
+    "mpn": "YLED1206G",
+    "lcsc": "C30584801",
     "footprint": "Calibrator:LED_1206_3216Metric",
     "pins": {
       "1": "LED_K14",
@@ -1023,7 +1037,9 @@
       38.0,
       84.0,
       -90.0
-    ]
+    ],
+    "manufacturer": "YONGYUTAI",
+    "supplier_url": "https://www.lcsc.com/product-detail/C30584801.html"
   },
   "C21": {
     "value": "100nF",
@@ -1121,8 +1137,8 @@
     "bom": true,
     "position": [
       47.0,
-      35.0,
-      90.0
+      36.15,
+      90
     ]
   },
   "R12": {
@@ -1145,9 +1161,9 @@
     ]
   },
   "D12": {
-    "value": "BLUE",
-    "mpn": "YLED1206B",
-    "lcsc": "C28310438",
+    "value": "GREEN",
+    "mpn": "YLED1206G",
+    "lcsc": "C30584801",
     "footprint": "Calibrator:LED_1206_3216Metric",
     "pins": {
       "1": "LED_K13",
@@ -1161,7 +1177,9 @@
       44.0,
       48.0,
       -90.0
-    ]
+    ],
+    "manufacturer": "YONGYUTAI",
+    "supplier_url": "https://www.lcsc.com/product-detail/C30584801.html"
   },
   "R28": {
     "value": "470R 1%",
@@ -1183,9 +1201,9 @@
     ]
   },
   "D28": {
-    "value": "BLUE",
-    "mpn": "YLED1206B",
-    "lcsc": "C28310438",
+    "value": "GREEN",
+    "mpn": "YLED1206G",
+    "lcsc": "C30584801",
     "footprint": "Calibrator:LED_1206_3216Metric",
     "pins": {
       "1": "LED_K13",
@@ -1199,7 +1217,9 @@
       44.0,
       60.0,
       -90.0
-    ]
+    ],
+    "manufacturer": "YONGYUTAI",
+    "supplier_url": "https://www.lcsc.com/product-detail/C30584801.html"
   },
   "R44": {
     "value": "470R 1%",
@@ -1221,9 +1241,9 @@
     ]
   },
   "D44": {
-    "value": "BLUE",
-    "mpn": "YLED1206B",
-    "lcsc": "C28310438",
+    "value": "GREEN",
+    "mpn": "YLED1206G",
+    "lcsc": "C30584801",
     "footprint": "Calibrator:LED_1206_3216Metric",
     "pins": {
       "1": "LED_K13",
@@ -1237,7 +1257,9 @@
       44.0,
       72.0,
       -90.0
-    ]
+    ],
+    "manufacturer": "YONGYUTAI",
+    "supplier_url": "https://www.lcsc.com/product-detail/C30584801.html"
   },
   "R60": {
     "value": "470R 1%",
@@ -1259,9 +1281,9 @@
     ]
   },
   "D60": {
-    "value": "BLUE",
-    "mpn": "YLED1206B",
-    "lcsc": "C28310438",
+    "value": "GREEN",
+    "mpn": "YLED1206G",
+    "lcsc": "C30584801",
     "footprint": "Calibrator:LED_1206_3216Metric",
     "pins": {
       "1": "LED_K13",
@@ -1275,7 +1297,9 @@
       44.0,
       84.0,
       -90.0
-    ]
+    ],
+    "manufacturer": "YONGYUTAI",
+    "supplier_url": "https://www.lcsc.com/product-detail/C30584801.html"
   },
   "C22": {
     "value": "100nF",
@@ -1373,8 +1397,8 @@
     "bom": true,
     "position": [
       53.0,
-      35.0,
-      90.0
+      36.15,
+      90
     ]
   },
   "R13": {
@@ -1397,9 +1421,9 @@
     ]
   },
   "D13": {
-    "value": "BLUE",
-    "mpn": "YLED1206B",
-    "lcsc": "C28310438",
+    "value": "GREEN",
+    "mpn": "YLED1206G",
+    "lcsc": "C30584801",
     "footprint": "Calibrator:LED_1206_3216Metric",
     "pins": {
       "1": "LED_K12",
@@ -1413,7 +1437,9 @@
       50.0,
       48.0,
       -90.0
-    ]
+    ],
+    "manufacturer": "YONGYUTAI",
+    "supplier_url": "https://www.lcsc.com/product-detail/C30584801.html"
   },
   "R29": {
     "value": "470R 1%",
@@ -1435,9 +1461,9 @@
     ]
   },
   "D29": {
-    "value": "BLUE",
-    "mpn": "YLED1206B",
-    "lcsc": "C28310438",
+    "value": "GREEN",
+    "mpn": "YLED1206G",
+    "lcsc": "C30584801",
     "footprint": "Calibrator:LED_1206_3216Metric",
     "pins": {
       "1": "LED_K12",
@@ -1451,7 +1477,9 @@
       50.0,
       60.0,
       -90.0
-    ]
+    ],
+    "manufacturer": "YONGYUTAI",
+    "supplier_url": "https://www.lcsc.com/product-detail/C30584801.html"
   },
   "R45": {
     "value": "470R 1%",
@@ -1473,9 +1501,9 @@
     ]
   },
   "D45": {
-    "value": "BLUE",
-    "mpn": "YLED1206B",
-    "lcsc": "C28310438",
+    "value": "GREEN",
+    "mpn": "YLED1206G",
+    "lcsc": "C30584801",
     "footprint": "Calibrator:LED_1206_3216Metric",
     "pins": {
       "1": "LED_K12",
@@ -1489,7 +1517,9 @@
       50.0,
       72.0,
       -90.0
-    ]
+    ],
+    "manufacturer": "YONGYUTAI",
+    "supplier_url": "https://www.lcsc.com/product-detail/C30584801.html"
   },
   "R61": {
     "value": "470R 1%",
@@ -1511,9 +1541,9 @@
     ]
   },
   "D61": {
-    "value": "BLUE",
-    "mpn": "YLED1206B",
-    "lcsc": "C28310438",
+    "value": "GREEN",
+    "mpn": "YLED1206G",
+    "lcsc": "C30584801",
     "footprint": "Calibrator:LED_1206_3216Metric",
     "pins": {
       "1": "LED_K12",
@@ -1527,7 +1557,9 @@
       50.0,
       84.0,
       -90.0
-    ]
+    ],
+    "manufacturer": "YONGYUTAI",
+    "supplier_url": "https://www.lcsc.com/product-detail/C30584801.html"
   },
   "C23": {
     "value": "100nF",
@@ -1625,8 +1657,8 @@
     "bom": true,
     "position": [
       59.0,
-      35.0,
-      90.0
+      36.15,
+      90
     ]
   },
   "R14": {
@@ -1649,9 +1681,9 @@
     ]
   },
   "D14": {
-    "value": "BLUE",
-    "mpn": "YLED1206B",
-    "lcsc": "C28310438",
+    "value": "GREEN",
+    "mpn": "YLED1206G",
+    "lcsc": "C30584801",
     "footprint": "Calibrator:LED_1206_3216Metric",
     "pins": {
       "1": "LED_K11",
@@ -1665,7 +1697,9 @@
       56.0,
       48.0,
       -90.0
-    ]
+    ],
+    "manufacturer": "YONGYUTAI",
+    "supplier_url": "https://www.lcsc.com/product-detail/C30584801.html"
   },
   "R30": {
     "value": "470R 1%",
@@ -1687,9 +1721,9 @@
     ]
   },
   "D30": {
-    "value": "BLUE",
-    "mpn": "YLED1206B",
-    "lcsc": "C28310438",
+    "value": "GREEN",
+    "mpn": "YLED1206G",
+    "lcsc": "C30584801",
     "footprint": "Calibrator:LED_1206_3216Metric",
     "pins": {
       "1": "LED_K11",
@@ -1703,7 +1737,9 @@
       56.0,
       60.0,
       -90.0
-    ]
+    ],
+    "manufacturer": "YONGYUTAI",
+    "supplier_url": "https://www.lcsc.com/product-detail/C30584801.html"
   },
   "R46": {
     "value": "470R 1%",
@@ -1725,9 +1761,9 @@
     ]
   },
   "D46": {
-    "value": "BLUE",
-    "mpn": "YLED1206B",
-    "lcsc": "C28310438",
+    "value": "GREEN",
+    "mpn": "YLED1206G",
+    "lcsc": "C30584801",
     "footprint": "Calibrator:LED_1206_3216Metric",
     "pins": {
       "1": "LED_K11",
@@ -1741,7 +1777,9 @@
       56.0,
       72.0,
       -90.0
-    ]
+    ],
+    "manufacturer": "YONGYUTAI",
+    "supplier_url": "https://www.lcsc.com/product-detail/C30584801.html"
   },
   "R62": {
     "value": "470R 1%",
@@ -1763,9 +1801,9 @@
     ]
   },
   "D62": {
-    "value": "BLUE",
-    "mpn": "YLED1206B",
-    "lcsc": "C28310438",
+    "value": "GREEN",
+    "mpn": "YLED1206G",
+    "lcsc": "C30584801",
     "footprint": "Calibrator:LED_1206_3216Metric",
     "pins": {
       "1": "LED_K11",
@@ -1779,7 +1817,9 @@
       56.0,
       84.0,
       -90.0
-    ]
+    ],
+    "manufacturer": "YONGYUTAI",
+    "supplier_url": "https://www.lcsc.com/product-detail/C30584801.html"
   },
   "C24": {
     "value": "100nF",
@@ -1877,8 +1917,8 @@
     "bom": true,
     "position": [
       65.0,
-      35.0,
-      90.0
+      36.15,
+      90
     ]
   },
   "R15": {
@@ -1901,9 +1941,9 @@
     ]
   },
   "D15": {
-    "value": "BLUE",
-    "mpn": "YLED1206B",
-    "lcsc": "C28310438",
+    "value": "GREEN",
+    "mpn": "YLED1206G",
+    "lcsc": "C30584801",
     "footprint": "Calibrator:LED_1206_3216Metric",
     "pins": {
       "1": "LED_K10",
@@ -1917,7 +1957,9 @@
       62.0,
       48.0,
       -90.0
-    ]
+    ],
+    "manufacturer": "YONGYUTAI",
+    "supplier_url": "https://www.lcsc.com/product-detail/C30584801.html"
   },
   "R31": {
     "value": "470R 1%",
@@ -1939,9 +1981,9 @@
     ]
   },
   "D31": {
-    "value": "BLUE",
-    "mpn": "YLED1206B",
-    "lcsc": "C28310438",
+    "value": "GREEN",
+    "mpn": "YLED1206G",
+    "lcsc": "C30584801",
     "footprint": "Calibrator:LED_1206_3216Metric",
     "pins": {
       "1": "LED_K10",
@@ -1955,7 +1997,9 @@
       62.0,
       60.0,
       -90.0
-    ]
+    ],
+    "manufacturer": "YONGYUTAI",
+    "supplier_url": "https://www.lcsc.com/product-detail/C30584801.html"
   },
   "R47": {
     "value": "470R 1%",
@@ -1977,9 +2021,9 @@
     ]
   },
   "D47": {
-    "value": "BLUE",
-    "mpn": "YLED1206B",
-    "lcsc": "C28310438",
+    "value": "GREEN",
+    "mpn": "YLED1206G",
+    "lcsc": "C30584801",
     "footprint": "Calibrator:LED_1206_3216Metric",
     "pins": {
       "1": "LED_K10",
@@ -1993,7 +2037,9 @@
       62.0,
       72.0,
       -90.0
-    ]
+    ],
+    "manufacturer": "YONGYUTAI",
+    "supplier_url": "https://www.lcsc.com/product-detail/C30584801.html"
   },
   "R63": {
     "value": "470R 1%",
@@ -2015,9 +2061,9 @@
     ]
   },
   "D63": {
-    "value": "BLUE",
-    "mpn": "YLED1206B",
-    "lcsc": "C28310438",
+    "value": "GREEN",
+    "mpn": "YLED1206G",
+    "lcsc": "C30584801",
     "footprint": "Calibrator:LED_1206_3216Metric",
     "pins": {
       "1": "LED_K10",
@@ -2031,7 +2077,9 @@
       62.0,
       84.0,
       -90.0
-    ]
+    ],
+    "manufacturer": "YONGYUTAI",
+    "supplier_url": "https://www.lcsc.com/product-detail/C30584801.html"
   },
   "C25": {
     "value": "100nF",
@@ -2129,8 +2177,8 @@
     "bom": true,
     "position": [
       71.0,
-      35.0,
-      90.0
+      36.15,
+      90
     ]
   },
   "R16": {
@@ -2153,9 +2201,9 @@
     ]
   },
   "D16": {
-    "value": "BLUE",
-    "mpn": "YLED1206B",
-    "lcsc": "C28310438",
+    "value": "GREEN",
+    "mpn": "YLED1206G",
+    "lcsc": "C30584801",
     "footprint": "Calibrator:LED_1206_3216Metric",
     "pins": {
       "1": "LED_K9",
@@ -2169,7 +2217,9 @@
       68.0,
       48.0,
       -90.0
-    ]
+    ],
+    "manufacturer": "YONGYUTAI",
+    "supplier_url": "https://www.lcsc.com/product-detail/C30584801.html"
   },
   "R32": {
     "value": "470R 1%",
@@ -2191,9 +2241,9 @@
     ]
   },
   "D32": {
-    "value": "BLUE",
-    "mpn": "YLED1206B",
-    "lcsc": "C28310438",
+    "value": "GREEN",
+    "mpn": "YLED1206G",
+    "lcsc": "C30584801",
     "footprint": "Calibrator:LED_1206_3216Metric",
     "pins": {
       "1": "LED_K9",
@@ -2207,7 +2257,9 @@
       68.0,
       60.0,
       -90.0
-    ]
+    ],
+    "manufacturer": "YONGYUTAI",
+    "supplier_url": "https://www.lcsc.com/product-detail/C30584801.html"
   },
   "R48": {
     "value": "470R 1%",
@@ -2229,9 +2281,9 @@
     ]
   },
   "D48": {
-    "value": "BLUE",
-    "mpn": "YLED1206B",
-    "lcsc": "C28310438",
+    "value": "GREEN",
+    "mpn": "YLED1206G",
+    "lcsc": "C30584801",
     "footprint": "Calibrator:LED_1206_3216Metric",
     "pins": {
       "1": "LED_K9",
@@ -2245,7 +2297,9 @@
       68.0,
       72.0,
       -90.0
-    ]
+    ],
+    "manufacturer": "YONGYUTAI",
+    "supplier_url": "https://www.lcsc.com/product-detail/C30584801.html"
   },
   "R64": {
     "value": "470R 1%",
@@ -2267,9 +2321,9 @@
     ]
   },
   "D64": {
-    "value": "BLUE",
-    "mpn": "YLED1206B",
-    "lcsc": "C28310438",
+    "value": "GREEN",
+    "mpn": "YLED1206G",
+    "lcsc": "C30584801",
     "footprint": "Calibrator:LED_1206_3216Metric",
     "pins": {
       "1": "LED_K9",
@@ -2283,7 +2337,9 @@
       68.0,
       84.0,
       -90.0
-    ]
+    ],
+    "manufacturer": "YONGYUTAI",
+    "supplier_url": "https://www.lcsc.com/product-detail/C30584801.html"
   },
   "C26": {
     "value": "100nF",
@@ -2381,8 +2437,8 @@
     "bom": true,
     "position": [
       77.0,
-      35.0,
-      90.0
+      36.15,
+      90
     ]
   },
   "R17": {
@@ -2405,9 +2461,9 @@
     ]
   },
   "D17": {
-    "value": "BLUE",
-    "mpn": "YLED1206B",
-    "lcsc": "C28310438",
+    "value": "GREEN",
+    "mpn": "YLED1206G",
+    "lcsc": "C30584801",
     "footprint": "Calibrator:LED_1206_3216Metric",
     "pins": {
       "1": "LED_K8",
@@ -2421,7 +2477,9 @@
       74.0,
       48.0,
       -90.0
-    ]
+    ],
+    "manufacturer": "YONGYUTAI",
+    "supplier_url": "https://www.lcsc.com/product-detail/C30584801.html"
   },
   "R33": {
     "value": "470R 1%",
@@ -2443,9 +2501,9 @@
     ]
   },
   "D33": {
-    "value": "BLUE",
-    "mpn": "YLED1206B",
-    "lcsc": "C28310438",
+    "value": "GREEN",
+    "mpn": "YLED1206G",
+    "lcsc": "C30584801",
     "footprint": "Calibrator:LED_1206_3216Metric",
     "pins": {
       "1": "LED_K8",
@@ -2459,7 +2517,9 @@
       74.0,
       60.0,
       -90.0
-    ]
+    ],
+    "manufacturer": "YONGYUTAI",
+    "supplier_url": "https://www.lcsc.com/product-detail/C30584801.html"
   },
   "R49": {
     "value": "470R 1%",
@@ -2481,9 +2541,9 @@
     ]
   },
   "D49": {
-    "value": "BLUE",
-    "mpn": "YLED1206B",
-    "lcsc": "C28310438",
+    "value": "GREEN",
+    "mpn": "YLED1206G",
+    "lcsc": "C30584801",
     "footprint": "Calibrator:LED_1206_3216Metric",
     "pins": {
       "1": "LED_K8",
@@ -2497,7 +2557,9 @@
       74.0,
       72.0,
       -90.0
-    ]
+    ],
+    "manufacturer": "YONGYUTAI",
+    "supplier_url": "https://www.lcsc.com/product-detail/C30584801.html"
   },
   "R65": {
     "value": "470R 1%",
@@ -2519,9 +2581,9 @@
     ]
   },
   "D65": {
-    "value": "BLUE",
-    "mpn": "YLED1206B",
-    "lcsc": "C28310438",
+    "value": "GREEN",
+    "mpn": "YLED1206G",
+    "lcsc": "C30584801",
     "footprint": "Calibrator:LED_1206_3216Metric",
     "pins": {
       "1": "LED_K8",
@@ -2535,7 +2597,9 @@
       74.0,
       84.0,
       -90.0
-    ]
+    ],
+    "manufacturer": "YONGYUTAI",
+    "supplier_url": "https://www.lcsc.com/product-detail/C30584801.html"
   },
   "C27": {
     "value": "100nF",
@@ -2633,8 +2697,8 @@
     "bom": true,
     "position": [
       83.0,
-      35.0,
-      90.0
+      36.15,
+      90
     ]
   },
   "R18": {
@@ -2657,9 +2721,9 @@
     ]
   },
   "D18": {
-    "value": "BLUE",
-    "mpn": "YLED1206B",
-    "lcsc": "C28310438",
+    "value": "GREEN",
+    "mpn": "YLED1206G",
+    "lcsc": "C30584801",
     "footprint": "Calibrator:LED_1206_3216Metric",
     "pins": {
       "1": "LED_K7",
@@ -2673,7 +2737,9 @@
       80.0,
       48.0,
       -90.0
-    ]
+    ],
+    "manufacturer": "YONGYUTAI",
+    "supplier_url": "https://www.lcsc.com/product-detail/C30584801.html"
   },
   "R34": {
     "value": "470R 1%",
@@ -2695,9 +2761,9 @@
     ]
   },
   "D34": {
-    "value": "BLUE",
-    "mpn": "YLED1206B",
-    "lcsc": "C28310438",
+    "value": "GREEN",
+    "mpn": "YLED1206G",
+    "lcsc": "C30584801",
     "footprint": "Calibrator:LED_1206_3216Metric",
     "pins": {
       "1": "LED_K7",
@@ -2711,7 +2777,9 @@
       80.0,
       60.0,
       -90.0
-    ]
+    ],
+    "manufacturer": "YONGYUTAI",
+    "supplier_url": "https://www.lcsc.com/product-detail/C30584801.html"
   },
   "R50": {
     "value": "470R 1%",
@@ -2733,9 +2801,9 @@
     ]
   },
   "D50": {
-    "value": "BLUE",
-    "mpn": "YLED1206B",
-    "lcsc": "C28310438",
+    "value": "GREEN",
+    "mpn": "YLED1206G",
+    "lcsc": "C30584801",
     "footprint": "Calibrator:LED_1206_3216Metric",
     "pins": {
       "1": "LED_K7",
@@ -2749,7 +2817,9 @@
       80.0,
       72.0,
       -90.0
-    ]
+    ],
+    "manufacturer": "YONGYUTAI",
+    "supplier_url": "https://www.lcsc.com/product-detail/C30584801.html"
   },
   "R66": {
     "value": "470R 1%",
@@ -2771,9 +2841,9 @@
     ]
   },
   "D66": {
-    "value": "BLUE",
-    "mpn": "YLED1206B",
-    "lcsc": "C28310438",
+    "value": "GREEN",
+    "mpn": "YLED1206G",
+    "lcsc": "C30584801",
     "footprint": "Calibrator:LED_1206_3216Metric",
     "pins": {
       "1": "LED_K7",
@@ -2787,7 +2857,9 @@
       80.0,
       84.0,
       -90.0
-    ]
+    ],
+    "manufacturer": "YONGYUTAI",
+    "supplier_url": "https://www.lcsc.com/product-detail/C30584801.html"
   },
   "C28": {
     "value": "100nF",
@@ -2885,8 +2957,8 @@
     "bom": true,
     "position": [
       89.0,
-      35.0,
-      90.0
+      36.15,
+      90
     ]
   },
   "R19": {
@@ -2909,9 +2981,9 @@
     ]
   },
   "D19": {
-    "value": "BLUE",
-    "mpn": "YLED1206B",
-    "lcsc": "C28310438",
+    "value": "GREEN",
+    "mpn": "YLED1206G",
+    "lcsc": "C30584801",
     "footprint": "Calibrator:LED_1206_3216Metric",
     "pins": {
       "1": "LED_K6",
@@ -2925,7 +2997,9 @@
       86.0,
       48.0,
       -90.0
-    ]
+    ],
+    "manufacturer": "YONGYUTAI",
+    "supplier_url": "https://www.lcsc.com/product-detail/C30584801.html"
   },
   "R35": {
     "value": "470R 1%",
@@ -2947,9 +3021,9 @@
     ]
   },
   "D35": {
-    "value": "BLUE",
-    "mpn": "YLED1206B",
-    "lcsc": "C28310438",
+    "value": "GREEN",
+    "mpn": "YLED1206G",
+    "lcsc": "C30584801",
     "footprint": "Calibrator:LED_1206_3216Metric",
     "pins": {
       "1": "LED_K6",
@@ -2963,7 +3037,9 @@
       86.0,
       60.0,
       -90.0
-    ]
+    ],
+    "manufacturer": "YONGYUTAI",
+    "supplier_url": "https://www.lcsc.com/product-detail/C30584801.html"
   },
   "R51": {
     "value": "470R 1%",
@@ -2985,9 +3061,9 @@
     ]
   },
   "D51": {
-    "value": "BLUE",
-    "mpn": "YLED1206B",
-    "lcsc": "C28310438",
+    "value": "GREEN",
+    "mpn": "YLED1206G",
+    "lcsc": "C30584801",
     "footprint": "Calibrator:LED_1206_3216Metric",
     "pins": {
       "1": "LED_K6",
@@ -3001,7 +3077,9 @@
       86.0,
       72.0,
       -90.0
-    ]
+    ],
+    "manufacturer": "YONGYUTAI",
+    "supplier_url": "https://www.lcsc.com/product-detail/C30584801.html"
   },
   "R67": {
     "value": "470R 1%",
@@ -3023,9 +3101,9 @@
     ]
   },
   "D67": {
-    "value": "BLUE",
-    "mpn": "YLED1206B",
-    "lcsc": "C28310438",
+    "value": "GREEN",
+    "mpn": "YLED1206G",
+    "lcsc": "C30584801",
     "footprint": "Calibrator:LED_1206_3216Metric",
     "pins": {
       "1": "LED_K6",
@@ -3039,7 +3117,9 @@
       86.0,
       84.0,
       -90.0
-    ]
+    ],
+    "manufacturer": "YONGYUTAI",
+    "supplier_url": "https://www.lcsc.com/product-detail/C30584801.html"
   },
   "C29": {
     "value": "100nF",
@@ -3137,8 +3217,8 @@
     "bom": true,
     "position": [
       95.0,
-      35.0,
-      90.0
+      36.15,
+      90
     ]
   },
   "R20": {
@@ -3161,9 +3241,9 @@
     ]
   },
   "D20": {
-    "value": "BLUE",
-    "mpn": "YLED1206B",
-    "lcsc": "C28310438",
+    "value": "GREEN",
+    "mpn": "YLED1206G",
+    "lcsc": "C30584801",
     "footprint": "Calibrator:LED_1206_3216Metric",
     "pins": {
       "1": "LED_K5",
@@ -3177,7 +3257,9 @@
       92.0,
       48.0,
       -90.0
-    ]
+    ],
+    "manufacturer": "YONGYUTAI",
+    "supplier_url": "https://www.lcsc.com/product-detail/C30584801.html"
   },
   "R36": {
     "value": "470R 1%",
@@ -3199,9 +3281,9 @@
     ]
   },
   "D36": {
-    "value": "BLUE",
-    "mpn": "YLED1206B",
-    "lcsc": "C28310438",
+    "value": "GREEN",
+    "mpn": "YLED1206G",
+    "lcsc": "C30584801",
     "footprint": "Calibrator:LED_1206_3216Metric",
     "pins": {
       "1": "LED_K5",
@@ -3215,7 +3297,9 @@
       92.0,
       60.0,
       -90.0
-    ]
+    ],
+    "manufacturer": "YONGYUTAI",
+    "supplier_url": "https://www.lcsc.com/product-detail/C30584801.html"
   },
   "R52": {
     "value": "470R 1%",
@@ -3237,9 +3321,9 @@
     ]
   },
   "D52": {
-    "value": "BLUE",
-    "mpn": "YLED1206B",
-    "lcsc": "C28310438",
+    "value": "GREEN",
+    "mpn": "YLED1206G",
+    "lcsc": "C30584801",
     "footprint": "Calibrator:LED_1206_3216Metric",
     "pins": {
       "1": "LED_K5",
@@ -3253,7 +3337,9 @@
       92.0,
       72.0,
       -90.0
-    ]
+    ],
+    "manufacturer": "YONGYUTAI",
+    "supplier_url": "https://www.lcsc.com/product-detail/C30584801.html"
   },
   "R68": {
     "value": "470R 1%",
@@ -3275,9 +3361,9 @@
     ]
   },
   "D68": {
-    "value": "BLUE",
-    "mpn": "YLED1206B",
-    "lcsc": "C28310438",
+    "value": "GREEN",
+    "mpn": "YLED1206G",
+    "lcsc": "C30584801",
     "footprint": "Calibrator:LED_1206_3216Metric",
     "pins": {
       "1": "LED_K5",
@@ -3291,7 +3377,9 @@
       92.0,
       84.0,
       -90.0
-    ]
+    ],
+    "manufacturer": "YONGYUTAI",
+    "supplier_url": "https://www.lcsc.com/product-detail/C30584801.html"
   },
   "C30": {
     "value": "100nF",
@@ -3389,8 +3477,8 @@
     "bom": true,
     "position": [
       101.0,
-      35.0,
-      90.0
+      36.15,
+      90
     ]
   },
   "R21": {
@@ -3413,9 +3501,9 @@
     ]
   },
   "D21": {
-    "value": "BLUE",
-    "mpn": "YLED1206B",
-    "lcsc": "C28310438",
+    "value": "GREEN",
+    "mpn": "YLED1206G",
+    "lcsc": "C30584801",
     "footprint": "Calibrator:LED_1206_3216Metric",
     "pins": {
       "1": "LED_K4",
@@ -3429,7 +3517,9 @@
       98.0,
       48.0,
       -90.0
-    ]
+    ],
+    "manufacturer": "YONGYUTAI",
+    "supplier_url": "https://www.lcsc.com/product-detail/C30584801.html"
   },
   "R37": {
     "value": "470R 1%",
@@ -3451,9 +3541,9 @@
     ]
   },
   "D37": {
-    "value": "BLUE",
-    "mpn": "YLED1206B",
-    "lcsc": "C28310438",
+    "value": "GREEN",
+    "mpn": "YLED1206G",
+    "lcsc": "C30584801",
     "footprint": "Calibrator:LED_1206_3216Metric",
     "pins": {
       "1": "LED_K4",
@@ -3467,7 +3557,9 @@
       98.0,
       60.0,
       -90.0
-    ]
+    ],
+    "manufacturer": "YONGYUTAI",
+    "supplier_url": "https://www.lcsc.com/product-detail/C30584801.html"
   },
   "R53": {
     "value": "470R 1%",
@@ -3489,9 +3581,9 @@
     ]
   },
   "D53": {
-    "value": "BLUE",
-    "mpn": "YLED1206B",
-    "lcsc": "C28310438",
+    "value": "GREEN",
+    "mpn": "YLED1206G",
+    "lcsc": "C30584801",
     "footprint": "Calibrator:LED_1206_3216Metric",
     "pins": {
       "1": "LED_K4",
@@ -3505,7 +3597,9 @@
       98.0,
       72.0,
       -90.0
-    ]
+    ],
+    "manufacturer": "YONGYUTAI",
+    "supplier_url": "https://www.lcsc.com/product-detail/C30584801.html"
   },
   "R69": {
     "value": "470R 1%",
@@ -3527,9 +3621,9 @@
     ]
   },
   "D69": {
-    "value": "BLUE",
-    "mpn": "YLED1206B",
-    "lcsc": "C28310438",
+    "value": "GREEN",
+    "mpn": "YLED1206G",
+    "lcsc": "C30584801",
     "footprint": "Calibrator:LED_1206_3216Metric",
     "pins": {
       "1": "LED_K4",
@@ -3543,7 +3637,9 @@
       98.0,
       84.0,
       -90.0
-    ]
+    ],
+    "manufacturer": "YONGYUTAI",
+    "supplier_url": "https://www.lcsc.com/product-detail/C30584801.html"
   },
   "C31": {
     "value": "100nF",
@@ -3641,8 +3737,8 @@
     "bom": true,
     "position": [
       107.0,
-      35.0,
-      90.0
+      36.15,
+      90
     ]
   },
   "R22": {
@@ -3665,9 +3761,9 @@
     ]
   },
   "D22": {
-    "value": "BLUE",
-    "mpn": "YLED1206B",
-    "lcsc": "C28310438",
+    "value": "GREEN",
+    "mpn": "YLED1206G",
+    "lcsc": "C30584801",
     "footprint": "Calibrator:LED_1206_3216Metric",
     "pins": {
       "1": "LED_K3",
@@ -3681,7 +3777,9 @@
       104.0,
       48.0,
       -90.0
-    ]
+    ],
+    "manufacturer": "YONGYUTAI",
+    "supplier_url": "https://www.lcsc.com/product-detail/C30584801.html"
   },
   "R38": {
     "value": "470R 1%",
@@ -3703,9 +3801,9 @@
     ]
   },
   "D38": {
-    "value": "BLUE",
-    "mpn": "YLED1206B",
-    "lcsc": "C28310438",
+    "value": "GREEN",
+    "mpn": "YLED1206G",
+    "lcsc": "C30584801",
     "footprint": "Calibrator:LED_1206_3216Metric",
     "pins": {
       "1": "LED_K3",
@@ -3719,7 +3817,9 @@
       104.0,
       60.0,
       -90.0
-    ]
+    ],
+    "manufacturer": "YONGYUTAI",
+    "supplier_url": "https://www.lcsc.com/product-detail/C30584801.html"
   },
   "R54": {
     "value": "470R 1%",
@@ -3741,9 +3841,9 @@
     ]
   },
   "D54": {
-    "value": "BLUE",
-    "mpn": "YLED1206B",
-    "lcsc": "C28310438",
+    "value": "GREEN",
+    "mpn": "YLED1206G",
+    "lcsc": "C30584801",
     "footprint": "Calibrator:LED_1206_3216Metric",
     "pins": {
       "1": "LED_K3",
@@ -3757,7 +3857,9 @@
       104.0,
       72.0,
       -90.0
-    ]
+    ],
+    "manufacturer": "YONGYUTAI",
+    "supplier_url": "https://www.lcsc.com/product-detail/C30584801.html"
   },
   "R70": {
     "value": "470R 1%",
@@ -3779,9 +3881,9 @@
     ]
   },
   "D70": {
-    "value": "BLUE",
-    "mpn": "YLED1206B",
-    "lcsc": "C28310438",
+    "value": "GREEN",
+    "mpn": "YLED1206G",
+    "lcsc": "C30584801",
     "footprint": "Calibrator:LED_1206_3216Metric",
     "pins": {
       "1": "LED_K3",
@@ -3795,7 +3897,9 @@
       104.0,
       84.0,
       -90.0
-    ]
+    ],
+    "manufacturer": "YONGYUTAI",
+    "supplier_url": "https://www.lcsc.com/product-detail/C30584801.html"
   },
   "C32": {
     "value": "100nF",
@@ -3893,8 +3997,8 @@
     "bom": true,
     "position": [
       113.0,
-      35.0,
-      90.0
+      36.15,
+      90
     ]
   },
   "R23": {
@@ -3917,9 +4021,9 @@
     ]
   },
   "D23": {
-    "value": "BLUE",
-    "mpn": "YLED1206B",
-    "lcsc": "C28310438",
+    "value": "GREEN",
+    "mpn": "YLED1206G",
+    "lcsc": "C30584801",
     "footprint": "Calibrator:LED_1206_3216Metric",
     "pins": {
       "1": "LED_K2",
@@ -3933,7 +4037,9 @@
       110.0,
       48.0,
       -90.0
-    ]
+    ],
+    "manufacturer": "YONGYUTAI",
+    "supplier_url": "https://www.lcsc.com/product-detail/C30584801.html"
   },
   "R39": {
     "value": "470R 1%",
@@ -3955,9 +4061,9 @@
     ]
   },
   "D39": {
-    "value": "BLUE",
-    "mpn": "YLED1206B",
-    "lcsc": "C28310438",
+    "value": "GREEN",
+    "mpn": "YLED1206G",
+    "lcsc": "C30584801",
     "footprint": "Calibrator:LED_1206_3216Metric",
     "pins": {
       "1": "LED_K2",
@@ -3971,7 +4077,9 @@
       110.0,
       60.0,
       -90.0
-    ]
+    ],
+    "manufacturer": "YONGYUTAI",
+    "supplier_url": "https://www.lcsc.com/product-detail/C30584801.html"
   },
   "R55": {
     "value": "470R 1%",
@@ -3993,9 +4101,9 @@
     ]
   },
   "D55": {
-    "value": "BLUE",
-    "mpn": "YLED1206B",
-    "lcsc": "C28310438",
+    "value": "GREEN",
+    "mpn": "YLED1206G",
+    "lcsc": "C30584801",
     "footprint": "Calibrator:LED_1206_3216Metric",
     "pins": {
       "1": "LED_K2",
@@ -4009,7 +4117,9 @@
       110.0,
       72.0,
       -90.0
-    ]
+    ],
+    "manufacturer": "YONGYUTAI",
+    "supplier_url": "https://www.lcsc.com/product-detail/C30584801.html"
   },
   "R71": {
     "value": "470R 1%",
@@ -4031,9 +4141,9 @@
     ]
   },
   "D71": {
-    "value": "BLUE",
-    "mpn": "YLED1206B",
-    "lcsc": "C28310438",
+    "value": "GREEN",
+    "mpn": "YLED1206G",
+    "lcsc": "C30584801",
     "footprint": "Calibrator:LED_1206_3216Metric",
     "pins": {
       "1": "LED_K2",
@@ -4047,7 +4157,9 @@
       110.0,
       84.0,
       -90.0
-    ]
+    ],
+    "manufacturer": "YONGYUTAI",
+    "supplier_url": "https://www.lcsc.com/product-detail/C30584801.html"
   },
   "C33": {
     "value": "100nF",
@@ -4145,8 +4257,8 @@
     "bom": true,
     "position": [
       119.0,
-      35.0,
-      90.0
+      36.15,
+      90
     ]
   },
   "R24": {
@@ -4169,9 +4281,9 @@
     ]
   },
   "D24": {
-    "value": "BLUE",
-    "mpn": "YLED1206B",
-    "lcsc": "C28310438",
+    "value": "GREEN",
+    "mpn": "YLED1206G",
+    "lcsc": "C30584801",
     "footprint": "Calibrator:LED_1206_3216Metric",
     "pins": {
       "1": "LED_K1",
@@ -4185,7 +4297,9 @@
       116.0,
       48.0,
       -90.0
-    ]
+    ],
+    "manufacturer": "YONGYUTAI",
+    "supplier_url": "https://www.lcsc.com/product-detail/C30584801.html"
   },
   "R40": {
     "value": "470R 1%",
@@ -4207,9 +4321,9 @@
     ]
   },
   "D40": {
-    "value": "BLUE",
-    "mpn": "YLED1206B",
-    "lcsc": "C28310438",
+    "value": "GREEN",
+    "mpn": "YLED1206G",
+    "lcsc": "C30584801",
     "footprint": "Calibrator:LED_1206_3216Metric",
     "pins": {
       "1": "LED_K1",
@@ -4223,7 +4337,9 @@
       116.0,
       60.0,
       -90.0
-    ]
+    ],
+    "manufacturer": "YONGYUTAI",
+    "supplier_url": "https://www.lcsc.com/product-detail/C30584801.html"
   },
   "R56": {
     "value": "470R 1%",
@@ -4245,9 +4361,9 @@
     ]
   },
   "D56": {
-    "value": "BLUE",
-    "mpn": "YLED1206B",
-    "lcsc": "C28310438",
+    "value": "GREEN",
+    "mpn": "YLED1206G",
+    "lcsc": "C30584801",
     "footprint": "Calibrator:LED_1206_3216Metric",
     "pins": {
       "1": "LED_K1",
@@ -4261,7 +4377,9 @@
       116.0,
       72.0,
       -90.0
-    ]
+    ],
+    "manufacturer": "YONGYUTAI",
+    "supplier_url": "https://www.lcsc.com/product-detail/C30584801.html"
   },
   "R72": {
     "value": "470R 1%",
@@ -4283,9 +4401,9 @@
     ]
   },
   "D72": {
-    "value": "BLUE",
-    "mpn": "YLED1206B",
-    "lcsc": "C28310438",
+    "value": "GREEN",
+    "mpn": "YLED1206G",
+    "lcsc": "C30584801",
     "footprint": "Calibrator:LED_1206_3216Metric",
     "pins": {
       "1": "LED_K1",
@@ -4299,7 +4417,9 @@
       116.0,
       84.0,
       -90.0
-    ]
+    ],
+    "manufacturer": "YONGYUTAI",
+    "supplier_url": "https://www.lcsc.com/product-detail/C30584801.html"
   },
   "C34": {
     "value": "100nF",
@@ -4397,8 +4517,8 @@
     "bom": true,
     "position": [
       125.0,
-      35.0,
-      90.0
+      36.15,
+      90
     ]
   },
   "R25": {
@@ -4421,9 +4541,9 @@
     ]
   },
   "D25": {
-    "value": "BLUE",
-    "mpn": "YLED1206B",
-    "lcsc": "C28310438",
+    "value": "GREEN",
+    "mpn": "YLED1206G",
+    "lcsc": "C30584801",
     "footprint": "Calibrator:LED_1206_3216Metric",
     "pins": {
       "1": "LED_K0",
@@ -4437,7 +4557,9 @@
       122.0,
       48.0,
       -90.0
-    ]
+    ],
+    "manufacturer": "YONGYUTAI",
+    "supplier_url": "https://www.lcsc.com/product-detail/C30584801.html"
   },
   "R41": {
     "value": "470R 1%",
@@ -4459,9 +4581,9 @@
     ]
   },
   "D41": {
-    "value": "BLUE",
-    "mpn": "YLED1206B",
-    "lcsc": "C28310438",
+    "value": "GREEN",
+    "mpn": "YLED1206G",
+    "lcsc": "C30584801",
     "footprint": "Calibrator:LED_1206_3216Metric",
     "pins": {
       "1": "LED_K0",
@@ -4475,7 +4597,9 @@
       122.0,
       60.0,
       -90.0
-    ]
+    ],
+    "manufacturer": "YONGYUTAI",
+    "supplier_url": "https://www.lcsc.com/product-detail/C30584801.html"
   },
   "R57": {
     "value": "470R 1%",
@@ -4497,9 +4621,9 @@
     ]
   },
   "D57": {
-    "value": "BLUE",
-    "mpn": "YLED1206B",
-    "lcsc": "C28310438",
+    "value": "GREEN",
+    "mpn": "YLED1206G",
+    "lcsc": "C30584801",
     "footprint": "Calibrator:LED_1206_3216Metric",
     "pins": {
       "1": "LED_K0",
@@ -4513,7 +4637,9 @@
       122.0,
       72.0,
       -90.0
-    ]
+    ],
+    "manufacturer": "YONGYUTAI",
+    "supplier_url": "https://www.lcsc.com/product-detail/C30584801.html"
   },
   "R73": {
     "value": "470R 1%",
@@ -4535,9 +4661,9 @@
     ]
   },
   "D73": {
-    "value": "BLUE",
-    "mpn": "YLED1206B",
-    "lcsc": "C28310438",
+    "value": "GREEN",
+    "mpn": "YLED1206G",
+    "lcsc": "C30584801",
     "footprint": "Calibrator:LED_1206_3216Metric",
     "pins": {
       "1": "LED_K0",
@@ -4551,7 +4677,9 @@
       122.0,
       84.0,
       -90.0
-    ]
+    ],
+    "manufacturer": "YONGYUTAI",
+    "supplier_url": "https://www.lcsc.com/product-detail/C30584801.html"
   },
   "C35": {
     "value": "100nF",
@@ -4592,155 +4720,22 @@
     ]
   },
   "R140": {
-    "value": "100k",
-    "mpn": "RC0805FR-07100KL",
-    "lcsc": "C96346",
+    "value": "10k",
+    "mpn": "0805W8F1002T5E",
+    "lcsc": "C17414",
     "footprint": "Calibrator:R_0805_2012Metric",
     "pins": {
-      "1": "FPGA_IOB_18A",
-      "2": "GND"
+      "1": "+3V3_LOGIC",
+      "2": "FPGA_IOT_44B"
     },
     "kind": "r",
     "types": {},
     "names": {},
     "bom": true,
     "position": [
-      34.0,
-      15.0,
-      90.0
-    ]
-  },
-  "R141": {
-    "value": "100k",
-    "mpn": "RC0805FR-07100KL",
-    "lcsc": "C96346",
-    "footprint": "Calibrator:R_0805_2012Metric",
-    "pins": {
-      "1": "FPGA_IOB_16A",
-      "2": "GND"
-    },
-    "kind": "r",
-    "types": {},
-    "names": {},
-    "bom": true,
-    "position": [
-      40.0,
-      15.0,
-      90.0
-    ]
-  },
-  "R142": {
-    "value": "100k",
-    "mpn": "RC0805FR-07100KL",
-    "lcsc": "C96346",
-    "footprint": "Calibrator:R_0805_2012Metric",
-    "pins": {
-      "1": "FPGA_IOB_22A",
-      "2": "GND"
-    },
-    "kind": "r",
-    "types": {},
-    "names": {},
-    "bom": true,
-    "position": [
-      46.0,
-      15.0,
-      90.0
-    ]
-  },
-  "R143": {
-    "value": "100k",
-    "mpn": "RC0805FR-07100KL",
-    "lcsc": "C96346",
-    "footprint": "Calibrator:R_0805_2012Metric",
-    "pins": {
-      "1": "FPGA_IOB_13B",
-      "2": "GND"
-    },
-    "kind": "r",
-    "types": {},
-    "names": {},
-    "bom": true,
-    "position": [
-      52.0,
-      15.0,
-      90.0
-    ]
-  },
-  "R144": {
-    "value": "100k",
-    "mpn": "RC0805FR-07100KL",
-    "lcsc": "C96346",
-    "footprint": "Calibrator:R_0805_2012Metric",
-    "pins": {
-      "1": "FPGA_IOB_20A",
-      "2": "GND"
-    },
-    "kind": "r",
-    "types": {},
-    "names": {},
-    "bom": true,
-    "position": [
-      58.0,
-      15.0,
-      90.0
-    ]
-  },
-  "R145": {
-    "value": "100k",
-    "mpn": "RC0805FR-07100KL",
-    "lcsc": "C96346",
-    "footprint": "Calibrator:R_0805_2012Metric",
-    "pins": {
-      "1": "FPGA_IOB_23B",
-      "2": "GND"
-    },
-    "kind": "r",
-    "types": {},
-    "names": {},
-    "bom": true,
-    "position": [
-      64.0,
-      15.0,
-      90.0
-    ]
-  },
-  "R146": {
-    "value": "100k",
-    "mpn": "RC0805FR-07100KL",
-    "lcsc": "C96346",
-    "footprint": "Calibrator:R_0805_2012Metric",
-    "pins": {
-      "1": "FPGA_IOB_29B",
-      "2": "GND"
-    },
-    "kind": "r",
-    "types": {},
-    "names": {},
-    "bom": true,
-    "position": [
-      70.0,
-      15.0,
-      90.0
-    ]
-  },
-  "R147": {
-    "value": "100k",
-    "mpn": "RC0805FR-07100KL",
-    "lcsc": "C96346",
-    "footprint": "Calibrator:R_0805_2012Metric",
-    "pins": {
-      "1": "FPGA_IOB_25B_G3",
-      "2": "GND"
-    },
-    "kind": "r",
-    "types": {},
-    "names": {},
-    "bom": true,
-    "position": [
-      76.0,
-      15.0,
-      90.0
+      115,
+      23,
+      0
     ]
   },
   "U3": {
@@ -4749,26 +4744,26 @@
     "lcsc": "C113281",
     "footprint": "Calibrator:TSSOP-20_4.4x6.5mm_P0.65mm",
     "pins": {
-      "1": "GND",
+      "1": "FPGA_IOT_44B",
       "19": "GND",
       "10": "GND",
       "20": "+3V3_LOGIC",
-      "2": "FPGA_IOB_18A",
-      "18": "DRIVE15",
-      "3": "FPGA_IOB_16A",
-      "17": "DRIVE14",
-      "4": "FPGA_IOB_22A",
-      "16": "DRIVE13",
-      "5": "FPGA_IOB_13B",
-      "15": "DRIVE12",
-      "6": "FPGA_IOB_20A",
-      "14": "DRIVE11",
-      "7": "FPGA_IOB_23B",
-      "13": "DRIVE10",
-      "8": "FPGA_IOB_29B",
-      "12": "DRIVE9",
-      "9": "FPGA_IOB_25B_G3",
-      "11": "DRIVE8"
+      "2": "FPGA_IOB_29B",
+      "18": "DRIVE8",
+      "3": "FPGA_IOB_23B",
+      "17": "DRIVE9",
+      "4": "FPGA_IOT_37A",
+      "16": "DRIVE10",
+      "5": "FPGA_IOB_20A",
+      "15": "DRIVE11",
+      "6": "FPGA_IOB_13B",
+      "14": "DRIVE12",
+      "7": "FPGA_IOB_22A",
+      "13": "DRIVE13",
+      "8": "FPGA_IOB_16A",
+      "12": "DRIVE14",
+      "9": "FPGA_IOB_18A",
+      "11": "DRIVE15"
     },
     "kind": "ic",
     "types": {
@@ -4817,9 +4812,9 @@
     },
     "bom": true,
     "position": [
-      57.0,
-      24.0,
-      90.0
+      53.65,
+      24,
+      270
     ]
   },
   "C4": {
@@ -4836,161 +4831,9 @@
     "names": {},
     "bom": true,
     "position": [
-      51.75,
-      21.1375,
-      180.0
-    ]
-  },
-  "R148": {
-    "value": "100k",
-    "mpn": "RC0805FR-07100KL",
-    "lcsc": "C96346",
-    "footprint": "Calibrator:R_0805_2012Metric",
-    "pins": {
-      "1": "FPGA_IOT_36B",
-      "2": "GND"
-    },
-    "kind": "r",
-    "types": {},
-    "names": {},
-    "bom": true,
-    "position": [
-      82.0,
-      15.0,
-      90.0
-    ]
-  },
-  "R149": {
-    "value": "100k",
-    "mpn": "RC0805FR-07100KL",
-    "lcsc": "C96346",
-    "footprint": "Calibrator:R_0805_2012Metric",
-    "pins": {
-      "1": "FPGA_IOT_38B",
-      "2": "GND"
-    },
-    "kind": "r",
-    "types": {},
-    "names": {},
-    "bom": true,
-    "position": [
-      88.0,
-      15.0,
-      90.0
-    ]
-  },
-  "R150": {
-    "value": "100k",
-    "mpn": "RC0805FR-07100KL",
-    "lcsc": "C96346",
-    "footprint": "Calibrator:R_0805_2012Metric",
-    "pins": {
-      "1": "FPGA_IOT_39A",
-      "2": "GND"
-    },
-    "kind": "r",
-    "types": {},
-    "names": {},
-    "bom": true,
-    "position": [
-      94.0,
-      15.0,
-      90.0
-    ]
-  },
-  "R151": {
-    "value": "100k",
-    "mpn": "RC0805FR-07100KL",
-    "lcsc": "C96346",
-    "footprint": "Calibrator:R_0805_2012Metric",
-    "pins": {
-      "1": "FPGA_IOT_41A",
-      "2": "GND"
-    },
-    "kind": "r",
-    "types": {},
-    "names": {},
-    "bom": true,
-    "position": [
-      100.0,
-      15.0,
-      90.0
-    ]
-  },
-  "R152": {
-    "value": "100k",
-    "mpn": "RC0805FR-07100KL",
-    "lcsc": "C96346",
-    "footprint": "Calibrator:R_0805_2012Metric",
-    "pins": {
-      "1": "FPGA_IOT_42B",
-      "2": "GND"
-    },
-    "kind": "r",
-    "types": {},
-    "names": {},
-    "bom": true,
-    "position": [
-      106.0,
-      15.0,
-      90.0
-    ]
-  },
-  "R153": {
-    "value": "100k",
-    "mpn": "RC0805FR-07100KL",
-    "lcsc": "C96346",
-    "footprint": "Calibrator:R_0805_2012Metric",
-    "pins": {
-      "1": "FPGA_IOT_43A",
-      "2": "GND"
-    },
-    "kind": "r",
-    "types": {},
-    "names": {},
-    "bom": true,
-    "position": [
-      112.0,
-      15.0,
-      90.0
-    ]
-  },
-  "R154": {
-    "value": "100k",
-    "mpn": "RC0805FR-07100KL",
-    "lcsc": "C96346",
-    "footprint": "Calibrator:R_0805_2012Metric",
-    "pins": {
-      "1": "FPGA_IOT_48B",
-      "2": "GND"
-    },
-    "kind": "r",
-    "types": {},
-    "names": {},
-    "bom": true,
-    "position": [
-      118.0,
-      15.0,
-      90.0
-    ]
-  },
-  "R155": {
-    "value": "100k",
-    "mpn": "RC0805FR-07100KL",
-    "lcsc": "C96346",
-    "footprint": "Calibrator:R_0805_2012Metric",
-    "pins": {
-      "1": "FPGA_IOT_45A_G1",
-      "2": "GND"
-    },
-    "kind": "r",
-    "types": {},
-    "names": {},
-    "bom": true,
-    "position": [
-      124.0,
-      15.0,
-      90.0
+      59.5,
+      26.8625,
+      0
     ]
   },
   "U4": {
@@ -4999,26 +4842,26 @@
     "lcsc": "C113281",
     "footprint": "Calibrator:TSSOP-20_4.4x6.5mm_P0.65mm",
     "pins": {
-      "1": "GND",
+      "1": "FPGA_IOT_44B",
       "19": "GND",
       "10": "GND",
       "20": "+3V3_LOGIC",
-      "2": "FPGA_IOT_36B",
-      "18": "DRIVE7",
-      "3": "FPGA_IOT_38B",
-      "17": "DRIVE6",
-      "4": "FPGA_IOT_39A",
-      "16": "DRIVE5",
+      "2": "FPGA_IOT_48B",
+      "18": "DRIVE0",
+      "3": "FPGA_IOT_43A",
+      "17": "DRIVE1",
+      "4": "FPGA_IOT_42B",
+      "16": "DRIVE2",
       "5": "FPGA_IOT_41A",
-      "15": "DRIVE4",
-      "6": "FPGA_IOT_42B",
-      "14": "DRIVE3",
-      "7": "FPGA_IOT_43A",
-      "13": "DRIVE2",
-      "8": "FPGA_IOT_48B",
-      "12": "DRIVE1",
-      "9": "FPGA_IOT_45A_G1",
-      "11": "DRIVE0"
+      "15": "DRIVE3",
+      "6": "FPGA_IOT_39A",
+      "14": "DRIVE4",
+      "7": "FPGA_IOT_38B",
+      "13": "DRIVE5",
+      "8": "FPGA_IOT_36B",
+      "12": "DRIVE6",
+      "9": "FPGA_IOB_25B_G3",
+      "11": "DRIVE7"
     },
     "kind": "ic",
     "types": {
@@ -5067,9 +4910,9 @@
     },
     "bom": true,
     "position": [
-      105.0,
-      24.0,
-      90.0
+      101.65,
+      24,
+      270
     ]
   },
   "C5": {
@@ -5086,9 +4929,9 @@
     "names": {},
     "bom": true,
     "position": [
-      99.75,
-      21.1375,
-      180.0
+      107.5,
+      26.8625,
+      0
     ]
   },
   "U6": {
@@ -5105,19 +4948,21 @@
       "6": "+3V3_GPS",
       "7": "+3V3_GPS",
       "8": "+3V3_GPS",
-      "9": null,
+      "9": "GPS_RESET_N",
       "10": "GND",
       "11": "GNSS_RF",
       "12": "GND",
       "13": null,
-      "14": null,
+      "14": "ANT_PWR",
       "15": null,
       "16": null,
       "17": null,
       "18": null
     },
     "kind": "ic",
-    "types": {},
+    "types": {
+      "14": "power_out"
+    },
     "names": {
       "1": "GND",
       "2": "TXD",
@@ -5133,10 +4978,10 @@
       "12": "GND",
       "13": "LNA_EN",
       "14": "VCC_RF",
-      "15": "RESERVED",
-      "16": "RESERVED",
-      "17": "SDA",
-      "18": "SCL"
+      "15": "VIO_SEL",
+      "16": "SDA",
+      "17": "SCL",
+      "18": "SAFEBOOT_N"
     },
     "bom": true,
     "position": [
@@ -5159,7 +5004,7 @@
     "names": {},
     "bom": true,
     "position": [
-      175.3,
+      174.0,
       87.8,
       180.0
     ]
@@ -5178,7 +5023,7 @@
     "names": {},
     "bom": true,
     "position": [
-      175.3,
+      174.0,
       91.0,
       180.0
     ]
@@ -5197,9 +5042,9 @@
     "names": {},
     "bom": true,
     "position": [
-      192.25,
+      193.0625,
       87.2,
-      90.0
+      90
     ]
   },
   "R5": {
@@ -5216,9 +5061,9 @@
     "names": {},
     "bom": true,
     "position": [
-      195.0,
-      79.5,
-      -90.0
+      191.6,
+      79.8,
+      0
     ]
   },
   "C10": {
@@ -5235,15 +5080,15 @@
     "names": {},
     "bom": true,
     "position": [
-      192.25,
+      192.11249999999998,
       83.5,
-      0.0
+      180
     ]
   },
   "R6": {
-    "value": "100R",
-    "mpn": "RC0805FR-07100RL",
-    "lcsc": "C105577",
+    "value": "33R",
+    "mpn": "0805W8F330JT5E",
+    "lcsc": "C17634",
     "footprint": "Calibrator:R_0805_2012Metric",
     "pins": {
       "1": "GPS_PPS",
@@ -5254,15 +5099,15 @@
     "names": {},
     "bom": true,
     "position": [
-      170.0,
-      87.0,
-      180.0
+      174,
+      85.6,
+      180
     ]
   },
   "R7": {
-    "value": "100R",
-    "mpn": "RC0805FR-07100RL",
-    "lcsc": "C105577",
+    "value": "33R",
+    "mpn": "0805W8F330JT5E",
+    "lcsc": "C17634",
     "footprint": "Calibrator:R_0805_2012Metric",
     "pins": {
       "1": "GPS_PPS",
@@ -5273,9 +5118,9 @@
     "names": {},
     "bom": true,
     "position": [
-      170.0,
-      91.0,
-      180.0
+      174,
+      82.6,
+      180
     ]
   },
   "U7": {
@@ -5288,7 +5133,7 @@
       "2": "TRIGGER_5V",
       "3": "GND",
       "4": "TRIGGER_3V3",
-      "5": "+3V3_LOGIC"
+      "5": "+3V3_GPS"
     },
     "kind": "ic",
     "types": {},
@@ -5301,9 +5146,9 @@
     },
     "bom": true,
     "position": [
-      181.0,
-      53.0,
-      180.0
+      180,
+      50.95,
+      180
     ]
   },
   "R8": {
@@ -5320,9 +5165,9 @@
     "names": {},
     "bom": true,
     "position": [
-      191.0,
-      49.05,
-      180.0
+      191,
+      50,
+      180
     ]
   },
   "R9": {
@@ -5339,9 +5184,9 @@
     "names": {},
     "bom": true,
     "position": [
-      192.0,
-      46.3,
-      90.0
+      191.7,
+      46.3375,
+      90
     ]
   },
   "R80": {
@@ -5358,9 +5203,9 @@
     "names": {},
     "bom": true,
     "position": [
-      164.0,
-      98.0,
-      0.0
+      174,
+      52,
+      180.0
     ]
   },
   "R81": {
@@ -5377,9 +5222,9 @@
     "names": {},
     "bom": true,
     "position": [
-      164.0,
-      101.0,
-      0.0
+      174,
+      49,
+      180.0
     ]
   },
   "C11": {
@@ -5388,7 +5233,7 @@
     "lcsc": "C1711",
     "footprint": "Calibrator:C_0805_2012Metric",
     "pins": {
-      "1": "+3V3_LOGIC",
+      "1": "+3V3_GPS",
       "2": "GND"
     },
     "kind": "c",
@@ -5396,9 +5241,9 @@
     "names": {},
     "bom": true,
     "position": [
-      176.8,
-      53.95,
-      180.0
+      178,
+      55,
+      180
     ]
   },
   "C60": {
@@ -5475,62 +5320,6 @@
       181.0,
       40.5,
       0.0
-    ]
-  },
-  "U8": {
-    "value": "TPS2553DBVR",
-    "mpn": "TPS2553DBVR",
-    "lcsc": "C55266",
-    "footprint": "Calibrator:SOT-23-6_U8",
-    "pins": {
-      "1": "+3V3_GPS",
-      "2": "GND",
-      "3": "+3V3_GPS",
-      "4": null,
-      "5": "+3V3_GPS",
-      "6": "ANT_PWR"
-    },
-    "kind": "ic",
-    "types": {
-      "1": "power_in",
-      "2": "power_in",
-      "3": "input",
-      "4": "open_collector",
-      "5": "passive",
-      "6": "power_out"
-    },
-    "names": {
-      "1": "IN",
-      "2": "GND",
-      "3": "EN",
-      "4": "~FAULT",
-      "5": "ILIM",
-      "6": "OUT"
-    },
-    "bom": true,
-    "position": [
-      190.5,
-      77.0,
-      0.0
-    ]
-  },
-  "C12": {
-    "value": "100nF",
-    "mpn": "CL21B104KBCNNNC",
-    "lcsc": "C1711",
-    "footprint": "Calibrator:C_0805_2012Metric",
-    "pins": {
-      "1": "+3V3_GPS",
-      "2": "GND"
-    },
-    "kind": "c",
-    "types": {},
-    "names": {},
-    "bom": true,
-    "position": [
-      186.3,
-      76.05,
-      180.0
     ]
   },
   "J6": {
@@ -5631,9 +5420,9 @@
     },
     "bom": true,
     "position": [
-      186.0,
-      50.0,
-      180.0
+      186,
+      50.95,
+      180
     ]
   },
   "R160": {
@@ -5650,9 +5439,9 @@
     "types": {},
     "bom": true,
     "position": [
-      189.0,
-      54.0,
-      0.0
+      188.8,
+      55,
+      180
     ]
   },
   "R161": {
@@ -5669,9 +5458,9 @@
     "types": {},
     "bom": true,
     "position": [
-      189.0,
-      57.0,
-      180.0
+      188.8,
+      58,
+      0
     ]
   },
   "C13": {
@@ -5688,9 +5477,9 @@
     "types": {},
     "bom": true,
     "position": [
-      192.0,
-      55.5,
-      -90.0
+      185.0,
+      55.0,
+      180.0
     ]
   },
   "C14": {
@@ -5707,9 +5496,9 @@
     "types": {},
     "bom": true,
     "position": [
-      181.8,
-      49.05,
-      180.0
+      182.5,
+      47.5,
+      180
     ]
   },
   "U10": {
@@ -5741,9 +5530,9 @@
     },
     "bom": true,
     "position": [
-      188.0,
-      70.0,
-      0.0
+      188,
+      69.05,
+      0
     ]
   },
   "R162": {
@@ -5760,9 +5549,9 @@
     "types": {},
     "bom": true,
     "position": [
-      192.0,
-      70.95,
-      0.0
+      192,
+      70,
+      0
     ]
   },
   "R163": {
@@ -5779,9 +5568,9 @@
     "types": {},
     "bom": true,
     "position": [
-      184.0,
-      70.0,
-      180.0
+      184,
+      69.05,
+      180
     ]
   },
   "C15": {
@@ -5798,58 +5587,55 @@
     "types": {},
     "bom": true,
     "position": [
-      190.0,
+      188,
       65.8,
-      90.0
+      180
     ]
   },
   "U11": {
-    "value": "TUSB320LAIRWBR",
-    "footprint": "Calibrator:Texas_X2QFN-12_1.6x1.6mm_P0.4mm",
+    "value": "HUSB238_002DD",
+    "footprint": "Calibrator:HUSB238_DFN10_3x3mm",
     "pins": {
-      "1": "CC1",
-      "2": "CC2",
-      "3": "GND",
-      "4": "VBUS_DET",
-      "5": null,
-      "6": null,
-      "7": "CC_OUT1",
-      "8": "CC_OUT2",
-      "9": null,
-      "10": "GND",
-      "11": "GND",
-      "12": "USB_VBUS"
+      "1": "USB_VBUS",
+      "2": null,
+      "3": null,
+      "4": "CC1",
+      "5": "CC2",
+      "6": "USB_PD_SDA",
+      "7": "USB_PD_SCL",
+      "8": "GND",
+      "9": "PD_ISET",
+      "10": null,
+      "11": "GND"
     },
-    "lcsc": "C132554",
-    "mpn": "TUSB320LAIRWBR",
+    "lcsc": "C7471904",
+    "mpn": "HUSB238_002DD",
     "kind": "ic",
     "names": {
-      "1": "CC1",
-      "2": "CC2",
-      "3": "PORT_UFP",
-      "4": "VBUS_DET",
-      "5": "ADDR_NC",
-      "6": "OUT3",
-      "7": "OUT1",
-      "8": "OUT2",
-      "9": "ID",
-      "10": "GND",
-      "11": "EN_N",
-      "12": "VDD"
+      "1": "VIN",
+      "2": "D+",
+      "3": "D-",
+      "4": "CC1",
+      "5": "CC2",
+      "6": "SDA",
+      "7": "SCL",
+      "8": "VSET",
+      "9": "ISET",
+      "10": "GATE",
+      "11": "GND"
     },
     "types": {
-      "1": "bidirectional",
+      "1": "power_in",
       "2": "bidirectional",
-      "3": "input",
-      "4": "input",
-      "5": "input",
-      "6": "open_collector",
-      "7": "open_collector",
-      "8": "open_collector",
-      "9": "open_collector",
-      "10": "power_in",
-      "11": "input",
-      "12": "power_in"
+      "3": "bidirectional",
+      "4": "bidirectional",
+      "5": "bidirectional",
+      "6": "bidirectional",
+      "7": "input",
+      "8": "input",
+      "9": "input",
+      "10": "open_collector",
+      "11": "power_in"
     },
     "bom": true,
     "position": [
@@ -5892,46 +5678,12 @@
       0.0
     ]
   },
-  "U13": {
-    "value": "SN74LVC1G02DCKR",
-    "footprint": "Calibrator:SOT-353_SC-70-5",
-    "pins": {
-      "1": "CC_OUT1",
-      "2": "CC_OUT2",
-      "3": "GND",
-      "4": "USB_3A_EN",
-      "5": "+3V3_CC"
-    },
-    "lcsc": "C113520",
-    "mpn": "SN74LVC1G02DCKR",
-    "kind": "ic",
-    "names": {
-      "1": "A",
-      "2": "B",
-      "3": "GND",
-      "4": "Y",
-      "5": "VCC"
-    },
-    "types": {
-      "1": "input",
-      "2": "input",
-      "3": "power_in",
-      "4": "output",
-      "5": "power_in"
-    },
-    "bom": true,
-    "position": [
-      179.0,
-      30.0,
-      0.0
-    ]
-  },
   "U14": {
     "value": "TPS259531DSGR",
     "footprint": "Calibrator:DFN-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm",
     "pins": {
       "1": "USB_DVDT",
-      "2": "USB_3A_EN",
+      "2": "ESP_GPIO4",
       "3": "USB_VBUS",
       "4": "USB_VBUS",
       "5": "VIN_5V",
@@ -5973,68 +5725,32 @@
     ]
   },
   "R164": {
-    "value": "300k",
+    "value": "22.6k",
     "footprint": "Calibrator:R_0805_2012Metric",
     "pins": {
-      "1": "USB_VBUS",
-      "2": "VBUS_DET_A"
+      "1": "PD_ISET",
+      "2": "GND"
     },
-    "lcsc": "C17616",
-    "mpn": "0805W8F3003T5E",
+    "lcsc": "C3016901",
+    "mpn": "SCR0805F22K6",
     "kind": "r",
     "names": {},
     "types": {},
     "bom": true,
     "position": [
-      178.0,
-      17.0,
-      0.0
-    ]
-  },
-  "R165": {
-    "value": "300k",
-    "footprint": "Calibrator:R_0805_2012Metric",
-    "pins": {
-      "1": "VBUS_DET_A",
-      "2": "VBUS_DET_B"
-    },
-    "lcsc": "C17616",
-    "mpn": "0805W8F3003T5E",
-    "kind": "r",
-    "names": {},
-    "types": {},
-    "bom": true,
-    "position": [
-      182.0,
-      17.0,
-      0.0
-    ]
-  },
-  "R166": {
-    "value": "300k",
-    "footprint": "Calibrator:R_0805_2012Metric",
-    "pins": {
-      "1": "VBUS_DET_B",
-      "2": "VBUS_DET"
-    },
-    "lcsc": "C17616",
-    "mpn": "0805W8F3003T5E",
-    "kind": "r",
-    "names": {},
-    "types": {},
-    "bom": true,
-    "position": [
-      186.0,
-      17.0,
-      0.0
-    ]
+      193.5,
+      19.1,
+      90
+    ],
+    "manufacturer": "VO",
+    "supplier_url": "https://www.lcsc.com/product-detail/C3016901.html"
   },
   "R167": {
     "value": "10k",
     "footprint": "Calibrator:R_0805_2012Metric",
     "pins": {
       "1": "+3V3_CC",
-      "2": "CC_OUT1"
+      "2": "USB_PD_SDA"
     },
     "lcsc": "C17414",
     "mpn": "0805W8F1002T5E",
@@ -6053,7 +5769,7 @@
     "footprint": "Calibrator:R_0805_2012Metric",
     "pins": {
       "1": "+3V3_CC",
-      "2": "CC_OUT2"
+      "2": "USB_PD_SCL"
     },
     "lcsc": "C17414",
     "mpn": "0805W8F1002T5E",
@@ -6071,7 +5787,7 @@
     "value": "100k",
     "footprint": "Calibrator:R_0805_2012Metric",
     "pins": {
-      "1": "USB_3A_EN",
+      "1": "ESP_GPIO4",
       "2": "GND"
     },
     "lcsc": "C96346",
@@ -6106,14 +5822,14 @@
     ]
   },
   "C64": {
-    "value": "100nF",
+    "value": "1uF",
     "footprint": "Calibrator:C_0805_2012Metric",
     "pins": {
       "1": "USB_VBUS",
       "2": "GND"
     },
-    "lcsc": "C1711",
-    "mpn": "CL21B104KBCNNNC",
+    "lcsc": "C28323",
+    "mpn": "CL21B105KBFNNNE",
     "kind": "c",
     "names": {},
     "types": {},
@@ -6139,8 +5855,8 @@
     "bom": true,
     "position": [
       171.8,
-      23.95,
-      180.0
+      22.05,
+      180
     ]
   },
   "C66": {
@@ -6159,25 +5875,6 @@
     "position": [
       180.2,
       22.05,
-      0.0
-    ]
-  },
-  "C67": {
-    "value": "100nF",
-    "footprint": "Calibrator:C_0805_2012Metric",
-    "pins": {
-      "1": "+3V3_CC",
-      "2": "GND"
-    },
-    "lcsc": "C1711",
-    "mpn": "CL21B104KBCNNNC",
-    "kind": "c",
-    "names": {},
-    "types": {},
-    "bom": true,
-    "position": [
-      179.0,
-      27.0,
       0.0
     ]
   },
@@ -6220,65 +5917,40 @@
     ]
   },
   "U15": {
-    "value": "TPS62160DGKR",
-    "mpn": "TPS62160DGKR",
-    "lcsc": "C60726",
+    "value": "TPS7A4533DCQR",
+    "mpn": "TPS7A4533DCQR",
+    "lcsc": "C2877942",
     "pins": {
-      "1": "GND",
+      "1": "ESP_GPIO5",
       "2": "VIN_5V",
-      "3": "VIN_5V",
-      "4": "GND",
-      "5": "OCXO_FB",
-      "6": "+3V3_OCXO",
-      "7": "OCXO_SW",
-      "8": null
+      "3": "GND",
+      "4": "+3V3_OCXO",
+      "5": "+3V3_OCXO",
+      "6": "GND"
     },
     "names": {
-      "1": "PGND",
-      "2": "VIN",
-      "3": "EN",
-      "4": "AGND",
-      "5": "FB",
-      "6": "VOS",
-      "7": "SW",
-      "8": "PG"
+      "1": "EN",
+      "2": "IN",
+      "3": "GND",
+      "4": "OUT",
+      "5": "SENSE",
+      "6": "TAB"
     },
     "types": {
-      "1": "power_in",
+      "1": "input",
       "2": "power_in",
-      "3": "input",
-      "4": "power_in",
+      "3": "power_in",
+      "4": "power_out",
       "5": "input",
-      "6": "input",
-      "7": "power_out",
-      "8": "open_collector"
+      "6": "passive"
     },
-    "footprint": "Calibrator:U3_VSSOP-8_3x3mm_P0.65mm",
+    "footprint": "Calibrator:SOT-223-6",
     "kind": "ic",
     "bom": true,
     "position": [
-      174.0,
-      64.0,
-      0.0
-    ]
-  },
-  "L2": {
-    "value": "2.2uH",
-    "mpn": "XFL3012-222MEC",
-    "lcsc": "C3911432",
-    "pins": {
-      "1": "OCXO_SW",
-      "2": "+3V3_OCXO"
-    },
-    "names": {},
-    "types": {},
-    "footprint": "Calibrator:L4_L_XFL3012_222MEC",
-    "kind": "l",
-    "bom": true,
-    "position": [
-      179.5,
-      63.675,
-      0.0
+      160.5,
+      70,
+      0
     ]
   },
   "C70": {
@@ -6295,9 +5967,9 @@
     "kind": "c",
     "bom": true,
     "position": [
-      168.7,
-      63.0,
-      90.0
+      162,
+      62.2,
+      0
     ]
   },
   "C71": {
@@ -6314,66 +5986,9 @@
     "kind": "c",
     "bom": true,
     "position": [
-      183.0,
-      62.0,
-      90.0
-    ]
-  },
-  "C72": {
-    "value": "22uF / 25V",
-    "mpn": "CL21A226MAQNNNE",
-    "lcsc": "C45783",
-    "pins": {
-      "1": "+3V3_OCXO",
-      "2": "GND"
-    },
-    "names": {},
-    "types": {},
-    "footprint": "Calibrator:C_0805_2012Metric",
-    "kind": "c",
-    "bom": true,
-    "position": [
-      183.0,
-      66.0,
-      90.0
-    ]
-  },
-  "R171": {
-    "value": "75kR",
-    "mpn": "RC0805FR-0775KL",
-    "lcsc": "C137491",
-    "pins": {
-      "1": "+3V3_OCXO",
-      "2": "OCXO_FB"
-    },
-    "names": {},
-    "types": {},
-    "footprint": "Calibrator:R_0805_2012Metric",
-    "kind": "r",
-    "bom": true,
-    "position": [
-      178.0,
-      69.0,
-      0.0
-    ]
-  },
-  "R172": {
-    "value": "24kR",
-    "mpn": "0805W8F2402T5E",
-    "lcsc": "C17575",
-    "pins": {
-      "1": "OCXO_FB",
-      "2": "GND"
-    },
-    "names": {},
-    "types": {},
-    "footprint": "Calibrator:R_0805_2012Metric",
-    "kind": "r",
-    "bom": true,
-    "position": [
-      174.0,
-      69.0,
-      0.0
+      154,
+      68.8,
+      90
     ]
   },
   "Y1": {
@@ -6404,9 +6019,9 @@
     "kind": "ic",
     "bom": true,
     "position": [
-      154.0,
-      65.0,
-      0.0
+      153,
+      62,
+      0
     ]
   },
   "C73": {
@@ -6423,9 +6038,9 @@
     "types": {},
     "bom": true,
     "position": [
-      146.3,
-      63.0,
-      180.0
+      145.3,
+      60,
+      180
     ]
   },
   "C74": {
@@ -6442,8 +6057,8 @@
     "kind": "c",
     "bom": true,
     "position": [
-      146.3,
-      66.0,
+      145.3,
+      62.4,
       180.0
     ]
   },
@@ -6461,9 +6076,9 @@
     "types": {},
     "bom": true,
     "position": [
-      162.0,
-      61.0,
-      0.0
+      162,
+      59.9,
+      0
     ]
   },
   "C75": {
@@ -6473,8 +6088,8 @@
       "1": "TRIGGER_LIMIT",
       "2": "GND"
     },
-    "lcsc": "C5375915",
-    "mpn": "TCC0805COG102G500BT",
+    "lcsc": "C29925",
+    "mpn": "0805CG102J500NT",
     "kind": "c",
     "names": {},
     "types": {},
@@ -6492,25 +6107,10 @@
     "supplier_url": "https://www.lcsc.com/product-detail/C5248080.html",
     "assembly": "Manual",
     "footprint": "Calibrator:HS96L03W2C03_27.3x27.8mm",
-    "pins": {
-      "1": "GND",
-      "2": "+3V3_LOGIC",
-      "3": "ESP_GPIO2",
-      "4": "ESP_GPIO1"
-    },
-    "names": {
-      "1": "GND",
-      "2": "VCC",
-      "3": "SCL",
-      "4": "SDA"
-    },
-    "types": {
-      "1": "power_in",
-      "2": "power_in",
-      "3": "input",
-      "4": "bidirectional"
-    },
-    "kind": "ic",
+    "pins": {},
+    "names": {},
+    "types": {},
+    "kind": "mechanical",
     "bom": true,
     "position": [
       147.0,
@@ -6593,5 +6193,880 @@
       71.0,
       0.0
     ]
+  },
+  "R176": {
+    "value": "100k",
+    "footprint": "Calibrator:R_0805_2012Metric",
+    "pins": {
+      "1": "USB_ILIM",
+      "2": "ESP_GPIO3"
+    },
+    "lcsc": "C96346",
+    "mpn": "RC0805FR-07100KL",
+    "kind": "r",
+    "names": {},
+    "types": {},
+    "bom": true,
+    "position": [
+      178,
+      36.3,
+      0
+    ]
+  },
+  "C78": {
+    "value": "100nF",
+    "mpn": "CL21B104KBCNNNC",
+    "lcsc": "C1711",
+    "footprint": "Calibrator:C_0805_2012Metric",
+    "pins": {
+      "1": "ESP_GPIO3",
+      "2": "GND"
+    },
+    "kind": "c",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      182,
+      36.3,
+      0
+    ]
+  },
+  "R177": {
+    "value": "100k",
+    "footprint": "Calibrator:R_0805_2012Metric",
+    "pins": {
+      "1": "ESP_GPIO6",
+      "2": "GND"
+    },
+    "lcsc": "C96346",
+    "mpn": "RC0805FR-07100KL",
+    "kind": "r",
+    "names": {},
+    "types": {},
+    "bom": true,
+    "position": [
+      174,
+      79.8,
+      180.0
+    ]
+  },
+  "R178": {
+    "value": "100k",
+    "footprint": "Calibrator:R_0805_2012Metric",
+    "pins": {
+      "1": "ESP_GPIO5",
+      "2": "GND"
+    },
+    "lcsc": "C96346",
+    "mpn": "RC0805FR-07100KL",
+    "kind": "r",
+    "names": {},
+    "types": {},
+    "bom": true,
+    "position": [
+      162,
+      64.4,
+      180
+    ]
+  },
+  "D74": {
+    "value": "GREEN",
+    "mpn": "XL-1608SYGC-06",
+    "lcsc": "C965805",
+    "footprint": "Calibrator:LED_0603_1608Metric",
+    "pins": {
+      "1": "GND",
+      "2": "PPS_LED_A"
+    },
+    "kind": "led",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      199.2,
+      81.7,
+      90
+    ]
+  },
+  "R179": {
+    "value": "1k",
+    "mpn": "0805W8F1001T5E",
+    "lcsc": "C17513",
+    "footprint": "Calibrator:R_0805_2012Metric",
+    "pins": {
+      "1": "GPS_PPS",
+      "2": "PPS_LED_A"
+    },
+    "kind": "r",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      196.5,
+      80.9125,
+      0
+    ]
+  },
+  "R180": {
+    "value": "33R",
+    "footprint": "Calibrator:R_0805_2012Metric",
+    "pins": {
+      "1": "ESP_GPIO40",
+      "2": "GPS_RESET_N"
+    },
+    "lcsc": "C17634",
+    "mpn": "0805W8F330JT5E",
+    "kind": "r",
+    "names": {},
+    "types": {},
+    "bom": true,
+    "position": [
+      174,
+      94.0,
+      0.0
+    ]
+  },
+  "TP14": {
+    "value": "PPS_FPGA",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Calibrator:TP_1p0mm",
+    "pins": {
+      "1": "FPGA_IOT_46B_G0"
+    },
+    "kind": "testpoint",
+    "names": {
+      "1": "FPGA_IOT_46B_G0"
+    },
+    "types": {
+      "1": "passive"
+    },
+    "bom": false,
+    "assembly": "PCB copper",
+    "position": [
+      171.4089,
+      83.9214,
+      0
+    ]
+  },
+  "TP16": {
+    "value": "CLK_FPGA",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Calibrator:TP_1p0mm",
+    "pins": {
+      "1": "FPGA_IOB_3B_G6"
+    },
+    "kind": "testpoint",
+    "names": {
+      "1": "FPGA_IOB_3B_G6"
+    },
+    "types": {
+      "1": "passive"
+    },
+    "bom": false,
+    "assembly": "PCB copper",
+    "position": [
+      161.1714,
+      58.0589,
+      0
+    ]
+  },
+  "TP17": {
+    "value": "TRIG_FILT",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Calibrator:TP_1p0mm",
+    "pins": {
+      "1": "TRIGGER_LIMIT"
+    },
+    "kind": "testpoint",
+    "names": {
+      "1": "TRIGGER_LIMIT"
+    },
+    "types": {
+      "1": "passive"
+    },
+    "bom": false,
+    "assembly": "PCB copper",
+    "position": [
+      186.3,
+      44.75,
+      0
+    ]
+  },
+  "TP18": {
+    "value": "TRIG_2V5",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Calibrator:TP_1p0mm",
+    "pins": {
+      "1": "TRIGGER_VREF"
+    },
+    "kind": "testpoint",
+    "names": {
+      "1": "TRIGGER_VREF"
+    },
+    "types": {
+      "1": "passive"
+    },
+    "bom": false,
+    "assembly": "PCB copper",
+    "position": [
+      185.0,
+      58.0,
+      0
+    ]
+  },
+  "TP20": {
+    "value": "TRIG_3V3",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Calibrator:TP_1p0mm",
+    "pins": {
+      "1": "TRIGGER_3V3"
+    },
+    "kind": "testpoint",
+    "names": {
+      "1": "TRIGGER_3V3"
+    },
+    "types": {
+      "1": "passive"
+    },
+    "bom": false,
+    "assembly": "PCB copper",
+    "position": [
+      176.9542,
+      48.0,
+      0
+    ]
+  },
+  "TP23": {
+    "value": "OUT_FPGA",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Calibrator:TP_1p0mm",
+    "pins": {
+      "1": "FPGA_IOT_51A"
+    },
+    "kind": "testpoint",
+    "names": {
+      "1": "FPGA_IOT_51A"
+    },
+    "types": {
+      "1": "passive"
+    },
+    "bom": false,
+    "assembly": "PCB copper",
+    "position": [
+      182.6125,
+      71.35,
+      0
+    ]
+  },
+  "TP24": {
+    "value": "OUT_DRV",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Calibrator:TP_1p0mm",
+    "pins": {
+      "1": "TRIGGER_DRV"
+    },
+    "kind": "testpoint",
+    "names": {
+      "1": "TRIGGER_DRV"
+    },
+    "types": {
+      "1": "passive"
+    },
+    "bom": false,
+    "assembly": "PCB copper",
+    "position": [
+      188.5875,
+      72.5,
+      0
+    ]
+  },
+  "TP7": {
+    "value": "LOAD_EN",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Calibrator:TP_1p0mm",
+    "pins": {
+      "1": "ESP_GPIO4"
+    },
+    "kind": "testpoint",
+    "names": {
+      "1": "ESP_GPIO4"
+    },
+    "types": {
+      "1": "passive"
+    },
+    "bom": false,
+    "assembly": "PCB copper",
+    "position": [
+      180.8875,
+      30.5,
+      0
+    ]
+  },
+  "TP8": {
+    "value": "OCXO_EN",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Calibrator:TP_1p0mm",
+    "pins": {
+      "1": "ESP_GPIO5"
+    },
+    "kind": "testpoint",
+    "names": {
+      "1": "ESP_GPIO5"
+    },
+    "types": {
+      "1": "passive"
+    },
+    "bom": false,
+    "assembly": "PCB copper",
+    "position": [
+      164.7,
+      61.9,
+      0
+    ]
+  },
+  "TP9": {
+    "value": "GPS_EN",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Calibrator:TP_1p0mm",
+    "pins": {
+      "1": "ESP_GPIO6"
+    },
+    "kind": "testpoint",
+    "names": {
+      "1": "ESP_GPIO6"
+    },
+    "types": {
+      "1": "passive"
+    },
+    "bom": false,
+    "assembly": "PCB copper",
+    "position": [
+      170.2458,
+      77.6333,
+      0
+    ]
+  },
+  "TP10": {
+    "value": "PD_SDA",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Calibrator:TP_1p0mm",
+    "pins": {
+      "1": "USB_PD_SDA"
+    },
+    "kind": "testpoint",
+    "names": {
+      "1": "USB_PD_SDA"
+    },
+    "types": {
+      "1": "passive"
+    },
+    "bom": false,
+    "assembly": "PCB copper",
+    "position": [
+      192.7,
+      23.5,
+      0
+    ]
+  },
+  "TP11": {
+    "value": "PD_SCL",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Calibrator:TP_1p0mm",
+    "pins": {
+      "1": "USB_PD_SCL"
+    },
+    "kind": "testpoint",
+    "names": {
+      "1": "USB_PD_SCL"
+    },
+    "types": {
+      "1": "passive"
+    },
+    "bom": false,
+    "assembly": "PCB copper",
+    "position": [
+      193,
+      21.5,
+      0
+    ]
+  },
+  "TP12": {
+    "value": "I_MON",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Calibrator:TP_1p0mm",
+    "pins": {
+      "1": "ESP_GPIO3"
+    },
+    "kind": "testpoint",
+    "names": {
+      "1": "ESP_GPIO3"
+    },
+    "types": {
+      "1": "passive"
+    },
+    "bom": false,
+    "assembly": "PCB copper",
+    "position": [
+      177.695,
+      33.8,
+      0
+    ]
+  },
+  "TP25": {
+    "value": "GPS_TX",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Calibrator:TP_1p0mm",
+    "pins": {
+      "1": "ESP_GPIO44_RXD"
+    },
+    "kind": "testpoint",
+    "names": {
+      "1": "ESP_GPIO44_RXD"
+    },
+    "types": {
+      "1": "passive"
+    },
+    "bom": false,
+    "assembly": "PCB copper",
+    "position": [
+      171.5,
+      66.45,
+      0
+    ]
+  },
+  "TP27": {
+    "value": "GPS_RST_N",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Calibrator:TP_1p0mm",
+    "pins": {
+      "1": "GPS_RESET_N"
+    },
+    "kind": "testpoint",
+    "names": {
+      "1": "GPS_RESET_N"
+    },
+    "types": {
+      "1": "passive"
+    },
+    "bom": false,
+    "assembly": "PCB copper",
+    "position": [
+      178.2125,
+      94.4875,
+      0
+    ]
+  },
+  "TP28": {
+    "value": "ANT_PWR",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Calibrator:TP_1p0mm",
+    "pins": {
+      "1": "ANT_PWR"
+    },
+    "kind": "testpoint",
+    "names": {
+      "1": "ANT_PWR"
+    },
+    "types": {
+      "1": "passive"
+    },
+    "bom": false,
+    "assembly": "PCB copper",
+    "position": [
+      189.5,
+      77.3375,
+      0
+    ]
+  },
+  "TP30": {
+    "value": "LED_OE_N",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Calibrator:TP_1p0mm",
+    "pins": {
+      "1": "FPGA_IOT_44B"
+    },
+    "kind": "testpoint",
+    "names": {
+      "1": "FPGA_IOT_44B"
+    },
+    "types": {
+      "1": "passive"
+    },
+    "bom": false,
+    "assembly": "PCB copper",
+    "position": [
+      58.575,
+      21.1375,
+      0
+    ]
+  },
+  "TP63": {
+    "value": "OLED_SCL",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Calibrator:TP_1p0mm",
+    "pins": {
+      "1": "ESP_GPIO2"
+    },
+    "kind": "testpoint",
+    "names": {
+      "1": "ESP_GPIO2"
+    },
+    "types": {
+      "1": "passive"
+    },
+    "bom": false,
+    "assembly": "PCB copper",
+    "position": [
+      146.25,
+      68.0875,
+      0
+    ]
+  },
+  "TP64": {
+    "value": "OLED_SDA",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Calibrator:TP_1p0mm",
+    "pins": {
+      "1": "ESP_GPIO1"
+    },
+    "kind": "testpoint",
+    "names": {
+      "1": "ESP_GPIO1"
+    },
+    "types": {
+      "1": "passive"
+    },
+    "bom": false,
+    "assembly": "PCB copper",
+    "position": [
+      146.25,
+      65.3875,
+      0
+    ]
+  },
+  "TP2": {
+    "value": "5V_LOAD",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Calibrator:TP_1p0mm",
+    "pins": {
+      "1": "VIN_5V"
+    },
+    "kind": "testpoint",
+    "names": {
+      "1": "VIN_5V"
+    },
+    "types": {
+      "1": "passive"
+    },
+    "bom": false,
+    "assembly": "PCB copper",
+    "position": [
+      168.05,
+      43.0,
+      0
+    ]
+  },
+  "TP3": {
+    "value": "3V3_LOGIC",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Calibrator:TP_1p0mm",
+    "pins": {
+      "1": "+3V3_LOGIC"
+    },
+    "kind": "testpoint",
+    "names": {
+      "1": "+3V3_LOGIC"
+    },
+    "types": {
+      "1": "passive"
+    },
+    "bom": false,
+    "assembly": "PCB copper",
+    "position": [
+      167.6375,
+      18.0,
+      0
+    ]
+  },
+  "TP4": {
+    "value": "3V3_CC",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Calibrator:TP_1p0mm",
+    "pins": {
+      "1": "+3V3_CC"
+    },
+    "kind": "testpoint",
+    "names": {
+      "1": "+3V3_CC"
+    },
+    "types": {
+      "1": "passive"
+    },
+    "bom": false,
+    "assembly": "PCB copper",
+    "position": [
+      177.1375,
+      19.55,
+      0
+    ]
+  },
+  "TP5": {
+    "value": "3V3_GPS",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Calibrator:TP_1p0mm",
+    "pins": {
+      "1": "+3V3_GPS"
+    },
+    "kind": "testpoint",
+    "names": {
+      "1": "+3V3_GPS"
+    },
+    "types": {
+      "1": "passive"
+    },
+    "bom": false,
+    "assembly": "PCB copper",
+    "position": [
+      178.3,
+      73.55,
+      0
+    ]
+  },
+  "TP6": {
+    "value": "3V3_OCXO",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Calibrator:TP_1p0mm",
+    "pins": {
+      "1": "+3V3_OCXO"
+    },
+    "kind": "testpoint",
+    "names": {
+      "1": "+3V3_OCXO"
+    },
+    "types": {
+      "1": "passive"
+    },
+    "bom": false,
+    "assembly": "PCB copper",
+    "position": [
+      146.25,
+      57.5,
+      0
+    ]
+  },
+  "TP13": {
+    "value": "PPS_SRC",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Calibrator:TP_1p0mm",
+    "pins": {
+      "1": "GPS_PPS"
+    },
+    "kind": "testpoint",
+    "names": {
+      "1": "GPS_PPS"
+    },
+    "types": {
+      "1": "passive"
+    },
+    "bom": false,
+    "assembly": "PCB copper",
+    "position": [
+      170.2,
+      97.2,
+      0
+    ]
+  },
+  "TP65": {
+    "value": "BOOT_N",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Calibrator:TP_1p0mm",
+    "pins": {
+      "1": "ESP_GPIO0_BOOT"
+    },
+    "kind": "testpoint",
+    "names": {
+      "1": "ESP_GPIO0_BOOT"
+    },
+    "types": {
+      "1": "passive"
+    },
+    "bom": false,
+    "assembly": "PCB copper",
+    "position": [
+      166.6208,
+      14.0,
+      0
+    ]
+  },
+  "TP15": {
+    "value": "PPS_ESP",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Calibrator:TP_1p0mm",
+    "pins": {
+      "1": "ESP_GPIO38"
+    },
+    "kind": "testpoint",
+    "names": {
+      "1": "ESP_GPIO38"
+    },
+    "types": {
+      "1": "passive"
+    },
+    "bom": false,
+    "assembly": "PCB copper",
+    "position": [
+      167.5,
+      81.1,
+      0
+    ]
+  },
+  "TP19": {
+    "value": "TRIG_CMP",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Calibrator:TP_1p0mm",
+    "pins": {
+      "1": "TRIGGER_5V"
+    },
+    "kind": "testpoint",
+    "names": {
+      "1": "TRIGGER_5V"
+    },
+    "types": {
+      "1": "passive"
+    },
+    "bom": false,
+    "assembly": "PCB copper",
+    "position": [
+      179.7,
+      57.0,
+      0
+    ]
+  },
+  "TP29": {
+    "value": "ANT_BIAS",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Calibrator:TP_1p0mm",
+    "pins": {
+      "1": "ANT_BIAS"
+    },
+    "kind": "testpoint",
+    "names": {
+      "1": "ANT_BIAS"
+    },
+    "types": {
+      "1": "passive"
+    },
+    "bom": false,
+    "assembly": "PCB copper",
+    "position": [
+      196.0,
+      78.0,
+      0
+    ]
+  },
+  "TP26": {
+    "value": "GPS_RX",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Calibrator:TP_1p0mm",
+    "pins": {
+      "1": "ESP_GPIO43_TXD"
+    },
+    "kind": "testpoint",
+    "names": {
+      "1": "ESP_GPIO43_TXD"
+    },
+    "types": {
+      "1": "passive"
+    },
+    "bom": false,
+    "assembly": "PCB copper",
+    "position": [
+      166.55,
+      35.5,
+      0
+    ]
+  },
+  "TP1": {
+    "value": "VBUS",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Calibrator:TP_1p0mm",
+    "pins": {
+      "1": "USB_VBUS"
+    },
+    "kind": "testpoint",
+    "names": {
+      "1": "USB_VBUS"
+    },
+    "types": {
+      "1": "passive"
+    },
+    "bom": false,
+    "assembly": "PCB copper",
+    "position": [
+      187.05,
+      14.5,
+      0
+    ]
+  },
+  "J8": {
+    "value": "61300411121",
+    "mpn": "61300411121",
+    "lcsc": "C5184785",
+    "supplier_url": "https://jlcpcb.com/partdetail/C5184785",
+    "assembly": "JLCPCB",
+    "footprint": "Calibrator:OLED_Header_1x04_P2.54mm",
+    "pins": {
+      "1": "GND",
+      "2": "+3V3_LOGIC",
+      "3": "ESP_GPIO2",
+      "4": "ESP_GPIO1"
+    },
+    "names": {
+      "1": "GND",
+      "2": "VCC",
+      "3": "SCL",
+      "4": "SDA"
+    },
+    "types": {},
+    "kind": "connector",
+    "bom": true,
+    "position": [
+      147,
+      75.42,
+      0
+    ],
+    "manufacturer": "Wurth Elektronik"
   }
 }

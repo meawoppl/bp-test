@@ -1,0 +1,138 @@
+{
+  "pcb_sha256": "5c98e18304cfa0acd1ffd54520b2f69354f7585a53b0f6a173eaacb7213e6307",
+  "summary": {
+    "by_rule": {
+      "decoupling_distance": {
+        "count": 24,
+        "profile_item": "decoupling.max_pin_distance_mm",
+        "severity": "warning",
+        "source": "plugin"
+      },
+      "mistake.bypass_capacitor.bypass_capacitor_placement_could_be_improved": {
+        "count": 22,
+        "profile_item": "decoupling.max_pin_distance_mm",
+        "severity": "info",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin": {
+        "count": 4529,
+        "profile_item": "decoupling.max_pin_distance_mm",
+        "severity": "warning",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.connectivity.led_missing_series_resistor": {
+        "count": 1,
+        "profile_item": null,
+        "severity": "warning",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.connectivity.missing_pull_up_resistor": {
+        "count": 1,
+        "profile_item": null,
+        "severity": "warning",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.decoupling.missing_decoupling_capacitor": {
+        "count": 7,
+        "profile_item": "decoupling.max_pin_distance_mm",
+        "severity": "error",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.differential_pair.differential_pair_length_mismatch": {
+        "count": 1,
+        "profile_item": null,
+        "severity": "error",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.manufacturability.acute_angle_in_trace_acid_trap": {
+        "count": 20,
+        "profile_item": null,
+        "severity": "warning",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.manufacturability.thermal_imbalance_may_cause_tombstoning": {
+        "count": 113,
+        "profile_item": null,
+        "severity": "warning",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.power_trace.power_trace_too_narrow": {
+        "count": 10,
+        "profile_item": null,
+        "severity": "warning",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.thermal_management.thermal_pad_may_need_more_vias": {
+        "count": 3,
+        "profile_item": null,
+        "severity": "info",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.via_placement.via_in_smd_pad": {
+        "count": 1,
+        "profile_item": "vias.in_pad",
+        "severity": "error",
+        "source": "kct detect-mistakes"
+      },
+      "off_angle_track": {
+        "count": 2,
+        "profile_item": "routing.octilinear_only",
+        "severity": "warning",
+        "source": "plugin"
+      },
+      "optimize_traces.mergeable_segments": {
+        "count": 1,
+        "profile_item": null,
+        "severity": "info",
+        "source": "kct optimize-traces"
+      },
+      "silk_explanatory_text": {
+        "count": 26,
+        "profile_item": "silkscreen.explanatory_text",
+        "severity": "error",
+        "source": "plugin"
+      },
+      "silk_over_copper": {
+        "count": 15,
+        "profile_item": "silkscreen.over_vias_or_pads",
+        "severity": "error",
+        "source": "kct check"
+      },
+      "silk_overlap": {
+        "count": 3,
+        "profile_item": "silkscreen.over_vias_or_pads",
+        "severity": "error",
+        "source": "kct check"
+      },
+      "silk_pad_clearance": {
+        "count": 7,
+        "profile_item": null,
+        "severity": "error",
+        "source": "kct check"
+      },
+      "silk_text_below_min": {
+        "count": 43,
+        "profile_item": "silkscreen.text_height_mm",
+        "severity": "warning",
+        "source": "plugin"
+      },
+      "silkscreen_line_width": {
+        "count": 60,
+        "profile_item": null,
+        "severity": "warning",
+        "source": "kct check"
+      },
+      "silkscreen_text_height": {
+        "count": 43,
+        "profile_item": "silkscreen.text_height_mm",
+        "severity": "warning",
+        "source": "kct check"
+      }
+    },
+    "errors": 60,
+    "infos": 26,
+    "suppressed": 0,
+    "warnings": 4846
+  },
+  "note": "Native ERC/DRC/parity and probe/via-pad checks clean. Broader heuristic findings remain; this is not a green full quality signoff."
+}

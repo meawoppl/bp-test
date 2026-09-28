@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1040" viewBox="0 0 900 1040">
+<rect width="900" height="1040" fill="#1a1b26"/>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#7aa2f7"/></marker></defs>
+<text x="35" y="40" font-family="sans-serif" font-size="27" fill="#c0caf5">GPS calibrator — power and control</text>
+<text x="35" y="69" font-family="sans-serif" font-size="16" fill="#a9b1d6">5 V-only USB-PD sink · firmware must never request higher voltage</text>
+<rect x="300" y="95" width="300" height="80" rx="10" fill="#24283b" stroke="#7aa2f7" stroke-width="2"/>
+<text x="315" y="123" font-family="sans-serif" font-size="19" fill="#7aa2f7">USB-C J3</text>
+<text x="315" y="150" font-family="sans-serif" font-size="15" fill="#c0caf5">USB_VBUS (always on)</text>
+<polyline points="450,175 450,205 230,205 230,230" fill="none" stroke="#7aa2f7" stroke-width="2.5" marker-end="url(#arrow)"/>
+<polyline points="450,175 450,205 685,205 685,230" fill="none" stroke="#7aa2f7" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="35" y="230" width="400" height="130" rx="10" fill="#24283b" stroke="#9ece6a" stroke-width="2"/>
+<text x="50" y="258" font-family="sans-serif" font-size="19" fill="#9ece6a">Always-on controller domain</text>
+<text x="50" y="285" font-family="sans-serif" font-size="15" fill="#c0caf5">Daughterboard → onboard 3.3 V / FPGA rails</text>
+<text x="50" y="309" font-family="sans-serif" font-size="15" fill="#c0caf5">U2 → +3V3_LOGIC: OLED and LED buffers</text>
+<text x="50" y="333" font-family="sans-serif" font-size="15" fill="#c0caf5">U12 → +3V3_CC: I²C pull-ups</text>
+<rect x="500" y="230" width="365" height="130" rx="10" fill="#24283b" stroke="#7aa2f7" stroke-width="2"/>
+<text x="515" y="258" font-family="sans-serif" font-size="19" fill="#7aa2f7">HUSB238 U11</text>
+<text x="515" y="285" font-family="sans-serif" font-size="15" fill="#c0caf5">SDA → GPIO7 / SCL → GPIO8</text>
+<text x="515" y="309" font-family="sans-serif" font-size="15" fill="#c0caf5">I²C address 0x08; read source/contract</text>
+<text x="515" y="333" font-family="sans-serif" font-size="15" fill="#c0caf5">VSET = GND (5 V); ISET = 22.6k (3 A)</text>
+<polyline points="685,360 685,391 230,391 230,420" fill="none" stroke="#7aa2f7" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="35" y="420" width="400" height="130" rx="10" fill="#24283b" stroke="#bb9af7" stroke-width="2"/>
+<text x="50" y="448" font-family="sans-serif" font-size="19" fill="#bb9af7">ESP32 firmware policy</text>
+<text x="50" y="475" font-family="sans-serif" font-size="15" fill="#c0caf5">Read contract and honor USB power limits</text>
+<text x="50" y="499" font-family="sans-serif" font-size="15" fill="#c0caf5">GPIO4 → main eFuse enable</text>
+<text x="50" y="523" font-family="sans-serif" font-size="15" fill="#c0caf5">GPIO5 → OCXO enable; GPIO6 → GPS enable</text>
+<rect x="500" y="420" width="365" height="130" rx="10" fill="#24283b" stroke="#7aa2f7" stroke-width="2"/>
+<text x="515" y="448" font-family="sans-serif" font-size="19" fill="#7aa2f7">TPS259531 eFuse U14</text>
+<text x="515" y="475" font-family="sans-serif" font-size="15" fill="#c0caf5">USB_VBUS → switched VIN_5V</text>
+<text x="515" y="499" font-family="sans-serif" font-size="15" fill="#c0caf5">GPIO4 + 100k pull-down; defaults OFF</text>
+<text x="515" y="523" font-family="sans-serif" font-size="15" fill="#c0caf5">~2.48 A current limit / ~12 ms ramp</text>
+<polyline points="435,480 500,480" fill="none" stroke="#7aa2f7" stroke-width="2.5" marker-end="url(#arrow)"/>
+<polyline points="685,550 685,580 450,580 450,610" fill="none" stroke="#7aa2f7" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="35" y="610" width="255" height="150" rx="10" fill="#24283b" stroke="#e0af68" stroke-width="2"/>
+<text x="50" y="638" font-family="sans-serif" font-size="19" fill="#e0af68">5 V switched loads</text>
+<text x="50" y="665" font-family="sans-serif" font-size="15" fill="#c0caf5">LED anodes / 16 columns</text>
+<text x="50" y="689" font-family="sans-serif" font-size="15" fill="#c0caf5">Trigger comparator</text>
+<text x="50" y="713" font-family="sans-serif" font-size="15" fill="#c0caf5">5 V trigger output buffer</text>
+<rect x="315" y="610" width="270" height="150" rx="10" fill="#24283b" stroke="#e0af68" stroke-width="2"/>
+<text x="330" y="638" font-family="sans-serif" font-size="19" fill="#e0af68">GPS subsystem</text>
+<text x="330" y="665" font-family="sans-serif" font-size="15" fill="#c0caf5">U5 AP2112 + GPIO6</text>
+<text x="330" y="689" font-family="sans-serif" font-size="15" fill="#c0caf5">+3V3_GPS → GNSS / bias</text>
+<text x="330" y="713" font-family="sans-serif" font-size="15" fill="#c0caf5">Also U7 trigger translator</text>
+<rect x="610" y="610" width="255" height="150" rx="10" fill="#24283b" stroke="#e0af68" stroke-width="2"/>
+<text x="625" y="638" font-family="sans-serif" font-size="19" fill="#e0af68">OCXO subsystem</text>
+<text x="625" y="665" font-family="sans-serif" font-size="15" fill="#c0caf5">U15 TPS7A4533 + GPIO5</text>
+<text x="625" y="689" font-family="sans-serif" font-size="15" fill="#c0caf5">3.3 V linear → Y1</text>
+<text x="625" y="713" font-family="sans-serif" font-size="15" fill="#c0caf5">2.1 W max warm-up</text>
+<text x="625" y="737" font-family="sans-serif" font-size="15" fill="#c0caf5">~1.1 W LDO loss at 5 V</text>
+<polyline points="450,580 162,580 162,610" fill="none" stroke="#7aa2f7" stroke-width="2.5" marker-end="url(#arrow)"/>
+<polyline points="450,580 737,580 737,610" fill="none" stroke="#7aa2f7" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="35" y="805" width="830" height="100" rx="10" fill="#24283b" stroke="#7dcfff" stroke-width="2"/>
+<text x="50" y="833" font-family="sans-serif" font-size="19" fill="#7dcfff">Current telemetry</text>
+<text x="50" y="860" font-family="sans-serif" font-size="15" fill="#c0caf5">U14 ILM → R176 100k → GPIO3 / ADC1_CH2; C78 100nF to GND</text>
+<text x="50" y="884" font-family="sans-serif" font-size="15" fill="#c0caf5">Nominal 0.22632 V/A · ~10 ms filter · excludes always-on loads · calibrate</text>
+<text x="35" y="946" font-family="sans-serif" font-size="16" fill="#c0caf5">Boot: keep enables low → check budget → enable 5 V → GPS / OCXO → await warm-up.</text>
+<text x="35" y="975" font-family="sans-serif" font-size="16" fill="#c0caf5">Top copper moat confines the local heat spreader; inner ground stays continuous.</text>
+<text x="35" y="1004" font-family="sans-serif" font-size="15" fill="#e0af68">Thermal behavior, USB load budget and absolute timing still require prototype measurements.</text>
+</svg>

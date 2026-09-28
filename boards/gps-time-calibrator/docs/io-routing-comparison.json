@@ -1,0 +1,52 @@
+{
+  "FPGA_IOB_3B_G6": [
+    {
+      "segments": 10,
+      "copper_mm": 17.271
+    },
+    {
+      "segments": 3,
+      "copper_mm": 13.409
+    }
+  ],
+  "FPGA_IOT_51A": [
+    {
+      "segments": 14,
+      "copper_mm": 45.521
+    },
+    {
+      "segments": 11,
+      "copper_mm": 45.121
+    }
+  ],
+  "FPGA_IOT_46B_G0": [
+    {
+      "segments": 13,
+      "copper_mm": 47.278
+    },
+    {
+      "segments": 10,
+      "copper_mm": 47.253
+    }
+  ],
+  "FPGA_IOT_50B": [
+    {
+      "segments": 17,
+      "copper_mm": 59.645
+    },
+    {
+      "segments": 10,
+      "copper_mm": 59.679
+    }
+  ],
+  "USB_VBUS": [
+    {
+      "segments": 37,
+      "copper_mm": 102.628
+    },
+    {
+      "segments": 39,
+      "copper_mm": 92.759
+    }
+  ]
+}

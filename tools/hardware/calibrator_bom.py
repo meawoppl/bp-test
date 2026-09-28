@@ -9,6 +9,12 @@ from collections import defaultdict
 from pathlib import Path
 ROOT = Path(__file__).resolve().parents[2]
 BOARD = ROOT / 'boards/gps-time-calibrator'
+# Reviewed assembly-equivalent footprint variants. U12's custom artwork/name
+# differs, but its pad numbers, positions, sizes, shapes and layers are identical.
+# Keep the actual schematic/PCB footprint; normalize only the BOM grouping label.
+ASSEMBLY_FOOTPRINT_ALIASES = {
+    'Calibrator:SOT-23-5_U12': 'Calibrator:SOT-23-5',
+}
 def refkey(ref):
     return (re.sub(r'\d+', '', ref), int(re.search(r'\d+', ref).group()))
 def main():
@@ -33,6 +39,7 @@ def main():
             continue
         assert mpn and re.fullmatch(r'C\d+', lcsc), (ref, 'Missing exact purchasing fields')
         footprint = comp.findtext('footprint')
+        footprint = ASSEMBLY_FOOTPRINT_ALIASES.get(footprint, footprint)
         groups[(mpn, lcsc, footprint)].append((ref, comp.findtext('value')))
     rows = []
     for (mpn, lcsc, footprint), items in groups.items():
@@ -47,12 +54,12 @@ def main():
         output = BOARD / relative
         output.parent.mkdir(parents=True, exist_ok=True)
         with output.open('w', newline='') as stream:
-            writer = csv.DictWriter(stream, fieldnames=columns, extrasaction='ignore')
+            writer = csv.DictWriter(stream, fieldnames=columns, extrasaction='ignore', lineterminator='\n')
             writer.writeheader(); writer.writerows(rows + (manual if relative.startswith('fab/bom/') else []))
     if manual:
         output=BOARD/'fab/bom/manual-assembly.csv'
         with output.open('w',newline='') as stream:
-            writer=csv.DictWriter(stream,fieldnames=list(manual[0]));writer.writeheader();writer.writerows(manual)
+            writer=csv.DictWriter(stream,fieldnames=list(manual[0]),lineterminator='\n');writer.writeheader();writer.writerows(manual)
     print(f'{len(rows)} BOM groups; {sum(r["Quantity"] for r in rows)} populated parts; excluded {", ".join(sorted(excluded, key=refkey))}')
 if __name__ == '__main__':
     main()
