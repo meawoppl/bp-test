@@ -4,6 +4,12 @@
 
 Choose a board in the portal using the selector configured in [`.kicad-pcb.json`](.kicad-pcb.json).
 
+Integration guides:
+
+- [Daughterboard v1 ICD](boards/esp32-fpga-module/docs/ICD-v1.md): electrical/mechanical contract and reusable KiCad assets.
+- [Programming fixture firmware guide](boards/programming-carrier/README.md): bank tests, walking LEDs and restricted pins.
+- [GPS calibrator bring-up](boards/gps-time-calibrator/docs/integration/README.md): power sequencing, Affogato, GNSS/event capture and displays.
+
 - [ESP32 + FPGA module](boards/esp32-fpga-module/README.md): routed four-layer prototype; current checks and fabrication previews are included.
 - [Original MainBoard](boards/mainboard-reference): native KiCad import for reference; original Fusion/Eagle exports in [source/fusion](source/fusion).
 - Direction LED tester: existing board and fabrication files described below.

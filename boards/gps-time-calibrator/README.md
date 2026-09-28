@@ -137,3 +137,7 @@ The carrier has 33 labeled, unpopulated signal/power probe pads outside the modu
 
 [The RFC v1 snapshot](releases/rfc-v1/README.md) preserves the current review files.
 Wait for validation of the ordered module and programming carrier before ordering this board.
+
+## Firmware integration
+
+Start with the [integration and bring-up guide](docs/integration/README.md) for pin assignments, power sequencing, current monitoring, Affogato/OTA integration, M10S command frames, trigger capture and both displays. This is an implementation guide; it does not claim those firmware services are already implemented.

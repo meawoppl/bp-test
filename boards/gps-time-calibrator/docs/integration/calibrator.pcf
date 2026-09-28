@@ -1,0 +1,31 @@
+# GPS calibrator RFC v1 reference pin constraints. Port names must match NEW HDL.
+# PCF does not supply clock/CDC constraints or implement safe reset behavior.
+set_io FSPI_CLK 15
+set_io FSPI_MOSI 17
+set_io FSPI_MISO 14
+set_io FSPI_CS 16
+set_io OCXO_10M 44
+set_io GPS_PPS 35
+set_io TRIGGER_IN 38
+set_io TRIGGER_OUT 42
+set_io LED_OE_N 34
+set_io LED_BITS[15] 10 # J2.2, FPGA_IOB_18A
+set_io LED_BITS[14] 9 # J2.4, FPGA_IOB_16A
+set_io LED_BITS[13] 12 # J2.5, FPGA_IOB_22A
+set_io LED_BITS[12] 6 # J2.6, FPGA_IOB_13B
+set_io LED_BITS[11] 11 # J2.7, FPGA_IOB_20A
+set_io LED_BITS[10] 23 # J2.9, FPGA_IOT_37A
+set_io LED_BITS[9] 21 # J2.10, FPGA_IOB_23B
+set_io LED_BITS[8] 19 # J2.11, FPGA_IOB_29B
+set_io LED_BITS[7] 20 # J2.12, FPGA_IOB_25B_G3
+set_io LED_BITS[6] 25 # J2.14, FPGA_IOT_36B
+set_io LED_BITS[5] 27 # J2.15, FPGA_IOT_38B
+set_io LED_BITS[4] 26 # J2.16, FPGA_IOT_39A
+set_io LED_BITS[3] 28 # J2.17, FPGA_IOT_41A
+set_io LED_BITS[2] 31 # J2.19, FPGA_IOT_42B
+set_io LED_BITS[1] 32 # J2.20, FPGA_IOT_43A
+set_io LED_BITS[0] 36 # J2.21, FPGA_IOT_48B
+# Optional onboard RGB ports, only if instantiated in HDL:
+# set_io RGB0 39
+# set_io RGB1 40
+# set_io RGB2 41

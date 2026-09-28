@@ -1,0 +1,198 @@
+{
+  "status": "Offline reference only; receiver firmware support and ACK/readback required",
+  "initial_uart": "38400 8N1, detect MON-VER before sending settings",
+  "mon_ver_poll_hex": "b5 62 0a 04 00 00 0e 34",
+  "baud_change": {
+    "name": "CFG-UART1-BAUDRATE",
+    "key": "0x40520001",
+    "value": 115200,
+    "set_hex": "b5 62 06 8a 0c 00 00 01 00 00 01 00 52 40 00 c2 01 00 f3 a5",
+    "readback_hex": "b5 62 06 8b 08 00 00 00 00 00 01 00 52 40 2c 79"
+  },
+  "baud_transition": "Send at current baud, drain TX, switch host to 115200; ACK may be at either rate; confirm MON-VER and VALGET at new rate",
+  "configuration": [
+    {
+      "name": "CFG-UART1INPROT-UBX",
+      "key": "0x10730001",
+      "value": 1,
+      "set_hex": "b5 62 06 8a 09 00 00 01 00 00 01 00 73 10 01 1f b0",
+      "readback_hex": "b5 62 06 8b 08 00 00 00 00 00 01 00 73 10 1d 8b"
+    },
+    {
+      "name": "CFG-UART1OUTPROT-UBX",
+      "key": "0x10740001",
+      "value": 1,
+      "set_hex": "b5 62 06 8a 09 00 00 01 00 00 01 00 74 10 01 20 b3",
+      "readback_hex": "b5 62 06 8b 08 00 00 00 00 00 01 00 74 10 1e 8d"
+    },
+    {
+      "name": "CFG-UART1OUTPROT-NMEA",
+      "key": "0x10740002",
+      "value": 0,
+      "set_hex": "b5 62 06 8a 09 00 00 01 00 00 02 00 74 10 00 20 b7",
+      "readback_hex": "b5 62 06 8b 08 00 00 00 00 00 02 00 74 10 1f 91"
+    },
+    {
+      "name": "CFG-PM-OPERATEMODE",
+      "key": "0x20d00001",
+      "value": 0,
+      "set_hex": "b5 62 06 8a 09 00 00 01 00 00 01 00 d0 20 00 8b e6",
+      "readback_hex": "b5 62 06 8b 08 00 00 00 00 00 01 00 d0 20 8a 55"
+    },
+    {
+      "name": "CFG-PM-EXTINTWAKE",
+      "key": "0x10d0000c",
+      "value": 0,
+      "set_hex": "b5 62 06 8a 09 00 00 01 00 00 0c 00 d0 10 00 86 fd",
+      "readback_hex": "b5 62 06 8b 08 00 00 00 00 00 0c 00 d0 10 85 71"
+    },
+    {
+      "name": "CFG-PM-EXTINTBACKUP",
+      "key": "0x10d0000d",
+      "value": 0,
+      "set_hex": "b5 62 06 8a 09 00 00 01 00 00 0d 00 d0 10 00 87 02",
+      "readback_hex": "b5 62 06 8b 08 00 00 00 00 00 0d 00 d0 10 86 75"
+    },
+    {
+      "name": "CFG-PM-EXTINTINACTIVE",
+      "key": "0x10d0000e",
+      "value": 0,
+      "set_hex": "b5 62 06 8a 09 00 00 01 00 00 0e 00 d0 10 00 88 07",
+      "readback_hex": "b5 62 06 8b 08 00 00 00 00 00 0e 00 d0 10 87 79"
+    },
+    {
+      "name": "CFG-RATE-MEAS",
+      "key": "0x30210001",
+      "value": 1000,
+      "set_hex": "b5 62 06 8a 0a 00 00 01 00 00 01 00 21 30 e8 03 d8 c4",
+      "readback_hex": "b5 62 06 8b 08 00 00 00 00 00 01 00 21 30 eb 07"
+    },
+    {
+      "name": "CFG-RATE-NAV",
+      "key": "0x30210002",
+      "value": 1,
+      "set_hex": "b5 62 06 8a 0a 00 00 01 00 00 02 00 21 30 01 00 ef f9",
+      "readback_hex": "b5 62 06 8b 08 00 00 00 00 00 02 00 21 30 ec 0b"
+    },
+    {
+      "name": "CFG-RATE-TIMEREF",
+      "key": "0x20210003",
+      "value": 1,
+      "set_hex": "b5 62 06 8a 09 00 00 01 00 00 03 00 21 20 01 df e4",
+      "readback_hex": "b5 62 06 8b 08 00 00 00 00 00 03 00 21 20 dd ff"
+    },
+    {
+      "name": "CFG-TP-PULSE_DEF",
+      "key": "0x20050023",
+      "value": 0,
+      "set_hex": "b5 62 06 8a 09 00 00 01 00 00 23 00 05 20 00 e2 2f",
+      "readback_hex": "b5 62 06 8b 08 00 00 00 00 00 23 00 05 20 e1 47"
+    },
+    {
+      "name": "CFG-TP-PULSE_LENGTH_DEF",
+      "key": "0x20050030",
+      "value": 1,
+      "set_hex": "b5 62 06 8a 09 00 00 01 00 00 30 00 05 20 01 f0 71",
+      "readback_hex": "b5 62 06 8b 08 00 00 00 00 00 30 00 05 20 ee 7b"
+    },
+    {
+      "name": "CFG-TP-PERIOD_TP1",
+      "key": "0x40050002",
+      "value": 1000000,
+      "set_hex": "b5 62 06 8a 0c 00 00 01 00 00 02 00 05 40 40 42 0f 00 75 7b",
+      "readback_hex": "b5 62 06 8b 08 00 00 00 00 00 02 00 05 40 e0 e3"
+    },
+    {
+      "name": "CFG-TP-PERIOD_LOCK_TP1",
+      "key": "0x40050003",
+      "value": 1000000,
+      "set_hex": "b5 62 06 8a 0c 00 00 01 00 00 03 00 05 40 40 42 0f 00 76 83",
+      "readback_hex": "b5 62 06 8b 08 00 00 00 00 00 03 00 05 40 e1 e7"
+    },
+    {
+      "name": "CFG-TP-LEN_TP1",
+      "key": "0x40050004",
+      "value": 0,
+      "set_hex": "b5 62 06 8a 0c 00 00 01 00 00 04 00 05 40 00 00 00 00 e6 a7",
+      "readback_hex": "b5 62 06 8b 08 00 00 00 00 00 04 00 05 40 e2 eb"
+    },
+    {
+      "name": "CFG-TP-LEN_LOCK_TP1",
+      "key": "0x40050005",
+      "value": 100000,
+      "set_hex": "b5 62 06 8a 0c 00 00 01 00 00 05 00 05 40 a0 86 01 00 0e c3",
+      "readback_hex": "b5 62 06 8b 08 00 00 00 00 00 05 00 05 40 e3 ef"
+    },
+    {
+      "name": "CFG-TP-SYNC_GNSS_TP1",
+      "key": "0x10050008",
+      "value": 1,
+      "set_hex": "b5 62 06 8a 09 00 00 01 00 00 08 00 05 10 01 b8 89",
+      "readback_hex": "b5 62 06 8b 08 00 00 00 00 00 08 00 05 10 b6 cb"
+    },
+    {
+      "name": "CFG-TP-USE_LOCKED_TP1",
+      "key": "0x10050009",
+      "value": 1,
+      "set_hex": "b5 62 06 8a 09 00 00 01 00 00 09 00 05 10 01 b9 8e",
+      "readback_hex": "b5 62 06 8b 08 00 00 00 00 00 09 00 05 10 b7 cf"
+    },
+    {
+      "name": "CFG-TP-ALIGN_TO_TOW_TP1",
+      "key": "0x1005000a",
+      "value": 1,
+      "set_hex": "b5 62 06 8a 09 00 00 01 00 00 0a 00 05 10 01 ba 93",
+      "readback_hex": "b5 62 06 8b 08 00 00 00 00 00 0a 00 05 10 b8 d3"
+    },
+    {
+      "name": "CFG-TP-POL_TP1",
+      "key": "0x1005000b",
+      "value": 1,
+      "set_hex": "b5 62 06 8a 09 00 00 01 00 00 0b 00 05 10 01 bb 98",
+      "readback_hex": "b5 62 06 8b 08 00 00 00 00 00 0b 00 05 10 b9 d7"
+    },
+    {
+      "name": "CFG-TP-TIMEGRID_TP1",
+      "key": "0x2005000c",
+      "value": 1,
+      "set_hex": "b5 62 06 8a 09 00 00 01 00 00 0c 00 05 20 01 cc bd",
+      "readback_hex": "b5 62 06 8b 08 00 00 00 00 00 0c 00 05 20 ca eb"
+    },
+    {
+      "name": "CFG-TP-TP1_ENA",
+      "key": "0x10050007",
+      "value": 1,
+      "set_hex": "b5 62 06 8a 09 00 00 01 00 00 07 00 05 10 01 b7 84",
+      "readback_hex": "b5 62 06 8b 08 00 00 00 00 00 07 00 05 10 b5 c7"
+    },
+    {
+      "name": "CFG-MSGOUT-UBX_NAV_PVT_UART1",
+      "key": "0x20910007",
+      "value": 1,
+      "set_hex": "b5 62 06 8a 09 00 00 01 00 00 07 00 91 20 01 53 48",
+      "readback_hex": "b5 62 06 8b 08 00 00 00 00 00 07 00 91 20 51 ef"
+    },
+    {
+      "name": "CFG-MSGOUT-UBX_NAV_TIMEGPS_UART1",
+      "key": "0x20910048",
+      "value": 1,
+      "set_hex": "b5 62 06 8a 09 00 00 01 00 00 48 00 91 20 01 94 8d",
+      "readback_hex": "b5 62 06 8b 08 00 00 00 00 00 48 00 91 20 92 f3"
+    },
+    {
+      "name": "CFG-MSGOUT-UBX_TIM_TP_UART1",
+      "key": "0x2091017e",
+      "value": 1,
+      "set_hex": "b5 62 06 8a 09 00 00 01 00 00 7e 01 91 20 01 cb 9f",
+      "readback_hex": "b5 62 06 8b 08 00 00 00 00 00 7e 01 91 20 c9 ce"
+    },
+    {
+      "name": "CFG-MSGOUT-UBX_TIM_TM2_UART1",
+      "key": "0x20910179",
+      "value": 1,
+      "set_hex": "b5 62 06 8a 09 00 00 01 00 00 79 01 91 20 01 c6 86",
+      "readback_hex": "b5 62 06 8b 08 00 00 00 00 00 79 01 91 20 c4 ba"
+    }
+  ],
+  "calibration": "Read and record CFG-TP-ANT_CABLEDELAY 0x30050001 and CFG-TP-USER_DELAY_TP1 0x40050006; no guessed compensation is written"
+}

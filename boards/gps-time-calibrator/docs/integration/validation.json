@@ -1,0 +1,24 @@
+{
+  "date": "2026-09-27",
+  "hardware_baseline": "gps-calibrator-rfc-v1 / 1222536",
+  "module_baseline": "v1",
+  "affogato_commit": "530849ef2530967e09bf593597e0dd1b97ef824d",
+  "predecessor_commit": "6354c0c9489a353109c27ee37584bb7b6f79b064",
+  "checks": {
+    "module_contacts_against_tagged_native_pcb": 80,
+    "reusable_symbol_pin_names_and_numbers_against_icd": 80,
+    "calibrator_pcf_unique_pads_against_module_and_carrier": 25,
+    "fixture_channels_against_circuit": 60,
+    "ubx_setting_keys_against_M10_SPG_5_10": 27,
+    "ubx_frame_lengths_checksums_ram_layer": "pass",
+    "partition_alignment_overlap_and_4mb_bounds": "pass; end 0x3d0000",
+    "new_document_local_links": "pass",
+    "rfc_files_and_native_source_checksums": "unchanged"
+  },
+  "not_tested": [
+    "No firmware application compiled or flashed",
+    "No on-hardware power, receiver, OLED, SPI, optical or timing tests",
+    "Partition CSV and SPI register ABI are proposed integration contracts"
+  ],
+  "known_mechanical_note": "Composite footprint body drawing is offset 1.45 mm relative to ordered v1; ICD gives correct H1-relative bounds without changing contact geometry."
+}
