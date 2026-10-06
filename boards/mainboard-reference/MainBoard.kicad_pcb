@@ -20999,7 +20999,7 @@
 		(layer "F.Cu")
 		(uuid "67d100e9-d8c3-4d94-8550-b7243be33862")
 		(at 138.684 -25.527 -90)
-		(descr "LED 0603 SMT\n\n0603, surface mount.\n\nSpecifications:\n\n• Pin count: 2\n• Pin pitch:0.075inch\n• Area: 0.06\" x 0.03\"\n\nExample device(s):\n\n• LED - BLUE")
+		(descr "LED 0603 SMT\n\n0603, surface mount.\n\nSpecifications:\n\n• Pin count: 2\n• Pin pitch:0.075inch\n• Area: 0.06\" x 0.03\"\n\nExample device :\n\n• LED - BLUE")
 		(property "Reference" "D9"
 			(at 0.127 0.889 90)
 			(unlocked yes)
@@ -31976,7 +31976,7 @@
 		(layer "F.Cu")
 		(uuid "adfbfe80-88e5-4a1b-b4ae-7e7e5e104d0a")
 		(at 136.684 -17.907 -90)
-		(descr "SMA Antenna Connector\n\nThis is a footprint for an edge mount RF antenna. Works pretty well with SMA type connectors but may also work with other edge mount RF connectors. Keep in mind, these edge mount connectors assume you are using a 0.062\" (1.6mm) PCB thickness.")
+		(descr "SMA Antenna Connector\n\nThis is a footprint for an edge mount RF antenna. Works pretty well with SMA type connectors but may also work with other edge mount RF connectors. Keep in mind, these edge mount connectors assume you are using a 0.062\" PCB thickness.")
 		(property "Reference" "E1"
 			(at 0 0 90)
 			(unlocked yes)
@@ -40382,7 +40382,7 @@
 		(layer "F.Cu")
 		(uuid "e1d101a6-4dc3-4592-83a6-3b641ed2f8fa")
 		(at 136.684 -32.512 -90)
-		(descr "SMA Antenna Connector\n\nThis is a footprint for an edge mount RF antenna. Works pretty well with SMA type connectors but may also work with other edge mount RF connectors. Keep in mind, these edge mount connectors assume you are using a 0.062\" (1.6mm) PCB thickness.")
+		(descr "SMA Antenna Connector\n\nThis is a footprint for an edge mount RF antenna. Works pretty well with SMA type connectors but may also work with other edge mount RF connectors. Keep in mind, these edge mount connectors assume you are using a 0.062\" PCB thickness.")
 		(property "Reference" "E2"
 			(at 0 0 90)
 			(unlocked yes)

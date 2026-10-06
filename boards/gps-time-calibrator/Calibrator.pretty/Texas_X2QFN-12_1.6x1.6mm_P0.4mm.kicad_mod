@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "10.0")
 	(layer "F.Cu")
-	(descr "Texas  X2QFN, 12 Pin (http://www.ti.com/lit/ml/mpqf391c/mpqf391c.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py")
+	(descr "Texas X2QFN, 12 Pin, generated with kicad-footprint-generator ipc_noLead_generator.py")
 	(tags "Texas X2QFN NoLead")
 	(property "Reference" "U11"
 		(at 0 -2 0)

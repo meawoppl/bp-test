@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "10.0")
 	(layer "F.Cu")
-	(descr "ublox MAX 6/7/8, (https://www.u-blox.com/sites/default/files/MAX-8-M8-FW3_HardwareIntegrationManual_%28UBX-15030059%29.pdf)")
+	(descr "ublox MAX 6/7/8")
 	(tags "GPS ublox MAX 6/7/8")
 	(property "Reference" "U6"
 		(at 0 6 0)

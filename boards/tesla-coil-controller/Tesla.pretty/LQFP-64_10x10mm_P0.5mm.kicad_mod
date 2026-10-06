@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "10.0")
 	(layer "F.Cu")
-	(descr "LQFP, 64 Pin (https://www.analog.com/media/en/technical-documentation/data-sheets/ad7606_7606-6_7606-4.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
+	(descr "LQFP, 64 Pin, generated with kicad-footprint-generator ipc_gullwing_generator.py")
 	(tags "LQFP QFP")
 	(property "Reference" "REF**"
 		(at 0 -7.4 0)

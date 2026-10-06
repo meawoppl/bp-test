@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "10.0")
 	(layer "F.Cu")
-	(descr "JST PH series connector, S2B-PH-K (http://www.jst-mfg.com/product/pdf/eng/ePH.pdf), generated with kicad-footprint-generator")
+	(descr "JST PH series connector, S2B-PH-K, generated with kicad-footprint-generator")
 	(tags "connector JST PH top entry")
 	(property "Reference" "REF**"
 		(at 1 -2.55 0)

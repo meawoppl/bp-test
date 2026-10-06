@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "10.0")
 	(layer "F.Cu")
-	(descr "HSOP, 8 Pin (https://www.st.com/resource/en/datasheet/l5973d.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
+	(descr "HSOP, 8 Pin, generated with kicad-footprint-generator ipc_gullwing_generator.py")
 	(tags "HSOP SO")
 	(property "Reference" "REF**"
 		(at 0 -3.4 0)

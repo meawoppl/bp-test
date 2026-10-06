@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "10.0")
 	(layer "F.Cu")
-	(descr "20-Lead Plastic Thin Shrink Small Outline (ST)-4.4 mm Body [HTSSOP], with thermal pad with vias")
+	(descr "20-Lead Plastic Thin Shrink Small Outline -4.4 mm Body [HTSSOP], with thermal pad with vias")
 	(tags "HTSSOP 0.65")
 	(property "Reference" "REF**"
 		(at 0 -4.3 0)

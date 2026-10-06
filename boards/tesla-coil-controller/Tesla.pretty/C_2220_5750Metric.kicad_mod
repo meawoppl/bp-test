@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "10.0")
 	(layer "F.Cu")
-	(descr "Capacitor SMD 2220 (5750 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size from: http://datasheets.avx.com/AVX-HV_MLCC.pdf), generated with kicad-footprint-generator")
+	(descr "Capacitor SMD 2220, square end terminal, IPC-7351 nominal, generated with kicad-footprint-generator")
 	(tags "capacitor")
 	(property "Reference" "REF**"
 		(at 0 -3.65 0)
