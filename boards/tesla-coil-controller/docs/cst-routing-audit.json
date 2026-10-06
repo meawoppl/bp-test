@@ -1,6 +1,6 @@
 {
   "copper_layers": 2,
-  "native_whole_board_unconnected": 2,
+  "native_whole_board_unconnected": 0,
   "local_connectivity": [
     {
       "net": "+3V3",
@@ -224,7 +224,7 @@
       "local_pad_count": 46,
       "all_local_pads_connected": true,
       "missing": [],
-      "external_pad_count": 200
+      "external_pad_count": 211
     }
   ],
   "local_connectivity_failures": [],
@@ -292,7 +292,7 @@
     }
   ],
   "J4_J30_aligned": true,
-  "pcb_sha256": "09ecacc95f5b89fc38426687c7362060d2b2ae32b70aa3db7149ec374fa642db",
+  "pcb_sha256": "5495c707b659116a49c3cfc879f5f07c6a1497cecf9eced2060fccbf31699029",
   "adc_links": [
     {
       "signal": "CT1_RAW",
