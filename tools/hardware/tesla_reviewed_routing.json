@@ -31956,21 +31956,6 @@
       "drill_nm": 300000
     },
     {
-      "uuid": "004942d5-a101-557f-aaa7-61d00aa5f0da",
-      "net": "CT2_RAW",
-      "start_nm": [
-        87800000,
-        141500000
-      ],
-      "end_nm": [
-        87800000,
-        154100000
-      ],
-      "layer": "B.Cu",
-      "kind": "track",
-      "width_nm": 300000
-    },
-    {
       "uuid": "004942d5-a101-557f-aaa7-61d00aa5f0db",
       "net": "CT2_ENVELOPE",
       "start_nm": [
@@ -32797,6 +32782,36 @@
       "layer": "B.Cu",
       "kind": "track",
       "width_nm": 1000000
+    },
+    {
+      "uuid": "00f8c589-eb46-568b-961c-f14229a0ff01",
+      "net": "CT2_RAW",
+      "start_nm": [
+        87800000,
+        141500000
+      ],
+      "end_nm": [
+        87800000,
+        142450000
+      ],
+      "layer": "B.Cu",
+      "kind": "track",
+      "width_nm": 300000
+    },
+    {
+      "uuid": "00f8c589-eb46-568b-961c-f14229a0ff02",
+      "net": "CT2_RAW",
+      "start_nm": [
+        87800000,
+        142450000
+      ],
+      "end_nm": [
+        89550000,
+        144200000
+      ],
+      "layer": "B.Cu",
+      "kind": "track",
+      "width_nm": 300000
     }
   ]
 }
