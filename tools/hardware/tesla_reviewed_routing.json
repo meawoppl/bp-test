@@ -478,13 +478,13 @@
     },
     "R27": {
       "position_nm": [
-        112000000,
-        29300000
+        132450000,
+        40600000
       ],
-      "angle_deg": 0.0,
+      "angle_deg": 180.0,
       "reference_nm": [
-        117000000,
-        29300000
+        135100000,
+        40600000
       ],
       "footprint": "Tesla:R_0603_1608Metric",
       "value": "150k"
@@ -595,13 +595,13 @@
     },
     "R25": {
       "position_nm": [
-        119500000,
-        28800000
+        121000000,
+        35500000
       ],
-      "angle_deg": 0.0,
+      "angle_deg": 180.0,
       "reference_nm": [
-        119500000,
-        23800000
+        118300000,
+        35500000
       ],
       "footprint": "Tesla:R_0603_1608Metric",
       "value": "5.1k"
@@ -634,13 +634,13 @@
     },
     "C22": {
       "position_nm": [
-        115800000,
-        32500000
+        132400000,
+        36900000
       ],
-      "angle_deg": 180.0,
+      "angle_deg": 0.0,
       "reference_nm": [
-        110800000,
-        32500000
+        135100000,
+        36900000
       ],
       "footprint": "Tesla:C_0603_1608Metric",
       "value": "100nF / 16V"
@@ -660,13 +660,13 @@
     },
     "R24": {
       "position_nm": [
-        136000000,
-        31500000
+        129250000,
+        41200000
       ],
-      "angle_deg": 180.0,
+      "angle_deg": -90.0,
       "reference_nm": [
-        136000000,
-        26500000
+        127500000,
+        41900000
       ],
       "footprint": "Tesla:R_0603_1608Metric",
       "value": "5.1k"
@@ -3468,26 +3468,26 @@
     },
     "U3": {
       "position_nm": [
-        119500000,
-        32500000
+        125000000,
+        38300000
       ],
-      "angle_deg": 180.0,
+      "angle_deg": 0.0,
       "reference_nm": [
-        119500000,
-        35100000
+        125000000,
+        41050000
       ],
       "footprint": "Tesla:SOT-23-6",
       "value": "USBLC6-2SC6"
     },
     "R26": {
       "position_nm": [
-        115000000,
-        29300000
+        132450000,
+        38900000
       ],
       "angle_deg": 0.0,
       "reference_nm": [
-        115000000,
-        24300000
+        135100000,
+        38900000
       ],
       "footprint": "Tesla:R_0603_1608Metric",
       "value": "100k"
@@ -10218,21 +10218,6 @@
       "width_nm": 250000
     },
     {
-      "uuid": "0543c506-c814-4878-8ae0-319466f95a2d",
-      "net": "USB_VBUS",
-      "start_nm": [
-        114475000,
-        28100000
-      ],
-      "end_nm": [
-        114175000,
-        28400000
-      ],
-      "layer": "B.Cu",
-      "kind": "track",
-      "width_nm": 150000
-    },
-    {
       "uuid": "05449588-f635-50c7-84fc-d4bd80fe7d83",
       "net": "GND",
       "start_nm": [
@@ -10538,22 +10523,6 @@
       "width_nm": 600000
     },
     {
-      "uuid": "07560f56-e757-433f-8a46-d930badf6647",
-      "net": "GND",
-      "start_nm": [
-        121200000,
-        28800000
-      ],
-      "end_nm": [
-        121200000,
-        28800000
-      ],
-      "layer": "F.Cu",
-      "kind": "via",
-      "width_nm": 500000,
-      "drill_nm": 250000
-    },
-    {
       "uuid": "0761f6b1-212c-5a01-90f4-7375f074d808",
       "net": "+12V_BIAS",
       "start_nm": [
@@ -10598,21 +10567,6 @@
       "layer": "F.Cu",
       "kind": "track",
       "width_nm": 2500000
-    },
-    {
-      "uuid": "079915e6-d785-463b-a0ff-36433c09d3c7",
-      "net": "USB_D+",
-      "start_nm": [
-        121500000,
-        31100000
-      ],
-      "end_nm": [
-        121500000,
-        32400000
-      ],
-      "layer": "B.Cu",
-      "kind": "track",
-      "width_nm": 150000
     },
     {
       "uuid": "080cd7f0-cd64-5c64-a230-e4358190d490",
@@ -10966,36 +10920,6 @@
       "width_nm": 300000
     },
     {
-      "uuid": "0ac9d4fe-cfc2-48ae-aca6-a28ee62366ca",
-      "net": "USB_VBUS",
-      "start_nm": [
-        130449999,
-        34445000
-      ],
-      "end_nm": [
-        130449999,
-        33450001
-      ],
-      "layer": "F.Cu",
-      "kind": "track",
-      "width_nm": 150000
-    },
-    {
-      "uuid": "0ac9d4fe-cfc2-48ae-aca6-a28ee623e001",
-      "net": "USB_VBUS",
-      "start_nm": [
-        130449999,
-        33450001
-      ],
-      "end_nm": [
-        130100000,
-        33450000
-      ],
-      "layer": "F.Cu",
-      "kind": "track",
-      "width_nm": 150000
-    },
-    {
       "uuid": "0af5f428-0d21-50ea-b0dd-7d4fafd9a48f",
       "net": "CT2_ABS_SUM",
       "start_nm": [
@@ -11131,21 +11055,6 @@
       "layer": "F.Cu",
       "kind": "track",
       "width_nm": 250000
-    },
-    {
-      "uuid": "0cf97bbb-f494-552c-adf7-5a90ebdae6c2",
-      "net": "GND",
-      "start_nm": [
-        157700000,
-        126025000
-      ],
-      "end_nm": [
-        159300000,
-        126025000
-      ],
-      "layer": "F.Cu",
-      "kind": "track",
-      "width_nm": 400000
     },
     {
       "uuid": "0d00d86a-8eb2-5fc9-a953-85e2a97bfc1a",
@@ -11422,36 +11331,6 @@
       "width_nm": 180000
     },
     {
-      "uuid": "0f7256a1-973e-407b-a751-ea6f85c8be99",
-      "net": "USB_CC2",
-      "start_nm": [
-        126250000,
-        34445000
-      ],
-      "end_nm": [
-        126250000,
-        31300000
-      ],
-      "layer": "F.Cu",
-      "kind": "track",
-      "width_nm": 150000
-    },
-    {
-      "uuid": "0fb15efb-0a4f-405c-ad7a-6fe1ff2d05a2",
-      "net": "USB_VBUS_PRESENT",
-      "start_nm": [
-        109900000,
-        40400000
-      ],
-      "end_nm": [
-        99200000,
-        40400000
-      ],
-      "layer": "B.Cu",
-      "kind": "track",
-      "width_nm": 150000
-    },
-    {
       "uuid": "0fd5290a-6620-5ee4-b3f2-b8c39c9be380",
       "net": "GDT1_R_SW",
       "start_nm": [
@@ -11664,22 +11543,6 @@
       "layer": "F.Cu",
       "kind": "track",
       "width_nm": 200000
-    },
-    {
-      "uuid": "1222eae2-b76d-4f62-9414-753efc081c77",
-      "net": "USB_D+",
-      "start_nm": [
-        128250000,
-        32500000
-      ],
-      "end_nm": [
-        128250000,
-        32500000
-      ],
-      "layer": "F.Cu",
-      "kind": "via",
-      "width_nm": 500000,
-      "drill_nm": 250000
     },
     {
       "uuid": "12587414-b8b6-507b-8f3b-808d17a56704",
@@ -12061,37 +11924,6 @@
       "layer": "F.Cu",
       "kind": "track",
       "width_nm": 800000
-    },
-    {
-      "uuid": "162b43bb-6382-492d-81d9-b1d716c9c01f",
-      "net": "USB_D+",
-      "start_nm": [
-        111550000,
-        39300000
-      ],
-      "end_nm": [
-        110500000,
-        39300000
-      ],
-      "layer": "B.Cu",
-      "kind": "track",
-      "width_nm": 150000
-    },
-    {
-      "uuid": "16518f60-0781-494d-aa44-073226060a10",
-      "net": "USB_D+",
-      "start_nm": [
-        122200000,
-        33100000
-      ],
-      "end_nm": [
-        122200000,
-        33100000
-      ],
-      "layer": "F.Cu",
-      "kind": "via",
-      "width_nm": 500000,
-      "drill_nm": 250000
     },
     {
       "uuid": "165f23f8-9890-5826-801f-281daac90747",
@@ -13125,21 +12957,6 @@
       "width_nm": 400000
     },
     {
-      "uuid": "2118d59e-a6b4-5910-88a7-7089c6dbe6c4",
-      "net": "VBAT_24V",
-      "start_nm": [
-        48450000,
-        35000000
-      ],
-      "end_nm": [
-        48450000,
-        46000000
-      ],
-      "layer": "F.Cu",
-      "kind": "track",
-      "width_nm": 1500000
-    },
-    {
       "uuid": "21423804-1fb5-5cf1-99e5-ab4e15502cff",
       "net": "VBAT_24V",
       "start_nm": [
@@ -13260,21 +13077,6 @@
       "kind": "via",
       "width_nm": 600000,
       "drill_nm": 300000
-    },
-    {
-      "uuid": "22c7f816-7e56-4ece-a6ab-11dd2fc14a02",
-      "net": "GND",
-      "start_nm": [
-        135175000,
-        31500000
-      ],
-      "end_nm": [
-        135175000,
-        30500000
-      ],
-      "layer": "F.Cu",
-      "kind": "track",
-      "width_nm": 250000
     },
     {
       "uuid": "22c86af2-2f74-57c5-aa48-2e0de455eea9",
@@ -13836,21 +13638,6 @@
       "width_nm": 250000
     },
     {
-      "uuid": "2796b4dc-e6d7-4f3d-a520-117debd3f3f4",
-      "net": "USB_CC2",
-      "start_nm": [
-        126550000,
-        30500000
-      ],
-      "end_nm": [
-        118675000,
-        30500000
-      ],
-      "layer": "B.Cu",
-      "kind": "track",
-      "width_nm": 150000
-    },
-    {
       "uuid": "27b548a9-b688-511d-9b12-4ebf65a56318",
       "net": "GND",
       "start_nm": [
@@ -14001,21 +13788,6 @@
       "layer": "F.Cu",
       "kind": "track",
       "width_nm": 2500000
-    },
-    {
-      "uuid": "299cf236-a3c1-4441-ba20-048579468998",
-      "net": "USB_VBUS_PRESENT",
-      "start_nm": [
-        116300000,
-        29775000
-      ],
-      "end_nm": [
-        116300000,
-        30300000
-      ],
-      "layer": "F.Cu",
-      "kind": "track",
-      "width_nm": 150000
     },
     {
       "uuid": "2a2922fb-1e19-59db-89e5-154240f4c20e",
@@ -14260,21 +14032,6 @@
       "layer": "F.Cu",
       "kind": "track",
       "width_nm": 250000
-    },
-    {
-      "uuid": "2d63c2e0-4fb9-4236-bfaa-60ef9c426d68",
-      "net": "USB_D+",
-      "start_nm": [
-        127600000,
-        31100000
-      ],
-      "end_nm": [
-        121500000,
-        31100000
-      ],
-      "layer": "B.Cu",
-      "kind": "track",
-      "width_nm": 150000
     },
     {
       "uuid": "2df01f58-05d2-55a1-a57c-3b7fc5fa64d1",
@@ -14703,21 +14460,6 @@
       "layer": "F.Cu",
       "kind": "track",
       "width_nm": 250000
-    },
-    {
-      "uuid": "3326f9e1-bd6b-46eb-b0c9-07d83e4664f2",
-      "net": "USB_D-",
-      "start_nm": [
-        111200000,
-        38700000
-      ],
-      "end_nm": [
-        110975000,
-        38475000
-      ],
-      "layer": "F.Cu",
-      "kind": "track",
-      "width_nm": 150000
     },
     {
       "uuid": "3337bf47-8d6e-555e-99eb-3f2011e5a505",
@@ -15404,36 +15146,6 @@
       "width_nm": 1200000
     },
     {
-      "uuid": "383de8cd-4e3d-4f8d-8b9f-c0fa954a1924",
-      "net": "USB_D-",
-      "start_nm": [
-        121500000,
-        31700000
-      ],
-      "end_nm": [
-        121350000,
-        31550000
-      ],
-      "layer": "F.Cu",
-      "kind": "track",
-      "width_nm": 150000
-    },
-    {
-      "uuid": "38b11f57-f06a-4762-9f33-865b8659efb4",
-      "net": "USB_D-",
-      "start_nm": [
-        116000000,
-        31300000
-      ],
-      "end_nm": [
-        116000000,
-        33575000
-      ],
-      "layer": "B.Cu",
-      "kind": "track",
-      "width_nm": 150000
-    },
-    {
       "uuid": "39a9b60e-1331-50a8-8d9a-a4d58c916f16",
       "net": "+3V3",
       "start_nm": [
@@ -15447,21 +15159,6 @@
       "layer": "F.Cu",
       "kind": "track",
       "width_nm": 350000
-    },
-    {
-      "uuid": "39b67fa9-f7f4-4abc-846f-0b2b003d8ab9",
-      "net": "USB_VBUS_PRESENT",
-      "start_nm": [
-        116300000,
-        30300000
-      ],
-      "end_nm": [
-        115800000,
-        30800000
-      ],
-      "layer": "F.Cu",
-      "kind": "track",
-      "width_nm": 150000
     },
     {
       "uuid": "39d6cf5a-0ff4-5475-ac34-cc7a1577e750",
@@ -15616,21 +15313,6 @@
       "drill_nm": 300000
     },
     {
-      "uuid": "3abe56bb-aa30-4fed-9854-6aa54d7f5774",
-      "net": "USB_D+",
-      "start_nm": [
-        128250000,
-        31750000
-      ],
-      "end_nm": [
-        127600000,
-        31100000
-      ],
-      "layer": "B.Cu",
-      "kind": "track",
-      "width_nm": 150000
-    },
-    {
       "uuid": "3afdb4ac-7524-5cd3-b93f-6c505af88ced",
       "net": "+5V_ADC",
       "start_nm": [
@@ -15689,21 +15371,6 @@
       "layer": "F.Cu",
       "kind": "track",
       "width_nm": 2500000
-    },
-    {
-      "uuid": "3b9fab2a-a3d5-4891-960f-bc8649bdef45",
-      "net": "USB_VBUS_PRESENT",
-      "start_nm": [
-        111175000,
-        30800000
-      ],
-      "end_nm": [
-        111175000,
-        29300000
-      ],
-      "layer": "F.Cu",
-      "kind": "track",
-      "width_nm": 150000
     },
     {
       "uuid": "3ba4fdcf-6dd4-5a45-b9dc-ca02fe13b330",
@@ -15766,22 +15433,6 @@
       "width_nm": 300000
     },
     {
-      "uuid": "3c89f881-1099-49e6-a808-fc8206a4f389",
-      "net": "USB_D-",
-      "start_nm": [
-        122000000,
-        31700000
-      ],
-      "end_nm": [
-        122000000,
-        31700000
-      ],
-      "layer": "F.Cu",
-      "kind": "via",
-      "width_nm": 500000,
-      "drill_nm": 250000
-    },
-    {
       "uuid": "3ccaa55e-0890-54c4-bf0c-ab263903ecf2",
       "net": "CT1_CABLE_P",
       "start_nm": [
@@ -15821,36 +15472,6 @@
       "end_nm": [
         107800000,
         63700000
-      ],
-      "layer": "F.Cu",
-      "kind": "track",
-      "width_nm": 150000
-    },
-    {
-      "uuid": "3d6717b2-d6fb-4039-9637-736d6dc03be9",
-      "net": "USB_VBUS_PRESENT",
-      "start_nm": [
-        115825000,
-        29300000
-      ],
-      "end_nm": [
-        115825000,
-        29775000
-      ],
-      "layer": "F.Cu",
-      "kind": "track",
-      "width_nm": 150000
-    },
-    {
-      "uuid": "3d6717b2-d6fb-4039-9637-736d6dc0e001",
-      "net": "USB_VBUS_PRESENT",
-      "start_nm": [
-        115825000,
-        29775000
-      ],
-      "end_nm": [
-        116300000,
-        29775000
       ],
       "layer": "F.Cu",
       "kind": "track",
@@ -16008,21 +15629,6 @@
       "layer": "F.Cu",
       "kind": "track",
       "width_nm": 250000
-    },
-    {
-      "uuid": "3ffed9e3-20ed-46c0-9d69-bc84b67e9da5",
-      "net": "USB_D-",
-      "start_nm": [
-        117200000,
-        31550000
-      ],
-      "end_nm": [
-        116600000,
-        30950000
-      ],
-      "layer": "F.Cu",
-      "kind": "track",
-      "width_nm": 150000
     },
     {
       "uuid": "40100932-20c5-5a0e-9653-558a6634f7d3",
@@ -16189,21 +15795,6 @@
       "layer": "F.Cu",
       "kind": "track",
       "width_nm": 2500000
-    },
-    {
-      "uuid": "42738026-a045-45d5-aa5f-bf2531e2be2f",
-      "net": "USB_D-",
-      "start_nm": [
-        116600000,
-        30950000
-      ],
-      "end_nm": [
-        116600000,
-        30700000
-      ],
-      "layer": "F.Cu",
-      "kind": "track",
-      "width_nm": 150000
     },
     {
       "uuid": "42d377ca-f6b3-5dca-bf42-84faef6f94f0",
@@ -16628,37 +16219,6 @@
       "width_nm": 200000
     },
     {
-      "uuid": "481491d9-1776-42b8-86d2-f2c0c16dfc31",
-      "net": "USB_D-",
-      "start_nm": [
-        111200000,
-        38700000
-      ],
-      "end_nm": [
-        111200000,
-        38700000
-      ],
-      "layer": "F.Cu",
-      "kind": "via",
-      "width_nm": 500000,
-      "drill_nm": 250000
-    },
-    {
-      "uuid": "48381ad9-5ced-4541-91fe-17a062045e0f",
-      "net": "USB_D-",
-      "start_nm": [
-        122000000,
-        31700000
-      ],
-      "end_nm": [
-        121500000,
-        31700000
-      ],
-      "layer": "F.Cu",
-      "kind": "track",
-      "width_nm": 150000
-    },
-    {
       "uuid": "48b0c618-46f0-5b38-a2dc-14ea0000865d",
       "net": "+12V_AUX",
       "start_nm": [
@@ -16919,22 +16479,6 @@
       "drill_nm": 300000
     },
     {
-      "uuid": "4c30df72-d6f3-48a1-84b5-f5b5e3685211",
-      "net": "GND",
-      "start_nm": [
-        112825000,
-        28500000
-      ],
-      "end_nm": [
-        112825000,
-        28500000
-      ],
-      "layer": "F.Cu",
-      "kind": "via",
-      "width_nm": 500000,
-      "drill_nm": 250000
-    },
-    {
       "uuid": "4c78049f-b405-5795-a639-de4aa4fe0f75",
       "net": "GND",
       "start_nm": [
@@ -17057,21 +16601,6 @@
       "width_nm": 500000
     },
     {
-      "uuid": "4d29e899-fa59-487c-a668-d411f5e97788",
-      "net": "USB_D-",
-      "start_nm": [
-        127750000,
-        33299999
-      ],
-      "end_nm": [
-        127400000,
-        32950000
-      ],
-      "layer": "B.Cu",
-      "kind": "track",
-      "width_nm": 150000
-    },
-    {
       "uuid": "4d4be9b0-02f1-5e86-aedf-b5e0fbadc555",
       "net": "GND",
       "start_nm": [
@@ -17101,21 +16630,6 @@
       "kind": "via",
       "width_nm": 600000,
       "drill_nm": 300000
-    },
-    {
-      "uuid": "4d54600d-f3f0-4638-83d1-5db9f75d9657",
-      "net": "USB_VBUS",
-      "start_nm": [
-        116575000,
-        32500000
-      ],
-      "end_nm": [
-        118362500,
-        32500000
-      ],
-      "layer": "F.Cu",
-      "kind": "track",
-      "width_nm": 200000
     },
     {
       "uuid": "4da7b26c-c599-5d4a-9f3e-0ad2f178a199",
@@ -17559,21 +17073,6 @@
       "width_nm": 650000
     },
     {
-      "uuid": "51824efd-88fc-4602-8497-bc285528f365",
-      "net": "USB_D-",
-      "start_nm": [
-        104000000,
-        39350000
-      ],
-      "end_nm": [
-        104000000,
-        41145000
-      ],
-      "layer": "F.Cu",
-      "kind": "track",
-      "width_nm": 150000
-    },
-    {
       "uuid": "51df3c51-9c8d-55b9-8eab-fc8b9a3a9fcd",
       "net": "GND",
       "start_nm": [
@@ -18012,21 +17511,6 @@
       "width_nm": 1200000
     },
     {
-      "uuid": "567b78a0-f1e2-4ef6-97d3-14d412c94ea8",
-      "net": "USB_D+",
-      "start_nm": [
-        104400000,
-        39475000
-      ],
-      "end_nm": [
-        104400000,
-        41145000
-      ],
-      "layer": "F.Cu",
-      "kind": "track",
-      "width_nm": 150000
-    },
-    {
       "uuid": "568b334c-b713-5c6b-8c3c-3b16c98065e4",
       "net": "AUX2_BUFFERED",
       "start_nm": [
@@ -18097,22 +17581,6 @@
       "end_nm": [
         113300000,
         39500000
-      ],
-      "layer": "F.Cu",
-      "kind": "via",
-      "width_nm": 500000,
-      "drill_nm": 250000
-    },
-    {
-      "uuid": "5775d5e9-6e54-4fd7-b736-cf04282ef98d",
-      "net": "GND",
-      "start_nm": [
-        115025000,
-        31600000
-      ],
-      "end_nm": [
-        115025000,
-        31600000
       ],
       "layer": "F.Cu",
       "kind": "via",
@@ -18302,21 +17770,6 @@
       "width_nm": 250000
     },
     {
-      "uuid": "59181a6e-47a9-449d-af7c-26f993a8da62",
-      "net": "USB_D-",
-      "start_nm": [
-        128750000,
-        34445000
-      ],
-      "end_nm": [
-        128750000,
-        33299999
-      ],
-      "layer": "F.Cu",
-      "kind": "track",
-      "width_nm": 150000
-    },
-    {
       "uuid": "59679d5b-d9c3-5f28-ba3d-58c8d2e63236",
       "net": "-5V_CT",
       "start_nm": [
@@ -18408,22 +17861,6 @@
       "width_nm": 300000
     },
     {
-      "uuid": "5a1a99a9-9f50-4059-af65-82d69af00ad4",
-      "net": "USB_D-",
-      "start_nm": [
-        116600000,
-        30700000
-      ],
-      "end_nm": [
-        116600000,
-        30700000
-      ],
-      "layer": "F.Cu",
-      "kind": "via",
-      "width_nm": 500000,
-      "drill_nm": 250000
-    },
-    {
       "uuid": "5a260c7e-7cb5-53f8-a3b0-696b106331b7",
       "net": "GND",
       "start_nm": [
@@ -18497,21 +17934,6 @@
       "layer": "F.Cu",
       "kind": "track",
       "width_nm": 300000
-    },
-    {
-      "uuid": "5abc66e4-8ace-404d-a7b1-f665e703c4ab",
-      "net": "USB_VBUS",
-      "start_nm": [
-        130100000,
-        33450000
-      ],
-      "end_nm": [
-        130100000,
-        29900000
-      ],
-      "layer": "F.Cu",
-      "kind": "track",
-      "width_nm": 150000
     },
     {
       "uuid": "5ac59a85-ff70-510a-83ed-35289617a37f",
@@ -18603,21 +18025,6 @@
       "layer": "F.Cu",
       "kind": "track",
       "width_nm": 180000
-    },
-    {
-      "uuid": "5bbe6cc7-8af7-444d-aa46-ffb53146b6e3",
-      "net": "USB_D+",
-      "start_nm": [
-        122200000,
-        33100000
-      ],
-      "end_nm": [
-        121850000,
-        33450000
-      ],
-      "layer": "F.Cu",
-      "kind": "track",
-      "width_nm": 150000
     },
     {
       "uuid": "5bbfd6a4-2237-5d3e-b34b-979e7a154103",
@@ -18754,21 +18161,6 @@
       "layer": "F.Cu",
       "kind": "track",
       "width_nm": 600000
-    },
-    {
-      "uuid": "5cee917d-4ae0-4dec-a7cc-0bcf382ec6b7",
-      "net": "USB_D-",
-      "start_nm": [
-        110975000,
-        38475000
-      ],
-      "end_nm": [
-        104875000,
-        38475000
-      ],
-      "layer": "F.Cu",
-      "kind": "track",
-      "width_nm": 150000
     },
     {
       "uuid": "5cfb78da-59b7-5ccd-b9d2-4c8929291a43",
@@ -18954,22 +18346,6 @@
       "width_nm": 300000
     },
     {
-      "uuid": "5f230e68-569f-45f6-9b6e-03d9a46932d6",
-      "net": "USB_D+",
-      "start_nm": [
-        110500000,
-        39300000
-      ],
-      "end_nm": [
-        110500000,
-        39300000
-      ],
-      "layer": "F.Cu",
-      "kind": "via",
-      "width_nm": 500000,
-      "drill_nm": 250000
-    },
-    {
       "uuid": "5f2cae28-4d28-5911-9d52-4ea1e87ebfed",
       "net": "ADC_CH1",
       "start_nm": [
@@ -19135,21 +18511,6 @@
       "width_nm": 300000
     },
     {
-      "uuid": "610baabe-fb1c-4d47-b53a-f4f0740783d1",
-      "net": "USB_VBUS",
-      "start_nm": [
-        118000000,
-        32650000
-      ],
-      "end_nm": [
-        117400000,
-        32650000
-      ],
-      "layer": "B.Cu",
-      "kind": "track",
-      "width_nm": 150000
-    },
-    {
       "uuid": "614f9899-7ee0-58d0-bcc6-8ff4ba0c14bb",
       "net": "GND",
       "start_nm": [
@@ -19285,21 +18646,6 @@
       "width_nm": 500000
     },
     {
-      "uuid": "62965ff3-1ecf-4c7f-a9b6-ef7e26306390",
-      "net": "USB_VBUS_PRESENT",
-      "start_nm": [
-        111175000,
-        30800000
-      ],
-      "end_nm": [
-        109900000,
-        32075000
-      ],
-      "layer": "B.Cu",
-      "kind": "track",
-      "width_nm": 150000
-    },
-    {
       "uuid": "62cd41f0-c3de-57b2-92a0-2d87ce02c1dc",
       "net": "GND",
       "start_nm": [
@@ -19374,21 +18720,6 @@
       "layer": "F.Cu",
       "kind": "track",
       "width_nm": 250000
-    },
-    {
-      "uuid": "637c6596-c139-4ae4-9885-74f422ce68a6",
-      "net": "USB_D+",
-      "start_nm": [
-        110500000,
-        39300000
-      ],
-      "end_nm": [
-        110500000,
-        39100000
-      ],
-      "layer": "F.Cu",
-      "kind": "track",
-      "width_nm": 150000
     },
     {
       "uuid": "6391fe7a-55ae-5695-83ea-2b797f173c9e",
@@ -19511,21 +18842,6 @@
       "layer": "F.Cu",
       "kind": "track",
       "width_nm": 200000
-    },
-    {
-      "uuid": "64b6e2d6-fe06-41e1-9998-45e30eba603e",
-      "net": "USB_CC1",
-      "start_nm": [
-        136825000,
-        32250000
-      ],
-      "end_nm": [
-        136825000,
-        32500000
-      ],
-      "layer": "B.Cu",
-      "kind": "track",
-      "width_nm": 150000
     },
     {
       "uuid": "64c1f855-2d91-506a-a650-250d1f28ad19",
@@ -19722,22 +19038,6 @@
       "layer": "F.Cu",
       "kind": "track",
       "width_nm": 300000
-    },
-    {
-      "uuid": "66cab0c0-c8ef-512b-a15a-9e1b8ccce6d7",
-      "net": "GND",
-      "start_nm": [
-        152900000,
-        107350000
-      ],
-      "end_nm": [
-        152900000,
-        107350000
-      ],
-      "layer": "F.Cu",
-      "kind": "via",
-      "width_nm": 600000,
-      "drill_nm": 300000
     },
     {
       "uuid": "66fd8d00-3490-5810-98c8-e262f2359bba",
@@ -19938,22 +19238,6 @@
       "drill_nm": 300000
     },
     {
-      "uuid": "68e0eee8-365c-4903-bb43-03145625d953",
-      "net": "USB_VBUS_PRESENT",
-      "start_nm": [
-        99200000,
-        40400000
-      ],
-      "end_nm": [
-        99200000,
-        40400000
-      ],
-      "layer": "F.Cu",
-      "kind": "via",
-      "width_nm": 500000,
-      "drill_nm": 250000
-    },
-    {
       "uuid": "69015ce5-c6a8-566d-bd9c-0434f04878c3",
       "net": "VBAT_24V",
       "start_nm": [
@@ -19982,21 +19266,6 @@
       "layer": "B.Cu",
       "kind": "track",
       "width_nm": 200000
-    },
-    {
-      "uuid": "6965d48a-a6be-4ef8-adf2-e557df5613c3",
-      "net": "USB_D+",
-      "start_nm": [
-        110175000,
-        38775000
-      ],
-      "end_nm": [
-        105100000,
-        38775000
-      ],
-      "layer": "F.Cu",
-      "kind": "track",
-      "width_nm": 150000
     },
     {
       "uuid": "699abefb-6cbf-5e4c-9094-3a8d1a3aeacc",
@@ -20440,21 +19709,6 @@
       "width_nm": 350000
     },
     {
-      "uuid": "6f04e3af-a9fb-4ad7-866c-efb6798f7c2d",
-      "net": "USB_CC1",
-      "start_nm": [
-        136825000,
-        32500000
-      ],
-      "end_nm": [
-        136825000,
-        31500000
-      ],
-      "layer": "F.Cu",
-      "kind": "track",
-      "width_nm": 150000
-    },
-    {
       "uuid": "6f13bcd5-27c3-5540-972e-144f20891cae",
       "net": "P30_UVLO",
       "start_nm": [
@@ -20651,22 +19905,6 @@
       "width_nm": 250000
     },
     {
-      "uuid": "71215711-12cb-4037-adb0-1976452ab5d3",
-      "net": "USB_VBUS",
-      "start_nm": [
-        125900000,
-        29900000
-      ],
-      "end_nm": [
-        125900000,
-        29900000
-      ],
-      "layer": "F.Cu",
-      "kind": "via",
-      "width_nm": 500000,
-      "drill_nm": 250000
-    },
-    {
       "uuid": "71270c1f-d124-54fb-b8b9-106d0c782e8a",
       "net": "GDT2_SNUB",
       "start_nm": [
@@ -20695,21 +19933,6 @@
       "layer": "F.Cu",
       "kind": "track",
       "width_nm": 300000
-    },
-    {
-      "uuid": "71d996ce-28cc-458e-8e2d-c48f88a92d45",
-      "net": "USB_D-",
-      "start_nm": [
-        127750000,
-        34445000
-      ],
-      "end_nm": [
-        127750000,
-        33299999
-      ],
-      "layer": "F.Cu",
-      "kind": "track",
-      "width_nm": 150000
     },
     {
       "uuid": "721bcd9c-c5aa-50ba-9c90-5dd9dcbf3565",
@@ -20788,21 +20011,6 @@
       "width_nm": 650000
     },
     {
-      "uuid": "73a4678b-8e28-4c0c-9a1c-1e1b01b673ca",
-      "net": "USB_D-",
-      "start_nm": [
-        127400000,
-        31700000
-      ],
-      "end_nm": [
-        122000000,
-        31700000
-      ],
-      "layer": "B.Cu",
-      "kind": "track",
-      "width_nm": 150000
-    },
-    {
       "uuid": "73b6c63e-8430-581b-9931-c74ee3060dfe",
       "net": "AUX1_BUFFERED",
       "start_nm": [
@@ -20877,21 +20085,6 @@
       "layer": "F.Cu",
       "kind": "track",
       "width_nm": 500000
-    },
-    {
-      "uuid": "746d2ece-d157-40b2-af0d-4ecd0076c13a",
-      "net": "USB_D-",
-      "start_nm": [
-        111200000,
-        38375000
-      ],
-      "end_nm": [
-        111200000,
-        38700000
-      ],
-      "layer": "B.Cu",
-      "kind": "track",
-      "width_nm": 150000
     },
     {
       "uuid": "748cb8c7-3423-56b3-8615-db240895a2e4",
@@ -21404,21 +20597,6 @@
       "width_nm": 500000
     },
     {
-      "uuid": "7910c6a7-0a45-4558-ba02-10da04531eef",
-      "net": "USB_VBUS",
-      "start_nm": [
-        130100000,
-        29900000
-      ],
-      "end_nm": [
-        125900000,
-        29900000
-      ],
-      "layer": "B.Cu",
-      "kind": "track",
-      "width_nm": 150000
-    },
-    {
       "uuid": "7956cc62-9bc9-5bfc-8e6b-930cac7ac418",
       "net": "GND",
       "start_nm": [
@@ -21906,21 +21084,6 @@
       "width_nm": 600000
     },
     {
-      "uuid": "7dfff80f-1be9-4271-93dc-e4a8b0dbd4cf",
-      "net": "USB_CC1",
-      "start_nm": [
-        129250000,
-        34445000
-      ],
-      "end_nm": [
-        129250000,
-        32500000
-      ],
-      "layer": "F.Cu",
-      "kind": "track",
-      "width_nm": 150000
-    },
-    {
       "uuid": "7e5d00ad-ccba-55e0-8629-74c07d0ac69a",
       "net": "+5V_ADC",
       "start_nm": [
@@ -22010,22 +21173,6 @@
       "layer": "F.Cu",
       "kind": "track",
       "width_nm": 300000
-    },
-    {
-      "uuid": "7f3b2fd3-c873-4913-b735-f87013afce8f",
-      "net": "USB_VBUS_PRESENT",
-      "start_nm": [
-        111175000,
-        30800000
-      ],
-      "end_nm": [
-        111175000,
-        30800000
-      ],
-      "layer": "F.Cu",
-      "kind": "via",
-      "width_nm": 500000,
-      "drill_nm": 250000
     },
     {
       "uuid": "7f45f067-cf55-526a-aa47-95ec51bcbe16",
@@ -22434,66 +21581,6 @@
       "layer": "F.Cu",
       "kind": "track",
       "width_nm": 250000
-    },
-    {
-      "uuid": "81e2b902-7805-42f9-99fb-90d64025e75a",
-      "net": "USB_VBUS",
-      "start_nm": [
-        125550000,
-        34445000
-      ],
-      "end_nm": [
-        125550000,
-        33450000
-      ],
-      "layer": "F.Cu",
-      "kind": "track",
-      "width_nm": 150000
-    },
-    {
-      "uuid": "81e2b902-7805-42f9-99fb-90d64025e001",
-      "net": "USB_VBUS",
-      "start_nm": [
-        125550000,
-        33450000
-      ],
-      "end_nm": [
-        125900000,
-        33450000
-      ],
-      "layer": "F.Cu",
-      "kind": "track",
-      "width_nm": 150000
-    },
-    {
-      "uuid": "8202361c-d669-4c6a-b02f-a94ad9d4dcd4",
-      "net": "USB_VBUS",
-      "start_nm": [
-        125900000,
-        33450000
-      ],
-      "end_nm": [
-        125900000,
-        29900000
-      ],
-      "layer": "F.Cu",
-      "kind": "track",
-      "width_nm": 150000
-    },
-    {
-      "uuid": "82166ee1-6367-4f81-a735-8f7cbbdadd53",
-      "net": "USB_D-",
-      "start_nm": [
-        128750000,
-        33299999
-      ],
-      "end_nm": [
-        127750000,
-        33299999
-      ],
-      "layer": "B.Cu",
-      "kind": "track",
-      "width_nm": 150000
     },
     {
       "uuid": "823ae7b7-ccc4-5e13-8fbb-a02d92fad56c",
@@ -22922,21 +22009,6 @@
       "drill_nm": 300000
     },
     {
-      "uuid": "8502d472-6a90-4fed-8c97-80c5a90692c6",
-      "net": "USB_D+",
-      "start_nm": [
-        127250000,
-        34445000
-      ],
-      "end_nm": [
-        127250000,
-        35420000
-      ],
-      "layer": "F.Cu",
-      "kind": "track",
-      "width_nm": 150000
-    },
-    {
       "uuid": "850f4b7b-85e4-52e8-b25c-faa76fffaf53",
       "net": "GND",
       "start_nm": [
@@ -23259,21 +22331,6 @@
       "width_nm": 200000
     },
     {
-      "uuid": "88c819be-8559-4d9b-942c-cc1a0401deec",
-      "net": "USB_CC1",
-      "start_nm": [
-        130000000,
-        30750000
-      ],
-      "end_nm": [
-        133000000,
-        30750000
-      ],
-      "layer": "B.Cu",
-      "kind": "track",
-      "width_nm": 150000
-    },
-    {
       "uuid": "89024b74-e360-54d6-a3c7-6b8af059ee3f",
       "net": "P31_RON",
       "start_nm": [
@@ -23395,22 +22452,6 @@
       "drill_nm": 300000
     },
     {
-      "uuid": "896fe7d1-d49c-4674-8ddf-040ee810dc19",
-      "net": "GND",
-      "start_nm": [
-        135175000,
-        30500000
-      ],
-      "end_nm": [
-        135175000,
-        30500000
-      ],
-      "layer": "F.Cu",
-      "kind": "via",
-      "width_nm": 500000,
-      "drill_nm": 250000
-    },
-    {
       "uuid": "8972ab16-1a35-591c-8832-1eccf5d61845",
       "net": "AUX2_BUFFERED",
       "start_nm": [
@@ -23485,21 +22526,6 @@
       "layer": "F.Cu",
       "kind": "track",
       "width_nm": 250000
-    },
-    {
-      "uuid": "8a308d73-7ab8-4ead-8853-01ec4a6cb33d",
-      "net": "USB_D+",
-      "start_nm": [
-        117200000,
-        33650000
-      ],
-      "end_nm": [
-        111550000,
-        39300000
-      ],
-      "layer": "B.Cu",
-      "kind": "track",
-      "width_nm": 150000
     },
     {
       "uuid": "8a5f515b-d611-5061-97ae-0783496c90ac",
@@ -23745,21 +22771,6 @@
       "width_nm": 200000
     },
     {
-      "uuid": "8d429e8b-e010-4d01-a9c0-4c7663e49f34",
-      "net": "USB_CC1",
-      "start_nm": [
-        129250000,
-        32500000
-      ],
-      "end_nm": [
-        129250000,
-        31500000
-      ],
-      "layer": "B.Cu",
-      "kind": "track",
-      "width_nm": 150000
-    },
-    {
       "uuid": "8df1608f-6a78-5fd4-aade-fee2eb212f18",
       "net": "GDT2_L_HI",
       "start_nm": [
@@ -23818,21 +22829,6 @@
       "layer": "B.Cu",
       "kind": "track",
       "width_nm": 200000
-    },
-    {
-      "uuid": "8f734125-d730-4bca-8fbc-aa26efe4689c",
-      "net": "USB_D+",
-      "start_nm": [
-        127250000,
-        35420000
-      ],
-      "end_nm": [
-        128250000,
-        35420000
-      ],
-      "layer": "F.Cu",
-      "kind": "track",
-      "width_nm": 150000
     },
     {
       "uuid": "8f7b9b17-a8d8-5f23-ba33-0a14b486a0f4",
@@ -24064,21 +23060,6 @@
       "width_nm": 650000
     },
     {
-      "uuid": "92beac33-f20f-4ff3-9c3a-c1987b906972",
-      "net": "USB_D-",
-      "start_nm": [
-        116000000,
-        33575000
-      ],
-      "end_nm": [
-        111200000,
-        38375000
-      ],
-      "layer": "B.Cu",
-      "kind": "track",
-      "width_nm": 150000
-    },
-    {
       "uuid": "92e93ca6-e4ad-5db1-9476-3f46bec8647e",
       "net": "ADC_SCLK",
       "start_nm": [
@@ -24093,21 +23074,6 @@
       "kind": "via",
       "width_nm": 500000,
       "drill_nm": 250000
-    },
-    {
-      "uuid": "92f3a567-1f7e-4bd9-ae87-10cc52198fe2",
-      "net": "USB_VBUS",
-      "start_nm": [
-        125900000,
-        28400000
-      ],
-      "end_nm": [
-        125600000,
-        28100000
-      ],
-      "layer": "B.Cu",
-      "kind": "track",
-      "width_nm": 150000
     },
     {
       "uuid": "930cc102-8e56-51e3-8277-9ec0a31aca04",
@@ -24749,21 +23715,6 @@
       "width_nm": 200000
     },
     {
-      "uuid": "9a6cf725-8b2f-4d12-9ea4-7ca608e96f13",
-      "net": "USB_VBUS",
-      "start_nm": [
-        118000000,
-        28100000
-      ],
-      "end_nm": [
-        118000000,
-        32650000
-      ],
-      "layer": "B.Cu",
-      "kind": "track",
-      "width_nm": 150000
-    },
-    {
       "uuid": "9a8d52fa-594f-5e96-aa28-d61d67068c6b",
       "net": "CT1_ABS_SUM",
       "start_nm": [
@@ -24978,22 +23929,6 @@
       "width_nm": 200000
     },
     {
-      "uuid": "9c5a0f38-9eed-4795-9583-0ad325c02478",
-      "net": "USB_VBUS",
-      "start_nm": [
-        117400000,
-        32650000
-      ],
-      "end_nm": [
-        117400000,
-        32650000
-      ],
-      "layer": "F.Cu",
-      "kind": "via",
-      "width_nm": 500000,
-      "drill_nm": 250000
-    },
-    {
       "uuid": "9c8a34d4-a59d-50da-b6af-a988fc8cd29c",
       "net": "CT1_ENVELOPE",
       "start_nm": [
@@ -25098,21 +24033,6 @@
       "layer": "B.Cu",
       "kind": "track",
       "width_nm": 2500000
-    },
-    {
-      "uuid": "9db1cb8a-eae5-4e2b-9513-8315c9a28668",
-      "net": "USB_D-",
-      "start_nm": [
-        116600000,
-        30700000
-      ],
-      "end_nm": [
-        116000000,
-        31300000
-      ],
-      "layer": "B.Cu",
-      "kind": "track",
-      "width_nm": 150000
     },
     {
       "uuid": "9db7a075-36d1-5f11-9371-cd5603e1ed1c",
@@ -25266,22 +24186,6 @@
       "width_nm": 200000
     },
     {
-      "uuid": "9fd05377-54ea-4bd6-98b6-c8b970560948",
-      "net": "USB_VBUS",
-      "start_nm": [
-        114175000,
-        28400000
-      ],
-      "end_nm": [
-        114175000,
-        28400000
-      ],
-      "layer": "F.Cu",
-      "kind": "via",
-      "width_nm": 500000,
-      "drill_nm": 250000
-    },
-    {
       "uuid": "9fefd9ac-3992-5af4-95b8-2f6a0386f017",
       "net": "GND",
       "start_nm": [
@@ -25355,21 +24259,6 @@
       "layer": "F.Cu",
       "kind": "track",
       "width_nm": 300000
-    },
-    {
-      "uuid": "a0a9e632-e0d1-48f4-a05e-7f6c4a733ec7",
-      "net": "USB_CC1",
-      "start_nm": [
-        129250000,
-        31500000
-      ],
-      "end_nm": [
-        130000000,
-        30750000
-      ],
-      "layer": "B.Cu",
-      "kind": "track",
-      "width_nm": 150000
     },
     {
       "uuid": "a0c76afb-735c-5533-abb0-f2f590d5943d",
@@ -25678,21 +24567,6 @@
       "width_nm": 250000
     },
     {
-      "uuid": "a33dd431-514b-4e8f-993a-0c4f829fc2fc",
-      "net": "USB_D-",
-      "start_nm": [
-        127400000,
-        32950000
-      ],
-      "end_nm": [
-        127400000,
-        31700000
-      ],
-      "layer": "B.Cu",
-      "kind": "track",
-      "width_nm": 150000
-    },
-    {
       "uuid": "a34b2cfd-a0b4-5b7d-a86d-dc3f21f89b66",
       "net": "GDT1_L_HI",
       "start_nm": [
@@ -25893,21 +24767,6 @@
       "width_nm": 200000
     },
     {
-      "uuid": "a5ac7f93-0837-40f1-af72-e2ae0083805a",
-      "net": "USB_CC2",
-      "start_nm": [
-        118675000,
-        30500000
-      ],
-      "end_nm": [
-        118675000,
-        28800000
-      ],
-      "layer": "F.Cu",
-      "kind": "track",
-      "width_nm": 150000
-    },
-    {
       "uuid": "a5acc058-0850-5270-94d1-95413c3302ed",
       "net": "CT1_ABS",
       "start_nm": [
@@ -26031,22 +24890,6 @@
       "width_nm": 400000
     },
     {
-      "uuid": "a65f38c6-ad18-49b0-8fe6-78bfbfc1a86a",
-      "net": "USB_D+",
-      "start_nm": [
-        117200000,
-        33450000
-      ],
-      "end_nm": [
-        117200000,
-        33450000
-      ],
-      "layer": "F.Cu",
-      "kind": "via",
-      "width_nm": 500000,
-      "drill_nm": 250000
-    },
-    {
       "uuid": "a66743c5-fc72-5a52-90b2-ffd6d730642b",
       "net": "GDT2_R_SW",
       "start_nm": [
@@ -26135,21 +24978,6 @@
       "layer": "B.Cu",
       "kind": "track",
       "width_nm": 200000
-    },
-    {
-      "uuid": "a761e94a-e802-4815-b645-660db3337764",
-      "net": "USB_VBUS",
-      "start_nm": [
-        125900000,
-        29900000
-      ],
-      "end_nm": [
-        125900000,
-        28400000
-      ],
-      "layer": "B.Cu",
-      "kind": "track",
-      "width_nm": 150000
     },
     {
       "uuid": "a7797083-b84d-5671-96c0-e24bda3b3ede",
@@ -26392,21 +25220,6 @@
       "layer": "F.Cu",
       "kind": "track",
       "width_nm": 250000
-    },
-    {
-      "uuid": "a96b5069-a48f-4b16-b400-b8240587d377",
-      "net": "USB_D+",
-      "start_nm": [
-        121850000,
-        33450000
-      ],
-      "end_nm": [
-        117200000,
-        33450000
-      ],
-      "layer": "F.Cu",
-      "kind": "track",
-      "width_nm": 150000
     },
     {
       "uuid": "a9f3c45c-7e0c-5c42-a187-fcda30a85172",
@@ -26791,21 +25604,6 @@
       "drill_nm": 300000
     },
     {
-      "uuid": "ae209d9b-312f-4b0e-a7ea-fa4288368d70",
-      "net": "USB_D+",
-      "start_nm": [
-        105100000,
-        38775000
-      ],
-      "end_nm": [
-        104400000,
-        39475000
-      ],
-      "layer": "F.Cu",
-      "kind": "track",
-      "width_nm": 150000
-    },
-    {
       "uuid": "ae2991ff-0d1f-54b3-b417-374edb137830",
       "net": "ADC_REFCAP",
       "start_nm": [
@@ -26941,22 +25739,6 @@
       "layer": "F.Cu",
       "kind": "track",
       "width_nm": 300000
-    },
-    {
-      "uuid": "afba138c-614e-4ce8-bcfd-07a3489fca34",
-      "net": "USB_VBUS",
-      "start_nm": [
-        130100000,
-        29900000
-      ],
-      "end_nm": [
-        130100000,
-        29900000
-      ],
-      "layer": "F.Cu",
-      "kind": "via",
-      "width_nm": 500000,
-      "drill_nm": 250000
     },
     {
       "uuid": "b0062d7d-52ef-5e8a-93d4-6718066aaf4d",
@@ -27400,22 +26182,6 @@
       "width_nm": 300000
     },
     {
-      "uuid": "b3db8f92-14e3-43fe-99d7-0e4b6673a951",
-      "net": "USB_CC1",
-      "start_nm": [
-        136825000,
-        32500000
-      ],
-      "end_nm": [
-        136825000,
-        32500000
-      ],
-      "layer": "F.Cu",
-      "kind": "via",
-      "width_nm": 500000,
-      "drill_nm": 250000
-    },
-    {
       "uuid": "b3ea5247-0c41-5a82-a386-08119bf2f895",
       "net": "GND",
       "start_nm": [
@@ -27736,21 +26502,6 @@
       "width_nm": 1200000
     },
     {
-      "uuid": "b6935b2e-d750-4201-87b0-f3ff2ba18c7c",
-      "net": "GND",
-      "start_nm": [
-        120325000,
-        28800000
-      ],
-      "end_nm": [
-        121200000,
-        28800000
-      ],
-      "layer": "F.Cu",
-      "kind": "track",
-      "width_nm": 250000
-    },
-    {
       "uuid": "b6d0907d-224f-53ea-a914-4235d928de74",
       "net": "GND",
       "start_nm": [
@@ -27839,21 +26590,6 @@
       "layer": "B.Cu",
       "kind": "track",
       "width_nm": 800000
-    },
-    {
-      "uuid": "b80d63a9-7e36-4886-a8d7-6a7fe71dc060",
-      "net": "USB_D+",
-      "start_nm": [
-        121500000,
-        32400000
-      ],
-      "end_nm": [
-        122200000,
-        33100000
-      ],
-      "layer": "B.Cu",
-      "kind": "track",
-      "width_nm": 150000
     },
     {
       "uuid": "b8556142-f7f0-58b1-bc70-36bf32916f26",
@@ -27960,21 +26696,6 @@
       "layer": "F.Cu",
       "kind": "track",
       "width_nm": 250000
-    },
-    {
-      "uuid": "b92c73d3-bdcd-4c9b-a186-06a005c694a5",
-      "net": "USB_D+",
-      "start_nm": [
-        128250000,
-        32500000
-      ],
-      "end_nm": [
-        128250000,
-        31750000
-      ],
-      "layer": "B.Cu",
-      "kind": "track",
-      "width_nm": 150000
     },
     {
       "uuid": "b9740c71-bedd-5cd7-b224-59f895ed724d",
@@ -28527,21 +27248,6 @@
       "width_nm": 250000
     },
     {
-      "uuid": "be657926-ff35-5ddc-b78c-260ea534e6c5",
-      "net": "CT2_HALF",
-      "start_nm": [
-        68000000,
-        140800000
-      ],
-      "end_nm": [
-        68000000,
-        152000000
-      ],
-      "layer": "F.Cu",
-      "kind": "track",
-      "width_nm": 250000
-    },
-    {
       "uuid": "be6b058f-cc7d-5496-9c1d-6be214723110",
       "net": "GDT2_R_SW",
       "start_nm": [
@@ -28661,21 +27367,6 @@
       "layer": "F.Cu",
       "kind": "track",
       "width_nm": 250000
-    },
-    {
-      "uuid": "bfbc9b02-c01f-4771-bead-19222400b3c6",
-      "net": "USB_CC1",
-      "start_nm": [
-        133000000,
-        30750000
-      ],
-      "end_nm": [
-        134500000,
-        32250000
-      ],
-      "layer": "B.Cu",
-      "kind": "track",
-      "width_nm": 150000
     },
     {
       "uuid": "bffbc885-6b33-5a78-86bc-22853b42af8a",
@@ -29349,21 +28040,6 @@
       "width_nm": 1000000
     },
     {
-      "uuid": "c591ecc6-6d73-43e6-8f10-627724af028d",
-      "net": "GND",
-      "start_nm": [
-        112825000,
-        29300000
-      ],
-      "end_nm": [
-        112825000,
-        28500000
-      ],
-      "layer": "F.Cu",
-      "kind": "track",
-      "width_nm": 250000
-    },
-    {
       "uuid": "c5c6b3ff-0ae1-5683-8924-d5197ad9caff",
       "net": "GDT2_L_SW",
       "start_nm": [
@@ -29392,21 +28068,6 @@
       "layer": "B.Cu",
       "kind": "track",
       "width_nm": 200000
-    },
-    {
-      "uuid": "c66fb8c4-9481-4d4c-8047-850ed029c0cd",
-      "net": "USB_CC1",
-      "start_nm": [
-        134500000,
-        32250000
-      ],
-      "end_nm": [
-        136825000,
-        32250000
-      ],
-      "layer": "B.Cu",
-      "kind": "track",
-      "width_nm": 150000
     },
     {
       "uuid": "c67c41a3-2fd8-5a0c-b278-d3920935525f",
@@ -29590,21 +28251,6 @@
       "kind": "via",
       "width_nm": 600000,
       "drill_nm": 300000
-    },
-    {
-      "uuid": "c824d82c-fa4b-544c-97a2-dce001cae6bb",
-      "net": "+5V_ADC",
-      "start_nm": [
-        59862500,
-        151750000
-      ],
-      "end_nm": [
-        58050000,
-        151750000
-      ],
-      "layer": "F.Cu",
-      "kind": "track",
-      "width_nm": 350000
     },
     {
       "uuid": "c82794d5-9110-5ce3-af1c-423b7011e001",
@@ -30324,21 +28970,6 @@
       "drill_nm": 300000
     },
     {
-      "uuid": "d1e30c11-3a87-42f3-9d32-32830a31175c",
-      "net": "USB_D-",
-      "start_nm": [
-        104875000,
-        38475000
-      ],
-      "end_nm": [
-        104000000,
-        39350000
-      ],
-      "layer": "F.Cu",
-      "kind": "track",
-      "width_nm": 150000
-    },
-    {
       "uuid": "d20ad613-db36-582d-a354-ee12060235c7",
       "net": "GDT2_L_SW",
       "start_nm": [
@@ -30428,22 +29059,6 @@
       "layer": "F.Cu",
       "kind": "track",
       "width_nm": 200000
-    },
-    {
-      "uuid": "d26c2bd0-c838-4ec9-85df-681e6f3e7b3f",
-      "net": "GND",
-      "start_nm": [
-        126900000,
-        33100000
-      ],
-      "end_nm": [
-        126900000,
-        33100000
-      ],
-      "layer": "F.Cu",
-      "kind": "via",
-      "width_nm": 500000,
-      "drill_nm": 250000
     },
     {
       "uuid": "d2a7e0a2-dbd9-5ef5-b03b-7011d63a160d",
@@ -30797,22 +29412,6 @@
       "drill_nm": 300000
     },
     {
-      "uuid": "d608da05-ca60-417c-89ff-3c34c4236c98",
-      "net": "USB_CC1",
-      "start_nm": [
-        129250000,
-        32500000
-      ],
-      "end_nm": [
-        129250000,
-        32500000
-      ],
-      "layer": "F.Cu",
-      "kind": "via",
-      "width_nm": 500000,
-      "drill_nm": 250000
-    },
-    {
       "uuid": "d61785de-d489-51e5-989d-0ef7606ee843",
       "net": "GND",
       "start_nm": [
@@ -30871,21 +29470,6 @@
       "layer": "B.Cu",
       "kind": "track",
       "width_nm": 600000
-    },
-    {
-      "uuid": "d6e05a7d-fa2a-4015-80da-c32b986fec11",
-      "net": "USB_VBUS",
-      "start_nm": [
-        114175000,
-        28400000
-      ],
-      "end_nm": [
-        114175000,
-        29300000
-      ],
-      "layer": "F.Cu",
-      "kind": "track",
-      "width_nm": 200000
     },
     {
       "uuid": "d705623b-ae1a-5b71-8c5d-935fad131dfd",
@@ -30988,22 +29572,6 @@
       "end_nm": [
         103600000,
         84400000
-      ],
-      "layer": "F.Cu",
-      "kind": "via",
-      "width_nm": 500000,
-      "drill_nm": 250000
-    },
-    {
-      "uuid": "d7b09610-f61a-4d58-8e6a-a13308132750",
-      "net": "USB_CC2",
-      "start_nm": [
-        118675000,
-        30500000
-      ],
-      "end_nm": [
-        118675000,
-        30500000
       ],
       "layer": "F.Cu",
       "kind": "via",
@@ -31163,22 +29731,6 @@
       "width_nm": 300000
     },
     {
-      "uuid": "d90ba58a-69ad-44b5-a9ad-d4c2284521d3",
-      "net": "USB_D-",
-      "start_nm": [
-        128750000,
-        33299999
-      ],
-      "end_nm": [
-        128750000,
-        33299999
-      ],
-      "layer": "F.Cu",
-      "kind": "via",
-      "width_nm": 500000,
-      "drill_nm": 250000
-    },
-    {
       "uuid": "d90c1b64-b7a5-52ea-ba57-d7fb971b3aef",
       "net": "GND",
       "start_nm": [
@@ -31192,21 +29744,6 @@
       "layer": "F.Cu",
       "kind": "track",
       "width_nm": 1200000
-    },
-    {
-      "uuid": "d941b9e8-5a98-4bae-a615-3ea9630f433e",
-      "net": "USB_VBUS",
-      "start_nm": [
-        125600000,
-        28100000
-      ],
-      "end_nm": [
-        114475000,
-        28100000
-      ],
-      "layer": "B.Cu",
-      "kind": "track",
-      "width_nm": 150000
     },
     {
       "uuid": "d968b901-a2ab-5b0a-bcfe-2430e495a35d",
@@ -31419,21 +29956,6 @@
       "width_nm": 600000
     },
     {
-      "uuid": "dbfc6d67-0f2a-4661-9847-01430db9a28e",
-      "net": "USB_VBUS_PRESENT",
-      "start_nm": [
-        115800000,
-        30800000
-      ],
-      "end_nm": [
-        111175000,
-        30800000
-      ],
-      "layer": "F.Cu",
-      "kind": "track",
-      "width_nm": 150000
-    },
-    {
       "uuid": "dc023aa0-3ff7-5f5e-9cbe-859e1c555521",
       "net": "VBAT_24V",
       "start_nm": [
@@ -31588,21 +30110,6 @@
       "drill_nm": 300000
     },
     {
-      "uuid": "de9398a0-b8e7-45b3-ad1d-9401179e271f",
-      "net": "USB_VBUS_PRESENT",
-      "start_nm": [
-        99200000,
-        40400000
-      ],
-      "end_nm": [
-        99200000,
-        41145000
-      ],
-      "layer": "F.Cu",
-      "kind": "track",
-      "width_nm": 150000
-    },
-    {
       "uuid": "dec1bb79-cf24-5678-aab5-e960ea58853f",
       "net": "CT2_ABS",
       "start_nm": [
@@ -31647,21 +30154,6 @@
       "layer": "F.Cu",
       "kind": "track",
       "width_nm": 250000
-    },
-    {
-      "uuid": "df9dfdbd-f563-5a05-a4dc-e17aed61e614",
-      "net": "+5V_ADC",
-      "start_nm": [
-        86250000,
-        84000000
-      ],
-      "end_nm": [
-        89600000,
-        84000000
-      ],
-      "layer": "F.Cu",
-      "kind": "track",
-      "width_nm": 500000
     },
     {
       "uuid": "e03efe5d-f143-5637-bfe0-074ea4f4bdef",
@@ -31786,21 +30278,6 @@
       "width_nm": 200000
     },
     {
-      "uuid": "e138a91e-6064-56a1-9711-fecc84ace646",
-      "net": "ADC_RESET",
-      "start_nm": [
-        94000000,
-        93200000
-      ],
-      "end_nm": [
-        94000000,
-        104500000
-      ],
-      "layer": "B.Cu",
-      "kind": "track",
-      "width_nm": 200000
-    },
-    {
       "uuid": "e1519432-f99f-59f1-a3d1-3cbad61ba949",
       "net": "CT2_RAW",
       "start_nm": [
@@ -31905,21 +30382,6 @@
       "layer": "F.Cu",
       "kind": "track",
       "width_nm": 500000
-    },
-    {
-      "uuid": "e284b739-46a4-465f-971f-99bb1de99024",
-      "net": "USB_D+",
-      "start_nm": [
-        117200000,
-        33450000
-      ],
-      "end_nm": [
-        117200000,
-        33650000
-      ],
-      "layer": "B.Cu",
-      "kind": "track",
-      "width_nm": 150000
     },
     {
       "uuid": "e2a52e54-dbc2-5829-8313-a26852139dae",
@@ -32284,21 +30746,6 @@
       "width_nm": 150000
     },
     {
-      "uuid": "e7dccf88-cbca-4f3f-b3ec-4a07bd9b00d8",
-      "net": "USB_VBUS",
-      "start_nm": [
-        117400000,
-        32650000
-      ],
-      "end_nm": [
-        117250000,
-        32500000
-      ],
-      "layer": "F.Cu",
-      "kind": "track",
-      "width_nm": 200000
-    },
-    {
       "uuid": "e7e27968-c7a2-512d-a530-67f6261d51ed",
       "net": "GND",
       "start_nm": [
@@ -32312,21 +30759,6 @@
       "layer": "B.Cu",
       "kind": "track",
       "width_nm": 1200000
-    },
-    {
-      "uuid": "e7fac936-222f-4bc1-aca7-7674bcf8e194",
-      "net": "USB_CC2",
-      "start_nm": [
-        126550000,
-        31000000
-      ],
-      "end_nm": [
-        126550000,
-        30500000
-      ],
-      "layer": "F.Cu",
-      "kind": "track",
-      "width_nm": 150000
     },
     {
       "uuid": "e88c51cd-0bad-5def-86e2-37896483c2b8",
@@ -32634,21 +31066,6 @@
       "width_nm": 300000
     },
     {
-      "uuid": "ec535949-7a60-5164-9776-32d8b11de674",
-      "net": "-5V_CT",
-      "start_nm": [
-        45862500,
-        108050000
-      ],
-      "end_nm": [
-        44110000,
-        108050000
-      ],
-      "layer": "F.Cu",
-      "kind": "track",
-      "width_nm": 300000
-    },
-    {
       "uuid": "ecefbc6b-f5c7-502a-beb0-4c2b986d2f5c",
       "net": "GDT2_L_LO",
       "start_nm": [
@@ -32895,21 +31312,6 @@
       "width_nm": 250000
     },
     {
-      "uuid": "f01d7938-ef9d-49ec-8075-2d834c6e98e2",
-      "net": "GND",
-      "start_nm": [
-        115025000,
-        32500000
-      ],
-      "end_nm": [
-        115025000,
-        31600000
-      ],
-      "layer": "F.Cu",
-      "kind": "track",
-      "width_nm": 250000
-    },
-    {
       "uuid": "f0380551-59c5-5614-b08a-40fa84f5c7c2",
       "net": "GND",
       "start_nm": [
@@ -33030,21 +31432,6 @@
       "kind": "via",
       "width_nm": 600000,
       "drill_nm": 300000
-    },
-    {
-      "uuid": "f249fb53-4588-43f9-9013-53b59f9f0d57",
-      "net": "USB_D+",
-      "start_nm": [
-        110500000,
-        39100000
-      ],
-      "end_nm": [
-        110175000,
-        38775000
-      ],
-      "layer": "F.Cu",
-      "kind": "track",
-      "width_nm": 150000
     },
     {
       "uuid": "f284c8fa-6266-5cd2-9c61-802eb644f43f",
@@ -33305,21 +31692,6 @@
       "width_nm": 250000
     },
     {
-      "uuid": "f481193a-bd99-4be6-bfee-9ecae4919a3d",
-      "net": "USB_VBUS_PRESENT",
-      "start_nm": [
-        109900000,
-        32075000
-      ],
-      "end_nm": [
-        109900000,
-        40400000
-      ],
-      "layer": "B.Cu",
-      "kind": "track",
-      "width_nm": 150000
-    },
-    {
       "uuid": "f48e4867-6a7b-5e7f-92af-13567b944bcd",
       "net": "GND",
       "start_nm": [
@@ -33349,21 +31721,6 @@
       "layer": "F.Cu",
       "kind": "track",
       "width_nm": 200000
-    },
-    {
-      "uuid": "f4f4e002-71b2-4dd0-84da-2667156dba2c",
-      "net": "USB_CC2",
-      "start_nm": [
-        126250000,
-        31300000
-      ],
-      "end_nm": [
-        126550000,
-        31000000
-      ],
-      "layer": "F.Cu",
-      "kind": "track",
-      "width_nm": 150000
     },
     {
       "uuid": "f4fd329f-384b-50e1-ac54-58bff129c3a3",
@@ -33869,21 +32226,6 @@
       "drill_nm": 300000
     },
     {
-      "uuid": "fb1ac28a-ab6c-4a19-99b2-f5a2d05898f4",
-      "net": "USB_D+",
-      "start_nm": [
-        128250000,
-        35420000
-      ],
-      "end_nm": [
-        128250000,
-        32500000
-      ],
-      "layer": "F.Cu",
-      "kind": "track",
-      "width_nm": 150000
-    },
-    {
       "uuid": "fb2998e7-856c-5103-a2a7-ca5959259be7",
       "net": "AUX2_BUFFERED",
       "start_nm": [
@@ -33958,21 +32300,6 @@
       "layer": "F.Cu",
       "kind": "track",
       "width_nm": 250000
-    },
-    {
-      "uuid": "fb87f6b9-8810-4b96-a6d7-4616cb6583bf",
-      "net": "USB_D-",
-      "start_nm": [
-        121350000,
-        31550000
-      ],
-      "end_nm": [
-        117200000,
-        31550000
-      ],
-      "layer": "F.Cu",
-      "kind": "track",
-      "width_nm": 150000
     },
     {
       "uuid": "fbbc5d29-f2f0-5a43-973d-40fd94d8b23d",
@@ -34202,22 +32529,6 @@
       "width_nm": 250000
     },
     {
-      "uuid": "fdac2410-d513-4b4d-9649-05b99e2869c6",
-      "net": "USB_D-",
-      "start_nm": [
-        127750000,
-        33299999
-      ],
-      "end_nm": [
-        127750000,
-        33299999
-      ],
-      "layer": "F.Cu",
-      "kind": "via",
-      "width_nm": 500000,
-      "drill_nm": 250000
-    },
-    {
       "uuid": "fdcf7d8f-c53d-5b36-81c0-f9639b63f126",
       "net": "GND",
       "start_nm": [
@@ -34232,22 +32543,6 @@
       "kind": "via",
       "width_nm": 600000,
       "drill_nm": 300000
-    },
-    {
-      "uuid": "fddee94b-dfca-4bc4-9b74-ec24f365712a",
-      "net": "USB_CC2",
-      "start_nm": [
-        126550000,
-        30500000
-      ],
-      "end_nm": [
-        126550000,
-        30500000
-      ],
-      "layer": "F.Cu",
-      "kind": "via",
-      "width_nm": 500000,
-      "drill_nm": 250000
     },
     {
       "uuid": "fec4d1c3-69c8-59b3-a542-f712ea2ee001",
@@ -35094,6 +33389,749 @@
       "layer": "F.Cu",
       "kind": "track",
       "width_nm": 500000
+    },
+    {
+      "uuid": "0084bfc8-cd4f-5120-95dc-d614daa8e601",
+      "net": "USB_D+",
+      "start_nm": [
+        127250000,
+        34445000
+      ],
+      "end_nm": [
+        127250000,
+        35500000
+      ],
+      "layer": "F.Cu",
+      "kind": "track",
+      "width_nm": 150000
+    },
+    {
+      "uuid": "0084bfc8-cd4f-5120-95dc-d614daa8e602",
+      "net": "USB_D+",
+      "start_nm": [
+        127250000,
+        35500000
+      ],
+      "end_nm": [
+        128250000,
+        35500000
+      ],
+      "layer": "F.Cu",
+      "kind": "track",
+      "width_nm": 150000
+    },
+    {
+      "uuid": "0084bfc8-cd4f-5120-95dc-d614daa8e603",
+      "net": "USB_D+",
+      "start_nm": [
+        128250000,
+        34445000
+      ],
+      "end_nm": [
+        128250000,
+        37000000
+      ],
+      "layer": "F.Cu",
+      "kind": "track",
+      "width_nm": 150000
+    },
+    {
+      "uuid": "0084bfc8-cd4f-5120-95dc-d614daa8e604",
+      "net": "USB_D+",
+      "start_nm": [
+        128250000,
+        37000000
+      ],
+      "end_nm": [
+        127900000,
+        37350000
+      ],
+      "layer": "F.Cu",
+      "kind": "track",
+      "width_nm": 150000
+    },
+    {
+      "uuid": "0084bfc8-cd4f-5120-95dc-d614daa8e605",
+      "net": "USB_D+",
+      "start_nm": [
+        127900000,
+        37350000
+      ],
+      "end_nm": [
+        104750000,
+        37350000
+      ],
+      "layer": "F.Cu",
+      "kind": "track",
+      "width_nm": 150000
+    },
+    {
+      "uuid": "0084bfc8-cd4f-5120-95dc-d614daa8e606",
+      "net": "USB_D+",
+      "start_nm": [
+        104750000,
+        37350000
+      ],
+      "end_nm": [
+        104400000,
+        37700000
+      ],
+      "layer": "F.Cu",
+      "kind": "track",
+      "width_nm": 150000
+    },
+    {
+      "uuid": "0084bfc8-cd4f-5120-95dc-d614daa8e607",
+      "net": "USB_D+",
+      "start_nm": [
+        104400000,
+        37700000
+      ],
+      "end_nm": [
+        104400000,
+        41145000
+      ],
+      "layer": "F.Cu",
+      "kind": "track",
+      "width_nm": 150000
+    },
+    {
+      "uuid": "0084bfc8-cd4f-5120-95dc-d614daa8e608",
+      "net": "USB_D-",
+      "start_nm": [
+        127750000,
+        34445000
+      ],
+      "end_nm": [
+        127750000,
+        33300000
+      ],
+      "layer": "F.Cu",
+      "kind": "track",
+      "width_nm": 150000
+    },
+    {
+      "uuid": "0084bfc8-cd4f-5120-95dc-d614daa8e609",
+      "net": "USB_D-",
+      "start_nm": [
+        127750000,
+        33300000
+      ],
+      "end_nm": [
+        128750000,
+        33300000
+      ],
+      "layer": "F.Cu",
+      "kind": "track",
+      "width_nm": 150000
+    },
+    {
+      "uuid": "0084bfc8-cd4f-5120-95dc-d614daa8e60a",
+      "net": "USB_D-",
+      "start_nm": [
+        128750000,
+        33300000
+      ],
+      "end_nm": [
+        128750000,
+        38900000
+      ],
+      "layer": "F.Cu",
+      "kind": "track",
+      "width_nm": 150000
+    },
+    {
+      "uuid": "0084bfc8-cd4f-5120-95dc-d614daa8e60b",
+      "net": "USB_D-",
+      "start_nm": [
+        128750000,
+        38900000
+      ],
+      "end_nm": [
+        128400000,
+        39250000
+      ],
+      "layer": "F.Cu",
+      "kind": "track",
+      "width_nm": 150000
+    },
+    {
+      "uuid": "0084bfc8-cd4f-5120-95dc-d614daa8e60c",
+      "net": "USB_D-",
+      "start_nm": [
+        128400000,
+        39250000
+      ],
+      "end_nm": [
+        120500000,
+        39250000
+      ],
+      "layer": "F.Cu",
+      "kind": "track",
+      "width_nm": 150000
+    },
+    {
+      "uuid": "009f16fc-1e09-5d72-9e63-d720975ae60d",
+      "net": "USB_D-",
+      "start_nm": [
+        120500000,
+        39250000
+      ],
+      "end_nm": [
+        120500000,
+        39250000
+      ],
+      "layer": "F.Cu",
+      "kind": "via",
+      "width_nm": 600000,
+      "drill_nm": 300000
+    },
+    {
+      "uuid": "0084bfc8-cd4f-5120-95dc-d614daa8e60e",
+      "net": "USB_D-",
+      "start_nm": [
+        120500000,
+        39250000
+      ],
+      "end_nm": [
+        117650000,
+        36400000
+      ],
+      "layer": "B.Cu",
+      "kind": "track",
+      "width_nm": 150000
+    },
+    {
+      "uuid": "009f16fc-1e09-5d72-9e63-d720975ae60f",
+      "net": "USB_D-",
+      "start_nm": [
+        117650000,
+        36400000
+      ],
+      "end_nm": [
+        117650000,
+        36400000
+      ],
+      "layer": "F.Cu",
+      "kind": "via",
+      "width_nm": 600000,
+      "drill_nm": 300000
+    },
+    {
+      "uuid": "0084bfc8-cd4f-5120-95dc-d614daa8e610",
+      "net": "USB_D-",
+      "start_nm": [
+        117650000,
+        36400000
+      ],
+      "end_nm": [
+        104350000,
+        36400000
+      ],
+      "layer": "F.Cu",
+      "kind": "track",
+      "width_nm": 150000
+    },
+    {
+      "uuid": "0084bfc8-cd4f-5120-95dc-d614daa8e611",
+      "net": "USB_D-",
+      "start_nm": [
+        104350000,
+        36400000
+      ],
+      "end_nm": [
+        104000000,
+        36750000
+      ],
+      "layer": "F.Cu",
+      "kind": "track",
+      "width_nm": 150000
+    },
+    {
+      "uuid": "0084bfc8-cd4f-5120-95dc-d614daa8e612",
+      "net": "USB_D-",
+      "start_nm": [
+        104000000,
+        36750000
+      ],
+      "end_nm": [
+        104000000,
+        41145000
+      ],
+      "layer": "F.Cu",
+      "kind": "track",
+      "width_nm": 150000
+    },
+    {
+      "uuid": "0084bfc8-cd4f-5120-95dc-d614daa8e613",
+      "net": "USB_VBUS",
+      "start_nm": [
+        125750000,
+        34445000
+      ],
+      "end_nm": [
+        125750000,
+        32300000
+      ],
+      "layer": "F.Cu",
+      "kind": "track",
+      "width_nm": 200000
+    },
+    {
+      "uuid": "0084bfc8-cd4f-5120-95dc-d614daa8e614",
+      "net": "USB_VBUS",
+      "start_nm": [
+        125750000,
+        32300000
+      ],
+      "end_nm": [
+        130250000,
+        32300000
+      ],
+      "layer": "F.Cu",
+      "kind": "track",
+      "width_nm": 200000
+    },
+    {
+      "uuid": "0084bfc8-cd4f-5120-95dc-d614daa8e615",
+      "net": "USB_VBUS",
+      "start_nm": [
+        130250000,
+        32300000
+      ],
+      "end_nm": [
+        130250000,
+        34445000
+      ],
+      "layer": "F.Cu",
+      "kind": "track",
+      "width_nm": 200000
+    },
+    {
+      "uuid": "0084bfc8-cd4f-5120-95dc-d614daa8e616",
+      "net": "USB_VBUS",
+      "start_nm": [
+        130450000,
+        34445000
+      ],
+      "end_nm": [
+        130450000,
+        36900000
+      ],
+      "layer": "F.Cu",
+      "kind": "track",
+      "width_nm": 200000
+    },
+    {
+      "uuid": "0084bfc8-cd4f-5120-95dc-d614daa8e617",
+      "net": "USB_VBUS",
+      "start_nm": [
+        130450000,
+        36900000
+      ],
+      "end_nm": [
+        131625000,
+        36900000
+      ],
+      "layer": "F.Cu",
+      "kind": "track",
+      "width_nm": 200000
+    },
+    {
+      "uuid": "0084bfc8-cd4f-5120-95dc-d614daa8e618",
+      "net": "USB_VBUS",
+      "start_nm": [
+        131625000,
+        36900000
+      ],
+      "end_nm": [
+        131625000,
+        38900000
+      ],
+      "layer": "F.Cu",
+      "kind": "track",
+      "width_nm": 200000
+    },
+    {
+      "uuid": "009f16fc-1e09-5d72-9e63-d720975ae619",
+      "net": "USB_VBUS",
+      "start_nm": [
+        130450000,
+        36900000
+      ],
+      "end_nm": [
+        130450000,
+        36900000
+      ],
+      "layer": "F.Cu",
+      "kind": "via",
+      "width_nm": 600000,
+      "drill_nm": 300000
+    },
+    {
+      "uuid": "0084bfc8-cd4f-5120-95dc-d614daa8e61a",
+      "net": "USB_VBUS",
+      "start_nm": [
+        130450000,
+        36900000
+      ],
+      "end_nm": [
+        130450000,
+        38300000
+      ],
+      "layer": "B.Cu",
+      "kind": "track",
+      "width_nm": 200000
+    },
+    {
+      "uuid": "0084bfc8-cd4f-5120-95dc-d614daa8e61b",
+      "net": "USB_VBUS",
+      "start_nm": [
+        130450000,
+        38300000
+      ],
+      "end_nm": [
+        127300000,
+        38300000
+      ],
+      "layer": "B.Cu",
+      "kind": "track",
+      "width_nm": 200000
+    },
+    {
+      "uuid": "009f16fc-1e09-5d72-9e63-d720975ae61c",
+      "net": "USB_VBUS",
+      "start_nm": [
+        127300000,
+        38300000
+      ],
+      "end_nm": [
+        127300000,
+        38300000
+      ],
+      "layer": "F.Cu",
+      "kind": "via",
+      "width_nm": 600000,
+      "drill_nm": 300000
+    },
+    {
+      "uuid": "0084bfc8-cd4f-5120-95dc-d614daa8e61d",
+      "net": "USB_VBUS",
+      "start_nm": [
+        127300000,
+        38300000
+      ],
+      "end_nm": [
+        126137000,
+        38300000
+      ],
+      "layer": "F.Cu",
+      "kind": "track",
+      "width_nm": 200000
+    },
+    {
+      "uuid": "0084bfc8-cd4f-5120-95dc-d614daa8e61e",
+      "net": "USB_CC2",
+      "start_nm": [
+        126250000,
+        34445000
+      ],
+      "end_nm": [
+        126250000,
+        35500000
+      ],
+      "layer": "F.Cu",
+      "kind": "track",
+      "width_nm": 150000
+    },
+    {
+      "uuid": "0084bfc8-cd4f-5120-95dc-d614daa8e61f",
+      "net": "USB_CC2",
+      "start_nm": [
+        126250000,
+        35500000
+      ],
+      "end_nm": [
+        121825000,
+        35500000
+      ],
+      "layer": "F.Cu",
+      "kind": "track",
+      "width_nm": 150000
+    },
+    {
+      "uuid": "0084bfc8-cd4f-5120-95dc-d614daa8e620",
+      "net": "USB_CC1",
+      "start_nm": [
+        129250000,
+        34445000
+      ],
+      "end_nm": [
+        129250000,
+        40375000
+      ],
+      "layer": "F.Cu",
+      "kind": "track",
+      "width_nm": 150000
+    },
+    {
+      "uuid": "0084bfc8-cd4f-5120-95dc-d614daa8e621",
+      "net": "USB_VBUS_PRESENT",
+      "start_nm": [
+        133275000,
+        38900000
+      ],
+      "end_nm": [
+        133275000,
+        41500000
+      ],
+      "layer": "F.Cu",
+      "kind": "track",
+      "width_nm": 150000
+    },
+    {
+      "uuid": "0084bfc8-cd4f-5120-95dc-d614daa8e627",
+      "net": "GND",
+      "start_nm": [
+        123863000,
+        38300000
+      ],
+      "end_nm": [
+        122600000,
+        38300000
+      ],
+      "layer": "F.Cu",
+      "kind": "track",
+      "width_nm": 200000
+    },
+    {
+      "uuid": "009f16fc-1e09-5d72-9e63-d720975ae628",
+      "net": "GND",
+      "start_nm": [
+        122600000,
+        38300000
+      ],
+      "end_nm": [
+        122600000,
+        38300000
+      ],
+      "layer": "F.Cu",
+      "kind": "via",
+      "width_nm": 600000,
+      "drill_nm": 300000
+    },
+    {
+      "uuid": "0cf97bbb-f494-552c-adf7-5a90ebdae6c2",
+      "net": "GND",
+      "start_nm": [
+        157700000,
+        126025000
+      ],
+      "end_nm": [
+        159300000,
+        126025000
+      ],
+      "layer": "F.Cu",
+      "kind": "track",
+      "width_nm": 400000
+    },
+    {
+      "uuid": "2118d59e-a6b4-5910-88a7-7089c6dbe6c4",
+      "net": "VBAT_24V",
+      "start_nm": [
+        48450000,
+        35000000
+      ],
+      "end_nm": [
+        48450000,
+        46000000
+      ],
+      "layer": "F.Cu",
+      "kind": "track",
+      "width_nm": 1500000
+    },
+    {
+      "uuid": "66cab0c0-c8ef-512b-a15a-9e1b8ccce6d7",
+      "net": "GND",
+      "start_nm": [
+        152900000,
+        107350000
+      ],
+      "end_nm": [
+        152900000,
+        107350000
+      ],
+      "layer": "F.Cu",
+      "kind": "via",
+      "width_nm": 600000,
+      "drill_nm": 300000
+    },
+    {
+      "uuid": "be657926-ff35-5ddc-b78c-260ea534e6c5",
+      "net": "CT2_HALF",
+      "start_nm": [
+        68000000,
+        140800000
+      ],
+      "end_nm": [
+        68000000,
+        152000000
+      ],
+      "layer": "F.Cu",
+      "kind": "track",
+      "width_nm": 250000
+    },
+    {
+      "uuid": "c824d82c-fa4b-544c-97a2-dce001cae6bb",
+      "net": "+5V_ADC",
+      "start_nm": [
+        59862500,
+        151750000
+      ],
+      "end_nm": [
+        58050000,
+        151750000
+      ],
+      "layer": "F.Cu",
+      "kind": "track",
+      "width_nm": 350000
+    },
+    {
+      "uuid": "df9dfdbd-f563-5a05-a4dc-e17aed61e614",
+      "net": "+5V_ADC",
+      "start_nm": [
+        86250000,
+        84000000
+      ],
+      "end_nm": [
+        89600000,
+        84000000
+      ],
+      "layer": "F.Cu",
+      "kind": "track",
+      "width_nm": 500000
+    },
+    {
+      "uuid": "e138a91e-6064-56a1-9711-fecc84ace646",
+      "net": "ADC_RESET",
+      "start_nm": [
+        94000000,
+        93200000
+      ],
+      "end_nm": [
+        94000000,
+        104500000
+      ],
+      "layer": "B.Cu",
+      "kind": "track",
+      "width_nm": 200000
+    },
+    {
+      "uuid": "ec535949-7a60-5164-9776-32d8b11de674",
+      "net": "-5V_CT",
+      "start_nm": [
+        45862500,
+        108050000
+      ],
+      "end_nm": [
+        44110000,
+        108050000
+      ],
+      "layer": "F.Cu",
+      "kind": "track",
+      "width_nm": 300000
+    },
+    {
+      "uuid": "009f16fc-1e09-5d72-9e63-d720975ae641",
+      "net": "USB_VBUS_PRESENT",
+      "start_nm": [
+        133275000,
+        41500000
+      ],
+      "end_nm": [
+        133275000,
+        41500000
+      ],
+      "layer": "F.Cu",
+      "kind": "via",
+      "width_nm": 600000,
+      "drill_nm": 300000
+    },
+    {
+      "uuid": "009f16fc-1e09-5d72-9e63-d720975ae645",
+      "net": "USB_VBUS_PRESENT",
+      "start_nm": [
+        99200000,
+        38500000
+      ],
+      "end_nm": [
+        99200000,
+        38500000
+      ],
+      "layer": "F.Cu",
+      "kind": "via",
+      "width_nm": 600000,
+      "drill_nm": 300000
+    },
+    {
+      "uuid": "0084bfc8-cd4f-5120-95dc-d614daa8e646",
+      "net": "USB_VBUS_PRESENT",
+      "start_nm": [
+        99200000,
+        38500000
+      ],
+      "end_nm": [
+        99200000,
+        41145000
+      ],
+      "layer": "F.Cu",
+      "kind": "track",
+      "width_nm": 150000
+    },
+    {
+      "uuid": "0084bfc8-cd4f-5120-95dc-d614daa8e651",
+      "net": "USB_VBUS_PRESENT",
+      "start_nm": [
+        133275000,
+        41500000
+      ],
+      "end_nm": [
+        112900000,
+        41500000
+      ],
+      "layer": "B.Cu",
+      "kind": "track",
+      "width_nm": 150000
+    },
+    {
+      "uuid": "0084bfc8-cd4f-5120-95dc-d614daa8e652",
+      "net": "USB_VBUS_PRESENT",
+      "start_nm": [
+        112900000,
+        41500000
+      ],
+      "end_nm": [
+        109900000,
+        38500000
+      ],
+      "layer": "B.Cu",
+      "kind": "track",
+      "width_nm": 150000
+    },
+    {
+      "uuid": "0084bfc8-cd4f-5120-95dc-d614daa8e653",
+      "net": "USB_VBUS_PRESENT",
+      "start_nm": [
+        109900000,
+        38500000
+      ],
+      "end_nm": [
+        99200000,
+        38500000
+      ],
+      "layer": "B.Cu",
+      "kind": "track",
+      "width_nm": 150000
     }
   ]
 }
