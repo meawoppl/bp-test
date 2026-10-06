@@ -14895,7 +14895,7 @@
       ],
       "end_nm": [
         74950000,
-        155400000
+        151750000
       ],
       "layer": "B.Cu",
       "kind": "track",
@@ -20758,21 +20758,6 @@
       "width_nm": 200000
     },
     {
-      "uuid": "730fa529-cb4a-5cd1-81ca-8ac394199c05",
-      "net": "+5V_ADC",
-      "start_nm": [
-        58050000,
-        138400000
-      ],
-      "end_nm": [
-        74950000,
-        138400000
-      ],
-      "layer": "B.Cu",
-      "kind": "track",
-      "width_nm": 400000
-    },
-    {
       "uuid": "732ec12a-cb4e-5006-9340-dff8345c696d",
       "net": "+12V_BIAS",
       "start_nm": [
@@ -21661,21 +21646,6 @@
       "kind": "via",
       "width_nm": 600000,
       "drill_nm": 300000
-    },
-    {
-      "uuid": "7bdec652-e7b0-5ec7-b7f0-b76503a75d98",
-      "net": "+5V_ADC",
-      "start_nm": [
-        58050000,
-        155400000
-      ],
-      "end_nm": [
-        74950000,
-        155400000
-      ],
-      "layer": "B.Cu",
-      "kind": "track",
-      "width_nm": 400000
     },
     {
       "uuid": "7c0c5b33-14f4-5f33-9e30-c4ac65157fd7",
@@ -22817,7 +22787,7 @@
       "uuid": "83d402a9-e47a-5200-aa47-6a3c2f2598c6",
       "net": "+5V_ADC",
       "start_nm": [
-        74262500,
+        58050000,
         134750000
       ],
       "end_nm": [
@@ -22826,7 +22796,7 @@
       ],
       "layer": "B.Cu",
       "kind": "track",
-      "width_nm": 400000
+      "width_nm": 500000
     },
     {
       "uuid": "83e0f428-0058-58ec-844c-3bdef4fce5d8",
@@ -23848,21 +23818,6 @@
       "layer": "B.Cu",
       "kind": "track",
       "width_nm": 200000
-    },
-    {
-      "uuid": "8eb8d47f-5b24-5ba7-b6d1-7fc2eef74919",
-      "net": "+5V_ADC",
-      "start_nm": [
-        58050000,
-        134750000
-      ],
-      "end_nm": [
-        58050000,
-        138400000
-      ],
-      "layer": "B.Cu",
-      "kind": "track",
-      "width_nm": 400000
     },
     {
       "uuid": "8f734125-d730-4bca-8fbc-aa26efe4689c",
@@ -25264,21 +25219,6 @@
       "layer": "F.Cu",
       "kind": "track",
       "width_nm": 250000
-    },
-    {
-      "uuid": "9f237ba0-019f-5291-b858-8d47db1ca309",
-      "net": "+5V_ADC",
-      "start_nm": [
-        58050000,
-        151750000
-      ],
-      "end_nm": [
-        58050000,
-        155400000
-      ],
-      "layer": "B.Cu",
-      "kind": "track",
-      "width_nm": 400000
     },
     {
       "uuid": "9f40d7e9-6fe1-57a5-9b17-4fbb93909663",
@@ -33871,7 +33811,7 @@
       "uuid": "fa290804-f15b-5af9-8ee5-1dec5cba3b50",
       "net": "+5V_ADC",
       "start_nm": [
-        74262500,
+        58050000,
         151750000
       ],
       "end_nm": [
@@ -33880,7 +33820,7 @@
       ],
       "layer": "B.Cu",
       "kind": "track",
-      "width_nm": 400000
+      "width_nm": 500000
     },
     {
       "uuid": "fa56e3a4-4626-5fe3-842b-4bc098772af6",
