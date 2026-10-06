@@ -275,7 +275,7 @@
       "R516"
     ],
     "label_position": [
-      125,
+      115.25,
       131
     ],
     "no_outline": true
@@ -285,7 +285,7 @@
     "bounds": [
       116.5,
       46,
-      183,
+      177.0,
       102
     ],
     "references": [
@@ -332,7 +332,7 @@
       "D91"
     ],
     "label_position": [
-      175,
+      169.0,
       100.5
     ],
     "no_outline": false
@@ -342,7 +342,7 @@
     "bounds": [
       116.5,
       103,
-      183,
+      177.0,
       158
     ],
     "references": [
@@ -389,7 +389,7 @@
       "D93"
     ],
     "label_position": [
-      175,
+      169.0,
       155.5
     ],
     "no_outline": false
