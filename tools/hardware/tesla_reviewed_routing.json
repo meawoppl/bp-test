@@ -1835,8 +1835,8 @@
       ],
       "angle_deg": 180.0,
       "reference_nm": [
-        60400000,
-        143400000
+        61000000,
+        152800000
       ],
       "footprint": "Tesla:SOT-23-5",
       "value": "OPA197IDBVR"
@@ -2818,13 +2818,13 @@
     },
     "TP41": {
       "position_nm": [
-        68000000,
-        139000000
+        60500000,
+        128500000
       ],
       "angle_deg": 0.0,
       "reference_nm": [
-        68000000,
-        139000000
+        60500000,
+        126400000
       ],
       "footprint": "Tesla:TestPoint_Pad_D1.0mm",
       "value": "CT1_HALF"
@@ -2883,13 +2883,13 @@
     },
     "TP61": {
       "position_nm": [
-        68000000,
-        152800000
+        60500000,
+        142300000
       ],
       "angle_deg": 0.0,
       "reference_nm": [
-        68000000,
-        152800000
+        60500000,
+        140200000
       ],
       "footprint": "Tesla:TestPoint_Pad_D1.0mm",
       "value": "CT2_HALF"
@@ -3317,8 +3317,8 @@
       ],
       "angle_deg": 180.0,
       "reference_nm": [
-        60400000,
-        129600000
+        61000000,
+        139000000
       ],
       "footprint": "Tesla:SOT-23-5",
       "value": "OPA197IDBVR"
@@ -29041,7 +29041,7 @@
       ],
       "end_nm": [
         68000000,
-        139000000
+        133000000
       ],
       "layer": "F.Cu",
       "kind": "track",
@@ -29980,7 +29980,7 @@
       ],
       "end_nm": [
         68000000,
-        152800000
+        146800000
       ],
       "layer": "F.Cu",
       "kind": "track",
