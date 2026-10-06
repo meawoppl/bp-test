@@ -1,0 +1,15 @@
+./kicad/include/properties/property.h(607): assert "m_choices.GetCount() > 0" failed in PROPERTY_ENUM(): No enum choices defined
+./kicad/include/properties/property.h(607): assert "m_choices.GetCount() > 0" failed in PROPERTY_ENUM(): No enum choices defined
+./kicad/include/properties/property.h(607): assert "m_choices.GetCount() > 0" failed in PROPERTY_ENUM(): No enum choices defined
+{
+  "checks": 130,
+  "failures": [],
+  "sources_sha256": {
+    "boards/tesla-coil-controller/controller.kicad_pcb": "e2be3f6cc10f43beb717b568b38dd62b0e61443404a3953141e9c91f886ff7fc",
+    "boards/tesla-coil-controller/controller.kicad_sch": "ecc007fc9cac2e3682c002aa5ad85faea435463ba33d3f09a6195baa862e89c9",
+    "boards/tesla-coil-controller/controller.kicad_pro": "40e593eb2309fcddf3cd616a5e82b970cb97e4b268436e03b5e1288843705533",
+    "boards/tesla-coil-controller/Tesla.kicad_sym": "4a416a1d3453c060a93e4abdf934ac7ea2986bb46ea519d2f61f1ae38d771336",
+    "boards/tesla-coil-controller/docs/circuit.json": "cfa7cedfef65d3bb4680b64c3338380b2b9e33f41419c4badb8ffcbc4c157f7e",
+    "tools/hardware/tesla_reviewed_routing.json": "48a5a459c919ff64fac84341477245da4d82028ca27342a3ffa9b3443f544a4a"
+  }
+}

@@ -1,0 +1,217 @@
+{
+  "pcb_sha256": "cf7a6a56b772f336e40a19349ef7e0c039f50a38c5df540b2db04c5c0ff1d45f",
+  "copper_layers": 2,
+  "rails": [
+    {
+      "net": "GDT2_L_HI",
+      "source": "J2.2",
+      "pads": 3,
+      "missing": [],
+      "all_connected": true
+    },
+    {
+      "net": "GDT2_L_LO",
+      "source": "J2.4",
+      "pads": 3,
+      "missing": [],
+      "all_connected": true
+    },
+    {
+      "net": "GDT2_R_HI",
+      "source": "J2.5",
+      "pads": 3,
+      "missing": [],
+      "all_connected": true
+    },
+    {
+      "net": "GDT2_R_LO",
+      "source": "J2.6",
+      "pads": 3,
+      "missing": [],
+      "all_connected": true
+    },
+    {
+      "net": "GDT1_L_HI",
+      "source": "J2.7",
+      "pads": 3,
+      "missing": [],
+      "all_connected": true
+    },
+    {
+      "net": "GDT1_L_LO",
+      "source": "J2.9",
+      "pads": 3,
+      "missing": [],
+      "all_connected": true
+    },
+    {
+      "net": "GDT1_R_HI",
+      "source": "J2.10",
+      "pads": 3,
+      "missing": [],
+      "all_connected": true
+    },
+    {
+      "net": "GDT1_R_LO",
+      "source": "J2.11",
+      "pads": 3,
+      "missing": [],
+      "all_connected": true
+    },
+    {
+      "net": "CT1_ZERO",
+      "source": "J2.22",
+      "pads": 2,
+      "missing": [],
+      "all_connected": true
+    },
+    {
+      "net": "CT2_ZERO",
+      "source": "J2.24",
+      "pads": 2,
+      "missing": [],
+      "all_connected": true
+    },
+    {
+      "net": "ADC_CONVST",
+      "source": "J2.31",
+      "pads": 3,
+      "missing": [],
+      "all_connected": true
+    },
+    {
+      "net": "ADC_RESET",
+      "source": "J2.32",
+      "pads": 3,
+      "missing": [],
+      "all_connected": true
+    },
+    {
+      "net": "ADC_SCLK",
+      "source": "J2.33",
+      "pads": 2,
+      "missing": [],
+      "all_connected": true
+    },
+    {
+      "net": "ADC_CS_N",
+      "source": "J2.34",
+      "pads": 3,
+      "missing": [],
+      "all_connected": true
+    },
+    {
+      "net": "ADC_BUSY",
+      "source": "J2.35",
+      "pads": 2,
+      "missing": [],
+      "all_connected": true
+    },
+    {
+      "net": "ADC_SDI",
+      "source": "J2.36",
+      "pads": 2,
+      "missing": [],
+      "all_connected": true
+    },
+    {
+      "net": "ADC_DOUT_D",
+      "source": "J2.37",
+      "pads": 2,
+      "missing": [],
+      "all_connected": true
+    },
+    {
+      "net": "ADC_DOUT_C",
+      "source": "J2.38",
+      "pads": 2,
+      "missing": [],
+      "all_connected": true
+    },
+    {
+      "net": "ADC_DOUT_B",
+      "source": "J2.39",
+      "pads": 2,
+      "missing": [],
+      "all_connected": true
+    },
+    {
+      "net": "ADC_DOUT_A",
+      "source": "J2.40",
+      "pads": 2,
+      "missing": [],
+      "all_connected": true
+    },
+    {
+      "net": "GDT1_L_HI_BUS",
+      "source": "U51.5",
+      "pads": 2,
+      "missing": [],
+      "all_connected": true
+    },
+    {
+      "net": "GDT1_L_LO_BUS",
+      "source": "U51.6",
+      "pads": 2,
+      "missing": [],
+      "all_connected": true
+    },
+    {
+      "net": "GDT1_R_HI_BUS",
+      "source": "U52.5",
+      "pads": 2,
+      "missing": [],
+      "all_connected": true
+    },
+    {
+      "net": "GDT1_R_LO_BUS",
+      "source": "U52.6",
+      "pads": 2,
+      "missing": [],
+      "all_connected": true
+    },
+    {
+      "net": "GDT2_L_HI_BUS",
+      "source": "R513.2",
+      "pads": 2,
+      "missing": [],
+      "all_connected": true
+    },
+    {
+      "net": "GDT2_L_LO_BUS",
+      "source": "R514.2",
+      "pads": 2,
+      "missing": [],
+      "all_connected": true
+    },
+    {
+      "net": "GDT2_R_HI_BUS",
+      "source": "U54.5",
+      "pads": 2,
+      "missing": [],
+      "all_connected": true
+    },
+    {
+      "net": "GDT2_R_LO_BUS",
+      "source": "R516.2",
+      "pads": 2,
+      "missing": [],
+      "all_connected": true
+    },
+    {
+      "net": "ADC_FIRST",
+      "source": "TP1.1",
+      "pads": 2,
+      "missing": [],
+      "all_connected": true
+    }
+  ],
+  "bypass_caps_with_ground_checked": 0,
+  "missing_bypass_returns": [],
+  "angle_errors": [],
+  "overlapping_segments": [],
+  "via_holes_over_smd_pads": [],
+  "whole_board_unconnected": 2,
+  "new_track_count": 400,
+  "new_via_count": 76
+}

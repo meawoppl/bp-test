@@ -1,0 +1,34 @@
+{
+  "new_parts": [
+    "C22",
+    "R24",
+    "R25",
+    "R26",
+    "R27",
+    "U3"
+  ],
+  "removed_parts": [],
+  "moved_parts": [
+    "J5"
+  ],
+  "removed_copper_by_net": {
+    "VIN_5V": 1,
+    "USB_D+": 9,
+    "USB_D-": 15
+  },
+  "added_copper_by_net": {
+    "GND": 11,
+    "USB_VBUS_PRESENT": 11,
+    "USB_CC2": 7,
+    "USB_VBUS": 20,
+    "USB_D+": 25,
+    "USB_D-": 26,
+    "USB_CC1": 10
+  },
+  "changed_retained_copper": [
+    "1969e3dd-388c-5ed2-9b93-9b09d34fb510"
+  ],
+  "new_non_45_degree_tracks": [],
+  "track_count": 1759,
+  "board_copper_layers": 2
+}

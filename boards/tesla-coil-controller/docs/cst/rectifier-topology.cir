@@ -1,0 +1,31 @@
+CST rectifier topology check - finite GBW behavioral op amps, not manufacturer models
+Vct raw 0 SIN(0 2 30k)
+Rin1 raw sum1 10k
+Rf1 half sum1 10k
+D1 drive sum1 Dfast
+D2 half drive Dfast
+X1 0 sum1 drive opa
+Rin2 raw sum2 10k
+Rhalf1 half sum2 10k
+Rhalf2 half sum2 10k
+Rf2 abs sum2 10k
+X2 0 sum2 abs opa
+Renv abs env 1k
+Cenv env 0 10n
+Rload env 0 1meg
+.model Dfast D(Is=2n Rs=1 Cjo=2p Tt=4n N=1.7)
+.subckt opa p n o
+Eg gain 0 p n 100000
+Rp gain pole 1k
+Cp pole 0 1.59155u
+Bout out 0 V=max(min(V(pole),4.5),-4.5)
+Ro out o 5
+.ends opa
+.control
+set wr_singlescale
+set wr_vecnames
+tran 5n 200u 100u
+wrdata rectifier.dat v(raw) v(half) v(abs) v(env)
+quit
+.endc
+.end

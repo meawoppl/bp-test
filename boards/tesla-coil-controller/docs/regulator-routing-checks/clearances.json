@@ -1,0 +1,146 @@
+{
+  "minimum_clearance_mm": 0.175,
+  "via_drill_body_overlap": [],
+  "items": [
+    {
+      "uuid": "03e41ddd-5132-59ac-8957-39c54f6a60ff",
+      "net": "VIN_5V",
+      "min_other_net_clearance_mm": 1.226469,
+      "nearest_net": "P31_FB",
+      "nearest_item": "C311.2"
+    },
+    {
+      "uuid": "41e4fe0a-f51a-5de8-ac65-d6fd9de81712",
+      "net": "VIN_5V",
+      "min_other_net_clearance_mm": 0.725,
+      "nearest_net": "P31_FB",
+      "nearest_item": "d2eb860b-6599-5bd1-8a12-20a556a868a8"
+    },
+    {
+      "uuid": "7ef7a4b8-e54b-5fe7-86e7-72678f9853b2",
+      "net": "VIN_5V",
+      "min_other_net_clearance_mm": 1.226469,
+      "nearest_net": "P31_FB",
+      "nearest_item": "C311.2"
+    },
+    {
+      "uuid": "b5acf9ce-9882-5a56-b1ef-115ad3450f9c",
+      "net": "VIN_5V",
+      "min_other_net_clearance_mm": 1.25,
+      "nearest_net": "P31_FB",
+      "nearest_item": "C311.2"
+    },
+    {
+      "uuid": "0da85846-23ea-5282-9da8-e71ea33f6501",
+      "net": "+12V_BIAS",
+      "min_other_net_clearance_mm": 1.226469,
+      "nearest_net": "P30_FB",
+      "nearest_item": "C301.2"
+    },
+    {
+      "uuid": "b8a0e301-7eb1-5278-9ace-b24af814e94d",
+      "net": "+12V_BIAS",
+      "min_other_net_clearance_mm": 1.226469,
+      "nearest_net": "P30_FB",
+      "nearest_item": "C301.2"
+    },
+    {
+      "uuid": "c4eba7b2-5447-5584-85ce-e8c48d5c2060",
+      "net": "+12V_BIAS",
+      "min_other_net_clearance_mm": 1.25,
+      "nearest_net": "P30_FB",
+      "nearest_item": "C301.2"
+    },
+    {
+      "uuid": "fe793f75-3762-5a8a-badb-c8beeea3a5c1",
+      "net": "+12V_BIAS",
+      "min_other_net_clearance_mm": 0.725,
+      "nearest_net": "P30_FB",
+      "nearest_item": "50ffd6f9-41a0-5228-a3f8-3008b338c731"
+    },
+    {
+      "uuid": "50ffd6f9-41a0-5228-a3f8-3008b338c731",
+      "net": "P30_FB",
+      "min_other_net_clearance_mm": 0.175,
+      "nearest_net": "+12V_BIAS",
+      "nearest_item": "R300.1"
+    },
+    {
+      "uuid": "8c61c4d0-ebdf-5eb2-9229-d8546813762f",
+      "net": "P30_FB",
+      "min_other_net_clearance_mm": 0.575574,
+      "nearest_net": "+12V_BIAS",
+      "nearest_item": "R300.1"
+    },
+    {
+      "uuid": "d61753ff-1cca-551c-b44a-6ff9e79861d8",
+      "net": "P30_FB",
+      "min_other_net_clearance_mm": 1.1875,
+      "nearest_net": "GND",
+      "nearest_item": "R301.2"
+    },
+    {
+      "uuid": "fd946438-c116-502f-8c88-e8429ce1653f",
+      "net": "P30_FB",
+      "min_other_net_clearance_mm": 1.1875,
+      "nearest_net": "+12V_BIAS",
+      "nearest_item": "R300.1"
+    },
+    {
+      "uuid": "7e3e98aa-54ec-54a9-8385-c4f0479c4239",
+      "net": "P30_FB",
+      "min_other_net_clearance_mm": 0.400783,
+      "nearest_net": "+12V_BIAS",
+      "nearest_item": "R300.1"
+    },
+    {
+      "uuid": "65aa0a12-1dc8-5510-80a5-02609b07ff91",
+      "net": "P30_FB",
+      "min_other_net_clearance_mm": 4.66166,
+      "nearest_net": "P30_RON",
+      "nearest_item": "a0fa8989-14d0-5a93-9e5d-b9a74bced963"
+    },
+    {
+      "uuid": "51707f55-6353-5024-8a44-687cdade6597",
+      "net": "P31_FB",
+      "min_other_net_clearance_mm": 0.575574,
+      "nearest_net": "VIN_5V",
+      "nearest_item": "R310.1"
+    },
+    {
+      "uuid": "67d9c674-461d-552e-90a4-9b8bd6ac3899",
+      "net": "P31_FB",
+      "min_other_net_clearance_mm": 1.1875,
+      "nearest_net": "VIN_5V",
+      "nearest_item": "R310.1"
+    },
+    {
+      "uuid": "807c82b1-7839-58ff-a9b5-443bb2a59fe0",
+      "net": "P31_FB",
+      "min_other_net_clearance_mm": 1.1875,
+      "nearest_net": "GND",
+      "nearest_item": "R311.2"
+    },
+    {
+      "uuid": "d2eb860b-6599-5bd1-8a12-20a556a868a8",
+      "net": "P31_FB",
+      "min_other_net_clearance_mm": 0.175,
+      "nearest_net": "VIN_5V",
+      "nearest_item": "R310.1"
+    },
+    {
+      "uuid": "cc01c4ea-12ba-5cfc-a378-4db16ada2672",
+      "net": "P31_FB",
+      "min_other_net_clearance_mm": 0.400783,
+      "nearest_net": "VIN_5V",
+      "nearest_item": "R310.1"
+    },
+    {
+      "uuid": "1586f438-8dde-58fa-ae86-1dda3f9cb927",
+      "net": "P31_FB",
+      "min_other_net_clearance_mm": 7.535075,
+      "nearest_net": "GND",
+      "nearest_item": "2f4f68c9-a39f-532a-9a37-0760b7d27887"
+    }
+  ]
+}

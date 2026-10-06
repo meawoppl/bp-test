@@ -1,0 +1,66 @@
+Portal CST 3.3 V top-layer routing — 2026-09-30
+Annotation: 2026-09-30T07:10:16.345Z
+Source view revision: 3d113cef9bdd62c94c1a
+Saved Portal revision: 2b9cb5ddf0ec6dca4124
+
+Moved the supply distribution beside both CST comparator stages to F.Cu.
+One front-layer trunk feeds the two bias branches and the C413/C424 and
+C613/C624 decoupling branches. All +3V3 copper is now on F.Cu, with no
+power vias. Four vias were removed and no vias were added. Supply widths
+remain 0.35 mm for the trunk and 0.30 mm for the local branches.
+
+Moved the existing CT_ZERO transition from (114.4,129.5) to (111.2,129.5),
+closer to R416. Its bottom-layer segment now crosses the front supply.
+CT2_ZERO already crossed on the bottom layer and retains its route.
+The source and C624 supply joins have right-angle junctions with mitered
+approaches. Total +3V3 length fell from 190.573 to 186.780 mm.
+
+Verification:
+- Native ERC: 0; physical DRC: 0; schematic parity: 0.
+- Two existing opens remain: USB_D+ and USB_D- between J1 and J5.
+- Every pad-connectivity component matches the pre-edit snapshot.
+- +3V3 and CT_ZERO are each fully connected; CT_ZERO length is unchanged.
+- Unrelated copper, footprints, pad nets, placement and drawings match.
+- Schematic and project rules match byte-for-byte; no library edits.
+- The reviewed recipe exactly matches saved board copper.
+- Tracks remain octilinear. Board totals are 1337 tracks and 321 vias,
+  compared with 1336 tracks and 325 vias before this change.
+- Independent changed-copper clearance check found a minimum of
+  0.232107 mm, above the 0.15 mm rule. This geometric check excludes zone
+  fills; zones were rebuilt and checked by native DRC.
+
+Quality: 304 errors, 2412 warnings, 29 infos, 0 suppressed.
+Compared with j7-removal-quality.json, one old +3V3 bottom-layer acute
+angle warning disappeared. No errors or warnings were introduced.
+The existing optimizer info now proposes removing 19 of 1337 segments,
+previously 17 of 1336; its board-wide rewrite was not applied to this
+focused change. Two initially introduced acute junctions were corrected
+before this final run. Remaining board-wide findings retain the prior
+dispositions in command-adc-quality-triage.md and d42-placement-review.txt;
+this edit does not waive the backlog. See 3v3-top-quality-delta.json.
+
+Visual review: inspected 3v3-top-after.png, including the continuous front
+supply, branches, mitered approaches, right-angle junctions and the signal
+transition outside R416's courtyard. Both signal crossings use B.Cu.
+The plot omits plane fills. No new live Workbench or 3D/assembly review
+was performed; component positions, polarity and models did not change.
+
+Tools: plugin doctor verified KiCad 10.0.6 and kct 0.21.1. kct help/route
+inspection found no narrow deterministic layer-edit command suitable for
+this change. The existing tesla_route_reviewed.py applied the targeted
+JSON recipe edit and refilled zones. Custom scripts were read-only,
+covering exact copper/geometry, pad connectivity, changed clearance and
+plotting gaps. check_tesla_draft.py ran native ERC, DRC and schematic
+parity, and refreshed the schematic PDF. Plugin quality ran kct check,
+detect-mistakes and optimize-traces in dry-run mode.
+
+Changed file categories:
+- CAD: controller.kicad_pcb.
+- Source: tools/hardware/tesla_reviewed_routing.json.
+- Docs/checks: this review, 3v3-top verification/clearance/quality/delta
+  JSON, saved-board plot, validation.json, native ERC/DRC reports and
+  refreshed schematic PDF.
+- No fabrication package was published. This remains a routing draft;
+  existing fabrication outputs are not a release of this revised board.
+
+Only this 3.3 V routing annotation was handled.

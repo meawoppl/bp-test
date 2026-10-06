@@ -1,0 +1,107 @@
+{
+  "pcb_sha256": "4efce70086fbf5057f111ef4195db9a370abc15b10eccaae1c1f82dc6b60c8ec",
+  "copper_layers": 2,
+  "contacts": {
+    "GDT1_L_HI": {
+      "contact": "J2.37",
+      "before": {
+        "length_mm": 43.928,
+        "vias": 2
+      },
+      "after": {
+        "length_mm": 34.741,
+        "vias": 2
+      },
+      "shortened_mm": 9.187
+    },
+    "GDT1_L_LO": {
+      "contact": "J2.38",
+      "before": {
+        "length_mm": 49.394,
+        "vias": 2
+      },
+      "after": {
+        "length_mm": 36.108,
+        "vias": 2
+      },
+      "shortened_mm": 13.286
+    },
+    "GDT1_R_HI": {
+      "contact": "J2.39",
+      "before": {
+        "length_mm": 58.587,
+        "vias": 2
+      },
+      "after": {
+        "length_mm": 54.063,
+        "vias": 2
+      },
+      "shortened_mm": 4.524
+    },
+    "GDT1_R_LO": {
+      "contact": "J2.40",
+      "before": {
+        "length_mm": 60.699,
+        "vias": 2
+      },
+      "after": {
+        "length_mm": 58.256,
+        "vias": 2
+      },
+      "shortened_mm": 2.443
+    },
+    "GDT2_L_HI": {
+      "contact": "J2.33",
+      "before": {
+        "length_mm": 104.254,
+        "vias": 2
+      },
+      "after": {
+        "length_mm": 88.06,
+        "vias": 2
+      },
+      "shortened_mm": 16.194
+    },
+    "GDT2_L_LO": {
+      "contact": "J2.34",
+      "before": {
+        "length_mm": 112.156,
+        "vias": 2
+      },
+      "after": {
+        "length_mm": 89.428,
+        "vias": 2
+      },
+      "shortened_mm": 22.728
+    },
+    "GDT2_R_HI": {
+      "contact": "J2.35",
+      "before": {
+        "length_mm": 125.11,
+        "vias": 2
+      },
+      "after": {
+        "length_mm": 110.839,
+        "vias": 2
+      },
+      "shortened_mm": 14.271
+    },
+    "GDT2_R_LO": {
+      "contact": "J2.36",
+      "before": {
+        "length_mm": 127.448,
+        "vias": 2
+      },
+      "after": {
+        "length_mm": 114.68,
+        "vias": 2
+      },
+      "shortened_mm": 12.768
+    }
+  },
+  "unchanged_clock_contacts": {
+    "CT_ZERO": "J2.22 / G0",
+    "CT2_ZERO": "J2.24 / G1",
+    "EXT_CLOCK": "J2.32 / G6"
+  }
+}

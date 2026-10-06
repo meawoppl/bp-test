@@ -1,0 +1,35 @@
+[
+  {
+    "primary_rms_during_burst_a": 5.031477102229433,
+    "damping_during_burst_w": 11.89840806022177,
+    "gate_equivalent_f": 8e-07,
+    "leakage_h": 5e-07,
+    "gate_min_v": -24.3286342,
+    "gate_max_v": 22.929327,
+    "peak_primary_a": 19.2243112,
+    "coupling_cap_peak_v": 2.15005054,
+    "limitations": "Ideal voltage bridge; linear lumped reflected capacitance and magnetizing inductance. No Miller plateau, IGBT switching/tail current, core saturation, winding coupling, MOSFET/driver models, or layout parasitics beyond specified L/R."
+  },
+  {
+    "primary_rms_during_burst_a": 3.4940818054159384,
+    "damping_during_burst_w": 5.738045601581191,
+    "gate_equivalent_f": 4e-07,
+    "leakage_h": 2e-07,
+    "gate_min_v": -24.8692047,
+    "gate_max_v": 23.4452528,
+    "peak_primary_a": 18.9711311,
+    "coupling_cap_peak_v": 1.73567314,
+    "limitations": "Ideal voltage bridge; linear lumped reflected capacitance and magnetizing inductance. No Miller plateau, IGBT switching/tail current, core saturation, winding coupling, MOSFET/driver models, or layout parasitics beyond specified L/R."
+  },
+  {
+    "primary_rms_during_burst_a": 7.049188610718751,
+    "damping_during_burst_w": 23.35479823265887,
+    "gate_equivalent_f": 1.6e-06,
+    "leakage_h": 2e-06,
+    "gate_min_v": -23.8739143,
+    "gate_max_v": 22.3172677,
+    "peak_primary_a": 17.1850666,
+    "coupling_cap_peak_v": 2.94093908,
+    "limitations": "Ideal voltage bridge; linear lumped reflected capacitance and magnetizing inductance. No Miller plateau, IGBT switching/tail current, core saturation, winding coupling, MOSFET/driver models, or layout parasitics beyond specified L/R."
+  }
+]

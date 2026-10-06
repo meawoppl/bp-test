@@ -1,0 +1,191 @@
+{
+  "scope": "Replace J5 with existing-library USB-C receptacle for programming only",
+  "annotation_revision": "7f950fdc4e6d7c96dfa8",
+  "baseline_revision": "31a5eb8e96f2c91e0d42",
+  "portal_revision": "c6d7e61128b09c87d766",
+  "portal_dependency_hashes": {
+    "revision": "c6d7e61128b09c87d766",
+    "sch": "c3db4ba10e59b778884d0cf2d1a0096c752982dc276c0049f2538b4d25ee160a",
+    "pcb": "f3213f7d57ac2c3ce9f5497d2ff463c198829fa0c250344d2b561d9e2f23de4b"
+  },
+  "source_sha256": {
+    "controller.kicad_sch": "8cb27b6b9e58c4b94bdda7df37ba3b47c8ac68839e715e1f78b5c511f6f5c8cc",
+    "controller.kicad_pcb": "704be42e8693899122b464183fca954c774e3d8c6bf70cd21f4eb481d6c0d9f1",
+    "controller.kicad_pro": "40e593eb2309fcddf3cd616a5e82b970cb97e4b268436e03b5e1288843705533",
+    "docs/circuit.json": "b89007e19acad823aeb23e79876e4cc810cd4daa7bd6761c325a09661f344b4f"
+  },
+  "erc_violations": 0,
+  "drc_violations": 0,
+  "unconnected_items": 0,
+  "schematic_parity_issues": 0,
+  "sync_errors": 0,
+  "sync_warnings": 0,
+  "quality": {
+    "errors": 303,
+    "warnings": 2390,
+    "infos": 24
+  },
+  "net_contract_changes": {
+    "J1": {
+      "before": {
+        "20": null,
+        "19": null,
+        "18": null,
+        "17": null,
+        "16": null,
+        "15": null,
+        "14": null,
+        "13": null,
+        "12": null,
+        "11": null,
+        "10": "GND",
+        "9": "GND",
+        "8": "USB_D-",
+        "7": "USB_D+",
+        "6": "GND",
+        "5": "GND",
+        "4": "VIN_5V",
+        "3": "VIN_5V",
+        "2": "VIN_5V",
+        "1": "VIN_5V",
+        "21": null,
+        "22": "GND",
+        "23": null,
+        "24": null,
+        "25": null,
+        "26": null,
+        "27": null,
+        "28": null,
+        "29": null,
+        "30": "GND",
+        "31": "GND",
+        "32": null,
+        "33": null,
+        "34": null,
+        "35": null,
+        "36": null,
+        "37": null,
+        "38": null,
+        "39": null,
+        "40": null
+      },
+      "after": {
+        "20": "USB_VBUS_PRESENT",
+        "19": null,
+        "18": null,
+        "17": null,
+        "16": null,
+        "15": null,
+        "14": null,
+        "13": null,
+        "12": null,
+        "11": null,
+        "10": "GND",
+        "9": "GND",
+        "8": "USB_D-",
+        "7": "USB_D+",
+        "6": "GND",
+        "5": "GND",
+        "4": "VIN_5V",
+        "3": "VIN_5V",
+        "2": "VIN_5V",
+        "1": "VIN_5V",
+        "21": null,
+        "22": "GND",
+        "23": null,
+        "24": null,
+        "25": null,
+        "26": null,
+        "27": null,
+        "28": null,
+        "29": null,
+        "30": "GND",
+        "31": "GND",
+        "32": null,
+        "33": null,
+        "34": null,
+        "35": null,
+        "36": null,
+        "37": null,
+        "38": null,
+        "39": null,
+        "40": null
+      }
+    },
+    "J5": {
+      "before": {
+        "1": "VIN_5V",
+        "2": "USB_D-",
+        "3": "USB_D+",
+        "4": "GND"
+      },
+      "after": {
+        "A1": "GND",
+        "B12": "GND",
+        "A12": "GND",
+        "B1": "GND",
+        "S1": "GND",
+        "A4": "USB_VBUS",
+        "B9": "USB_VBUS",
+        "A9": "USB_VBUS",
+        "B4": "USB_VBUS",
+        "A5": "USB_CC1",
+        "B5": "USB_CC2",
+        "A6": "USB_D+",
+        "B6": "USB_D+",
+        "A7": "USB_D-",
+        "B7": "USB_D-",
+        "A8": null,
+        "B8": null
+      }
+    },
+    "U3": {
+      "before": null,
+      "after": {
+        "1": "USB_D+",
+        "2": "GND",
+        "3": "USB_D-",
+        "4": "USB_D-",
+        "5": "USB_VBUS",
+        "6": "USB_D+"
+      }
+    },
+    "R24": {
+      "before": null,
+      "after": {
+        "1": "USB_CC1",
+        "2": "GND"
+      }
+    },
+    "R25": {
+      "before": null,
+      "after": {
+        "1": "USB_CC2",
+        "2": "GND"
+      }
+    },
+    "R26": {
+      "before": null,
+      "after": {
+        "1": "USB_VBUS",
+        "2": "USB_VBUS_PRESENT"
+      }
+    },
+    "R27": {
+      "before": null,
+      "after": {
+        "1": "USB_VBUS_PRESENT",
+        "2": "GND"
+      }
+    },
+    "C22": {
+      "before": null,
+      "after": {
+        "1": "USB_VBUS",
+        "2": "GND"
+      }
+    }
+  },
+  "project_settings_unchanged": true,
+  "fab_published": false
+}

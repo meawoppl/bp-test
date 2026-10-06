@@ -1,0 +1,18 @@
+{
+  "command": [
+    "/home/meawoppl/repos/bp-test/tmp/tesla-12v-connector/kct",
+    "optimize-traces",
+    "boards/tesla-coil-controller/controller.kicad_pcb",
+    "--net",
+    "+5V_ADC",
+    "--no-45",
+    "--dry-run",
+    "--format",
+    "json"
+  ],
+  "cwd": "/home/meawoppl/repos/bp-test",
+  "ok": true,
+  "stderr": "",
+  "stdout": "{\n  \"command\": \"optimize-traces\",\n  \"copper_oz\": 1.0,\n  \"drc_aware\": false,\n  \"dry_run\": true,\n  \"layers\": 2,\n  \"manufacturer\": null,\n  \"net_filter\": \"+5V_ADC\",\n  \"optimizations\": {\n    \"chamfer_size_mm\": 0.5,\n    \"convert_45_corners\": false,\n    \"eliminate_zigzags\": true,\n    \"merge_collinear\": true\n  },\n  \"output\": null,\n  \"pcb\": \"boards/tesla-coil-controller/controller.kicad_pcb\",\n  \"saved\": false,\n  \"stats\": {\n    \"corners_after\": 67,\n    \"corners_before\": 62,\n    \"drc_errors_after\": 0,\n    \"drc_errors_before\": 0,\n    \"length_after_mm\": 283.4977637104443,\n    \"length_before_mm\": 283.49776371044425,\n    \"length_reduction_pct\": -2.220446049250313e-14,\n    \"nets_optimized\": 1,\n    \"nets_rolled_back\": 0,\n    \"segment_reduction_pct\": 4.938271604938271,\n    \"segments_after\": 77,\n    \"segments_before\": 81\n  },\n  \"success\": true,\n  \"written_to\": null\n}\n",
+  "tool": "/home/meawoppl/repos/bp-test/tmp/tesla-12v-connector/kct"
+}

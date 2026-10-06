@@ -1,0 +1,54 @@
+Portal annotation: Lots of wasted horizontal space here
+Project: tesla-coil-controller
+Annotation revision: 7f950fdc4e6d7c96dfa8
+Working baseline revision: 44c869ec34ba8e24b544
+Verified Portal revision: 1e9a8b7c0ca9199f175b
+
+Compacted the CST 1 and CST 2 input / precision rectifier schematic blocks.
+Moved each summing stage closer to the half-wave rectifier, shortened the
+interstage wires, and placed the four probe points beneath their signal stages.
+Applied the same diode-drive label placement to both channels.
+Each block is now 436.88 mm wide instead of 591.82 mm: a 26.18% reduction.
+Block height, page positions, component values, and electrical connections are
+unchanged. The native generators retain this arrangement on regeneration.
+
+Changed sources:
+  tools/hardware/tesla_cst_schematic.py
+  tools/hardware/tesla_schematic_blocks.py
+Regenerated controller.kicad_sch, docs/schematic-layout.json, and
+docs/controller-schematic.pdf.
+
+Verification:
+  - Plugin doctor: no warnings; KiCad 10.0.6, KCT 0.21.1.
+  - Generator: circuit contract verified; PCB untouched.
+  - Native ERC: 0 violations.
+  - Native DRC: 0 violations, 0 unconnected items, 0 schematic parity issues.
+  - KCT schematic / PCB sync: in_sync, 0 errors, 0 warnings or mismatches.
+  - Inspected native KiCad SVG renders of both updated rectifier blocks.
+    Retained left-to-right signal flow and readable spacing around moved parts.
+    Visual evidence: horizontal-space-checks/after-cst1.png and after-cst2.png;
+    comparison: horizontal-space-checks/before-cst2.png.
+  - Read-only scope audit confirms 1,770 schematic geometry items outside the
+    two rectifier blocks are unchanged, as are all other component definitions
+    and positions, embedded symbol libraries, and other layout blocks.
+  - PCB, project settings, and circuit contract SHA-256 hashes match the
+    pre-edit snapshot exactly. See horizontal-space-checks/scope-audit.json.
+
+The scope audit fills a specific tool gap: KCT validates electrical sync but
+does not compare presentation changes with the pre-edit snapshot. It compares
+normalized schematic S-expressions, component positions, block bounds, and
+file hashes without mutating the design.
+
+Quality remains at the baseline 302 errors, 2,394 warnings, and 23 information
+items. Both the complete violation list and summary are identical to
+comparator-reference-checks/quality-after.json. These existing PCB findings are
+outside this schematic-spacing item; no fabrication-readiness claim is made.
+
+Portal's rebuild completed for this revision: ERC, DRC, schematic PDF, and BOM
+stages pass; the quality stage reports the same existing findings. The schematic
+PDF is refreshed. Auto-publish is disabled and no fabrication release was made.
+Reviewed the applicable schematic/parity and output portions of the repository
+review checklist; copper, via, assembly, and pinout changes do not apply here.
+Visual inspection used native renders, not a browser UI inspection.
+
+Only this annotation was handled.

@@ -1,0 +1,140 @@
+{
+  "annotation": {
+    "title": "remux adc inputs to kill this unnecessary crossover",
+    "revision": "19e3e9c4d4fa179643e8",
+    "session": "91d7cd67-4900-4b54-a9dc-9c2e0eb5396d"
+  },
+  "result": "AUX1-AUX4 now feed ADC CH1-CH4 in physical row order. Both output crossovers and four vias are removed; all buffer-to-ADC paths remain on front copper. CST CH5-CH8 and all 325 component positions remain unchanged.",
+  "channel_map": [
+    {
+      "adc_channel": 1,
+      "adc_pin": 49,
+      "signal": "AUX1_BUFFERED",
+      "series_resistor": "R1",
+      "shunt_capacitor": "C11",
+      "range": "0-5V"
+    },
+    {
+      "adc_channel": 2,
+      "adc_pin": 51,
+      "signal": "AUX2_BUFFERED",
+      "series_resistor": "R2",
+      "shunt_capacitor": "C12",
+      "range": "0-5V"
+    },
+    {
+      "adc_channel": 3,
+      "adc_pin": 53,
+      "signal": "AUX3_BUFFERED",
+      "series_resistor": "R3",
+      "shunt_capacitor": "C13",
+      "range": "0-5V"
+    },
+    {
+      "adc_channel": 4,
+      "adc_pin": 55,
+      "signal": "AUX4_BUFFERED",
+      "series_resistor": "R4",
+      "shunt_capacitor": "C14",
+      "range": "0-5V"
+    },
+    {
+      "adc_channel": 5,
+      "adc_pin": 57,
+      "signal": "CT1_RAW",
+      "series_resistor": "R5",
+      "shunt_capacitor": "C15",
+      "range": "+/-2.5V"
+    },
+    {
+      "adc_channel": 6,
+      "adc_pin": 59,
+      "signal": "CT1_ENVELOPE",
+      "series_resistor": "R6",
+      "shunt_capacitor": "C16",
+      "range": "0-5V"
+    },
+    {
+      "adc_channel": 7,
+      "adc_pin": 61,
+      "signal": "CT2_RAW",
+      "series_resistor": "R7",
+      "shunt_capacitor": "C17",
+      "range": "+/-2.5V"
+    },
+    {
+      "adc_channel": 8,
+      "adc_pin": 63,
+      "signal": "CT2_ENVELOPE",
+      "series_resistor": "R8",
+      "shunt_capacitor": "C18",
+      "range": "0-5V"
+    }
+  ],
+  "tools": [
+    "kct pcb command discovery: no selective route replacement tool; used the existing tesla_route_reviewed.py recipe for custom copper",
+    "tesla_schematic.py (rebuild and native netlist contract verification)",
+    "native pcbnew connectivity and exact scope audit",
+    "kct validate --sync",
+    "plugin erc",
+    "plugin drc",
+    "plugin quality"
+  ],
+  "verification": {
+    "erc_violations": 0,
+    "physical_drc_violations": 0,
+    "schematic_parity_violations": 0,
+    "in_sync": true,
+    "buffered_output_crossovers": 0,
+    "buffered_output_vias": 0,
+    "all_aux_probes_and_feedback_connected": true,
+    "existing_unconnected": [
+      "USB_D+: J1.7 to J5.1",
+      "USB_D-: J1.8 to J5.2"
+    ],
+    "quality": {
+      "errors": 288,
+      "warnings": 2401,
+      "infos": 22,
+      "new_errors": 0,
+      "new_warnings": 0,
+      "passed": false
+    },
+    "scope": {
+      "changed_pad_nets": [
+        "R1.1",
+        "R2.1",
+        "R3.1",
+        "R4.1"
+      ],
+      "unchanged_footprint_placements": 325,
+      "unchanged_values": true,
+      "project_library_placement_unchanged": true,
+      "other_contract_pins_unchanged": true,
+      "cst_channel_map_unchanged": true,
+      "removed_copper": 20,
+      "added_copper": 12,
+      "unchanged_copper": 1662,
+      "removed_vias": 4,
+      "added_vias": 0,
+      "output_trunk_length_before_mm": 114.96072173913686,
+      "output_trunk_length_after_mm": 109.70386719675123,
+      "new_tracks_octilinear": true
+    }
+  },
+  "quality_assessment": [
+    "All 288 error and 2401 warning diagnostics are identical to the prior passive-row baseline. The only changed diagnostic is the informational whole-board trace-optimizer estimate. No rule or threshold was relaxed.",
+    "The existing whole-board quality backlog and two USB opens remain outside this focused item. Full remaining findings are recorded in adc-input-remux-checks."
+  ],
+  "visual_review": "Inspected the final actual board-copper preview: ordered AUX fan-in, 45-degree bends, centered resistor entries, both marked crossovers gone. Feedback loops, OUT/GND probe pads, ADC RC filters and adjacent power routing retain their positions.",
+  "scope_boundary": "Only four resistor input-net assignments and associated AUX output copper changed electrically. Schematic, channel map and active design documentation updated. No footprint/library, stack-up, digital FPGA assignments, ADC ranges or fabrication outputs changed.",
+  "source_sha256": {
+    "boards/tesla-coil-controller/controller.kicad_pcb": "195723459252e1552f89eed7b35ed93bda4ef9655d4011144b0bc01485bf653c",
+    "boards/tesla-coil-controller/controller.kicad_sch": "d26bfe58d63ff86b2772f289c76d8803ba9c9bcfe1f155620159b9a278d0f595",
+    "boards/tesla-coil-controller/docs/circuit.json": "bc87282bb49cf68efb0871870d028f3937925cbf9725305d1d19adc099d8128d",
+    "boards/tesla-coil-controller/docs/adc-channel-map.json": "9f5fababad433d02308bf819d8d3c5c9d090136d60fc3382a1ccdeaa90863cc8",
+    "tools/hardware/tesla_reviewed_routing.json": "216051d6eee08d9cf959289bc6a75f8f2e9bbcb3ce4e6e7916e3478284f2ae9e",
+    "tools/hardware/tesla_dual_cst.py": "f399186a0841397e05b0b762966293e45dd2ab74a79acb7a16645f4fae444420",
+    "tools/hardware/check_tesla_aux_routing.py": "e03274ba833781648ff54a08292dce2b7d87ae403c741a6866143419a7947464"
+  }
+}

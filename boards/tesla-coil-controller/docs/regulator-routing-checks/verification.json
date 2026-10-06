@@ -1,0 +1,363 @@
+{
+  "annotation_created_at": "2026-09-30T16:56:43.276Z",
+  "source_revision": "f38b817ad69174365d48",
+  "scope": "U30/U31 output feedback taps",
+  "rotated_180_degrees_in_place": [
+    "C301",
+    "C311",
+    "R300",
+    "R310"
+  ],
+  "copper_before": {
+    "track": 1336,
+    "via": 327
+  },
+  "copper_after": {
+    "track": 1322,
+    "via": 327
+  },
+  "changed_copper_counts": {
+    "removed": 30,
+    "added": 16,
+    "modified": 4
+  },
+  "affected_trace_length_mm": {
+    "before": 61.947506,
+    "after": 43.405483,
+    "reduction": 18.542023
+  },
+  "net_length_mm": {
+    "+12V_BIAS": {
+      "before": 284.651191,
+      "after": 280.149598
+    },
+    "P30_FB": {
+      "before": 20.581917,
+      "after": 15.8125
+    },
+    "P31_FB": {
+      "before": 20.581918,
+      "after": 15.8125
+    },
+    "VIN_5V": {
+      "before": 200.056499,
+      "after": 195.554905
+    }
+  },
+  "no_added_vias": true,
+  "all_pad_connectivity_components_identical": true,
+  "scoped_nets_fully_connected": true,
+  "all_unrelated_copper_identical": true,
+  "other_footprints_identical": true,
+  "all_values_and_pin_nets_unchanged": true,
+  "board_drawings_identical": true,
+  "schematic_and_rules_identical": true,
+  "recipe_matches_board": true,
+  "placement_metadata_matches": true,
+  "all_tracks_octilinear": true,
+  "minimum_changed_copper_clearance_mm": 0.175,
+  "unconnected_before": 2,
+  "unconnected_after": 2,
+  "erc_violations": 0,
+  "schematic_in_sync": true,
+  "drc_violations": 0,
+  "drc_schematic_parity_issues": 0,
+  "quality_before": {
+    "by_rule": {
+      "decoupling_distance": {
+        "count": 25,
+        "profile_item": "decoupling.max_pin_distance_mm",
+        "severity": "warning",
+        "source": "plugin"
+      },
+      "mistake.bom_health.component_missing_manufacturer_part_number": {
+        "count": 206,
+        "profile_item": null,
+        "severity": "warning",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.bypass_capacitor.bypass_capacitor_placement_could_be_improved": {
+        "count": 19,
+        "profile_item": "decoupling.max_pin_distance_mm",
+        "severity": "info",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin": {
+        "count": 1063,
+        "profile_item": "decoupling.max_pin_distance_mm",
+        "severity": "warning",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.connectivity.led_missing_series_resistor": {
+        "count": 4,
+        "profile_item": null,
+        "severity": "warning",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.connectivity.missing_pull_up_resistor": {
+        "count": 1,
+        "profile_item": null,
+        "severity": "warning",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.differential_pair.differential_pair_length_matching_could_be_improved": {
+        "count": 1,
+        "profile_item": null,
+        "severity": "info",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.manufacturability.acute_angle_in_trace_acid_trap": {
+        "count": 12,
+        "profile_item": null,
+        "severity": "warning",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.manufacturability.thermal_imbalance_may_cause_tombstoning": {
+        "count": 102,
+        "profile_item": null,
+        "severity": "warning",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.power_trace.power_trace_too_narrow": {
+        "count": 10,
+        "profile_item": null,
+        "severity": "warning",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.thermal_management.thermal_pad_may_need_more_vias": {
+        "count": 2,
+        "profile_item": null,
+        "severity": "info",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.thermal_management.thermal_pad_not_connected_to_ground": {
+        "count": 8,
+        "profile_item": null,
+        "severity": "warning",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.via_placement.via_in_smd_pad": {
+        "count": 4,
+        "profile_item": "vias.in_pad",
+        "severity": "error",
+        "source": "kct detect-mistakes"
+      },
+      "optimize_traces.mergeable_segments": {
+        "count": 1,
+        "profile_item": null,
+        "severity": "info",
+        "source": "kct optimize-traces"
+      },
+      "pad_grid": {
+        "count": 3,
+        "profile_item": null,
+        "severity": "warning",
+        "source": "kct check"
+      },
+      "silk_edge_clearance": {
+        "count": 6,
+        "profile_item": null,
+        "severity": "warning",
+        "source": "kct check"
+      },
+      "silk_explanatory_text": {
+        "count": 30,
+        "profile_item": "silkscreen.explanatory_text",
+        "severity": "error",
+        "source": "plugin"
+      },
+      "silk_over_copper": {
+        "count": 68,
+        "profile_item": "silkscreen.over_vias_or_pads",
+        "severity": "error",
+        "source": "kct check"
+      },
+      "silk_overlap": {
+        "count": 143,
+        "profile_item": "silkscreen.over_vias_or_pads",
+        "severity": "error",
+        "source": "kct check"
+      },
+      "silk_pad_clearance": {
+        "count": 57,
+        "profile_item": null,
+        "severity": "error",
+        "source": "kct check"
+      },
+      "silk_text_below_min": {
+        "count": 17,
+        "profile_item": "silkscreen.text_height_mm",
+        "severity": "warning",
+        "source": "plugin"
+      },
+      "silkscreen_line_width": {
+        "count": 926,
+        "profile_item": null,
+        "severity": "warning",
+        "source": "kct check"
+      },
+      "silkscreen_text_height": {
+        "count": 17,
+        "profile_item": "silkscreen.text_height_mm",
+        "severity": "warning",
+        "source": "kct check"
+      }
+    },
+    "errors": 302,
+    "infos": 23,
+    "suppressed": 0,
+    "warnings": 2400
+  },
+  "quality_after": {
+    "by_rule": {
+      "decoupling_distance": {
+        "count": 25,
+        "profile_item": "decoupling.max_pin_distance_mm",
+        "severity": "warning",
+        "source": "plugin"
+      },
+      "mistake.bom_health.component_missing_manufacturer_part_number": {
+        "count": 206,
+        "profile_item": null,
+        "severity": "warning",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.bypass_capacitor.bypass_capacitor_placement_could_be_improved": {
+        "count": 19,
+        "profile_item": "decoupling.max_pin_distance_mm",
+        "severity": "info",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin": {
+        "count": 1063,
+        "profile_item": "decoupling.max_pin_distance_mm",
+        "severity": "warning",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.connectivity.led_missing_series_resistor": {
+        "count": 4,
+        "profile_item": null,
+        "severity": "warning",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.connectivity.missing_pull_up_resistor": {
+        "count": 1,
+        "profile_item": null,
+        "severity": "warning",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.differential_pair.differential_pair_length_matching_could_be_improved": {
+        "count": 1,
+        "profile_item": null,
+        "severity": "info",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.manufacturability.acute_angle_in_trace_acid_trap": {
+        "count": 12,
+        "profile_item": null,
+        "severity": "warning",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.manufacturability.thermal_imbalance_may_cause_tombstoning": {
+        "count": 102,
+        "profile_item": null,
+        "severity": "warning",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.power_trace.power_trace_too_narrow": {
+        "count": 10,
+        "profile_item": null,
+        "severity": "warning",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.thermal_management.thermal_pad_may_need_more_vias": {
+        "count": 2,
+        "profile_item": null,
+        "severity": "info",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.thermal_management.thermal_pad_not_connected_to_ground": {
+        "count": 8,
+        "profile_item": null,
+        "severity": "warning",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.via_placement.via_in_smd_pad": {
+        "count": 4,
+        "profile_item": "vias.in_pad",
+        "severity": "error",
+        "source": "kct detect-mistakes"
+      },
+      "optimize_traces.mergeable_segments": {
+        "count": 1,
+        "profile_item": null,
+        "severity": "info",
+        "source": "kct optimize-traces"
+      },
+      "pad_grid": {
+        "count": 3,
+        "profile_item": null,
+        "severity": "warning",
+        "source": "kct check"
+      },
+      "silk_edge_clearance": {
+        "count": 6,
+        "profile_item": null,
+        "severity": "warning",
+        "source": "kct check"
+      },
+      "silk_explanatory_text": {
+        "count": 30,
+        "profile_item": "silkscreen.explanatory_text",
+        "severity": "error",
+        "source": "plugin"
+      },
+      "silk_over_copper": {
+        "count": 68,
+        "profile_item": "silkscreen.over_vias_or_pads",
+        "severity": "error",
+        "source": "kct check"
+      },
+      "silk_overlap": {
+        "count": 143,
+        "profile_item": "silkscreen.over_vias_or_pads",
+        "severity": "error",
+        "source": "kct check"
+      },
+      "silk_pad_clearance": {
+        "count": 57,
+        "profile_item": null,
+        "severity": "error",
+        "source": "kct check"
+      },
+      "silk_text_below_min": {
+        "count": 17,
+        "profile_item": "silkscreen.text_height_mm",
+        "severity": "warning",
+        "source": "plugin"
+      },
+      "silkscreen_line_width": {
+        "count": 926,
+        "profile_item": null,
+        "severity": "warning",
+        "source": "kct check"
+      },
+      "silkscreen_text_height": {
+        "count": 17,
+        "profile_item": "silkscreen.text_height_mm",
+        "severity": "warning",
+        "source": "kct check"
+      }
+    },
+    "errors": 302,
+    "infos": 23,
+    "suppressed": 0,
+    "warnings": 2400
+  },
+  "quality_no_new_errors_or_warnings": true,
+  "sha256": {
+    "controller.kicad_pcb": "4c19c9f97387f636e429fcabab5f1d1e3e287944cb8420a47e74d7adde9321dc",
+    "controller.kicad_sch": "d26bfe58d63ff86b2772f289c76d8803ba9c9bcfe1f155620159b9a278d0f595",
+    "controller.kicad_pro": "40e593eb2309fcddf3cd616a5e82b970cb97e4b268436e03b5e1288843705533"
+  }
+}

@@ -1,0 +1,733 @@
+{
+  "pcb_sha256": "bb5fcd0ecb1215d100bd9f375724f9efb7c92f415efd8b864e995782136ac92b",
+  "layers": 2,
+  "whole_board_unconnected": 25,
+  "driver_contracts": [
+    {
+      "net": "GDT1_L_HI",
+      "pads": [
+        "J2.37",
+        "R505.1",
+        "R500.1"
+      ]
+    },
+    {
+      "net": "GDT1_L_HI_BUS",
+      "pads": [
+        "R505.2",
+        "U51.5"
+      ]
+    },
+    {
+      "net": "GND",
+      "pads": [
+        "R500.2"
+      ]
+    },
+    {
+      "net": "GDT1_L_LO",
+      "pads": [
+        "J2.38",
+        "R506.1",
+        "R501.1"
+      ]
+    },
+    {
+      "net": "GDT1_L_LO_BUS",
+      "pads": [
+        "R506.2",
+        "U51.6"
+      ]
+    },
+    {
+      "net": "GND",
+      "pads": [
+        "R501.2"
+      ]
+    },
+    {
+      "net": "GDT1_R_HI",
+      "pads": [
+        "J2.39",
+        "R507.1",
+        "R502.1"
+      ]
+    },
+    {
+      "net": "GDT1_R_HI_BUS",
+      "pads": [
+        "R507.2",
+        "U52.5"
+      ]
+    },
+    {
+      "net": "GND",
+      "pads": [
+        "R502.2"
+      ]
+    },
+    {
+      "net": "GDT1_R_LO",
+      "pads": [
+        "J2.40",
+        "R508.1",
+        "R503.1"
+      ]
+    },
+    {
+      "net": "GDT1_R_LO_BUS",
+      "pads": [
+        "R508.2",
+        "U52.6"
+      ]
+    },
+    {
+      "net": "GND",
+      "pads": [
+        "R503.2"
+      ]
+    },
+    {
+      "net": "GDT2_L_HI",
+      "pads": [
+        "J2.33",
+        "R513.1",
+        "R509.1"
+      ]
+    },
+    {
+      "net": "GDT2_L_HI_BUS",
+      "pads": [
+        "R513.2",
+        "U53.5"
+      ]
+    },
+    {
+      "net": "GND",
+      "pads": [
+        "R509.2"
+      ]
+    },
+    {
+      "net": "GDT2_L_LO",
+      "pads": [
+        "J2.34",
+        "R514.1",
+        "R510.1"
+      ]
+    },
+    {
+      "net": "GDT2_L_LO_BUS",
+      "pads": [
+        "R514.2",
+        "U53.6"
+      ]
+    },
+    {
+      "net": "GND",
+      "pads": [
+        "R510.2"
+      ]
+    },
+    {
+      "net": "GDT2_R_HI",
+      "pads": [
+        "J2.35",
+        "R515.1",
+        "R511.1"
+      ]
+    },
+    {
+      "net": "GDT2_R_HI_BUS",
+      "pads": [
+        "R515.2",
+        "U54.5"
+      ]
+    },
+    {
+      "net": "GND",
+      "pads": [
+        "R511.2"
+      ]
+    },
+    {
+      "net": "GDT2_R_LO",
+      "pads": [
+        "J2.36",
+        "R516.1",
+        "R512.1"
+      ]
+    },
+    {
+      "net": "GDT2_R_LO_BUS",
+      "pads": [
+        "R516.2",
+        "U54.6"
+      ]
+    },
+    {
+      "net": "GND",
+      "pads": [
+        "R512.2"
+      ]
+    },
+    {
+      "net": "GDT1_L_LO_DRV",
+      "pads": [
+        "U51.8",
+        "R522.1"
+      ]
+    },
+    {
+      "net": "GDT1_L_HO",
+      "pads": [
+        "U51.3",
+        "R520.1"
+      ]
+    },
+    {
+      "net": "GDT1_L_HG",
+      "pads": [
+        "Q50.1",
+        "R520.2",
+        "R521.1"
+      ]
+    },
+    {
+      "net": "GDT1_L_LG",
+      "pads": [
+        "Q51.1",
+        "R522.2",
+        "R523.1"
+      ]
+    },
+    {
+      "net": "GDT1_L_SW",
+      "pads": [
+        "U51.4",
+        "Q50.3",
+        "Q51.2",
+        "C520.2",
+        "R521.2"
+      ]
+    },
+    {
+      "net": "GDT1_L_HB",
+      "pads": [
+        "U51.2",
+        "C520.1"
+      ]
+    },
+    {
+      "net": "VBAT_24V",
+      "pads": [
+        "Q50.2"
+      ]
+    },
+    {
+      "net": "GND",
+      "pads": [
+        "U51.7",
+        "Q51.3",
+        "R523.2"
+      ]
+    },
+    {
+      "net": "+12V_BIAS",
+      "pads": [
+        "U51.1"
+      ]
+    },
+    {
+      "net": "GDT1_L_HI_BUS",
+      "pads": [
+        "U51.5"
+      ]
+    },
+    {
+      "net": "GDT1_L_LO_BUS",
+      "pads": [
+        "U51.6"
+      ]
+    },
+    {
+      "net": "GDT1_R_LO_DRV",
+      "pads": [
+        "U52.8",
+        "R526.1"
+      ]
+    },
+    {
+      "net": "GDT1_R_HO",
+      "pads": [
+        "U52.3",
+        "R524.1"
+      ]
+    },
+    {
+      "net": "GDT1_R_HG",
+      "pads": [
+        "Q52.1",
+        "R524.2",
+        "R525.1"
+      ]
+    },
+    {
+      "net": "GDT1_R_LG",
+      "pads": [
+        "Q53.1",
+        "R526.2",
+        "R527.1"
+      ]
+    },
+    {
+      "net": "GDT1_R_SW",
+      "pads": [
+        "U52.4",
+        "Q52.3",
+        "Q53.2",
+        "C523.2",
+        "R525.2"
+      ]
+    },
+    {
+      "net": "GDT1_R_HB",
+      "pads": [
+        "U52.2",
+        "C523.1"
+      ]
+    },
+    {
+      "net": "VBAT_24V",
+      "pads": [
+        "Q52.2"
+      ]
+    },
+    {
+      "net": "GND",
+      "pads": [
+        "U52.7",
+        "Q53.3",
+        "R527.2"
+      ]
+    },
+    {
+      "net": "+12V_BIAS",
+      "pads": [
+        "U52.1"
+      ]
+    },
+    {
+      "net": "GDT1_R_HI_BUS",
+      "pads": [
+        "U52.5"
+      ]
+    },
+    {
+      "net": "GDT1_R_LO_BUS",
+      "pads": [
+        "U52.6"
+      ]
+    },
+    {
+      "net": "GDT2_L_LO_DRV",
+      "pads": [
+        "U53.8",
+        "R562.1"
+      ]
+    },
+    {
+      "net": "GDT2_L_HO",
+      "pads": [
+        "U53.3",
+        "R560.1"
+      ]
+    },
+    {
+      "net": "GDT2_L_HG",
+      "pads": [
+        "Q54.1",
+        "R560.2",
+        "R561.1"
+      ]
+    },
+    {
+      "net": "GDT2_L_LG",
+      "pads": [
+        "Q55.1",
+        "R562.2",
+        "R563.1"
+      ]
+    },
+    {
+      "net": "GDT2_L_SW",
+      "pads": [
+        "U53.4",
+        "Q54.3",
+        "Q55.2",
+        "C560.2",
+        "R561.2"
+      ]
+    },
+    {
+      "net": "GDT2_L_HB",
+      "pads": [
+        "U53.2",
+        "C560.1"
+      ]
+    },
+    {
+      "net": "VBAT_24V",
+      "pads": [
+        "Q54.2"
+      ]
+    },
+    {
+      "net": "GND",
+      "pads": [
+        "U53.7",
+        "Q55.3",
+        "R563.2"
+      ]
+    },
+    {
+      "net": "+12V_BIAS",
+      "pads": [
+        "U53.1"
+      ]
+    },
+    {
+      "net": "GDT2_L_HI_BUS",
+      "pads": [
+        "U53.5"
+      ]
+    },
+    {
+      "net": "GDT2_L_LO_BUS",
+      "pads": [
+        "U53.6"
+      ]
+    },
+    {
+      "net": "GDT2_R_LO_DRV",
+      "pads": [
+        "U54.8",
+        "R566.1"
+      ]
+    },
+    {
+      "net": "GDT2_R_HO",
+      "pads": [
+        "U54.3",
+        "R564.1"
+      ]
+    },
+    {
+      "net": "GDT2_R_HG",
+      "pads": [
+        "Q56.1",
+        "R564.2",
+        "R565.1"
+      ]
+    },
+    {
+      "net": "GDT2_R_LG",
+      "pads": [
+        "Q57.1",
+        "R566.2",
+        "R567.1"
+      ]
+    },
+    {
+      "net": "GDT2_R_SW",
+      "pads": [
+        "U54.4",
+        "Q56.3",
+        "Q57.2",
+        "C563.2",
+        "R565.2"
+      ]
+    },
+    {
+      "net": "GDT2_R_HB",
+      "pads": [
+        "U54.2",
+        "C563.1"
+      ]
+    },
+    {
+      "net": "VBAT_24V",
+      "pads": [
+        "Q56.2"
+      ]
+    },
+    {
+      "net": "GND",
+      "pads": [
+        "U54.7",
+        "Q57.3",
+        "R567.2"
+      ]
+    },
+    {
+      "net": "+12V_BIAS",
+      "pads": [
+        "U54.1"
+      ]
+    },
+    {
+      "net": "GDT2_R_HI_BUS",
+      "pads": [
+        "U54.5"
+      ]
+    },
+    {
+      "net": "GDT2_R_LO_BUS",
+      "pads": [
+        "U54.6"
+      ]
+    }
+  ],
+  "connectivity": [
+    {
+      "net": "GDT1_L_HB",
+      "pads": 2,
+      "missing": []
+    },
+    {
+      "net": "GDT1_L_HG",
+      "pads": 3,
+      "missing": []
+    },
+    {
+      "net": "GDT1_L_HI",
+      "pads": 3,
+      "missing": []
+    },
+    {
+      "net": "GDT1_L_HI_BUS",
+      "pads": 2,
+      "missing": []
+    },
+    {
+      "net": "GDT1_L_HO",
+      "pads": 2,
+      "missing": []
+    },
+    {
+      "net": "GDT1_L_LG",
+      "pads": 3,
+      "missing": []
+    },
+    {
+      "net": "GDT1_L_LO",
+      "pads": 3,
+      "missing": []
+    },
+    {
+      "net": "GDT1_L_LO_BUS",
+      "pads": 2,
+      "missing": []
+    },
+    {
+      "net": "GDT1_L_LO_DRV",
+      "pads": 2,
+      "missing": []
+    },
+    {
+      "net": "GDT1_L_SW",
+      "pads": 12,
+      "missing": []
+    },
+    {
+      "net": "GDT1_OUT_P",
+      "pads": 3,
+      "missing": []
+    },
+    {
+      "net": "GDT1_R_HB",
+      "pads": 2,
+      "missing": []
+    },
+    {
+      "net": "GDT1_R_HG",
+      "pads": 3,
+      "missing": []
+    },
+    {
+      "net": "GDT1_R_HI",
+      "pads": 3,
+      "missing": []
+    },
+    {
+      "net": "GDT1_R_HI_BUS",
+      "pads": 2,
+      "missing": []
+    },
+    {
+      "net": "GDT1_R_HO",
+      "pads": 2,
+      "missing": []
+    },
+    {
+      "net": "GDT1_R_LG",
+      "pads": 3,
+      "missing": []
+    },
+    {
+      "net": "GDT1_R_LO",
+      "pads": 3,
+      "missing": []
+    },
+    {
+      "net": "GDT1_R_LO_BUS",
+      "pads": 2,
+      "missing": []
+    },
+    {
+      "net": "GDT1_R_LO_DRV",
+      "pads": 2,
+      "missing": []
+    },
+    {
+      "net": "GDT1_R_SW",
+      "pads": 11,
+      "missing": []
+    },
+    {
+      "net": "GDT1_SNUB",
+      "pads": 2,
+      "missing": []
+    },
+    {
+      "net": "GDT2_L_HB",
+      "pads": 2,
+      "missing": []
+    },
+    {
+      "net": "GDT2_L_HG",
+      "pads": 3,
+      "missing": []
+    },
+    {
+      "net": "GDT2_L_HI",
+      "pads": 3,
+      "missing": []
+    },
+    {
+      "net": "GDT2_L_HI_BUS",
+      "pads": 2,
+      "missing": []
+    },
+    {
+      "net": "GDT2_L_HO",
+      "pads": 2,
+      "missing": []
+    },
+    {
+      "net": "GDT2_L_LG",
+      "pads": 3,
+      "missing": []
+    },
+    {
+      "net": "GDT2_L_LO",
+      "pads": 3,
+      "missing": []
+    },
+    {
+      "net": "GDT2_L_LO_BUS",
+      "pads": 2,
+      "missing": []
+    },
+    {
+      "net": "GDT2_L_LO_DRV",
+      "pads": 2,
+      "missing": []
+    },
+    {
+      "net": "GDT2_L_SW",
+      "pads": 12,
+      "missing": []
+    },
+    {
+      "net": "GDT2_OUT_P",
+      "pads": 3,
+      "missing": []
+    },
+    {
+      "net": "GDT2_R_HB",
+      "pads": 2,
+      "missing": []
+    },
+    {
+      "net": "GDT2_R_HG",
+      "pads": 3,
+      "missing": []
+    },
+    {
+      "net": "GDT2_R_HI",
+      "pads": 3,
+      "missing": []
+    },
+    {
+      "net": "GDT2_R_HI_BUS",
+      "pads": 2,
+      "missing": []
+    },
+    {
+      "net": "GDT2_R_HO",
+      "pads": 2,
+      "missing": []
+    },
+    {
+      "net": "GDT2_R_LG",
+      "pads": 3,
+      "missing": []
+    },
+    {
+      "net": "GDT2_R_LO",
+      "pads": 3,
+      "missing": []
+    },
+    {
+      "net": "GDT2_R_LO_BUS",
+      "pads": 2,
+      "missing": []
+    },
+    {
+      "net": "GDT2_R_LO_DRV",
+      "pads": 2,
+      "missing": []
+    },
+    {
+      "net": "GDT2_R_SW",
+      "pads": 11,
+      "missing": []
+    },
+    {
+      "net": "GDT2_SNUB",
+      "pads": 2,
+      "missing": []
+    },
+    {
+      "net": "VBAT_24V",
+      "pads": 64,
+      "missing": []
+    },
+    {
+      "net": "+12V_BIAS",
+      "pads": 20,
+      "missing": []
+    },
+    {
+      "net": "+3V3",
+      "pads": 26,
+      "missing": []
+    }
+  ],
+  "native_scope_unconnected": [],
+  "off_angle": [],
+  "via_drill_over_pad": [],
+  "overlapping_tracks": [],
+  "duplicate_uuids": []
+}

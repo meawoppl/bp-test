@@ -1,0 +1,80 @@
+{
+  "annotation": {
+    "title": "Strange routing here and near the other voltage regulator",
+    "page": "https://b24a4853.portal.cosmicfrontier.org/",
+    "project": "tesla-coil-controller",
+    "revision": "f38b817ad69174365d48",
+    "session": "91d7cd67-4900-4b54-a9dc-9c2e0eb5396d",
+    "created_at": "2026-09-30T16:56:43.276Z"
+  },
+  "result": "Removed wraparound routing from both U30/U31 feedback and output-sense networks. The upper divider resistors and feedforward capacitors rotate 180 degrees in place to permit straight divider ties, a direct feedback branch and short output taps.",
+  "changes": [
+    "Rotated R300, R310, C301 and C311 in place. Values, footprint positions, physical envelopes and electrical pin assignments are preserved.",
+    "Replaced 30 front-copper segments with 16. Retained 0.25 mm feedback and 0.30 mm output-sense widths.",
+    "Shifted the two existing lower feedback vias by 0.2 mm and shortened their back-copper links. Via count remains 327.",
+    "Preserved main power buses, output capacitor banks, other circuits, prior CST compaction, board drawings, schematic and project settings.",
+    "Updated canonical placement/routing recipes, circuit positions and the power-audit coverage."
+  ],
+  "measurements": {
+    "affected_trace_length_mm": {
+      "before": 61.947506,
+      "after": 43.405483,
+      "reduction": 18.542023
+    },
+    "net_length_mm": {
+      "+12V_BIAS": {
+        "before": 284.651191,
+        "after": 280.149598
+      },
+      "P30_FB": {
+        "before": 20.581917,
+        "after": 15.8125
+      },
+      "P31_FB": {
+        "before": 20.581918,
+        "after": 15.8125
+      },
+      "VIN_5V": {
+        "before": 200.056499,
+        "after": 195.554905
+      }
+    },
+    "minimum_changed_copper_clearance_mm": 0.175,
+    "required_clearance_mm": 0.15
+  },
+  "verification": {
+    "erc_violations": 0,
+    "physical_drc_violations": 0,
+    "schematic_parity_issues": 0,
+    "schematic_in_sync": true,
+    "all_pad_connectivity_components_identical": true,
+    "all_scoped_nets_connected": true,
+    "main_rail_and_bypass_ground_audit": "pass",
+    "octilinear_tracks": true,
+    "no_changed_collinear_overlaps": true,
+    "no_moved_via_drill_over_smd_or_package_body": true,
+    "existing_unconnected": [
+      "USB_D+: J1.7 to J5.1",
+      "USB_D-: J1.8 to J5.2"
+    ],
+    "quality": {
+      "passed": false,
+      "errors_before": 302,
+      "errors_after": 302,
+      "warnings_before": 2400,
+      "warnings_after": 2400,
+      "infos_before": 23,
+      "infos_after": 23,
+      "new_errors_or_warnings": 0
+    }
+  },
+  "quality_assessment": "Every error and warning is identical to the pre-edit audit. Only the trace-optimizer informational summary changes. Existing quality backlog remains; no rules or thresholds were relaxed.",
+  "visual_review": "Reviewed native copper, pads and package outlines for both regulators before and after. The resulting layouts match, with short pad-centered exits and external right-angle/45-degree bends. Review image omits filled zones for visibility; native DRC uses the filled board.",
+  "preview": "regulator-routing-review.png",
+  "checks": "regulator-routing-checks/",
+  "source_sha256": {
+    "controller.kicad_pcb": "4c19c9f97387f636e429fcabab5f1d1e3e287944cb8420a47e74d7adde9321dc",
+    "controller.kicad_sch": "d26bfe58d63ff86b2772f289c76d8803ba9c9bcfe1f155620159b9a278d0f595",
+    "controller.kicad_pro": "40e593eb2309fcddf3cd616a5e82b970cb97e4b268436e03b5e1288843705533"
+  }
+}

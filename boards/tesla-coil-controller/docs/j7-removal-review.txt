@@ -1,0 +1,66 @@
+Portal J7 removal — 2026-09-30
+Annotation: 2026-09-30T07:07:04.383Z
+Source revision: 3d113cef9bdd62c94c1a
+Saved Portal revision: 2e4ab31277f93bcd1f70
+
+Removed the J7 service/monitor/clock header from PCB and schematic.
+Removed its complete EXT_CLOCK route: 10 track segments and three vias.
+The other four J7 signals had no copper. Shared GND copper remains intact.
+J1.11/12/15/16 and J2.32 are now explicitly unconnected controller contacts.
+The circuit contract, pinout, placement data, schematic source and reviewed
+routing recipe agree with this removal, so replay will not restore J7.
+
+Verification:
+- Native ERC: 0; physical DRC: 0; schematic parity: 0.
+- Unconnected items fell from six to two: existing USB_D+ and USB_D-.
+- Remaining 1336 tracks and 325 vias exactly match the snapshot.
+- All remaining footprint geometry, positions, pad sizes, thermal angles,
+  and orientations are unchanged. Board drawings and project rules match.
+- Every remaining pad-connectivity component matches the snapshot after
+  deleting J7 and renaming the five unused contacts; GND is preserved.
+- Schematic changes are exactly J7 plus its seven wires/seven labels/one
+  no-connect, five daughterboard wires/labels, and five new no-connects.
+  All other schematic objects and embedded symbol definitions match.
+- Exported native netlist matches the updated circuit contract.
+
+Quality: 304 errors, 2413 warnings, 29 infos, 0 suppressed.
+Compared with cst-filter-width-quality.json, nine J7 warnings disappeared
+(one missing MPN and eight silk line-width findings). There are no new
+errors or warnings. One existing optimizer summary changed its totals
+because ten segments were removed; it still suggests removing 17 segments.
+All other findings are identical. Existing dispositions and remaining
+board-wide work are in command-adc-quality-triage.md and
+d42-placement-review.txt; this focused edit does not waive that backlog.
+The full comparison is j7-removal-quality-delta.json.
+
+Visual review: compared saved-board copper geometry before/after from J7
+down to J2. J7's pads, courtyard, local reference and complete clock route
+are absent, with no orphan clock vias or stubs. Adjacent supply copper,
+J5 and daughterboard routes retain their paths and pad exits. Reviewed
+j7-removal-after.png. Zone fills were rebuilt and connectivity checked;
+the plot omits plane fills. No live Workbench or new 3D/assembly preview
+was reviewed. No remaining footprint polarity, model or pin-1 changed.
+
+Tools: plugin doctor (KiCad 10.0.6, kct 0.21.1); kct schematic disconnect
+with explicit no-connect markers. kct remove-component failed on this
+generated J7 symbol, so its exact symbol/wire/label nodes were removed
+with a targeted patch, then audited against the snapshot. Existing
+tesla_route_reviewed.py applied the reviewed recipe and filled zones.
+Custom read-only audits supplied exact copper/geometry and connected-pad
+comparisons that kct does not expose. check_tesla_draft.py ran native ERC,
+DRC with schematic parity and schematic PDF export. Plugin quality ran
+kct check, detect-mistakes and optimize-traces dry-run.
+
+Changed files by category:
+- CAD: controller.kicad_pcb and controller.kicad_sch.
+- Source data: circuit.json, daughterboard-pinout.csv,
+  tesla_reviewed_routing.json, tesla_placement.json,
+  tesla_schematic_blocks.py and build_tesla_controller.py.
+- Docs/checks: this review, verification JSON, quality/delta JSON, plot,
+  validation.json, ERC/DRC reports and regenerated schematic PDF.
+- Project rules and libraries: unchanged; an unused embedded J7 symbol
+  definition is retained, with no placed instance or netlist component.
+- Fabrication outputs: not published; this is a routing draft. Existing
+  generated fabrication outputs are not a release of this revised board.
+
+Only the J7 removal annotation was handled.

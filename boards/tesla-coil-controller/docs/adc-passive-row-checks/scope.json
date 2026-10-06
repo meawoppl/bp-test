@@ -1,0 +1,27 @@
+{
+  "changed_footprints": [
+    "R20",
+    "C10"
+  ],
+  "aligned_row": [
+    "R20",
+    "C10",
+    "C9",
+    "C7"
+  ],
+  "pitch_mm": 2.5,
+  "centerline_y_mm": 82.5,
+  "unchanged_footprints": 323,
+  "unchanged_values_and_nets": true,
+  "schematic_and_project_unchanged": true,
+  "copper_removed": 11,
+  "copper_added": 11,
+  "unchanged_copper": 1671,
+  "changed_copper_nets": [
+    "VIN_5V",
+    "+5V_ADC",
+    "GND"
+  ],
+  "new_tracks_octilinear": true,
+  "new_via_holes_clear_of_smd_pads": true
+}

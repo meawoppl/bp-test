@@ -1,0 +1,482 @@
+{
+  "minimum_clearance_mm": 0.199999,
+  "via_drill_body_overlap": [],
+  "items": [
+    {
+      "uuid": "1d0e380a-5f3d-523a-b07b-e97c61719a6c",
+      "net": "ADC_CS_N",
+      "min_other_net_clearance_mm": 0.2,
+      "nearest_net": "ADC_BUSY",
+      "nearest_item": "f4c71e7f-5a61-5fa8-91b2-5707c281b737"
+    },
+    {
+      "uuid": "e434959f-d819-509f-8b8a-64bb919655f3",
+      "net": "ADC_CS_N",
+      "min_other_net_clearance_mm": 0.365685,
+      "nearest_net": "ADC_SCLK",
+      "nearest_item": "baf7e59b-2b2f-53b8-9f0c-440f532a9b6d"
+    },
+    {
+      "uuid": "f284c8fa-6266-5cd2-9c61-802eb644f43f",
+      "net": "ADC_CS_N",
+      "min_other_net_clearance_mm": 0.2,
+      "nearest_net": "ADC_BUSY",
+      "nearest_item": "J2.35"
+    },
+    {
+      "uuid": "d7817f21-a047-5df0-b4ad-169b0250399a",
+      "net": "ADC_CS_N",
+      "min_other_net_clearance_mm": 0.45,
+      "nearest_net": "ADC_SCLK",
+      "nearest_item": "bd5b437d-b4de-53c5-bb1d-d5d716e4caab"
+    },
+    {
+      "uuid": "7cb99251-8bda-5d58-8797-48c2922120c9",
+      "net": "ADC_CS_N",
+      "min_other_net_clearance_mm": 0.365685,
+      "nearest_net": "ADC_BUSY",
+      "nearest_item": "3751366c-edff-5f0f-97d4-015ebda3f1a7"
+    },
+    {
+      "uuid": "0e638b2a-1e07-56be-a0cc-08c53b6cfbe1",
+      "net": "+12V_BIAS",
+      "min_other_net_clearance_mm": 0.3,
+      "nearest_net": "VIN_5V",
+      "nearest_item": "c57f73c7-f215-59b5-a920-3a082434fe0d"
+    },
+    {
+      "uuid": "64bc4f1a-2f19-5c49-aa39-12d02aad178b",
+      "net": "+12V_BIAS",
+      "min_other_net_clearance_mm": 1.597523,
+      "nearest_net": "GND",
+      "nearest_item": "C306.2"
+    },
+    {
+      "uuid": "748cb8c7-3423-56b3-8615-db240895a2e4",
+      "net": "+12V_BIAS",
+      "min_other_net_clearance_mm": 0.65,
+      "nearest_net": "+12V_AUX",
+      "nearest_item": "0d3ba794-094b-56bb-bfc3-05aecc92fa23"
+    },
+    {
+      "uuid": "da2e1311-9d61-5b55-ba78-0ea7fb536fd7",
+      "net": "+12V_BIAS",
+      "min_other_net_clearance_mm": 0.55,
+      "nearest_net": "GND",
+      "nearest_item": "C306.2"
+    },
+    {
+      "uuid": "28e4483f-7ad8-5512-bcdf-69e0ccf43b29",
+      "net": "+12V_BIAS",
+      "min_other_net_clearance_mm": 3.0886,
+      "nearest_net": "CT1_ZERO",
+      "nearest_item": "1a2c311f-fc3c-5781-ab98-610e420a9c57"
+    },
+    {
+      "uuid": "82a57e70-cd6a-55e1-92dd-83e772723e56",
+      "net": "+12V_BIAS",
+      "min_other_net_clearance_mm": 0.45,
+      "nearest_net": "CT1_ZERO",
+      "nearest_item": "99645b99-39c6-5489-a0bc-42fbc82e605e"
+    },
+    {
+      "uuid": "2fedced2-dfb5-5929-ac93-f039ba360d5d",
+      "net": "ADC_RESET",
+      "min_other_net_clearance_mm": 0.2,
+      "nearest_net": "ADC_SCLK",
+      "nearest_item": "c7da1c11-cc39-587f-8303-b24cbeb35720"
+    },
+    {
+      "uuid": "3e639ad4-3898-525e-bd8b-a8dd42b340bf",
+      "net": "ADC_RESET",
+      "min_other_net_clearance_mm": 0.2,
+      "nearest_net": "ADC_CONVST",
+      "nearest_item": "J2.31"
+    },
+    {
+      "uuid": "5ac931e1-35f6-5148-a916-5100b7f49b0e",
+      "net": "ADC_RESET",
+      "min_other_net_clearance_mm": 0.365685,
+      "nearest_net": "ADC_CONVST",
+      "nearest_item": "7b6fad43-3a03-5063-bc37-6ebb4c9dff82"
+    },
+    {
+      "uuid": "82e7d1b6-2805-52fb-a0f2-b68a0ffd071a",
+      "net": "ADC_RESET",
+      "min_other_net_clearance_mm": 0.45,
+      "nearest_net": "ADC_CONVST",
+      "nearest_item": "2ea67d62-c771-5ee2-8ef9-120a4016de0a"
+    },
+    {
+      "uuid": "320fa14a-88ba-5677-b568-91864c4786c3",
+      "net": "ADC_RESET",
+      "min_other_net_clearance_mm": 0.365685,
+      "nearest_net": "ADC_SCLK",
+      "nearest_item": "63e5f28a-f8d0-5d61-9d01-813f4a4a2d6d"
+    },
+    {
+      "uuid": "7b2e7a12-59a6-5834-9151-50bb2d7dcbab",
+      "net": "CT1_ZERO",
+      "min_other_net_clearance_mm": 0.2,
+      "nearest_net": "unconnected-(J2-FPGA_IOT_48B-Pad21)",
+      "nearest_item": "J2.21"
+    },
+    {
+      "uuid": "7e9f849c-0357-51e6-8c3a-78f90bc38947",
+      "net": "CT1_ZERO",
+      "min_other_net_clearance_mm": 0.71066,
+      "nearest_net": "CT2_ZERO",
+      "nearest_item": "91a27ac0-eb66-5acc-9751-3e211d9647af"
+    },
+    {
+      "uuid": "c138571b-ca3a-539c-a4c2-59ec843cffed",
+      "net": "CT1_ZERO",
+      "min_other_net_clearance_mm": 0.271142,
+      "nearest_net": "CT2_ZERO",
+      "nearest_item": "b13c2796-8ea0-5b24-a67f-e25dc410cdaf"
+    },
+    {
+      "uuid": "99645b99-39c6-5489-a0bc-42fbc82e605e",
+      "net": "CT1_ZERO",
+      "min_other_net_clearance_mm": 0.35,
+      "nearest_net": "CT2_ZERO",
+      "nearest_item": "433c8e5f-52b7-5b71-bdb1-bc7eae80801f"
+    },
+    {
+      "uuid": "cb134766-5785-5fe5-a3a5-f775a76e28a3",
+      "net": "CT1_ZERO",
+      "min_other_net_clearance_mm": 0.3,
+      "nearest_net": "CT2_ZERO",
+      "nearest_item": "16eb255f-f836-5f63-ac9a-481f8446999f"
+    },
+    {
+      "uuid": "1a2c311f-fc3c-5781-ab98-610e420a9c57",
+      "net": "CT1_ZERO",
+      "min_other_net_clearance_mm": 0.45,
+      "nearest_net": "CT2_ZERO",
+      "nearest_item": "16eb255f-f836-5f63-ac9a-481f8446999f"
+    },
+    {
+      "uuid": "d5ddf21e-568b-5c2e-8ce7-fe97688572fe",
+      "net": "CT1_ZERO",
+      "min_other_net_clearance_mm": 0.5,
+      "nearest_net": "CT2_ZERO",
+      "nearest_item": "13b94684-58f7-5027-9214-1a228488f6d6"
+    },
+    {
+      "uuid": "f61739b5-8f3f-50b5-adf2-db51c5542b12",
+      "net": "CT1_ZERO",
+      "min_other_net_clearance_mm": 0.6,
+      "nearest_net": "+12V_BIAS",
+      "nearest_item": "82a57e70-cd6a-55e1-92dd-83e772723e56"
+    },
+    {
+      "uuid": "952fd434-5317-5537-867f-325f0ed38790",
+      "net": "CT2_ZERO",
+      "min_other_net_clearance_mm": 0.2,
+      "nearest_net": "GND",
+      "nearest_item": "J2.23"
+    },
+    {
+      "uuid": "d519f7d5-33cc-5085-87a8-94d6cf6fe22e",
+      "net": "CT2_ZERO",
+      "min_other_net_clearance_mm": 0.4,
+      "nearest_net": "CT1_ZERO",
+      "nearest_item": "c138571b-ca3a-539c-a4c2-59ec843cffed"
+    },
+    {
+      "uuid": "d9e56c4b-3425-5f30-a5a8-8e672279780b",
+      "net": "CT2_ZERO",
+      "min_other_net_clearance_mm": 0.4,
+      "nearest_net": "CT1_ZERO",
+      "nearest_item": "c138571b-ca3a-539c-a4c2-59ec843cffed"
+    },
+    {
+      "uuid": "16eb255f-f836-5f63-ac9a-481f8446999f",
+      "net": "CT2_ZERO",
+      "min_other_net_clearance_mm": 0.3,
+      "nearest_net": "CT1_ZERO",
+      "nearest_item": "cb134766-5785-5fe5-a3a5-f775a76e28a3"
+    },
+    {
+      "uuid": "91a27ac0-eb66-5acc-9751-3e211d9647af",
+      "net": "CT2_ZERO",
+      "min_other_net_clearance_mm": 0.55,
+      "nearest_net": "CT1_ZERO",
+      "nearest_item": "c138571b-ca3a-539c-a4c2-59ec843cffed"
+    },
+    {
+      "uuid": "13b94684-58f7-5027-9214-1a228488f6d6",
+      "net": "CT2_ZERO",
+      "min_other_net_clearance_mm": 0.5,
+      "nearest_net": "CT1_ZERO",
+      "nearest_item": "d5ddf21e-568b-5c2e-8ce7-fe97688572fe"
+    },
+    {
+      "uuid": "2d4c73ef-9e10-579a-a08f-8f8abb2e3a36",
+      "net": "CT2_ZERO",
+      "min_other_net_clearance_mm": 0.45,
+      "nearest_net": "CT1_ZERO",
+      "nearest_item": "cb134766-5785-5fe5-a3a5-f775a76e28a3"
+    },
+    {
+      "uuid": "433c8e5f-52b7-5b71-bdb1-bc7eae80801f",
+      "net": "CT2_ZERO",
+      "min_other_net_clearance_mm": 0.35,
+      "nearest_net": "CT1_ZERO",
+      "nearest_item": "99645b99-39c6-5489-a0bc-42fbc82e605e"
+    },
+    {
+      "uuid": "2ea67d62-c771-5ee2-8ef9-120a4016de0a",
+      "net": "ADC_CONVST",
+      "min_other_net_clearance_mm": 0.45,
+      "nearest_net": "ADC_RESET",
+      "nearest_item": "82e7d1b6-2805-52fb-a0f2-b68a0ffd071a"
+    },
+    {
+      "uuid": "58ae3a01-3212-5b39-b5e4-e2905bd6bb51",
+      "net": "ADC_CONVST",
+      "min_other_net_clearance_mm": 0.675,
+      "nearest_net": "+3V3",
+      "nearest_item": "eeb7d4b9-9def-5542-98b1-51ac7d09a3c1"
+    },
+    {
+      "uuid": "69f702e3-fc6d-563d-9e46-3337a2767c2a",
+      "net": "ADC_CONVST",
+      "min_other_net_clearance_mm": 0.199999,
+      "nearest_net": "unconnected-(J2-NC-Pad30)",
+      "nearest_item": "J2.30"
+    },
+    {
+      "uuid": "7b6fad43-3a03-5063-bc37-6ebb4c9dff82",
+      "net": "ADC_CONVST",
+      "min_other_net_clearance_mm": 0.2,
+      "nearest_net": "ADC_RESET",
+      "nearest_item": "3e639ad4-3898-525e-bd8b-a8dd42b340bf"
+    },
+    {
+      "uuid": "b60af0f8-1b98-52c3-8ff7-a03e025b79fe",
+      "net": "ADC_CONVST",
+      "min_other_net_clearance_mm": 0.215685,
+      "nearest_net": "ADC_RESET",
+      "nearest_item": "f301f679-1e41-51b4-b7c9-79e084595e61"
+    },
+    {
+      "uuid": "baf7e59b-2b2f-53b8-9f0c-440f532a9b6d",
+      "net": "ADC_SCLK",
+      "min_other_net_clearance_mm": 0.2,
+      "nearest_net": "ADC_CS_N",
+      "nearest_item": "f284c8fa-6266-5cd2-9c61-802eb644f43f"
+    },
+    {
+      "uuid": "bd5b437d-b4de-53c5-bb1d-d5d716e4caab",
+      "net": "ADC_SCLK",
+      "min_other_net_clearance_mm": 0.365685,
+      "nearest_net": "ADC_RESET",
+      "nearest_item": "2fedced2-dfb5-5929-ac93-f039ba360d5d"
+    },
+    {
+      "uuid": "c7da1c11-cc39-587f-8303-b24cbeb35720",
+      "net": "ADC_SCLK",
+      "min_other_net_clearance_mm": 0.2,
+      "nearest_net": "ADC_CS_N",
+      "nearest_item": "J2.34"
+    },
+    {
+      "uuid": "92e93ca6-e4ad-5db1-9476-3f46bec8647e",
+      "net": "ADC_SCLK",
+      "min_other_net_clearance_mm": 0.215685,
+      "nearest_net": "ADC_CS_N",
+      "nearest_item": "2b3ca2b4-9e98-5283-a75b-5c7ac53b0897"
+    },
+    {
+      "uuid": "69d68496-699d-5213-b434-f70385a71b17",
+      "net": "ADC_BUSY",
+      "min_other_net_clearance_mm": 0.2,
+      "nearest_net": "ADC_SDI",
+      "nearest_item": "eeddc7c7-1f47-5cf4-bbae-ba76a8299ed0"
+    },
+    {
+      "uuid": "c74d24c8-668f-5de9-8f1e-a993de11fb49",
+      "net": "ADC_BUSY",
+      "min_other_net_clearance_mm": 0.365685,
+      "nearest_net": "ADC_CS_N",
+      "nearest_item": "1d0e380a-5f3d-523a-b07b-e97c61719a6c"
+    },
+    {
+      "uuid": "f4c71e7f-5a61-5fa8-91b2-5707c281b737",
+      "net": "ADC_BUSY",
+      "min_other_net_clearance_mm": 0.2,
+      "nearest_net": "ADC_CS_N",
+      "nearest_item": "J2.34"
+    },
+    {
+      "uuid": "0a7fef90-40af-55ab-b247-dda9cdb0dbb4",
+      "net": "ADC_BUSY",
+      "min_other_net_clearance_mm": 0.45,
+      "nearest_net": "ADC_SDI",
+      "nearest_item": "eeddc7c7-1f47-5cf4-bbae-ba76a8299ed0"
+    },
+    {
+      "uuid": "319c8161-660c-5464-9d4d-d40d2f56e4df",
+      "net": "ADC_SDI",
+      "min_other_net_clearance_mm": 0.365685,
+      "nearest_net": "ADC_DOUT_D",
+      "nearest_item": "461a2153-9997-550c-bca4-4067eba0100d"
+    },
+    {
+      "uuid": "b0ee7eff-6f99-57b9-9323-6fdb0d93a085",
+      "net": "ADC_SDI",
+      "min_other_net_clearance_mm": 0.365685,
+      "nearest_net": "ADC_DOUT_D",
+      "nearest_item": "461a2153-9997-550c-bca4-4067eba0100d"
+    },
+    {
+      "uuid": "eeddc7c7-1f47-5cf4-bbae-ba76a8299ed0",
+      "net": "ADC_SDI",
+      "min_other_net_clearance_mm": 0.2,
+      "nearest_net": "ADC_DOUT_D",
+      "nearest_item": "J2.37"
+    },
+    {
+      "uuid": "1674a6b6-221d-5860-abef-8bd6c13d0bae",
+      "net": "ADC_DOUT_D",
+      "min_other_net_clearance_mm": 0.2,
+      "nearest_net": "ADC_SDI",
+      "nearest_item": "J2.36"
+    },
+    {
+      "uuid": "45a47257-6653-5b01-9477-03d418b703fa",
+      "net": "ADC_DOUT_D",
+      "min_other_net_clearance_mm": 0.2,
+      "nearest_net": "ADC_SDI",
+      "nearest_item": "eeddc7c7-1f47-5cf4-bbae-ba76a8299ed0"
+    },
+    {
+      "uuid": "461a2153-9997-550c-bca4-4067eba0100d",
+      "net": "ADC_DOUT_D",
+      "min_other_net_clearance_mm": 0.365685,
+      "nearest_net": "ADC_DOUT_C",
+      "nearest_item": "10b89c08-7b93-5b9f-9256-d30774373740"
+    },
+    {
+      "uuid": "c82cbdff-f530-5013-a6a2-9b1501ff4ace",
+      "net": "ADC_DOUT_D",
+      "min_other_net_clearance_mm": 0.365685,
+      "nearest_net": "ADC_DOUT_C",
+      "nearest_item": "10b89c08-7b93-5b9f-9256-d30774373740"
+    },
+    {
+      "uuid": "f56d7927-41cc-5b8d-9f98-5f012d70cbd6",
+      "net": "ADC_DOUT_D",
+      "min_other_net_clearance_mm": 0.365685,
+      "nearest_net": "ADC_DOUT_C",
+      "nearest_item": "10b89c08-7b93-5b9f-9256-d30774373740"
+    },
+    {
+      "uuid": "10b89c08-7b93-5b9f-9256-d30774373740",
+      "net": "ADC_DOUT_C",
+      "min_other_net_clearance_mm": 0.365685,
+      "nearest_net": "ADC_DOUT_B",
+      "nearest_item": "959e4352-45c3-5ca5-b9a7-bd45c72b18f3"
+    },
+    {
+      "uuid": "d03f89fd-0633-5681-a2fe-b7460fe71c26",
+      "net": "ADC_DOUT_C",
+      "min_other_net_clearance_mm": 0.2,
+      "nearest_net": "ADC_DOUT_B",
+      "nearest_item": "17e24991-835d-5080-94b3-7223ca959a22"
+    },
+    {
+      "uuid": "d205b5b7-0627-5d47-9bb9-5bdfc9d5e5f7",
+      "net": "ADC_DOUT_C",
+      "min_other_net_clearance_mm": 0.365685,
+      "nearest_net": "ADC_DOUT_B",
+      "nearest_item": "959e4352-45c3-5ca5-b9a7-bd45c72b18f3"
+    },
+    {
+      "uuid": "d225e048-11e4-5078-971a-6ff0adadf9d7",
+      "net": "ADC_DOUT_C",
+      "min_other_net_clearance_mm": 0.2,
+      "nearest_net": "ADC_DOUT_D",
+      "nearest_item": "1674a6b6-221d-5860-abef-8bd6c13d0bae"
+    },
+    {
+      "uuid": "e75bc8ac-3ea5-5906-87cf-eaa286d57502",
+      "net": "ADC_DOUT_C",
+      "min_other_net_clearance_mm": 0.365685,
+      "nearest_net": "ADC_DOUT_B",
+      "nearest_item": "959e4352-45c3-5ca5-b9a7-bd45c72b18f3"
+    },
+    {
+      "uuid": "17e24991-835d-5080-94b3-7223ca959a22",
+      "net": "ADC_DOUT_B",
+      "min_other_net_clearance_mm": 0.2,
+      "nearest_net": "ADC_DOUT_A",
+      "nearest_item": "5478f584-e833-5fff-a388-5688fbe869c1"
+    },
+    {
+      "uuid": "5506805c-1165-5555-9d72-5bbb9f462980",
+      "net": "ADC_DOUT_B",
+      "min_other_net_clearance_mm": 0.365685,
+      "nearest_net": "ADC_DOUT_A",
+      "nearest_item": "b7cbf1cc-a5b1-5957-9490-bf3e7611c328"
+    },
+    {
+      "uuid": "86ced781-f16b-5f97-965d-ee6936c6fac9",
+      "net": "ADC_DOUT_B",
+      "min_other_net_clearance_mm": 0.365685,
+      "nearest_net": "ADC_DOUT_A",
+      "nearest_item": "b7cbf1cc-a5b1-5957-9490-bf3e7611c328"
+    },
+    {
+      "uuid": "959e4352-45c3-5ca5-b9a7-bd45c72b18f3",
+      "net": "ADC_DOUT_B",
+      "min_other_net_clearance_mm": 0.365685,
+      "nearest_net": "ADC_DOUT_A",
+      "nearest_item": "b7cbf1cc-a5b1-5957-9490-bf3e7611c328"
+    },
+    {
+      "uuid": "b0986d65-f7d7-57cf-9d69-8b459cbaf099",
+      "net": "ADC_DOUT_B",
+      "min_other_net_clearance_mm": 0.2,
+      "nearest_net": "ADC_DOUT_C",
+      "nearest_item": "d03f89fd-0633-5681-a2fe-b7460fe71c26"
+    },
+    {
+      "uuid": "1ac3ab29-e632-55df-99a4-ebcf18e33618",
+      "net": "ADC_DOUT_A",
+      "min_other_net_clearance_mm": 0.6,
+      "nearest_net": "ADC_DOUT_B",
+      "nearest_item": "86ced781-f16b-5f97-965d-ee6936c6fac9"
+    },
+    {
+      "uuid": "5478f584-e833-5fff-a388-5688fbe869c1",
+      "net": "ADC_DOUT_A",
+      "min_other_net_clearance_mm": 0.2,
+      "nearest_net": "ADC_DOUT_B",
+      "nearest_item": "17e24991-835d-5080-94b3-7223ca959a22"
+    },
+    {
+      "uuid": "b7cbf1cc-a5b1-5957-9490-bf3e7611c328",
+      "net": "ADC_DOUT_A",
+      "min_other_net_clearance_mm": 0.365685,
+      "nearest_net": "ADC_DOUT_B",
+      "nearest_item": "86ced781-f16b-5f97-965d-ee6936c6fac9"
+    },
+    {
+      "uuid": "c1761c88-8112-5be3-9a89-732019eff399",
+      "net": "ADC_DOUT_A",
+      "min_other_net_clearance_mm": 0.2,
+      "nearest_net": "ADC_DOUT_B",
+      "nearest_item": "17e24991-835d-5080-94b3-7223ca959a22"
+    },
+    {
+      "uuid": "dee2a46f-33d7-5365-925d-de54570e1c8f",
+      "net": "ADC_DOUT_A",
+      "min_other_net_clearance_mm": 0.4,
+      "nearest_net": "+3V3",
+      "nearest_item": "55ea11bd-2b0c-5b9b-afe3-fb0348e274d6"
+    }
+  ]
+}

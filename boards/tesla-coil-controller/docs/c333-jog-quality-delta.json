@@ -1,0 +1,224 @@
+{
+  "added": [
+    {
+      "description": "Bypass capacitor too far from power pin: C303 is 37.7mm from C333 pin 1 (VBAT_24V). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 37.7mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C303, C333"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C302 is 39.4mm from C333 pin 1 (VBAT_24V). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 39.4mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C302, C333"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C313 is 14.2mm from C333 pin 1 (VBAT_24V). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 14.2mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C313, C333"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C528 is 84.2mm from C333 pin 1 (VBAT_24V). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 84.2mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C528, C333"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C312 is 18.2mm from C333 pin 1 (VBAT_24V). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 18.2mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C312, C333"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C568 is 128.3mm from C333 pin 1 (VBAT_24V). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 128.3mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C568, C333"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Silkscreen line width 0.12mm < minimum 0.15mm on C333",
+      "items": [
+        {
+          "description": "C333, fp_line on F.SilkS",
+          "pos": {
+            "x": 77.05,
+            "y": 34.95
+          }
+        }
+      ],
+      "severity": "warning",
+      "source": "kct check",
+      "type": "silkscreen_line_width"
+    },
+    {
+      "description": "Silkscreen line width 0.12mm < minimum 0.15mm on C333",
+      "items": [
+        {
+          "description": "C333, fp_line on F.SilkS",
+          "pos": {
+            "x": 77.05,
+            "y": 34.95
+          }
+        }
+      ],
+      "severity": "warning",
+      "source": "kct check",
+      "type": "silkscreen_line_width"
+    },
+    {
+      "description": "kct optimize-traces would remove 11 of 1268 segments (corners 899 -> 1009, length -0.9%); merge collinear segments and drop zigzags",
+      "items": [],
+      "severity": "info",
+      "source": "kct optimize-traces",
+      "type": "optimize_traces.mergeable_segments"
+    }
+  ],
+  "removed": [
+    {
+      "description": "Bypass capacitor too far from power pin: C303 is 38.8mm from C333 pin 1 (VBAT_24V). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 38.8mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C303, C333"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C302 is 40.3mm from C333 pin 1 (VBAT_24V). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 40.3mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C302, C333"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C313 is 12.6mm from C333 pin 1 (VBAT_24V). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 12.6mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C313, C333"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C528 is 81.4mm from C333 pin 1 (VBAT_24V). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 81.4mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C528, C333"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C312 is 16.5mm from C333 pin 1 (VBAT_24V). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 16.5mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C312, C333"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C568 is 125.5mm from C333 pin 1 (VBAT_24V). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 125.5mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C568, C333"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Silkscreen line width 0.12mm < minimum 0.15mm on C333",
+      "items": [
+        {
+          "description": "C333, fp_line on F.SilkS",
+          "pos": {
+            "x": 79.0,
+            "y": 37.0
+          }
+        }
+      ],
+      "severity": "warning",
+      "source": "kct check",
+      "type": "silkscreen_line_width"
+    },
+    {
+      "description": "Silkscreen line width 0.12mm < minimum 0.15mm on C333",
+      "items": [
+        {
+          "description": "C333, fp_line on F.SilkS",
+          "pos": {
+            "x": 79.0,
+            "y": 37.0
+          }
+        }
+      ],
+      "severity": "warning",
+      "source": "kct check",
+      "type": "silkscreen_line_width"
+    },
+    {
+      "description": "kct optimize-traces would remove 14 of 1271 segments (corners 902 -> 1009, length -0.9%); merge collinear segments and drop zigzags",
+      "items": [],
+      "severity": "info",
+      "source": "kct optimize-traces",
+      "type": "optimize_traces.mergeable_segments"
+    }
+  ]
+}

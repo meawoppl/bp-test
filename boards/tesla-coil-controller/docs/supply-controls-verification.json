@@ -1,0 +1,521 @@
+{
+  "annotation_created_at": "2026-09-30T06:08:24.759Z",
+  "nets": [
+    "P30_FB",
+    "P30_RON",
+    "P30_SS",
+    "P30_UVLO",
+    "P31_FB",
+    "P31_RON",
+    "P31_SS",
+    "P31_UVLO"
+  ],
+  "control_width_mm": 0.25,
+  "via_size_mm": [
+    0.6,
+    0.3
+  ],
+  "vias_added": 6,
+  "vias_before": 318,
+  "vias_after": 324,
+  "whole_board_unconnected_before": 25,
+  "whole_board_unconnected_after": 11,
+  "all_supply_components_connected": true,
+  "all_unrelated_connectivity_components_unchanged": true,
+  "all_original_copper_and_placements_unchanged": true,
+  "schematic_and_rules_unchanged": true,
+  "all_tracks_octilinear": true,
+  "added_copper": [
+    "70460b0a-0253-5fe6-bc38-78583fcb6894",
+    "2d561899-949e-5819-aabe-db552a86c660",
+    "275cbb95-22c4-5fc9-b5ab-95aee7bc0020",
+    "756e01f3-d80e-5546-8578-be3f7a52f7dd",
+    "6f13bcd5-27c3-5540-972e-144f20891cae",
+    "0bc9fa5d-ac7c-500d-bbb4-eecc38a54327",
+    "74e30c84-1794-5a8e-82fc-8426cc342da8",
+    "04deb2ff-a773-55d2-8f2d-033dd1cd3607",
+    "814ba1ee-91df-53c4-8d14-ff23a1446c16",
+    "7de88f05-0268-53b8-85fa-8d8db10308c3",
+    "413950f4-dd59-59ac-9601-42f6e21a8fcb",
+    "5758ebee-ff8d-5dcc-bff5-4d0f10052af0",
+    "7ecd5ba3-fa40-5436-8a5f-4f88b727b0fb",
+    "7e3e98aa-54ec-54a9-8385-c4f0479c4239",
+    "65aa0a12-1dc8-5510-80a5-02609b07ff91",
+    "b307c486-2ac6-5576-a9fd-463250827650",
+    "f569d97a-c7f2-5b3b-bb31-b57fda3d36b1",
+    "1cdb1698-5699-5c77-b4ed-00aa9299eea5",
+    "96c9068b-2024-5e87-82ac-792c3d3a629b",
+    "95e3aaac-ca0f-57d1-903c-c4fdda2fac8e",
+    "d255927b-707c-573f-b3b0-fb461962d93c",
+    "b6f4e64a-9391-5704-a636-4909896c5212",
+    "eb7d0fdf-5d83-5238-9a91-88c2e73616d0",
+    "767b5076-35dc-52b9-89c9-b3d3fa4f083e",
+    "683eb432-842f-5715-a07d-37ca83745e62",
+    "bbe9cf73-739a-5329-9f30-8327aed16906",
+    "a4e5d5d7-c2c8-5013-a1e8-659756fe1018",
+    "35bc6aea-a9cc-5bf8-9bf6-b694952c99d3",
+    "19b554ad-630c-5fbc-883f-4e135024b07b",
+    "e1054d81-7c61-56c2-bac5-a369b4cc6418",
+    "2df01f58-05d2-55a1-a57c-3b7fc5fa64d1",
+    "286d6fbc-c1cc-5017-81f1-b13a6a047e97",
+    "974fd275-9fe8-5868-8b39-6ad219a41cb9",
+    "a0f66a48-c480-5abe-b467-6327b208857f",
+    "0eb66ff0-382b-56e1-8824-8ddfe023d8a6",
+    "721ea07d-4263-5d04-afbb-2e1cd3b19987",
+    "cc01c4ea-12ba-5cfc-a378-4db16ada2672",
+    "1586f438-8dde-58fa-ae86-1dda3f9cb927",
+    "2213e31c-df1a-59d0-8a3c-1448b4080678",
+    "6ed46144-b421-5641-af65-87b012489e42",
+    "b173c379-1080-50d8-9fde-7e01125fdefd",
+    "fbd171e8-93b4-5f28-8361-d05173468992",
+    "f74dff34-c84c-5c53-862c-38586f583e63",
+    "afbbc099-eda9-591c-bfad-80aadfc5be5f",
+    "64d79ddb-0524-5d81-ab45-58e4fdd9367f",
+    "b731a834-1391-5268-b21e-b1a3673785c4",
+    "13e2ebfa-a2ad-5cec-a88a-ae55f0cbf684",
+    "2727f014-05c6-5240-bf6a-95ba48b1a3df",
+    "90841f3a-5ca6-5a4f-a87f-b3693c055a0b",
+    "89024b74-e360-54d6-a3c7-6b8af059ee3f",
+    "b23c1399-9412-5b4f-b20e-a8350b052b18",
+    "3885eb1c-5140-54d2-a5b9-20e5516f9632",
+    "726f9004-9e77-55b5-8ad1-ec530b3c6795",
+    "ea295480-d83e-5aef-893f-0cff78c5d2b3",
+    "a0fa8989-14d0-5a93-9e5d-b9a74bced963",
+    "a290fe14-3bc7-525b-8457-f51d472db97f",
+    "5c7b82c1-c836-5afb-814b-b772aeed9e4d"
+  ],
+  "portal_revision": "caff3e7aeacb88927520",
+  "sha256": {
+    "controller.kicad_sch": "ff8cd4e9f39a614229c8226de209fbdf9e1c9422ee68d997bf1e61560671a596",
+    "controller.kicad_pcb": "09952f5940bcbe495ccfac09e989040380b1c24501dcf914f3423290d61680e3",
+    "controller.kicad_pro": "40e593eb2309fcddf3cd616a5e82b970cb97e4b268436e03b5e1288843705533"
+  },
+  "native_checks": {
+    "erc": 0,
+    "physical_drc": 0,
+    "schematic_parity": 0,
+    "unconnected_items": 11
+  },
+  "clearance": {
+    "minimum_clearance_mm": 0.3,
+    "via_drill_body_overlap": [],
+    "items": [
+      {
+        "uuid": "3885eb1c-5140-54d2-a5b9-20e5516f9632",
+        "net": "P30_RON",
+        "min_other_net_clearance_mm": 1.1875,
+        "nearest_net": "VBAT_24V",
+        "nearest_item": "R302.1"
+      },
+      {
+        "uuid": "726f9004-9e77-55b5-8ad1-ec530b3c6795",
+        "net": "P30_RON",
+        "min_other_net_clearance_mm": 0.7,
+        "nearest_net": "P30_UVLO",
+        "nearest_item": "U30.3"
+      },
+      {
+        "uuid": "a0fa8989-14d0-5a93-9e5d-b9a74bced963",
+        "net": "P30_RON",
+        "min_other_net_clearance_mm": 0.815631,
+        "nearest_net": "P30_UVLO",
+        "nearest_item": "U30.3"
+      },
+      {
+        "uuid": "ea295480-d83e-5aef-893f-0cff78c5d2b3",
+        "net": "P30_RON",
+        "min_other_net_clearance_mm": 2.1,
+        "nearest_net": "VBAT_24V",
+        "nearest_item": "R302.1"
+      },
+      {
+        "uuid": "5c7b82c1-c836-5afb-814b-b772aeed9e4d",
+        "net": "P30_RON",
+        "min_other_net_clearance_mm": 4.66166,
+        "nearest_net": "P30_FB",
+        "nearest_item": "7ecd5ba3-fa40-5436-8a5f-4f88b727b0fb"
+      },
+      {
+        "uuid": "a290fe14-3bc7-525b-8457-f51d472db97f",
+        "net": "P30_RON",
+        "min_other_net_clearance_mm": 11.735,
+        "nearest_net": "VBAT_24V",
+        "nearest_item": "J30.1"
+      },
+      {
+        "uuid": "04deb2ff-a773-55d2-8f2d-033dd1cd3607",
+        "net": "P30_UVLO",
+        "min_other_net_clearance_mm": 1.1875,
+        "nearest_net": "GND",
+        "nearest_item": "R305.2"
+      },
+      {
+        "uuid": "0bc9fa5d-ac7c-500d-bbb4-eecc38a54327",
+        "net": "P30_UVLO",
+        "min_other_net_clearance_mm": 0.753215,
+        "nearest_net": "GND",
+        "nearest_item": "R305.2"
+      },
+      {
+        "uuid": "275cbb95-22c4-5fc9-b5ab-95aee7bc0020",
+        "net": "P30_UVLO",
+        "min_other_net_clearance_mm": 1.1875,
+        "nearest_net": "VBAT_24V",
+        "nearest_item": "R304.1"
+      },
+      {
+        "uuid": "2d561899-949e-5819-aabe-db552a86c660",
+        "net": "P30_UVLO",
+        "min_other_net_clearance_mm": 2.384624,
+        "nearest_net": "GND",
+        "nearest_item": "R305.2"
+      },
+      {
+        "uuid": "6f13bcd5-27c3-5540-972e-144f20891cae",
+        "net": "P30_UVLO",
+        "min_other_net_clearance_mm": 0.753215,
+        "nearest_net": "GND",
+        "nearest_item": "R305.2"
+      },
+      {
+        "uuid": "70460b0a-0253-5fe6-bc38-78583fcb6894",
+        "net": "P30_UVLO",
+        "min_other_net_clearance_mm": 0.7,
+        "nearest_net": "P30_RON",
+        "nearest_item": "U30.2"
+      },
+      {
+        "uuid": "74e30c84-1794-5a8e-82fc-8426cc342da8",
+        "net": "P30_UVLO",
+        "min_other_net_clearance_mm": 0.753215,
+        "nearest_net": "VBAT_24V",
+        "nearest_item": "R304.1"
+      },
+      {
+        "uuid": "756e01f3-d80e-5546-8578-be3f7a52f7dd",
+        "net": "P30_UVLO",
+        "min_other_net_clearance_mm": 1.1875,
+        "nearest_net": "VBAT_24V",
+        "nearest_item": "R304.1"
+      },
+      {
+        "uuid": "413950f4-dd59-59ac-9601-42f6e21a8fcb",
+        "net": "P30_SS",
+        "min_other_net_clearance_mm": 1.275,
+        "nearest_net": "GND",
+        "nearest_item": "C300.2"
+      },
+      {
+        "uuid": "7de88f05-0268-53b8-85fa-8d8db10308c3",
+        "net": "P30_SS",
+        "min_other_net_clearance_mm": 1.290237,
+        "nearest_net": "GND",
+        "nearest_item": "C300.2"
+      },
+      {
+        "uuid": "814ba1ee-91df-53c4-8d14-ff23a1446c16",
+        "net": "P30_SS",
+        "min_other_net_clearance_mm": 0.7,
+        "nearest_net": "GND",
+        "nearest_item": "U30.4"
+      },
+      {
+        "uuid": "1cdb1698-5699-5c77-b4ed-00aa9299eea5",
+        "net": "P30_FB",
+        "min_other_net_clearance_mm": 0.475,
+        "nearest_net": "+12V_BIAS",
+        "nearest_item": "C301.1"
+      },
+      {
+        "uuid": "5758ebee-ff8d-5dcc-bff5-4d0f10052af0",
+        "net": "P30_FB",
+        "min_other_net_clearance_mm": 0.645,
+        "nearest_net": "+12V_BIAS",
+        "nearest_item": "068d9668-bcb4-51aa-9fed-629ee4c817e5"
+      },
+      {
+        "uuid": "683eb432-842f-5715-a07d-37ca83745e62",
+        "net": "P30_FB",
+        "min_other_net_clearance_mm": 0.475,
+        "nearest_net": "+12V_BIAS",
+        "nearest_item": "C301.1"
+      },
+      {
+        "uuid": "767b5076-35dc-52b9-89c9-b3d3fa4f083e",
+        "net": "P30_FB",
+        "min_other_net_clearance_mm": 0.475688,
+        "nearest_net": "GND",
+        "nearest_item": "R301.2"
+      },
+      {
+        "uuid": "95e3aaac-ca0f-57d1-903c-c4fdda2fac8e",
+        "net": "P30_FB",
+        "min_other_net_clearance_mm": 0.411656,
+        "nearest_net": "GND",
+        "nearest_item": "R301.2"
+      },
+      {
+        "uuid": "96c9068b-2024-5e87-82ac-792c3d3a629b",
+        "net": "P30_FB",
+        "min_other_net_clearance_mm": 1.0,
+        "nearest_net": "GND",
+        "nearest_item": "R301.2"
+      },
+      {
+        "uuid": "b307c486-2ac6-5576-a9fd-463250827650",
+        "net": "P30_FB",
+        "min_other_net_clearance_mm": 0.844306,
+        "nearest_net": "+12V_BIAS",
+        "nearest_item": "C301.1"
+      },
+      {
+        "uuid": "b6f4e64a-9391-5704-a636-4909896c5212",
+        "net": "P30_FB",
+        "min_other_net_clearance_mm": 1.275,
+        "nearest_net": "GND",
+        "nearest_item": "C304.2"
+      },
+      {
+        "uuid": "d255927b-707c-573f-b3b0-fb461962d93c",
+        "net": "P30_FB",
+        "min_other_net_clearance_mm": 1.275,
+        "nearest_net": "GND",
+        "nearest_item": "C304.2"
+      },
+      {
+        "uuid": "eb7d0fdf-5d83-5238-9a91-88c2e73616d0",
+        "net": "P30_FB",
+        "min_other_net_clearance_mm": 0.9,
+        "nearest_net": "+12V_BIAS",
+        "nearest_item": "C301.1"
+      },
+      {
+        "uuid": "f569d97a-c7f2-5b3b-bb31-b57fda3d36b1",
+        "net": "P30_FB",
+        "min_other_net_clearance_mm": 0.518488,
+        "nearest_net": "+12V_BIAS",
+        "nearest_item": "C301.1"
+      },
+      {
+        "uuid": "7e3e98aa-54ec-54a9-8385-c4f0479c4239",
+        "net": "P30_FB",
+        "min_other_net_clearance_mm": 0.3,
+        "nearest_net": "+12V_BIAS",
+        "nearest_item": "C301.1"
+      },
+      {
+        "uuid": "7ecd5ba3-fa40-5436-8a5f-4f88b727b0fb",
+        "net": "P30_FB",
+        "min_other_net_clearance_mm": 0.688596,
+        "nearest_net": "GND",
+        "nearest_item": "C300.2"
+      },
+      {
+        "uuid": "65aa0a12-1dc8-5510-80a5-02609b07ff91",
+        "net": "P30_FB",
+        "min_other_net_clearance_mm": 4.66166,
+        "nearest_net": "P30_RON",
+        "nearest_item": "a0fa8989-14d0-5a93-9e5d-b9a74bced963"
+      },
+      {
+        "uuid": "0eb66ff0-382b-56e1-8824-8ddfe023d8a6",
+        "net": "P31_FB",
+        "min_other_net_clearance_mm": 0.645,
+        "nearest_net": "VIN_5V",
+        "nearest_item": "e6d3acbf-e702-566e-bf1e-2a95d7a466f7"
+      },
+      {
+        "uuid": "13e2ebfa-a2ad-5cec-a88a-ae55f0cbf684",
+        "net": "P31_FB",
+        "min_other_net_clearance_mm": 0.475688,
+        "nearest_net": "GND",
+        "nearest_item": "R311.2"
+      },
+      {
+        "uuid": "2213e31c-df1a-59d0-8a3c-1448b4080678",
+        "net": "P31_FB",
+        "min_other_net_clearance_mm": 0.844306,
+        "nearest_net": "VIN_5V",
+        "nearest_item": "C311.1"
+      },
+      {
+        "uuid": "2727f014-05c6-5240-bf6a-95ba48b1a3df",
+        "net": "P31_FB",
+        "min_other_net_clearance_mm": 0.475,
+        "nearest_net": "VIN_5V",
+        "nearest_item": "C311.1"
+      },
+      {
+        "uuid": "64d79ddb-0524-5d81-ab45-58e4fdd9367f",
+        "net": "P31_FB",
+        "min_other_net_clearance_mm": 1.275,
+        "nearest_net": "GND",
+        "nearest_item": "C314.2"
+      },
+      {
+        "uuid": "6ed46144-b421-5641-af65-87b012489e42",
+        "net": "P31_FB",
+        "min_other_net_clearance_mm": 0.518488,
+        "nearest_net": "VIN_5V",
+        "nearest_item": "C311.1"
+      },
+      {
+        "uuid": "afbbc099-eda9-591c-bfad-80aadfc5be5f",
+        "net": "P31_FB",
+        "min_other_net_clearance_mm": 1.275,
+        "nearest_net": "GND",
+        "nearest_item": "C314.2"
+      },
+      {
+        "uuid": "b173c379-1080-50d8-9fde-7e01125fdefd",
+        "net": "P31_FB",
+        "min_other_net_clearance_mm": 0.475,
+        "nearest_net": "VIN_5V",
+        "nearest_item": "C311.1"
+      },
+      {
+        "uuid": "b731a834-1391-5268-b21e-b1a3673785c4",
+        "net": "P31_FB",
+        "min_other_net_clearance_mm": 0.9,
+        "nearest_net": "VIN_5V",
+        "nearest_item": "C311.1"
+      },
+      {
+        "uuid": "f74dff34-c84c-5c53-862c-38586f583e63",
+        "net": "P31_FB",
+        "min_other_net_clearance_mm": 0.411657,
+        "nearest_net": "GND",
+        "nearest_item": "R311.2"
+      },
+      {
+        "uuid": "fbd171e8-93b4-5f28-8361-d05173468992",
+        "net": "P31_FB",
+        "min_other_net_clearance_mm": 1.0,
+        "nearest_net": "GND",
+        "nearest_item": "R311.2"
+      },
+      {
+        "uuid": "721ea07d-4263-5d04-afbb-2e1cd3b19987",
+        "net": "P31_FB",
+        "min_other_net_clearance_mm": 0.688596,
+        "nearest_net": "GND",
+        "nearest_item": "C310.2"
+      },
+      {
+        "uuid": "cc01c4ea-12ba-5cfc-a378-4db16ada2672",
+        "net": "P31_FB",
+        "min_other_net_clearance_mm": 0.3,
+        "nearest_net": "VIN_5V",
+        "nearest_item": "C311.1"
+      },
+      {
+        "uuid": "1586f438-8dde-58fa-ae86-1dda3f9cb927",
+        "net": "P31_FB",
+        "min_other_net_clearance_mm": 5.875,
+        "nearest_net": "-5V_CT",
+        "nearest_item": "d109628d-59d5-588c-a060-735edfd8562e"
+      },
+      {
+        "uuid": "19b554ad-630c-5fbc-883f-4e135024b07b",
+        "net": "P31_UVLO",
+        "min_other_net_clearance_mm": 1.1875,
+        "nearest_net": "VBAT_24V",
+        "nearest_item": "R314.1"
+      },
+      {
+        "uuid": "2df01f58-05d2-55a1-a57c-3b7fc5fa64d1",
+        "net": "P31_UVLO",
+        "min_other_net_clearance_mm": 1.1875,
+        "nearest_net": "GND",
+        "nearest_item": "R315.2"
+      },
+      {
+        "uuid": "35bc6aea-a9cc-5bf8-9bf6-b694952c99d3",
+        "net": "P31_UVLO",
+        "min_other_net_clearance_mm": 1.1875,
+        "nearest_net": "VBAT_24V",
+        "nearest_item": "R314.1"
+      },
+      {
+        "uuid": "a4e5d5d7-c2c8-5013-a1e8-659756fe1018",
+        "net": "P31_UVLO",
+        "min_other_net_clearance_mm": 2.045,
+        "nearest_net": "VBAT_24V",
+        "nearest_item": "R314.1"
+      },
+      {
+        "uuid": "bbe9cf73-739a-5329-9f30-8327aed16906",
+        "net": "P31_UVLO",
+        "min_other_net_clearance_mm": 0.7,
+        "nearest_net": "P31_RON",
+        "nearest_item": "U31.2"
+      },
+      {
+        "uuid": "e1054d81-7c61-56c2-bac5-a369b4cc6418",
+        "net": "P31_UVLO",
+        "min_other_net_clearance_mm": 1.154118,
+        "nearest_net": "VBAT_24V",
+        "nearest_item": "R314.1"
+      },
+      {
+        "uuid": "89024b74-e360-54d6-a3c7-6b8af059ee3f",
+        "net": "P31_RON",
+        "min_other_net_clearance_mm": 0.317181,
+        "nearest_net": "VBAT_24V",
+        "nearest_item": "U31.1"
+      },
+      {
+        "uuid": "90841f3a-5ca6-5a4f-a87f-b3693c055a0b",
+        "net": "P31_RON",
+        "min_other_net_clearance_mm": 1.187499,
+        "nearest_net": "VBAT_24V",
+        "nearest_item": "R312.1"
+      },
+      {
+        "uuid": "b23c1399-9412-5b4f-b20e-a8350b052b18",
+        "net": "P31_RON",
+        "min_other_net_clearance_mm": 0.7,
+        "nearest_net": "P31_UVLO",
+        "nearest_item": "U31.3"
+      },
+      {
+        "uuid": "286d6fbc-c1cc-5017-81f1-b13a6a047e97",
+        "net": "P31_SS",
+        "min_other_net_clearance_mm": 0.7,
+        "nearest_net": "GND",
+        "nearest_item": "U31.4"
+      },
+      {
+        "uuid": "974fd275-9fe8-5868-8b39-6ad219a41cb9",
+        "net": "P31_SS",
+        "min_other_net_clearance_mm": 1.290237,
+        "nearest_net": "GND",
+        "nearest_item": "C310.2"
+      },
+      {
+        "uuid": "a0f66a48-c480-5abe-b467-6327b208857f",
+        "net": "P31_SS",
+        "min_other_net_clearance_mm": 1.275,
+        "nearest_net": "GND",
+        "nearest_item": "C310.2"
+      }
+    ]
+  },
+  "geometry": {
+    "changed_copper_collinear_overlaps": [],
+    "changed_via_drill_pad_overlap": []
+  },
+  "recipe_replay": {
+    "copper_matches": true,
+    "placements_match": true,
+    "whole_board_unconnected": 11
+  },
+  "visual_review": "supply-controls-after.png",
+  "layout_quality": {
+    "errors": 301,
+    "warnings": 2422,
+    "infos": 29,
+    "suppressed": 0,
+    "all_error_and_warning_entries_unchanged": true
+  }
+}

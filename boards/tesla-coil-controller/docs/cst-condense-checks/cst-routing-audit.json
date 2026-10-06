@@ -1,0 +1,102 @@
+{
+  "copper_layers": 2,
+  "native_whole_board_unconnected": 2,
+  "local_connectivity_failures": [],
+  "non_octilinear_tracks": [],
+  "via_hole_over_smd_pad": [],
+  "overlapping_local_tracks": [],
+  "five_volt_entry_missing_connections": [],
+  "amplifier_bypass_placement": [
+    {
+      "ic": "U40",
+      "pin": 5,
+      "capacitor": "C401",
+      "pin_to_pad_mm": 1.8,
+      "aligned": true
+    },
+    {
+      "ic": "U40",
+      "pin": 2,
+      "capacitor": "C402",
+      "pin_to_pad_mm": 1.9125,
+      "aligned": true
+    },
+    {
+      "ic": "U41",
+      "pin": 5,
+      "capacitor": "C403",
+      "pin_to_pad_mm": 1.8,
+      "aligned": true
+    },
+    {
+      "ic": "U41",
+      "pin": 2,
+      "capacitor": "C404",
+      "pin_to_pad_mm": 1.9125,
+      "aligned": true
+    },
+    {
+      "ic": "U60",
+      "pin": 5,
+      "capacitor": "C601",
+      "pin_to_pad_mm": 1.8,
+      "aligned": true
+    },
+    {
+      "ic": "U60",
+      "pin": 2,
+      "capacitor": "C602",
+      "pin_to_pad_mm": 1.9125,
+      "aligned": true
+    },
+    {
+      "ic": "U61",
+      "pin": 5,
+      "capacitor": "C603",
+      "pin_to_pad_mm": 1.8,
+      "aligned": true
+    },
+    {
+      "ic": "U61",
+      "pin": 2,
+      "capacitor": "C604",
+      "pin_to_pad_mm": 1.9125,
+      "aligned": true
+    }
+  ],
+  "J4_J30_aligned": true,
+  "adc_links": [
+    {
+      "signal": "CT1_RAW",
+      "source": "R400.1",
+      "filter": "R5/C15",
+      "adc_channel": 5,
+      "adc_pin": 57,
+      "all_connected": true
+    },
+    {
+      "signal": "CT1_ENVELOPE",
+      "source": "C400.1",
+      "filter": "R6/C16",
+      "adc_channel": 6,
+      "adc_pin": 59,
+      "all_connected": true
+    },
+    {
+      "signal": "CT2_RAW",
+      "source": "R600.1",
+      "filter": "R7/C17",
+      "adc_channel": 7,
+      "adc_pin": 61,
+      "all_connected": true
+    },
+    {
+      "signal": "CT2_ENVELOPE",
+      "source": "C600.1",
+      "filter": "R8/C18",
+      "adc_channel": 8,
+      "adc_pin": 63,
+      "all_connected": true
+    }
+  ]
+}

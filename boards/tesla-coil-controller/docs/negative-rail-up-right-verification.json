@@ -1,0 +1,151 @@
+{
+  "source_revision": "4fdb099a21b78c7c5d06",
+  "annotation_created_at": "2026-09-30T14:13:03.014Z",
+  "translation_mm": [
+    4,
+    -5
+  ],
+  "placements": {
+    "C420": {
+      "before_mm": [
+        63.2,
+        122.0
+      ],
+      "after_mm": [
+        67.2,
+        117.0
+      ]
+    },
+    "C421": {
+      "before_mm": [
+        59.2,
+        119.0
+      ],
+      "after_mm": [
+        63.2,
+        114.0
+      ]
+    },
+    "C422": {
+      "before_mm": [
+        59.8,
+        115.5
+      ],
+      "after_mm": [
+        63.8,
+        110.5
+      ]
+    },
+    "C423": {
+      "before_mm": [
+        57.2,
+        121.0
+      ],
+      "after_mm": [
+        61.2,
+        116.0
+      ]
+    },
+    "R421": {
+      "before_mm": [
+        56.6,
+        116.75
+      ],
+      "after_mm": [
+        60.6,
+        111.75
+      ]
+    },
+    "U44": {
+      "before_mm": [
+        63.2,
+        119.0
+      ],
+      "after_mm": [
+        67.2,
+        114.0
+      ]
+    }
+  },
+  "changed_copper_uuids": [
+    "045a512c-3a89-5c69-a50f-ca195750ca54",
+    "06e4c978-b256-548b-9003-3fda9b5fd976",
+    "080cd7f0-cd64-5c64-a230-e4358190d490",
+    "0dce8db0-3022-5240-bde4-15300af96141",
+    "0e7bc2e5-e8b4-57a9-ba78-8f1e178f286a",
+    "1c7150ff-6040-5a30-a35c-8c4d021a9ec5",
+    "2c134dbc-a960-5ff0-ba5c-646f7980faa9",
+    "365e51a6-183c-56e9-a6f7-93c41ade18a4",
+    "3a189026-20b7-5540-905d-1342d5a9923c",
+    "43ef79cb-31c5-5c16-a931-85cefcaa976b",
+    "4f9bb9e1-eb65-54f6-873d-8ce3d97fff79",
+    "54e39218-7507-557c-8975-5a39f1cadd69",
+    "59c88d2b-dd77-577d-aad5-49ff144c2cd7",
+    "59dfd8fc-35d2-5e6b-a359-52fb77c68016",
+    "61b5fe08-2fb5-5506-b2a4-49c8b6c90a63",
+    "657dec48-5a30-58cc-bc3e-77d8f4590893",
+    "69ce733e-7c27-557f-adf3-43555b5600f6",
+    "6e719c07-f1ce-597c-be6a-b7a70e5720d3",
+    "7ba6e4d5-4799-5bc7-ac72-23c93d389d41",
+    "7dc2ff66-d8e5-5826-a751-7e1d90be4e89",
+    "803ff6e0-8ee9-5cfb-8eb3-fb02056a1664",
+    "a12742c2-4673-5a51-a607-77bbf178d544",
+    "a4f7b41e-71bc-5ec1-8377-de82884651a2",
+    "a6199677-ad0f-5da2-b485-6a17cae170f6",
+    "ab59e5e2-53df-59d2-af16-f7ebee4abab3",
+    "ae6eeb2c-e558-5cde-8abe-778c5a63d954",
+    "af98ff11-d3e6-5d15-ac60-9dcd8eec50bb",
+    "ba6c5b1d-bce0-5eb6-a948-9ad889d7ecb6",
+    "d463a1e3-f345-5e57-b1cc-45b1e817ed66",
+    "d8ee8417-4ce2-5f82-9df9-73ed18d5cef9",
+    "d9da23ab-929c-5fdf-b727-6058e63bd0fb",
+    "f7f0b5e0-eb2a-5676-9352-291cbf97d78b",
+    "fc0d3d0c-c9cd-5a5f-84e1-5205c388390a",
+    "ff07a11e-7708-5445-82ea-8c0e507e01d2"
+  ],
+  "translated_loop_objects": 30,
+  "adjusted_supply_leads": 4,
+  "footprints": 313,
+  "tracks": 1331,
+  "vias": 319,
+  "copper_added_or_removed": 0,
+  "all_other_copper_unchanged": true,
+  "all_pad_connectivity_clusters_unchanged": true,
+  "local_nets_fully_connected": [
+    "+5V_ADC",
+    "-5V_CT",
+    "CT1_FLY_N",
+    "CT1_FLY_P",
+    "CT1_NEG_PUMP",
+    "GND"
+  ],
+  "native_unconnected": 2,
+  "unconnected_nets": [
+    "USB_D+",
+    "USB_D-"
+  ],
+  "all_tracks_octilinear": true,
+  "net_contract_unchanged": true,
+  "recipe_matches_board": true,
+  "schematic_and_project_unchanged": true,
+  "drawings_changed_or_removed": [
+    "4c6d3436-b269-4e29-a856-1f5f3d0f708c",
+    "5b2e4d0f-6afc-50f3-869f-3423e3833a94",
+    "76cb42e0-9e4c-51f7-9ab4-a6bb43518a11",
+    "77d4b96a-acc7-57c0-9a7f-184b1b179f4e",
+    "8647d2a8-64cb-4300-a30f-463cc131bad7",
+    "8c3c2106-988b-5251-8c0c-6f350cbe9147",
+    "9d9f6877-317a-5b02-a93f-cc8bacd176dc",
+    "a7eb0b9c-e5f8-526a-8203-d7b3b839b701",
+    "bcce4bc7-9990-540c-8323-dbb4390e81af",
+    "caef005a-dcc9-5fcc-9511-5cb9fca0dddc",
+    "cc06213a-8db3-5d01-ba14-f97561009785",
+    "d2446f64-5b06-5c72-a201-b5fe97c7f9fa",
+    "dab294e6-4a21-5c8f-9048-9fe689e85528",
+    "e5d129c5-ad48-50b3-9012-0a6cfd6433ed",
+    "eb80292f-899b-5b05-af07-1903462d132c"
+  ],
+  "reference_only_extra_change": "U73 reference raised 1 mm to clear relocated supply border; footprint unchanged",
+  "native_drc": 0,
+  "schematic_parity": 0
+}

@@ -1,0 +1,112 @@
+{
+  "annotation_created_at": "2026-09-30T05:48:40.461Z",
+  "net": "VBAT_24V",
+  "diode_pad": "D50.1",
+  "front_width_mm": 2.5,
+  "supply_vias_removed": 6,
+  "clock_vias_added": 1,
+  "net_via_reduction": 5,
+  "new_clock_crossover_mm": [
+    134.5,
+    42
+  ],
+  "clock_pin": "J7.8",
+  "all_affected_net_pads_connected": true,
+  "whole_board_unconnected": 25,
+  "all_other_copper_unchanged": true,
+  "placements_and_pads_unchanged": true,
+  "schematic_and_rules_unchanged": true,
+  "all_tracks_octilinear": true,
+  "changes": {
+    "removed": [
+      "2be84dbe-9d2b-5ca9-be7b-ddde7635a344",
+      "b22da3d7-08ae-59d6-9eb7-536921a02659",
+      "fb061444-9775-5153-ac93-97cd4df6d449",
+      "0ae77c6a-9000-54a4-8b05-77984fe1fd35",
+      "6e22cf72-d6ea-5515-b7f6-772311414826",
+      "813c83e2-a5ac-5db8-8049-6c7ec0c5ffc6",
+      "a55b0fae-0512-53f4-bb19-05a088a7922f",
+      "ad9dfb91-3a91-56e8-bcd5-7b1a5d7d9d63",
+      "cb01e184-38b1-508a-b695-97dcc02cec90",
+      "62d599b1-5c69-583a-b16e-cf801b091622",
+      "87d03d09-3bab-50ea-a0a4-e9208788cc73",
+      "9e12b0e4-f41a-5d35-8ccf-7a6455260d58"
+    ],
+    "changed": [
+      "065835ee-605e-5a50-a380-8417f7a0a32b",
+      "225eacb2-c579-5b21-b390-a41d21626a2a",
+      "d2e71cb0-e816-53df-b954-e24c55d215a6"
+    ],
+    "added": [
+      "bcedacc0-d9a3-520e-9870-5856bfa6359a",
+      "703594bb-c913-5b07-b566-3377f8eb13dc",
+      "ccff441e-9dbf-5f2c-be90-2244f469549f",
+      "e0ffa3a7-de64-58c7-943f-de1adae79860",
+      "78a8ee55-3307-55d0-b0ea-bab4b06f6aca"
+    ]
+  },
+  "VBAT_24V": {
+    "before": {
+      "length_mm": 620.811,
+      "vias": 22
+    },
+    "after": {
+      "length_mm": 609.942,
+      "vias": 16
+    }
+  },
+  "EXT_CLOCK": {
+    "before": {
+      "length_mm": 72.165,
+      "vias": 2
+    },
+    "after": {
+      "length_mm": 72.165,
+      "vias": 3
+    }
+  },
+  "checks": {
+    "stage": "Development routing: CST/AUX inputs connected to ADC, supply distribution, FPGA signals and H-bridge drivers; remaining controller routing incomplete",
+    "erc": 0,
+    "physical_drc": 0,
+    "schematic_parity": 0,
+    "unconnected_items": 25,
+    "fabrication_ready": false,
+    "sha256": {
+      "controller.kicad_sch": "ff8cd4e9f39a614229c8226de209fbdf9e1c9422ee68d997bf1e61560671a596",
+      "controller.kicad_pcb": "bb5fcd0ecb1215d100bd9f375724f9efb7c92f415efd8b864e995782136ac92b",
+      "controller.kicad_pro": "40e593eb2309fcddf3cd616a5e82b970cb97e4b268436e03b5e1288843705533"
+    },
+    "native_drc_findings": 0,
+    "intentional_open_route_ends": [],
+    "native_whole_board_unconnected": 25
+  },
+  "quality": {
+    "before": {
+      "error": 299,
+      "warning": 2422,
+      "info": 29
+    },
+    "after": {
+      "error": 299,
+      "warning": 2422,
+      "info": 29
+    },
+    "new_errors_or_warnings": 0,
+    "optimizer_mergeable_segments_before": 14,
+    "optimizer_mergeable_segments_after": 13,
+    "status": "Existing board-wide draft findings unchanged; only optimizer information reflects changed geometry."
+  },
+  "visual_review": [
+    "Continuous 2.50 mm front supply through D50.1; centered straight pad entry.",
+    "45-degree supply turn; no leftover stub toward old outer via bank.",
+    "Clock crossover via is outside all pads and component bodies.",
+    "Retained three-via supply bank at (174,57) feeds the downstream backside rail.",
+    "Footprints, polarity marks, and model assignments untouched."
+  ],
+  "replay_byte_identical": true,
+  "hbridge_routing_audit_passed": true,
+  "source_sha256": "bb5fcd0ecb1215d100bd9f375724f9efb7c92f415efd8b864e995782136ac92b",
+  "fabrication_outputs_published": false,
+  "scope": "Single annotation at 2026-09-30T05:48:40.461Z. Previous ambiguous capacitor layer-hop candidates were not applied."
+}

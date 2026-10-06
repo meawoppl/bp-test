@@ -1,0 +1,322 @@
+{
+  "ok": true,
+  "scope": "CST 1 and CST 2 input and precision rectifier schematic presentation only",
+  "blocks": [
+    {
+      "id": 10,
+      "title": "CST 1 / INPUT + PRECISION RECTIFIER",
+      "width_before_mm": 591.82,
+      "width_after_mm": 436.88,
+      "reduction_percent": 26.18,
+      "height_unchanged": true
+    },
+    {
+      "id": 15,
+      "title": "CST 2 / INPUT + PRECISION RECTIFIER",
+      "width_before_mm": 591.82,
+      "width_after_mm": 436.88,
+      "reduction_percent": 26.18,
+      "height_unchanged": true
+    }
+  ],
+  "moved_symbols": [
+    {
+      "reference": "C400",
+      "before": [
+        "467.3600",
+        "868.6800",
+        "0"
+      ],
+      "after": [
+        "414.0200",
+        "868.6800",
+        "0"
+      ]
+    },
+    {
+      "reference": "C600",
+      "before": [
+        "1088.3900",
+        "868.6800",
+        "0"
+      ],
+      "after": [
+        "1035.0500",
+        "868.6800",
+        "0"
+      ]
+    },
+    {
+      "reference": "R404",
+      "before": [
+        "336.5500",
+        "848.3600",
+        "0"
+      ],
+      "after": [
+        "283.2100",
+        "848.3600",
+        "0"
+      ]
+    },
+    {
+      "reference": "R405",
+      "before": [
+        "336.5500",
+        "886.4600",
+        "0"
+      ],
+      "after": [
+        "283.2100",
+        "886.4600",
+        "0"
+      ]
+    },
+    {
+      "reference": "R406",
+      "before": [
+        "336.5500",
+        "906.7800",
+        "0"
+      ],
+      "after": [
+        "283.2100",
+        "906.7800",
+        "0"
+      ]
+    },
+    {
+      "reference": "R407",
+      "before": [
+        "387.3500",
+        "810.2600",
+        "0"
+      ],
+      "after": [
+        "334.0100",
+        "810.2600",
+        "0"
+      ]
+    },
+    {
+      "reference": "R408",
+      "before": [
+        "439.4200",
+        "853.4400",
+        "0"
+      ],
+      "after": [
+        "386.0800",
+        "853.4400",
+        "0"
+      ]
+    },
+    {
+      "reference": "R604",
+      "before": [
+        "957.5800",
+        "848.3600",
+        "0"
+      ],
+      "after": [
+        "904.2400",
+        "848.3600",
+        "0"
+      ]
+    },
+    {
+      "reference": "R605",
+      "before": [
+        "957.5800",
+        "886.4600",
+        "0"
+      ],
+      "after": [
+        "904.2400",
+        "886.4600",
+        "0"
+      ]
+    },
+    {
+      "reference": "R606",
+      "before": [
+        "957.5800",
+        "906.7800",
+        "0"
+      ],
+      "after": [
+        "904.2400",
+        "906.7800",
+        "0"
+      ]
+    },
+    {
+      "reference": "R607",
+      "before": [
+        "1008.3800",
+        "810.2600",
+        "0"
+      ],
+      "after": [
+        "955.0400",
+        "810.2600",
+        "0"
+      ]
+    },
+    {
+      "reference": "R608",
+      "before": [
+        "1060.4500",
+        "853.4400",
+        "0"
+      ],
+      "after": [
+        "1007.1100",
+        "853.4400",
+        "0"
+      ]
+    },
+    {
+      "reference": "TP40",
+      "before": [
+        "516.8900",
+        "906.7800",
+        "0"
+      ],
+      "after": [
+        "185.4200",
+        "906.7800",
+        "0"
+      ]
+    },
+    {
+      "reference": "TP41",
+      "before": [
+        "543.5600",
+        "906.7800",
+        "0"
+      ],
+      "after": [
+        "234.9500",
+        "906.7800",
+        "0"
+      ]
+    },
+    {
+      "reference": "TP42",
+      "before": [
+        "570.2300",
+        "906.7800",
+        "0"
+      ],
+      "after": [
+        "377.1900",
+        "906.7800",
+        "0"
+      ]
+    },
+    {
+      "reference": "TP43",
+      "before": [
+        "596.9000",
+        "906.7800",
+        "0"
+      ],
+      "after": [
+        "426.7200",
+        "906.7800",
+        "0"
+      ]
+    },
+    {
+      "reference": "TP60",
+      "before": [
+        "1137.9200",
+        "906.7800",
+        "0"
+      ],
+      "after": [
+        "806.4500",
+        "906.7800",
+        "0"
+      ]
+    },
+    {
+      "reference": "TP61",
+      "before": [
+        "1164.5900",
+        "906.7800",
+        "0"
+      ],
+      "after": [
+        "855.9800",
+        "906.7800",
+        "0"
+      ]
+    },
+    {
+      "reference": "TP62",
+      "before": [
+        "1191.2600",
+        "906.7800",
+        "0"
+      ],
+      "after": [
+        "998.2200",
+        "906.7800",
+        "0"
+      ]
+    },
+    {
+      "reference": "TP63",
+      "before": [
+        "1217.9300",
+        "906.7800",
+        "0"
+      ],
+      "after": [
+        "1047.7500",
+        "906.7800",
+        "0"
+      ]
+    },
+    {
+      "reference": "U41",
+      "before": [
+        "379.7300",
+        "853.4400",
+        "0"
+      ],
+      "after": [
+        "326.3900",
+        "853.4400",
+        "0"
+      ]
+    },
+    {
+      "reference": "U61",
+      "before": [
+        "1000.7600",
+        "853.4400",
+        "0"
+      ],
+      "after": [
+        "947.4200",
+        "853.4400",
+        "0"
+      ]
+    }
+  ],
+  "all_other_component_definitions_and_geometry_unchanged": true,
+  "embedded_libraries_unchanged": true,
+  "all_other_layout_blocks_unchanged": true,
+  "outside_geometry_items_unchanged": 1770,
+  "unchanged_file_sha256": {
+    "controller.kicad_pcb": "f744fc20eb0d7c93238b2c800618ae538440c4d4ec278f4db8319300e8aaeb7a",
+    "controller.kicad_pro": "40e593eb2309fcddf3cd616a5e82b970cb97e4b268436e03b5e1288843705533",
+    "docs/circuit.json": "ed36087142e41e036e3cd3aeac827c1573022b393665d32af100777da160703d"
+  },
+  "quality_summary_and_violations_identical_to_baseline": true,
+  "quality_baseline": "comparator-reference-checks/quality-after.json",
+  "audit_gap": "KCT validates electrical synchronization but does not compare exact presentation changes against a snapshot. This read-only audit compares normalized S-expressions, component positions, block bounds and file hashes."
+}

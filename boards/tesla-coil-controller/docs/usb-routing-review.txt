@@ -1,0 +1,64 @@
+SUPERSEDED: J5 is now USB-C, not the four-pin powered header described below.
+See usb-c-review.txt and usb-c-checks/ for the current circuit and verification.
+The older routing and checks below are historical.
+
+USB header pinout and routing — 2026-09-30
+
+Portal annotation: 2026-09-30T16:58:08.667Z
+Source revision: f38b817ad69174365d48
+Verified Portal revision: a6725f560b3aebf86e6d
+
+J5 now uses pin 1 = VIN_5V (+5V), pin 2 = USB_D-, pin 3 = USB_D+,
+pin 4 = GND. The schematic, circuit contract, board, constructor, and
+reviewed routing recipe agree. Exactly three schematic net labels changed;
+the symbol library, schematic placement, component placement, pad geometry,
+board drawings, and project rules are unchanged. The square pin-1 pad and
+existing corner marker remain visible.
+
+Both USB signals connect J1 to J5 with 0.15 mm tracks, one through via each,
+and straight entries at pad centers. Planar lengths are 21.140448 mm (D+)
+and 21.137433 mm (D-): 0.003015 mm difference. Equal via counts add equal
+barrel length. The short D- detour compensates for the header breakout.
+Two 0.50/0.25 mm ground stitching vias connect the filled F.Cu and B.Cu
+ground zones. All new via drills clear pads and component body outlines.
+The existing 5 V branch moves from J5.4 to J5.1 at its original widths.
+22 signal tracks and four vias were added; two 5 V tracks were modified.
+All other copper is identical to the immediate pre-edit board.
+
+Verification:
+- KiCad ERC: zero violations.
+- KiCad DRC: zero violations, zero unconnected items, zero schematic parity
+  issues. The two previous USB opens are resolved.
+- KCT schematic/PCB synchronization: in sync, zero errors or warnings.
+- Native scope and geometry checks: all tracks octilinear; USB chains have
+  no branches or stubs; minimum changed-copper clearance is 0.150 mm; no
+  collinear overlaps, drill/pad collisions, or via/body collisions.
+- Power-routing audit: all five checked rails connected; all 25 checked
+  bypass-capacitor ground returns connected.
+- Full quality audit retains 302 existing errors, 2401 warnings, 23 infos.
+  There are no new errors. The one added warning falsely classifies
+  USB_D+ as a power rail and applies a 1 A power-trace width heuristic.
+  The existing C20/J5 bypass-distance warning follows 5 V from pin 4 to
+  pin 1; its count is unchanged. Trace-optimizer statistics also changed.
+  No quality rules were suppressed or relaxed.
+
+Routing limits: these are matched, connected traces, not a verified 90-ohm
+interconnect. The existing two-layer power buses interrupt adjacent ground
+reference at crossing areas. Ground stitching connects available fills but
+does not prove a continuous return plane or USB signal integrity. The
+existing draft board still requires impedance/return-path and hardware
+validation before a fabrication release. J5 remains on the existing
+VIN_5V rail with its original power-source arrangement.
+
+KCT routing was attempted first on a scratch copy; its setup exceeded the
+60-second deadline without producing a usable candidate. The existing
+tools/hardware/tesla_reviewed_routing.json authoring recipe and
+tools/hardware/tesla_route_reviewed.py replay workflow produced the saved
+board and refilled zones. Historical power-routing generation now targets
+J5.1 as well.
+
+Evidence: usb-routing-checks/verification.json, erc-after.json,
+drc-after.json, sync-after.json, quality-after.json, quality-delta.json,
+geometry-check.json, clearances.json, changes.json, power-routing-audit.json,
+and portal-revision.json. See usb-routing-review.png for before/after and
+usb-header-pinout.csv for the pinout.

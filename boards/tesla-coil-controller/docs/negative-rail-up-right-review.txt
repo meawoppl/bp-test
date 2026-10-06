@@ -1,0 +1,72 @@
+Portal -5 V placement — 2026-09-30
+Annotation: 2026-09-30T14:13:03.014Z
+Source revision: 4fdb099a21b78c7c5d06
+Saved Portal revision: a74545d2ddbaebb63ca0
+
+Moved the shared -5 V charge pump 4 mm right and 5 mm up, away from the
+CST diode area. U44 is now at (67.2,114) mm. R421 and C420-C423 moved
+with it, retaining their orientations, pad nets and compact loop geometry.
+The lower block boundary is now y=118.15 rather than y=123.15 mm.
+Adjusted the two supply leads and local region outlines. Placed U44's
+reference left of the block; raised U73's reference 1 mm to clear the
+relocated border. U73's footprint and copper did not move.
+
+Verification:
+- ERC 0, physical DRC 0, schematic parity 0.
+- The same two USB_D+/USB_D- opens remain. Every pad connectivity cluster
+  matches the baseline; the pump nets, +5V_ADC, -5V_CT and GND are connected.
+- Exactly six footprints moved. Thirty copper objects translated rigidly;
+  four supply segments adjusted. All other copper is unchanged.
+- Still 313 footprints, 1331 tracks and 319 vias; no copper added or removed.
+- Widths/layers retained; all tracks octilinear. Minimum changed-copper
+  clearance to other nets is 0.175 mm excluding zones; native DRC checked
+  the refilled board. No changed collinear overlaps or via-drill overlaps
+  with SMD pads or fabrication body envelopes.
+- The +5V tap meets the existing trunk at (53.4,113). Its continuation to
+  the (53.4,118) via still supplies CST copper on F.Cu; it is not a stub.
+- Routing recipe matches the saved board. Circuit net contract, schematic
+  source and project rules are unchanged. Placement and circuit metadata
+  were updated with the new coordinates.
+
+Visual review: local before/after copper plots and native KiCad top 3D
+render. Inspected pad exits, compact pump loops, unchanged widths, retained
+ground returns, separation from D42/CST and readable reference/supply text.
+Native DRC initially found two new reference/outline collisions; those were
+fixed before the successful final run. No live Workbench tab or assembly
+preview was inspected. Models and orientation are retained; the native
+render reflects the new placement. Preview files accompany this report.
+
+Quality: 303 errors, 2411 warnings, 29 infos, zero suppressed; baseline was
+304/2411/29. The report still fails its whole-board quality gate. The change
+adds no new rule category. Changed error entries concern the relocated
+explanatory text and outline geometry: joined border lines, and the known
+kct board-origin offset issue. Measured native distances for the erroneous
+pad/reference overlaps are 26.404-29.9986 mm. Detailed dispositions are in
+negative-rail-up-right-geometry-check.json; the full added/removed records
+are in negative-rail-up-right-quality-delta.json. U44's existing decoupling
+warning remains at the same 2.77 mm relative distance. Other warning deltas
+are moved component locations or shared-rail candidate distances. Existing
+whole-board issues remain covered by command-adc-quality-triage.md.
+
+Commands and tooling:
+- kicad-pcb-rs doctor --json --cwd /home/meawoppl/repos/bp-test
+  KiCad 10.0.6; kicad-tools 0.21.1.
+- kicad-pcb-rs kct -- pcb move-footprint <board> --absolute --map <six refs>
+  Used the native placement operation after inspecting its dry run.
+- tmp/layout-venv/bin/python tools/hardware/tesla_route_reviewed.py
+  Replayed the updated reviewed recipe and filled zones; local outlines
+  were patched in the native file and mirrored in region metadata.
+- tmp/layout-venv/bin/python tools/hardware/check_tesla_draft.py
+  Refreshed native ERC/DRC/parity, validation.json and schematic PDF.
+- kicad-pcb-rs quality --json --cwd /home/meawoppl/repos/bp-test
+  --project tesla-coil-controller
+  Includes kct check, detect-mistakes and optimize-traces dry-run.
+- kicad-pcb-rs tool -- kicad-cli pcb render <board> --side top
+  --quality basic --width 2200 --height 2200 --output <top.png>
+- Read-only native geometry/connectivity comparison scripts in
+  tmp/tesla-neg5-up-right/verify.py and geometry-check.py.
+- GET local /api/kicad/revision?project=tesla-coil-controller confirmed
+  the saved source and warmed viewer revision match.
+
+Only this placement annotation was handled. The board remains a routing
+draft; manufacturing outputs were not published.

@@ -1,0 +1,20 @@
+{
+  "pcb_sha256": "ab96ac897ac423da698650e5a16b64fab5e7ce6b73240d6d49c3f52ca6032501",
+  "source": "U1.15 FRSTDATA",
+  "destination": "TP1.1",
+  "unused_service_contact": "J7.7",
+  "pad_diameter_mm": 1,
+  "position_mm": [
+    98.5,
+    103.5
+  ],
+  "route_length_mm": 3.5770815280171306,
+  "width_mm": 0.2,
+  "layers": [
+    "F.Cu"
+  ],
+  "vias": 0,
+  "connected": true,
+  "excluded_from_bom": true,
+  "excluded_from_placement": true
+}

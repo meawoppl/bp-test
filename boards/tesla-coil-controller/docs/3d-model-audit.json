@@ -1,0 +1,2564 @@
+{
+  "footprints": 326,
+  "modeled_components": 300,
+  "bare_pcb_features": 26,
+  "missing_components": [],
+  "rows": [
+    {
+      "reference": "C1",
+      "footprint": "Tesla:C_0603_1608Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/C_0603_1608Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "C10",
+      "footprint": "Tesla:C_0603_1608Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/C_0603_1608Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "C11",
+      "footprint": "Tesla:C_0603_1608Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/C_0603_1608Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "C12",
+      "footprint": "Tesla:C_0603_1608Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/C_0603_1608Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "C13",
+      "footprint": "Tesla:C_0603_1608Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/C_0603_1608Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "C14",
+      "footprint": "Tesla:C_0603_1608Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/C_0603_1608Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "C15",
+      "footprint": "Tesla:C_0603_1608Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/C_0603_1608Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "C16",
+      "footprint": "Tesla:C_0603_1608Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/C_0603_1608Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "C17",
+      "footprint": "Tesla:C_0603_1608Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/C_0603_1608Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "C18",
+      "footprint": "Tesla:C_0603_1608Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/C_0603_1608Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "C2",
+      "footprint": "Tesla:C_0603_1608Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/C_0603_1608Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "C20",
+      "footprint": "Tesla:C_0603_1608Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/C_0603_1608Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "C21",
+      "footprint": "Tesla:C_0603_1608Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/C_0603_1608Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "C3",
+      "footprint": "Tesla:C_0603_1608Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/C_0603_1608Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "C300",
+      "footprint": "Tesla:C_0805_2012Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/C_0805_2012Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "C301",
+      "footprint": "Tesla:C_0805_2012Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/C_0805_2012Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "C302",
+      "footprint": "Tesla:C_1210_3225Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/C_1210_3225Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "C303",
+      "footprint": "Tesla:C_1210_3225Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/C_1210_3225Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "C304",
+      "footprint": "Tesla:C_1210_3225Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/C_1210_3225Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "C305",
+      "footprint": "Tesla:C_1210_3225Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/C_1210_3225Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "C306",
+      "footprint": "Tesla:C_1210_3225Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/C_1210_3225Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "C310",
+      "footprint": "Tesla:C_0805_2012Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/C_0805_2012Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "C311",
+      "footprint": "Tesla:C_0805_2012Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/C_0805_2012Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "C312",
+      "footprint": "Tesla:C_1210_3225Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/C_1210_3225Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "C313",
+      "footprint": "Tesla:C_1210_3225Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/C_1210_3225Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "C314",
+      "footprint": "Tesla:C_1210_3225Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/C_1210_3225Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "C315",
+      "footprint": "Tesla:C_1210_3225Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/C_1210_3225Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "C316",
+      "footprint": "Tesla:C_1210_3225Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/C_1210_3225Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "C333",
+      "footprint": "Tesla:C_1812_4532Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/C_1812_4532Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "C335",
+      "footprint": "Tesla:C_2220_5750Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/C_2220_5750Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "C336",
+      "footprint": "Tesla:C_2220_5750Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/C_2220_5750Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "C337",
+      "footprint": "Tesla:C_2220_5750Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/C_2220_5750Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "C338",
+      "footprint": "Tesla:C_2220_5750Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/C_2220_5750Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "C339",
+      "footprint": "Tesla:C_2220_5750Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/C_2220_5750Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "C340",
+      "footprint": "Tesla:C_2220_5750Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/C_2220_5750Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "C341",
+      "footprint": "Tesla:C_2220_5750Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/C_2220_5750Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "C342",
+      "footprint": "Tesla:C_2220_5750Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/C_2220_5750Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "C4",
+      "footprint": "Tesla:C_0603_1608Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/C_0603_1608Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "C400",
+      "footprint": "Tesla:C_0805_2012Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/C_0805_2012Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "C401",
+      "footprint": "Tesla:C_0805_2012Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/C_0805_2012Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "C402",
+      "footprint": "Tesla:C_0805_2012Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/C_0805_2012Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "C403",
+      "footprint": "Tesla:C_0805_2012Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/C_0805_2012Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "C404",
+      "footprint": "Tesla:C_0805_2012Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/C_0805_2012Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "C410",
+      "footprint": "Tesla:C_0805_2012Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/C_0805_2012Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "C412",
+      "footprint": "Tesla:C_0805_2012Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/C_0805_2012Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "C413",
+      "footprint": "Tesla:C_0805_2012Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/C_0805_2012Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "C420",
+      "footprint": "Tesla:C_0805_2012Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/C_0805_2012Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "C421",
+      "footprint": "Tesla:C_0805_2012Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/C_0805_2012Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "C422",
+      "footprint": "Tesla:C_0805_2012Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/C_0805_2012Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "C423",
+      "footprint": "Tesla:C_0805_2012Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/C_0805_2012Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "C424",
+      "footprint": "Tesla:C_0805_2012Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/C_0805_2012Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "C425",
+      "footprint": "Tesla:C_0805_2012Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/C_0805_2012Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "C427",
+      "footprint": "Tesla:C_0805_2012Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/C_0805_2012Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "C428",
+      "footprint": "Tesla:C_0805_2012Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/C_0805_2012Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "C429",
+      "footprint": "Tesla:C_0805_2012Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/C_0805_2012Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "C5",
+      "footprint": "Tesla:C_0603_1608Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/C_0603_1608Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "C520",
+      "footprint": "Tesla:C_0805_2012Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/C_0805_2012Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "C521",
+      "footprint": "Tesla:C_0805_2012Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/C_0805_2012Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "C522",
+      "footprint": "Tesla:C_0805_2012Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/C_0805_2012Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "C523",
+      "footprint": "Tesla:C_0805_2012Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/C_0805_2012Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "C524",
+      "footprint": "Tesla:C_0805_2012Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/C_0805_2012Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "C525",
+      "footprint": "Tesla:C_0805_2012Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/C_0805_2012Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "C526",
+      "footprint": "Tesla:C_2220_5750Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/C_2220_5750Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "C527",
+      "footprint": "Tesla:C_1210_3225Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/C_1210_3225Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "C528",
+      "footprint": "Tesla:C_0805_2012Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/C_0805_2012Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "C529",
+      "footprint": "Tesla:C_1210_3225Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/C_1210_3225Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "C530",
+      "footprint": "Tesla:C_1206_3216Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/C_1206_3216Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "C531",
+      "footprint": "Tesla:C_2220_5750Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/C_2220_5750Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "C532",
+      "footprint": "Tesla:C_2220_5750Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/C_2220_5750Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "C533",
+      "footprint": "Tesla:C_2220_5750Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/C_2220_5750Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "C534",
+      "footprint": "Tesla:C_2220_5750Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/C_2220_5750Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "C535",
+      "footprint": "Tesla:C_2220_5750Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/C_2220_5750Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "C536",
+      "footprint": "Tesla:C_2220_5750Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/C_2220_5750Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "C537",
+      "footprint": "Tesla:C_2220_5750Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/C_2220_5750Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "C560",
+      "footprint": "Tesla:C_0805_2012Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/C_0805_2012Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "C561",
+      "footprint": "Tesla:C_0805_2012Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/C_0805_2012Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "C562",
+      "footprint": "Tesla:C_0805_2012Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/C_0805_2012Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "C563",
+      "footprint": "Tesla:C_0805_2012Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/C_0805_2012Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "C564",
+      "footprint": "Tesla:C_0805_2012Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/C_0805_2012Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "C565",
+      "footprint": "Tesla:C_0805_2012Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/C_0805_2012Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "C566",
+      "footprint": "Tesla:C_2220_5750Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/C_2220_5750Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "C567",
+      "footprint": "Tesla:C_1210_3225Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/C_1210_3225Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "C568",
+      "footprint": "Tesla:C_0805_2012Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/C_0805_2012Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "C569",
+      "footprint": "Tesla:C_1210_3225Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/C_1210_3225Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "C570",
+      "footprint": "Tesla:C_1206_3216Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/C_1206_3216Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "C571",
+      "footprint": "Tesla:C_2220_5750Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/C_2220_5750Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "C572",
+      "footprint": "Tesla:C_2220_5750Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/C_2220_5750Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "C573",
+      "footprint": "Tesla:C_2220_5750Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/C_2220_5750Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "C574",
+      "footprint": "Tesla:C_2220_5750Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/C_2220_5750Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "C575",
+      "footprint": "Tesla:C_2220_5750Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/C_2220_5750Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "C576",
+      "footprint": "Tesla:C_2220_5750Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/C_2220_5750Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "C577",
+      "footprint": "Tesla:C_2220_5750Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/C_2220_5750Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "C6",
+      "footprint": "Tesla:C_0603_1608Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/C_0603_1608Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "C600",
+      "footprint": "Tesla:C_0805_2012Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/C_0805_2012Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "C601",
+      "footprint": "Tesla:C_0805_2012Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/C_0805_2012Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "C602",
+      "footprint": "Tesla:C_0805_2012Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/C_0805_2012Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "C603",
+      "footprint": "Tesla:C_0805_2012Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/C_0805_2012Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "C604",
+      "footprint": "Tesla:C_0805_2012Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/C_0805_2012Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "C610",
+      "footprint": "Tesla:C_0805_2012Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/C_0805_2012Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "C612",
+      "footprint": "Tesla:C_0805_2012Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/C_0805_2012Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "C613",
+      "footprint": "Tesla:C_0805_2012Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/C_0805_2012Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "C624",
+      "footprint": "Tesla:C_0805_2012Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/C_0805_2012Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "C625",
+      "footprint": "Tesla:C_0805_2012Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/C_0805_2012Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "C627",
+      "footprint": "Tesla:C_0805_2012Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/C_0805_2012Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "C628",
+      "footprint": "Tesla:C_0805_2012Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/C_0805_2012Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "C629",
+      "footprint": "Tesla:C_0805_2012Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/C_0805_2012Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "C7",
+      "footprint": "Tesla:C_0603_1608Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/C_0603_1608Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "C700",
+      "footprint": "Tesla:C_0805_2012Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/C_0805_2012Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "C701",
+      "footprint": "Tesla:C_0805_2012Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/C_0805_2012Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "C702",
+      "footprint": "Tesla:C_0805_2012Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/C_0805_2012Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "C703",
+      "footprint": "Tesla:C_0805_2012Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/C_0805_2012Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "C710",
+      "footprint": "Tesla:C_0805_2012Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/C_0805_2012Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "C711",
+      "footprint": "Tesla:C_0805_2012Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/C_0805_2012Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "C712",
+      "footprint": "Tesla:C_0805_2012Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/C_0805_2012Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "C713",
+      "footprint": "Tesla:C_0805_2012Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/C_0805_2012Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "C720",
+      "footprint": "Tesla:C_0805_2012Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/C_0805_2012Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "C721",
+      "footprint": "Tesla:C_0805_2012Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/C_0805_2012Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "C722",
+      "footprint": "Tesla:C_0805_2012Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/C_0805_2012Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "C723",
+      "footprint": "Tesla:C_0805_2012Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/C_0805_2012Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "C730",
+      "footprint": "Tesla:C_0805_2012Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/C_0805_2012Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "C731",
+      "footprint": "Tesla:C_0805_2012Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/C_0805_2012Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "C732",
+      "footprint": "Tesla:C_0805_2012Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/C_0805_2012Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "C733",
+      "footprint": "Tesla:C_0805_2012Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/C_0805_2012Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "C740",
+      "footprint": "Tesla:C_0805_2012Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/C_0805_2012Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "C741",
+      "footprint": "Tesla:C_0805_2012Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/C_0805_2012Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "C8",
+      "footprint": "Tesla:C_0603_1608Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/C_0603_1608Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "C9",
+      "footprint": "Tesla:C_0603_1608Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/C_0603_1608Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "D40",
+      "footprint": "Tesla:D_SMB",
+      "models": [
+        "${KIPRJMOD}/3dmodels/D_SMB.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "D41",
+      "footprint": "Tesla:D_SOD-123",
+      "models": [
+        "${KIPRJMOD}/3dmodels/D_SOD-123.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "D42",
+      "footprint": "Tesla:D_SOD-123",
+      "models": [
+        "${KIPRJMOD}/3dmodels/D_SOD-123.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "D43",
+      "footprint": "Tesla:SOT-23",
+      "models": [
+        "${KIPRJMOD}/3dmodels/SOT-23.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "D50",
+      "footprint": "Tesla:D_SMB",
+      "models": [
+        "${KIPRJMOD}/3dmodels/D_SMB.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "D51",
+      "footprint": "Tesla:D_SMB",
+      "models": [
+        "${KIPRJMOD}/3dmodels/D_SMB.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "D60",
+      "footprint": "Tesla:D_SMB",
+      "models": [
+        "${KIPRJMOD}/3dmodels/D_SMB.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "D61",
+      "footprint": "Tesla:D_SOD-123",
+      "models": [
+        "${KIPRJMOD}/3dmodels/D_SOD-123.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "D62",
+      "footprint": "Tesla:D_SOD-123",
+      "models": [
+        "${KIPRJMOD}/3dmodels/D_SOD-123.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "D63",
+      "footprint": "Tesla:SOT-23",
+      "models": [
+        "${KIPRJMOD}/3dmodels/SOT-23.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "D70",
+      "footprint": "Tesla:SOT-23",
+      "models": [
+        "${KIPRJMOD}/3dmodels/SOT-23.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "D71",
+      "footprint": "Tesla:SOT-23",
+      "models": [
+        "${KIPRJMOD}/3dmodels/SOT-23.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "D72",
+      "footprint": "Tesla:SOT-23",
+      "models": [
+        "${KIPRJMOD}/3dmodels/SOT-23.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "D73",
+      "footprint": "Tesla:SOT-23",
+      "models": [
+        "${KIPRJMOD}/3dmodels/SOT-23.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "D80",
+      "footprint": "Tesla:LED_0805_2012Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/LED_0805_2012Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "D81",
+      "footprint": "Tesla:LED_0805_2012Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/LED_0805_2012Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "D82",
+      "footprint": "Tesla:LED_0805_2012Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/LED_0805_2012Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "D83",
+      "footprint": "Tesla:LED_0805_2012Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/LED_0805_2012Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "D84",
+      "footprint": "Tesla:LED_0805_2012Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/LED_0805_2012Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "D86",
+      "footprint": "Tesla:LED_0805_2012Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/LED_0805_2012Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "D87",
+      "footprint": "Tesla:LED_0805_2012Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/LED_0805_2012Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "D88",
+      "footprint": "Tesla:LED_0805_2012Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/LED_0805_2012Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "D90",
+      "footprint": "Tesla:D_SOD-123",
+      "models": [
+        "${KIPRJMOD}/3dmodels/D_SOD-123.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "D91",
+      "footprint": "Tesla:D_SOD-123",
+      "models": [
+        "${KIPRJMOD}/3dmodels/D_SOD-123.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "D92",
+      "footprint": "Tesla:D_SOD-123",
+      "models": [
+        "${KIPRJMOD}/3dmodels/D_SOD-123.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "D93",
+      "footprint": "Tesla:D_SOD-123",
+      "models": [
+        "${KIPRJMOD}/3dmodels/D_SOD-123.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "H1",
+      "footprint": "Tesla:MountingHole_3.2mm_M3",
+      "models": [],
+      "status": "bare PCB feature"
+    },
+    {
+      "reference": "H2",
+      "footprint": "Tesla:MountingHole_3.2mm_M3",
+      "models": [],
+      "status": "bare PCB feature"
+    },
+    {
+      "reference": "H3",
+      "footprint": "Tesla:MountingHole_3.2mm_M3",
+      "models": [],
+      "status": "bare PCB feature"
+    },
+    {
+      "reference": "H4",
+      "footprint": "Tesla:MountingHole_3.2mm_M3",
+      "models": [],
+      "status": "bare PCB feature"
+    },
+    {
+      "reference": "H5",
+      "footprint": "Tesla:MountingHole_3.2mm_M3",
+      "models": [],
+      "status": "bare PCB feature"
+    },
+    {
+      "reference": "J1",
+      "footprint": "Tesla:J1_Module_v1_Mate",
+      "models": [
+        "${KIPRJMOD}/3dmodels/DF40C_40DP.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "J10",
+      "footprint": "Tesla:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal",
+      "models": [
+        "${KIPRJMOD}/3dmodels/JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "J2",
+      "footprint": "Tesla:J2_Module_v1_Mate",
+      "models": [
+        "${KIPRJMOD}/3dmodels/DF40C_2_0_40DS.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "J3",
+      "footprint": "Tesla:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal",
+      "models": [
+        "${KIPRJMOD}/3dmodels/JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "J30",
+      "footprint": "Tesla:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal",
+      "models": [
+        "${KIPRJMOD}/3dmodels/TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "J4",
+      "footprint": "Tesla:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal",
+      "models": [
+        "${KIPRJMOD}/3dmodels/TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "J40",
+      "footprint": "Tesla:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal",
+      "models": [
+        "${KIPRJMOD}/3dmodels/TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "J5",
+      "footprint": "Tesla:PinHeader_1x04_P2.54mm_Vertical",
+      "models": [
+        "${KIPRJMOD}/3dmodels/PinHeader_1x04_P2.54mm_Vertical.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "J50",
+      "footprint": "Tesla:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal",
+      "models": [
+        "${KIPRJMOD}/3dmodels/TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "J51",
+      "footprint": "Tesla:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal",
+      "models": [
+        "${KIPRJMOD}/3dmodels/TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "J60",
+      "footprint": "Tesla:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal",
+      "models": [
+        "${KIPRJMOD}/3dmodels/TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "J7",
+      "footprint": "Tesla:PinHeader_2x04_P2.54mm_Vertical",
+      "models": [
+        "${KIPRJMOD}/3dmodels/PinHeader_2x04_P2.54mm_Vertical.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "J8",
+      "footprint": "Tesla:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal",
+      "models": [
+        "${KIPRJMOD}/3dmodels/JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "J9",
+      "footprint": "Tesla:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal",
+      "models": [
+        "${KIPRJMOD}/3dmodels/JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "L40",
+      "footprint": "Tesla:CMC_TAI-TECH_WCM4532F2SF",
+      "models": [
+        "${KIPRJMOD}/3dmodels/WCM4532F2SF_envelope.step"
+      ],
+      "status": "drawing-derived envelope"
+    },
+    {
+      "reference": "L60",
+      "footprint": "Tesla:CMC_TAI-TECH_WCM4532F2SF",
+      "models": [
+        "${KIPRJMOD}/3dmodels/WCM4532F2SF_envelope.step"
+      ],
+      "status": "drawing-derived envelope"
+    },
+    {
+      "reference": "Q50",
+      "footprint": "Tesla:TO-252-2",
+      "models": [
+        "${KIPRJMOD}/3dmodels/TO-252-2.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "Q51",
+      "footprint": "Tesla:TO-252-2",
+      "models": [
+        "${KIPRJMOD}/3dmodels/TO-252-2.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "Q52",
+      "footprint": "Tesla:TO-252-2",
+      "models": [
+        "${KIPRJMOD}/3dmodels/TO-252-2.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "Q53",
+      "footprint": "Tesla:TO-252-2",
+      "models": [
+        "${KIPRJMOD}/3dmodels/TO-252-2.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "Q54",
+      "footprint": "Tesla:TO-252-2",
+      "models": [
+        "${KIPRJMOD}/3dmodels/TO-252-2.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "Q55",
+      "footprint": "Tesla:TO-252-2",
+      "models": [
+        "${KIPRJMOD}/3dmodels/TO-252-2.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "Q56",
+      "footprint": "Tesla:TO-252-2",
+      "models": [
+        "${KIPRJMOD}/3dmodels/TO-252-2.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "Q57",
+      "footprint": "Tesla:TO-252-2",
+      "models": [
+        "${KIPRJMOD}/3dmodels/TO-252-2.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "R1",
+      "footprint": "Tesla:R_0603_1608Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/R_0603_1608Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "R2",
+      "footprint": "Tesla:R_0603_1608Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/R_0603_1608Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "R20",
+      "footprint": "Tesla:R_0603_1608Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/R_0603_1608Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "R21",
+      "footprint": "Tesla:R_0603_1608Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/R_0603_1608Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "R22",
+      "footprint": "Tesla:R_0603_1608Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/R_0603_1608Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "R23",
+      "footprint": "Tesla:R_0603_1608Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/R_0603_1608Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "R3",
+      "footprint": "Tesla:R_0603_1608Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/R_0603_1608Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "R300",
+      "footprint": "Tesla:R_0805_2012Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/R_0805_2012Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "R301",
+      "footprint": "Tesla:R_0805_2012Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/R_0805_2012Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "R302",
+      "footprint": "Tesla:R_0805_2012Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/R_0805_2012Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "R304",
+      "footprint": "Tesla:R_0805_2012Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/R_0805_2012Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "R305",
+      "footprint": "Tesla:R_0805_2012Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/R_0805_2012Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "R310",
+      "footprint": "Tesla:R_0805_2012Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/R_0805_2012Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "R311",
+      "footprint": "Tesla:R_0805_2012Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/R_0805_2012Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "R312",
+      "footprint": "Tesla:R_0805_2012Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/R_0805_2012Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "R314",
+      "footprint": "Tesla:R_0805_2012Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/R_0805_2012Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "R315",
+      "footprint": "Tesla:R_0805_2012Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/R_0805_2012Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "R4",
+      "footprint": "Tesla:R_0603_1608Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/R_0603_1608Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "R400",
+      "footprint": "Tesla:R_2512_6332Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/R_2512_6332Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "R401",
+      "footprint": "Tesla:R_2512_6332Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/R_2512_6332Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "R402",
+      "footprint": "Tesla:R_0805_2012Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/R_0805_2012Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "R403",
+      "footprint": "Tesla:R_0805_2012Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/R_0805_2012Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "R404",
+      "footprint": "Tesla:R_0805_2012Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/R_0805_2012Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "R405",
+      "footprint": "Tesla:R_0805_2012Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/R_0805_2012Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "R406",
+      "footprint": "Tesla:R_0805_2012Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/R_0805_2012Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "R407",
+      "footprint": "Tesla:R_0805_2012Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/R_0805_2012Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "R408",
+      "footprint": "Tesla:R_0805_2012Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/R_0805_2012Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "R410",
+      "footprint": "Tesla:R_0805_2012Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/R_0805_2012Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "R411",
+      "footprint": "Tesla:R_0805_2012Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/R_0805_2012Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "R414",
+      "footprint": "Tesla:R_0805_2012Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/R_0805_2012Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "R415",
+      "footprint": "Tesla:R_0805_2012Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/R_0805_2012Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "R416",
+      "footprint": "Tesla:R_0805_2012Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/R_0805_2012Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "R421",
+      "footprint": "Tesla:R_0805_2012Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/R_0805_2012Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "R422",
+      "footprint": "Tesla:R_0805_2012Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/R_0805_2012Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "R5",
+      "footprint": "Tesla:R_0603_1608Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/R_0603_1608Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "R500",
+      "footprint": "Tesla:R_0805_2012Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/R_0805_2012Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "R501",
+      "footprint": "Tesla:R_0805_2012Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/R_0805_2012Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "R502",
+      "footprint": "Tesla:R_0805_2012Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/R_0805_2012Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "R503",
+      "footprint": "Tesla:R_0805_2012Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/R_0805_2012Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "R505",
+      "footprint": "Tesla:R_0805_2012Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/R_0805_2012Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "R506",
+      "footprint": "Tesla:R_0805_2012Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/R_0805_2012Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "R507",
+      "footprint": "Tesla:R_0805_2012Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/R_0805_2012Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "R508",
+      "footprint": "Tesla:R_0805_2012Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/R_0805_2012Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "R509",
+      "footprint": "Tesla:R_0805_2012Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/R_0805_2012Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "R510",
+      "footprint": "Tesla:R_0805_2012Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/R_0805_2012Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "R511",
+      "footprint": "Tesla:R_0805_2012Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/R_0805_2012Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "R512",
+      "footprint": "Tesla:R_0805_2012Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/R_0805_2012Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "R513",
+      "footprint": "Tesla:R_0805_2012Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/R_0805_2012Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "R514",
+      "footprint": "Tesla:R_0805_2012Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/R_0805_2012Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "R515",
+      "footprint": "Tesla:R_0805_2012Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/R_0805_2012Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "R516",
+      "footprint": "Tesla:R_0805_2012Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/R_0805_2012Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "R520",
+      "footprint": "Tesla:R_0805_2012Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/R_0805_2012Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "R521",
+      "footprint": "Tesla:R_0805_2012Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/R_0805_2012Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "R522",
+      "footprint": "Tesla:R_0805_2012Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/R_0805_2012Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "R523",
+      "footprint": "Tesla:R_0805_2012Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/R_0805_2012Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "R524",
+      "footprint": "Tesla:R_0805_2012Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/R_0805_2012Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "R525",
+      "footprint": "Tesla:R_0805_2012Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/R_0805_2012Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "R526",
+      "footprint": "Tesla:R_0805_2012Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/R_0805_2012Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "R527",
+      "footprint": "Tesla:R_0805_2012Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/R_0805_2012Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "R529",
+      "footprint": "Tesla:R_2512_6332Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/R_2512_6332Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "R560",
+      "footprint": "Tesla:R_0805_2012Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/R_0805_2012Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "R561",
+      "footprint": "Tesla:R_0805_2012Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/R_0805_2012Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "R562",
+      "footprint": "Tesla:R_0805_2012Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/R_0805_2012Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "R563",
+      "footprint": "Tesla:R_0805_2012Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/R_0805_2012Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "R564",
+      "footprint": "Tesla:R_0805_2012Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/R_0805_2012Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "R565",
+      "footprint": "Tesla:R_0805_2012Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/R_0805_2012Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "R566",
+      "footprint": "Tesla:R_0805_2012Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/R_0805_2012Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "R567",
+      "footprint": "Tesla:R_0805_2012Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/R_0805_2012Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "R569",
+      "footprint": "Tesla:R_2512_6332Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/R_2512_6332Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "R6",
+      "footprint": "Tesla:R_0603_1608Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/R_0603_1608Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "R600",
+      "footprint": "Tesla:R_2512_6332Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/R_2512_6332Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "R601",
+      "footprint": "Tesla:R_2512_6332Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/R_2512_6332Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "R602",
+      "footprint": "Tesla:R_0805_2012Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/R_0805_2012Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "R603",
+      "footprint": "Tesla:R_0805_2012Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/R_0805_2012Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "R604",
+      "footprint": "Tesla:R_0805_2012Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/R_0805_2012Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "R605",
+      "footprint": "Tesla:R_0805_2012Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/R_0805_2012Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "R606",
+      "footprint": "Tesla:R_0805_2012Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/R_0805_2012Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "R607",
+      "footprint": "Tesla:R_0805_2012Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/R_0805_2012Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "R608",
+      "footprint": "Tesla:R_0805_2012Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/R_0805_2012Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "R610",
+      "footprint": "Tesla:R_0805_2012Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/R_0805_2012Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "R611",
+      "footprint": "Tesla:R_0805_2012Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/R_0805_2012Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "R614",
+      "footprint": "Tesla:R_0805_2012Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/R_0805_2012Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "R615",
+      "footprint": "Tesla:R_0805_2012Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/R_0805_2012Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "R616",
+      "footprint": "Tesla:R_0805_2012Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/R_0805_2012Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "R622",
+      "footprint": "Tesla:R_0805_2012Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/R_0805_2012Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "R7",
+      "footprint": "Tesla:R_0603_1608Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/R_0603_1608Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "R700",
+      "footprint": "Tesla:R_0805_2012Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/R_0805_2012Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "R701",
+      "footprint": "Tesla:R_0805_2012Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/R_0805_2012Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "R710",
+      "footprint": "Tesla:R_0805_2012Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/R_0805_2012Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "R711",
+      "footprint": "Tesla:R_0805_2012Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/R_0805_2012Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "R720",
+      "footprint": "Tesla:R_0805_2012Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/R_0805_2012Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "R721",
+      "footprint": "Tesla:R_0805_2012Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/R_0805_2012Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "R730",
+      "footprint": "Tesla:R_0805_2012Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/R_0805_2012Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "R731",
+      "footprint": "Tesla:R_0805_2012Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/R_0805_2012Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "R740",
+      "footprint": "Tesla:R_0805_2012Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/R_0805_2012Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "R8",
+      "footprint": "Tesla:R_0603_1608Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/R_0603_1608Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "R800",
+      "footprint": "Tesla:R_0805_2012Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/R_0805_2012Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "R801",
+      "footprint": "Tesla:R_0805_2012Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/R_0805_2012Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "R802",
+      "footprint": "Tesla:R_0805_2012Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/R_0805_2012Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "R803",
+      "footprint": "Tesla:R_0805_2012Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/R_0805_2012Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "R804",
+      "footprint": "Tesla:R_0805_2012Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/R_0805_2012Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "R806",
+      "footprint": "Tesla:R_0805_2012Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/R_0805_2012Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "R807",
+      "footprint": "Tesla:R_0805_2012Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/R_0805_2012Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "R808",
+      "footprint": "Tesla:R_0805_2012Metric",
+      "models": [
+        "${KIPRJMOD}/3dmodels/R_0805_2012Metric.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "TP40",
+      "footprint": "Tesla:TestPoint_Pad_D1.0mm",
+      "models": [],
+      "status": "bare PCB feature"
+    },
+    {
+      "reference": "TP41",
+      "footprint": "Tesla:TestPoint_Pad_D1.0mm",
+      "models": [],
+      "status": "bare PCB feature"
+    },
+    {
+      "reference": "TP42",
+      "footprint": "Tesla:TestPoint_Pad_D1.0mm",
+      "models": [],
+      "status": "bare PCB feature"
+    },
+    {
+      "reference": "TP43",
+      "footprint": "Tesla:TestPoint_Pad_D1.0mm",
+      "models": [],
+      "status": "bare PCB feature"
+    },
+    {
+      "reference": "TP60",
+      "footprint": "Tesla:TestPoint_Pad_D1.0mm",
+      "models": [],
+      "status": "bare PCB feature"
+    },
+    {
+      "reference": "TP61",
+      "footprint": "Tesla:TestPoint_Pad_D1.0mm",
+      "models": [],
+      "status": "bare PCB feature"
+    },
+    {
+      "reference": "TP62",
+      "footprint": "Tesla:TestPoint_Pad_D1.0mm",
+      "models": [],
+      "status": "bare PCB feature"
+    },
+    {
+      "reference": "TP63",
+      "footprint": "Tesla:TestPoint_Pad_D1.0mm",
+      "models": [],
+      "status": "bare PCB feature"
+    },
+    {
+      "reference": "U1",
+      "footprint": "Tesla:LQFP-64_10x10mm_P0.5mm",
+      "models": [
+        "${KIPRJMOD}/3dmodels/LQFP-64_10x10mm_P0.5mm.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "U2",
+      "footprint": "Tesla:SOT-23-5",
+      "models": [
+        "${KIPRJMOD}/3dmodels/SOT-23-5.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "U30",
+      "footprint": "Tesla:Texas_NDW-7_TabPin8",
+      "models": [
+        "${KIPRJMOD}/3dmodels/LMZ14202H_envelope.step"
+      ],
+      "status": "drawing-derived envelope"
+    },
+    {
+      "reference": "U31",
+      "footprint": "Tesla:Texas_NDW-7_TabPin8",
+      "models": [
+        "${KIPRJMOD}/3dmodels/LMZ14202H_envelope.step"
+      ],
+      "status": "drawing-derived envelope"
+    },
+    {
+      "reference": "U40",
+      "footprint": "Tesla:SOT-23-5",
+      "models": [
+        "${KIPRJMOD}/3dmodels/SOT-23-5.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "U41",
+      "footprint": "Tesla:SOT-23-5",
+      "models": [
+        "${KIPRJMOD}/3dmodels/SOT-23-5.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "U42",
+      "footprint": "Tesla:SOT-23-6",
+      "models": [
+        "${KIPRJMOD}/3dmodels/SOT-23-6.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "U44",
+      "footprint": "Tesla:SOT-23-5",
+      "models": [
+        "${KIPRJMOD}/3dmodels/SOT-23-5.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "U51",
+      "footprint": "Tesla:SOIC-8_3.9x4.9mm_P1.27mm",
+      "models": [
+        "${KIPRJMOD}/3dmodels/SOIC-8_3.9x4.9mm_P1.27mm.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "U52",
+      "footprint": "Tesla:SOIC-8_3.9x4.9mm_P1.27mm",
+      "models": [
+        "${KIPRJMOD}/3dmodels/SOIC-8_3.9x4.9mm_P1.27mm.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "U53",
+      "footprint": "Tesla:SOIC-8_3.9x4.9mm_P1.27mm",
+      "models": [
+        "${KIPRJMOD}/3dmodels/SOIC-8_3.9x4.9mm_P1.27mm.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "U54",
+      "footprint": "Tesla:SOIC-8_3.9x4.9mm_P1.27mm",
+      "models": [
+        "${KIPRJMOD}/3dmodels/SOIC-8_3.9x4.9mm_P1.27mm.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "U60",
+      "footprint": "Tesla:SOT-23-5",
+      "models": [
+        "${KIPRJMOD}/3dmodels/SOT-23-5.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "U61",
+      "footprint": "Tesla:SOT-23-5",
+      "models": [
+        "${KIPRJMOD}/3dmodels/SOT-23-5.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "U62",
+      "footprint": "Tesla:SOT-23-6",
+      "models": [
+        "${KIPRJMOD}/3dmodels/SOT-23-6.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "U70",
+      "footprint": "Tesla:SOT-23-5",
+      "models": [
+        "${KIPRJMOD}/3dmodels/SOT-23-5.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "U71",
+      "footprint": "Tesla:SOT-23-5",
+      "models": [
+        "${KIPRJMOD}/3dmodels/SOT-23-5.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "U72",
+      "footprint": "Tesla:SOT-23-5",
+      "models": [
+        "${KIPRJMOD}/3dmodels/SOT-23-5.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "U73",
+      "footprint": "Tesla:SOT-23-5",
+      "models": [
+        "${KIPRJMOD}/3dmodels/SOT-23-5.step"
+      ],
+      "status": "STEP package model"
+    },
+    {
+      "reference": "TP1",
+      "footprint": "Tesla:TestPoint_Pad_D1.0mm",
+      "models": [],
+      "status": "bare PCB feature"
+    },
+    {
+      "reference": "TP700",
+      "footprint": "Tesla:TestPoint_Pad_D1.0mm_Silk0.15mm",
+      "models": [],
+      "status": "bare PCB feature"
+    },
+    {
+      "reference": "TP701",
+      "footprint": "Tesla:TestPoint_Pad_D1.0mm_Silk0.15mm",
+      "models": [],
+      "status": "bare PCB feature"
+    },
+    {
+      "reference": "TP702",
+      "footprint": "Tesla:TestPoint_Pad_D1.0mm_Silk0.15mm",
+      "models": [],
+      "status": "bare PCB feature"
+    },
+    {
+      "reference": "TP710",
+      "footprint": "Tesla:TestPoint_Pad_D1.0mm_Silk0.15mm",
+      "models": [],
+      "status": "bare PCB feature"
+    },
+    {
+      "reference": "TP711",
+      "footprint": "Tesla:TestPoint_Pad_D1.0mm_Silk0.15mm",
+      "models": [],
+      "status": "bare PCB feature"
+    },
+    {
+      "reference": "TP712",
+      "footprint": "Tesla:TestPoint_Pad_D1.0mm_Silk0.15mm",
+      "models": [],
+      "status": "bare PCB feature"
+    },
+    {
+      "reference": "TP720",
+      "footprint": "Tesla:TestPoint_Pad_D1.0mm_Silk0.15mm",
+      "models": [],
+      "status": "bare PCB feature"
+    },
+    {
+      "reference": "TP721",
+      "footprint": "Tesla:TestPoint_Pad_D1.0mm_Silk0.15mm",
+      "models": [],
+      "status": "bare PCB feature"
+    },
+    {
+      "reference": "TP722",
+      "footprint": "Tesla:TestPoint_Pad_D1.0mm_Silk0.15mm",
+      "models": [],
+      "status": "bare PCB feature"
+    },
+    {
+      "reference": "TP730",
+      "footprint": "Tesla:TestPoint_Pad_D1.0mm_Silk0.15mm",
+      "models": [],
+      "status": "bare PCB feature"
+    },
+    {
+      "reference": "TP731",
+      "footprint": "Tesla:TestPoint_Pad_D1.0mm_Silk0.15mm",
+      "models": [],
+      "status": "bare PCB feature"
+    },
+    {
+      "reference": "TP732",
+      "footprint": "Tesla:TestPoint_Pad_D1.0mm_Silk0.15mm",
+      "models": [],
+      "status": "bare PCB feature"
+    }
+  ]
+}

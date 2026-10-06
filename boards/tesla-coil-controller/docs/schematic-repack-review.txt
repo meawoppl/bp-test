@@ -1,0 +1,60 @@
+Schematic section layout cleanup — 2026-09-30
+
+Portal item: “The overall schematic layout has gotten a bit weird,
+resize/reorganize the sub-schematics in the boxes cleanly please”.
+Annotation revision 31a5eb8e96f2c91e0d42; live baseline 068e32479596e4383bf7.
+Verified Portal revision 81f1cb4b3f52d362968d.
+
+The 27 functional sections now form three aligned groups: power at the
+left, control/acquisition in the center, and the two GDT channels at the
+right. The AUX circuits form a regular two-by-two group. Both CST channels
+use the same input/comparator/bypass arrangement. Each GDT command section
+sits above its bridge; its commands form two columns, one per bridge leg.
+Repeated regulator, AUX and GDT sections share box widths.
+
+Box sizes follow measured circuit contents and visible annotations, with
+consistent title clearance and 12.7 mm gaps. A row/column layout replaces
+the stale absolute box coordinates, so later circuit-size changes retain
+the grouping. GDT bridge output and reservoir rows move up 25.4 mm to
+reduce empty space. Symbol sizes, text sizes and note wording are preserved.
+The sheet changes from 1669.73 x 1141.05 mm to 1604.01 x 908.05 mm, reducing
+area by 23.55 percent.
+
+Changed files: controller.kicad_sch; the schematic layout Python/JSON and
+GDT schematic generator; schematic-layout.json, schematic-landscape.png,
+controller-schematic.pdf, and the evidence under schematic-repack-checks/.
+PCB, project rules and Tesla.kicad_sym are byte-identical to the baseline.
+The previous USB-C and local supply-routing edits are preserved.
+
+Verification:
+- Native KiCad ERC: 0 violations.
+- Native KiCad DRC: 0 violations, 0 unconnected items, 0 parity issues.
+- KCT schematic/PCB sync: in sync, 0 errors and 0 warnings.
+- Independent full XML netlist comparison: all 331 components, every
+  component field, all 187 net names and every connected pin are identical.
+- All 550 placed symbols, including power symbols and flags, retain their
+  attributes, UUIDs, relative fields and embedded library definitions.
+- All schematic object counts and annotation text/font sizes are unchanged.
+- All 27 boxes are separate, and their measured contents fit inside them.
+- Inspected the complete native PDF and detailed GDT command, GDT bridge,
+  CST input and AUX exports: aligned grouping, readable titles, clear box
+  margins, matching channel organization, and no new content collisions.
+  PCB copper, vias, pad exits, silkscreen and models were not changed;
+  the checklist's physical-layout items retain their earlier dispositions.
+
+The quality audit remains 303 errors, 2390 warnings and 24 informational
+findings. Every finding is identical to the preceding routing checkpoint,
+including descriptions and affected items. Existing dispositions and open
+release work are in usb-c-review.txt and command-adc-quality-triage.md.
+This presentation edit introduces no findings and does not close that
+board-wide backlog. No rules or limits were changed.
+
+KCT's schematic commands were inspected first. They do not provide packing
+of existing functional circuit groups and their section frames. The existing
+repository schematic generator therefore performs these presentation edits,
+followed by native exports, independent comparisons and wrapper checks.
+
+Portal has rebuilt and warmed the current schematic revision. ERC, DRC and
+schematic-PDF stages pass; its quality stage reports the unchanged backlog.
+Auto-publish is disabled. No fabrication release was published for this
+schematic presentation item. The refreshed PDF and image are review outputs.

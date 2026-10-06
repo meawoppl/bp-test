@@ -1,0 +1,55 @@
+{
+  "added": [
+    {
+      "description": "Bypass capacitor too far from power pin: C20 is 77.5mm from J5 pin 1 (VIN_5V). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 77.5mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C20, J5"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Power trace too narrow: Power trace on USB_D+ is only 0.15mm wide. Narrow power traces cause voltage drop and can overheat under load. For 1A at 1oz copper, traces should be at least 0.5mm wide.",
+      "items": [
+        {
+          "description": "USB_D+"
+        }
+      ],
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.power_trace.power_trace_too_narrow"
+    },
+    {
+      "description": "kct optimize-traces would remove 37 of 1344 segments (corners 936 -> 1027, length -0.6%); merge collinear segments and drop zigzags",
+      "items": [],
+      "severity": "info",
+      "source": "kct optimize-traces",
+      "type": "optimize_traces.mergeable_segments"
+    }
+  ],
+  "removed": [
+    {
+      "description": "Bypass capacitor too far from power pin: C20 is 69.9mm from J5 pin 4 (VIN_5V). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 69.9mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C20, J5"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "kct optimize-traces would remove 35 of 1322 segments (corners 917 -> 1009, length -0.6%); merge collinear segments and drop zigzags",
+      "items": [],
+      "severity": "info",
+      "source": "kct optimize-traces",
+      "type": "optimize_traces.mergeable_segments"
+    }
+  ]
+}

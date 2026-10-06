@@ -1,0 +1,49 @@
+{
+  "required_clearance_mm": 0.15,
+  "minimum_clearance_mm": 0.2363961030679163,
+  "scope": "Changed traces vs all foreign-net track/via/pad copper on B.Cu; filled zones separately checked by native KiCad DRC",
+  "traces": [
+    {
+      "uuid": "975812d4-9b50-52b3-b4d6-f6ab57292d04",
+      "net": "GDT2_R_LO",
+      "min_clearance_mm": 0.36568542494922657,
+      "nearest_net": "GDT2_R_HI",
+      "nearest_item": "21ff58eb-9336-5919-a6c8-512d8f26ea56"
+    },
+    {
+      "uuid": "a811f4a5-8d1e-51d9-b527-8fe45514c153",
+      "net": "GDT2_R_LO",
+      "min_clearance_mm": 0.29999999999998295,
+      "nearest_net": "GDT2_R_HI",
+      "nearest_item": "b5e1223a-6c4a-5cc3-bef1-198f4ae2f055"
+    },
+    {
+      "uuid": "ad22ff73-35f0-565b-925c-182c9f734337",
+      "net": "GDT2_R_LO",
+      "min_clearance_mm": 0.36568542494922657,
+      "nearest_net": "GDT2_R_HI",
+      "nearest_item": "21ff58eb-9336-5919-a6c8-512d8f26ea56"
+    },
+    {
+      "uuid": "21ff58eb-9336-5919-a6c8-512d8f26ea56",
+      "net": "GDT2_R_HI",
+      "min_clearance_mm": 0.2363961030679163,
+      "nearest_net": "GDT2_L_LO",
+      "nearest_item": "ecefbc6b-f5c7-502a-beb0-4c2b986d2f5c"
+    },
+    {
+      "uuid": "8014ff35-b4a1-5485-b713-4e1fb49b1f79",
+      "net": "GDT2_R_HI",
+      "min_clearance_mm": 0.49999999999999994,
+      "nearest_net": "GDT2_R_LO",
+      "nearest_item": "a811f4a5-8d1e-51d9-b527-8fe45514c153"
+    },
+    {
+      "uuid": "a709ab45-3ced-53fb-a9fb-6f09c3e749ef",
+      "net": "GDT2_R_HI",
+      "min_clearance_mm": 0.43639610306787796,
+      "nearest_net": "GDT2_R_LO",
+      "nearest_item": "a84e43ed-63ea-5eae-8190-d64ec2a71ae6"
+    }
+  ]
+}

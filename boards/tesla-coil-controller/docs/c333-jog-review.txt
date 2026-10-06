@@ -1,0 +1,11 @@
+Portal item 2026-09-30T06:04:54.229Z: Unnecessary Jog here
+
+C333 is turned 90 degrees, keeping its supply pad on the VBAT route at (77.05,37) mm and moving ground clear of the straight trace. The three-segment detour is removed; length reduction 4.9497 mm; trace width remains 2.5 mm; via count unchanged.
+
+kct optimize-traces --net VBAT_24V --dry-run --no-45 --no-merge --format json was reviewed. Its proposed nine removals span three corners, so a scoped pcbnew edit was used to change only the annotated geometry and C333.
+
+Changed categories: PCB; routing/placement recipes and circuit-position metadata; verification docs and native ERC/DRC check outputs. Schematic, footprint libraries and manufacturing exports unchanged. No fab publish requested.
+
+ERC 0, physical DRC 0, schematic parity 0, 25 inherited unrouted connections. All pad connectivity groups preserved; geometry checks find no added overlaps or via-in-pad. Power-rail checker passes. Recipe replay reproduces copper, placements and connectivity. Quality backlog 301 errors, 2422 warnings, 29 info unchanged; dispositions in command-adc-quality-triage.md.
+
+Visual review: captured annotation and local copper preview (c333-jog-after.png). Workbench source endpoint reports refreshed revision c870f5be58faed2ec25e. Whole-board release/DFM backlog remains open.

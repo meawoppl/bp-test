@@ -1,0 +1,3563 @@
+{
+  "before_summary": {
+    "by_rule": {
+      "decoupling_distance": {
+        "count": 29,
+        "profile_item": "decoupling.max_pin_distance_mm",
+        "severity": "warning",
+        "source": "plugin"
+      },
+      "mistake.bom_health.component_missing_manufacturer_part_number": {
+        "count": 206,
+        "profile_item": null,
+        "severity": "warning",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.bypass_capacitor.bypass_capacitor_placement_could_be_improved": {
+        "count": 25,
+        "profile_item": "decoupling.max_pin_distance_mm",
+        "severity": "info",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin": {
+        "count": 1062,
+        "profile_item": "decoupling.max_pin_distance_mm",
+        "severity": "warning",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.connectivity.led_missing_series_resistor": {
+        "count": 4,
+        "profile_item": null,
+        "severity": "warning",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.connectivity.missing_pull_up_resistor": {
+        "count": 1,
+        "profile_item": null,
+        "severity": "warning",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.differential_pair.differential_pair_length_matching_could_be_improved": {
+        "count": 1,
+        "profile_item": null,
+        "severity": "info",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.manufacturability.acute_angle_in_trace_acid_trap": {
+        "count": 16,
+        "profile_item": null,
+        "severity": "warning",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.manufacturability.thermal_imbalance_may_cause_tombstoning": {
+        "count": 102,
+        "profile_item": null,
+        "severity": "warning",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.power_trace.power_trace_too_narrow": {
+        "count": 10,
+        "profile_item": null,
+        "severity": "warning",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.thermal_management.thermal_pad_may_need_more_vias": {
+        "count": 2,
+        "profile_item": null,
+        "severity": "info",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.thermal_management.thermal_pad_not_connected_to_ground": {
+        "count": 8,
+        "profile_item": null,
+        "severity": "warning",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.via_placement.via_in_smd_pad": {
+        "count": 4,
+        "profile_item": "vias.in_pad",
+        "severity": "error",
+        "source": "kct detect-mistakes"
+      },
+      "optimize_traces.mergeable_segments": {
+        "count": 1,
+        "profile_item": null,
+        "severity": "info",
+        "source": "kct optimize-traces"
+      },
+      "pad_grid": {
+        "count": 3,
+        "profile_item": null,
+        "severity": "warning",
+        "source": "kct check"
+      },
+      "silk_edge_clearance": {
+        "count": 6,
+        "profile_item": null,
+        "severity": "warning",
+        "source": "kct check"
+      },
+      "silk_explanatory_text": {
+        "count": 20,
+        "profile_item": "silkscreen.explanatory_text",
+        "severity": "error",
+        "source": "plugin"
+      },
+      "silk_over_copper": {
+        "count": 65,
+        "profile_item": "silkscreen.over_vias_or_pads",
+        "severity": "error",
+        "source": "kct check"
+      },
+      "silk_overlap": {
+        "count": 160,
+        "profile_item": "silkscreen.over_vias_or_pads",
+        "severity": "error",
+        "source": "kct check"
+      },
+      "silk_pad_clearance": {
+        "count": 55,
+        "profile_item": null,
+        "severity": "error",
+        "source": "kct check"
+      },
+      "silk_text_below_min": {
+        "count": 19,
+        "profile_item": "silkscreen.text_height_mm",
+        "severity": "warning",
+        "source": "plugin"
+      },
+      "silkscreen_line_width": {
+        "count": 926,
+        "profile_item": null,
+        "severity": "warning",
+        "source": "kct check"
+      },
+      "silkscreen_text_height": {
+        "count": 19,
+        "profile_item": "silkscreen.text_height_mm",
+        "severity": "warning",
+        "source": "kct check"
+      }
+    },
+    "errors": 304,
+    "infos": 29,
+    "suppressed": 0,
+    "warnings": 2411
+  },
+  "after_summary": {
+    "by_rule": {
+      "decoupling_distance": {
+        "count": 29,
+        "profile_item": "decoupling.max_pin_distance_mm",
+        "severity": "warning",
+        "source": "plugin"
+      },
+      "mistake.bom_health.component_missing_manufacturer_part_number": {
+        "count": 206,
+        "profile_item": null,
+        "severity": "warning",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.bypass_capacitor.bypass_capacitor_placement_could_be_improved": {
+        "count": 25,
+        "profile_item": "decoupling.max_pin_distance_mm",
+        "severity": "info",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin": {
+        "count": 1062,
+        "profile_item": "decoupling.max_pin_distance_mm",
+        "severity": "warning",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.connectivity.led_missing_series_resistor": {
+        "count": 4,
+        "profile_item": null,
+        "severity": "warning",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.connectivity.missing_pull_up_resistor": {
+        "count": 1,
+        "profile_item": null,
+        "severity": "warning",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.differential_pair.differential_pair_length_matching_could_be_improved": {
+        "count": 1,
+        "profile_item": null,
+        "severity": "info",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.manufacturability.acute_angle_in_trace_acid_trap": {
+        "count": 16,
+        "profile_item": null,
+        "severity": "warning",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.manufacturability.thermal_imbalance_may_cause_tombstoning": {
+        "count": 102,
+        "profile_item": null,
+        "severity": "warning",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.power_trace.power_trace_too_narrow": {
+        "count": 10,
+        "profile_item": null,
+        "severity": "warning",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.thermal_management.thermal_pad_may_need_more_vias": {
+        "count": 2,
+        "profile_item": null,
+        "severity": "info",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.thermal_management.thermal_pad_not_connected_to_ground": {
+        "count": 8,
+        "profile_item": null,
+        "severity": "warning",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.via_placement.via_in_smd_pad": {
+        "count": 4,
+        "profile_item": "vias.in_pad",
+        "severity": "error",
+        "source": "kct detect-mistakes"
+      },
+      "optimize_traces.mergeable_segments": {
+        "count": 1,
+        "profile_item": null,
+        "severity": "info",
+        "source": "kct optimize-traces"
+      },
+      "pad_grid": {
+        "count": 3,
+        "profile_item": null,
+        "severity": "warning",
+        "source": "kct check"
+      },
+      "silk_edge_clearance": {
+        "count": 6,
+        "profile_item": null,
+        "severity": "warning",
+        "source": "kct check"
+      },
+      "silk_explanatory_text": {
+        "count": 20,
+        "profile_item": "silkscreen.explanatory_text",
+        "severity": "error",
+        "source": "plugin"
+      },
+      "silk_over_copper": {
+        "count": 67,
+        "profile_item": "silkscreen.over_vias_or_pads",
+        "severity": "error",
+        "source": "kct check"
+      },
+      "silk_overlap": {
+        "count": 154,
+        "profile_item": "silkscreen.over_vias_or_pads",
+        "severity": "error",
+        "source": "kct check"
+      },
+      "silk_pad_clearance": {
+        "count": 58,
+        "profile_item": null,
+        "severity": "error",
+        "source": "kct check"
+      },
+      "silk_text_below_min": {
+        "count": 19,
+        "profile_item": "silkscreen.text_height_mm",
+        "severity": "warning",
+        "source": "plugin"
+      },
+      "silkscreen_line_width": {
+        "count": 926,
+        "profile_item": null,
+        "severity": "warning",
+        "source": "kct check"
+      },
+      "silkscreen_text_height": {
+        "count": 19,
+        "profile_item": "silkscreen.text_height_mm",
+        "severity": "warning",
+        "source": "kct check"
+      }
+    },
+    "errors": 303,
+    "infos": 29,
+    "suppressed": 0,
+    "warnings": 2411
+  },
+  "added": [
+    {
+      "description": "Board silkscreen text \"-5 V\" on F.SilkS",
+      "items": [
+        {
+          "description": "-5 V",
+          "pos": {
+            "x": 67.2,
+            "y": 109.5
+          }
+        }
+      ],
+      "profile_item": "silkscreen.explanatory_text",
+      "severity": "error",
+      "source": "plugin",
+      "type": "silk_explanatory_text"
+    },
+    {
+      "description": "Silkscreen gr_line overlaps exposed copper of C400 pad 1",
+      "items": [
+        {
+          "description": "gr_line, C400 pad 1 on F.SilkS",
+          "pos": {
+            "x": 91.7,
+            "y": 136.1
+          }
+        }
+      ],
+      "profile_item": "silkscreen.over_vias_or_pads",
+      "severity": "error",
+      "source": "kct check",
+      "type": "silk_over_copper"
+    },
+    {
+      "description": "Silkscreen gr_line overlaps exposed copper of C403 pad 2",
+      "items": [
+        {
+          "description": "gr_line, C403 pad 2 on F.SilkS",
+          "pos": {
+            "x": 76.4,
+            "y": 136.1
+          }
+        }
+      ],
+      "profile_item": "silkscreen.over_vias_or_pads",
+      "severity": "error",
+      "source": "kct check",
+      "type": "silk_over_copper"
+    },
+    {
+      "description": "Silkscreen gr_line overlaps exposed copper of R408 pad 1",
+      "items": [
+        {
+          "description": "gr_line, R408 pad 1 on F.SilkS",
+          "pos": {
+            "x": 91.7,
+            "y": 136.1
+          }
+        }
+      ],
+      "profile_item": "silkscreen.over_vias_or_pads",
+      "severity": "error",
+      "source": "kct check",
+      "type": "silk_over_copper"
+    },
+    {
+      "description": "Silkscreen gr_line overlaps exposed copper of R408 pad 2",
+      "items": [
+        {
+          "description": "gr_line, R408 pad 2 on F.SilkS",
+          "pos": {
+            "x": 91.7,
+            "y": 136.1
+          }
+        }
+      ],
+      "profile_item": "silkscreen.over_vias_or_pads",
+      "severity": "error",
+      "source": "kct check",
+      "type": "silk_over_copper"
+    },
+    {
+      "description": "Silkscreen gr_line overlaps exposed copper of R614 pad 1",
+      "items": [
+        {
+          "description": "gr_line, R614 pad 1 on F.SilkS",
+          "pos": {
+            "x": 41.2,
+            "y": 147.6
+          }
+        }
+      ],
+      "profile_item": "silkscreen.over_vias_or_pads",
+      "severity": "error",
+      "source": "kct check",
+      "type": "silk_over_copper"
+    },
+    {
+      "description": "Silkscreen gr_line overlaps exposed copper of R614 pad 2",
+      "items": [
+        {
+          "description": "gr_line, R614 pad 2 on F.SilkS",
+          "pos": {
+            "x": 41.2,
+            "y": 147.6
+          }
+        }
+      ],
+      "profile_item": "silkscreen.over_vias_or_pads",
+      "severity": "error",
+      "source": "kct check",
+      "type": "silk_over_copper"
+    },
+    {
+      "description": "Silkscreen gr_line overlaps exposed copper of R615 pad 1",
+      "items": [
+        {
+          "description": "gr_line, R615 pad 1 on F.SilkS",
+          "pos": {
+            "x": 41.2,
+            "y": 147.6
+          }
+        }
+      ],
+      "profile_item": "silkscreen.over_vias_or_pads",
+      "severity": "error",
+      "source": "kct check",
+      "type": "silk_over_copper"
+    },
+    {
+      "description": "Silkscreen gr_line overlaps exposed copper of R615 pad 2",
+      "items": [
+        {
+          "description": "gr_line, R615 pad 2 on F.SilkS",
+          "pos": {
+            "x": 41.2,
+            "y": 147.6
+          }
+        }
+      ],
+      "profile_item": "silkscreen.over_vias_or_pads",
+      "severity": "error",
+      "source": "kct check",
+      "type": "silk_over_copper"
+    },
+    {
+      "description": "Silkscreen U41 (reference) overlaps silkscreen gr_line",
+      "items": [
+        {
+          "description": "U41 (reference) {40cea9c4-48cf-441f-a766-4930d8de5dc7}, gr_line {a7eb0b9c-e5f8-526a-8203-d7b3b839b701} on F.SilkS",
+          "pos": {
+            "x": 77.0,
+            "y": 141.7
+          }
+        }
+      ],
+      "profile_item": "silkscreen.over_vias_or_pads",
+      "severity": "error",
+      "source": "kct check",
+      "type": "silk_overlap"
+    },
+    {
+      "description": "Silkscreen U41 (reference) overlaps silkscreen gr_line",
+      "items": [
+        {
+          "description": "U41 (reference) {40cea9c4-48cf-441f-a766-4930d8de5dc7}, gr_line {dab294e6-4a21-5c8f-9048-9fe689e85528} on F.SilkS",
+          "pos": {
+            "x": 77.0,
+            "y": 141.7
+          }
+        }
+      ],
+      "profile_item": "silkscreen.over_vias_or_pads",
+      "severity": "error",
+      "source": "kct check",
+      "type": "silk_overlap"
+    },
+    {
+      "description": "Silkscreen gr_line overlaps silkscreen gr_line",
+      "items": [
+        {
+          "description": "gr_line {76cb42e0-9e4c-51f7-9ab4-a6bb43518a11}, gr_line {2e5bc1d4-f5d1-586c-98a7-a5ce9f91dfdf} on F.SilkS",
+          "pos": {
+            "x": 41.2,
+            "y": 147.6
+          }
+        }
+      ],
+      "profile_item": "silkscreen.over_vias_or_pads",
+      "severity": "error",
+      "source": "kct check",
+      "type": "silk_overlap"
+    },
+    {
+      "description": "Silkscreen gr_line overlaps silkscreen gr_line",
+      "items": [
+        {
+          "description": "gr_line {8c3c2106-988b-5251-8c0c-6f350cbe9147}, gr_line {e5d129c5-ad48-50b3-9012-0a6cfd6433ed} on F.SilkS",
+          "pos": {
+            "x": 91.7,
+            "y": 145.6
+          }
+        }
+      ],
+      "profile_item": "silkscreen.over_vias_or_pads",
+      "severity": "error",
+      "source": "kct check",
+      "type": "silk_overlap"
+    },
+    {
+      "description": "Silkscreen gr_line overlaps silkscreen gr_line",
+      "items": [
+        {
+          "description": "gr_line {a7eb0b9c-e5f8-526a-8203-d7b3b839b701}, gr_line {caef005a-dcc9-5fcc-9511-5cb9fca0dddc} on F.SilkS",
+          "pos": {
+            "x": 76.4,
+            "y": 136.1
+          }
+        }
+      ],
+      "profile_item": "silkscreen.over_vias_or_pads",
+      "severity": "error",
+      "source": "kct check",
+      "type": "silk_overlap"
+    },
+    {
+      "description": "Silkscreen gr_line overlaps silkscreen gr_line",
+      "items": [
+        {
+          "description": "gr_line {a7eb0b9c-e5f8-526a-8203-d7b3b839b701}, gr_line {cc06213a-8db3-5d01-ba14-f97561009785} on F.SilkS",
+          "pos": {
+            "x": 76.4,
+            "y": 136.1
+          }
+        }
+      ],
+      "profile_item": "silkscreen.over_vias_or_pads",
+      "severity": "error",
+      "source": "kct check",
+      "type": "silk_overlap"
+    },
+    {
+      "description": "Silkscreen gr_line overlaps silkscreen gr_line",
+      "items": [
+        {
+          "description": "gr_line {cc06213a-8db3-5d01-ba14-f97561009785}, gr_line {8c3c2106-988b-5251-8c0c-6f350cbe9147} on F.SilkS",
+          "pos": {
+            "x": 91.7,
+            "y": 136.1
+          }
+        }
+      ],
+      "profile_item": "silkscreen.over_vias_or_pads",
+      "severity": "error",
+      "source": "kct check",
+      "type": "silk_overlap"
+    },
+    {
+      "description": "Silkscreen gr_line overlaps silkscreen gr_line",
+      "items": [
+        {
+          "description": "gr_line {d2446f64-5b06-5c72-a201-b5fe97c7f9fa}, gr_line {5b2e4d0f-6afc-50f3-869f-3423e3833a94} on F.SilkS",
+          "pos": {
+            "x": 91.2,
+            "y": 136.1
+          }
+        }
+      ],
+      "profile_item": "silkscreen.over_vias_or_pads",
+      "severity": "error",
+      "source": "kct check",
+      "type": "silk_overlap"
+    },
+    {
+      "description": "Silkscreen gr_line overlaps silkscreen gr_line",
+      "items": [
+        {
+          "description": "gr_line {d2446f64-5b06-5c72-a201-b5fe97c7f9fa}, gr_line {cc06213a-8db3-5d01-ba14-f97561009785} on F.SilkS",
+          "pos": {
+            "x": 91.2,
+            "y": 136.1
+          }
+        }
+      ],
+      "profile_item": "silkscreen.over_vias_or_pads",
+      "severity": "error",
+      "source": "kct check",
+      "type": "silk_overlap"
+    },
+    {
+      "description": "Silkscreen gr_line overlaps silkscreen gr_line",
+      "items": [
+        {
+          "description": "gr_line {dab294e6-4a21-5c8f-9048-9fe689e85528}, gr_line {5b2e4d0f-6afc-50f3-869f-3423e3833a94} on F.SilkS",
+          "pos": {
+            "x": 76.9,
+            "y": 145.75
+          }
+        }
+      ],
+      "profile_item": "silkscreen.over_vias_or_pads",
+      "severity": "error",
+      "source": "kct check",
+      "type": "silk_overlap"
+    },
+    {
+      "description": "Silkscreen gr_line overlaps silkscreen gr_line",
+      "items": [
+        {
+          "description": "gr_line {dab294e6-4a21-5c8f-9048-9fe689e85528}, gr_line {cc06213a-8db3-5d01-ba14-f97561009785} on F.SilkS",
+          "pos": {
+            "x": 76.9,
+            "y": 145.75
+          }
+        }
+      ],
+      "profile_item": "silkscreen.over_vias_or_pads",
+      "severity": "error",
+      "source": "kct check",
+      "type": "silk_overlap"
+    },
+    {
+      "description": "Silk to pad clearance 0.0000mm < 0.15mm",
+      "items": [
+        {
+          "description": "board line, R615-1 on F.SilkS",
+          "pos": {
+            "x": 41.2,
+            "y": 147.6
+          }
+        }
+      ],
+      "severity": "error",
+      "source": "kct check",
+      "type": "silk_pad_clearance"
+    },
+    {
+      "description": "Silk to pad clearance 0.0000mm < 0.15mm",
+      "items": [
+        {
+          "description": "board line, R614-2 on F.SilkS",
+          "pos": {
+            "x": 41.2,
+            "y": 147.6
+          }
+        }
+      ],
+      "severity": "error",
+      "source": "kct check",
+      "type": "silk_pad_clearance"
+    },
+    {
+      "description": "Silk to pad clearance 0.0000mm < 0.15mm",
+      "items": [
+        {
+          "description": "board line, R614-1 on F.SilkS",
+          "pos": {
+            "x": 41.2,
+            "y": 147.6
+          }
+        }
+      ],
+      "severity": "error",
+      "source": "kct check",
+      "type": "silk_pad_clearance"
+    },
+    {
+      "description": "Silk to pad clearance 0.0000mm < 0.15mm",
+      "items": [
+        {
+          "description": "board line, R615-2 on F.SilkS",
+          "pos": {
+            "x": 41.2,
+            "y": 147.6
+          }
+        }
+      ],
+      "severity": "error",
+      "source": "kct check",
+      "type": "silk_pad_clearance"
+    },
+    {
+      "description": "Silk to pad clearance 0.0000mm < 0.15mm",
+      "items": [
+        {
+          "description": "board line, C403-2 on F.SilkS",
+          "pos": {
+            "x": 76.4,
+            "y": 136.1
+          }
+        }
+      ],
+      "severity": "error",
+      "source": "kct check",
+      "type": "silk_pad_clearance"
+    },
+    {
+      "description": "Silk to pad clearance 0.0000mm < 0.15mm",
+      "items": [
+        {
+          "description": "board line, C400-1 on F.SilkS",
+          "pos": {
+            "x": 91.7,
+            "y": 136.1
+          }
+        }
+      ],
+      "severity": "error",
+      "source": "kct check",
+      "type": "silk_pad_clearance"
+    },
+    {
+      "description": "Silk to pad clearance 0.0000mm < 0.15mm",
+      "items": [
+        {
+          "description": "board line, R408-1 on F.SilkS",
+          "pos": {
+            "x": 91.7,
+            "y": 136.1
+          }
+        }
+      ],
+      "severity": "error",
+      "source": "kct check",
+      "type": "silk_pad_clearance"
+    },
+    {
+      "description": "Silk to pad clearance 0.0000mm < 0.15mm",
+      "items": [
+        {
+          "description": "board line, R408-2 on F.SilkS",
+          "pos": {
+            "x": 91.7,
+            "y": 136.1
+          }
+        }
+      ],
+      "severity": "error",
+      "source": "kct check",
+      "type": "silk_pad_clearance"
+    },
+    {
+      "description": "Silk to pad clearance 0.0000mm < 0.15mm",
+      "items": [
+        {
+          "description": "board line, C403-2 on F.SilkS",
+          "pos": {
+            "x": 91.7,
+            "y": 136.1
+          }
+        }
+      ],
+      "severity": "error",
+      "source": "kct check",
+      "type": "silk_pad_clearance"
+    },
+    {
+      "description": "U44 pin 1 (CT1_NEG_PUMP) has no decoupler within 2 mm (nearest C422 at 2.77 mm)",
+      "items": [
+        {
+          "description": "U44.1",
+          "pos": {
+            "x": 66.063,
+            "y": 113.05
+          }
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "plugin",
+      "type": "decoupling_distance"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C4 is 37.9mm from C421 pin 1 (+5V_ADC). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 37.9mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C4, C421"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C4 is 35.3mm from U44 pin 2 (+5V_ADC). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 35.3mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C4, U44"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C2 is 41.8mm from C421 pin 1 (+5V_ADC). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 41.8mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C2, C421"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C2 is 38.9mm from U44 pin 2 (+5V_ADC). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 38.9mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C2, U44"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C733 is 13.7mm from R421 pin 2 (-5V_CT). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 13.7mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C733, R421"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C733 is 18.1mm from C423 pin 1 (-5V_CT). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 18.1mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C733, C423"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C10 is 40.5mm from C421 pin 1 (+5V_ADC). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 40.5mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C10, C421"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C10 is 38.1mm from U44 pin 2 (+5V_ADC). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 38.1mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C10, U44"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C713 is 31.7mm from R421 pin 2 (-5V_CT). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 31.7mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C713, R421"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C713 is 36.0mm from C423 pin 1 (-5V_CT). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 36.0mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C713, C423"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C603 is 46.7mm from C421 pin 1 (+5V_ADC). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 46.7mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C603, C421"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C603 is 45.8mm from U44 pin 2 (+5V_ADC). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 45.8mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C603, U44"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C421 is 36.7mm from C4 pin 1 (+5V_ADC). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 36.7mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C421, C4"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C421 is 22.7mm from U41 pin 5 (+5V_ADC). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 22.7mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C421, U41"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C421 is 40.5mm from C2 pin 1 (+5V_ADC). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 40.5mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C421, C2"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C421 is 26.2mm from D71 pin 2 (+5V_ADC). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 26.2mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C421, D71"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C421 is 41.3mm from R20 pin 2 (+5V_ADC). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 41.3mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C421, R20"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C421 is 39.4mm from C10 pin 1 (+5V_ADC). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 39.4mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C421, C10"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C421 is 46.2mm from C603 pin 1 (+5V_ADC). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 46.2mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C421, C603"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C421 is 44.9mm from C601 pin 1 (+5V_ADC). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 44.9mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C421, C601"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C421 is 27.0mm from C1 pin 1 (+5V_ADC). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 27.0mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C421, C1"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C421 is 40.1mm from U60 pin 5 (+5V_ADC). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 40.1mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C421, U60"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C421 is 42.2mm from C3 pin 1 (+5V_ADC). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 42.2mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C421, C3"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C421 is 42.7mm from U61 pin 5 (+5V_ADC). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 42.7mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C421, U61"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C421 is 33.2mm from D70 pin 2 (+5V_ADC). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 33.2mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C421, D70"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C421 is 32.5mm from U1 pin 1 (+5V_ADC). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 32.5mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C421, U1"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C421 is 39.0mm from U1 pin 37 (+5V_ADC). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 39.0mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C421, U1"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C421 is 39.2mm from U1 pin 38 (+5V_ADC). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 39.2mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C421, U1"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C421 is 41.6mm from U1 pin 48 (+5V_ADC). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 41.6mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C421, U1"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C421 is 22.1mm from D72 pin 2 (+5V_ADC). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 22.1mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C421, D72"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C421 is 8.4mm from D73 pin 2 (+5V_ADC). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 8.4mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C421, D73"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C421 is 22.1mm from C401 pin 1 (+5V_ADC). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 22.1mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C421, C401"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C421 is 17.1mm from U40 pin 5 (+5V_ADC). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 17.1mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C421, U40"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C421 is 24.7mm from C403 pin 1 (+5V_ADC). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 24.7mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C421, C403"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C404 is 28.1mm from R421 pin 2 (-5V_CT). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 28.1mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C404, R421"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C404 is 26.2mm from C423 pin 1 (-5V_CT). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 26.2mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C404, C423"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C601 is 44.8mm from C421 pin 1 (+5V_ADC). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 44.8mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C601, C421"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C601 is 45.1mm from U44 pin 2 (+5V_ADC). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 45.1mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C601, U44"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C1 is 28.6mm from C421 pin 1 (+5V_ADC). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 28.6mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C1, C421"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C1 is 25.0mm from U44 pin 2 (+5V_ADC). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 25.0mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C1, U44"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C703 is 35.7mm from R421 pin 2 (-5V_CT). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 35.7mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C703, R421"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C703 is 39.0mm from C423 pin 1 (-5V_CT). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 39.0mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C703, C423"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C402 is 20.5mm from R421 pin 2 (-5V_CT). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 20.5mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C402, R421"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C402 is 16.7mm from C423 pin 1 (-5V_CT). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 16.7mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C402, C423"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C3 is 43.6mm from C421 pin 1 (+5V_ADC). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 43.6mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C3, C421"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C3 is 40.6mm from U44 pin 2 (+5V_ADC). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 40.6mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C3, U44"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C602 is 43.4mm from R421 pin 2 (-5V_CT). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 43.4mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C602, R421"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C602 is 39.3mm from C423 pin 1 (-5V_CT). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 39.3mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C602, C423"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C401 is 21.8mm from C421 pin 1 (+5V_ADC). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 21.8mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C401, C421"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C401 is 22.6mm from U44 pin 2 (+5V_ADC). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 22.6mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C401, U44"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C403 is 25.6mm from C421 pin 1 (+5V_ADC). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 25.6mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C403, C421"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C403 is 23.8mm from U44 pin 2 (+5V_ADC). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 23.8mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C403, U44"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C423 is 17.9mm from C733 pin 1 (-5V_CT). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 17.9mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C423, C733"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C423 is 20.0mm from U72 pin 2 (-5V_CT). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 20.0mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C423, U72"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C423 is 35.6mm from U70 pin 2 (-5V_CT). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 35.6mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C423, U70"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C423 is 35.9mm from C713 pin 1 (-5V_CT). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 35.9mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C423, C713"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C423 is 24.7mm from C404 pin 1 (-5V_CT). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 24.7mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C423, C404"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C423 is 39.8mm from C703 pin 1 (-5V_CT). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 39.8mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C423, C703"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C423 is 16.3mm from C402 pin 1 (-5V_CT). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 16.3mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C423, C402"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C423 is 39.0mm from U60 pin 2 (-5V_CT). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 39.0mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C423, U60"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C423 is 41.7mm from U61 pin 2 (-5V_CT). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 41.7mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C423, U61"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C423 is 39.1mm from C602 pin 1 (-5V_CT). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 39.1mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C423, C602"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C423 is 33.3mm from U71 pin 2 (-5V_CT). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 33.3mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C423, U71"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C423 is 15.7mm from U73 pin 2 (-5V_CT). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 15.7mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C423, U73"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C423 is 16.1mm from U40 pin 2 (-5V_CT). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 16.1mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C423, U40"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C423 is 21.6mm from C741 pin 1 (-5V_CT). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 21.6mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C423, C741"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C423 is 24.9mm from C723 pin 1 (-5V_CT). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 24.9mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C423, C723"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C423 is 43.3mm from C604 pin 1 (-5V_CT). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 43.3mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C423, C604"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C741 is 17.4mm from R421 pin 2 (-5V_CT). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 17.4mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C741, R421"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C741 is 21.8mm from C423 pin 1 (-5V_CT). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 21.8mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C741, C423"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C723 is 21.5mm from R421 pin 2 (-5V_CT). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 21.5mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C723, R421"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C723 is 23.6mm from C423 pin 1 (-5V_CT). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 23.6mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C723, C423"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C604 is 47.4mm from R421 pin 2 (-5V_CT). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 47.4mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C604, R421"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C604 is 44.2mm from C423 pin 1 (-5V_CT). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 44.2mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C604, C423"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Silkscreen text below profile minimum (0.90x0.90 mm, 0.150 mm stroke; min 1 mm height, 0.15 mm stroke)",
+      "items": [
+        {
+          "description": "board board \"-5 V\"",
+          "pos": {
+            "x": 67.2,
+            "y": 109.5
+          }
+        }
+      ],
+      "profile_item": "silkscreen.text_height_mm",
+      "severity": "warning",
+      "source": "plugin",
+      "type": "silk_text_below_min"
+    },
+    {
+      "description": "Silkscreen line width 0.12mm < minimum 0.15mm on R421",
+      "items": [
+        {
+          "description": "R421, fp_line on F.SilkS",
+          "pos": {
+            "x": 60.6,
+            "y": 111.75
+          }
+        }
+      ],
+      "severity": "warning",
+      "source": "kct check",
+      "type": "silkscreen_line_width"
+    },
+    {
+      "description": "Silkscreen line width 0.12mm < minimum 0.15mm on R421",
+      "items": [
+        {
+          "description": "R421, fp_line on F.SilkS",
+          "pos": {
+            "x": 60.6,
+            "y": 111.75
+          }
+        }
+      ],
+      "severity": "warning",
+      "source": "kct check",
+      "type": "silkscreen_line_width"
+    },
+    {
+      "description": "Silkscreen line width 0.12mm < minimum 0.15mm on C422",
+      "items": [
+        {
+          "description": "C422, fp_line on F.SilkS",
+          "pos": {
+            "x": 63.8,
+            "y": 110.5
+          }
+        }
+      ],
+      "severity": "warning",
+      "source": "kct check",
+      "type": "silkscreen_line_width"
+    },
+    {
+      "description": "Silkscreen line width 0.12mm < minimum 0.15mm on C422",
+      "items": [
+        {
+          "description": "C422, fp_line on F.SilkS",
+          "pos": {
+            "x": 63.8,
+            "y": 110.5
+          }
+        }
+      ],
+      "severity": "warning",
+      "source": "kct check",
+      "type": "silkscreen_line_width"
+    },
+    {
+      "description": "Silkscreen line width 0.12mm < minimum 0.15mm on C420",
+      "items": [
+        {
+          "description": "C420, fp_line on F.SilkS",
+          "pos": {
+            "x": 67.2,
+            "y": 117.0
+          }
+        }
+      ],
+      "severity": "warning",
+      "source": "kct check",
+      "type": "silkscreen_line_width"
+    },
+    {
+      "description": "Silkscreen line width 0.12mm < minimum 0.15mm on C420",
+      "items": [
+        {
+          "description": "C420, fp_line on F.SilkS",
+          "pos": {
+            "x": 67.2,
+            "y": 117.0
+          }
+        }
+      ],
+      "severity": "warning",
+      "source": "kct check",
+      "type": "silkscreen_line_width"
+    },
+    {
+      "description": "Silkscreen line width 0.12mm < minimum 0.15mm on C421",
+      "items": [
+        {
+          "description": "C421, fp_line on F.SilkS",
+          "pos": {
+            "x": 63.2,
+            "y": 114.0
+          }
+        }
+      ],
+      "severity": "warning",
+      "source": "kct check",
+      "type": "silkscreen_line_width"
+    },
+    {
+      "description": "Silkscreen line width 0.12mm < minimum 0.15mm on C421",
+      "items": [
+        {
+          "description": "C421, fp_line on F.SilkS",
+          "pos": {
+            "x": 63.2,
+            "y": 114.0
+          }
+        }
+      ],
+      "severity": "warning",
+      "source": "kct check",
+      "type": "silkscreen_line_width"
+    },
+    {
+      "description": "Silkscreen line width 0.12mm < minimum 0.15mm on C423",
+      "items": [
+        {
+          "description": "C423, fp_line on F.SilkS",
+          "pos": {
+            "x": 61.2,
+            "y": 116.0
+          }
+        }
+      ],
+      "severity": "warning",
+      "source": "kct check",
+      "type": "silkscreen_line_width"
+    },
+    {
+      "description": "Silkscreen line width 0.12mm < minimum 0.15mm on C423",
+      "items": [
+        {
+          "description": "C423, fp_line on F.SilkS",
+          "pos": {
+            "x": 61.2,
+            "y": 116.0
+          }
+        }
+      ],
+      "severity": "warning",
+      "source": "kct check",
+      "type": "silkscreen_line_width"
+    },
+    {
+      "description": "Silkscreen line width 0.12mm < minimum 0.15mm on U44",
+      "items": [
+        {
+          "description": "U44, fp_line on F.SilkS",
+          "pos": {
+            "x": 67.2,
+            "y": 114.0
+          }
+        }
+      ],
+      "severity": "warning",
+      "source": "kct check",
+      "type": "silkscreen_line_width"
+    },
+    {
+      "description": "Silkscreen line width 0.12mm < minimum 0.15mm on U44",
+      "items": [
+        {
+          "description": "U44, fp_line on F.SilkS",
+          "pos": {
+            "x": 67.2,
+            "y": 114.0
+          }
+        }
+      ],
+      "severity": "warning",
+      "source": "kct check",
+      "type": "silkscreen_line_width"
+    },
+    {
+      "description": "Silkscreen line width 0.12mm < minimum 0.15mm on U44",
+      "items": [
+        {
+          "description": "U44, fp_line on F.SilkS",
+          "pos": {
+            "x": 67.2,
+            "y": 114.0
+          }
+        }
+      ],
+      "severity": "warning",
+      "source": "kct check",
+      "type": "silkscreen_line_width"
+    },
+    {
+      "description": "Silkscreen line width 0.12mm < minimum 0.15mm on U44",
+      "items": [
+        {
+          "description": "U44, fp_line on F.SilkS",
+          "pos": {
+            "x": 67.2,
+            "y": 114.0
+          }
+        }
+      ],
+      "severity": "warning",
+      "source": "kct check",
+      "type": "silkscreen_line_width"
+    },
+    {
+      "description": "Silkscreen line width 0.12mm < minimum 0.15mm on U44",
+      "items": [
+        {
+          "description": "U44, fp_poly on F.SilkS",
+          "pos": {
+            "x": 67.2,
+            "y": 114.0
+          }
+        }
+      ],
+      "severity": "warning",
+      "source": "kct check",
+      "type": "silkscreen_line_width"
+    },
+    {
+      "description": "Silkscreen text height 0.90mm < minimum 1.00mm",
+      "items": [
+        {
+          "description": "-5 V on F.SilkS",
+          "pos": {
+            "x": 87.6,
+            "y": 137.1
+          }
+        }
+      ],
+      "profile_item": "silkscreen.text_height_mm",
+      "severity": "warning",
+      "source": "kct check",
+      "type": "silkscreen_text_height"
+    },
+    {
+      "description": "kct optimize-traces would remove 15 of 1331 segments (corners 951 -> 1053, length -0.6%); merge collinear segments and drop zigzags",
+      "items": [],
+      "severity": "info",
+      "source": "kct optimize-traces",
+      "type": "optimize_traces.mergeable_segments"
+    }
+  ],
+  "removed": [
+    {
+      "description": "Board silkscreen text \"-5 V\" on F.SilkS",
+      "items": [
+        {
+          "description": "-5 V",
+          "pos": {
+            "x": 63.2,
+            "y": 114.5
+          }
+        }
+      ],
+      "profile_item": "silkscreen.explanatory_text",
+      "severity": "error",
+      "source": "plugin",
+      "type": "silk_explanatory_text"
+    },
+    {
+      "description": "Silkscreen gr_line overlaps exposed copper of R607 pad 1",
+      "items": [
+        {
+          "description": "gr_line, R607 pad 1 on F.SilkS",
+          "pos": {
+            "x": 87.2,
+            "y": 150.75
+          }
+        }
+      ],
+      "profile_item": "silkscreen.over_vias_or_pads",
+      "severity": "error",
+      "source": "kct check",
+      "type": "silk_over_copper"
+    },
+    {
+      "description": "Silkscreen gr_line overlaps exposed copper of R607 pad 2",
+      "items": [
+        {
+          "description": "gr_line, R607 pad 2 on F.SilkS",
+          "pos": {
+            "x": 87.2,
+            "y": 150.75
+          }
+        }
+      ],
+      "profile_item": "silkscreen.over_vias_or_pads",
+      "severity": "error",
+      "source": "kct check",
+      "type": "silk_over_copper"
+    },
+    {
+      "description": "Silkscreen gr_line overlaps exposed copper of R614 pad 1",
+      "items": [
+        {
+          "description": "gr_line, R614 pad 1 on F.SilkS",
+          "pos": {
+            "x": 88.4,
+            "y": 147.6
+          }
+        }
+      ],
+      "profile_item": "silkscreen.over_vias_or_pads",
+      "severity": "error",
+      "source": "kct check",
+      "type": "silk_over_copper"
+    },
+    {
+      "description": "Silkscreen gr_line overlaps exposed copper of R614 pad 2",
+      "items": [
+        {
+          "description": "gr_line, R614 pad 2 on F.SilkS",
+          "pos": {
+            "x": 88.4,
+            "y": 147.6
+          }
+        }
+      ],
+      "profile_item": "silkscreen.over_vias_or_pads",
+      "severity": "error",
+      "source": "kct check",
+      "type": "silk_over_copper"
+    },
+    {
+      "description": "Silkscreen gr_line overlaps exposed copper of R615 pad 1",
+      "items": [
+        {
+          "description": "gr_line, R615 pad 1 on F.SilkS",
+          "pos": {
+            "x": 88.4,
+            "y": 147.6
+          }
+        }
+      ],
+      "profile_item": "silkscreen.over_vias_or_pads",
+      "severity": "error",
+      "source": "kct check",
+      "type": "silk_over_copper"
+    },
+    {
+      "description": "Silkscreen gr_line overlaps exposed copper of R615 pad 2",
+      "items": [
+        {
+          "description": "gr_line, R615 pad 2 on F.SilkS",
+          "pos": {
+            "x": 88.4,
+            "y": 147.6
+          }
+        }
+      ],
+      "profile_item": "silkscreen.over_vias_or_pads",
+      "severity": "error",
+      "source": "kct check",
+      "type": "silk_over_copper"
+    },
+    {
+      "description": "Silkscreen R607 (fp_line) overlaps silkscreen gr_line",
+      "items": [
+        {
+          "description": "R607 (fp_line) {8e95961d-f4bf-4154-ab36-247a92dbb214}, gr_line {5b2e4d0f-6afc-50f3-869f-3423e3833a94} on F.SilkS",
+          "pos": {
+            "x": 76.775,
+            "y": 151.4
+          }
+        }
+      ],
+      "profile_item": "silkscreen.over_vias_or_pads",
+      "severity": "error",
+      "source": "kct check",
+      "type": "silk_overlap"
+    },
+    {
+      "description": "Silkscreen U41 (reference) overlaps silkscreen gr_line",
+      "items": [
+        {
+          "description": "U41 (reference) {40cea9c4-48cf-441f-a766-4930d8de5dc7}, gr_line {cc06213a-8db3-5d01-ba14-f97561009785} on F.SilkS",
+          "pos": {
+            "x": 77.0,
+            "y": 141.7
+          }
+        }
+      ],
+      "profile_item": "silkscreen.over_vias_or_pads",
+      "severity": "error",
+      "source": "kct check",
+      "type": "silk_overlap"
+    },
+    {
+      "description": "Silkscreen U61 (fp_line) overlaps silkscreen gr_line",
+      "items": [
+        {
+          "description": "U61 (fp_line) {0c1744ff-f2d2-4b4e-b7c0-48d4d1d666e1}, gr_line {bcce4bc7-9990-540c-8323-dbb4390e81af} on F.SilkS",
+          "pos": {
+            "x": 77.0,
+            "y": 155.0
+          }
+        }
+      ],
+      "profile_item": "silkscreen.over_vias_or_pads",
+      "severity": "error",
+      "source": "kct check",
+      "type": "silk_overlap"
+    },
+    {
+      "description": "Silkscreen U61 (fp_line) overlaps silkscreen gr_line",
+      "items": [
+        {
+          "description": "U61 (fp_line) {d309f39a-3488-4edb-a490-159924e24633}, gr_line {bcce4bc7-9990-540c-8323-dbb4390e81af} on F.SilkS",
+          "pos": {
+            "x": 77.0,
+            "y": 155.0
+          }
+        }
+      ],
+      "profile_item": "silkscreen.over_vias_or_pads",
+      "severity": "error",
+      "source": "kct check",
+      "type": "silk_overlap"
+    },
+    {
+      "description": "Silkscreen gr_line overlaps silkscreen gr_line",
+      "items": [
+        {
+          "description": "gr_line {4c6d3436-b269-4e29-a856-1f5f3d0f708c}, gr_line {eb80292f-899b-5b05-af07-1903462d132c} on F.SilkS",
+          "pos": {
+            "x": 88.1,
+            "y": 153.4
+          }
+        }
+      ],
+      "profile_item": "silkscreen.over_vias_or_pads",
+      "severity": "error",
+      "source": "kct check",
+      "type": "silk_overlap"
+    },
+    {
+      "description": "Silkscreen gr_line overlaps silkscreen gr_line",
+      "items": [
+        {
+          "description": "gr_line {76cb42e0-9e4c-51f7-9ab4-a6bb43518a11}, gr_line {77d4b96a-acc7-57c0-9a7f-184b1b179f4e} on F.SilkS",
+          "pos": {
+            "x": 41.2,
+            "y": 147.6
+          }
+        }
+      ],
+      "profile_item": "silkscreen.over_vias_or_pads",
+      "severity": "error",
+      "source": "kct check",
+      "type": "silk_overlap"
+    },
+    {
+      "description": "Silkscreen gr_line overlaps silkscreen gr_line",
+      "items": [
+        {
+          "description": "gr_line {77d4b96a-acc7-57c0-9a7f-184b1b179f4e}, gr_line {bcce4bc7-9990-540c-8323-dbb4390e81af} on F.SilkS",
+          "pos": {
+            "x": 72.4,
+            "y": 147.6
+          }
+        }
+      ],
+      "profile_item": "silkscreen.over_vias_or_pads",
+      "severity": "error",
+      "source": "kct check",
+      "type": "silk_overlap"
+    },
+    {
+      "description": "Silkscreen gr_line overlaps silkscreen gr_line",
+      "items": [
+        {
+          "description": "gr_line {8c3c2106-988b-5251-8c0c-6f350cbe9147}, gr_line {e5d129c5-ad48-50b3-9012-0a6cfd6433ed} on F.SilkS",
+          "pos": {
+            "x": 88.4,
+            "y": 145.6
+          }
+        }
+      ],
+      "profile_item": "silkscreen.over_vias_or_pads",
+      "severity": "error",
+      "source": "kct check",
+      "type": "silk_overlap"
+    },
+    {
+      "description": "Silkscreen gr_line overlaps silkscreen gr_line",
+      "items": [
+        {
+          "description": "gr_line {9d9f6877-317a-5b02-a93f-cc8bacd176dc}, gr_line {2e5bc1d4-f5d1-586c-98a7-a5ce9f91dfdf} on F.SilkS",
+          "pos": {
+            "x": 88.4,
+            "y": 147.6
+          }
+        }
+      ],
+      "profile_item": "silkscreen.over_vias_or_pads",
+      "severity": "error",
+      "source": "kct check",
+      "type": "silk_overlap"
+    },
+    {
+      "description": "Silkscreen gr_line overlaps silkscreen gr_line",
+      "items": [
+        {
+          "description": "gr_line {9d9f6877-317a-5b02-a93f-cc8bacd176dc}, gr_line {eb80292f-899b-5b05-af07-1903462d132c} on F.SilkS",
+          "pos": {
+            "x": 88.4,
+            "y": 147.6
+          }
+        }
+      ],
+      "profile_item": "silkscreen.over_vias_or_pads",
+      "severity": "error",
+      "source": "kct check",
+      "type": "silk_overlap"
+    },
+    {
+      "description": "Silkscreen gr_line overlaps silkscreen gr_line",
+      "items": [
+        {
+          "description": "gr_line {a7eb0b9c-e5f8-526a-8203-d7b3b839b701}, gr_line {caef005a-dcc9-5fcc-9511-5cb9fca0dddc} on F.SilkS",
+          "pos": {
+            "x": 72.4,
+            "y": 141.1
+          }
+        }
+      ],
+      "profile_item": "silkscreen.over_vias_or_pads",
+      "severity": "error",
+      "source": "kct check",
+      "type": "silk_overlap"
+    },
+    {
+      "description": "Silkscreen gr_line overlaps silkscreen gr_line",
+      "items": [
+        {
+          "description": "gr_line {a7eb0b9c-e5f8-526a-8203-d7b3b839b701}, gr_line {cc06213a-8db3-5d01-ba14-f97561009785} on F.SilkS",
+          "pos": {
+            "x": 72.4,
+            "y": 141.1
+          }
+        }
+      ],
+      "profile_item": "silkscreen.over_vias_or_pads",
+      "severity": "error",
+      "source": "kct check",
+      "type": "silk_overlap"
+    },
+    {
+      "description": "Silkscreen gr_line overlaps silkscreen gr_line",
+      "items": [
+        {
+          "description": "gr_line {cc06213a-8db3-5d01-ba14-f97561009785}, gr_line {8c3c2106-988b-5251-8c0c-6f350cbe9147} on F.SilkS",
+          "pos": {
+            "x": 88.4,
+            "y": 141.1
+          }
+        }
+      ],
+      "profile_item": "silkscreen.over_vias_or_pads",
+      "severity": "error",
+      "source": "kct check",
+      "type": "silk_overlap"
+    },
+    {
+      "description": "Silkscreen gr_line overlaps silkscreen gr_line",
+      "items": [
+        {
+          "description": "gr_line {d2446f64-5b06-5c72-a201-b5fe97c7f9fa}, gr_line {5b2e4d0f-6afc-50f3-869f-3423e3833a94} on F.SilkS",
+          "pos": {
+            "x": 87.2,
+            "y": 141.1
+          }
+        }
+      ],
+      "profile_item": "silkscreen.over_vias_or_pads",
+      "severity": "error",
+      "source": "kct check",
+      "type": "silk_overlap"
+    },
+    {
+      "description": "Silkscreen gr_line overlaps silkscreen gr_line",
+      "items": [
+        {
+          "description": "gr_line {d2446f64-5b06-5c72-a201-b5fe97c7f9fa}, gr_line {cc06213a-8db3-5d01-ba14-f97561009785} on F.SilkS",
+          "pos": {
+            "x": 87.2,
+            "y": 141.1
+          }
+        }
+      ],
+      "profile_item": "silkscreen.over_vias_or_pads",
+      "severity": "error",
+      "source": "kct check",
+      "type": "silk_overlap"
+    },
+    {
+      "description": "Silkscreen gr_line overlaps silkscreen gr_line",
+      "items": [
+        {
+          "description": "gr_line {dab294e6-4a21-5c8f-9048-9fe689e85528}, gr_line {5b2e4d0f-6afc-50f3-869f-3423e3833a94} on F.SilkS",
+          "pos": {
+            "x": 72.9,
+            "y": 150.75
+          }
+        }
+      ],
+      "profile_item": "silkscreen.over_vias_or_pads",
+      "severity": "error",
+      "source": "kct check",
+      "type": "silk_overlap"
+    },
+    {
+      "description": "Silkscreen gr_line overlaps silkscreen gr_line",
+      "items": [
+        {
+          "description": "gr_line {dab294e6-4a21-5c8f-9048-9fe689e85528}, gr_line {cc06213a-8db3-5d01-ba14-f97561009785} on F.SilkS",
+          "pos": {
+            "x": 72.9,
+            "y": 150.75
+          }
+        }
+      ],
+      "profile_item": "silkscreen.over_vias_or_pads",
+      "severity": "error",
+      "source": "kct check",
+      "type": "silk_overlap"
+    },
+    {
+      "description": "Silk to pad clearance 0.0000mm < 0.15mm",
+      "items": [
+        {
+          "description": "board line, R607-1 on F.SilkS",
+          "pos": {
+            "x": 87.2,
+            "y": 150.75
+          }
+        }
+      ],
+      "severity": "error",
+      "source": "kct check",
+      "type": "silk_pad_clearance"
+    },
+    {
+      "description": "Silk to pad clearance 0.0000mm < 0.15mm",
+      "items": [
+        {
+          "description": "board line, R607-2 on F.SilkS",
+          "pos": {
+            "x": 87.2,
+            "y": 150.75
+          }
+        }
+      ],
+      "severity": "error",
+      "source": "kct check",
+      "type": "silk_pad_clearance"
+    },
+    {
+      "description": "Silk to pad clearance 0.0000mm < 0.15mm",
+      "items": [
+        {
+          "description": "board line, R615-1 on F.SilkS",
+          "pos": {
+            "x": 88.4,
+            "y": 147.6
+          }
+        }
+      ],
+      "severity": "error",
+      "source": "kct check",
+      "type": "silk_pad_clearance"
+    },
+    {
+      "description": "Silk to pad clearance 0.0000mm < 0.15mm",
+      "items": [
+        {
+          "description": "board line, R614-1 on F.SilkS",
+          "pos": {
+            "x": 88.4,
+            "y": 147.6
+          }
+        }
+      ],
+      "severity": "error",
+      "source": "kct check",
+      "type": "silk_pad_clearance"
+    },
+    {
+      "description": "Silk to pad clearance 0.0000mm < 0.15mm",
+      "items": [
+        {
+          "description": "board line, R614-2 on F.SilkS",
+          "pos": {
+            "x": 88.4,
+            "y": 147.6
+          }
+        }
+      ],
+      "severity": "error",
+      "source": "kct check",
+      "type": "silk_pad_clearance"
+    },
+    {
+      "description": "Silk to pad clearance 0.0000mm < 0.15mm",
+      "items": [
+        {
+          "description": "board line, R615-2 on F.SilkS",
+          "pos": {
+            "x": 88.4,
+            "y": 147.6
+          }
+        }
+      ],
+      "severity": "error",
+      "source": "kct check",
+      "type": "silk_pad_clearance"
+    },
+    {
+      "description": "U44 pin 1 (CT1_NEG_PUMP) has no decoupler within 2 mm (nearest C422 at 2.77 mm)",
+      "items": [
+        {
+          "description": "U44.1",
+          "pos": {
+            "x": 62.063,
+            "y": 118.05
+          }
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "plugin",
+      "type": "decoupling_distance"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C4 is 44.3mm from C421 pin 1 (+5V_ADC). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 44.3mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C4, C421"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C4 is 41.7mm from U44 pin 2 (+5V_ADC). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 41.7mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C4, U44"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C2 is 48.1mm from C421 pin 1 (+5V_ADC). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 48.1mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C2, C421"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C2 is 45.3mm from U44 pin 2 (+5V_ADC). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 45.3mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C2, U44"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C733 is 19.4mm from R421 pin 2 (-5V_CT). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 19.4mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C733, R421"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C733 is 23.8mm from C423 pin 1 (-5V_CT). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 23.8mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C733, C423"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C10 is 46.9mm from C421 pin 1 (+5V_ADC). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 46.9mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C10, C421"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C10 is 44.5mm from U44 pin 2 (+5V_ADC). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 44.5mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C10, U44"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C713 is 37.0mm from R421 pin 2 (-5V_CT). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 37.0mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C713, R421"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C713 is 41.4mm from C423 pin 1 (-5V_CT). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 41.4mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C713, C423"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C603 is 43.4mm from C421 pin 1 (+5V_ADC). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 43.4mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C603, C421"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C603 is 42.0mm from U44 pin 2 (+5V_ADC). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 42.0mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C603, U44"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C421 is 43.1mm from C4 pin 1 (+5V_ADC). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 43.1mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C421, C4"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C421 is 22.4mm from U41 pin 5 (+5V_ADC). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 22.4mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C421, U41"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C421 is 46.8mm from C2 pin 1 (+5V_ADC). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 46.8mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C421, C2"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C421 is 31.1mm from D71 pin 2 (+5V_ADC). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 31.1mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C421, D71"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C421 is 47.7mm from R20 pin 2 (+5V_ADC). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 47.7mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C421, R20"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C421 is 45.8mm from C10 pin 1 (+5V_ADC). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 45.8mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C421, C10"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C421 is 42.7mm from C603 pin 1 (+5V_ADC). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 42.7mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C421, C603"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C421 is 39.7mm from C601 pin 1 (+5V_ADC). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 39.7mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C421, C601"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C421 is 32.6mm from C1 pin 1 (+5V_ADC). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 32.6mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C421, C1"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C421 is 35.2mm from U60 pin 5 (+5V_ADC). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 35.2mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C421, U60"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C421 is 48.5mm from C3 pin 1 (+5V_ADC). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 48.5mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C421, C3"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C421 is 39.8mm from U61 pin 5 (+5V_ADC). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 39.8mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C421, U61"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C421 is 35.2mm from D70 pin 2 (+5V_ADC). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 35.2mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C421, D70"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C421 is 38.8mm from U1 pin 1 (+5V_ADC). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 38.8mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C421, U1"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C421 is 44.8mm from U1 pin 37 (+5V_ADC). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 44.8mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C421, U1"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C421 is 45.1mm from U1 pin 38 (+5V_ADC). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 45.1mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C421, U1"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C421 is 47.7mm from U1 pin 48 (+5V_ADC). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 47.7mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C421, U1"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C421 is 21.1mm from D72 pin 2 (+5V_ADC). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 21.1mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C421, D72"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C421 is 13.1mm from D73 pin 2 (+5V_ADC). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 13.1mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C421, D73"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C421 is 16.7mm from C401 pin 1 (+5V_ADC). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 16.7mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C421, C401"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C421 is 12.4mm from U40 pin 5 (+5V_ADC). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 12.4mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C421, U40"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C421 is 22.9mm from C403 pin 1 (+5V_ADC). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 22.9mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C421, C403"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C404 is 28.0mm from R421 pin 2 (-5V_CT). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 28.0mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C404, R421"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C404 is 27.1mm from C423 pin 1 (-5V_CT). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 27.1mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C404, C423"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C601 is 39.7mm from C421 pin 1 (+5V_ADC). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 39.7mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C601, C421"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C601 is 39.8mm from U44 pin 2 (+5V_ADC). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 39.8mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C601, U44"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C1 is 34.2mm from C421 pin 1 (+5V_ADC). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 34.2mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C1, C421"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C1 is 30.8mm from U44 pin 2 (+5V_ADC). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 30.8mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C1, U44"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C703 is 38.8mm from R421 pin 2 (-5V_CT). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 38.8mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C703, R421"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C703 is 42.4mm from C423 pin 1 (-5V_CT). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 42.4mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C703, C423"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C402 is 17.0mm from R421 pin 2 (-5V_CT). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 17.0mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C402, R421"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C402 is 14.1mm from C423 pin 1 (-5V_CT). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 14.1mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C402, C423"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C3 is 49.8mm from C421 pin 1 (+5V_ADC). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 49.8mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C3, C421"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C3 is 46.9mm from U44 pin 2 (+5V_ADC). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 46.9mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C3, U44"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C602 is 39.0mm from R421 pin 2 (-5V_CT). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 39.0mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C602, R421"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C602 is 35.1mm from C423 pin 1 (-5V_CT). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 35.1mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C602, C423"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C401 is 16.8mm from C421 pin 1 (+5V_ADC). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 16.8mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C401, C421"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C401 is 16.8mm from U44 pin 2 (+5V_ADC). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 16.8mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C401, U44"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C403 is 24.3mm from C421 pin 1 (+5V_ADC). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 24.3mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C403, C421"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C403 is 21.7mm from U44 pin 2 (+5V_ADC). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 21.7mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C403, U44"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C423 is 23.4mm from C733 pin 1 (-5V_CT). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 23.4mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C423, C733"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C423 is 22.1mm from U72 pin 2 (-5V_CT). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 22.1mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C423, U72"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C423 is 39.1mm from U70 pin 2 (-5V_CT). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 39.1mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C423, U70"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C423 is 41.2mm from C713 pin 1 (-5V_CT). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 41.2mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C423, C713"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C423 is 25.4mm from C404 pin 1 (-5V_CT). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 25.4mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C423, C404"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C423 is 43.0mm from C703 pin 1 (-5V_CT). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 43.0mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C423, C703"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C423 is 13.0mm from C402 pin 1 (-5V_CT). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 13.0mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C423, C402"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C423 is 34.1mm from U60 pin 2 (-5V_CT). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 34.1mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C423, U60"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C423 is 38.8mm from U61 pin 2 (-5V_CT). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 38.8mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C423, U61"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C423 is 34.7mm from C602 pin 1 (-5V_CT). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 34.7mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C423, C602"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C423 is 39.0mm from U71 pin 2 (-5V_CT). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 39.0mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C423, U71"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C423 is 21.8mm from U73 pin 2 (-5V_CT). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 21.8mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C423, U73"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C423 is 11.3mm from U40 pin 2 (-5V_CT). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 11.3mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C423, U40"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C423 is 27.0mm from C741 pin 1 (-5V_CT). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 27.0mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C423, C741"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C423 is 26.5mm from C723 pin 1 (-5V_CT). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 26.5mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C423, C723"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C423 is 41.0mm from C604 pin 1 (-5V_CT). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 41.0mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C423, C604"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C741 is 23.0mm from R421 pin 2 (-5V_CT). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 23.0mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C741, R421"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C741 is 27.4mm from C423 pin 1 (-5V_CT). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 27.4mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C741, C423"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C723 is 22.5mm from R421 pin 2 (-5V_CT). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 22.5mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C723, R421"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C723 is 25.6mm from C423 pin 1 (-5V_CT). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 25.6mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C723, C423"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C604 is 44.9mm from R421 pin 2 (-5V_CT). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 44.9mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C604, R421"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C604 is 42.1mm from C423 pin 1 (-5V_CT). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 42.1mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C604, C423"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Silkscreen text below profile minimum (0.90x0.90 mm, 0.150 mm stroke; min 1 mm height, 0.15 mm stroke)",
+      "items": [
+        {
+          "description": "board board \"-5 V\"",
+          "pos": {
+            "x": 63.2,
+            "y": 114.5
+          }
+        }
+      ],
+      "profile_item": "silkscreen.text_height_mm",
+      "severity": "warning",
+      "source": "plugin",
+      "type": "silk_text_below_min"
+    },
+    {
+      "description": "Silkscreen line width 0.12mm < minimum 0.15mm on R421",
+      "items": [
+        {
+          "description": "R421, fp_line on F.SilkS",
+          "pos": {
+            "x": 56.6,
+            "y": 116.75
+          }
+        }
+      ],
+      "severity": "warning",
+      "source": "kct check",
+      "type": "silkscreen_line_width"
+    },
+    {
+      "description": "Silkscreen line width 0.12mm < minimum 0.15mm on R421",
+      "items": [
+        {
+          "description": "R421, fp_line on F.SilkS",
+          "pos": {
+            "x": 56.6,
+            "y": 116.75
+          }
+        }
+      ],
+      "severity": "warning",
+      "source": "kct check",
+      "type": "silkscreen_line_width"
+    },
+    {
+      "description": "Silkscreen line width 0.12mm < minimum 0.15mm on C422",
+      "items": [
+        {
+          "description": "C422, fp_line on F.SilkS",
+          "pos": {
+            "x": 59.8,
+            "y": 115.5
+          }
+        }
+      ],
+      "severity": "warning",
+      "source": "kct check",
+      "type": "silkscreen_line_width"
+    },
+    {
+      "description": "Silkscreen line width 0.12mm < minimum 0.15mm on C422",
+      "items": [
+        {
+          "description": "C422, fp_line on F.SilkS",
+          "pos": {
+            "x": 59.8,
+            "y": 115.5
+          }
+        }
+      ],
+      "severity": "warning",
+      "source": "kct check",
+      "type": "silkscreen_line_width"
+    },
+    {
+      "description": "Silkscreen line width 0.12mm < minimum 0.15mm on C420",
+      "items": [
+        {
+          "description": "C420, fp_line on F.SilkS",
+          "pos": {
+            "x": 63.2,
+            "y": 122.0
+          }
+        }
+      ],
+      "severity": "warning",
+      "source": "kct check",
+      "type": "silkscreen_line_width"
+    },
+    {
+      "description": "Silkscreen line width 0.12mm < minimum 0.15mm on C420",
+      "items": [
+        {
+          "description": "C420, fp_line on F.SilkS",
+          "pos": {
+            "x": 63.2,
+            "y": 122.0
+          }
+        }
+      ],
+      "severity": "warning",
+      "source": "kct check",
+      "type": "silkscreen_line_width"
+    },
+    {
+      "description": "Silkscreen line width 0.12mm < minimum 0.15mm on C421",
+      "items": [
+        {
+          "description": "C421, fp_line on F.SilkS",
+          "pos": {
+            "x": 59.2,
+            "y": 119.0
+          }
+        }
+      ],
+      "severity": "warning",
+      "source": "kct check",
+      "type": "silkscreen_line_width"
+    },
+    {
+      "description": "Silkscreen line width 0.12mm < minimum 0.15mm on C421",
+      "items": [
+        {
+          "description": "C421, fp_line on F.SilkS",
+          "pos": {
+            "x": 59.2,
+            "y": 119.0
+          }
+        }
+      ],
+      "severity": "warning",
+      "source": "kct check",
+      "type": "silkscreen_line_width"
+    },
+    {
+      "description": "Silkscreen line width 0.12mm < minimum 0.15mm on C423",
+      "items": [
+        {
+          "description": "C423, fp_line on F.SilkS",
+          "pos": {
+            "x": 57.2,
+            "y": 121.0
+          }
+        }
+      ],
+      "severity": "warning",
+      "source": "kct check",
+      "type": "silkscreen_line_width"
+    },
+    {
+      "description": "Silkscreen line width 0.12mm < minimum 0.15mm on C423",
+      "items": [
+        {
+          "description": "C423, fp_line on F.SilkS",
+          "pos": {
+            "x": 57.2,
+            "y": 121.0
+          }
+        }
+      ],
+      "severity": "warning",
+      "source": "kct check",
+      "type": "silkscreen_line_width"
+    },
+    {
+      "description": "Silkscreen line width 0.12mm < minimum 0.15mm on U44",
+      "items": [
+        {
+          "description": "U44, fp_line on F.SilkS",
+          "pos": {
+            "x": 63.2,
+            "y": 119.0
+          }
+        }
+      ],
+      "severity": "warning",
+      "source": "kct check",
+      "type": "silkscreen_line_width"
+    },
+    {
+      "description": "Silkscreen line width 0.12mm < minimum 0.15mm on U44",
+      "items": [
+        {
+          "description": "U44, fp_line on F.SilkS",
+          "pos": {
+            "x": 63.2,
+            "y": 119.0
+          }
+        }
+      ],
+      "severity": "warning",
+      "source": "kct check",
+      "type": "silkscreen_line_width"
+    },
+    {
+      "description": "Silkscreen line width 0.12mm < minimum 0.15mm on U44",
+      "items": [
+        {
+          "description": "U44, fp_line on F.SilkS",
+          "pos": {
+            "x": 63.2,
+            "y": 119.0
+          }
+        }
+      ],
+      "severity": "warning",
+      "source": "kct check",
+      "type": "silkscreen_line_width"
+    },
+    {
+      "description": "Silkscreen line width 0.12mm < minimum 0.15mm on U44",
+      "items": [
+        {
+          "description": "U44, fp_line on F.SilkS",
+          "pos": {
+            "x": 63.2,
+            "y": 119.0
+          }
+        }
+      ],
+      "severity": "warning",
+      "source": "kct check",
+      "type": "silkscreen_line_width"
+    },
+    {
+      "description": "Silkscreen line width 0.12mm < minimum 0.15mm on U44",
+      "items": [
+        {
+          "description": "U44, fp_poly on F.SilkS",
+          "pos": {
+            "x": 63.2,
+            "y": 119.0
+          }
+        }
+      ],
+      "severity": "warning",
+      "source": "kct check",
+      "type": "silkscreen_line_width"
+    },
+    {
+      "description": "Silkscreen text height 0.90mm < minimum 1.00mm",
+      "items": [
+        {
+          "description": "-5 V on F.SilkS",
+          "pos": {
+            "x": 83.6,
+            "y": 142.1
+          }
+        }
+      ],
+      "profile_item": "silkscreen.text_height_mm",
+      "severity": "warning",
+      "source": "kct check",
+      "type": "silkscreen_text_height"
+    },
+    {
+      "description": "kct optimize-traces would remove 15 of 1331 segments (corners 951 -> 1054, length -0.6%); merge collinear segments and drop zigzags",
+      "items": [],
+      "severity": "info",
+      "source": "kct optimize-traces",
+      "type": "optimize_traces.mergeable_segments"
+    }
+  ]
+}

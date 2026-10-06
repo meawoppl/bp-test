@@ -1,0 +1,760 @@
+{
+  "before": {
+    "by_rule": {
+      "decoupling_distance": {
+        "count": 29,
+        "profile_item": "decoupling.max_pin_distance_mm",
+        "severity": "warning",
+        "source": "plugin"
+      },
+      "mistake.bom_health.component_missing_manufacturer_part_number": {
+        "count": 207,
+        "profile_item": null,
+        "severity": "warning",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.bypass_capacitor.bypass_capacitor_placement_could_be_improved": {
+        "count": 25,
+        "profile_item": "decoupling.max_pin_distance_mm",
+        "severity": "info",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin": {
+        "count": 1062,
+        "profile_item": "decoupling.max_pin_distance_mm",
+        "severity": "warning",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.connectivity.led_missing_series_resistor": {
+        "count": 4,
+        "profile_item": null,
+        "severity": "warning",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.connectivity.missing_pull_up_resistor": {
+        "count": 1,
+        "profile_item": null,
+        "severity": "warning",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.differential_pair.differential_pair_length_matching_could_be_improved": {
+        "count": 1,
+        "profile_item": null,
+        "severity": "info",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.manufacturability.acute_angle_in_trace_acid_trap": {
+        "count": 18,
+        "profile_item": null,
+        "severity": "warning",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.manufacturability.thermal_imbalance_may_cause_tombstoning": {
+        "count": 102,
+        "profile_item": null,
+        "severity": "warning",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.power_trace.power_trace_too_narrow": {
+        "count": 10,
+        "profile_item": null,
+        "severity": "warning",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.thermal_management.thermal_pad_may_need_more_vias": {
+        "count": 2,
+        "profile_item": null,
+        "severity": "info",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.thermal_management.thermal_pad_not_connected_to_ground": {
+        "count": 8,
+        "profile_item": null,
+        "severity": "warning",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.via_placement.via_in_smd_pad": {
+        "count": 4,
+        "profile_item": "vias.in_pad",
+        "severity": "error",
+        "source": "kct detect-mistakes"
+      },
+      "optimize_traces.mergeable_segments": {
+        "count": 1,
+        "profile_item": null,
+        "severity": "info",
+        "source": "kct optimize-traces"
+      },
+      "pad_grid": {
+        "count": 3,
+        "profile_item": null,
+        "severity": "warning",
+        "source": "kct check"
+      },
+      "silk_edge_clearance": {
+        "count": 6,
+        "profile_item": null,
+        "severity": "warning",
+        "source": "kct check"
+      },
+      "silk_explanatory_text": {
+        "count": 20,
+        "profile_item": "silkscreen.explanatory_text",
+        "severity": "error",
+        "source": "plugin"
+      },
+      "silk_over_copper": {
+        "count": 65,
+        "profile_item": "silkscreen.over_vias_or_pads",
+        "severity": "error",
+        "source": "kct check"
+      },
+      "silk_overlap": {
+        "count": 157,
+        "profile_item": "silkscreen.over_vias_or_pads",
+        "severity": "error",
+        "source": "kct check"
+      },
+      "silk_pad_clearance": {
+        "count": 55,
+        "profile_item": null,
+        "severity": "error",
+        "source": "kct check"
+      },
+      "silk_text_below_min": {
+        "count": 19,
+        "profile_item": "silkscreen.text_height_mm",
+        "severity": "warning",
+        "source": "plugin"
+      },
+      "silkscreen_line_width": {
+        "count": 934,
+        "profile_item": null,
+        "severity": "warning",
+        "source": "kct check"
+      },
+      "silkscreen_text_height": {
+        "count": 19,
+        "profile_item": "silkscreen.text_height_mm",
+        "severity": "warning",
+        "source": "kct check"
+      }
+    },
+    "errors": 301,
+    "infos": 29,
+    "suppressed": 0,
+    "warnings": 2422
+  },
+  "after": {
+    "by_rule": {
+      "decoupling_distance": {
+        "count": 29,
+        "profile_item": "decoupling.max_pin_distance_mm",
+        "severity": "warning",
+        "source": "plugin"
+      },
+      "mistake.bom_health.component_missing_manufacturer_part_number": {
+        "count": 207,
+        "profile_item": null,
+        "severity": "warning",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.bypass_capacitor.bypass_capacitor_placement_could_be_improved": {
+        "count": 25,
+        "profile_item": "decoupling.max_pin_distance_mm",
+        "severity": "info",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin": {
+        "count": 1062,
+        "profile_item": "decoupling.max_pin_distance_mm",
+        "severity": "warning",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.connectivity.led_missing_series_resistor": {
+        "count": 4,
+        "profile_item": null,
+        "severity": "warning",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.connectivity.missing_pull_up_resistor": {
+        "count": 1,
+        "profile_item": null,
+        "severity": "warning",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.differential_pair.differential_pair_length_matching_could_be_improved": {
+        "count": 1,
+        "profile_item": null,
+        "severity": "info",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.manufacturability.acute_angle_in_trace_acid_trap": {
+        "count": 18,
+        "profile_item": null,
+        "severity": "warning",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.manufacturability.thermal_imbalance_may_cause_tombstoning": {
+        "count": 102,
+        "profile_item": null,
+        "severity": "warning",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.power_trace.power_trace_too_narrow": {
+        "count": 10,
+        "profile_item": null,
+        "severity": "warning",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.thermal_management.thermal_pad_may_need_more_vias": {
+        "count": 2,
+        "profile_item": null,
+        "severity": "info",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.thermal_management.thermal_pad_not_connected_to_ground": {
+        "count": 8,
+        "profile_item": null,
+        "severity": "warning",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.via_placement.via_in_smd_pad": {
+        "count": 4,
+        "profile_item": "vias.in_pad",
+        "severity": "error",
+        "source": "kct detect-mistakes"
+      },
+      "optimize_traces.mergeable_segments": {
+        "count": 1,
+        "profile_item": null,
+        "severity": "info",
+        "source": "kct optimize-traces"
+      },
+      "pad_grid": {
+        "count": 3,
+        "profile_item": null,
+        "severity": "warning",
+        "source": "kct check"
+      },
+      "silk_edge_clearance": {
+        "count": 6,
+        "profile_item": null,
+        "severity": "warning",
+        "source": "kct check"
+      },
+      "silk_explanatory_text": {
+        "count": 20,
+        "profile_item": "silkscreen.explanatory_text",
+        "severity": "error",
+        "source": "plugin"
+      },
+      "silk_over_copper": {
+        "count": 65,
+        "profile_item": "silkscreen.over_vias_or_pads",
+        "severity": "error",
+        "source": "kct check"
+      },
+      "silk_overlap": {
+        "count": 160,
+        "profile_item": "silkscreen.over_vias_or_pads",
+        "severity": "error",
+        "source": "kct check"
+      },
+      "silk_pad_clearance": {
+        "count": 55,
+        "profile_item": null,
+        "severity": "error",
+        "source": "kct check"
+      },
+      "silk_text_below_min": {
+        "count": 19,
+        "profile_item": "silkscreen.text_height_mm",
+        "severity": "warning",
+        "source": "plugin"
+      },
+      "silkscreen_line_width": {
+        "count": 934,
+        "profile_item": null,
+        "severity": "warning",
+        "source": "kct check"
+      },
+      "silkscreen_text_height": {
+        "count": 19,
+        "profile_item": "silkscreen.text_height_mm",
+        "severity": "warning",
+        "source": "kct check"
+      }
+    },
+    "errors": 304,
+    "infos": 29,
+    "suppressed": 0,
+    "warnings": 2422
+  },
+  "removed": [
+    {
+      "description": "Silkscreen gr_line overlaps exposed copper of R607 pad 1",
+      "items": [
+        {
+          "description": "gr_line, R607 pad 1 on F.SilkS",
+          "pos": {
+            "x": 87.2,
+            "y": 151.1
+          }
+        }
+      ],
+      "profile_item": "silkscreen.over_vias_or_pads",
+      "severity": "error",
+      "source": "kct check",
+      "type": "silk_over_copper"
+    },
+    {
+      "description": "Silkscreen gr_line overlaps exposed copper of R607 pad 2",
+      "items": [
+        {
+          "description": "gr_line, R607 pad 2 on F.SilkS",
+          "pos": {
+            "x": 87.2,
+            "y": 151.1
+          }
+        }
+      ],
+      "profile_item": "silkscreen.over_vias_or_pads",
+      "severity": "error",
+      "source": "kct check",
+      "type": "silk_over_copper"
+    },
+    {
+      "description": "Silkscreen gr_line overlaps silkscreen gr_line",
+      "items": [
+        {
+          "description": "gr_line {bcce4bc7-9990-540c-8323-dbb4390e81af}, gr_line {eb80292f-899b-5b05-af07-1903462d132c} on F.SilkS",
+          "pos": {
+            "x": 72.4,
+            "y": 152.6
+          }
+        }
+      ],
+      "profile_item": "silkscreen.over_vias_or_pads",
+      "severity": "error",
+      "source": "kct check",
+      "type": "silk_overlap"
+    },
+    {
+      "description": "Silkscreen gr_line overlaps silkscreen gr_line",
+      "items": [
+        {
+          "description": "gr_line {dab294e6-4a21-5c8f-9048-9fe689e85528}, gr_line {5b2e4d0f-6afc-50f3-869f-3423e3833a94} on F.SilkS",
+          "pos": {
+            "x": 72.9,
+            "y": 151.1
+          }
+        }
+      ],
+      "profile_item": "silkscreen.over_vias_or_pads",
+      "severity": "error",
+      "source": "kct check",
+      "type": "silk_overlap"
+    },
+    {
+      "description": "Silkscreen gr_line overlaps silkscreen gr_line",
+      "items": [
+        {
+          "description": "gr_line {dab294e6-4a21-5c8f-9048-9fe689e85528}, gr_line {cc06213a-8db3-5d01-ba14-f97561009785} on F.SilkS",
+          "pos": {
+            "x": 72.9,
+            "y": 151.1
+          }
+        }
+      ],
+      "profile_item": "silkscreen.over_vias_or_pads",
+      "severity": "error",
+      "source": "kct check",
+      "type": "silk_overlap"
+    },
+    {
+      "description": "Silk to pad clearance 0.0000mm < 0.15mm",
+      "items": [
+        {
+          "description": "board line, R607-1 on F.SilkS",
+          "pos": {
+            "x": 87.2,
+            "y": 151.1
+          }
+        }
+      ],
+      "severity": "error",
+      "source": "kct check",
+      "type": "silk_pad_clearance"
+    },
+    {
+      "description": "Silk to pad clearance 0.0000mm < 0.15mm",
+      "items": [
+        {
+          "description": "board line, R607-2 on F.SilkS",
+          "pos": {
+            "x": 87.2,
+            "y": 151.1
+          }
+        }
+      ],
+      "severity": "error",
+      "source": "kct check",
+      "type": "silk_pad_clearance"
+    },
+    {
+      "description": "Silkscreen line width 0.12mm < minimum 0.15mm on D42",
+      "items": [
+        {
+          "description": "D42, fp_line on F.SilkS",
+          "pos": {
+            "x": 65.0,
+            "y": 137.0
+          }
+        }
+      ],
+      "severity": "warning",
+      "source": "kct check",
+      "type": "silkscreen_line_width"
+    },
+    {
+      "description": "Silkscreen line width 0.12mm < minimum 0.15mm on D42",
+      "items": [
+        {
+          "description": "D42, fp_line on F.SilkS",
+          "pos": {
+            "x": 65.0,
+            "y": 137.0
+          }
+        }
+      ],
+      "severity": "warning",
+      "source": "kct check",
+      "type": "silkscreen_line_width"
+    },
+    {
+      "description": "Silkscreen line width 0.12mm < minimum 0.15mm on D42",
+      "items": [
+        {
+          "description": "D42, fp_line on F.SilkS",
+          "pos": {
+            "x": 65.0,
+            "y": 137.0
+          }
+        }
+      ],
+      "severity": "warning",
+      "source": "kct check",
+      "type": "silkscreen_line_width"
+    },
+    {
+      "description": "kct optimize-traces would remove 17 of 1348 segments (corners 955 -> 1064, length -0.9%); merge collinear segments and drop zigzags",
+      "items": [],
+      "severity": "info",
+      "source": "kct optimize-traces",
+      "type": "optimize_traces.mergeable_segments"
+    }
+  ],
+  "added": [
+    {
+      "description": "Silkscreen gr_line overlaps exposed copper of R607 pad 1",
+      "items": [
+        {
+          "description": "gr_line, R607 pad 1 on F.SilkS",
+          "pos": {
+            "x": 87.2,
+            "y": 150.75
+          }
+        }
+      ],
+      "profile_item": "silkscreen.over_vias_or_pads",
+      "severity": "error",
+      "source": "kct check",
+      "type": "silk_over_copper"
+    },
+    {
+      "description": "Silkscreen gr_line overlaps exposed copper of R607 pad 2",
+      "items": [
+        {
+          "description": "gr_line, R607 pad 2 on F.SilkS",
+          "pos": {
+            "x": 87.2,
+            "y": 150.75
+          }
+        }
+      ],
+      "profile_item": "silkscreen.over_vias_or_pads",
+      "severity": "error",
+      "source": "kct check",
+      "type": "silk_over_copper"
+    },
+    {
+      "description": "Silkscreen R607 (fp_line) overlaps silkscreen gr_line",
+      "items": [
+        {
+          "description": "R607 (fp_line) {8e95961d-f4bf-4154-ab36-247a92dbb214}, gr_line {5b2e4d0f-6afc-50f3-869f-3423e3833a94} on F.SilkS",
+          "pos": {
+            "x": 76.775,
+            "y": 151.4
+          }
+        }
+      ],
+      "profile_item": "silkscreen.over_vias_or_pads",
+      "severity": "error",
+      "source": "kct check",
+      "type": "silk_overlap"
+    },
+    {
+      "description": "Silkscreen U61 (fp_line) overlaps silkscreen gr_line",
+      "items": [
+        {
+          "description": "U61 (fp_line) {0c1744ff-f2d2-4b4e-b7c0-48d4d1d666e1}, gr_line {bcce4bc7-9990-540c-8323-dbb4390e81af} on F.SilkS",
+          "pos": {
+            "x": 77.0,
+            "y": 155.0
+          }
+        }
+      ],
+      "profile_item": "silkscreen.over_vias_or_pads",
+      "severity": "error",
+      "source": "kct check",
+      "type": "silk_overlap"
+    },
+    {
+      "description": "Silkscreen U61 (fp_line) overlaps silkscreen gr_line",
+      "items": [
+        {
+          "description": "U61 (fp_line) {d309f39a-3488-4edb-a490-159924e24633}, gr_line {bcce4bc7-9990-540c-8323-dbb4390e81af} on F.SilkS",
+          "pos": {
+            "x": 77.0,
+            "y": 155.0
+          }
+        }
+      ],
+      "profile_item": "silkscreen.over_vias_or_pads",
+      "severity": "error",
+      "source": "kct check",
+      "type": "silk_overlap"
+    },
+    {
+      "description": "Silkscreen gr_line overlaps silkscreen gr_line",
+      "items": [
+        {
+          "description": "gr_line {4c6d3436-b269-4e29-a856-1f5f3d0f708c}, gr_line {eb80292f-899b-5b05-af07-1903462d132c} on F.SilkS",
+          "pos": {
+            "x": 88.1,
+            "y": 153.4
+          }
+        }
+      ],
+      "profile_item": "silkscreen.over_vias_or_pads",
+      "severity": "error",
+      "source": "kct check",
+      "type": "silk_overlap"
+    },
+    {
+      "description": "Silkscreen gr_line overlaps silkscreen gr_line",
+      "items": [
+        {
+          "description": "gr_line {dab294e6-4a21-5c8f-9048-9fe689e85528}, gr_line {5b2e4d0f-6afc-50f3-869f-3423e3833a94} on F.SilkS",
+          "pos": {
+            "x": 72.9,
+            "y": 150.75
+          }
+        }
+      ],
+      "profile_item": "silkscreen.over_vias_or_pads",
+      "severity": "error",
+      "source": "kct check",
+      "type": "silk_overlap"
+    },
+    {
+      "description": "Silkscreen gr_line overlaps silkscreen gr_line",
+      "items": [
+        {
+          "description": "gr_line {dab294e6-4a21-5c8f-9048-9fe689e85528}, gr_line {cc06213a-8db3-5d01-ba14-f97561009785} on F.SilkS",
+          "pos": {
+            "x": 72.9,
+            "y": 150.75
+          }
+        }
+      ],
+      "profile_item": "silkscreen.over_vias_or_pads",
+      "severity": "error",
+      "source": "kct check",
+      "type": "silk_overlap"
+    },
+    {
+      "description": "Silk to pad clearance 0.0000mm < 0.15mm",
+      "items": [
+        {
+          "description": "board line, R607-1 on F.SilkS",
+          "pos": {
+            "x": 87.2,
+            "y": 150.75
+          }
+        }
+      ],
+      "severity": "error",
+      "source": "kct check",
+      "type": "silk_pad_clearance"
+    },
+    {
+      "description": "Silk to pad clearance 0.0000mm < 0.15mm",
+      "items": [
+        {
+          "description": "board line, R607-2 on F.SilkS",
+          "pos": {
+            "x": 87.2,
+            "y": 150.75
+          }
+        }
+      ],
+      "severity": "error",
+      "source": "kct check",
+      "type": "silk_pad_clearance"
+    },
+    {
+      "description": "Silkscreen line width 0.12mm < minimum 0.15mm on D42",
+      "items": [
+        {
+          "description": "D42, fp_line on F.SilkS",
+          "pos": {
+            "x": 65.0,
+            "y": 124.5
+          }
+        }
+      ],
+      "severity": "warning",
+      "source": "kct check",
+      "type": "silkscreen_line_width"
+    },
+    {
+      "description": "Silkscreen line width 0.12mm < minimum 0.15mm on D42",
+      "items": [
+        {
+          "description": "D42, fp_line on F.SilkS",
+          "pos": {
+            "x": 65.0,
+            "y": 124.5
+          }
+        }
+      ],
+      "severity": "warning",
+      "source": "kct check",
+      "type": "silkscreen_line_width"
+    },
+    {
+      "description": "Silkscreen line width 0.12mm < minimum 0.15mm on D42",
+      "items": [
+        {
+          "description": "D42, fp_line on F.SilkS",
+          "pos": {
+            "x": 65.0,
+            "y": 124.5
+          }
+        }
+      ],
+      "severity": "warning",
+      "source": "kct check",
+      "type": "silkscreen_line_width"
+    },
+    {
+      "description": "kct optimize-traces would remove 17 of 1346 segments (corners 960 -> 1063, length -0.9%); merge collinear segments and drop zigzags",
+      "items": [],
+      "severity": "info",
+      "source": "kct optimize-traces",
+      "type": "optimize_traces.mergeable_segments"
+    }
+  ],
+  "additional_silk_overlap_review": [
+    {
+      "uuids": [
+        "8e95961d-f4bf-4154-ab36-247a92dbb214",
+        "5b2e4d0f-6afc-50f3-869f-3423e3833a94"
+      ],
+      "coordinates": [
+        [
+          [
+            76.547936,
+            150.665
+          ],
+          [
+            77.002064,
+            150.665
+          ]
+        ],
+        [
+          [
+            66.8,
+            123.15
+          ],
+          [
+            52.5,
+            123.15
+          ]
+        ]
+      ],
+      "actual_silk_clearance_mm": 29.055852009808564
+    },
+    {
+      "uuids": [
+        "0c1744ff-f2d2-4b4e-b7c0-48d4d1d666e1",
+        "bcce4bc7-9990-540c-8323-dbb4390e81af"
+      ],
+      "coordinates": [
+        [
+          [
+            77.0,
+            153.44
+          ],
+          [
+            77.8,
+            153.44
+          ]
+        ],
+        [
+          [
+            52.0,
+            125.8
+          ],
+          [
+            62.3,
+            125.8
+          ]
+        ]
+      ],
+      "actual_silk_clearance_mm": 31.170903890326294
+    },
+    {
+      "uuids": [
+        "d309f39a-3488-4edb-a490-159924e24633",
+        "bcce4bc7-9990-540c-8323-dbb4390e81af"
+      ],
+      "coordinates": [
+        [
+          [
+            77.0,
+            153.44
+          ],
+          [
+            76.2,
+            153.44
+          ]
+        ],
+        [
+          [
+            52.0,
+            125.8
+          ],
+          [
+            62.3,
+            125.8
+          ]
+        ]
+      ],
+      "actual_silk_clearance_mm": 30.803361359356764
+    }
+  ],
+  "disposition": "Three extra kct silk-overlap entries are false positives: board graphics are offset by the (20.4,27.6) mm board origin while footprint graphics are absolute. Actual relevant clearances exceed 20 mm. Native DRC has no silk violations. Existing region-line junction reports moved with the endpoints; D42 line-width warnings merely moved with its unchanged library footprint. No findings suppressed."
+}

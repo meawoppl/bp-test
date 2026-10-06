@@ -1,0 +1,15 @@
+{
+  "command": [
+    "/home/meawoppl/agent-portal-plugins/kicad-pcb/.runtime/kicad-tools/bin/kct",
+    "sch",
+    "info",
+    "boards/tesla-coil-controller/controller.kicad_sch",
+    "U1",
+    "--show-pins"
+  ],
+  "cwd": "/home/meawoppl/repos/bp-test",
+  "ok": true,
+  "stderr": "",
+  "stdout": "Symbol: U1\n==================================================\n  Value:     AD7606C-16BSTZ\n  Library:   Tesla:U1\n  Footprint: Tesla:LQFP-64_10x10mm_P0.5mm\n  Position:  (523.24, 554.99)\n  Rotation:  0°\n  Unit:      1\n  UUID:      86dc0441-c32a-5621-a932-d66f0baf3b34\n  In BOM:    True\n  DNP:       False\n\nPins (0 total):\n  Pin    Name                 Type            Net                  UUID\n  --------------------------------------------------------------------------------\n",
+  "tool": "/home/meawoppl/agent-portal-plugins/kicad-pcb/.runtime/kicad-tools/bin/kct"
+}

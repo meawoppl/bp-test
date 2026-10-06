@@ -1,0 +1,60 @@
+{
+  "model_limitations": "Generic 10 MHz op amps, clipped \u00b14.5 V, generic fast diodes. No vendor macro-model, noise, slew-rate limit, temperature, startup or CT-core model. This checks topology, not hardware accuracy or stability.",
+  "results": [
+    {
+      "input_peak_v": 0.1,
+      "frequency_hz": 30000,
+      "envelope_mean_v": 0.06200838365194273,
+      "ideal_mean_v": 0.06366197723675814,
+      "mean_error_percent": -2.597458729039648,
+      "abs_min_v": -0.0251092277,
+      "abs_max_v": 0.0999843814,
+      "envelope_min_v": 0.046533639,
+      "envelope_max_v": 0.0740972274
+    },
+    {
+      "input_peak_v": 0.5,
+      "frequency_hz": 30000,
+      "envelope_mean_v": 0.31612216065484017,
+      "ideal_mean_v": 0.3183098861837907,
+      "mean_error_percent": -0.6872942449821839,
+      "abs_min_v": -0.0604828441,
+      "abs_max_v": 0.499965764,
+      "envelope_min_v": 0.25371575,
+      "envelope_max_v": 0.370917093
+    },
+    {
+      "input_peak_v": 1,
+      "frequency_hz": 30000,
+      "envelope_mean_v": 0.6339683321787125,
+      "ideal_mean_v": 0.6366197723675814,
+      "mean_error_percent": -0.41648725093915706,
+      "abs_min_v": -0.0872661513,
+      "abs_max_v": 0.999942054,
+      "envelope_min_v": 0.51310727,
+      "envelope_max_v": 0.741888573
+    },
+    {
+      "input_peak_v": 2,
+      "frequency_hz": 30000,
+      "envelope_mean_v": 1.2697761266082397,
+      "ideal_mean_v": 1.2732395447351628,
+      "mean_error_percent": -0.2720162235962831,
+      "abs_min_v": -0.12473009,
+      "abs_max_v": 1.9998944,
+      "envelope_min_v": 1.03225223,
+      "envelope_max_v": 1.48377529
+    },
+    {
+      "input_peak_v": 2.4,
+      "frequency_hz": 30000,
+      "envelope_mean_v": 1.5241148033230587,
+      "ideal_mean_v": 1.5278874536821951,
+      "mean_error_percent": -0.24691938860054163,
+      "abs_min_v": -0.136748811,
+      "abs_max_v": 2.39987529,
+      "envelope_min_v": 1.2399788,
+      "envelope_max_v": 1.78051645
+    }
+  ]
+}

@@ -1,0 +1,202 @@
+{
+  "minimum_clearance_mm": 0.15,
+  "via_drill_body_overlap": [],
+  "items": [
+    {
+      "uuid": "1969e3dd-388c-5ed2-9b93-9b09d34fb510",
+      "net": "VIN_5V",
+      "min_other_net_clearance_mm": 0.459069,
+      "nearest_net": "GND",
+      "nearest_item": "c69485f9-99a8-586b-8be1-ddf66d4740a8"
+    },
+    {
+      "uuid": "36187d15-c50e-50c1-80cf-db979b79fc16",
+      "net": "VIN_5V",
+      "min_other_net_clearance_mm": 0.245,
+      "nearest_net": "USB_D-",
+      "nearest_item": "1a7c43e4-6908-557a-b8d1-efe5f636c92f"
+    },
+    {
+      "uuid": "12587414-b8b6-507b-8f3b-808d17a56704",
+      "net": "GND",
+      "min_other_net_clearance_mm": 0.25,
+      "nearest_net": "VBAT_24V",
+      "nearest_item": "bcedacc0-d9a3-520e-9870-5856bfa6359a"
+    },
+    {
+      "uuid": "c69485f9-99a8-586b-8be1-ddf66d4740a8",
+      "net": "GND",
+      "min_other_net_clearance_mm": 0.375,
+      "nearest_net": "USB_D+",
+      "nearest_item": "de8db369-e8cc-5194-8302-287b3945ac52"
+    },
+    {
+      "uuid": "5883588c-981a-53b2-a1a8-8e231c04025d",
+      "net": "USB_D+",
+      "min_other_net_clearance_mm": 0.15,
+      "nearest_net": "USB_D-",
+      "nearest_item": "8fd615a0-de23-53ff-82ef-0a3a98c15ed8"
+    },
+    {
+      "uuid": "7952f21b-05da-5ca7-91d5-3eca69e4e653",
+      "net": "USB_D+",
+      "min_other_net_clearance_mm": 0.15,
+      "nearest_net": "USB_D-",
+      "nearest_item": "8fd615a0-de23-53ff-82ef-0a3a98c15ed8"
+    },
+    {
+      "uuid": "aec5cd1b-b8f3-519c-a0ea-ae352c9ae1e2",
+      "net": "USB_D+",
+      "min_other_net_clearance_mm": 0.15,
+      "nearest_net": "USB_D-",
+      "nearest_item": "8fd615a0-de23-53ff-82ef-0a3a98c15ed8"
+    },
+    {
+      "uuid": "c15af76d-d63f-5984-a5aa-618b5f881fe4",
+      "net": "USB_D+",
+      "min_other_net_clearance_mm": 0.15,
+      "nearest_net": "USB_D-",
+      "nearest_item": "0f7eb783-1c71-5653-b85f-25881c1bd4ec"
+    },
+    {
+      "uuid": "de8db369-e8cc-5194-8302-287b3945ac52",
+      "net": "USB_D+",
+      "min_other_net_clearance_mm": 0.325,
+      "nearest_net": "USB_D-",
+      "nearest_item": "f7514e97-3909-57bc-add3-9bc351b2b5e6"
+    },
+    {
+      "uuid": "0f780663-7e75-5153-8063-505cf6a59364",
+      "net": "USB_D+",
+      "min_other_net_clearance_mm": 0.385156,
+      "nearest_net": "USB_D-",
+      "nearest_item": "f7514e97-3909-57bc-add3-9bc351b2b5e6"
+    },
+    {
+      "uuid": "4cfd44a0-1aea-5bc5-8c27-df4287dfb57e",
+      "net": "USB_D+",
+      "min_other_net_clearance_mm": 0.582438,
+      "nearest_net": "USB_D-",
+      "nearest_item": "04ece931-7a5a-5015-b89a-71f487a98b54"
+    },
+    {
+      "uuid": "81545c62-4ad2-5f51-b8d1-bad49e8c940c",
+      "net": "USB_D+",
+      "min_other_net_clearance_mm": 0.275,
+      "nearest_net": "USB_D-",
+      "nearest_item": "f7514e97-3909-57bc-add3-9bc351b2b5e6"
+    },
+    {
+      "uuid": "f6192f3c-29ea-5df4-b296-09bfd6f07596",
+      "net": "USB_D+",
+      "min_other_net_clearance_mm": 1.615,
+      "nearest_net": "USB_D-",
+      "nearest_item": "J5.2"
+    },
+    {
+      "uuid": "0f7eb783-1c71-5653-b85f-25881c1bd4ec",
+      "net": "USB_D-",
+      "min_other_net_clearance_mm": 0.15,
+      "nearest_net": "USB_D+",
+      "nearest_item": "5883588c-981a-53b2-a1a8-8e231c04025d"
+    },
+    {
+      "uuid": "10948dec-6870-5874-a545-37ced89855f7",
+      "net": "USB_D-",
+      "min_other_net_clearance_mm": 0.21,
+      "nearest_net": "GND",
+      "nearest_item": "J1.9"
+    },
+    {
+      "uuid": "3ef6a256-f5e1-58bc-8276-90a12d33c5f1",
+      "net": "USB_D-",
+      "min_other_net_clearance_mm": 0.325,
+      "nearest_net": "VBAT_24V",
+      "nearest_item": "bcedacc0-d9a3-520e-9870-5856bfa6359a"
+    },
+    {
+      "uuid": "6924c894-c437-5651-8fc2-c8fe56b16acb",
+      "net": "USB_D-",
+      "min_other_net_clearance_mm": 0.175,
+      "nearest_net": "VBAT_24V",
+      "nearest_item": "bcedacc0-d9a3-520e-9870-5856bfa6359a"
+    },
+    {
+      "uuid": "8fd615a0-de23-53ff-82ef-0a3a98c15ed8",
+      "net": "USB_D-",
+      "min_other_net_clearance_mm": 0.15,
+      "nearest_net": "USB_D+",
+      "nearest_item": "5883588c-981a-53b2-a1a8-8e231c04025d"
+    },
+    {
+      "uuid": "f7514e97-3909-57bc-add3-9bc351b2b5e6",
+      "net": "USB_D-",
+      "min_other_net_clearance_mm": 0.15,
+      "nearest_net": "VBAT_24V",
+      "nearest_item": "bcedacc0-d9a3-520e-9870-5856bfa6359a"
+    },
+    {
+      "uuid": "04ece931-7a5a-5015-b89a-71f487a98b54",
+      "net": "USB_D-",
+      "min_other_net_clearance_mm": 0.45,
+      "nearest_net": "USB_D+",
+      "nearest_item": "81545c62-4ad2-5f51-b8d1-bad49e8c940c"
+    },
+    {
+      "uuid": "07dbc026-e055-538f-9cc0-d31bc0520a33",
+      "net": "USB_D-",
+      "min_other_net_clearance_mm": 1.075,
+      "nearest_net": "VIN_5V",
+      "nearest_item": "36187d15-c50e-50c1-80cf-db979b79fc16"
+    },
+    {
+      "uuid": "1a7c43e4-6908-557a-b8d1-efe5f636c92f",
+      "net": "USB_D-",
+      "min_other_net_clearance_mm": 0.245,
+      "nearest_net": "VIN_5V",
+      "nearest_item": "36187d15-c50e-50c1-80cf-db979b79fc16"
+    },
+    {
+      "uuid": "454614be-d85c-59f2-abac-e38e6529931b",
+      "net": "USB_D-",
+      "min_other_net_clearance_mm": 0.245,
+      "nearest_net": "VIN_5V",
+      "nearest_item": "36187d15-c50e-50c1-80cf-db979b79fc16"
+    },
+    {
+      "uuid": "4b7d503e-c302-5602-b579-f4520431e637",
+      "net": "USB_D-",
+      "min_other_net_clearance_mm": 0.245,
+      "nearest_net": "VIN_5V",
+      "nearest_item": "36187d15-c50e-50c1-80cf-db979b79fc16"
+    },
+    {
+      "uuid": "5406128b-a9e5-5766-8322-464febda4320",
+      "net": "USB_D-",
+      "min_other_net_clearance_mm": 0.45,
+      "nearest_net": "USB_D+",
+      "nearest_item": "81545c62-4ad2-5f51-b8d1-bad49e8c940c"
+    },
+    {
+      "uuid": "5fbe201a-a86a-571f-bd0d-d02ed5e9f221",
+      "net": "USB_D-",
+      "min_other_net_clearance_mm": 0.495,
+      "nearest_net": "VIN_5V",
+      "nearest_item": "36187d15-c50e-50c1-80cf-db979b79fc16"
+    },
+    {
+      "uuid": "88458095-bb3e-5075-92b6-4f851b06a9ab",
+      "net": "USB_D-",
+      "min_other_net_clearance_mm": 1.615,
+      "nearest_net": "USB_D+",
+      "nearest_item": "J5.3"
+    },
+    {
+      "uuid": "d0db5b39-a70c-55be-bdfc-dbf6719c8bd1",
+      "net": "USB_D-",
+      "min_other_net_clearance_mm": 0.495,
+      "nearest_net": "VIN_5V",
+      "nearest_item": "36187d15-c50e-50c1-80cf-db979b79fc16"
+    }
+  ]
+}

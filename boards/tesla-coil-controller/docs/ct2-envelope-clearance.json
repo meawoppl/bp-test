@@ -1,0 +1,63 @@
+{
+  "required_clearance_mm": 0.15,
+  "minimum_clearance_mm": 0.2290737725975593,
+  "scope": "Changed tracks and via vs all foreign-net track/via/pad copper on intersecting layers; filled zones separately checked by native KiCad DRC",
+  "traces": [
+    {
+      "uuid": "19d8c30b-e2de-596b-bc2d-c204065c62e5",
+      "net": "CT2_RAW",
+      "min_clearance_mm": 0.45000000000000284,
+      "nearest_net": "CT2_ENVELOPE",
+      "nearest_item": "6d3a9842-3985-5daa-ad37-c41e7d3dcc8e"
+    },
+    {
+      "uuid": "bf18859c-c950-5d5f-b233-d3f28abfd577",
+      "net": "CT2_RAW",
+      "min_clearance_mm": 0.3500000000000085,
+      "nearest_net": "CT_ENVELOPE",
+      "nearest_item": "564a023c-2a49-5b65-91a2-c8eda8a47e6c"
+    },
+    {
+      "uuid": "09bc91ec-3c06-5b95-a16c-c1672c2a6e47",
+      "net": "CT2_RAW",
+      "min_clearance_mm": 0.2750000000000057,
+      "nearest_net": "CT2_ENVELOPE",
+      "nearest_item": "6d3a9842-3985-5daa-ad37-c41e7d3dcc8e"
+    },
+    {
+      "uuid": "f361b709-18b6-567e-bbe4-7942e0bebbd8",
+      "net": "CT2_RAW",
+      "min_clearance_mm": 5.239430686022298,
+      "nearest_net": "GND",
+      "nearest_item": "4aaf1a30-88a1-5105-9687-903525e2842d"
+    },
+    {
+      "uuid": "46a277e7-77c8-55fa-a2b4-892e887fdf7d",
+      "net": "CT2_ENVELOPE",
+      "min_clearance_mm": 0.2290737725975593,
+      "nearest_net": "GND",
+      "nearest_item": "d4335204-1314-50e7-8691-c71ee5d888f4"
+    },
+    {
+      "uuid": "4c35d918-93f5-5b40-a915-72eaf722e864",
+      "net": "CT2_ENVELOPE",
+      "min_clearance_mm": 2.424999999999997,
+      "nearest_net": "GND",
+      "nearest_item": "C604.2"
+    },
+    {
+      "uuid": "6d3a9842-3985-5daa-ad37-c41e7d3dcc8e",
+      "net": "CT2_ENVELOPE",
+      "min_clearance_mm": 0.2750000000000057,
+      "nearest_net": "CT2_RAW",
+      "nearest_item": "09bc91ec-3c06-5b95-a16c-c1672c2a6e47"
+    },
+    {
+      "uuid": "8c165e6c-d043-58c3-bae6-fbea8a49acb3",
+      "net": "CT2_ENVELOPE",
+      "min_clearance_mm": 0.28210678118657223,
+      "nearest_net": "CT2_RAW",
+      "nearest_item": "09bc91ec-3c06-5b95-a16c-c1672c2a6e47"
+    }
+  ]
+}

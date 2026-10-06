@@ -1,0 +1,16 @@
+{
+  "command": [
+    "/home/meawoppl/agent-portal-plugins/kicad-pcb/.runtime/kicad-tools/bin/kct",
+    "symbols",
+    "boards/tesla-coil-controller/controller.kicad_sch",
+    "--filter",
+    "U*2",
+    "--format",
+    "json"
+  ],
+  "cwd": "/home/meawoppl/repos/bp-test",
+  "ok": true,
+  "stderr": "",
+  "stdout": "[\n  {\n    \"reference\": \"U2\",\n    \"value\": \"AP2112K-3.3\",\n    \"lib_id\": \"Tesla:U2\",\n    \"footprint\": \"Tesla:SOT-23-5\",\n    \"position\": [\n      601.98,\n      224.79\n    ],\n    \"rotation\": 0\n  },\n  {\n    \"reference\": \"U42\",\n    \"value\": \"TLV3501AIDBVR\",\n    \"lib_id\": \"Tesla:U42\",\n    \"footprint\": \"Tesla:SOT-23-6\",\n    \"position\": [\n      185.42,\n      1019.81\n    ],\n    \"rotation\": 0\n  },\n  {\n    \"reference\": \"U52\",\n    \"value\": \"UCC27282DR\",\n    \"lib_id\": \"Tesla:U52\",\n    \"footprint\": \"Tesla:SOIC-8_3.9x4.9mm_P1.27mm\",\n    \"position\": [\n      1525.27,\n      220.98\n    ],\n    \"rotation\": 0\n  },\n  {\n    \"reference\": \"U62\",\n    \"value\": \"TLV3501AIDBVR\",\n    \"lib_id\": \"Tesla:U62\",\n    \"footprint\": \"Tesla:SOT-23-6\",\n    \"position\": [\n      806.45,\n      1019.81\n    ],\n    \"rotation\": 0\n  },\n  {\n    \"reference\": \"U72\",\n    \"value\": \"OPA197IDBVR\",\n    \"lib_id\": \"Tesla:U72\",\n    \"footprint\": \"Tesla:SOT-23-5\",\n    \"position\": [\n      143.51,\n      679.45\n    ],\n    \"rotation\": 0\n  }\n]\n",
+  "tool": "/home/meawoppl/agent-portal-plugins/kicad-pcb/.runtime/kicad-tools/bin/kct"
+}

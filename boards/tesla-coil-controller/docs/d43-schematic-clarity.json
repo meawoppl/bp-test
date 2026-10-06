@@ -1,0 +1,119 @@
+{
+  "annotation_revision": "c466366a0881829559d3",
+  "scope": "D43 dual clamp graphic and R422 symmetry with R411",
+  "changed_symbols": [
+    {
+      "reference": "R422",
+      "before": [
+        "128.2700",
+        "1062.9900",
+        "0"
+      ],
+      "after": [
+        "101.6000",
+        "1024.8900",
+        "0"
+      ]
+    },
+    {
+      "reference": "D43",
+      "before": [
+        "88.9000",
+        "1062.9900",
+        "0"
+      ],
+      "after": [
+        "88.9000",
+        "1062.9900",
+        "0"
+      ]
+    }
+  ],
+  "changed_libraries": [
+    "Tesla:D43"
+  ],
+  "pin_names_types_numbers_preserved": true,
+  "all_component_pin_nets_unchanged": true,
+  "connected_pins_compared": 847,
+  "off_block_geometry_unchanged": true,
+  "pcb_and_project_bytes_unchanged": true,
+  "validation": {
+    "stage": "Development routing: CST/AUX inputs connected to ADC, supply distribution, FPGA signals and H-bridge drivers; remaining controller routing incomplete",
+    "erc": 0,
+    "physical_drc": 0,
+    "schematic_parity": 0,
+    "unconnected_items": 25,
+    "fabrication_ready": false,
+    "sha256": {
+      "controller.kicad_sch": "ff8cd4e9f39a614229c8226de209fbdf9e1c9422ee68d997bf1e61560671a596",
+      "controller.kicad_pcb": "28bce5e87f410a02a3e4a76c4e15ab9e14b5265cb36ffd0c63c7b045749167d5",
+      "controller.kicad_pro": "40e593eb2309fcddf3cd616a5e82b970cb97e4b268436e03b5e1288843705533"
+    },
+    "native_drc_findings": 0,
+    "intentional_open_route_ends": [],
+    "native_whole_board_unconnected": 25
+  },
+  "quality_counts": {
+    "error": 299,
+    "warning": 2422,
+    "info": 29
+  },
+  "quality_findings_unchanged": true,
+  "visual_review": {
+    "artifact": "docs/d43-schematic-clarity.png",
+    "result": "Both Schottky clamp diodes visible; supply above, ground below, common phase pin to the right. R422 and R411 centered on x=101.6 mm, symmetrically 15.24 mm from the CT_PHASE wire. No changed-content overlaps."
+  },
+  "tools": [
+    "kct sch info controller.kicad_sch D43",
+    "kct sch move-component --help (inspected; source generator used to keep schematic and embedded/project library reproducible)",
+    "tesla_schematic.py (existing generator; verifies all circuit-contract pins)",
+    "kicad-cli sch export svg",
+    "kicad-cli sch export netlist --format kicadxml",
+    "check_tesla_draft.py (ERC, DRC with schematic parity, schematic PDF)",
+    "kicad-pcb-rs quality (kct check, detect-mistakes, optimize-traces --dry-run)"
+  ],
+  "changed_files": {
+    "schematic": [
+      "controller.kicad_sch"
+    ],
+    "library": [
+      "Tesla.kicad_sym"
+    ],
+    "generator": [
+      "tools/hardware/tesla_schematic.py",
+      "tools/hardware/tesla_cst_schematic.py"
+    ],
+    "docs": [
+      "docs/schematic-layout.json",
+      "docs/controller-schematic.pdf",
+      "docs/validation.json",
+      "docs/d43-schematic-clarity.png",
+      "docs/d43-schematic-clarity.json"
+    ],
+    "checks": [
+      "fab/checks/erc.json",
+      "fab/checks/drc.json"
+    ],
+    "pcb": [],
+    "fabrication_exports": []
+  },
+  "pin_contract_D43": {
+    "1": {
+      "name": "A1",
+      "net": "GND"
+    },
+    "2": {
+      "name": "K2",
+      "net": "+3V3"
+    },
+    "3": {
+      "name": "K1/A2",
+      "net": "CT_PHASE"
+    }
+  },
+  "source_sha256": {
+    "tools/hardware/tesla_schematic.py": "90da14de64cd9c69a6c95b31fcfcca176ae2a2f70c083ab9425f4f249f42ecce",
+    "tools/hardware/tesla_cst_schematic.py": "c3763fdd965526c5ae983210ae20dcefe76d5548cfe45782110d34c82955769d"
+  },
+  "repeat_generation_byte_identical": true
+}

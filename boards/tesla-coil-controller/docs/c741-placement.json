@@ -1,0 +1,48 @@
+{
+  "component": "C741",
+  "value": "10uF 16V X7R",
+  "function": "AUX buffer negative-rail bulk bypass",
+  "before_mm": [
+    69.0,
+    110.0
+  ],
+  "after_mm": [
+    62.9,
+    94.4
+  ],
+  "rotation_deg": 180,
+  "aligned_with": "C733",
+  "pad_to_existing_rail_via_mm": 2.1,
+  "removed_copper": [
+    "d31624c0-a1f3-5967-a06a-c1bd446b512c",
+    "0e96012c-ea9a-5423-91b5-538934242353",
+    "924e3616-1349-562e-b113-bd22650a6323"
+  ],
+  "changed_track": "18d6ccff-b896-57ed-ab8c-bcdbb33653d0",
+  "removed_vias": 1,
+  "verified_fully_connected_pad_counts": {
+    "-5V_CT": 19,
+    "GND": 244
+  },
+  "whole_board_unconnected": 25,
+  "project_rules_preserved": true,
+  "pcb_sha256": "8494d521df2ae389001627874562546de00cec77a74eed5c5411df0c975d09e3",
+  "native_checks": {
+    "erc": 0,
+    "physical_drc": 0,
+    "schematic_parity": 0,
+    "unconnected_items": 25
+  },
+  "visual_review": "Local copper plot and native top 3D render reviewed: bulk capacitor aligned with C733, connected to existing negative-rail bypass node; old isolated branch removed.",
+  "schematic_unchanged": true,
+  "quality_counts": {
+    "error": 299,
+    "warning": 2423,
+    "info": 28
+  },
+  "quality_rule_count_changes": {
+    "('warning', 'mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin')": -2,
+    "('info', 'mistake.bypass_capacitor.bypass_capacitor_placement_could_be_improved')": 2
+  },
+  "quality_disposition": "Two bypass-distance warnings improve to informational suggestions. Existing whole-board backlog retained in command-adc-quality-triage.md; no new error types."
+}

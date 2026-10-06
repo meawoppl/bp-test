@@ -1,0 +1,42 @@
+{
+  "component": "C429",
+  "value": "1nF 50V C0G",
+  "function": "CT_RAW shunt filter",
+  "before_mm": [
+    57.0,
+    140.0
+  ],
+  "after_mm": [
+    54.7,
+    137
+  ],
+  "rotation_deg": 180,
+  "placement": "Beside R401 burden resistor and D40 protection diode, left of the +5V_ADC rear trunks",
+  "signal_connection": "TP40, two front-layer segments",
+  "ground_connection": "R401 ground-return via, two front-layer segments",
+  "removed_copper": [
+    "0a401988-101c-5a5d-b135-b97e25c9c4d4",
+    "5c4db414-1b22-59f8-b2ff-1c742819f6c1"
+  ],
+  "changed_tracks": [
+    "a9118e92-ce05-5574-bcae-e7f32c711031",
+    "0abd2ca8-218e-5673-be19-5dec69e44465",
+    "4fc40fd6-c156-5df6-87eb-4e028905936f",
+    "ee63fb9c-9fd3-5b12-9b0c-e482f2578f33"
+  ],
+  "removed_vias": 1,
+  "verified_fully_connected_pad_counts": {
+    "CT_RAW": 10,
+    "GND": 244
+  },
+  "whole_board_unconnected": 25,
+  "project_rules_preserved": true,
+  "pcb_sha256": "435cb6222e4f03ae7b9b19e7c0747a3926a2355fba56699df9d67719290258ef",
+  "checks": {
+    "erc": 0,
+    "physical_drc": 0,
+    "schematic_parity": 0,
+    "native_whole_board_unconnected": 25
+  },
+  "cst_connectivity_audit": "passed"
+}

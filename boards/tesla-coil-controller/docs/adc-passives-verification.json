@@ -1,0 +1,84 @@
+{
+  "annotation_created_at": "2026-09-30T06:08:56.126Z",
+  "nets": [
+    "ADC_REFCAP",
+    "ADC_REF_2V5",
+    "REGCAP_A",
+    "REGCAP_D"
+  ],
+  "signal_width_mm": 0.2,
+  "ground_return_width_mm": 0.3,
+  "via_sizes_mm": [
+    [
+      0.6,
+      0.3
+    ],
+    [
+      0.5,
+      0.25
+    ]
+  ],
+  "vias_added": 10,
+  "vias_before": 324,
+  "vias_after": 334,
+  "whole_board_unconnected_before": 11,
+  "whole_board_unconnected_after": 6,
+  "all_c6_c7_c8_c9_pads_connected": true,
+  "all_unrelated_connectivity_components_unchanged": true,
+  "all_original_copper_and_placements_unchanged": true,
+  "schematic_and_rules_unchanged": true,
+  "all_tracks_octilinear": true,
+  "added_copper": [
+    "4b2890e9-3ac0-5f77-ab60-3293e9d828a5",
+    "23e4549d-4223-557a-90de-6de1ef2119d5",
+    "10ec8075-faee-5bd5-8265-3adc8c33509c",
+    "44da0e57-1da7-590c-afd7-b76f168523ff",
+    "198aafda-8f26-5d8c-a1a1-7b678fbbdc1b",
+    "d2cca10c-7789-5ed9-8b7e-6b16c33af4d6",
+    "085ff315-906b-524b-aa98-9214f6c861c4",
+    "ae2991ff-0d1f-54b3-b417-374edb137830",
+    "c67c41a3-2fd8-5a0c-b278-d3920935525f",
+    "6ad81368-e801-5401-8801-1604d193d20d",
+    "cb85c261-5686-5fe5-b8d9-8e17a04b8ae6",
+    "56050c66-90c6-51a6-b7af-533fe551059e",
+    "ff7169e9-e02e-55f6-8285-21d1d8c3ba9c",
+    "841a9f90-e65b-5c6c-80bd-c4d8bf4d74ee",
+    "ac827428-909a-50a7-89a1-7ce2975703af",
+    "cc06bed7-1709-5394-afda-b7cd4b9330f3",
+    "4995f0b9-064d-5c54-8e62-52641e361958",
+    "237fce7b-a226-5547-8498-d29561aead45",
+    "c21ca01c-3fae-5cd5-8536-fef053ca5a62",
+    "5bd95c2a-9f81-568a-8cfb-c567cff068a9",
+    "24d1d0b7-7704-5fa3-951b-e26e1b4d3abb",
+    "2bb4e45f-b724-5d21-8d24-ff1500d16370",
+    "63c3fcbc-da26-5caf-8da2-9bac26ee762c",
+    "aa366072-38b9-50e8-b28f-d12564b82111",
+    "b8556142-f7f0-58b1-bc70-36bf32916f26",
+    "b1db41b4-1661-5ca5-8998-6b963b41567d",
+    "b55912ea-21f8-5bfc-949e-7c10f998bd17",
+    "d61785de-d489-51e5-989d-0ef7606ee843",
+    "a3ff8062-4b57-511e-841a-a4cb9c75b738",
+    "3a1d9e65-e8a6-5823-bc58-ccc959954467",
+    "ee201d30-f2b4-54d4-a722-28b01d529a69",
+    "b32fc1a2-b083-52e4-b755-ba86bfc7361b",
+    "48c7c247-d3c3-5510-99d9-fdea21c42f6f"
+  ],
+  "minimum_new_copper_clearance_mm": 0.175,
+  "portal_revision": "20ac91bf132cd5b56d98",
+  "erc": 0,
+  "physical_drc": 0,
+  "schematic_parity": 0,
+  "recipe_replay_verified": true,
+  "quality_summary": {
+    "errors": 301,
+    "warnings": 2422,
+    "infos": 29,
+    "suppressed": 0
+  },
+  "new_quality_errors_and_warnings": 0,
+  "sha256": {
+    "controller.kicad_sch": "ff8cd4e9f39a614229c8226de209fbdf9e1c9422ee68d997bf1e61560671a596",
+    "controller.kicad_pcb": "2c6b6c5b393498882b42855bd62ec76cbf4f822d0bdfae2dc8e7edc01c4a66bc",
+    "controller.kicad_pro": "40e593eb2309fcddf3cd616a5e82b970cb97e4b268436e03b5e1288843705533"
+  }
+}

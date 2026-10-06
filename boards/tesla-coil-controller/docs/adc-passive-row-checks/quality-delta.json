@@ -1,0 +1,1136 @@
+{
+  "added": [
+    {
+      "description": "Bypass capacitor too far from power pin: C4 is 5.4mm from R20 pin 2 (+5V_ADC). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 5.4mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C4, R20"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C4 is 5.1mm from C10 pin 1 (+5V_ADC). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 5.1mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C4, C10"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C2 is 8.9mm from R20 pin 2 (+5V_ADC). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 8.9mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C2, R20"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C2 is 8.2mm from C10 pin 1 (+5V_ADC). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 8.2mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C2, C10"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C10 is 49.7mm from U41 pin 5 (+5V_ADC). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 49.7mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C10, U41"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C10 is 7.0mm from C2 pin 1 (+5V_ADC). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 7.0mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C10, C2"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C10 is 48.4mm from D71 pin 2 (+5V_ADC). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 48.4mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C10, D71"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C10 is 77.4mm from C603 pin 1 (+5V_ADC). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 77.4mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C10, C603"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C10 is 41.2mm from C421 pin 1 (+5V_ADC). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 41.2mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C10, C421"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C10 is 81.8mm from C601 pin 1 (+5V_ADC). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 81.8mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C10, C601"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C10 is 22.1mm from C1 pin 1 (+5V_ADC). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 22.1mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C10, C1"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C10 is 76.3mm from U60 pin 5 (+5V_ADC). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 76.3mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C10, U60"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C10 is 8.7mm from C3 pin 1 (+5V_ADC). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 8.7mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C10, C3"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C10 is 72.3mm from U61 pin 5 (+5V_ADC). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 72.3mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C10, U61"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C10 is 47.0mm from D70 pin 2 (+5V_ADC). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 47.0mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C10, D70"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C10 is 9.9mm from U1 pin 1 (+5V_ADC). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 9.9mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C10, U1"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C10 is 18.2mm from U1 pin 37 (+5V_ADC). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 18.2mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C10, U1"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C10 is 17.8mm from U1 pin 38 (+5V_ADC). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 17.8mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C10, U1"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C10 is 13.9mm from U1 pin 48 (+5V_ADC). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 13.9mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C10, U1"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C10 is 51.4mm from D72 pin 2 (+5V_ADC). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 51.4mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C10, D72"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C10 is 55.7mm from D73 pin 2 (+5V_ADC). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 55.7mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C10, D73"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C10 is 61.0mm from C401 pin 1 (+5V_ADC). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 61.0mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C10, C401"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C10 is 55.4mm from U40 pin 5 (+5V_ADC). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 55.4mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C10, U40"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C10 is 55.0mm from C403 pin 1 (+5V_ADC). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 55.0mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C10, C403"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C10 is 38.8mm from U44 pin 2 (+5V_ADC). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 38.8mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C10, U44"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C603 is 77.0mm from R20 pin 2 (+5V_ADC). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 77.0mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C603, R20"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C603 is 77.2mm from C10 pin 1 (+5V_ADC). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 77.2mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C603, C10"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C421 is 39.5mm from R20 pin 2 (+5V_ADC). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 39.5mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C421, R20"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C421 is 40.1mm from C10 pin 1 (+5V_ADC). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 40.1mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C421, C10"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C601 is 80.9mm from R20 pin 2 (+5V_ADC). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 80.9mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C601, R20"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C601 is 81.2mm from C10 pin 1 (+5V_ADC). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 81.2mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C601, C10"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C1 is 22.2mm from R20 pin 2 (+5V_ADC). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 22.2mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C1, R20"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C1 is 22.1mm from C10 pin 1 (+5V_ADC). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 22.1mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C1, C10"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C3 is 10.8mm from R20 pin 2 (+5V_ADC). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 10.8mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C3, R20"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C3 is 10.1mm from C10 pin 1 (+5V_ADC). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 10.1mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C3, C10"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C20 is 35.2mm from R20 pin 1 (VIN_5V). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 35.2mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C20, R20"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C401 is 59.8mm from R20 pin 2 (+5V_ADC). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 59.8mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C401, R20"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C401 is 60.2mm from C10 pin 1 (+5V_ADC). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 60.2mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C401, C10"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C403 is 54.4mm from R20 pin 2 (+5V_ADC). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 54.4mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C403, R20"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C403 is 54.6mm from C10 pin 1 (+5V_ADC). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 54.6mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C403, C10"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Silkscreen line width 0.12mm < minimum 0.15mm on R20",
+      "items": [
+        {
+          "description": "R20, fp_line on F.SilkS",
+          "pos": {
+            "x": 86.25,
+            "y": 82.5
+          }
+        }
+      ],
+      "severity": "warning",
+      "source": "kct check",
+      "type": "silkscreen_line_width"
+    },
+    {
+      "description": "Silkscreen line width 0.12mm < minimum 0.15mm on R20",
+      "items": [
+        {
+          "description": "R20, fp_line on F.SilkS",
+          "pos": {
+            "x": 86.25,
+            "y": 82.5
+          }
+        }
+      ],
+      "severity": "warning",
+      "source": "kct check",
+      "type": "silkscreen_line_width"
+    },
+    {
+      "description": "Silkscreen line width 0.12mm < minimum 0.15mm on C10",
+      "items": [
+        {
+          "description": "C10, fp_line on F.SilkS",
+          "pos": {
+            "x": 88.75,
+            "y": 82.5
+          }
+        }
+      ],
+      "severity": "warning",
+      "source": "kct check",
+      "type": "silkscreen_line_width"
+    },
+    {
+      "description": "Silkscreen line width 0.12mm < minimum 0.15mm on C10",
+      "items": [
+        {
+          "description": "C10, fp_line on F.SilkS",
+          "pos": {
+            "x": 88.75,
+            "y": 82.5
+          }
+        }
+      ],
+      "severity": "warning",
+      "source": "kct check",
+      "type": "silkscreen_line_width"
+    },
+    {
+      "description": "Bypass capacitor placement could be improved: C10 is 4.9mm from C4 pin 1. Ideally, bypass capacitors should be within 3.0mm for optimal decoupling.",
+      "items": [
+        {
+          "description": "C10, C4"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "info",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_placement_could_be_improved"
+    },
+    {
+      "description": "kct optimize-traces would remove 26 of 1350 segments (corners 957 -> 1054, length -0.6%); merge collinear segments and drop zigzags",
+      "items": [],
+      "severity": "info",
+      "source": "kct optimize-traces",
+      "type": "optimize_traces.mergeable_segments"
+    }
+  ],
+  "removed": [
+    {
+      "description": "Bypass capacitor too far from power pin: C4 is 7.8mm from R20 pin 2 (+5V_ADC). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 7.8mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C4, R20"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C4 is 5.0mm from C10 pin 1 (+5V_ADC). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 5.0mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C4, C10"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C2 is 10.7mm from R20 pin 2 (+5V_ADC). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 10.7mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C2, R20"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C2 is 8.6mm from C10 pin 1 (+5V_ADC). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 8.6mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C2, C10"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C10 is 49.2mm from U41 pin 5 (+5V_ADC). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 49.2mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C10, U41"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C10 is 7.3mm from C2 pin 1 (+5V_ADC). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 7.3mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C10, C2"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C10 is 47.6mm from D71 pin 2 (+5V_ADC). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 47.6mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C10, D71"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C10 is 77.0mm from C603 pin 1 (+5V_ADC). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 77.0mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C10, C603"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C10 is 40.5mm from C421 pin 1 (+5V_ADC). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 40.5mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C10, C421"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C10 is 81.3mm from C601 pin 1 (+5V_ADC). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 81.3mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C10, C601"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C10 is 21.8mm from C1 pin 1 (+5V_ADC). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 21.8mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C10, C1"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C10 is 75.8mm from U60 pin 5 (+5V_ADC). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 75.8mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C10, U60"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C10 is 9.2mm from C3 pin 1 (+5V_ADC). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 9.2mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C10, C3"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C10 is 71.9mm from U61 pin 5 (+5V_ADC). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 71.9mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C10, U61"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C10 is 46.2mm from D70 pin 2 (+5V_ADC). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 46.2mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C10, D70"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C10 is 9.5mm from U1 pin 1 (+5V_ADC). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 9.5mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C10, U1"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C10 is 18.4mm from U1 pin 37 (+5V_ADC). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 18.4mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C10, U1"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C10 is 18.0mm from U1 pin 38 (+5V_ADC). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 18.0mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C10, U1"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C10 is 14.3mm from U1 pin 48 (+5V_ADC). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 14.3mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C10, U1"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C10 is 50.6mm from D72 pin 2 (+5V_ADC). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 50.6mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C10, D72"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C10 is 54.9mm from D73 pin 2 (+5V_ADC). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 54.9mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C10, D73"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C10 is 60.4mm from C401 pin 1 (+5V_ADC). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 60.4mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C10, C401"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C10 is 54.7mm from U40 pin 5 (+5V_ADC). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 54.7mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C10, U40"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C10 is 54.5mm from C403 pin 1 (+5V_ADC). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 54.5mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C10, C403"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C10 is 38.1mm from U44 pin 2 (+5V_ADC). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 38.1mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C10, U44"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C603 is 79.4mm from R20 pin 2 (+5V_ADC). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 79.4mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C603, R20"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C603 is 76.7mm from C10 pin 1 (+5V_ADC). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 76.7mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C603, C10"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C421 is 41.3mm from R20 pin 2 (+5V_ADC). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 41.3mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C421, R20"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C421 is 39.4mm from C10 pin 1 (+5V_ADC). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 39.4mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C421, C10"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C601 is 83.2mm from R20 pin 2 (+5V_ADC). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 83.2mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C601, R20"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C601 is 80.7mm from C10 pin 1 (+5V_ADC). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 80.7mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C601, C10"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C1 is 24.7mm from R20 pin 2 (+5V_ADC). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 24.7mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C1, R20"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C1 is 21.9mm from C10 pin 1 (+5V_ADC). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 21.9mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C1, C10"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C3 is 12.5mm from R20 pin 2 (+5V_ADC). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 12.5mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C3, R20"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C3 is 10.6mm from C10 pin 1 (+5V_ADC). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 10.6mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C3, C10"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C20 is 37.4mm from R20 pin 1 (VIN_5V). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 37.4mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C20, R20"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C401 is 61.8mm from R20 pin 2 (+5V_ADC). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 61.8mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C401, R20"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C401 is 59.6mm from C10 pin 1 (+5V_ADC). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 59.6mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C401, C10"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C403 is 56.7mm from R20 pin 2 (+5V_ADC). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 56.7mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C403, R20"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C403 is 54.1mm from C10 pin 1 (+5V_ADC). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 54.1mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C403, C10"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Silkscreen line width 0.12mm < minimum 0.15mm on R20",
+      "items": [
+        {
+          "description": "R20, fp_line on F.SilkS",
+          "pos": {
+            "x": 85.9,
+            "y": 80.0
+          }
+        }
+      ],
+      "severity": "warning",
+      "source": "kct check",
+      "type": "silkscreen_line_width"
+    },
+    {
+      "description": "Silkscreen line width 0.12mm < minimum 0.15mm on R20",
+      "items": [
+        {
+          "description": "R20, fp_line on F.SilkS",
+          "pos": {
+            "x": 85.9,
+            "y": 80.0
+          }
+        }
+      ],
+      "severity": "warning",
+      "source": "kct check",
+      "type": "silkscreen_line_width"
+    },
+    {
+      "description": "Silkscreen line width 0.12mm < minimum 0.15mm on C10",
+      "items": [
+        {
+          "description": "C10, fp_line on F.SilkS",
+          "pos": {
+            "x": 88.0,
+            "y": 82.8
+          }
+        }
+      ],
+      "severity": "warning",
+      "source": "kct check",
+      "type": "silkscreen_line_width"
+    },
+    {
+      "description": "Silkscreen line width 0.12mm < minimum 0.15mm on C10",
+      "items": [
+        {
+          "description": "C10, fp_line on F.SilkS",
+          "pos": {
+            "x": 88.0,
+            "y": 82.8
+          }
+        }
+      ],
+      "severity": "warning",
+      "source": "kct check",
+      "type": "silkscreen_line_width"
+    },
+    {
+      "description": "Bypass capacitor placement could be improved: C10 is 4.6mm from C4 pin 1. Ideally, bypass capacitors should be within 3.0mm for optimal decoupling.",
+      "items": [
+        {
+          "description": "C10, C4"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "info",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_placement_could_be_improved"
+    },
+    {
+      "description": "Bypass capacitor placement could be improved: C10 is 3.1mm from R20 pin 2. Ideally, bypass capacitors should be within 3.0mm for optimal decoupling.",
+      "items": [
+        {
+          "description": "C10, R20"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "info",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_placement_could_be_improved"
+    },
+    {
+      "description": "kct optimize-traces would remove 25 of 1350 segments (corners 960 -> 1054, length -0.6%); merge collinear segments and drop zigzags",
+      "items": [],
+      "severity": "info",
+      "source": "kct optimize-traces",
+      "type": "optimize_traces.mergeable_segments"
+    }
+  ]
+}

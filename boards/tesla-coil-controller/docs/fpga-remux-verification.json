@@ -1,0 +1,344 @@
+{
+  "sha256": {
+    "controller.kicad_pcb": "cf7a6a56b772f336e40a19349ef7e0c039f50a38c5df540b2db04c5c0ff1d45f",
+    "controller.kicad_sch": "d1f2157437e8d7cc722dd2446009ce7c7402762126eb5a5e3ba4992b00055342",
+    "controller.kicad_pro": "40e593eb2309fcddf3cd616a5e82b970cb97e4b268436e03b5e1288843705533"
+  },
+  "mapping": [
+    {
+      "carrier_contact": "31",
+      "function": "ADC_CONVST",
+      "module_signal": "/FPGA_IOT_49A",
+      "fpga_package_pad": "43"
+    },
+    {
+      "carrier_contact": "32",
+      "function": "ADC_RESET",
+      "module_signal": "/FPGA_IOB_3B_G6",
+      "fpga_package_pad": "44"
+    },
+    {
+      "carrier_contact": "33",
+      "function": "ADC_SCLK",
+      "module_signal": "/FPGA_IOT_44B",
+      "fpga_package_pad": "34"
+    },
+    {
+      "carrier_contact": "34",
+      "function": "ADC_CS_N",
+      "module_signal": "/FPGA_IOB_5B",
+      "fpga_package_pad": "45"
+    },
+    {
+      "carrier_contact": "35",
+      "function": "ADC_BUSY",
+      "module_signal": "/FPGA_IOB_0A",
+      "fpga_package_pad": "46"
+    },
+    {
+      "carrier_contact": "36",
+      "function": "ADC_SDI",
+      "module_signal": "/FPGA_IOB_2A",
+      "fpga_package_pad": "47"
+    },
+    {
+      "carrier_contact": "37",
+      "function": "ADC_DOUT_D",
+      "module_signal": "/FPGA_IOB_4A",
+      "fpga_package_pad": "48"
+    },
+    {
+      "carrier_contact": "38",
+      "function": "ADC_DOUT_C",
+      "module_signal": "/FPGA_IOB_9B",
+      "fpga_package_pad": "3"
+    },
+    {
+      "carrier_contact": "39",
+      "function": "ADC_DOUT_B",
+      "module_signal": "/FPGA_IOB_8A",
+      "fpga_package_pad": "4"
+    },
+    {
+      "carrier_contact": "40",
+      "function": "ADC_DOUT_A",
+      "module_signal": "/FPGA_IOB_6A",
+      "fpga_package_pad": "2"
+    },
+    {
+      "carrier_contact": "7",
+      "function": "GDT1_L_HI",
+      "module_signal": "/FPGA_IOB_20A",
+      "fpga_package_pad": "11"
+    },
+    {
+      "carrier_contact": "9",
+      "function": "GDT1_L_LO",
+      "module_signal": "/FPGA_IOT_37A",
+      "fpga_package_pad": "23"
+    },
+    {
+      "carrier_contact": "10",
+      "function": "GDT1_R_HI",
+      "module_signal": "/FPGA_IOB_23B",
+      "fpga_package_pad": "21"
+    },
+    {
+      "carrier_contact": "11",
+      "function": "GDT1_R_LO",
+      "module_signal": "/FPGA_IOB_29B",
+      "fpga_package_pad": "19"
+    },
+    {
+      "carrier_contact": "2",
+      "function": "GDT2_L_HI",
+      "module_signal": "/FPGA_IOB_18A",
+      "fpga_package_pad": "10"
+    },
+    {
+      "carrier_contact": "4",
+      "function": "GDT2_L_LO",
+      "module_signal": "/FPGA_IOB_16A",
+      "fpga_package_pad": "9"
+    },
+    {
+      "carrier_contact": "5",
+      "function": "GDT2_R_HI",
+      "module_signal": "/FPGA_IOB_22A",
+      "fpga_package_pad": "12"
+    },
+    {
+      "carrier_contact": "6",
+      "function": "GDT2_R_LO",
+      "module_signal": "/FPGA_IOB_13B",
+      "fpga_package_pad": "6"
+    },
+    {
+      "carrier_contact": "22",
+      "function": "CT1_ZERO",
+      "module_signal": "/FPGA_IOT_46B_G0",
+      "fpga_package_pad": "35"
+    },
+    {
+      "carrier_contact": "24",
+      "function": "CT2_ZERO",
+      "module_signal": "/FPGA_IOT_45A_G1",
+      "fpga_package_pad": "37"
+    }
+  ],
+  "unchanged_footprints": 313,
+  "unaffected_pad_clusters_identical": true,
+  "unaffected_copper_identical": true,
+  "board_drawings_identical": true,
+  "phase_contacts_unchanged": {
+    "22": "CT1_ZERO",
+    "24": "CT2_ZERO"
+  },
+  "adc_gate_projected_crossings_before": 32,
+  "adc_gate_projected_crossings_after": 0,
+  "crossings_removed": [
+    [
+      "ADC_BUSY",
+      "GDT2_L_HI",
+      104.4,
+      71.84
+    ],
+    [
+      "ADC_DOUT_A",
+      "GDT1_L_HI",
+      108.4,
+      70.56
+    ],
+    [
+      "ADC_DOUT_A",
+      "GDT1_L_LO",
+      108.4,
+      70.24
+    ],
+    [
+      "ADC_DOUT_A",
+      "GDT1_R_HI",
+      108.4,
+      69.92
+    ],
+    [
+      "ADC_DOUT_A",
+      "GDT1_R_LO",
+      108.4,
+      69.6
+    ],
+    [
+      "ADC_DOUT_A",
+      "GDT2_L_HI",
+      108.4,
+      71.84
+    ],
+    [
+      "ADC_DOUT_A",
+      "GDT2_L_LO",
+      108.4,
+      71.52
+    ],
+    [
+      "ADC_DOUT_A",
+      "GDT2_R_HI",
+      108.4,
+      71.2
+    ],
+    [
+      "ADC_DOUT_A",
+      "GDT2_R_LO",
+      108.4,
+      70.88
+    ],
+    [
+      "ADC_DOUT_B",
+      "GDT1_L_HI",
+      107.6,
+      70.56
+    ],
+    [
+      "ADC_DOUT_B",
+      "GDT1_L_LO",
+      107.6,
+      70.24
+    ],
+    [
+      "ADC_DOUT_B",
+      "GDT1_R_HI",
+      107.6,
+      69.92
+    ],
+    [
+      "ADC_DOUT_B",
+      "GDT1_R_LO",
+      107.6,
+      69.6
+    ],
+    [
+      "ADC_DOUT_B",
+      "GDT2_L_HI",
+      107.6,
+      71.84
+    ],
+    [
+      "ADC_DOUT_B",
+      "GDT2_L_LO",
+      107.6,
+      71.52
+    ],
+    [
+      "ADC_DOUT_B",
+      "GDT2_R_HI",
+      107.6,
+      71.2
+    ],
+    [
+      "ADC_DOUT_B",
+      "GDT2_R_LO",
+      107.6,
+      70.88
+    ],
+    [
+      "ADC_DOUT_C",
+      "GDT1_L_HI",
+      106.8,
+      70.56
+    ],
+    [
+      "ADC_DOUT_C",
+      "GDT1_L_LO",
+      106.8,
+      70.24
+    ],
+    [
+      "ADC_DOUT_C",
+      "GDT1_R_HI",
+      106.8,
+      69.92
+    ],
+    [
+      "ADC_DOUT_C",
+      "GDT2_L_HI",
+      106.8,
+      71.84
+    ],
+    [
+      "ADC_DOUT_C",
+      "GDT2_L_LO",
+      106.8,
+      71.52
+    ],
+    [
+      "ADC_DOUT_C",
+      "GDT2_R_HI",
+      106.8,
+      71.2
+    ],
+    [
+      "ADC_DOUT_C",
+      "GDT2_R_LO",
+      106.8,
+      70.88
+    ],
+    [
+      "ADC_DOUT_D",
+      "GDT1_L_HI",
+      106.0,
+      70.56
+    ],
+    [
+      "ADC_DOUT_D",
+      "GDT2_L_HI",
+      106.0,
+      71.84
+    ],
+    [
+      "ADC_DOUT_D",
+      "GDT2_L_LO",
+      106.0,
+      71.52
+    ],
+    [
+      "ADC_DOUT_D",
+      "GDT2_R_HI",
+      106.0,
+      71.2
+    ],
+    [
+      "ADC_DOUT_D",
+      "GDT2_R_LO",
+      106.0,
+      70.88
+    ],
+    [
+      "ADC_SDI",
+      "GDT2_L_HI",
+      105.2,
+      71.84
+    ],
+    [
+      "ADC_SDI",
+      "GDT2_L_LO",
+      105.2,
+      71.52
+    ],
+    [
+      "ADC_SDI",
+      "GDT2_R_HI",
+      105.2,
+      71.2
+    ]
+  ],
+  "adc_track_length_mm": {
+    "before": 484.8983763192902,
+    "after": 387.0640613300257
+  },
+  "gate_track_length_mm": {
+    "before": 584.1326159222448,
+    "after": 614.8499059109832
+  },
+  "copper_layers": 2,
+  "tracks": 1339,
+  "vias": 319
+}

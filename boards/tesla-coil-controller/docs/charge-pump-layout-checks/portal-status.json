@@ -1,0 +1,203 @@
+{
+  "project": "tesla-coil-controller",
+  "hashes": {
+    "revision": "31a5eb8e96f2c91e0d42",
+    "sch": "c71df68cd87b80fde61b1c77c7f54b46d655712e9fd004cb212b4acc289dc66d",
+    "pcb": "e8178c5e8cce7f7c549fbd09753f82a306ca831ab21e1a72b56df8eea7eb19f0"
+  },
+  "busy": false,
+  "auto_publish": false,
+  "stages": [
+    {
+      "stage": "erc",
+      "label": "ERC",
+      "state": "ok",
+      "input_key": "817594397ce8e08fe1f4f1b7102fe9cc683d45991ad6ee1b90b5c2d637f24592",
+      "cached": false,
+      "started_ms": 1790797729119,
+      "finished_ms": 1790797729910,
+      "elapsed_ms": 780,
+      "message": null,
+      "outputs": [
+        "check.json",
+        "erc.json"
+      ]
+    },
+    {
+      "stage": "drc",
+      "label": "DRC",
+      "state": "ok",
+      "input_key": "fae2aafe4fe9626d15dfbc9cce3c1a46e5b86c2a6d0c85c2fea866a7885d2ca7",
+      "cached": false,
+      "started_ms": 1790797729119,
+      "finished_ms": 1790797734311,
+      "elapsed_ms": 5177,
+      "message": null,
+      "outputs": [
+        "check.json",
+        "drc.json"
+      ]
+    },
+    {
+      "stage": "bom",
+      "label": "BOM",
+      "state": "ok",
+      "input_key": "ecea4efb5df9fe4c8b7b659261b6e1797c3cce1526ce1657c76a77d254949763",
+      "cached": false,
+      "started_ms": 1790797729910,
+      "finished_ms": 1790797730552,
+      "elapsed_ms": 627,
+      "message": null,
+      "outputs": [
+        "controller-bom.csv"
+      ]
+    },
+    {
+      "stage": "schematic-pdf",
+      "label": "Sch PDF",
+      "state": "ok",
+      "input_key": "d8382767a0bcd2302e30d6c9da16d1f6ce2244f7b5edfa7d390de201ecb3657c",
+      "cached": false,
+      "started_ms": 1790797734311,
+      "finished_ms": 1790797735183,
+      "elapsed_ms": 857,
+      "message": null,
+      "outputs": [
+        "controller-schematic.pdf"
+      ]
+    },
+    {
+      "stage": "gerbers",
+      "label": "Gerbers",
+      "state": "ok",
+      "input_key": "b8d955a4374d6f60dc7fb3b5a567d1c2111e32d3a87355c46fe77ee7733fb121",
+      "cached": false,
+      "started_ms": 1790795030235,
+      "finished_ms": 1790795034158,
+      "elapsed_ms": 3909,
+      "message": null,
+      "outputs": [
+        "controller-B_Adhesive.gba",
+        "controller-B_Courtyard.gbr",
+        "controller-B_Cu.gbl",
+        "controller-B_Fab.gbr",
+        "controller-B_Mask.gbs",
+        "controller-B_Paste.gbp",
+        "controller-B_Silkscreen.gbo",
+        "controller-Edge_Cuts.gm1",
+        "controller-F_Adhesive.gta",
+        "controller-F_Courtyard.gbr",
+        "controller-F_Cu.gtl",
+        "controller-F_Fab.gbr",
+        "controller-F_Mask.gts",
+        "controller-F_Paste.gtp",
+        "controller-F_Silkscreen.gto",
+        "controller-Margin.gbr",
+        "controller-User_1.gbr",
+        "controller-User_2.gbr",
+        "controller-User_3.gbr",
+        "controller-User_4.gbr",
+        "controller-User_Comments.gbr",
+        "controller-User_Drawings.gbr",
+        "controller-User_Eco1.gbr",
+        "controller-User_Eco2.gbr",
+        "controller-gerbers.zip",
+        "controller.drl"
+      ]
+    },
+    {
+      "stage": "jlcpcb",
+      "label": "JLCPCB",
+      "state": "ok",
+      "input_key": "03e0196748f01b012cd0fcde181ffac5609a06716b87298503c7e85d757c9cd2",
+      "cached": false,
+      "started_ms": 1790797730552,
+      "finished_ms": 1790797736862,
+      "elapsed_ms": 6295,
+      "message": null,
+      "outputs": [
+        "BOM_controller.csv",
+        "CPL_controller.csv",
+        "controller-B_Adhesive.gba",
+        "controller-B_Courtyard.gbr",
+        "controller-B_Cu.gbl",
+        "controller-B_Fab.gbr",
+        "controller-B_Mask.gbs",
+        "controller-B_Paste.gbp",
+        "controller-B_Silkscreen.gbo",
+        "controller-Edge_Cuts.gm1",
+        "controller-F_Adhesive.gta",
+        "controller-F_Courtyard.gbr",
+        "controller-F_Cu.gtl",
+        "controller-F_Fab.gbr",
+        "controller-F_Mask.gts",
+        "controller-F_Paste.gtp",
+        "controller-F_Silkscreen.gto",
+        "controller-Margin.gbr",
+        "controller-User_1.gbr",
+        "controller-User_2.gbr",
+        "controller-User_3.gbr",
+        "controller-User_4.gbr",
+        "controller-User_Comments.gbr",
+        "controller-User_Drawings.gbr",
+        "controller-User_Eco1.gbr",
+        "controller-User_Eco2.gbr",
+        "controller-jlcpcb.zip",
+        "controller.drl"
+      ]
+    },
+    {
+      "stage": "glb",
+      "label": "GLB",
+      "state": "ok",
+      "input_key": "dadb5e0fbd393f0ef1db3926bfb39c7af1dd073f9baee73ac3cbb291692b5a05",
+      "cached": false,
+      "started_ms": 1790795024788,
+      "finished_ms": 1790795047096,
+      "elapsed_ms": 22300,
+      "message": null,
+      "outputs": [
+        "controller.glb"
+      ]
+    },
+    {
+      "stage": "step",
+      "label": "STEP",
+      "state": "ok",
+      "input_key": "2049e0e1d0adc1b3c204424058f8ed322be5a2b545650d88838cfad479d04f61",
+      "cached": false,
+      "started_ms": 1790795047096,
+      "finished_ms": 1790795057292,
+      "elapsed_ms": 10187,
+      "message": null,
+      "outputs": [
+        "controller.step"
+      ]
+    },
+    {
+      "stage": "quality",
+      "label": "Quality",
+      "state": "failed",
+      "input_key": "aee48b901ebe65810b92b9b5f829731e2e776938e090a021cce8a82cfb21bc2a",
+      "cached": false,
+      "started_ms": 1790797735183,
+      "finished_ms": 1790797773704,
+      "elapsed_ms": 38514,
+      "message": "302 errors, 2394 warnings",
+      "outputs": [
+        "check.json",
+        "quality.json"
+      ]
+    }
+  ],
+  "publish": {
+    "published": false,
+    "manifest": null,
+    "published_at_ms": null,
+    "published_revision": null,
+    "stale": false,
+    "stale_stages": [],
+    "reasons": []
+  },
+  "updated_ms": 1790797841163
+}

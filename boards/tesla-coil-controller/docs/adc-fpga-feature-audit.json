@@ -1,0 +1,2705 @@
+{
+  "scope": "read-only ADC to FPGA feature/connectivity audit",
+  "source_sha256": {
+    "boards/tesla-coil-controller/controller.kicad_pcb": "cf7a6a56b772f336e40a19349ef7e0c039f50a38c5df540b2db04c5c0ff1d45f",
+    "boards/esp32-fpga-module/module.kicad_pcb": "441d492ca44e15825f883397baa316bb4cc7ad006db7818a43be6ab2683e6361",
+    "boards/tesla-coil-controller/controller.kicad_sch": "d1f2157437e8d7cc722dd2446009ce7c7402762126eb5a5e3ba4992b00055342",
+    "boards/tesla-coil-controller/controller.kicad_pro": "40e593eb2309fcddf3cd616a5e82b970cb97e4b268436e03b5e1288843705533",
+    "boards/esp32-fpga-module/module.kicad_sch": "474ade84441a1a5b6d33b7d8c7b10289f7e4678738ae3cbcfa7b341039994d20",
+    "boards/tesla-coil-controller/docs/integration/tesla-controller.pcf": "93a64a0208961a0383a1240edb57c817219a4e670823383374ca569a8b8b8c5a",
+    "libraries/datasheets/ice40up5k-pinout.xlsx": "cee14ad47beaf22298246228e913e539c87e33bf078e04d65988d1a24237d938"
+  },
+  "checks": [
+    {
+      "check": "all 64 ADC package pins accounted for",
+      "pass": true
+    },
+    {
+      "check": "U1.1 PCB vs expected",
+      "pass": true
+    },
+    {
+      "check": "U1.1 schematic vs PCB",
+      "pass": true
+    },
+    {
+      "check": "U1.1 reaches ADC supply resistor",
+      "pass": true
+    },
+    {
+      "check": "U1.2 PCB vs expected",
+      "pass": true
+    },
+    {
+      "check": "U1.2 schematic vs PCB",
+      "pass": true
+    },
+    {
+      "check": "U1.2 reaches carrier ground connector",
+      "pass": true
+    },
+    {
+      "check": "U1.3 PCB vs expected",
+      "pass": true
+    },
+    {
+      "check": "U1.3 schematic vs PCB",
+      "pass": true
+    },
+    {
+      "check": "U1.3 reaches carrier 3.3V regulator",
+      "pass": true
+    },
+    {
+      "check": "U1.4 PCB vs expected",
+      "pass": true
+    },
+    {
+      "check": "U1.4 schematic vs PCB",
+      "pass": true
+    },
+    {
+      "check": "U1.4 reaches carrier 3.3V regulator",
+      "pass": true
+    },
+    {
+      "check": "U1.5 PCB vs expected",
+      "pass": true
+    },
+    {
+      "check": "U1.5 schematic vs PCB",
+      "pass": true
+    },
+    {
+      "check": "U1.5 reaches carrier 3.3V regulator",
+      "pass": true
+    },
+    {
+      "check": "U1.6 PCB vs expected",
+      "pass": true
+    },
+    {
+      "check": "U1.6 schematic vs PCB",
+      "pass": true
+    },
+    {
+      "check": "U1.6 reaches carrier 3.3V regulator",
+      "pass": true
+    },
+    {
+      "check": "U1.7 PCB vs expected",
+      "pass": true
+    },
+    {
+      "check": "U1.7 schematic vs PCB",
+      "pass": true
+    },
+    {
+      "check": "U1.7 reaches carrier 3.3V regulator",
+      "pass": true
+    },
+    {
+      "check": "U1.8 PCB vs expected",
+      "pass": true
+    },
+    {
+      "check": "U1.8 schematic vs PCB",
+      "pass": true
+    },
+    {
+      "check": "U1.8 reaches carrier ground connector",
+      "pass": true
+    },
+    {
+      "check": "U1.9 PCB vs expected",
+      "pass": true
+    },
+    {
+      "check": "U1.9 schematic vs PCB",
+      "pass": true
+    },
+    {
+      "check": "U1.10 PCB vs expected",
+      "pass": true
+    },
+    {
+      "check": "U1.10 schematic vs PCB",
+      "pass": true
+    },
+    {
+      "check": "U1.10 reaches carrier 3.3V regulator",
+      "pass": true
+    },
+    {
+      "check": "U1.11 PCB vs expected",
+      "pass": true
+    },
+    {
+      "check": "U1.11 schematic vs PCB",
+      "pass": true
+    },
+    {
+      "check": "U1.12 PCB vs expected",
+      "pass": true
+    },
+    {
+      "check": "U1.12 schematic vs PCB",
+      "pass": true
+    },
+    {
+      "check": "U1.13 PCB vs expected",
+      "pass": true
+    },
+    {
+      "check": "U1.13 schematic vs PCB",
+      "pass": true
+    },
+    {
+      "check": "U1.14 PCB vs expected",
+      "pass": true
+    },
+    {
+      "check": "U1.14 schematic vs PCB",
+      "pass": true
+    },
+    {
+      "check": "U1.15 PCB vs expected",
+      "pass": true
+    },
+    {
+      "check": "U1.15 schematic vs PCB",
+      "pass": true
+    },
+    {
+      "check": "U1.16 PCB vs expected",
+      "pass": true
+    },
+    {
+      "check": "U1.16 schematic vs PCB",
+      "pass": true
+    },
+    {
+      "check": "U1.16 reaches carrier ground connector",
+      "pass": true
+    },
+    {
+      "check": "U1.17 PCB vs expected",
+      "pass": true
+    },
+    {
+      "check": "U1.17 schematic vs PCB",
+      "pass": true
+    },
+    {
+      "check": "U1.17 reaches carrier ground connector",
+      "pass": true
+    },
+    {
+      "check": "U1.18 PCB vs expected",
+      "pass": true
+    },
+    {
+      "check": "U1.18 schematic vs PCB",
+      "pass": true
+    },
+    {
+      "check": "U1.18 reaches carrier ground connector",
+      "pass": true
+    },
+    {
+      "check": "U1.19 PCB vs expected",
+      "pass": true
+    },
+    {
+      "check": "U1.19 schematic vs PCB",
+      "pass": true
+    },
+    {
+      "check": "U1.19 physically isolated",
+      "pass": true
+    },
+    {
+      "check": "U1.20 PCB vs expected",
+      "pass": true
+    },
+    {
+      "check": "U1.20 schematic vs PCB",
+      "pass": true
+    },
+    {
+      "check": "U1.20 physically isolated",
+      "pass": true
+    },
+    {
+      "check": "U1.21 PCB vs expected",
+      "pass": true
+    },
+    {
+      "check": "U1.21 schematic vs PCB",
+      "pass": true
+    },
+    {
+      "check": "U1.21 physically isolated",
+      "pass": true
+    },
+    {
+      "check": "U1.22 PCB vs expected",
+      "pass": true
+    },
+    {
+      "check": "U1.22 schematic vs PCB",
+      "pass": true
+    },
+    {
+      "check": "U1.22 physically isolated",
+      "pass": true
+    },
+    {
+      "check": "U1.23 PCB vs expected",
+      "pass": true
+    },
+    {
+      "check": "U1.23 schematic vs PCB",
+      "pass": true
+    },
+    {
+      "check": "U1.23 reaches carrier 3.3V regulator",
+      "pass": true
+    },
+    {
+      "check": "U1.24 PCB vs expected",
+      "pass": true
+    },
+    {
+      "check": "U1.24 schematic vs PCB",
+      "pass": true
+    },
+    {
+      "check": "U1.25 PCB vs expected",
+      "pass": true
+    },
+    {
+      "check": "U1.25 schematic vs PCB",
+      "pass": true
+    },
+    {
+      "check": "U1.26 PCB vs expected",
+      "pass": true
+    },
+    {
+      "check": "U1.26 schematic vs PCB",
+      "pass": true
+    },
+    {
+      "check": "U1.26 reaches carrier ground connector",
+      "pass": true
+    },
+    {
+      "check": "U1.27 PCB vs expected",
+      "pass": true
+    },
+    {
+      "check": "U1.27 schematic vs PCB",
+      "pass": true
+    },
+    {
+      "check": "U1.28 PCB vs expected",
+      "pass": true
+    },
+    {
+      "check": "U1.28 schematic vs PCB",
+      "pass": true
+    },
+    {
+      "check": "U1.29 PCB vs expected",
+      "pass": true
+    },
+    {
+      "check": "U1.29 schematic vs PCB",
+      "pass": true
+    },
+    {
+      "check": "U1.30 PCB vs expected",
+      "pass": true
+    },
+    {
+      "check": "U1.30 schematic vs PCB",
+      "pass": true
+    },
+    {
+      "check": "U1.30 reaches carrier ground connector",
+      "pass": true
+    },
+    {
+      "check": "U1.31 PCB vs expected",
+      "pass": true
+    },
+    {
+      "check": "U1.31 schematic vs PCB",
+      "pass": true
+    },
+    {
+      "check": "U1.31 reaches carrier ground connector",
+      "pass": true
+    },
+    {
+      "check": "U1.32 PCB vs expected",
+      "pass": true
+    },
+    {
+      "check": "U1.32 schematic vs PCB",
+      "pass": true
+    },
+    {
+      "check": "U1.32 reaches carrier ground connector",
+      "pass": true
+    },
+    {
+      "check": "U1.33 PCB vs expected",
+      "pass": true
+    },
+    {
+      "check": "U1.33 schematic vs PCB",
+      "pass": true
+    },
+    {
+      "check": "U1.33 reaches carrier ground connector",
+      "pass": true
+    },
+    {
+      "check": "U1.34 PCB vs expected",
+      "pass": true
+    },
+    {
+      "check": "U1.34 schematic vs PCB",
+      "pass": true
+    },
+    {
+      "check": "U1.34 reaches carrier 3.3V regulator",
+      "pass": true
+    },
+    {
+      "check": "U1.35 PCB vs expected",
+      "pass": true
+    },
+    {
+      "check": "U1.35 schematic vs PCB",
+      "pass": true
+    },
+    {
+      "check": "U1.35 reaches carrier ground connector",
+      "pass": true
+    },
+    {
+      "check": "U1.36 PCB vs expected",
+      "pass": true
+    },
+    {
+      "check": "U1.36 schematic vs PCB",
+      "pass": true
+    },
+    {
+      "check": "U1.37 PCB vs expected",
+      "pass": true
+    },
+    {
+      "check": "U1.37 schematic vs PCB",
+      "pass": true
+    },
+    {
+      "check": "U1.37 reaches ADC supply resistor",
+      "pass": true
+    },
+    {
+      "check": "U1.38 PCB vs expected",
+      "pass": true
+    },
+    {
+      "check": "U1.38 schematic vs PCB",
+      "pass": true
+    },
+    {
+      "check": "U1.38 reaches ADC supply resistor",
+      "pass": true
+    },
+    {
+      "check": "U1.39 PCB vs expected",
+      "pass": true
+    },
+    {
+      "check": "U1.39 schematic vs PCB",
+      "pass": true
+    },
+    {
+      "check": "U1.40 PCB vs expected",
+      "pass": true
+    },
+    {
+      "check": "U1.40 schematic vs PCB",
+      "pass": true
+    },
+    {
+      "check": "U1.40 reaches carrier ground connector",
+      "pass": true
+    },
+    {
+      "check": "U1.41 PCB vs expected",
+      "pass": true
+    },
+    {
+      "check": "U1.41 schematic vs PCB",
+      "pass": true
+    },
+    {
+      "check": "U1.41 reaches carrier ground connector",
+      "pass": true
+    },
+    {
+      "check": "U1.42 PCB vs expected",
+      "pass": true
+    },
+    {
+      "check": "U1.42 schematic vs PCB",
+      "pass": true
+    },
+    {
+      "check": "U1.43 PCB vs expected",
+      "pass": true
+    },
+    {
+      "check": "U1.43 schematic vs PCB",
+      "pass": true
+    },
+    {
+      "check": "U1.43 reaches carrier ground connector",
+      "pass": true
+    },
+    {
+      "check": "U1.44 PCB vs expected",
+      "pass": true
+    },
+    {
+      "check": "U1.44 schematic vs PCB",
+      "pass": true
+    },
+    {
+      "check": "U1.45 PCB vs expected",
+      "pass": true
+    },
+    {
+      "check": "U1.45 schematic vs PCB",
+      "pass": true
+    },
+    {
+      "check": "U1.46 PCB vs expected",
+      "pass": true
+    },
+    {
+      "check": "U1.46 schematic vs PCB",
+      "pass": true
+    },
+    {
+      "check": "U1.46 reaches carrier ground connector",
+      "pass": true
+    },
+    {
+      "check": "U1.47 PCB vs expected",
+      "pass": true
+    },
+    {
+      "check": "U1.47 schematic vs PCB",
+      "pass": true
+    },
+    {
+      "check": "U1.47 reaches carrier ground connector",
+      "pass": true
+    },
+    {
+      "check": "U1.48 PCB vs expected",
+      "pass": true
+    },
+    {
+      "check": "U1.48 schematic vs PCB",
+      "pass": true
+    },
+    {
+      "check": "U1.48 reaches ADC supply resistor",
+      "pass": true
+    },
+    {
+      "check": "U1.49 PCB vs expected",
+      "pass": true
+    },
+    {
+      "check": "U1.49 schematic vs PCB",
+      "pass": true
+    },
+    {
+      "check": "U1.50 PCB vs expected",
+      "pass": true
+    },
+    {
+      "check": "U1.50 schematic vs PCB",
+      "pass": true
+    },
+    {
+      "check": "U1.50 reaches carrier ground connector",
+      "pass": true
+    },
+    {
+      "check": "U1.51 PCB vs expected",
+      "pass": true
+    },
+    {
+      "check": "U1.51 schematic vs PCB",
+      "pass": true
+    },
+    {
+      "check": "U1.52 PCB vs expected",
+      "pass": true
+    },
+    {
+      "check": "U1.52 schematic vs PCB",
+      "pass": true
+    },
+    {
+      "check": "U1.52 reaches carrier ground connector",
+      "pass": true
+    },
+    {
+      "check": "U1.53 PCB vs expected",
+      "pass": true
+    },
+    {
+      "check": "U1.53 schematic vs PCB",
+      "pass": true
+    },
+    {
+      "check": "U1.54 PCB vs expected",
+      "pass": true
+    },
+    {
+      "check": "U1.54 schematic vs PCB",
+      "pass": true
+    },
+    {
+      "check": "U1.54 reaches carrier ground connector",
+      "pass": true
+    },
+    {
+      "check": "U1.55 PCB vs expected",
+      "pass": true
+    },
+    {
+      "check": "U1.55 schematic vs PCB",
+      "pass": true
+    },
+    {
+      "check": "U1.56 PCB vs expected",
+      "pass": true
+    },
+    {
+      "check": "U1.56 schematic vs PCB",
+      "pass": true
+    },
+    {
+      "check": "U1.56 reaches carrier ground connector",
+      "pass": true
+    },
+    {
+      "check": "U1.57 PCB vs expected",
+      "pass": true
+    },
+    {
+      "check": "U1.57 schematic vs PCB",
+      "pass": true
+    },
+    {
+      "check": "U1.58 PCB vs expected",
+      "pass": true
+    },
+    {
+      "check": "U1.58 schematic vs PCB",
+      "pass": true
+    },
+    {
+      "check": "U1.58 reaches carrier ground connector",
+      "pass": true
+    },
+    {
+      "check": "U1.59 PCB vs expected",
+      "pass": true
+    },
+    {
+      "check": "U1.59 schematic vs PCB",
+      "pass": true
+    },
+    {
+      "check": "U1.60 PCB vs expected",
+      "pass": true
+    },
+    {
+      "check": "U1.60 schematic vs PCB",
+      "pass": true
+    },
+    {
+      "check": "U1.60 reaches carrier ground connector",
+      "pass": true
+    },
+    {
+      "check": "U1.61 PCB vs expected",
+      "pass": true
+    },
+    {
+      "check": "U1.61 schematic vs PCB",
+      "pass": true
+    },
+    {
+      "check": "U1.62 PCB vs expected",
+      "pass": true
+    },
+    {
+      "check": "U1.62 schematic vs PCB",
+      "pass": true
+    },
+    {
+      "check": "U1.62 reaches carrier ground connector",
+      "pass": true
+    },
+    {
+      "check": "U1.63 PCB vs expected",
+      "pass": true
+    },
+    {
+      "check": "U1.63 schematic vs PCB",
+      "pass": true
+    },
+    {
+      "check": "U1.64 PCB vs expected",
+      "pass": true
+    },
+    {
+      "check": "U1.64 schematic vs PCB",
+      "pass": true
+    },
+    {
+      "check": "U1.64 reaches carrier ground connector",
+      "pass": true
+    },
+    {
+      "check": "CONVST carrier copper",
+      "pass": true
+    },
+    {
+      "check": "CONVST module copper",
+      "pass": true
+    },
+    {
+      "check": "CONVST carrier connector schematic parity",
+      "pass": true
+    },
+    {
+      "check": "CONVST module schematic parity",
+      "pass": true
+    },
+    {
+      "check": "CONVST official package GPIO",
+      "pass": true
+    },
+    {
+      "check": "CONVST PCF constraint",
+      "pass": true
+    },
+    {
+      "check": "RESET carrier copper",
+      "pass": true
+    },
+    {
+      "check": "RESET module copper",
+      "pass": true
+    },
+    {
+      "check": "RESET carrier connector schematic parity",
+      "pass": true
+    },
+    {
+      "check": "RESET module schematic parity",
+      "pass": true
+    },
+    {
+      "check": "RESET official package GPIO",
+      "pass": true
+    },
+    {
+      "check": "RESET PCF constraint",
+      "pass": true
+    },
+    {
+      "check": "SCLK carrier copper",
+      "pass": true
+    },
+    {
+      "check": "SCLK module copper",
+      "pass": true
+    },
+    {
+      "check": "SCLK carrier connector schematic parity",
+      "pass": true
+    },
+    {
+      "check": "SCLK module schematic parity",
+      "pass": true
+    },
+    {
+      "check": "SCLK official package GPIO",
+      "pass": true
+    },
+    {
+      "check": "SCLK PCF constraint",
+      "pass": true
+    },
+    {
+      "check": "CS_N carrier copper",
+      "pass": true
+    },
+    {
+      "check": "CS_N module copper",
+      "pass": true
+    },
+    {
+      "check": "CS_N carrier connector schematic parity",
+      "pass": true
+    },
+    {
+      "check": "CS_N module schematic parity",
+      "pass": true
+    },
+    {
+      "check": "CS_N official package GPIO",
+      "pass": true
+    },
+    {
+      "check": "CS_N PCF constraint",
+      "pass": true
+    },
+    {
+      "check": "BUSY carrier copper",
+      "pass": true
+    },
+    {
+      "check": "BUSY module copper",
+      "pass": true
+    },
+    {
+      "check": "BUSY carrier connector schematic parity",
+      "pass": true
+    },
+    {
+      "check": "BUSY module schematic parity",
+      "pass": true
+    },
+    {
+      "check": "BUSY official package GPIO",
+      "pass": true
+    },
+    {
+      "check": "BUSY PCF constraint",
+      "pass": true
+    },
+    {
+      "check": "SDI carrier copper",
+      "pass": true
+    },
+    {
+      "check": "SDI module copper",
+      "pass": true
+    },
+    {
+      "check": "SDI carrier connector schematic parity",
+      "pass": true
+    },
+    {
+      "check": "SDI module schematic parity",
+      "pass": true
+    },
+    {
+      "check": "SDI official package GPIO",
+      "pass": true
+    },
+    {
+      "check": "SDI PCF constraint",
+      "pass": true
+    },
+    {
+      "check": "DOUT_D carrier copper",
+      "pass": true
+    },
+    {
+      "check": "DOUT_D module copper",
+      "pass": true
+    },
+    {
+      "check": "DOUT_D carrier connector schematic parity",
+      "pass": true
+    },
+    {
+      "check": "DOUT_D module schematic parity",
+      "pass": true
+    },
+    {
+      "check": "DOUT_D official package GPIO",
+      "pass": true
+    },
+    {
+      "check": "DOUT_D PCF constraint",
+      "pass": true
+    },
+    {
+      "check": "DOUT_C carrier copper",
+      "pass": true
+    },
+    {
+      "check": "DOUT_C module copper",
+      "pass": true
+    },
+    {
+      "check": "DOUT_C carrier connector schematic parity",
+      "pass": true
+    },
+    {
+      "check": "DOUT_C module schematic parity",
+      "pass": true
+    },
+    {
+      "check": "DOUT_C official package GPIO",
+      "pass": true
+    },
+    {
+      "check": "DOUT_C PCF constraint",
+      "pass": true
+    },
+    {
+      "check": "DOUT_B carrier copper",
+      "pass": true
+    },
+    {
+      "check": "DOUT_B module copper",
+      "pass": true
+    },
+    {
+      "check": "DOUT_B carrier connector schematic parity",
+      "pass": true
+    },
+    {
+      "check": "DOUT_B module schematic parity",
+      "pass": true
+    },
+    {
+      "check": "DOUT_B official package GPIO",
+      "pass": true
+    },
+    {
+      "check": "DOUT_B PCF constraint",
+      "pass": true
+    },
+    {
+      "check": "DOUT_A carrier copper",
+      "pass": true
+    },
+    {
+      "check": "DOUT_A module copper",
+      "pass": true
+    },
+    {
+      "check": "DOUT_A carrier connector schematic parity",
+      "pass": true
+    },
+    {
+      "check": "DOUT_A module schematic parity",
+      "pass": true
+    },
+    {
+      "check": "DOUT_A official package GPIO",
+      "pass": true
+    },
+    {
+      "check": "DOUT_A PCF constraint",
+      "pass": true
+    },
+    {
+      "check": "spare J2.12 unconnected carrier",
+      "pass": true
+    },
+    {
+      "check": "spare J2.12 single FPGA pin",
+      "pass": true
+    },
+    {
+      "check": "spare J2.12 module copper",
+      "pass": true
+    },
+    {
+      "check": "spare J2.12 module parity",
+      "pass": true
+    },
+    {
+      "check": "spare J2.12 official GPIO",
+      "pass": true
+    },
+    {
+      "check": "spare J2.14 unconnected carrier",
+      "pass": true
+    },
+    {
+      "check": "spare J2.14 single FPGA pin",
+      "pass": true
+    },
+    {
+      "check": "spare J2.14 module copper",
+      "pass": true
+    },
+    {
+      "check": "spare J2.14 module parity",
+      "pass": true
+    },
+    {
+      "check": "spare J2.14 official GPIO",
+      "pass": true
+    },
+    {
+      "check": "spare J2.15 unconnected carrier",
+      "pass": true
+    },
+    {
+      "check": "spare J2.15 single FPGA pin",
+      "pass": true
+    },
+    {
+      "check": "spare J2.15 module copper",
+      "pass": true
+    },
+    {
+      "check": "spare J2.15 module parity",
+      "pass": true
+    },
+    {
+      "check": "spare J2.15 official GPIO",
+      "pass": true
+    },
+    {
+      "check": "spare J2.16 unconnected carrier",
+      "pass": true
+    },
+    {
+      "check": "spare J2.16 single FPGA pin",
+      "pass": true
+    },
+    {
+      "check": "spare J2.16 module copper",
+      "pass": true
+    },
+    {
+      "check": "spare J2.16 module parity",
+      "pass": true
+    },
+    {
+      "check": "spare J2.16 official GPIO",
+      "pass": true
+    },
+    {
+      "check": "spare J2.17 unconnected carrier",
+      "pass": true
+    },
+    {
+      "check": "spare J2.17 single FPGA pin",
+      "pass": true
+    },
+    {
+      "check": "spare J2.17 module copper",
+      "pass": true
+    },
+    {
+      "check": "spare J2.17 module parity",
+      "pass": true
+    },
+    {
+      "check": "spare J2.17 official GPIO",
+      "pass": true
+    },
+    {
+      "check": "spare J2.19 unconnected carrier",
+      "pass": true
+    },
+    {
+      "check": "spare J2.19 single FPGA pin",
+      "pass": true
+    },
+    {
+      "check": "spare J2.19 module copper",
+      "pass": true
+    },
+    {
+      "check": "spare J2.19 module parity",
+      "pass": true
+    },
+    {
+      "check": "spare J2.19 official GPIO",
+      "pass": true
+    },
+    {
+      "check": "spare J2.20 unconnected carrier",
+      "pass": true
+    },
+    {
+      "check": "spare J2.20 single FPGA pin",
+      "pass": true
+    },
+    {
+      "check": "spare J2.20 module copper",
+      "pass": true
+    },
+    {
+      "check": "spare J2.20 module parity",
+      "pass": true
+    },
+    {
+      "check": "spare J2.20 official GPIO",
+      "pass": true
+    },
+    {
+      "check": "spare J2.21 unconnected carrier",
+      "pass": true
+    },
+    {
+      "check": "spare J2.21 single FPGA pin",
+      "pass": true
+    },
+    {
+      "check": "spare J2.21 module copper",
+      "pass": true
+    },
+    {
+      "check": "spare J2.21 module parity",
+      "pass": true
+    },
+    {
+      "check": "spare J2.21 official GPIO",
+      "pass": true
+    },
+    {
+      "check": "spare J2.25 unconnected carrier",
+      "pass": true
+    },
+    {
+      "check": "spare J2.25 single FPGA pin",
+      "pass": true
+    },
+    {
+      "check": "spare J2.25 module copper",
+      "pass": true
+    },
+    {
+      "check": "spare J2.25 module parity",
+      "pass": true
+    },
+    {
+      "check": "spare J2.25 official GPIO",
+      "pass": true
+    },
+    {
+      "check": "spare J2.30 unconnected carrier",
+      "pass": true
+    },
+    {
+      "check": "spare J2.30 single FPGA pin",
+      "pass": true
+    },
+    {
+      "check": "spare J2.30 module copper",
+      "pass": true
+    },
+    {
+      "check": "spare J2.30 module parity",
+      "pass": true
+    },
+    {
+      "check": "spare J2.30 official GPIO",
+      "pass": true
+    },
+    {
+      "check": "FRSTDATA reaches TP1",
+      "pass": true
+    },
+    {
+      "check": "FRSTDATA has no connector",
+      "pass": true
+    },
+    {
+      "check": "C1 capacitance",
+      "pass": true
+    },
+    {
+      "check": "C1 ground",
+      "pass": true
+    },
+    {
+      "check": "C1 positive copper",
+      "pass": true
+    },
+    {
+      "check": "C2 capacitance",
+      "pass": true
+    },
+    {
+      "check": "C2 ground",
+      "pass": true
+    },
+    {
+      "check": "C2 positive copper",
+      "pass": true
+    },
+    {
+      "check": "C3 capacitance",
+      "pass": true
+    },
+    {
+      "check": "C3 ground",
+      "pass": true
+    },
+    {
+      "check": "C3 positive copper",
+      "pass": true
+    },
+    {
+      "check": "C4 capacitance",
+      "pass": true
+    },
+    {
+      "check": "C4 ground",
+      "pass": true
+    },
+    {
+      "check": "C4 positive copper",
+      "pass": true
+    },
+    {
+      "check": "C5 capacitance",
+      "pass": true
+    },
+    {
+      "check": "C5 ground",
+      "pass": true
+    },
+    {
+      "check": "C5 positive copper",
+      "pass": true
+    },
+    {
+      "check": "C6 capacitance",
+      "pass": true
+    },
+    {
+      "check": "C6 ground",
+      "pass": true
+    },
+    {
+      "check": "C6 positive copper",
+      "pass": true
+    },
+    {
+      "check": "C7 capacitance",
+      "pass": true
+    },
+    {
+      "check": "C7 ground",
+      "pass": true
+    },
+    {
+      "check": "C7 positive copper",
+      "pass": true
+    },
+    {
+      "check": "C8 capacitance",
+      "pass": true
+    },
+    {
+      "check": "C8 ground",
+      "pass": true
+    },
+    {
+      "check": "C8 positive copper",
+      "pass": true
+    },
+    {
+      "check": "C9 capacitance",
+      "pass": true
+    },
+    {
+      "check": "C9 ground",
+      "pass": true
+    },
+    {
+      "check": "C9 positive copper",
+      "pass": true
+    },
+    {
+      "check": "C10 capacitance",
+      "pass": true
+    },
+    {
+      "check": "C10 ground",
+      "pass": true
+    },
+    {
+      "check": "C10 positive copper",
+      "pass": true
+    },
+    {
+      "check": "R21 10k value",
+      "pass": true
+    },
+    {
+      "check": "R21.1 copper",
+      "pass": true
+    },
+    {
+      "check": "R21.2 copper",
+      "pass": true
+    },
+    {
+      "check": "R22 10k value",
+      "pass": true
+    },
+    {
+      "check": "R22.1 copper",
+      "pass": true
+    },
+    {
+      "check": "R22.2 copper",
+      "pass": true
+    },
+    {
+      "check": "R23 10k value",
+      "pass": true
+    },
+    {
+      "check": "R23.1 copper",
+      "pass": true
+    },
+    {
+      "check": "R23.2 copper",
+      "pass": true
+    },
+    {
+      "check": "FPGA ground reaches carrier via five mating contacts",
+      "pass": true
+    },
+    {
+      "check": "FPGA VCCIO 1 copper",
+      "pass": true
+    },
+    {
+      "check": "FPGA VCCIO 22 copper",
+      "pass": true
+    },
+    {
+      "check": "FPGA VCCIO 33 copper",
+      "pass": true
+    }
+  ],
+  "failures": [],
+  "ADC_pins": [
+    {
+      "pin": 1,
+      "schematic_function": "AVCC_1",
+      "net": "+5V_ADC",
+      "copper_cluster": "carrier_cluster_1"
+    },
+    {
+      "pin": 2,
+      "schematic_function": "AGND_2",
+      "net": "GND",
+      "copper_cluster": "carrier_cluster_2"
+    },
+    {
+      "pin": 3,
+      "schematic_function": "OS0_3",
+      "net": "+3V3",
+      "copper_cluster": "carrier_cluster_3"
+    },
+    {
+      "pin": 4,
+      "schematic_function": "OS1_4",
+      "net": "+3V3",
+      "copper_cluster": "carrier_cluster_3"
+    },
+    {
+      "pin": 5,
+      "schematic_function": "OS2_5",
+      "net": "+3V3",
+      "copper_cluster": "carrier_cluster_3"
+    },
+    {
+      "pin": 6,
+      "schematic_function": "PAR_SER_6",
+      "net": "+3V3",
+      "copper_cluster": "carrier_cluster_3"
+    },
+    {
+      "pin": 7,
+      "schematic_function": "STBY_N_7",
+      "net": "+3V3",
+      "copper_cluster": "carrier_cluster_3"
+    },
+    {
+      "pin": 8,
+      "schematic_function": "RANGE_8",
+      "net": "GND",
+      "copper_cluster": "carrier_cluster_2"
+    },
+    {
+      "pin": 9,
+      "schematic_function": "ADC_CONVST_9",
+      "net": "ADC_CONVST",
+      "copper_cluster": "carrier_cluster_4"
+    },
+    {
+      "pin": 10,
+      "schematic_function": "WR_N_10",
+      "net": "+3V3",
+      "copper_cluster": "carrier_cluster_3"
+    },
+    {
+      "pin": 11,
+      "schematic_function": "ADC_RESET_11",
+      "net": "ADC_RESET",
+      "copper_cluster": "carrier_cluster_5"
+    },
+    {
+      "pin": 12,
+      "schematic_function": "ADC_SCLK_12",
+      "net": "ADC_SCLK",
+      "copper_cluster": "carrier_cluster_6"
+    },
+    {
+      "pin": 13,
+      "schematic_function": "ADC_CS_N_13",
+      "net": "ADC_CS_N",
+      "copper_cluster": "carrier_cluster_7"
+    },
+    {
+      "pin": 14,
+      "schematic_function": "ADC_BUSY_14",
+      "net": "ADC_BUSY",
+      "copper_cluster": "carrier_cluster_8"
+    },
+    {
+      "pin": 15,
+      "schematic_function": "ADC_FIRST_15",
+      "net": "ADC_FIRST",
+      "copper_cluster": "carrier_cluster_9"
+    },
+    {
+      "pin": 16,
+      "schematic_function": "UNUSED_DB_16",
+      "net": "GND",
+      "copper_cluster": "carrier_cluster_2"
+    },
+    {
+      "pin": 17,
+      "schematic_function": "UNUSED_DB_17",
+      "net": "GND",
+      "copper_cluster": "carrier_cluster_2"
+    },
+    {
+      "pin": 18,
+      "schematic_function": "UNUSED_DB_18",
+      "net": "GND",
+      "copper_cluster": "carrier_cluster_2"
+    },
+    {
+      "pin": 19,
+      "schematic_function": "UNUSED_DOUT_19",
+      "net": "unconnected-(U1-UNUSED_DOUT-Pad19)",
+      "copper_cluster": "carrier_cluster_10"
+    },
+    {
+      "pin": 20,
+      "schematic_function": "UNUSED_DOUT_20",
+      "net": "unconnected-(U1-UNUSED_DOUT-Pad20)",
+      "copper_cluster": "carrier_cluster_11"
+    },
+    {
+      "pin": 21,
+      "schematic_function": "UNUSED_DOUT_21",
+      "net": "unconnected-(U1-UNUSED_DOUT-Pad21)",
+      "copper_cluster": "carrier_cluster_12"
+    },
+    {
+      "pin": 22,
+      "schematic_function": "UNUSED_DOUT_22",
+      "net": "unconnected-(U1-UNUSED_DOUT-Pad22)",
+      "copper_cluster": "carrier_cluster_13"
+    },
+    {
+      "pin": 23,
+      "schematic_function": "+3V3_23",
+      "net": "+3V3",
+      "copper_cluster": "carrier_cluster_3"
+    },
+    {
+      "pin": 24,
+      "schematic_function": "ADC_DOUT_A_24",
+      "net": "ADC_DOUT_A",
+      "copper_cluster": "carrier_cluster_14"
+    },
+    {
+      "pin": 25,
+      "schematic_function": "ADC_DOUT_B_25",
+      "net": "ADC_DOUT_B",
+      "copper_cluster": "carrier_cluster_15"
+    },
+    {
+      "pin": 26,
+      "schematic_function": "AGND_26",
+      "net": "GND",
+      "copper_cluster": "carrier_cluster_2"
+    },
+    {
+      "pin": 27,
+      "schematic_function": "ADC_DOUT_C_27",
+      "net": "ADC_DOUT_C",
+      "copper_cluster": "carrier_cluster_16"
+    },
+    {
+      "pin": 28,
+      "schematic_function": "ADC_DOUT_D_28",
+      "net": "ADC_DOUT_D",
+      "copper_cluster": "carrier_cluster_17"
+    },
+    {
+      "pin": 29,
+      "schematic_function": "ADC_SDI_29",
+      "net": "ADC_SDI",
+      "copper_cluster": "carrier_cluster_18"
+    },
+    {
+      "pin": 30,
+      "schematic_function": "UNUSED_DB_30",
+      "net": "GND",
+      "copper_cluster": "carrier_cluster_2"
+    },
+    {
+      "pin": 31,
+      "schematic_function": "UNUSED_DB_31",
+      "net": "GND",
+      "copper_cluster": "carrier_cluster_2"
+    },
+    {
+      "pin": 32,
+      "schematic_function": "UNUSED_DB_32",
+      "net": "GND",
+      "copper_cluster": "carrier_cluster_2"
+    },
+    {
+      "pin": 33,
+      "schematic_function": "UNUSED_DB_33",
+      "net": "GND",
+      "copper_cluster": "carrier_cluster_2"
+    },
+    {
+      "pin": 34,
+      "schematic_function": "REFSEL_34",
+      "net": "+3V3",
+      "copper_cluster": "carrier_cluster_3"
+    },
+    {
+      "pin": 35,
+      "schematic_function": "AGND_35",
+      "net": "GND",
+      "copper_cluster": "carrier_cluster_2"
+    },
+    {
+      "pin": 36,
+      "schematic_function": "REGCAP_A_36",
+      "net": "REGCAP_A",
+      "copper_cluster": "carrier_cluster_19"
+    },
+    {
+      "pin": 37,
+      "schematic_function": "AVCC_37",
+      "net": "+5V_ADC",
+      "copper_cluster": "carrier_cluster_1"
+    },
+    {
+      "pin": 38,
+      "schematic_function": "AVCC_38",
+      "net": "+5V_ADC",
+      "copper_cluster": "carrier_cluster_1"
+    },
+    {
+      "pin": 39,
+      "schematic_function": "REGCAP_D_39",
+      "net": "REGCAP_D",
+      "copper_cluster": "carrier_cluster_20"
+    },
+    {
+      "pin": 40,
+      "schematic_function": "AGND_40",
+      "net": "GND",
+      "copper_cluster": "carrier_cluster_2"
+    },
+    {
+      "pin": 41,
+      "schematic_function": "AGND_41",
+      "net": "GND",
+      "copper_cluster": "carrier_cluster_2"
+    },
+    {
+      "pin": 42,
+      "schematic_function": "ADC_REF_2V5_42",
+      "net": "ADC_REF_2V5",
+      "copper_cluster": "carrier_cluster_21"
+    },
+    {
+      "pin": 43,
+      "schematic_function": "AGND_43",
+      "net": "GND",
+      "copper_cluster": "carrier_cluster_2"
+    },
+    {
+      "pin": 44,
+      "schematic_function": "ADC_REFCAP_44",
+      "net": "ADC_REFCAP",
+      "copper_cluster": "carrier_cluster_22"
+    },
+    {
+      "pin": 45,
+      "schematic_function": "ADC_REFCAP_45",
+      "net": "ADC_REFCAP",
+      "copper_cluster": "carrier_cluster_22"
+    },
+    {
+      "pin": 46,
+      "schematic_function": "AGND_46",
+      "net": "GND",
+      "copper_cluster": "carrier_cluster_2"
+    },
+    {
+      "pin": 47,
+      "schematic_function": "AGND_47",
+      "net": "GND",
+      "copper_cluster": "carrier_cluster_2"
+    },
+    {
+      "pin": 48,
+      "schematic_function": "AVCC_48",
+      "net": "+5V_ADC",
+      "copper_cluster": "carrier_cluster_1"
+    },
+    {
+      "pin": 49,
+      "schematic_function": "V1+_49",
+      "net": "ADC_CH1",
+      "copper_cluster": "carrier_cluster_23"
+    },
+    {
+      "pin": 50,
+      "schematic_function": "V1-_50",
+      "net": "GND",
+      "copper_cluster": "carrier_cluster_2"
+    },
+    {
+      "pin": 51,
+      "schematic_function": "V2+_51",
+      "net": "ADC_CH2",
+      "copper_cluster": "carrier_cluster_24"
+    },
+    {
+      "pin": 52,
+      "schematic_function": "V2-_52",
+      "net": "GND",
+      "copper_cluster": "carrier_cluster_2"
+    },
+    {
+      "pin": 53,
+      "schematic_function": "V3+_53",
+      "net": "ADC_CH3",
+      "copper_cluster": "carrier_cluster_25"
+    },
+    {
+      "pin": 54,
+      "schematic_function": "V3-_54",
+      "net": "GND",
+      "copper_cluster": "carrier_cluster_2"
+    },
+    {
+      "pin": 55,
+      "schematic_function": "V4+_55",
+      "net": "ADC_CH4",
+      "copper_cluster": "carrier_cluster_26"
+    },
+    {
+      "pin": 56,
+      "schematic_function": "V4-_56",
+      "net": "GND",
+      "copper_cluster": "carrier_cluster_2"
+    },
+    {
+      "pin": 57,
+      "schematic_function": "V5+_57",
+      "net": "ADC_CH5",
+      "copper_cluster": "carrier_cluster_27"
+    },
+    {
+      "pin": 58,
+      "schematic_function": "V5-_58",
+      "net": "GND",
+      "copper_cluster": "carrier_cluster_2"
+    },
+    {
+      "pin": 59,
+      "schematic_function": "V6+_59",
+      "net": "ADC_CH6",
+      "copper_cluster": "carrier_cluster_28"
+    },
+    {
+      "pin": 60,
+      "schematic_function": "V6-_60",
+      "net": "GND",
+      "copper_cluster": "carrier_cluster_2"
+    },
+    {
+      "pin": 61,
+      "schematic_function": "V7+_61",
+      "net": "ADC_CH7",
+      "copper_cluster": "carrier_cluster_29"
+    },
+    {
+      "pin": 62,
+      "schematic_function": "V7-_62",
+      "net": "GND",
+      "copper_cluster": "carrier_cluster_2"
+    },
+    {
+      "pin": 63,
+      "schematic_function": "V8+_63",
+      "net": "ADC_CH8",
+      "copper_cluster": "carrier_cluster_30"
+    },
+    {
+      "pin": 64,
+      "schematic_function": "V8-_64",
+      "net": "GND",
+      "copper_cluster": "carrier_cluster_2"
+    }
+  ],
+  "digital_paths": [
+    {
+      "signal": "ADC_CONVST",
+      "ADC_pin": 9,
+      "J2_contact": 31,
+      "FPGA_pin": 43,
+      "module_net": "/FPGA_IOT_49A",
+      "official_pinout": {
+        "function": "IOT_49a",
+        "type": "DPIO",
+        "bank": "0"
+      },
+      "carrier_connected": true,
+      "module_connected": true
+    },
+    {
+      "signal": "ADC_RESET",
+      "ADC_pin": 11,
+      "J2_contact": 32,
+      "FPGA_pin": 44,
+      "module_net": "/FPGA_IOB_3B_G6",
+      "official_pinout": {
+        "function": "IOB_3b_G6",
+        "type": "DPIO/GBIN",
+        "bank": "2"
+      },
+      "carrier_connected": true,
+      "module_connected": true
+    },
+    {
+      "signal": "ADC_SCLK",
+      "ADC_pin": 12,
+      "J2_contact": 33,
+      "FPGA_pin": 34,
+      "module_net": "/FPGA_IOT_44B",
+      "official_pinout": {
+        "function": "IOT_44b",
+        "type": "DPIO",
+        "bank": "0"
+      },
+      "carrier_connected": true,
+      "module_connected": true
+    },
+    {
+      "signal": "ADC_CS_N",
+      "ADC_pin": 13,
+      "J2_contact": 34,
+      "FPGA_pin": 45,
+      "module_net": "/FPGA_IOB_5B",
+      "official_pinout": {
+        "function": "IOB_5b",
+        "type": "DPIO",
+        "bank": "2"
+      },
+      "carrier_connected": true,
+      "module_connected": true
+    },
+    {
+      "signal": "ADC_BUSY",
+      "ADC_pin": 14,
+      "J2_contact": 35,
+      "FPGA_pin": 46,
+      "module_net": "/FPGA_IOB_0A",
+      "official_pinout": {
+        "function": "IOB_0a",
+        "type": "PIO",
+        "bank": "2"
+      },
+      "carrier_connected": true,
+      "module_connected": true
+    },
+    {
+      "signal": "ADC_SDI",
+      "ADC_pin": 29,
+      "J2_contact": 36,
+      "FPGA_pin": 47,
+      "module_net": "/FPGA_IOB_2A",
+      "official_pinout": {
+        "function": "IOB_2a",
+        "type": "DPIO",
+        "bank": "2"
+      },
+      "carrier_connected": true,
+      "module_connected": true
+    },
+    {
+      "signal": "ADC_DOUT_D",
+      "ADC_pin": 28,
+      "J2_contact": 37,
+      "FPGA_pin": 48,
+      "module_net": "/FPGA_IOB_4A",
+      "official_pinout": {
+        "function": "IOB_4a",
+        "type": "DPIO",
+        "bank": "2"
+      },
+      "carrier_connected": true,
+      "module_connected": true
+    },
+    {
+      "signal": "ADC_DOUT_C",
+      "ADC_pin": 27,
+      "J2_contact": 38,
+      "FPGA_pin": 3,
+      "module_net": "/FPGA_IOB_9B",
+      "official_pinout": {
+        "function": "IOB_9b",
+        "type": "DPIO",
+        "bank": "2"
+      },
+      "carrier_connected": true,
+      "module_connected": true
+    },
+    {
+      "signal": "ADC_DOUT_B",
+      "ADC_pin": 25,
+      "J2_contact": 39,
+      "FPGA_pin": 4,
+      "module_net": "/FPGA_IOB_8A",
+      "official_pinout": {
+        "function": "IOB_8a",
+        "type": "DPIO",
+        "bank": "2"
+      },
+      "carrier_connected": true,
+      "module_connected": true
+    },
+    {
+      "signal": "ADC_DOUT_A",
+      "ADC_pin": 24,
+      "J2_contact": 40,
+      "FPGA_pin": 2,
+      "module_net": "/FPGA_IOB_6A",
+      "official_pinout": {
+        "function": "IOB_6a",
+        "type": "PIO",
+        "bank": "2"
+      },
+      "carrier_connected": true,
+      "module_connected": true
+    }
+  ],
+  "spare_GPIO": [
+    {
+      "J2": 12,
+      "FPGA_pin": "20",
+      "pinout": {
+        "function": "IOB_25b_G3",
+        "type": "DPIO/GBIN",
+        "bank": "1"
+      },
+      "module_connected": true
+    },
+    {
+      "J2": 14,
+      "FPGA_pin": "25",
+      "pinout": {
+        "function": "IOT_36b",
+        "type": "DPIO/I3C",
+        "bank": "0"
+      },
+      "module_connected": true
+    },
+    {
+      "J2": 15,
+      "FPGA_pin": "27",
+      "pinout": {
+        "function": "IOT_38b",
+        "type": "DPIO",
+        "bank": "0"
+      },
+      "module_connected": true
+    },
+    {
+      "J2": 16,
+      "FPGA_pin": "26",
+      "pinout": {
+        "function": "IOT_39a",
+        "type": "DPIO",
+        "bank": "0"
+      },
+      "module_connected": true
+    },
+    {
+      "J2": 17,
+      "FPGA_pin": "28",
+      "pinout": {
+        "function": "IOT_41a",
+        "type": "PIO",
+        "bank": "0"
+      },
+      "module_connected": true
+    },
+    {
+      "J2": 19,
+      "FPGA_pin": "31",
+      "pinout": {
+        "function": "IOT_42b",
+        "type": "DPIO",
+        "bank": "0"
+      },
+      "module_connected": true
+    },
+    {
+      "J2": 20,
+      "FPGA_pin": "32",
+      "pinout": {
+        "function": "IOT_43a",
+        "type": "DPIO",
+        "bank": "0"
+      },
+      "module_connected": true
+    },
+    {
+      "J2": 21,
+      "FPGA_pin": "36",
+      "pinout": {
+        "function": "IOT_48b",
+        "type": "DPIO",
+        "bank": "0"
+      },
+      "module_connected": true
+    },
+    {
+      "J2": 25,
+      "FPGA_pin": "38",
+      "pinout": {
+        "function": "IOT_50b",
+        "type": "DPIO",
+        "bank": "0"
+      },
+      "module_connected": true
+    },
+    {
+      "J2": 30,
+      "FPGA_pin": "42",
+      "pinout": {
+        "function": "IOT_51a",
+        "type": "DPIO",
+        "bank": "0"
+      },
+      "module_connected": true
+    }
+  ],
+  "decoupling": [
+    {
+      "ref": "C1",
+      "value": "100nF",
+      "net": "+5V_ADC"
+    },
+    {
+      "ref": "C2",
+      "value": "100nF",
+      "net": "+5V_ADC"
+    },
+    {
+      "ref": "C3",
+      "value": "100nF",
+      "net": "+5V_ADC"
+    },
+    {
+      "ref": "C4",
+      "value": "100nF",
+      "net": "+5V_ADC"
+    },
+    {
+      "ref": "C5",
+      "value": "100nF",
+      "net": "+3V3"
+    },
+    {
+      "ref": "C6",
+      "value": "1uF",
+      "net": "REGCAP_A"
+    },
+    {
+      "ref": "C7",
+      "value": "1uF",
+      "net": "REGCAP_D"
+    },
+    {
+      "ref": "C8",
+      "value": "100nF",
+      "net": "ADC_REF_2V5"
+    },
+    {
+      "ref": "C9",
+      "value": "10uF",
+      "net": "ADC_REFCAP"
+    },
+    {
+      "ref": "C10",
+      "value": "10uF",
+      "net": "+5V_ADC"
+    }
+  ],
+  "pull_resistors": [
+    {
+      "ref": "R21",
+      "value": "10k",
+      "pin1": "GND",
+      "pin2": "ADC_CONVST"
+    },
+    {
+      "ref": "R22",
+      "value": "10k",
+      "pin1": "+3V3",
+      "pin2": "ADC_CS_N"
+    },
+    {
+      "ref": "R23",
+      "value": "10k",
+      "pin1": "+3V3",
+      "pin2": "ADC_RESET"
+    }
+  ],
+  "ground_contacts": [
+    {
+      "J2": 1,
+      "carrier_grounded": true,
+      "module_grounded": true
+    },
+    {
+      "J2": 3,
+      "carrier_grounded": true,
+      "module_grounded": true
+    },
+    {
+      "J2": 8,
+      "carrier_grounded": true,
+      "module_grounded": true
+    },
+    {
+      "J2": 13,
+      "carrier_grounded": true,
+      "module_grounded": true
+    },
+    {
+      "J2": 18,
+      "carrier_grounded": true,
+      "module_grounded": true
+    },
+    {
+      "J2": 23,
+      "carrier_grounded": true,
+      "module_grounded": true
+    },
+    {
+      "J2": 28,
+      "carrier_grounded": true,
+      "module_grounded": true
+    }
+  ],
+  "kct_summaries": {
+    "carrier": {
+      "total_nets": 181,
+      "complete": 179,
+      "incomplete": 2,
+      "unrouted": 0,
+      "total_unconnected_pads": 2
+    },
+    "module": {
+      "total_nets": 92,
+      "complete": 90,
+      "incomplete": 2,
+      "unrouted": 0,
+      "total_unconnected_pads": 3
+    }
+  },
+  "carrier_copper_clusters": {
+    "carrier_cluster_1": [
+      "C1.1",
+      "C10.1",
+      "C2.1",
+      "C3.1",
+      "C4.1",
+      "C401.1",
+      "C403.1",
+      "C421.1",
+      "C601.1",
+      "C603.1",
+      "D70.2",
+      "D71.2",
+      "D72.2",
+      "D73.2",
+      "R20.2",
+      "U1.1",
+      "U1.37",
+      "U1.38",
+      "U1.48",
+      "U40.5",
+      "U41.5",
+      "U44.2",
+      "U60.5",
+      "U61.5"
+    ],
+    "carrier_cluster_2": [
+      "C1.2",
+      "C10.2",
+      "C11.2",
+      "C12.2",
+      "C13.2",
+      "C14.2",
+      "C15.2",
+      "C16.2",
+      "C17.2",
+      "C18.2",
+      "C2.2",
+      "C20.2",
+      "C21.2",
+      "C3.2",
+      "C300.2",
+      "C302.2",
+      "C303.2",
+      "C304.2",
+      "C305.2",
+      "C306.2",
+      "C310.2",
+      "C312.2",
+      "C313.2",
+      "C314.2",
+      "C315.2",
+      "C316.2",
+      "C333.2",
+      "C335.2",
+      "C336.2",
+      "C337.2",
+      "C338.2",
+      "C339.2",
+      "C340.2",
+      "C341.2",
+      "C342.2",
+      "C4.2",
+      "C400.2",
+      "C401.2",
+      "C402.2",
+      "C403.2",
+      "C404.2",
+      "C410.2",
+      "C412.2",
+      "C413.2",
+      "C421.2",
+      "C422.2",
+      "C423.2",
+      "C424.2",
+      "C427.2",
+      "C428.2",
+      "C429.2",
+      "C5.2",
+      "C521.2",
+      "C522.2",
+      "C524.2",
+      "C525.2",
+      "C526.2",
+      "C527.2",
+      "C528.2",
+      "C531.2",
+      "C532.2",
+      "C533.2",
+      "C534.2",
+      "C535.2",
+      "C536.2",
+      "C537.2",
+      "C561.2",
+      "C562.2",
+      "C564.2",
+      "C565.2",
+      "C566.2",
+      "C567.2",
+      "C568.2",
+      "C571.2",
+      "C572.2",
+      "C573.2",
+      "C574.2",
+      "C575.2",
+      "C576.2",
+      "C577.2",
+      "C6.2",
+      "C600.2",
+      "C601.2",
+      "C602.2",
+      "C603.2",
+      "C604.2",
+      "C610.2",
+      "C612.2",
+      "C613.2",
+      "C624.2",
+      "C627.2",
+      "C628.2",
+      "C629.2",
+      "C7.2",
+      "C700.2",
+      "C701.2",
+      "C702.2",
+      "C703.2",
+      "C710.2",
+      "C711.2",
+      "C712.2",
+      "C713.2",
+      "C720.2",
+      "C721.2",
+      "C722.2",
+      "C723.2",
+      "C730.2",
+      "C731.2",
+      "C732.2",
+      "C733.2",
+      "C740.2",
+      "C741.2",
+      "C8.2",
+      "C9.2",
+      "D40.2",
+      "D43.1",
+      "D50.2",
+      "D51.2",
+      "D60.2",
+      "D63.1",
+      "D70.1",
+      "D71.1",
+      "D72.1",
+      "D73.1",
+      "D80.1",
+      "D81.1",
+      "D82.1",
+      "D83.1",
+      "D84.1",
+      "D86.1",
+      "D87.1",
+      "D88.1",
+      "D90.2",
+      "D91.2",
+      "D92.2",
+      "D93.2",
+      "J1.10",
+      "J1.22",
+      "J1.30",
+      "J1.31",
+      "J1.5",
+      "J1.6",
+      "J1.9",
+      "J10.2",
+      "J2.1",
+      "J2.13",
+      "J2.18",
+      "J2.23",
+      "J2.28",
+      "J2.3",
+      "J2.8",
+      "J3.2",
+      "J30.2",
+      "J4.2",
+      "J5.3",
+      "J8.2",
+      "J9.2",
+      "L40.3",
+      "L60.3",
+      "Q51.3",
+      "Q53.3",
+      "Q55.3",
+      "Q57.3",
+      "R21.1",
+      "R301.2",
+      "R305.2",
+      "R311.2",
+      "R315.2",
+      "R400.2",
+      "R401.2",
+      "R415.2",
+      "R422.2",
+      "R500.2",
+      "R501.2",
+      "R502.2",
+      "R503.2",
+      "R509.2",
+      "R510.2",
+      "R511.2",
+      "R512.2",
+      "R523.2",
+      "R527.2",
+      "R563.2",
+      "R567.2",
+      "R600.2",
+      "R601.2",
+      "R615.2",
+      "R622.2",
+      "R701.2",
+      "R711.2",
+      "R721.2",
+      "R731.2",
+      "U1.16",
+      "U1.17",
+      "U1.18",
+      "U1.2",
+      "U1.26",
+      "U1.30",
+      "U1.31",
+      "U1.32",
+      "U1.33",
+      "U1.35",
+      "U1.40",
+      "U1.41",
+      "U1.43",
+      "U1.46",
+      "U1.47",
+      "U1.50",
+      "U1.52",
+      "U1.54",
+      "U1.56",
+      "U1.58",
+      "U1.60",
+      "U1.62",
+      "U1.64",
+      "U1.8",
+      "U2.2",
+      "U30.4",
+      "U30.8",
+      "U31.4",
+      "U31.8",
+      "U40.3",
+      "U41.3",
+      "U42.2",
+      "U42.6",
+      "U44.4",
+      "U51.7",
+      "U52.7",
+      "U53.7",
+      "U54.7",
+      "U60.3",
+      "U61.3",
+      "U62.2",
+      "U62.6"
+    ],
+    "carrier_cluster_3": [
+      "C21.1",
+      "C413.1",
+      "C424.1",
+      "C5.1",
+      "C613.1",
+      "C624.1",
+      "D43.2",
+      "D63.2",
+      "R22.1",
+      "R23.1",
+      "R411.1",
+      "R414.1",
+      "R611.1",
+      "R614.1",
+      "R803.1",
+      "U1.10",
+      "U1.23",
+      "U1.3",
+      "U1.34",
+      "U1.4",
+      "U1.5",
+      "U1.6",
+      "U1.7",
+      "U2.5",
+      "U42.4",
+      "U62.4"
+    ],
+    "carrier_cluster_4": [
+      "J2.31",
+      "R21.2",
+      "U1.9"
+    ],
+    "carrier_cluster_5": [
+      "J2.32",
+      "R23.2",
+      "U1.11"
+    ],
+    "carrier_cluster_6": [
+      "J2.33",
+      "U1.12"
+    ],
+    "carrier_cluster_7": [
+      "J2.34",
+      "R22.2",
+      "U1.13"
+    ],
+    "carrier_cluster_8": [
+      "J2.35",
+      "U1.14"
+    ],
+    "carrier_cluster_9": [
+      "TP1.1",
+      "U1.15"
+    ],
+    "carrier_cluster_10": [
+      "U1.19"
+    ],
+    "carrier_cluster_11": [
+      "U1.20"
+    ],
+    "carrier_cluster_12": [
+      "U1.21"
+    ],
+    "carrier_cluster_13": [
+      "U1.22"
+    ],
+    "carrier_cluster_14": [
+      "J2.40",
+      "U1.24"
+    ],
+    "carrier_cluster_15": [
+      "J2.39",
+      "U1.25"
+    ],
+    "carrier_cluster_16": [
+      "J2.38",
+      "U1.27"
+    ],
+    "carrier_cluster_17": [
+      "J2.37",
+      "U1.28"
+    ],
+    "carrier_cluster_18": [
+      "J2.36",
+      "U1.29"
+    ],
+    "carrier_cluster_19": [
+      "C6.1",
+      "U1.36"
+    ],
+    "carrier_cluster_20": [
+      "C7.1",
+      "U1.39"
+    ],
+    "carrier_cluster_21": [
+      "C8.1",
+      "U1.42"
+    ],
+    "carrier_cluster_22": [
+      "C9.1",
+      "U1.44",
+      "U1.45"
+    ],
+    "carrier_cluster_23": [
+      "C11.1",
+      "R1.2",
+      "U1.49"
+    ],
+    "carrier_cluster_24": [
+      "C12.1",
+      "R2.2",
+      "U1.51"
+    ],
+    "carrier_cluster_25": [
+      "C13.1",
+      "R3.2",
+      "U1.53"
+    ],
+    "carrier_cluster_26": [
+      "C14.1",
+      "R4.2",
+      "U1.55"
+    ],
+    "carrier_cluster_27": [
+      "C15.1",
+      "R5.2",
+      "U1.57"
+    ],
+    "carrier_cluster_28": [
+      "C16.1",
+      "R6.2",
+      "U1.59"
+    ],
+    "carrier_cluster_29": [
+      "C17.1",
+      "R7.2",
+      "U1.61"
+    ],
+    "carrier_cluster_30": [
+      "C18.1",
+      "R8.2",
+      "U1.63"
+    ]
+  },
+  "audit_date": "2026-09-30",
+  "checks_summary": {
+    "passed": 324,
+    "failed": 0,
+    "all_seven_ground_contacts_connected": true
+  },
+  "native_drc": {
+    "carrier": {
+      "$schema": "https://schemas.kicad.org/drc.v1.json",
+      "coordinate_units": "mm",
+      "date": "2026-09-30T09:25:44",
+      "ignored_checks": [
+        {
+          "description": "Footprint has no courtyard defined",
+          "key": "missing_courtyard"
+        },
+        {
+          "description": "Track endpoint not centered on via",
+          "key": "track_not_centered_on_via"
+        },
+        {
+          "description": "Tuning profile track geometries",
+          "key": "tuning_profile_track_geometries"
+        },
+        {
+          "description": "Footprint doesn't match symbol's footprint filters",
+          "key": "footprint_filters_mismatch"
+        },
+        {
+          "description": "Footprint component type doesn't match footprint pads",
+          "key": "footprint_type_mismatch"
+        }
+      ],
+      "included_severities": [
+        "error",
+        "warning"
+      ],
+      "kicad_version": "10.0.6",
+      "schematic_parity": [],
+      "source": "controller.kicad_pcb",
+      "unconnected_items": [
+        {
+          "description": "Missing connection between items",
+          "items": [
+            {
+              "description": "Pad 7 [USB_D+] of J1 on F.Cu",
+              "pos": {
+                "x": 104.4,
+                "y": 41.145
+              },
+              "uuid": "42f21fa8-e6cf-415b-a18b-ffea9db54ad6"
+            },
+            {
+              "description": "PTH pad 1 [USB_D+] of J5",
+              "pos": {
+                "x": 114.5,
+                "y": 34.0
+              },
+              "uuid": "c4321355-d314-4c59-8654-ceb4c406b0d2"
+            }
+          ],
+          "severity": "error",
+          "type": "unconnected_items"
+        },
+        {
+          "description": "Missing connection between items",
+          "items": [
+            {
+              "description": "Pad 8 [USB_D-] of J1 on F.Cu",
+              "pos": {
+                "x": 104.0,
+                "y": 41.145
+              },
+              "uuid": "71ed348a-8011-49cd-af98-d33276255bcd"
+            },
+            {
+              "description": "PTH pad 2 [USB_D-] of J5",
+              "pos": {
+                "x": 117.04,
+                "y": 34.0
+              },
+              "uuid": "24b30f34-5aea-4c7c-bd29-6ffad65cc7f3"
+            }
+          ],
+          "severity": "error",
+          "type": "unconnected_items"
+        }
+      ],
+      "violations": []
+    },
+    "module": {
+      "$schema": "https://schemas.kicad.org/drc.v1.json",
+      "coordinate_units": "mm",
+      "date": "2026-09-30T09:25:02",
+      "ignored_checks": [
+        {
+          "description": "Footprint has no courtyard defined",
+          "key": "missing_courtyard"
+        },
+        {
+          "description": "Track endpoint not centered on via",
+          "key": "track_not_centered_on_via"
+        },
+        {
+          "description": "Tuning profile track geometries",
+          "key": "tuning_profile_track_geometries"
+        },
+        {
+          "description": "Footprint doesn't match symbol's footprint filters",
+          "key": "footprint_filters_mismatch"
+        },
+        {
+          "description": "Footprint component type doesn't match footprint pads",
+          "key": "footprint_type_mismatch"
+        }
+      ],
+      "included_severities": [
+        "error",
+        "warning"
+      ],
+      "kicad_version": "10.0.6",
+      "schematic_parity": [],
+      "source": "module.kicad_pcb",
+      "unconnected_items": [],
+      "violations": []
+    }
+  },
+  "drc_notes": {
+    "carrier": "Only two unrelated USB data opens; no ADC opens or schematic parity issues.",
+    "module": "No violations or opens. Module DRC was run without schematic-parity flag; ADC connector parity was independently checked from netlists.",
+    "secondary_tool_discrepancy": "kct marks module RF_ANT and GND incomplete. Native DRC reports no opens. Native clusters confirm all seven relevant ground contacts."
+  },
+  "feature_access": {
+    "full_register_access": true,
+    "serial_lanes_available": [
+      1,
+      2,
+      4
+    ],
+    "serial_lanes_after_reset": 2,
+    "eight_lane_mode": false,
+    "FRSTDATA_FPGA_access": false,
+    "FRSTDATA_endpoint": "U1.15 -> TP1.1 only",
+    "missing_optional_pins": {
+      "19": "DOUTE",
+      "20": "DOUTF",
+      "21": "DOUTG",
+      "22": "DOUTH",
+      "15": "FRSTDATA"
+    },
+    "software_features_reachable": [
+      "per-channel range",
+      "bandwidth",
+      "oversampling including external clock on CONVST",
+      "gain/offset/phase calibration",
+      "status header and channel ID",
+      "conversion and register CRC",
+      "digital diagnostics",
+      "open-input detection",
+      "internal diagnostic mux",
+      "clock counters",
+      "device identity",
+      "interface test patterns",
+      "standby/auto-standby/shutdown"
+    ],
+    "analog_constraints": [
+      "Vx- grounded, no external true differential input",
+      "REFSEL high, internal reference selected",
+      "existing signal-conditioning ranges limit external inputs"
+    ],
+    "recommended_changes": "Add DOUTE-H and FRSTDATA through five verified spare J2 GPIO contacts; assignment and routing are not part of this audit.",
+    "implementation_not_validated": [
+      "acquisition HDL",
+      "FPGA timing constraints and closure",
+      "supply sequencing",
+      "startup/reset behavior",
+      "maximum-rate clock design",
+      "physical signal integrity"
+    ]
+  },
+  "timing_budget": {
+    "SCLK_max_Hz_at_VDRIVE_greater_equal_3_1V": 63500000,
+    "bits_per_sample": 16,
+    "status_bits_per_sample": 8,
+    "CRC_bits_per_lane_frame": 16,
+    "frame_clocks": {
+      "4": {
+        "raw": 32,
+        "status": 48,
+        "CRC": 48,
+        "status_and_CRC": 64
+      },
+      "8": {
+        "raw": 16,
+        "status": 24,
+        "CRC": 32,
+        "status_and_CRC": 40
+      }
+    },
+    "four_lane_full_diagnostics_min_read_time_us": 1.0078740157480315,
+    "at_25MHz_200kSPS_no_oversampling": {
+      "read_time_us": 2.56,
+      "conversion_max_us": 0.65,
+      "sum_us": 3.21,
+      "sample_period_us": 5
+    },
+    "first_reset_power_up_plus_setup_minimum_strict_seconds": 2,
+    "full_reset_high_min_us": 3.2,
+    "full_reset_setup_min_us": 274,
+    "FPGA_HFOSC_nominal_MHz": 48,
+    "FPGA_HFOSC_industrial_range_MHz": [
+      38.4,
+      57.6
+    ]
+  },
+  "sources": [
+    {
+      "title": "AD7606C-16 Rev. A",
+      "url": "https://www.analog.com/media/en/technical-documentation/data-sheets/ad7606c-16.pdf",
+      "local": "boards/tesla-coil-controller/docs/datasheets/AD7606C-16.pdf"
+    },
+    {
+      "title": "iCE40 UltraPlus FPGA-DS-02008-2.4",
+      "url": "https://www.latticesemi.com/view_document?document_id=51968"
+    },
+    {
+      "title": "iCE40UP5K SG48 official pinout",
+      "local": "libraries/datasheets/ice40up5k-pinout.xlsx"
+    }
+  ],
+  "design_unchanged": true
+}

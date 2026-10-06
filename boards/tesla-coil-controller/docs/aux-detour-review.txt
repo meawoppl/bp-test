@@ -1,0 +1,21 @@
+Focused edit-stack review: Unnecessary detour
+Annotation: 2026-10-02T20:22:16.708Z, source revision ae9c762c03e3084c14ff.
+Applied to current board after prior edits; Portal warmed revision ee29396683008592ae8f.
+
+Replaced the +12V_AUX back-layer detour beside C702 and R740 with a direct 0.4 mm front-layer connection. The new path runs from the existing supply via at (50.05, 78.75), horizontally to (55.1375, 78.75), then at 45 degrees to R740 pad 2 at (55.8, 79.4125).
+Removed the two back-layer segments, the front-layer spur to (57, 77.5), and that redundant via. Kept the existing auxiliary supply trunk, decoupling connections, all component placement, and all other nets.
+
+Copper delta: 3 tracks and 1 via removed; 2 tracks added. Total tracks 1397 -> 1396; vias 346 -> 345. Net length 52.945216 -> 48.751866 mm, reduction 4.193350 mm.
+
+Verified the filled front/back copper visually. Minimum new copper clearance is 0.425 mm. No overlapping segments or added vias. All pad connectivity groups are identical; all nets fully connected. DRC: 0 violations, 0 unconnected, 0 schematic parity issues. ERC: 0 violations. Schematic/PCB synchronization passes. Footprints, values, pin nets, drawings, schematic and rules are unchanged. The routing recipe exactly matches native copper geometry. Prior even via spacing and bend alignment are preserved.
+
+Quality comparison: no added errors or warnings; existing totals remain 303 errors and 2390 warnings. Informational optimizer summary updated for the reduced segment count (24 info entries unchanged in count). This is a local routing verification, not a claim that all existing broad quality findings are resolved.
+
+Evidence: aux-detour-checks/ contains raw checks, copper delta, detailed geometry and connectivity audit, and quality comparison. Before/after and filled renders are adjacent.
+
+Commands (with KICAD_PCB_KCT pointing to tmp/tesla-12v-connector/kct):
+kicad-pcb-rs drc --json --project tesla-coil-controller
+kicad-pcb-rs erc --json --project tesla-coil-controller
+kicad-pcb-rs quality --json --project tesla-coil-controller
+kicad-pcb-rs kct --json --cwd . -- validate --sync boards/tesla-coil-controller/controller.kicad_sch boards/tesla-coil-controller/controller.kicad_pcb --format json
+Local scripts and untouched original backups: tmp/tesla-detour/.

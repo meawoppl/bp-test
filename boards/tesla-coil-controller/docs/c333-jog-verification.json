@@ -1,0 +1,54 @@
+{
+  "annotation_created_at": "2026-09-30T06:04:54.229Z",
+  "net": "VBAT_24V",
+  "reference": "C333",
+  "new_position_mm": [
+    77.05,
+    34.95,
+    90
+  ],
+  "new_pad_positions_mm": {
+    "1": [
+      77.05,
+      37
+    ],
+    "2": [
+      77.05,
+      32.9
+    ]
+  },
+  "trace_width_mm": 2.5,
+  "all_pad_connectivity_components_unchanged": true,
+  "whole_board_unconnected": 25,
+  "via_count_unchanged": true,
+  "unrelated_copper_and_placements_unchanged": true,
+  "schematic_and_rules_unchanged": true,
+  "all_tracks_octilinear": true,
+  "changes": {
+    "removed": [
+      "2a1a8aac-dee2-5c0d-a61a-4d412a1f1fa7",
+      "b692c7b5-219b-5bd5-9d12-c0c7e72c54f0",
+      "bcacb89e-925f-56f0-afad-3ba92213ece8"
+    ],
+    "changed": [
+      "bcedacc0-d9a3-520e-9870-5856bfa6359a"
+    ],
+    "added": []
+  },
+  "length_reduction_mm": 4.9497,
+  "erc": 0,
+  "physical_drc": 0,
+  "schematic_parity": 0,
+  "quality_counts": {
+    "errors": 301,
+    "warnings": 2422,
+    "infos": 29
+  },
+  "quality_count_delta": {
+    "errors": 0,
+    "warnings": 0,
+    "infos": 0
+  },
+  "reviewed_visual": "c333-jog-after.png",
+  "routing_recipe_replay": true
+}

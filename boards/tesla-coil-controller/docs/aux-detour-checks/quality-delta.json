@@ -1,0 +1,20 @@
+{
+  "added": [
+    {
+      "description": "kct optimize-traces would remove 59 of 1396 segments (corners 964 -> 1054, length -0.6%); merge collinear segments and drop zigzags",
+      "items": [],
+      "severity": "info",
+      "source": "kct optimize-traces",
+      "type": "optimize_traces.mergeable_segments"
+    }
+  ],
+  "removed": [
+    {
+      "description": "kct optimize-traces would remove 58 of 1397 segments (corners 966 -> 1055, length -0.6%); merge collinear segments and drop zigzags",
+      "items": [],
+      "severity": "info",
+      "source": "kct optimize-traces",
+      "type": "optimize_traces.mergeable_segments"
+    }
+  ]
+}

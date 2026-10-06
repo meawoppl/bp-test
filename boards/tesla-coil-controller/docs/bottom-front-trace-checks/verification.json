@@ -1,0 +1,348 @@
+{
+  "annotation_created_at": "2026-09-30T18:04:15.702Z",
+  "source_revision": "ce42d42b01424c6031e9",
+  "scope": "Move annotated bottom -5V_CT bridge beneath U44 to F.Cu; move nearby +5V_ADC transition below crossing",
+  "copper_before": {
+    "track": 1342,
+    "via": 331
+  },
+  "copper_after": {
+    "track": 1344,
+    "via": 329
+  },
+  "changed_copper_counts": {
+    "removed": 6,
+    "added": 6,
+    "modified": 5
+  },
+  "net_length_mm": {
+    "+5V_ADC": {
+      "before": 296.343601,
+      "after": 295.757814,
+      "reduction": 0.585787
+    },
+    "-5V_CT": {
+      "before": 188.399799,
+      "after": 184.64183,
+      "reduction": 3.757969
+    }
+  },
+  "vias_removed": 2,
+  "negative_bottom_branch_all_front": true,
+  "all_pad_connectivity_components_identical": true,
+  "all_nets_fully_connected": true,
+  "all_unrelated_copper_identical": true,
+  "all_footprints_identical": true,
+  "all_values_and_pin_nets_unchanged": true,
+  "board_drawings_identical": true,
+  "schematic_and_rules_identical": true,
+  "recipe_matches_board": true,
+  "all_tracks_octilinear": true,
+  "minimum_changed_copper_clearance_mm": 0.2,
+  "unconnected_before": 0,
+  "unconnected_after": 0,
+  "erc_violations": 0,
+  "schematic_in_sync": true,
+  "drc_violations": 0,
+  "drc_schematic_parity_issues": 0,
+  "quality_before": {
+    "by_rule": {
+      "decoupling_distance": {
+        "count": 25,
+        "profile_item": "decoupling.max_pin_distance_mm",
+        "severity": "warning",
+        "source": "plugin"
+      },
+      "mistake.bom_health.component_missing_manufacturer_part_number": {
+        "count": 206,
+        "profile_item": null,
+        "severity": "warning",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.bypass_capacitor.bypass_capacitor_placement_could_be_improved": {
+        "count": 19,
+        "profile_item": "decoupling.max_pin_distance_mm",
+        "severity": "info",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin": {
+        "count": 1063,
+        "profile_item": "decoupling.max_pin_distance_mm",
+        "severity": "warning",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.connectivity.led_missing_series_resistor": {
+        "count": 4,
+        "profile_item": null,
+        "severity": "warning",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.connectivity.missing_pull_up_resistor": {
+        "count": 1,
+        "profile_item": null,
+        "severity": "warning",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.differential_pair.differential_pair_length_matching_could_be_improved": {
+        "count": 1,
+        "profile_item": null,
+        "severity": "info",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.manufacturability.acute_angle_in_trace_acid_trap": {
+        "count": 11,
+        "profile_item": null,
+        "severity": "warning",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.manufacturability.thermal_imbalance_may_cause_tombstoning": {
+        "count": 102,
+        "profile_item": null,
+        "severity": "warning",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.power_trace.power_trace_too_narrow": {
+        "count": 11,
+        "profile_item": null,
+        "severity": "warning",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.thermal_management.thermal_pad_may_need_more_vias": {
+        "count": 2,
+        "profile_item": null,
+        "severity": "info",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.thermal_management.thermal_pad_not_connected_to_ground": {
+        "count": 8,
+        "profile_item": null,
+        "severity": "warning",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.via_placement.via_in_smd_pad": {
+        "count": 4,
+        "profile_item": "vias.in_pad",
+        "severity": "error",
+        "source": "kct detect-mistakes"
+      },
+      "optimize_traces.mergeable_segments": {
+        "count": 1,
+        "profile_item": null,
+        "severity": "info",
+        "source": "kct optimize-traces"
+      },
+      "pad_grid": {
+        "count": 3,
+        "profile_item": null,
+        "severity": "warning",
+        "source": "kct check"
+      },
+      "silk_edge_clearance": {
+        "count": 6,
+        "profile_item": null,
+        "severity": "warning",
+        "source": "kct check"
+      },
+      "silk_explanatory_text": {
+        "count": 30,
+        "profile_item": "silkscreen.explanatory_text",
+        "severity": "error",
+        "source": "plugin"
+      },
+      "silk_over_copper": {
+        "count": 68,
+        "profile_item": "silkscreen.over_vias_or_pads",
+        "severity": "error",
+        "source": "kct check"
+      },
+      "silk_overlap": {
+        "count": 143,
+        "profile_item": "silkscreen.over_vias_or_pads",
+        "severity": "error",
+        "source": "kct check"
+      },
+      "silk_pad_clearance": {
+        "count": 57,
+        "profile_item": null,
+        "severity": "error",
+        "source": "kct check"
+      },
+      "silk_text_below_min": {
+        "count": 17,
+        "profile_item": "silkscreen.text_height_mm",
+        "severity": "warning",
+        "source": "plugin"
+      },
+      "silkscreen_line_width": {
+        "count": 926,
+        "profile_item": null,
+        "severity": "warning",
+        "source": "kct check"
+      },
+      "silkscreen_text_height": {
+        "count": 17,
+        "profile_item": "silkscreen.text_height_mm",
+        "severity": "warning",
+        "source": "kct check"
+      }
+    },
+    "errors": 302,
+    "infos": 23,
+    "suppressed": 0,
+    "warnings": 2400
+  },
+  "quality_after": {
+    "by_rule": {
+      "decoupling_distance": {
+        "count": 25,
+        "profile_item": "decoupling.max_pin_distance_mm",
+        "severity": "warning",
+        "source": "plugin"
+      },
+      "mistake.bom_health.component_missing_manufacturer_part_number": {
+        "count": 206,
+        "profile_item": null,
+        "severity": "warning",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.bypass_capacitor.bypass_capacitor_placement_could_be_improved": {
+        "count": 19,
+        "profile_item": "decoupling.max_pin_distance_mm",
+        "severity": "info",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin": {
+        "count": 1063,
+        "profile_item": "decoupling.max_pin_distance_mm",
+        "severity": "warning",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.connectivity.led_missing_series_resistor": {
+        "count": 4,
+        "profile_item": null,
+        "severity": "warning",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.connectivity.missing_pull_up_resistor": {
+        "count": 1,
+        "profile_item": null,
+        "severity": "warning",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.differential_pair.differential_pair_length_matching_could_be_improved": {
+        "count": 1,
+        "profile_item": null,
+        "severity": "info",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.manufacturability.acute_angle_in_trace_acid_trap": {
+        "count": 11,
+        "profile_item": null,
+        "severity": "warning",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.manufacturability.thermal_imbalance_may_cause_tombstoning": {
+        "count": 102,
+        "profile_item": null,
+        "severity": "warning",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.power_trace.power_trace_too_narrow": {
+        "count": 11,
+        "profile_item": null,
+        "severity": "warning",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.thermal_management.thermal_pad_may_need_more_vias": {
+        "count": 2,
+        "profile_item": null,
+        "severity": "info",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.thermal_management.thermal_pad_not_connected_to_ground": {
+        "count": 8,
+        "profile_item": null,
+        "severity": "warning",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.via_placement.via_in_smd_pad": {
+        "count": 4,
+        "profile_item": "vias.in_pad",
+        "severity": "error",
+        "source": "kct detect-mistakes"
+      },
+      "optimize_traces.mergeable_segments": {
+        "count": 1,
+        "profile_item": null,
+        "severity": "info",
+        "source": "kct optimize-traces"
+      },
+      "pad_grid": {
+        "count": 3,
+        "profile_item": null,
+        "severity": "warning",
+        "source": "kct check"
+      },
+      "silk_edge_clearance": {
+        "count": 6,
+        "profile_item": null,
+        "severity": "warning",
+        "source": "kct check"
+      },
+      "silk_explanatory_text": {
+        "count": 30,
+        "profile_item": "silkscreen.explanatory_text",
+        "severity": "error",
+        "source": "plugin"
+      },
+      "silk_over_copper": {
+        "count": 68,
+        "profile_item": "silkscreen.over_vias_or_pads",
+        "severity": "error",
+        "source": "kct check"
+      },
+      "silk_overlap": {
+        "count": 143,
+        "profile_item": "silkscreen.over_vias_or_pads",
+        "severity": "error",
+        "source": "kct check"
+      },
+      "silk_pad_clearance": {
+        "count": 57,
+        "profile_item": null,
+        "severity": "error",
+        "source": "kct check"
+      },
+      "silk_text_below_min": {
+        "count": 17,
+        "profile_item": "silkscreen.text_height_mm",
+        "severity": "warning",
+        "source": "plugin"
+      },
+      "silkscreen_line_width": {
+        "count": 926,
+        "profile_item": null,
+        "severity": "warning",
+        "source": "kct check"
+      },
+      "silkscreen_text_height": {
+        "count": 17,
+        "profile_item": "silkscreen.text_height_mm",
+        "severity": "warning",
+        "source": "kct check"
+      }
+    },
+    "errors": 302,
+    "infos": 23,
+    "suppressed": 0,
+    "warnings": 2400
+  },
+  "quality_no_new_errors_or_warnings": true,
+  "sha256": {
+    "controller.kicad_pcb": "e2be3f6cc10f43beb717b568b38dd62b0e61443404a3953141e9c91f886ff7fc",
+    "controller.kicad_sch": "ecc007fc9cac2e3682c002aa5ad85faea435463ba33d3f09a6195baa862e89c9",
+    "controller.kicad_pro": "40e593eb2309fcddf3cd616a5e82b970cb97e4b268436e03b5e1288843705533"
+  },
+  "portal_revision": "7f950fdc4e6d7c96dfa8",
+  "portal_copper_matches_saved_source": true
+}

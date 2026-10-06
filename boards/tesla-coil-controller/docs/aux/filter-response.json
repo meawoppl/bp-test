@@ -1,0 +1,35 @@
+{
+  "model": "Linear RC network; 50-ohm source, 1M ADC load, 10MHz one-pole unity amplifier; no diode conduction, parasitics, EMI or power sequencing model",
+  "results": [
+    {
+      "frequency_hz": 1000,
+      "gain_db": -0.0022196666800144817,
+      "phase_deg": -0.8759654441230023
+    },
+    {
+      "frequency_hz": 10000,
+      "gain_db": -0.09204531018352556,
+      "phase_deg": -8.702539673809804
+    },
+    {
+      "frequency_hz": 30000,
+      "gain_db": -0.7570938893146182,
+      "phase_deg": -24.861481013947124
+    },
+    {
+      "frequency_hz": 72000,
+      "gain_db": -3.216895630960161,
+      "phase_deg": -49.453086816476635
+    },
+    {
+      "frequency_hz": 100000,
+      "gain_db": -4.942696288920403,
+      "phase_deg": -59.86287044866233
+    },
+    {
+      "frequency_hz": 1000000.0,
+      "gain_db": -24.755800007604456,
+      "phase_deg": -126.47835388426346
+    }
+  ]
+}

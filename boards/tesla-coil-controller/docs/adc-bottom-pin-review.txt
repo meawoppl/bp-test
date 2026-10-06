@@ -1,0 +1,57 @@
+U1 bottom-pin investigation — 2026-09-30
+
+Portal annotation: 2026-09-30T18:24:36.316Z
+Annotation revision: a6725f560b3aebf86e6d
+Reviewed saved/viewer revision: 7f950fdc4e6d7c96dfa8
+Scope: datasheet and connectivity review; no electrical or routing edits.
+
+U1 is AD7606C-16BSTZ. Its rotation places pins 1–16 along the bottom.
+The six bottom pins on +3V3 are configuration inputs:
+  3/4/5 OS0/OS1/OS2: 111 selects software mode.
+  6 PAR/SER SEL: high selects serial operation.
+  7 STBY: held high; ignored in software mode.
+  10 WR: unused parallel-interface control, held inactive high.
+RANGE pin 8 is grounded (ignored in software mode); unused DB0 pin 16
+is grounded. These are fixed digital levels, not additional supplies.
+
+On this board, pin 1 is the bottom edge's +5V_ADC supply input, with
+C1 100nF. Pins 37/38/48 share +5V_ADC with C2/C3/C4 100nF and C10 10uF.
+VDRIVE pin 23 uses +3V3 and C5 100nF. The shared +3V3 routing joins the
+configuration straps, VDRIVE, and REF SELECT pin 34. Its winding shape
+is a routing choice, not a requirement of the selected operating mode.
+
+Special-node checks on the saved board:
+  REGCAP pins 36 and 39 each connect only to their own 1uF capacitor
+  (C6 and C7 respectively), separate from each other and supply rails.
+  REFIN/OUT pin 42 connects to C8 100nF.
+  REFCAPA/B pins 44/45 share the C9 10uF node, separate from supplies.
+
+Reference: Analog Devices AD7606C-16 datasheet, Rev A, August 2025.
+https://www.analog.com/media/en/technical-documentation/data-sheets/ad7606c-16.pdf
+Pin functions: Table 9, pp15–17. Mode selection: Table 14, p36.
+Serial pin usage: Table 23, p43. Software/serial example: Fig123, p59.
+Local source: datasheets/AD7606C-16.pdf.
+
+Verification:
+  130 focused checks passed. All 64 U1 pad nets match circuit.json.
+  Supply and ground pins physically reach their respective sources.
+  C1–C10 values, connections, and isolated regulator/reference nodes
+  passed the native connectivity audit.
+  KCT +3V3 connectivity: all 26 pads connected.
+  KiCad ERC: zero violations.
+  KiCad DRC: zero violations, zero opens, zero schematic parity issues
+  under the existing project rules and exclusions.
+  KCT schematic validation: in sync.
+  Board, schematic, project, symbol library, circuit contract, and
+  reviewed routing recipe hashes are unchanged.
+
+This resolves the pin-function question. It does not validate firmware
+configuration or optimize layout. The broader existing layout-quality
+backlog was not changed or rerun; the preceding same-board report is
+bottom-front-trace-checks/quality-after.json.
+
+Evidence: adc-bottom-pin-checks/verification.json, bottom-pins.csv,
+audit.py, ERC/DRC/sync/connectivity reports, and u1.png. The geometry
+image omits filled zones. KCT schematic inspection did not enumerate
+the generated symbol's pins, so a read-only native audit supplemented
+the KCT checks. No PCB save or fabrication-output update was performed.

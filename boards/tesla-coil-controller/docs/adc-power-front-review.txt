@@ -1,0 +1,34 @@
+Portal annotation 2026-09-30T06:07:49.152Z: backside trace to front / fewer vias
+
+Focused edit: +5V_ADC at R20/C10, C4, C2/C3 and C1 around U1.
+Moved the two upper branches and the C1 feed onto F.Cu. The C1 feed runs inside
+U1's LQFP pad ring. Removed the three former C4/C2/C1 layer-change vias.
+The incoming B.Cu connection at R20/C10 and all other supply branches are retained.
+No footprint, pad, net assignment, schematic, project rule or unrelated copper changes.
+
+Removed 31.0 mm of backside copper; total rail copper shortened 6.3695 mm.
+Board via count 321 -> 318. No new vias. Main F.Cu feed 0.5 mm; U1 necks 0.2 mm.
+Small step above C4/C9 clears the capacitor and ground-via geometry.
+New-track minimum other-net clearance: 0.25 mm. Copper is octilinear.
+
+Verification:
+- Native ERC: 0 findings.
+- Physical DRC: 0 findings; schematic parity: 0 findings.
+- Whole-board unconnected items: 25, unchanged inherited routing work.
+- Every pad connectivity component matches the baseline board.
+- Supply rail and decoupling-ground checker: passed.
+- No new same-net collinear overlaps or via/pad drill overlaps.
+- Routing recipe updated; isolated replay reproduces copper, placement and connectivity.
+- Local copper plot reviewed: adc-power-front-after.png.
+- Quality: 301 errors, 2422 warnings, 29 infos, unchanged counts.
+  Only one aggregate optimizer info changed; all error/warning entries are identical.
+  Existing backlog remains tracked in command-adc-quality-triage.md.
+
+kct optimize-traces dry-run was inspected first. It does not perform the scoped
+layer/via change, so an explicit PCB API edit was used and validated before saving.
+
+PCB sha256: bde789fdb8d658769e8323261541df530a469838988996e852275eb2f887aa26
+Portal revision: 892c755dff30714097bc
+Viewer: https://9d6a1d76.portal.cosmicfrontier.org/
+
+This annotation is complete. No other pending edit-stack items processed.

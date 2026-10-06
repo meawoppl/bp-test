@@ -1,0 +1,58 @@
+{
+  "annotation_created_at": "2026-09-30T06:07:49.152Z",
+  "net": "+5V_ADC",
+  "front_supply_width_mm": 0.5,
+  "ic_neck_width_mm": 0.2,
+  "vias_removed": 3,
+  "vias_before": 321,
+  "vias_after": 318,
+  "all_pad_connectivity_components_unchanged": true,
+  "whole_board_unconnected": 25,
+  "unrelated_copper_and_placements_unchanged": true,
+  "schematic_and_rules_unchanged": true,
+  "all_tracks_octilinear": true,
+  "changes": {
+    "removed": [
+      "393940ec-c9f0-5016-9ae3-0d803a782f39",
+      "6b2e1412-8925-50a1-bac9-b0b68ef39f3f",
+      "8243880a-b990-5ce4-984e-5d48efe8525d",
+      "1db5cee8-8074-567c-af3d-55ebcc9354a8",
+      "2e4d3d75-8751-50d4-9367-55ab45cf8a9f",
+      "32ca0345-dadc-57ec-99d7-8bf183633cf7",
+      "ac9ff11d-dee7-509c-8d17-f8d8a0065cb1",
+      "c52bc633-61df-594c-98a5-faca81b4de1d"
+    ],
+    "changed": [
+      "f4f997f1-80a5-5bb4-a3fb-39754a8dd94f"
+    ],
+    "added": [
+      "62c53485-9f16-59de-b3dd-6d7a41183b68",
+      "5f65d213-aab0-5b5a-80bd-b8fcbef82124",
+      "6788cc89-4586-5320-9bec-4a85ed1fa5a3",
+      "9e0a4044-6077-5a38-95fe-6d16e6513cf3",
+      "9cc6cf68-949a-5466-bf3e-33f782b593f4",
+      "ffef5304-c319-5f0e-bf28-80bb19c23de3",
+      "95d1e70c-ea2e-52ce-9905-d918103f297b",
+      "a7bfa58b-0b60-5813-9a66-c45800c8b585",
+      "a41d6542-4d2c-5ce4-812f-a3bb742e3985",
+      "79059fdb-5d87-5f16-b895-f1872dd43397",
+      "11a9e7c7-0aae-5f09-9439-febcec7de260",
+      "41a2c7ca-b450-5680-be9c-ae99a38d2174",
+      "784f4d4c-4b33-5c69-9b53-530d936a180c",
+      "797bc410-304a-5592-8030-605b25527595",
+      "7d532d70-d981-587a-9b65-28526b0b7524"
+    ]
+  },
+  "length_reduction_mm": 6.3695,
+  "backside_length_removed_mm": 31.0,
+  "native_checks": {
+    "erc": 0,
+    "physical_drc": 0,
+    "schematic_parity": 0,
+    "unconnected_items": 25
+  },
+  "recipe_replay_verified": true,
+  "min_new_trace_clearance_mm": 0.25,
+  "pcb_sha256": "bde789fdb8d658769e8323261541df530a469838988996e852275eb2f887aa26",
+  "portal_revision": "892c755dff30714097bc"
+}

@@ -1,0 +1,160 @@
+{
+  "minimum_clearance_mm": 0.15,
+  "via_drill_body_overlap": [],
+  "items": [
+    {
+      "uuid": "d22a6d28-d126-51b9-9553-630c260d8c32",
+      "net": "-5V_CT",
+      "min_other_net_clearance_mm": 0.444239,
+      "nearest_net": "+5V_ADC",
+      "nearest_item": "741ef2f2-7e42-5772-821f-cb90e4ae6c1e"
+    },
+    {
+      "uuid": "f0a9d441-616c-59ea-83dd-bf1b8f0df4ac",
+      "net": "-5V_CT",
+      "min_other_net_clearance_mm": 0.225,
+      "nearest_net": "+5V_ADC",
+      "nearest_item": "741ef2f2-7e42-5772-821f-cb90e4ae6c1e"
+    },
+    {
+      "uuid": "3afdb4ac-7524-5cd3-b93f-6c505af88ced",
+      "net": "+5V_ADC",
+      "min_other_net_clearance_mm": 0.664028,
+      "nearest_net": "GND",
+      "nearest_item": "d51c08a7-8c21-5964-a7f9-4923543ac2cf"
+    },
+    {
+      "uuid": "4ce4bbe9-3f05-57f7-acde-bdc357337a91",
+      "net": "+5V_ADC",
+      "min_other_net_clearance_mm": 0.45,
+      "nearest_net": "-5V_CT",
+      "nearest_item": "1bb0d363-a195-57df-8d6a-33f6d487ca85"
+    },
+    {
+      "uuid": "e03efe5d-f143-5637-bfe0-074ea4f4bdef",
+      "net": "+5V_ADC",
+      "min_other_net_clearance_mm": 0.722792,
+      "nearest_net": "-5V_CT",
+      "nearest_item": "6e2f128f-cbe0-51b1-8819-195e359ac032"
+    },
+    {
+      "uuid": "10f1177c-9494-5104-bfa7-6ecbc118a3c8",
+      "net": "+5V_ADC",
+      "min_other_net_clearance_mm": 0.15,
+      "nearest_net": "CT2_RAW",
+      "nearest_item": "6252f5dd-6745-5bf7-89b6-2ae87352c2c1"
+    },
+    {
+      "uuid": "741ef2f2-7e42-5772-821f-cb90e4ae6c1e",
+      "net": "+5V_ADC",
+      "min_other_net_clearance_mm": 0.225,
+      "nearest_net": "-5V_CT",
+      "nearest_item": "f0a9d441-616c-59ea-83dd-bf1b8f0df4ac"
+    },
+    {
+      "uuid": "8a5f515b-d611-5061-97ae-0783496c90ac",
+      "net": "+5V_ADC",
+      "min_other_net_clearance_mm": 0.175,
+      "nearest_net": "-5V_CT",
+      "nearest_item": "5c5e323d-51b7-569f-b330-74683b730db0"
+    },
+    {
+      "uuid": "f8bac5ee-75d8-5044-b146-0b1c4c2d5f2b",
+      "net": "+5V_ADC",
+      "min_other_net_clearance_mm": 0.175,
+      "nearest_net": "-5V_CT",
+      "nearest_item": "18fd7abf-0a8b-522b-a901-d5db9256756a"
+    },
+    {
+      "uuid": "0d077c16-e887-5021-9cc7-a065c05df5e0",
+      "net": "+5V_ADC",
+      "min_other_net_clearance_mm": 0.225,
+      "nearest_net": "-5V_CT",
+      "nearest_item": "18fd7abf-0a8b-522b-a901-d5db9256756a"
+    },
+    {
+      "uuid": "15affcc7-34d8-5966-98eb-9bdeb8c532ed",
+      "net": "+5V_ADC",
+      "min_other_net_clearance_mm": 0.225,
+      "nearest_net": "-5V_CT",
+      "nearest_item": "5c5e323d-51b7-569f-b330-74683b730db0"
+    },
+    {
+      "uuid": "345bd781-e9db-513b-a080-2b66150e62fe",
+      "net": "+5V_ADC",
+      "min_other_net_clearance_mm": 0.3625,
+      "nearest_net": "GND",
+      "nearest_item": "05449588-f635-50c7-84fc-d4bd80fe7d83"
+    },
+    {
+      "uuid": "358a3542-d70c-5d40-b94f-42b72a9c62b7",
+      "net": "+5V_ADC",
+      "min_other_net_clearance_mm": 0.2,
+      "nearest_net": "CT2_RAW",
+      "nearest_item": "6252f5dd-6745-5bf7-89b6-2ae87352c2c1"
+    },
+    {
+      "uuid": "730fa529-cb4a-5cd1-81ca-8ac394199c05",
+      "net": "+5V_ADC",
+      "min_other_net_clearance_mm": 0.25,
+      "nearest_net": "CT2_RAW",
+      "nearest_item": "6252f5dd-6745-5bf7-89b6-2ae87352c2c1"
+    },
+    {
+      "uuid": "7ba6e4d5-4799-5bc7-ac72-23c93d389d41",
+      "net": "+5V_ADC",
+      "min_other_net_clearance_mm": 0.45,
+      "nearest_net": "GND",
+      "nearest_item": "0dce8db0-3022-5240-bde4-15300af96141"
+    },
+    {
+      "uuid": "7bdec652-e7b0-5ec7-b7f0-b76503a75d98",
+      "net": "+5V_ADC",
+      "min_other_net_clearance_mm": 0.3,
+      "nearest_net": "GND",
+      "nearest_item": "93b174f1-8f8d-50ff-b842-a83d0b8133f8"
+    },
+    {
+      "uuid": "83d402a9-e47a-5200-aa47-6a3c2f2598c6",
+      "net": "+5V_ADC",
+      "min_other_net_clearance_mm": 1.375,
+      "nearest_net": "-5V_CT",
+      "nearest_item": "9eb45f64-f00d-539a-b7c3-7b8ab371ae33"
+    },
+    {
+      "uuid": "c1e3377f-8795-5e44-8e41-1e089151e21a",
+      "net": "+5V_ADC",
+      "min_other_net_clearance_mm": 1.253401,
+      "nearest_net": "GND",
+      "nearest_item": "bc08e7a3-2f5a-585e-948b-38761dd34389"
+    },
+    {
+      "uuid": "d9da23ab-929c-5fdf-b727-6058e63bd0fb",
+      "net": "+5V_ADC",
+      "min_other_net_clearance_mm": 0.475,
+      "nearest_net": "-5V_CT",
+      "nearest_item": "f0a9d441-616c-59ea-83dd-bf1b8f0df4ac"
+    },
+    {
+      "uuid": "e577b530-f3ee-5c22-bb9d-5fdce989e903",
+      "net": "+5V_ADC",
+      "min_other_net_clearance_mm": 0.2,
+      "nearest_net": "GND",
+      "nearest_item": "a12742c2-4673-5a51-a607-77bbf178d544"
+    },
+    {
+      "uuid": "f81fa861-0260-5512-8cc2-4eb228961137",
+      "net": "+5V_ADC",
+      "min_other_net_clearance_mm": 0.275,
+      "nearest_net": "-5V_CT",
+      "nearest_item": "f0a9d441-616c-59ea-83dd-bf1b8f0df4ac"
+    },
+    {
+      "uuid": "fa290804-f15b-5af9-8ee5-1dec5cba3b50",
+      "net": "+5V_ADC",
+      "min_other_net_clearance_mm": 2.492587,
+      "nearest_net": "GND",
+      "nearest_item": "05449588-f635-50c7-84fc-d4bd80fe7d83"
+    }
+  ]
+}

@@ -1,0 +1,251 @@
+{
+  "annotation": "2026-09-30T07:07:04.383Z",
+  "removed_footprints": [
+    "J7"
+  ],
+  "removed_copper": [
+    {
+      "uuid": "065835ee-605e-5a50-a380-8417f7a0a32b",
+      "net": "EXT_CLOCK",
+      "start_nm": [
+        135300000,
+        32600000
+      ],
+      "end_nm": [
+        135300000,
+        32200000
+      ],
+      "layer": "B.Cu",
+      "kind": "track",
+      "width_nm": 200000
+    },
+    {
+      "uuid": "225eacb2-c579-5b21-b390-a41d21626a2a",
+      "net": "EXT_CLOCK",
+      "start_nm": [
+        134500000,
+        33400000
+      ],
+      "end_nm": [
+        135300000,
+        32600000
+      ],
+      "layer": "B.Cu",
+      "kind": "track",
+      "width_nm": 200000
+    },
+    {
+      "uuid": "23a34133-fe54-5764-8297-f89f200bafc0",
+      "net": "EXT_CLOCK",
+      "start_nm": [
+        131699999,
+        70100000
+      ],
+      "end_nm": [
+        131699999,
+        64900000
+      ],
+      "layer": "B.Cu",
+      "kind": "track",
+      "width_nm": 200000
+    },
+    {
+      "uuid": "26b3e491-0ab9-53ce-8b33-f82294f753e4",
+      "net": "EXT_CLOCK",
+      "start_nm": [
+        129300000,
+        72500000
+      ],
+      "end_nm": [
+        130000000,
+        71800000
+      ],
+      "layer": "F.Cu",
+      "kind": "track",
+      "width_nm": 150000
+    },
+    {
+      "uuid": "33d5b7d2-ae2f-5e1e-8e3c-e000ef06a52f",
+      "net": "EXT_CLOCK",
+      "start_nm": [
+        103600000,
+        72500000
+      ],
+      "end_nm": [
+        129300000,
+        72500000
+      ],
+      "layer": "F.Cu",
+      "kind": "track",
+      "width_nm": 150000
+    },
+    {
+      "uuid": "33f67af4-ea06-4a13-954e-6b8f46516aad",
+      "net": "EXT_CLOCK",
+      "start_nm": [
+        131699999,
+        64900000
+      ],
+      "end_nm": [
+        131699999,
+        64900000
+      ],
+      "layer": "F.Cu",
+      "kind": "via",
+      "width_nm": 600000,
+      "drill_nm": 300000
+    },
+    {
+      "uuid": "78a8ee55-3307-55d0-b0ea-bab4b06f6aca",
+      "net": "EXT_CLOCK",
+      "start_nm": [
+        134500000,
+        42000000
+      ],
+      "end_nm": [
+        134500000,
+        42000000
+      ],
+      "layer": "F.Cu",
+      "kind": "via",
+      "width_nm": 600000,
+      "drill_nm": 300000
+    },
+    {
+      "uuid": "8e0bac47-990a-582e-ae60-5aa891101588",
+      "net": "EXT_CLOCK",
+      "start_nm": [
+        130000000,
+        71800000
+      ],
+      "end_nm": [
+        130000000,
+        71800000
+      ],
+      "layer": "F.Cu",
+      "kind": "via",
+      "width_nm": 600000,
+      "drill_nm": 300000
+    },
+    {
+      "uuid": "9db50854-7731-515b-9121-8c4e47a9fc75",
+      "net": "EXT_CLOCK",
+      "start_nm": [
+        131699999,
+        64900000
+      ],
+      "end_nm": [
+        134500000,
+        62100000
+      ],
+      "layer": "F.Cu",
+      "kind": "track",
+      "width_nm": 200000
+    },
+    {
+      "uuid": "c14b6033-01c8-593e-a493-a0380339267a",
+      "net": "EXT_CLOCK",
+      "start_nm": [
+        130000000,
+        71800000
+      ],
+      "end_nm": [
+        131699999,
+        70100000
+      ],
+      "layer": "B.Cu",
+      "kind": "track",
+      "width_nm": 200000
+    },
+    {
+      "uuid": "d2e71cb0-e816-53df-b954-e24c55d215a6",
+      "net": "EXT_CLOCK",
+      "start_nm": [
+        134500000,
+        62100000
+      ],
+      "end_nm": [
+        134500000,
+        42000000
+      ],
+      "layer": "F.Cu",
+      "kind": "track",
+      "width_nm": 200000
+    },
+    {
+      "uuid": "e0ffa3a7-de64-58c7-943f-de1adae79860",
+      "net": "EXT_CLOCK",
+      "start_nm": [
+        134500000,
+        33400000
+      ],
+      "end_nm": [
+        134500000,
+        42000000
+      ],
+      "layer": "B.Cu",
+      "kind": "track",
+      "width_nm": 200000
+    },
+    {
+      "uuid": "fb8d5024-bc59-5a87-8abb-4a17a2ee5075",
+      "net": "EXT_CLOCK",
+      "start_nm": [
+        103600000,
+        68820000
+      ],
+      "end_nm": [
+        103600000,
+        72500000
+      ],
+      "layer": "F.Cu",
+      "kind": "track",
+      "width_nm": 150000
+    }
+  ],
+  "tracks_before": 1346,
+  "tracks_after": 1336,
+  "vias_before": 328,
+  "vias_after": 325,
+  "unused_daughterboard_contacts": [
+    "J1.11",
+    "J1.12",
+    "J1.15",
+    "J1.16",
+    "J2.32"
+  ],
+  "remaining_copper_identical": true,
+  "remaining_footprint_geometry_identical": true,
+  "drawings_unchanged": true,
+  "shared_ground_connectivity_retained": true,
+  "all_remaining_pad_connectivity_components_match": true,
+  "only_expected_schematic_changes": true,
+  "circuit_matches_exported_netlist": true,
+  "rules_unchanged": true,
+  "unconnected_before": 6,
+  "unconnected_after": 2,
+  "sha256": {
+    "controller.kicad_pcb": "8821d6c10a3c69ec7735faf9acdb6465fcb24acd0498788aba818faa36dd9e29",
+    "controller.kicad_sch": "d7c835048426ddd835efacd77b97f69f1e82488531d796c894160ee7e032665d",
+    "controller.kicad_pro": "40e593eb2309fcddf3cd616a5e82b970cb97e4b268436e03b5e1288843705533"
+  },
+  "native_checks": {
+    "stage": "Development routing: CST/AUX inputs connected to ADC, supply distribution, FPGA signals and H-bridge drivers; remaining controller routing incomplete",
+    "erc": 0,
+    "physical_drc": 0,
+    "schematic_parity": 0,
+    "unconnected_items": 2,
+    "fabrication_ready": false,
+    "sha256": {
+      "controller.kicad_sch": "d7c835048426ddd835efacd77b97f69f1e82488531d796c894160ee7e032665d",
+      "controller.kicad_pcb": "8821d6c10a3c69ec7735faf9acdb6465fcb24acd0498788aba818faa36dd9e29",
+      "controller.kicad_pro": "40e593eb2309fcddf3cd616a5e82b970cb97e4b268436e03b5e1288843705533"
+    },
+    "native_drc_findings": 0,
+    "intentional_open_route_ends": [],
+    "native_whole_board_unconnected": 2
+  },
+  "portal_revision": "2e4ab31277f93bcd1f70",
+  "replay_contract_valid": true,
+  "circuit_changes_exact": true
+}

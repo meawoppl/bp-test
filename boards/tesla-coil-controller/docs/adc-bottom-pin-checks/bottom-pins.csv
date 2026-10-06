@@ -1,0 +1,17 @@
+pin,datasheet_name,role,net,x_mm,y_mm
+1,AVCC,analog supply,+5V_ADC,89.25,101.675
+2,AGND,ground,GND,89.75,101.675
+3,OS0,configuration strap HIGH,+3V3,90.25,101.675
+4,OS1,configuration strap HIGH,+3V3,90.75,101.675
+5,OS2,configuration strap HIGH,+3V3,91.25,101.675
+6,PAR/SER SEL,configuration strap HIGH,+3V3,91.75,101.675
+7,STBY,configuration strap HIGH,+3V3,92.25,101.675
+8,RANGE,configuration strap LOW,GND,92.75,101.675
+9,CONVST,interface signal,ADC_CONVST,93.25,101.675
+10,WR,configuration strap HIGH,+3V3,93.75,101.675
+11,RESET,interface signal,ADC_RESET,94.25,101.675
+12,RD/SCLK,interface signal,ADC_SCLK,94.75,101.675
+13,CS,interface signal,ADC_CS_N,95.25,101.675
+14,BUSY,interface signal,ADC_BUSY,95.75,101.675
+15,FRSTDATA,interface signal,ADC_FIRST,96.25,101.675
+16,DB0,unused parallel data: grounded,GND,96.75,101.675

@@ -1,0 +1,43 @@
+# Tesla carrier signal constraints for the UP5K-SG48 module.
+# Port names must match the consuming FPGA top level.
+# Generated from tesla_fpga_pinmap.py and icd-v1-pinout.csv.
+# J2.2: FPGA_IOB_18A
+set_io GDT2_L_HI 10
+# J2.4: FPGA_IOB_16A
+set_io GDT2_L_LO 9
+# J2.5: FPGA_IOB_22A
+set_io GDT2_R_HI 12
+# J2.6: FPGA_IOB_13B
+set_io GDT2_R_LO 6
+# J2.7: FPGA_IOB_20A
+set_io GDT1_L_HI 11
+# J2.9: FPGA_IOT_37A
+set_io GDT1_L_LO 23
+# J2.10: FPGA_IOB_23B
+set_io GDT1_R_HI 21
+# J2.11: FPGA_IOB_29B
+set_io GDT1_R_LO 19
+# J2.22: FPGA_IOT_46B_G0
+set_io CT1_ZERO 35
+# J2.24: FPGA_IOT_45A_G1
+set_io CT2_ZERO 37
+# J2.31: FPGA_IOT_49A
+set_io ADC_CONVST 43
+# J2.32: FPGA_IOB_3B_G6
+set_io ADC_RESET 44
+# J2.33: FPGA_IOT_44B
+set_io ADC_SCLK 34
+# J2.34: FPGA_IOB_5B
+set_io ADC_CS_N 45
+# J2.35: FPGA_IOB_0A
+set_io ADC_BUSY 46
+# J2.36: FPGA_IOB_2A
+set_io ADC_SDI 47
+# J2.37: FPGA_IOB_4A
+set_io ADC_DOUT_D 48
+# J2.38: FPGA_IOB_9B
+set_io ADC_DOUT_C 3
+# J2.39: FPGA_IOB_8A
+set_io ADC_DOUT_B 4
+# J2.40: FPGA_IOB_6A
+set_io ADC_DOUT_A 2

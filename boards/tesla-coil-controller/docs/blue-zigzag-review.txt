@@ -1,0 +1,74 @@
+Portal blue-line zigzag annotation — 2026-09-30
+Annotation: 2026-09-30T07:19:13.496Z
+Source view revision: 4c4457dea56a0532039e
+Saved Portal revision: 1f5eaa5f44e9fa783fc2
+
+Straightened the highlighted GDT2_R_LO back-copper route beside U53/U54.
+Its GDT2_R_HI neighbor blocked a direct diagonal and was straightened
+with it. Both now leave the vertical trunk bundle at y=124.8 mm,
+follow one continuous 45-degree diagonal alongside the left-hand
+command routes, and run horizontally to their existing destination
+vias. Four horizontal/vertical detour segments were removed. Six
+existing segment geometries changed; no new copper objects or vias.
+
+The GDT2_R_HI diagonal runs from (123,124.8) to (134.4,136.2) mm.
+The GDT2_R_LO diagonal runs from (123.8,124.8) to (134.5,135.5) mm.
+All widths remain 0.20 mm on B.Cu. The original vias and front-layer
+connections to R511/R515 and R512/R516 remain in place. The HI route
+is 3.808 mm shorter and LO is 3.398 mm shorter, a 7.205 mm reduction.
+
+Verification:
+- Native ERC: 0; physical DRC: 0; schematic parity: 0.
+- Two existing USB opens remain between J1 and J5: USB_D+ and USB_D-.
+- Every pad-connectivity component matches the pre-edit snapshot;
+  GDT2_R_HI and GDT2_R_LO each remain fully connected.
+- Independent edge-to-edge copper clearance is at least 0.2364 mm,
+  exceeding the 0.15 mm rule. Filled zones were regenerated and
+  checked by native KiCad DRC; geometric audit excludes plane fills.
+- Unrelated copper, all vias, footprints, pad geometry/nets, placement,
+  and drawings match the snapshot. Schematic and project rules match
+  byte-for-byte. No libraries changed.
+- Reviewed routing recipe matches the saved board. Its non-copper
+  fields are unchanged. All tracks remain octilinear.
+- Counts: 1337 -> 1333 tracks; 321 -> 321 vias.
+
+Quality: 304 errors, 2411 warnings, 29 infos, 0 suppressed.
+All individual error/warning findings are identical to the pre-edit
+strange-path-quality.json baseline. Complete finding comparison has
+one replaced informational aggregate: kct's optimizer estimate falls
+from 19 removable segments out of 1337 to 16 out of 1333. No new
+localized finding. Existing board-wide backlog retains the prior
+dispositions in command-adc-quality-triage.md and d42-placement-review.txt;
+this edit does not waive it. See blue-zigzag-quality-delta.json.
+
+Visual review: matched the supplied Portal capture to GDT2_R_LO and
+the lower driver pair. Reviewed saved-board before/after plots for
+natural diagonal paths, parallel spacing, remaining terminal bend,
+continuous width, no stubs, and unchanged endpoint/via connections.
+See blue-zigzag-before.png and blue-zigzag-after.png. Plots omit fills.
+No new live Workbench-tab, 3D, or assembly review was performed;
+component placement, polarity, and models were unchanged.
+
+Tools: plugin doctor verified KiCad 10.0.6 and kct 0.21.1. Ran kct
+optimize-traces --net GDT2_R_ --dry-run --format json first. Its
+net-wide proposal is broader than this local edit and was not applied.
+The existing reviewed-routing replay applied the explicit recipe
+changes and refilled zones. Custom scripts were read-only checks of
+exact change scope, pad connectivity, geometry/clearance, and plotting,
+which the net-wide optimizer does not verify. check_tesla_draft.py ran
+native ERC/DRC/schematic parity. Plugin quality ran kct check,
+detect-mistakes, and optimize-traces in dry-run mode.
+
+Changed file categories:
+- PCB: controller.kicad_pcb.
+- Source: tools/hardware/tesla_reviewed_routing.json.
+- Docs/checks: this review; blue-zigzag verification, clearance, quality,
+  delta and Portal revision JSON; before/after plots; validation.json;
+  native ERC/DRC reports and refreshed schematic PDF.
+- Schematic/project/library content unchanged. No fabrication package
+  published; board remains a routing draft with its existing backlog.
+
+Final checked PCB SHA256:
+57c673ef69ff952d6ea2425d57f6635644133d1aa801aba716b8a6ada21dcf34
+
+Only this blue-line zigzag annotation was handled.

@@ -1,0 +1,220 @@
+{
+  "pcb_sha256": "4efce70086fbf5057f111ef4195db9a370abc15b10eccaae1c1f82dc6b60c8ec",
+  "passives_0603": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7",
+    "R8",
+    "R20",
+    "R21",
+    "R22",
+    "R23",
+    "C1",
+    "C2",
+    "C3",
+    "C4",
+    "C5",
+    "C6",
+    "C7",
+    "C8",
+    "C9",
+    "C10",
+    "C11",
+    "C12",
+    "C13",
+    "C14",
+    "C15",
+    "C16",
+    "C17",
+    "C18",
+    "C20",
+    "C21"
+  ],
+  "adc_channels": [
+    {
+      "net": "ADC_CH1",
+      "layer": "F.Cu",
+      "signal_vias": 0,
+      "all_three_pads_connected": true,
+      "track_length_mm": 12.212
+    },
+    {
+      "net": "ADC_CH2",
+      "layer": "F.Cu",
+      "signal_vias": 0,
+      "all_three_pads_connected": true,
+      "track_length_mm": 9.412
+    },
+    {
+      "net": "ADC_CH3",
+      "layer": "F.Cu",
+      "signal_vias": 0,
+      "all_three_pads_connected": true,
+      "track_length_mm": 7.666
+    },
+    {
+      "net": "ADC_CH4",
+      "layer": "F.Cu",
+      "signal_vias": 0,
+      "all_three_pads_connected": true,
+      "track_length_mm": 7.294
+    },
+    {
+      "net": "ADC_CH5",
+      "layer": "F.Cu",
+      "signal_vias": 0,
+      "all_three_pads_connected": true,
+      "track_length_mm": 8.512
+    },
+    {
+      "net": "ADC_CH6",
+      "layer": "F.Cu",
+      "signal_vias": 0,
+      "all_three_pads_connected": true,
+      "track_length_mm": 11.312
+    },
+    {
+      "net": "ADC_CH7",
+      "layer": "F.Cu",
+      "signal_vias": 0,
+      "all_three_pads_connected": true,
+      "track_length_mm": 14.112
+    },
+    {
+      "net": "ADC_CH8",
+      "layer": "F.Cu",
+      "signal_vias": 0,
+      "all_three_pads_connected": true,
+      "track_length_mm": 16.912
+    }
+  ],
+  "phase_routes": {
+    "CT_ZERO": {
+      "before": {
+        "total_copper_mm": 98.88,
+        "vias": 1
+      },
+      "after": {
+        "total_copper_mm": 80.723,
+        "vias": 0
+      }
+    },
+    "CT2_ZERO": {
+      "before": {
+        "total_copper_mm": 123.772,
+        "vias": 0
+      },
+      "after": {
+        "total_copper_mm": 103.771,
+        "vias": 0
+      }
+    }
+  },
+  "digital_links": {
+    "ADC_DOUT_A": {
+      "before": {
+        "total_copper_mm": 51.134,
+        "vias": 4
+      },
+      "after": {
+        "total_copper_mm": 46.164,
+        "vias": 2
+      }
+    },
+    "ADC_DOUT_B": {
+      "before": {
+        "total_copper_mm": 49.713,
+        "vias": 4
+      },
+      "after": {
+        "total_copper_mm": 44.742,
+        "vias": 2
+      }
+    },
+    "ADC_DOUT_C": {
+      "before": {
+        "total_copper_mm": 48.167,
+        "vias": 4
+      },
+      "after": {
+        "total_copper_mm": 43.197,
+        "vias": 2
+      }
+    },
+    "ADC_DOUT_D": {
+      "before": {
+        "total_copper_mm": 46.705,
+        "vias": 4
+      },
+      "after": {
+        "total_copper_mm": 41.734,
+        "vias": 2
+      }
+    },
+    "ADC_SDI": {
+      "before": {
+        "total_copper_mm": 45.532,
+        "vias": 4
+      },
+      "after": {
+        "total_copper_mm": 40.561,
+        "vias": 2
+      }
+    },
+    "ADC_BUSY": {
+      "before": {
+        "total_copper_mm": 52.219,
+        "vias": 4
+      },
+      "after": {
+        "total_copper_mm": 52.219,
+        "vias": 2
+      }
+    },
+    "ADC_CS_N": {
+      "before": {
+        "total_copper_mm": 54.724,
+        "vias": 4
+      },
+      "after": {
+        "total_copper_mm": 54.811,
+        "vias": 2
+      }
+    },
+    "ADC_SCLK": {
+      "before": {
+        "total_copper_mm": 51.639,
+        "vias": 4
+      },
+      "after": {
+        "total_copper_mm": 51.639,
+        "vias": 2
+      }
+    },
+    "ADC_RESET": {
+      "before": {
+        "total_copper_mm": 54.683,
+        "vias": 4
+      },
+      "after": {
+        "total_copper_mm": 54.77,
+        "vias": 2
+      }
+    },
+    "ADC_CONVST": {
+      "before": {
+        "total_copper_mm": 54.973,
+        "vias": 4
+      },
+      "after": {
+        "total_copper_mm": 55.06,
+        "vias": 2
+      }
+    }
+  },
+  "adc_signal_vias_removed": 20
+}

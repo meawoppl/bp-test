@@ -1,0 +1,15 @@
+{
+  "command": [
+    "/home/meawoppl/agent-portal-plugins/kicad-pcb/.runtime/kicad-tools/bin/kct",
+    "optimize-traces",
+    "tmp/tesla-bottom-front/before/boards/tesla-coil-controller/controller.kicad_pcb",
+    "--dry-run",
+    "--format",
+    "json"
+  ],
+  "cwd": "/home/meawoppl/repos/bp-test",
+  "ok": true,
+  "stderr": "",
+  "stdout": "{\n  \"command\": \"optimize-traces\",\n  \"copper_oz\": 1.0,\n  \"drc_aware\": false,\n  \"dry_run\": true,\n  \"layers\": 2,\n  \"manufacturer\": null,\n  \"net_filter\": null,\n  \"optimizations\": {\n    \"chamfer_size_mm\": 0.5,\n    \"convert_45_corners\": true,\n    \"eliminate_zigzags\": true,\n    \"merge_collinear\": true\n  },\n  \"output\": null,\n  \"pcb\": \"tmp/tesla-bottom-front/before/boards/tesla-coil-controller/controller.kicad_pcb\",\n  \"saved\": false,\n  \"stats\": {\n    \"corners_after\": 1031,\n    \"corners_before\": 928,\n    \"drc_errors_after\": 0,\n    \"drc_errors_before\": 0,\n    \"length_after_mm\": 5003.147369535529,\n    \"length_before_mm\": 5034.729585757006,\n    \"length_reduction_pct\": 0.6272872392356854,\n    \"nets_optimized\": 136,\n    \"nets_rolled_back\": 0,\n    \"segment_reduction_pct\": 2.608047690014903,\n    \"segments_after\": 1307,\n    \"segments_before\": 1342\n  },\n  \"success\": true,\n  \"written_to\": null\n}\n",
+  "tool": "/home/meawoppl/agent-portal-plugins/kicad-pcb/.runtime/kicad-tools/bin/kct"
+}

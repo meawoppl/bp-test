@@ -1,0 +1,47 @@
+{
+  "pcb_sha256": "6be72b93cedab439b5b70672397c5ce5b451b1118791104650bfc5e8357d93c9",
+  "rows": [
+    {
+      "buffer": "U70",
+      "net": "AUX1_BUFFERED",
+      "from_pin": 1,
+      "to_pin": 4,
+      "feedback_layer": "F.Cu",
+      "feedback_length_mm": 3.823528137423857,
+      "output_net_vias_before": 3,
+      "output_net_vias_after": 2
+    },
+    {
+      "buffer": "U71",
+      "net": "AUX2_BUFFERED",
+      "from_pin": 1,
+      "to_pin": 4,
+      "feedback_layer": "F.Cu",
+      "feedback_length_mm": 3.8235281374250354,
+      "output_net_vias_before": 2,
+      "output_net_vias_after": 0
+    },
+    {
+      "buffer": "U72",
+      "net": "AUX3_BUFFERED",
+      "from_pin": 1,
+      "to_pin": 4,
+      "feedback_layer": "F.Cu",
+      "feedback_length_mm": 3.823528137423857,
+      "output_net_vias_before": 3,
+      "output_net_vias_after": 2
+    },
+    {
+      "buffer": "U73",
+      "net": "AUX4_BUFFERED",
+      "from_pin": 1,
+      "to_pin": 4,
+      "feedback_layer": "F.Cu",
+      "feedback_length_mm": 3.8235281374250354,
+      "output_net_vias_before": 3,
+      "output_net_vias_after": 2
+    }
+  ],
+  "removed_vias": 5,
+  "note": "All feedback loops remain on the component side. Remaining vias support the ADC routes; no placement, pin assignment or schematic changes."
+}

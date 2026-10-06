@@ -1,0 +1,23 @@
+{
+  "model": "Ideal current source, 50m\u03a9/winding, 150pF cable shunts, 1nF burden shunt; no TVS/cable/CT parasitics or core saturation",
+  "results": [
+    {
+      "assumed_differential_leakage_uH": 0.0,
+      "gain_at_30k": 0.9999976501482171,
+      "phase_deg_at_30k": -0.12428080541563638,
+      "delay_ns_at_30k": 11.507481982929294
+    },
+    {
+      "assumed_differential_leakage_uH": 0.19999999999999998,
+      "gain_at_30k": 0.999998183105548,
+      "phase_deg_at_30k": -0.12428081409210852,
+      "delay_ns_at_30k": 11.507482786306344
+    },
+    {
+      "assumed_differential_leakage_uH": 2.0,
+      "gain_at_30k": 1.0000029797472245,
+      "phase_deg_at_30k": -0.12428089218653651,
+      "delay_ns_at_30k": 11.507490017271898
+    }
+  ]
+}

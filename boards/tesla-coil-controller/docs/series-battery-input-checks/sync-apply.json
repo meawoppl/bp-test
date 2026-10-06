@@ -1,0 +1,18 @@
+{
+  "command": [
+    "/home/meawoppl/agent-portal-plugins/kicad-pcb/.runtime/kicad-tools/bin/kct",
+    "pcb",
+    "sync-netlist",
+    "boards/tesla-coil-controller/controller.kicad_pcb",
+    "--schematic",
+    "boards/tesla-coil-controller/controller.kicad_sch",
+    "--transactional",
+    "--format",
+    "json"
+  ],
+  "cwd": "/home/meawoppl/repos/bp-test",
+  "ok": true,
+  "stderr": "",
+  "stdout": "{\n  \"pcb\": \"boards/tesla-coil-controller/controller.kicad_pcb\",\n  \"dry_run\": false,\n  \"renamed\": [],\n  \"added\": [],\n  \"orphaned\": [],\n  \"removed\": [],\n  \"pin_mismatches\": [],\n  \"net_updated\": [\n    {\n      \"reference\": \"J30\",\n      \"detail\": \"J30.1: \\\"VBAT_24V\\\" -> \\\"BAT_MID_12V\\\"\"\n    },\n    {\n      \"reference\": \"J4\",\n      \"detail\": \"J4.2: \\\"GND\\\" -> \\\"BAT_MID_12V\\\"\"\n    }\n  ],\n  \"warnings\": [],\n  \"errors\": []\n}\n",
+  "tool": "/home/meawoppl/agent-portal-plugins/kicad-pcb/.runtime/kicad-tools/bin/kct"
+}

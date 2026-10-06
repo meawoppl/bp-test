@@ -1,0 +1,196 @@
+{
+  "annotation_created_at": "2026-09-30T07:10:16.345Z",
+  "scope": [
+    "+3V3",
+    "CT_ZERO"
+  ],
+  "before": {
+    "track": 1336,
+    "via": 325
+  },
+  "after": {
+    "track": 1337,
+    "via": 321
+  },
+  "all_3v3_top_copper": true,
+  "power_vias_after": 0,
+  "new_vias": 0,
+  "signal_via_relocated_mm": {
+    "net": "CT_ZERO",
+    "from": [
+      114.4,
+      129.5
+    ],
+    "to": [
+      111.2,
+      129.5
+    ]
+  },
+  "net_length_mm": {
+    "+3V3": {
+      "before": 190.57311249901247,
+      "after": 186.78035637794332
+    },
+    "CT_ZERO": {
+      "before": 86.95988815542512,
+      "after": 86.95988815542512
+    }
+  },
+  "all_pad_connectivity_components_identical": true,
+  "unrelated_copper_identical": true,
+  "footprint_geometry_nets_and_positions_identical": true,
+  "drawings_identical": true,
+  "schematic_and_rules_identical": true,
+  "recipe_matches_board": true,
+  "all_tracks_octilinear": true,
+  "unconnected_before": 2,
+  "unconnected_after": 2,
+  "changes": {
+    "removals": [
+      "688f83e9-b437-54d1-a7c8-d219cde36938",
+      "4db14959-291e-5028-a057-b23721b5abd9",
+      "7d333e24-8dda-554b-b1da-2c9c7b50c8e9",
+      "9d4a33b4-6f47-5f22-adf8-46908e3626fc",
+      "ff8b333d-5c52-5e27-9025-fe88a073cd3d",
+      "04700b2b-2aac-59af-8c7f-2b51ebcc33fe"
+    ],
+    "changes": {
+      "39a9b60e-1331-50a8-8d9a-a4d58c916f16": {
+        "layer": "F.Cu",
+        "start_nm": [
+          98087500,
+          123500000
+        ]
+      },
+      "8b29b895-d935-5edc-b5ca-c84ce7d791db": {
+        "layer": "F.Cu"
+      },
+      "e68289ea-6099-5169-af71-0bd051a348e9": {
+        "layer": "F.Cu",
+        "end_nm": [
+          113400000,
+          157500000
+        ]
+      },
+      "54124a3e-1c0d-5d4d-88f6-4680a720e612": {
+        "layer": "F.Cu",
+        "start_nm": [
+          113400000,
+          146500000
+        ],
+        "end_nm": [
+          98087500,
+          146500000
+        ]
+      },
+      "b0e7095b-7fc3-51db-95da-935848deba1d": {
+        "layer": "F.Cu",
+        "start_nm": [
+          113400000,
+          134500000
+        ],
+        "end_nm": [
+          108050000,
+          134500000
+        ]
+      },
+      "a5138f40-344a-5b93-b53a-ce552c1bc2af": {
+        "layer": "F.Cu",
+        "start_nm": [
+          113400000,
+          157500000
+        ],
+        "end_nm": [
+          108050000,
+          157500000
+        ]
+      },
+      "e91b3e4c-9858-5d0d-bb49-8109c21f89ce": {
+        "end_nm": [
+          111200000,
+          129500000
+        ]
+      },
+      "b9bff20b-99df-5f7c-a593-633b663d37ec": {
+        "start_nm": [
+          111200000,
+          129500000
+        ],
+        "end_nm": [
+          111200000,
+          129500000
+        ]
+      },
+      "105acee8-bb63-5994-b5fd-66fe30715050": {
+        "end_nm": [
+          105300000,
+          122500000
+        ]
+      },
+      "e81983d1-17cc-5544-bd52-e2bcbba58d28": {
+        "end_nm": [
+          108050000,
+          158500000
+        ]
+      },
+      "24b55871-5541-5187-bf33-ffafbf104f05": {
+        "start_nm": [
+          109050000,
+          159500000
+        ]
+      }
+    },
+    "added": [
+      {
+        "uuid": "83656207-38df-5c3a-8b44-e6f974f7c8af",
+        "net": "CT_ZERO",
+        "start_nm": [
+          114400000,
+          129500000
+        ],
+        "end_nm": [
+          111200000,
+          129500000
+        ],
+        "layer": "B.Cu",
+        "kind": "track",
+        "width_nm": 200000
+      },
+      {
+        "uuid": "5392d55c-53ba-51b1-874b-e55e5b07becc",
+        "net": "+3V3",
+        "start_nm": [
+          105300000,
+          122500000
+        ],
+        "end_nm": [
+          105300000,
+          123500000
+        ],
+        "layer": "F.Cu",
+        "kind": "track",
+        "width_nm": 350000
+      },
+      {
+        "uuid": "1a4a8f94-f710-5c1c-bd43-5f5ecb3f10ec",
+        "net": "+3V3",
+        "start_nm": [
+          108050000,
+          158500000
+        ],
+        "end_nm": [
+          109050000,
+          159500000
+        ],
+        "layer": "F.Cu",
+        "kind": "track",
+        "width_nm": 300000
+      }
+    ]
+  },
+  "sha256": {
+    "controller.kicad_pcb": "4a1af0de19812d88cb294ab567030bd325195e6ca4c747e9245e103bf5ac80ec",
+    "controller.kicad_sch": "d7c835048426ddd835efacd77b97f69f1e82488531d796c894160ee7e032665d",
+    "controller.kicad_pro": "40e593eb2309fcddf3cd616a5e82b970cb97e4b268436e03b5e1288843705533"
+  }
+}

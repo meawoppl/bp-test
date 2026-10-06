@@ -1,0 +1,31 @@
+{
+  "added": [
+    {
+      "description": "kct optimize-traces would remove 35 of 1342 segments (corners 928 -> 1031, length -0.6%); merge collinear segments and drop zigzags",
+      "items": [],
+      "severity": "info",
+      "source": "kct optimize-traces",
+      "type": "optimize_traces.mergeable_segments"
+    }
+  ],
+  "removed": [
+    {
+      "description": "Acute angle in trace (acid trap): Trace on -5V_CT (B.Cu) has a 45\u00b0 angle. Angles less than 90\u00b0 can trap etchant during PCB manufacturing, causing over-etching at the vertex. This can weaken the trace and cause reliability issues.",
+      "items": [
+        {
+          "description": "-5V_CT, B.Cu"
+        }
+      ],
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.manufacturability.acute_angle_in_trace_acid_trap"
+    },
+    {
+      "description": "kct optimize-traces would remove 37 of 1344 segments (corners 936 -> 1027, length -0.6%); merge collinear segments and drop zigzags",
+      "items": [],
+      "severity": "info",
+      "source": "kct optimize-traces",
+      "type": "optimize_traces.mergeable_segments"
+    }
+  ]
+}

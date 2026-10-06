@@ -1,0 +1,42 @@
+Portal CT2_HALF trace simplification — 2026-09-30
+Annotation: 2026-09-30T06:12:58.183Z — Unnneded board side change, simplify trace too
+Source revision: ba1ccbe6c2888ebb0a3a
+Saved Portal revision: f01426f73e95d0778c6b
+
+The annotated CT2_HALF branch to TP61 now stays entirely on F.Cu.
+Removed the two layer-change vias and the back-layer detour. Straightened
+the R606 tap. Eight tracks were replaced by four; the original 0.25 mm
+width is retained. Whole-board vias: 334 -> 332. CT2_HALF copper length:
+38.792146 -> 32.501335 mm, a reduction of 6.290812 mm.
+
+Native ERC: 0. Physical DRC: 0. Schematic parity: 0.
+Whole-board opens remain six: USB_D+, USB_D-, ESP_EN, ESP_GPIO0_BOOT,
+SUPPLY_MON and FAULT_STATUS. All pad-connectivity components match the
+baseline, including the connected CT2_HALF net. Unrelated copper,
+footprint positions, pads, schematic and design rules are unchanged.
+Isolated reviewed-recipe replay matches copper, placement and connectivity.
+
+Added-copper minimum different-net clearance is 0.70 mm, excluding filled
+zones from that independent geometry measurement. Native DRC checks the
+saved filled board. All tracks are octilinear; no new collinear overlaps
+or via/body overlaps. The local before/after copper plots were inspected:
+centered pad arrivals, bends outside pads, no dangling tails or width
+changes. This was a saved-board plot review, not a live Workbench review.
+
+Plugin quality: 301 errors, 2422 warnings, 29 infos; zero suppressed.
+Every error and warning entry matches the baseline. Only the informational
+optimizer aggregate changed, from 16 of 1352 to 17 of 1348 mergeable
+segments. Existing findings remain documented in command-adc-quality-triage.md.
+The full-board quality backlog is not waived by this local edit.
+
+Tooling: plugin doctor passed; KiCad 10.0.6 and kct 0.21.1 available.
+kct optimize-traces dry-run for CT2_HALF retained the unwanted layer
+detour and proposed additional segments. The focused replacement was
+therefore made on a copy, checked, and saved to the canonical board and
+tools/hardware/tesla_reviewed_routing.json. Native validation, plugin
+quality and isolated recipe replay then ran on the saved result.
+
+Artifacts: ct2-half-front-before.png, ct2-half-front-after.png,
+ct2-half-front-verification.json, ct2-half-front-quality.json,
+ct2-half-front-quality-delta.json. The board remains a routing draft.
+This edit addresses only the selected trace annotation.

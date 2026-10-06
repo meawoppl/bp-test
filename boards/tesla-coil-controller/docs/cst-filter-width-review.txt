@@ -1,0 +1,51 @@
+Portal CST filter trace width — 2026-09-30
+Annotation: 2026-09-30T07:06:01.050Z
+Source revision: 3d113cef9bdd62c94c1a
+Saved Portal revision: 1b4fc925b3301bd27c6a
+
+Widened the L40 and L60 pin-3 GND returns from 0.30 to 0.65 mm,
+matching each filter's other three pin connections. The existing straight
+front-layer paths and ground vias are retained. Both changed tracks have
+1.15 mm clearance to the nearest different-net copper (excluding zones).
+
+The saved PCB differs from the snapshot by exactly these two width values.
+All other PCB text, including zone fills, is unchanged after refill.
+All pad-connectivity partitions match; vias remain 328. The routing recipe
+diff also contains only the two width values. Schematic and rules match
+the snapshot byte for byte.
+
+Native ERC: 0. Physical DRC: 0. Schematic parity: 0.
+Six existing unconnected items remain: USB_D+, USB_D-, ESP_EN,
+ESP_GPIO0_BOOT, SUPPLY_MON, FAULT_STATUS.
+Quality: 304 errors, 2422 warnings, 29 infos, 0 suppressed. Every finding
+matches the preceding d42-placement-quality.json baseline; no additions,
+removals or modifications. Existing dispositions and remaining work are in
+command-adc-quality-triage.md and d42-placement-review.txt. This focused
+change does not resolve or waive that board-wide backlog.
+
+Visual review: saved-board copper plots checked for both filters, equal
+widths, centered straight pad exits and via contact. No paths, junctions,
+stubs, bends, footprint positions, silkscreen or models changed. No live
+Workbench tabs, new 3D render or assembly preview reviewed for this edit.
+The reviewed final plot is cst-filter-width-after.png.
+
+Tools: plugin doctor (KiCad 10.0.6, kct 0.21.1); kct pcb --help and
+optimize-traces --help. No scoped width setter was available, so the two
+widths were patched in the existing tesla_reviewed_routing.json recipe and
+applied through tesla_route_reviewed.py. Custom read-only audits supplied
+exact snapshot comparison, connectivity-partition comparison and local
+native-geometry clearance measurements not provided by kct. Plugin quality
+ran kct check, detect-mistakes and optimize-traces dry-run; the existing
+check_tesla_draft.py regenerated native ERC/DRC with schematic parity.
+
+Changed files by category:
+- PCB: controller.kicad_pcb (two widths).
+- Replay data: tools/hardware/tesla_reviewed_routing.json (same two widths).
+- Docs/checks: this review, verification JSON, quality/delta JSON, plot,
+  validation.json, ERC/DRC reports and regenerated schematic PDF.
+- Schematic source, project rules and libraries: unchanged.
+- Gerbers/BOM/CPL/STEP: not published; this remains a routing draft.
+  Whole-board routing, quality backlog and manufacturing/assembly review
+  remain outstanding before fabrication release.
+
+Only this two-channel width annotation was handled.

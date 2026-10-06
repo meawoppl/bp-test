@@ -1,0 +1,10 @@
+capacitor,role,ic_pins,pin_center_distance_mm
+C1,AVCC south,1,2.475
+C2,AVCC north shared pair,37/38,3.031
+C3,additional AVCC bypass,37/38,6.514
+C4,AVCC northwest,48,3.7
+C5,VDRIVE east,23,2.475
+C6,REGCAP_A,36,4.493
+C7,REGCAP_D,39,2.488
+C8,REF,42,2.586
+C9,REFCAP shared pair,44/45,3.031

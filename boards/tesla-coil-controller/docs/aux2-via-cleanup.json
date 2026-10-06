@@ -1,0 +1,75 @@
+{
+  "annotation_created_at": "2026-09-30T05:49:12.219Z",
+  "net": "AUX2_0_5V",
+  "region": "below R711",
+  "front_width_mm": 0.25,
+  "removed_vias_mm": [
+    [
+      53.2,
+      89.5
+    ],
+    [
+      55.8,
+      89.5
+    ]
+  ],
+  "merged_front_trace_mm": [
+    [
+      31.5,
+      89.5
+    ],
+    [
+      57.5,
+      89.5
+    ]
+  ],
+  "net_via_reduction": 2,
+  "all_affected_net_pads_connected": true,
+  "whole_board_unconnected": 25,
+  "all_other_copper_unchanged": true,
+  "placements_and_pads_unchanged": true,
+  "schematic_and_rules_unchanged": true,
+  "all_tracks_octilinear": true,
+  "changes": {
+    "removed": [
+      "343d0248-c28e-5a48-a923-e241ee0d3f78",
+      "34ce67ac-a42c-5056-8617-633757d80736",
+      "3fb06d32-c97f-53e3-ad20-9245de7e452c",
+      "f8f974d8-70aa-5ca7-a2ac-3270739af33e"
+    ],
+    "changed": [
+      "edecb1ff-32a8-5f20-8697-25823b5c9570"
+    ],
+    "added": []
+  },
+  "AUX2_0_5V": {
+    "before": {
+      "length_mm": 40.298,
+      "vias": 2
+    },
+    "after": {
+      "length_mm": 40.298,
+      "vias": 0
+    }
+  },
+  "source_revision": "ba964551a1900a20ed40",
+  "source_session": "bp-test-rust-events",
+  "before_sha256": "bb5fcd0ecb1215d100bd9f375724f9efb7c92f415efd8b864e995782136ac92b",
+  "after_sha256": "e3dd9d98930ae6a596d8f7d1197ed66031114ebb86159bfad152b5658a1cdea6",
+  "native_validation": {
+    "erc": 0,
+    "physical_drc": 0,
+    "schematic_parity": 0,
+    "unconnected_items": 25
+  },
+  "quality_counts": {
+    "error": 299,
+    "warning": 2422,
+    "info": 29
+  },
+  "quality_errors_and_warnings_unchanged": true,
+  "recipe_replay_byte_identical": true,
+  "aux_connectivity_audit": "aux-routing-audit.json",
+  "quality_delta": "aux2-via-cleanup-quality-delta.json",
+  "preview": "aux2-via-cleanup.png"
+}

@@ -1,0 +1,74 @@
+Portal CT2_ENVELOPE routing annotation — 2026-09-30
+Annotation: 2026-09-30T13:56:20.978Z
+Source revision: 1f5eaa5f44e9fa783fc2
+Saved Portal revision: be7c9730e655c5872d69
+
+CT2_ENVELOPE now runs on F.Cu to the right of CT2_RAW through the
+selected corridor. Its vertical run is at x=88.5 mm, from y=121.875
+to 144.5 mm, with continuous 45-degree approaches. The nearby
+CT2_RAW trunk and its existing 0.6/0.3 mm via moved 0.7 mm left,
+to x=87.8 mm, to provide room beside C425. Its short B.Cu connection
+still meets the same raw-signal bus. All affected traces remain
+0.25 mm wide; component endpoints and pad exits are unchanged.
+
+Removed both CT2_ENVELOPE crossover vias and the 2 mm bottom-layer
+bridge. The entire envelope connection is now on front copper.
+Seven track geometries and one via position changed; two tracks and
+two vias were removed. Counts: 1333 -> 1331 tracks, 321 -> 319 vias.
+Envelope copper is 1.243 mm longer in exchange for removing the
+two layer transitions; RAW copper is 0.290 mm shorter.
+
+Verification:
+- Native KiCad ERC: 0; physical DRC: 0; schematic parity: 0.
+- Both CT2 nets remain fully connected. Every pad-connectivity
+  component is identical to the pre-edit snapshot.
+- Two existing USB opens remain: USB_D+ and USB_D- between J1/J5.
+- Independent edge-to-edge clearance of changed copper is at least
+  0.2291 mm, above the 0.15 mm rule. This geometric check includes
+  pads, tracks and vias on intersecting layers. Filled zones were
+  regenerated and checked by native KiCad DRC.
+- Unrelated copper/vias, footprints, pad geometry/nets, placement and
+  drawings match the snapshot. Schematic and project rules match
+  byte-for-byte. No libraries changed.
+- Routing recipe matches the saved board; non-copper recipe fields
+  are unchanged. All tracks remain octilinear.
+
+Quality: 304 errors, 2411 warnings, 29 infos, 0 suppressed.
+Every individual error and warning is unchanged from the pre-edit
+blue-zigzag-quality.json snapshot. One informational aggregate changes:
+kct now estimates 15 removable segments out of 1331, versus 16 out of
+1333. There are no new localized findings. Existing backlog retains
+the dispositions in command-adc-quality-triage.md and
+d42-placement-review.txt; this edit does not waive it. See the
+ct2-envelope-quality.json and ct2-envelope-quality-delta.json reports.
+
+Visual review matched the supplied Portal capture to the two CT2
+routes. Reviewed saved-board before/after plots for the requested
+left/right order, continuous width, 45-degree bends, via removal,
+clearance beside C425, and retained endpoints. See
+ct2-envelope-before.png and ct2-envelope-after.png. Plots omit fills.
+No new live Workbench-tab, 3D or assembly review was performed;
+component placement, polarity and models were unchanged.
+
+Tools: plugin doctor verified KiCad 10.0.6 and kct 0.21.1. Ran kct
+optimize-traces --net CT2_ENVELOPE --dry-run --format json first.
+Its geometric simplification does not provide the requested reroute.
+The existing reviewed-routing replay applied the explicit recipe
+change and refilled zones. Custom scripts only inspected geometry,
+clearance, exact scope, connectivity and plots. check_tesla_draft.py
+ran native ERC/DRC/schematic parity. Plugin quality ran kct check,
+detect-mistakes and optimize-traces in dry-run mode.
+
+Changed file categories:
+- PCB: controller.kicad_pcb.
+- Source: tools/hardware/tesla_reviewed_routing.json.
+- Docs/checks: this review; ct2-envelope verification, clearance,
+  quality, quality delta, Portal revision and before/after plots;
+  validation.json; native ERC/DRC reports and refreshed schematic PDF.
+- Schematic/project/library content unchanged. Board remains a
+  routing draft with the existing backlog; no fabrication release.
+
+Final checked PCB SHA256:
+21ca602634e9ed39c556b12d44d05ca9f33ef9781c5e282121d8611035910847
+
+Only this CT2_ENVELOPE-right-of-CT2_RAW annotation was handled.

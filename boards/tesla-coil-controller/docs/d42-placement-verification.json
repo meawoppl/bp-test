@@ -1,0 +1,263 @@
+{
+  "annotation_created_at": "2026-09-30T06:18:50.036Z",
+  "reference": "D42",
+  "old_position_mm": [
+    65,
+    137
+  ],
+  "new_position_mm": [
+    65,
+    124.5
+  ],
+  "angle_deg": 180,
+  "polarity_unchanged": true,
+  "counterpart": "D62",
+  "spacing_to_D41_mm": 2.5,
+  "signal_width_mm": 0.25,
+  "vias_removed": 4,
+  "vias_before": 332,
+  "vias_after": 328,
+  "scoped_nets_all_front": true,
+  "net_length_mm": {
+    "CT_RECT_DRIVE": {
+      "before": 17.95661325680248,
+      "after": 15.168744584051767
+    },
+    "CT_HALF": {
+      "before": 40.73920273047588,
+      "after": 30.552806627407985
+    }
+  },
+  "whole_board_unconnected_before": 6,
+  "whole_board_unconnected_after": 6,
+  "all_pad_connectivity_components_unchanged": true,
+  "all_unrelated_copper_unchanged": true,
+  "other_placements_schematic_and_rules_unchanged": true,
+  "all_tracks_octilinear": true,
+  "minimum_new_copper_clearance_mm": 0.3,
+  "silk_border_lines_changed": [
+    "5b2e4d0f-6afc-50f3-869f-3423e3833a94",
+    "77d4b96a-acc7-57c0-9a7f-184b1b179f4e",
+    "bcce4bc7-9990-540c-8323-dbb4390e81af",
+    "d2446f64-5b06-5c72-a201-b5fe97c7f9fa",
+    "dab294e6-4a21-5c8f-9048-9fe689e85528",
+    "eb80292f-899b-5b05-af07-1903462d132c"
+  ],
+  "changes": {
+    "removed": [
+      "0f5a3edd-c8a2-551f-8135-5eab498e032a",
+      "12e37433-2b95-5698-b10a-3e1c55091133",
+      "1c258ffc-31b8-575d-9897-30b4d51768b0",
+      "32181189-bb0b-5068-b47c-8241ebc59e3f",
+      "326f616a-e4c1-56b1-b5be-1b570b4d8f61",
+      "3a55e15c-8d3d-5de0-9fbd-89356bc6d9e0",
+      "451fa4bb-bb58-54d3-8f75-004dadeeda88",
+      "4a0f1910-ed5f-5320-8779-a97f4fe0b88a",
+      "4bb62d62-59fc-525f-bd39-219f01dc6922",
+      "5b2a8657-03ec-5e41-9169-ddf15c85a0bd",
+      "62c21721-fd14-5895-affe-0e4c451757c2",
+      "686278d1-3d60-59c5-949c-8b4970c53037",
+      "6b482f53-f337-52a4-9a37-67de85c0d611",
+      "72c8317d-a086-5a91-aeb5-6f9d58afdbb7",
+      "8cc4979f-dd89-54b1-8672-0778322ebcf3",
+      "9adf525c-c9e9-5e96-a7a6-d7c6f5858b04",
+      "9ed2bec9-f7d0-52d5-b662-3099c7504e42",
+      "abc26e94-1da1-5a45-adb7-39dff94c3813",
+      "b274ce65-0a17-51b0-ad94-07352ad94d41",
+      "bc134af8-7e8c-5062-bc4a-9c4166fac7e9",
+      "bde606db-9b98-5597-b3c6-997c2a4dc4e1",
+      "c5993cab-df97-530b-9fc0-b47c004bbdd5",
+      "e6a782b6-eb2f-543e-af17-c03450d92049",
+      "f3cef1e1-c49b-5a4c-bfe4-39dc165c5a79",
+      "fa66ca54-4484-5b45-8435-a05491b5b313",
+      "fec302c1-336d-54ac-84c5-ef460519c695"
+    ],
+    "added": [
+      "8474a996-b642-566b-9260-aba4118a2e72",
+      "46abe889-626d-5a0e-85bf-6c94a4f340d0",
+      "9b2b4bc5-d232-5835-ab68-663c9d787635",
+      "b332a046-5dd6-592f-aa76-32f2d8c55c09",
+      "e705b445-78f8-55f8-9dad-496739542978",
+      "35dd259a-0767-5b67-98be-b627c5611d72",
+      "6eadca8d-016c-5c68-ba9d-03dd733e3359",
+      "3ba67236-81a3-5d34-a181-08f1e7eba560",
+      "01ca7dd9-8c0a-5d91-89bb-63fd4ce25841",
+      "1b574c84-6e9f-5997-b989-630e992e9b1b",
+      "7ab5ef98-2183-5d1c-80b7-d83fd63221b7",
+      "e8de888f-b24d-5950-92f8-f1be36cd913c",
+      "818a5776-a93c-5f6f-a0d4-fbb588f82d92",
+      "5eb47b78-eeeb-5862-830d-d8d1e7c88d84",
+      "092818a6-9c99-522b-8a62-5eb2ddad0fc4",
+      "d968b901-a2ab-5b0a-bcfe-2430e495a35d",
+      "aab47aae-f7b4-50c4-873c-98e8691f88f1",
+      "efb553e3-08db-5b01-8c4d-10dc0ae00bdf",
+      "d2091366-a987-5e49-a454-892b9bb2e00e",
+      "435bde0d-40f7-51f4-bb3e-931d2e540f19"
+    ],
+    "changed": []
+  },
+  "saved_validation": {
+    "stage": "Development routing: CST/AUX inputs connected to ADC, supply distribution, FPGA signals and H-bridge drivers; remaining controller routing incomplete",
+    "erc": 0,
+    "physical_drc": 0,
+    "schematic_parity": 0,
+    "unconnected_items": 6,
+    "fabrication_ready": false,
+    "sha256": {
+      "controller.kicad_sch": "ff8cd4e9f39a614229c8226de209fbdf9e1c9422ee68d997bf1e61560671a596",
+      "controller.kicad_pcb": "fe1a4152c336cc8a588b14b5b172c3a24a87030d058f946244377322622f1548",
+      "controller.kicad_pro": "40e593eb2309fcddf3cd616a5e82b970cb97e4b268436e03b5e1288843705533"
+    },
+    "native_drc_findings": 0,
+    "intentional_open_route_ends": [],
+    "native_whole_board_unconnected": 6
+  },
+  "portal_revision": "874058f434e78337a986",
+  "quality_summary": {
+    "by_rule": {
+      "decoupling_distance": {
+        "count": 29,
+        "profile_item": "decoupling.max_pin_distance_mm",
+        "severity": "warning",
+        "source": "plugin"
+      },
+      "mistake.bom_health.component_missing_manufacturer_part_number": {
+        "count": 207,
+        "profile_item": null,
+        "severity": "warning",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.bypass_capacitor.bypass_capacitor_placement_could_be_improved": {
+        "count": 25,
+        "profile_item": "decoupling.max_pin_distance_mm",
+        "severity": "info",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin": {
+        "count": 1062,
+        "profile_item": "decoupling.max_pin_distance_mm",
+        "severity": "warning",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.connectivity.led_missing_series_resistor": {
+        "count": 4,
+        "profile_item": null,
+        "severity": "warning",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.connectivity.missing_pull_up_resistor": {
+        "count": 1,
+        "profile_item": null,
+        "severity": "warning",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.differential_pair.differential_pair_length_matching_could_be_improved": {
+        "count": 1,
+        "profile_item": null,
+        "severity": "info",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.manufacturability.acute_angle_in_trace_acid_trap": {
+        "count": 18,
+        "profile_item": null,
+        "severity": "warning",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.manufacturability.thermal_imbalance_may_cause_tombstoning": {
+        "count": 102,
+        "profile_item": null,
+        "severity": "warning",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.power_trace.power_trace_too_narrow": {
+        "count": 10,
+        "profile_item": null,
+        "severity": "warning",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.thermal_management.thermal_pad_may_need_more_vias": {
+        "count": 2,
+        "profile_item": null,
+        "severity": "info",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.thermal_management.thermal_pad_not_connected_to_ground": {
+        "count": 8,
+        "profile_item": null,
+        "severity": "warning",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.via_placement.via_in_smd_pad": {
+        "count": 4,
+        "profile_item": "vias.in_pad",
+        "severity": "error",
+        "source": "kct detect-mistakes"
+      },
+      "optimize_traces.mergeable_segments": {
+        "count": 1,
+        "profile_item": null,
+        "severity": "info",
+        "source": "kct optimize-traces"
+      },
+      "pad_grid": {
+        "count": 3,
+        "profile_item": null,
+        "severity": "warning",
+        "source": "kct check"
+      },
+      "silk_edge_clearance": {
+        "count": 6,
+        "profile_item": null,
+        "severity": "warning",
+        "source": "kct check"
+      },
+      "silk_explanatory_text": {
+        "count": 20,
+        "profile_item": "silkscreen.explanatory_text",
+        "severity": "error",
+        "source": "plugin"
+      },
+      "silk_over_copper": {
+        "count": 65,
+        "profile_item": "silkscreen.over_vias_or_pads",
+        "severity": "error",
+        "source": "kct check"
+      },
+      "silk_overlap": {
+        "count": 160,
+        "profile_item": "silkscreen.over_vias_or_pads",
+        "severity": "error",
+        "source": "kct check"
+      },
+      "silk_pad_clearance": {
+        "count": 55,
+        "profile_item": null,
+        "severity": "error",
+        "source": "kct check"
+      },
+      "silk_text_below_min": {
+        "count": 19,
+        "profile_item": "silkscreen.text_height_mm",
+        "severity": "warning",
+        "source": "plugin"
+      },
+      "silkscreen_line_width": {
+        "count": 934,
+        "profile_item": null,
+        "severity": "warning",
+        "source": "kct check"
+      },
+      "silkscreen_text_height": {
+        "count": 19,
+        "profile_item": "silkscreen.text_height_mm",
+        "severity": "warning",
+        "source": "kct check"
+      }
+    },
+    "errors": 304,
+    "infos": 29,
+    "suppressed": 0,
+    "warnings": 2422
+  },
+  "visual_review": "Saved-board before/after copper plots reviewed: centered straight pad exits, 45-degree bends outside pads, no stubs, unchanged 180-degree cathode orientation and library footprint. Local silk divider avoids both diodes; native silk/mask/courtyard DRC passes. No live Workbench tab or assembly preview review in this item."
+}

@@ -1,0 +1,59 @@
+{
+  "rename_map": {
+    "CT_ABS": "CT1_ABS",
+    "CT_ABS_SUM": "CT1_ABS_SUM",
+    "CT_CABLE_N": "CT1_CABLE_N",
+    "CT_CABLE_P": "CT1_CABLE_P",
+    "CT_ENVELOPE": "CT1_ENVELOPE",
+    "CT_FLY_N": "CT1_FLY_N",
+    "CT_FLY_P": "CT1_FLY_P",
+    "CT_HALF": "CT1_HALF",
+    "CT_MID": "CT1_MID",
+    "CT_NEG_PUMP": "CT1_NEG_PUMP",
+    "CT_PHASE": "CT1_PHASE",
+    "CT_PHASE_AC": "CT1_PHASE_AC",
+    "CT_RAW": "CT1_RAW",
+    "CT_RECT_DRIVE": "CT1_RECT_DRIVE",
+    "CT_RECT_SUM": "CT1_RECT_SUM",
+    "CT_ZERO": "CT1_ZERO",
+    "CT_ZERO_DRV": "CT1_ZERO_DRV"
+  },
+  "native_files": {
+    "controller.kicad_pcb": {
+      "exact_name_only_diff": true,
+      "sha256": "9eb3be99a620b37d83488df012fe29c09f7448329b81b46d1a3d70779a80aba0"
+    },
+    "controller.kicad_sch": {
+      "exact_name_only_diff": true,
+      "sha256": "c013be282218c2c3ab8e3b50ce7840cabbf92542cf84122b713b40082770ae97"
+    },
+    "Tesla.kicad_sym": {
+      "exact_name_only_diff": true,
+      "sha256": "4ddcbd0547827f3149c704eae5e99aa28dbc626c93114db3e658b5d2b457c482"
+    }
+  },
+  "project_settings_unchanged": true,
+  "all_pad_connectivity_clusters_unchanged": true,
+  "copper_placements_uuid_and_zone_geometry_unchanged": true,
+  "CT2_net_names_unchanged": true,
+  "testpoint_values_matched_to_nets": [
+    "TP40",
+    "TP41",
+    "TP42",
+    "TP43",
+    "TP60",
+    "TP61",
+    "TP62",
+    "TP63"
+  ],
+  "replay_recipe_name_only": true,
+  "net_contract_sha256": "35dfe03e0b758dd01946a50c62a72ac09449395c2287ad18998e2a80f48ce983",
+  "source_channel_generators_match_contract": true,
+  "generated_components_checked": 88,
+  "counts": {
+    "tracks": 1331,
+    "vias": 319,
+    "footprints": 313
+  },
+  "whole_board_opens": 2
+}

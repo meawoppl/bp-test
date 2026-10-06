@@ -1,0 +1,375 @@
+{
+  "annotation_created_at": "2026-09-30T13:56:20.978Z",
+  "source_revision": "1f5eaa5f44e9fa783fc2",
+  "scope": "CT2_ENVELOPE on F.Cu right of CT2_RAW, with adjacent raw trunk and its via shifted 0.7 mm left",
+  "track_width_mm": 0.25,
+  "via_size_mm": [
+    0.6,
+    0.3
+  ],
+  "envelope_layer": "F.Cu",
+  "before": {
+    "track": 1333,
+    "via": 321
+  },
+  "after": {
+    "track": 1331,
+    "via": 319
+  },
+  "path_length_mm": {
+    "before": 81.48310421760625,
+    "after": 82.43579541106438,
+    "reduction": -0.9526911934581221
+  },
+  "all_pad_connectivity_components_identical": true,
+  "scoped_net_fully_connected": true,
+  "unrelated_copper_identical": true,
+  "unrelated_vias_identical": true,
+  "footprint_geometry_nets_and_positions_identical": true,
+  "drawings_identical": true,
+  "schematic_and_rules_identical": true,
+  "recipe_matches_board": true,
+  "noncopper_recipe_identical": true,
+  "all_tracks_octilinear": true,
+  "unconnected_before": 2,
+  "unconnected_after": 2,
+  "changes": {
+    "4c35d918-93f5-5b40-a915-72eaf722e864": {
+      "before": {
+        "uuid": "4c35d918-93f5-5b40-a915-72eaf722e864",
+        "net": "CT2_ENVELOPE",
+        "start_nm": [
+          85000000,
+          155500000
+        ],
+        "end_nm": [
+          85000000,
+          145500000
+        ],
+        "layer": "F.Cu",
+        "kind": "track",
+        "width_nm": 250000
+      },
+      "after": {
+        "uuid": "4c35d918-93f5-5b40-a915-72eaf722e864",
+        "net": "CT2_ENVELOPE",
+        "start_nm": [
+          85000000,
+          155500000
+        ],
+        "end_nm": [
+          85000000,
+          148000000
+        ],
+        "layer": "F.Cu",
+        "kind": "track",
+        "width_nm": 250000
+      }
+    },
+    "8c165e6c-d043-58c3-bae6-fbea8a49acb3": {
+      "before": {
+        "uuid": "8c165e6c-d043-58c3-bae6-fbea8a49acb3",
+        "net": "CT2_ENVELOPE",
+        "start_nm": [
+          85000000,
+          145500000
+        ],
+        "end_nm": [
+          87000000,
+          143500000
+        ],
+        "layer": "F.Cu",
+        "kind": "track",
+        "width_nm": 250000
+      },
+      "after": {
+        "uuid": "8c165e6c-d043-58c3-bae6-fbea8a49acb3",
+        "net": "CT2_ENVELOPE",
+        "start_nm": [
+          85000000,
+          148000000
+        ],
+        "end_nm": [
+          88500000,
+          144500000
+        ],
+        "layer": "F.Cu",
+        "kind": "track",
+        "width_nm": 250000
+      }
+    },
+    "6d3a9842-3985-5daa-ad37-c41e7d3dcc8e": {
+      "before": {
+        "uuid": "6d3a9842-3985-5daa-ad37-c41e7d3dcc8e",
+        "net": "CT2_ENVELOPE",
+        "start_nm": [
+          87000000,
+          143500000
+        ],
+        "end_nm": [
+          87000000,
+          126300000
+        ],
+        "layer": "F.Cu",
+        "kind": "track",
+        "width_nm": 250000
+      },
+      "after": {
+        "uuid": "6d3a9842-3985-5daa-ad37-c41e7d3dcc8e",
+        "net": "CT2_ENVELOPE",
+        "start_nm": [
+          88500000,
+          144500000
+        ],
+        "end_nm": [
+          88500000,
+          121875000
+        ],
+        "layer": "F.Cu",
+        "kind": "track",
+        "width_nm": 250000
+      }
+    },
+    "46a277e7-77c8-55fa-a2b4-892e887fdf7d": {
+      "before": {
+        "uuid": "46a277e7-77c8-55fa-a2b4-892e887fdf7d",
+        "net": "CT2_ENVELOPE",
+        "start_nm": [
+          87000000,
+          120375000
+        ],
+        "end_nm": [
+          78775000,
+          112150000
+        ],
+        "layer": "F.Cu",
+        "kind": "track",
+        "width_nm": 250000
+      },
+      "after": {
+        "uuid": "46a277e7-77c8-55fa-a2b4-892e887fdf7d",
+        "net": "CT2_ENVELOPE",
+        "start_nm": [
+          88500000,
+          121875000
+        ],
+        "end_nm": [
+          78775000,
+          112150000
+        ],
+        "layer": "F.Cu",
+        "kind": "track",
+        "width_nm": 250000
+      }
+    },
+    "09bc91ec-3c06-5b95-a16c-c1672c2a6e47": {
+      "before": {
+        "uuid": "09bc91ec-3c06-5b95-a16c-c1672c2a6e47",
+        "net": "CT2_RAW",
+        "start_nm": [
+          88500000,
+          144200000
+        ],
+        "end_nm": [
+          88500000,
+          144200000
+        ],
+        "layer": "F.Cu",
+        "kind": "via",
+        "width_nm": 600000,
+        "drill_nm": 300000
+      },
+      "after": {
+        "uuid": "09bc91ec-3c06-5b95-a16c-c1672c2a6e47",
+        "net": "CT2_RAW",
+        "start_nm": [
+          87800000,
+          144200000
+        ],
+        "end_nm": [
+          87800000,
+          144200000
+        ],
+        "layer": "F.Cu",
+        "kind": "via",
+        "width_nm": 600000,
+        "drill_nm": 300000
+      }
+    },
+    "19d8c30b-e2de-596b-bc2d-c204065c62e5": {
+      "before": {
+        "uuid": "19d8c30b-e2de-596b-bc2d-c204065c62e5",
+        "net": "CT2_RAW",
+        "start_nm": [
+          88500000,
+          144200000
+        ],
+        "end_nm": [
+          88500000,
+          126800000
+        ],
+        "layer": "F.Cu",
+        "kind": "track",
+        "width_nm": 250000
+      },
+      "after": {
+        "uuid": "19d8c30b-e2de-596b-bc2d-c204065c62e5",
+        "net": "CT2_RAW",
+        "start_nm": [
+          87800000,
+          144200000
+        ],
+        "end_nm": [
+          87800000,
+          126100000
+        ],
+        "layer": "F.Cu",
+        "kind": "track",
+        "width_nm": 250000
+      }
+    },
+    "bf18859c-c950-5d5f-b233-d3f28abfd577": {
+      "before": {
+        "uuid": "bf18859c-c950-5d5f-b233-d3f28abfd577",
+        "net": "CT2_RAW",
+        "start_nm": [
+          88500000,
+          126800000
+        ],
+        "end_nm": [
+          77400000,
+          115700000
+        ],
+        "layer": "F.Cu",
+        "kind": "track",
+        "width_nm": 250000
+      },
+      "after": {
+        "uuid": "bf18859c-c950-5d5f-b233-d3f28abfd577",
+        "net": "CT2_RAW",
+        "start_nm": [
+          87800000,
+          126100000
+        ],
+        "end_nm": [
+          77400000,
+          115700000
+        ],
+        "layer": "F.Cu",
+        "kind": "track",
+        "width_nm": 250000
+      }
+    },
+    "f361b709-18b6-567e-bbe4-7942e0bebbd8": {
+      "before": {
+        "uuid": "f361b709-18b6-567e-bbe4-7942e0bebbd8",
+        "net": "CT2_RAW",
+        "start_nm": [
+          88500000,
+          145000000
+        ],
+        "end_nm": [
+          88500000,
+          144200000
+        ],
+        "layer": "B.Cu",
+        "kind": "track",
+        "width_nm": 250000
+      },
+      "after": {
+        "uuid": "f361b709-18b6-567e-bbe4-7942e0bebbd8",
+        "net": "CT2_RAW",
+        "start_nm": [
+          87800000,
+          145000000
+        ],
+        "end_nm": [
+          87800000,
+          144200000
+        ],
+        "layer": "B.Cu",
+        "kind": "track",
+        "width_nm": 250000
+      }
+    },
+    "35e5dffc-e809-544e-b0bf-6bd065304ccd": {
+      "before": {
+        "uuid": "35e5dffc-e809-544e-b0bf-6bd065304ccd",
+        "net": "CT2_ENVELOPE",
+        "start_nm": [
+          87000000,
+          126300000
+        ],
+        "end_nm": [
+          87000000,
+          126300000
+        ],
+        "layer": "F.Cu",
+        "kind": "via",
+        "width_nm": 600000,
+        "drill_nm": 300000
+      },
+      "after": null
+    },
+    "e3584da2-31ca-50bb-a728-6ade9ad507fd": {
+      "before": {
+        "uuid": "e3584da2-31ca-50bb-a728-6ade9ad507fd",
+        "net": "CT2_ENVELOPE",
+        "start_nm": [
+          87000000,
+          126300000
+        ],
+        "end_nm": [
+          87000000,
+          124300000
+        ],
+        "layer": "B.Cu",
+        "kind": "track",
+        "width_nm": 250000
+      },
+      "after": null
+    },
+    "57eaed46-db2b-536e-b0e1-f41c732cb83d": {
+      "before": {
+        "uuid": "57eaed46-db2b-536e-b0e1-f41c732cb83d",
+        "net": "CT2_ENVELOPE",
+        "start_nm": [
+          87000000,
+          124300000
+        ],
+        "end_nm": [
+          87000000,
+          124300000
+        ],
+        "layer": "F.Cu",
+        "kind": "via",
+        "width_nm": 600000,
+        "drill_nm": 300000
+      },
+      "after": null
+    },
+    "5f3bcdcd-aaf7-5b9d-a5ef-9ba5a70b1f0c": {
+      "before": {
+        "uuid": "5f3bcdcd-aaf7-5b9d-a5ef-9ba5a70b1f0c",
+        "net": "CT2_ENVELOPE",
+        "start_nm": [
+          87000000,
+          124300000
+        ],
+        "end_nm": [
+          87000000,
+          120375000
+        ],
+        "layer": "F.Cu",
+        "kind": "track",
+        "width_nm": 250000
+      },
+      "after": null
+    }
+  },
+  "sha256": {
+    "controller.kicad_pcb": "21ca602634e9ed39c556b12d44d05ca9f33ef9781c5e282121d8611035910847",
+    "controller.kicad_sch": "d7c835048426ddd835efacd77b97f69f1e82488531d796c894160ee7e032665d",
+    "controller.kicad_pro": "40e593eb2309fcddf3cd616a5e82b970cb97e4b268436e03b5e1288843705533"
+  }
+}

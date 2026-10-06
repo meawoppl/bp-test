@@ -1,0 +1,395 @@
+{
+  "annotation_created_at": "2026-09-30T16:58:08.667Z",
+  "source_revision": "f38b817ad69174365d48",
+  "scope": "J5 USB header pinout and J1 USB routing",
+  "pinout": {
+    "1": "VIN_5V",
+    "2": "USB_D-",
+    "3": "USB_D+",
+    "4": "GND"
+  },
+  "pin_changes": {
+    "('J5', '1')": [
+      "USB_D+",
+      "VIN_5V"
+    ],
+    "('J5', '3')": [
+      "GND",
+      "USB_D+"
+    ],
+    "('J5', '4')": [
+      "VIN_5V",
+      "GND"
+    ]
+  },
+  "schematic_changed_tokens": [
+    [
+      107199,
+      "\"USB_D+\"",
+      "\"VIN_5V\""
+    ],
+    [
+      107327,
+      "\"GND\"",
+      "\"USB_D+\""
+    ],
+    [
+      107391,
+      "\"VIN_5V\"",
+      "\"GND\""
+    ]
+  ],
+  "copper_changes": {
+    "added": 26,
+    "removed": 0,
+    "modified": 2
+  },
+  "usb_planar_length_mm": {
+    "USB_D+": 21.140447726469738,
+    "USB_D-": 21.137432534317572
+  },
+  "usb_planar_skew_mm": 0.0030151921521657243,
+  "signal_width_mm": 0.15,
+  "signal_vias_per_net": 1,
+  "via_diameter_mm": 0.5,
+  "via_drill_mm": 0.25,
+  "ground_stitches": [
+    {
+      "uuid": "12587414-b8b6-507b-8f3b-808d17a56704",
+      "position_mm": [
+        112.9,
+        35.25
+      ],
+      "filled_ground_layers": [
+        "F.Cu",
+        "B.Cu"
+      ]
+    },
+    {
+      "uuid": "c69485f9-99a8-586b-8be1-ddf66d4740a8",
+      "position_mm": [
+        115.6,
+        40.0
+      ],
+      "filled_ground_layers": [
+        "F.Cu",
+        "B.Cu"
+      ]
+    }
+  ],
+  "all_pad_geometry_placements_and_drawings_unchanged": true,
+  "all_other_pin_nets_identical": true,
+  "all_unrelated_copper_and_connectivity_identical": true,
+  "project_rules_identical": true,
+  "recipe_matches_board": true,
+  "all_tracks_octilinear": true,
+  "usb_centered_pad_entries_no_stubs": true,
+  "minimum_changed_copper_clearance_mm": 0.15,
+  "unconnected_before": 2,
+  "unconnected_after": 0,
+  "erc_violations": 0,
+  "drc_violations": 0,
+  "drc_schematic_parity_issues": 0,
+  "schematic_in_sync": true,
+  "quality_before": {
+    "by_rule": {
+      "decoupling_distance": {
+        "count": 25,
+        "profile_item": "decoupling.max_pin_distance_mm",
+        "severity": "warning",
+        "source": "plugin"
+      },
+      "mistake.bom_health.component_missing_manufacturer_part_number": {
+        "count": 206,
+        "profile_item": null,
+        "severity": "warning",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.bypass_capacitor.bypass_capacitor_placement_could_be_improved": {
+        "count": 19,
+        "profile_item": "decoupling.max_pin_distance_mm",
+        "severity": "info",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin": {
+        "count": 1063,
+        "profile_item": "decoupling.max_pin_distance_mm",
+        "severity": "warning",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.connectivity.led_missing_series_resistor": {
+        "count": 4,
+        "profile_item": null,
+        "severity": "warning",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.connectivity.missing_pull_up_resistor": {
+        "count": 1,
+        "profile_item": null,
+        "severity": "warning",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.differential_pair.differential_pair_length_matching_could_be_improved": {
+        "count": 1,
+        "profile_item": null,
+        "severity": "info",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.manufacturability.acute_angle_in_trace_acid_trap": {
+        "count": 12,
+        "profile_item": null,
+        "severity": "warning",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.manufacturability.thermal_imbalance_may_cause_tombstoning": {
+        "count": 102,
+        "profile_item": null,
+        "severity": "warning",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.power_trace.power_trace_too_narrow": {
+        "count": 10,
+        "profile_item": null,
+        "severity": "warning",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.thermal_management.thermal_pad_may_need_more_vias": {
+        "count": 2,
+        "profile_item": null,
+        "severity": "info",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.thermal_management.thermal_pad_not_connected_to_ground": {
+        "count": 8,
+        "profile_item": null,
+        "severity": "warning",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.via_placement.via_in_smd_pad": {
+        "count": 4,
+        "profile_item": "vias.in_pad",
+        "severity": "error",
+        "source": "kct detect-mistakes"
+      },
+      "optimize_traces.mergeable_segments": {
+        "count": 1,
+        "profile_item": null,
+        "severity": "info",
+        "source": "kct optimize-traces"
+      },
+      "pad_grid": {
+        "count": 3,
+        "profile_item": null,
+        "severity": "warning",
+        "source": "kct check"
+      },
+      "silk_edge_clearance": {
+        "count": 6,
+        "profile_item": null,
+        "severity": "warning",
+        "source": "kct check"
+      },
+      "silk_explanatory_text": {
+        "count": 30,
+        "profile_item": "silkscreen.explanatory_text",
+        "severity": "error",
+        "source": "plugin"
+      },
+      "silk_over_copper": {
+        "count": 68,
+        "profile_item": "silkscreen.over_vias_or_pads",
+        "severity": "error",
+        "source": "kct check"
+      },
+      "silk_overlap": {
+        "count": 143,
+        "profile_item": "silkscreen.over_vias_or_pads",
+        "severity": "error",
+        "source": "kct check"
+      },
+      "silk_pad_clearance": {
+        "count": 57,
+        "profile_item": null,
+        "severity": "error",
+        "source": "kct check"
+      },
+      "silk_text_below_min": {
+        "count": 17,
+        "profile_item": "silkscreen.text_height_mm",
+        "severity": "warning",
+        "source": "plugin"
+      },
+      "silkscreen_line_width": {
+        "count": 926,
+        "profile_item": null,
+        "severity": "warning",
+        "source": "kct check"
+      },
+      "silkscreen_text_height": {
+        "count": 17,
+        "profile_item": "silkscreen.text_height_mm",
+        "severity": "warning",
+        "source": "kct check"
+      }
+    },
+    "errors": 302,
+    "infos": 23,
+    "suppressed": 0,
+    "warnings": 2400
+  },
+  "quality_after": {
+    "by_rule": {
+      "decoupling_distance": {
+        "count": 25,
+        "profile_item": "decoupling.max_pin_distance_mm",
+        "severity": "warning",
+        "source": "plugin"
+      },
+      "mistake.bom_health.component_missing_manufacturer_part_number": {
+        "count": 206,
+        "profile_item": null,
+        "severity": "warning",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.bypass_capacitor.bypass_capacitor_placement_could_be_improved": {
+        "count": 19,
+        "profile_item": "decoupling.max_pin_distance_mm",
+        "severity": "info",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin": {
+        "count": 1063,
+        "profile_item": "decoupling.max_pin_distance_mm",
+        "severity": "warning",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.connectivity.led_missing_series_resistor": {
+        "count": 4,
+        "profile_item": null,
+        "severity": "warning",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.connectivity.missing_pull_up_resistor": {
+        "count": 1,
+        "profile_item": null,
+        "severity": "warning",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.differential_pair.differential_pair_length_matching_could_be_improved": {
+        "count": 1,
+        "profile_item": null,
+        "severity": "info",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.manufacturability.acute_angle_in_trace_acid_trap": {
+        "count": 12,
+        "profile_item": null,
+        "severity": "warning",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.manufacturability.thermal_imbalance_may_cause_tombstoning": {
+        "count": 102,
+        "profile_item": null,
+        "severity": "warning",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.power_trace.power_trace_too_narrow": {
+        "count": 11,
+        "profile_item": null,
+        "severity": "warning",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.thermal_management.thermal_pad_may_need_more_vias": {
+        "count": 2,
+        "profile_item": null,
+        "severity": "info",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.thermal_management.thermal_pad_not_connected_to_ground": {
+        "count": 8,
+        "profile_item": null,
+        "severity": "warning",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.via_placement.via_in_smd_pad": {
+        "count": 4,
+        "profile_item": "vias.in_pad",
+        "severity": "error",
+        "source": "kct detect-mistakes"
+      },
+      "optimize_traces.mergeable_segments": {
+        "count": 1,
+        "profile_item": null,
+        "severity": "info",
+        "source": "kct optimize-traces"
+      },
+      "pad_grid": {
+        "count": 3,
+        "profile_item": null,
+        "severity": "warning",
+        "source": "kct check"
+      },
+      "silk_edge_clearance": {
+        "count": 6,
+        "profile_item": null,
+        "severity": "warning",
+        "source": "kct check"
+      },
+      "silk_explanatory_text": {
+        "count": 30,
+        "profile_item": "silkscreen.explanatory_text",
+        "severity": "error",
+        "source": "plugin"
+      },
+      "silk_over_copper": {
+        "count": 68,
+        "profile_item": "silkscreen.over_vias_or_pads",
+        "severity": "error",
+        "source": "kct check"
+      },
+      "silk_overlap": {
+        "count": 143,
+        "profile_item": "silkscreen.over_vias_or_pads",
+        "severity": "error",
+        "source": "kct check"
+      },
+      "silk_pad_clearance": {
+        "count": 57,
+        "profile_item": null,
+        "severity": "error",
+        "source": "kct check"
+      },
+      "silk_text_below_min": {
+        "count": 17,
+        "profile_item": "silkscreen.text_height_mm",
+        "severity": "warning",
+        "source": "plugin"
+      },
+      "silkscreen_line_width": {
+        "count": 926,
+        "profile_item": null,
+        "severity": "warning",
+        "source": "kct check"
+      },
+      "silkscreen_text_height": {
+        "count": 17,
+        "profile_item": "silkscreen.text_height_mm",
+        "severity": "warning",
+        "source": "kct check"
+      }
+    },
+    "errors": 302,
+    "infos": 23,
+    "suppressed": 0,
+    "warnings": 2401
+  },
+  "quality_no_new_errors": true,
+  "quality_added_warning": "USB_D+ incorrectly classified as a power trace by KCT heuristic",
+  "controlled_impedance_validated": false,
+  "reference_plane_note": "Existing two-layer power buses interrupt adjacent ground reference at crossing areas. Stitching ties available ground fills; this does not establish a continuous controlled-impedance return path.",
+  "sha256": {
+    "controller.kicad_pcb": "2f45c20a688329c3d4a9d42f0e6c9bd8c542d89951f65666a8ca4af82d7478a2",
+    "controller.kicad_sch": "ecc007fc9cac2e3682c002aa5ad85faea435463ba33d3f09a6195baa862e89c9",
+    "controller.kicad_pro": "40e593eb2309fcddf3cd616a5e82b970cb97e4b268436e03b5e1288843705533"
+  }
+}

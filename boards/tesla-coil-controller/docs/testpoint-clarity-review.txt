@@ -1,0 +1,46 @@
+TP1 CONNECTION CLARITY
+Portal annotation: 2026-09-30T18:45:19.709Z
+Source annotation revision: 7f950fdc4e6d7c96dfa8
+Updated live Portal revision: 90e061d71fb5e6453f60
+
+TP1.1 connects to U1.15 (FRSTDATA) on ADC_FIRST. These are the only two
+pads on the net. KCT net-status reports one complete island, two connected
+pads, zero open connections and no vias. No electrical repair was needed.
+
+The old schematic symbol had a zero-length pin, leaving its circle tangent
+to the ADC_FIRST global-label tip and wire. The TP1 symbol now has a 5.08 mm
+vertical stem, with a junction dot at the label/wire connection. Its reference
+is above the circle. The uninterrupted horizontal wire reaches U1 pin 15.
+
+Changed categories:
+  Schematic source: tesla_schematic.py and tesla_schematic_blocks.py.
+  Schematic/library: controller.kicad_sch and Tesla.kicad_sym.
+  Documentation: layout item count, schematic PDF and this review/evidence.
+  PCB, circuit contract and project rules: unchanged byte-for-byte.
+  Fabrication: no release published; this is a schematic clarity edit.
+
+VERIFICATION
+  Generator's native netlist export matches every circuit-contract pin.
+  ERC: 0 violations under the existing project settings.
+  DRC: 0 violations, 0 unconnected items, 0 schematic parity issues.
+  KCT validate --sync: in_sync=true, 0 errors and 0 warnings.
+  KCT net-status --net ADC_FIRST: complete, TP1.1 and U1.15 connected.
+  KCT symbols --filter TP*: identified the marked schematic component.
+  Quality: 302 errors, 2394 warnings, 23 info; all findings identical to
+    the prior baseline. Those existing board-wide findings remain outside
+    this single schematic annotation. They are not waived or fixed here.
+  Portal automatic rebuild finished ERC, DRC and schematic PDF successfully.
+
+Visually inspected native KiCad SVG renders of the ADC section and enlarged
+TP1 area before/after: the stem, junction, label and pin-15 wire are distinct;
+TP1 no longer appears to float or overlap the label. Portal browser tabs were
+not visually inspected. Before/after images are in testpoint-clarity-checks/.
+
+A read-only comparison using the existing schematic parser supplements KCT
+for exact change scope: every pre-existing top-level schematic object is
+identical, one junction is added, and only the TP1 library symbol changes.
+This exact object-delta check is not provided by the KCT queries above.
+
+The plugin wrapper ran doctor, KCT symbols/net-status/validate --sync,
+ERC, DRC, quality, and native schematic SVG/PDF exports. Check wrappers
+retain full commands and results in testpoint-clarity-checks/.

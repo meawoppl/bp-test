@@ -1,0 +1,78 @@
+{
+  "component": "D62",
+  "before": [
+    65.0,
+    160.0,
+    180.0
+  ],
+  "after": [
+    65,
+    147,
+    180
+  ],
+  "placement": "Aligned above D61 on the front of the board at 3 mm pitch; direct front-layer feedback to R603 and upper approach to R605/R606",
+  "changed_tracks": [
+    "b4ce77e7-2cb5-5f65-940e-a33640313cbf",
+    "ae7639d2-eb91-558d-99cd-c227490e9433",
+    "15f3506d-c340-548d-ba5f-467d85334d26",
+    "bc39c393-5f59-5566-b728-732d6ccb7f31",
+    "6f3edc5f-3339-5872-846e-d1b7951e0d00",
+    "c8bdd931-3486-5f98-89a6-4ec0ff08e0d3",
+    "e7f6a1b4-2741-5e92-9570-36a64bf886ba",
+    "a0b3f2a3-5247-5081-a109-b59eba7417a4",
+    "a2016bf3-3c48-515b-b338-1b445cf1a201",
+    "43b7c166-ac4a-5432-9825-9b439172c62a",
+    "50478ab2-998c-5d54-9546-c775514fa653",
+    "3fcb5190-e587-54c4-b7f2-3f42a726ff08",
+    "bb8b2e3a-962e-5166-af02-e89530d08952"
+  ],
+  "removed_copper": [
+    "8c037ff0-ec4a-50c3-8e6e-44733e21516a",
+    "0caeab71-1b97-5109-9335-86a921105fdf",
+    "8decd6e7-4865-5e57-a3d7-079fb3e8046f",
+    "f78f5e1e-363b-5473-9215-b05d299ef448"
+  ],
+  "added_tracks": [
+    "c234770e-1aac-55db-9f1a-94cfaa15689e",
+    "7de698ef-387e-5748-8855-8ab8d1869bf6",
+    "3b8246c8-368b-530b-9c0b-1215f7aa8560",
+    "bb8b2e3a-962e-5166-af02-e89530d08952"
+  ],
+  "added_vias": 0,
+  "metrics_before": {
+    "track_length_mm": 58.6958,
+    "vias": 4,
+    "segments": 22
+  },
+  "metrics_after": {
+    "track_length_mm": 54.4609,
+    "vias": 2,
+    "segments": 24
+  },
+  "verified_fully_connected_pad_counts": {
+    "CT2_RECT_DRIVE": 3,
+    "CT2_HALF": 5,
+    "CT2_RECT_SUM": 4,
+    "GND": 244,
+    "+5V_ADC": 24,
+    "-5V_CT": 19
+  },
+  "whole_board_unconnected": 25,
+  "project_rules_preserved": true,
+  "pcb_sha256": "28bce5e87f410a02a3e4a76c4e15ab9e14b5265cb36ffd0c63c7b045749167d5",
+  "validation": {
+    "native_erc": 0,
+    "native_physical_drc": 0,
+    "schematic_parity": 0,
+    "whole_board_unconnected": 25,
+    "local_connectivity_audit": "pass",
+    "visual_review": "front/back copper checked for branches, stubs, pad exits and via placement; native top 3D render inspected; only D62 footprint moved",
+    "quality_counts": {
+      "error": 299,
+      "warning": 2422,
+      "info": 29
+    },
+    "quality_delta": "No new finding identities relative to before; existing backlog remains documented in command-adc-quality-triage.md"
+  },
+  "copper_saved_mm": 4.2349
+}

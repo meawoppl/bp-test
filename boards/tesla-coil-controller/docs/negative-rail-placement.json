@@ -1,0 +1,131 @@
+{
+  "reason": "Center shared negative-rail generator between AUX and CST conditioning stages",
+  "translation_mm": [
+    17.6,
+    0
+  ],
+  "before_positions_mm": {
+    "U44": [
+      32.0,
+      119.0
+    ],
+    "R421": [
+      25.4,
+      116.75
+    ],
+    "C420": [
+      32.0,
+      122.0
+    ],
+    "C421": [
+      28.0,
+      119.0
+    ],
+    "C422": [
+      28.6,
+      115.5
+    ],
+    "C423": [
+      26.0,
+      121.0
+    ]
+  },
+  "after_positions_mm": {
+    "U44": [
+      49.6,
+      119.0
+    ],
+    "R421": [
+      43.0,
+      116.75
+    ],
+    "C420": [
+      49.6,
+      122.0
+    ],
+    "C421": [
+      45.6,
+      119.0
+    ],
+    "C422": [
+      46.2,
+      115.5
+    ],
+    "C423": [
+      43.6,
+      121.0
+    ]
+  },
+  "moved_copper_uuids": [
+    "06e4c978-b256-548b-9003-3fda9b5fd976",
+    "1c7150ff-6040-5a30-a35c-8c4d021a9ec5",
+    "61b5fe08-2fb5-5506-b2a4-49c8b6c90a63",
+    "7dc2ff66-d8e5-5826-a751-7e1d90be4e89",
+    "803ff6e0-8ee9-5cfb-8eb3-fb02056a1664",
+    "59c88d2b-dd77-577d-aad5-49ff144c2cd7",
+    "69ce733e-7c27-557f-adf3-43555b5600f6",
+    "d463a1e3-f345-5e57-b1cc-45b1e817ed66",
+    "f7f0b5e0-eb2a-5676-9352-291cbf97d78b",
+    "ae6eeb2c-e558-5cde-8abe-778c5a63d954",
+    "4f9bb9e1-eb65-54f6-873d-8ce3d97fff79",
+    "365e51a6-183c-56e9-a6f7-93c41ade18a4",
+    "ab59e5e2-53df-59d2-af16-f7ebee4abab3",
+    "d8ee8417-4ce2-5f82-9df9-73ed18d5cef9",
+    "fc0d3d0c-c9cd-5a5f-84e1-5205c388390a",
+    "0dce8db0-3022-5240-bde4-15300af96141",
+    "2c134dbc-a960-5ff0-ba5c-646f7980faa9",
+    "6e719c07-f1ce-597c-be6a-b7a70e5720d3",
+    "a12742c2-4673-5a51-a607-77bbf178d544",
+    "43ef79cb-31c5-5c16-a931-85cefcaa976b",
+    "54e39218-7507-557c-8975-5a39f1cadd69",
+    "0e7bc2e5-e8b4-57a9-ba78-8f1e178f286a",
+    "dfb03097-c28f-5f9c-923e-89071ded0b09",
+    "045a512c-3a89-5c69-a50f-ca195750ca54",
+    "3a189026-20b7-5540-905d-1342d5a9923c",
+    "a4f7b41e-71bc-5ec1-8377-de82884651a2",
+    "af98ff11-d3e6-5d15-ac60-9dcd8eec50bb",
+    "ff07a11e-7708-5445-82ea-8c0e507e01d2",
+    "080cd7f0-cd64-5c64-a230-e4358190d490",
+    "59dfd8fc-35d2-5e6b-a359-52fb77c68016",
+    "657dec48-5a30-58cc-bc3e-77d8f4590893"
+  ],
+  "shortened_supply_tracks": [
+    "251f5bd2-7d9d-5c6b-8167-ae11fb533964",
+    "a6199677-ad0f-5da2-b485-6a17cae170f6"
+  ],
+  "each_supply_track_shortened_mm": 17.6,
+  "ground_connectivity_unchanged": true,
+  "connected_ground_pads": 244,
+  "whole_board_unconnected": 25,
+  "schematic_unchanged": true,
+  "project_rules_preserved": true,
+  "pcb_sha256": "f7c969315c6492b3aeae2762547f8a9d3010270072dbe57c1ac966176548d883",
+  "verified_complete_supply_and_local_nets": {
+    "CT_NEG_PUMP": 3,
+    "CT_FLY_P": 2,
+    "CT_FLY_N": 2,
+    "+5V_ADC": 24,
+    "-5V_CT": 19,
+    "GND": 244
+  },
+  "only_expected_copper_changed": true,
+  "additional_silk_adjustment": "J40 reference moved above its connector to clear the relocated regulator frame.",
+  "visual_review": "Reviewed local front/back copper plot and native top 3D render; local pump loops preserved, no new vias and clean subsystem borders.",
+  "native_checks": {
+    "erc": 0,
+    "physical_drc": 0,
+    "schematic_parity": 0,
+    "unconnected_items": 25
+  },
+  "quality_counts": {
+    "error": 299,
+    "warning": 2425,
+    "info": 26
+  },
+  "quality_rule_count_changes": {
+    "('error', 'silk_pad_clearance')": -6,
+    "('error', 'silk_overlap')": 2,
+    "('error', 'silk_over_copper')": -5
+  },
+  "quality_disposition": "Known plugin silk-geometry heuristic backlog remains. Native KiCad reports no silk conflicts. Plugin graphic coordinates are offset from board coordinates (for example frame endpoint 20.8,77 reported 41.2,104.6); reframed corners change heuristic overlap counts. See command-adc-quality-triage.md."
+}

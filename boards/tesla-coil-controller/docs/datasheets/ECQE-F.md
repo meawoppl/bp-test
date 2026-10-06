@@ -1,0 +1,1732 @@
+# ECQE-F datasheet
+
+Source: https://mediap.industry.panasonic.eu/assets/imported/industrial.panasonic.com/cdbs/www-data/pdf/RDI0000/ABD0000C179.pdf
+
+Layout-preserving PDF text extraction; consult PDF figures for geometry.
+
+```text
+                                                                       Some part numbers are discontinued.
+
+
+
+
+Plastic Film Capacitors
+    Metallized Polyester Film Capacitor
+    ECQE(F) series
+        Non-inductive construction using metallized polyester
+        film with flame retardant epoxy resin coating
+                                                                                                                           * This series does not include any safety function.
+
+ Features
+● Self-healing property
+● Excellent electrical characteristics
+● Flame retardant epoxy resin coating
+● RoHS compliant
+
+ Recommended applications
+● General purpose usage
+    ※Please contact us when applications are CDI , ignitor etc.
+
+ Explanation of part number
+      1           2               3           4               5           6                7           8          9               10                 11               12
+
+     E           C              Q           E                                                                                                        F
+     Product code             Dielectric &                  Rated voltage                      Capacitance                     Cap. Tol.           Suffix 1        Suffix 2
+                                     construction
+
+                                                                  Code         R.voltage                                Code           Cap. Tol.              Code             Lead form
+                                                                   1          100 V [DC]                                  J             ±5 ％                  Blank             Straight
+                                                                   2          250 V [DC]                                  K            ±10 ％                   B              Crimped lead
+                                                                   4          400 V [DC]                                                                       Z                Cut lead
+                                                                   6          630 V [DC]                                                                       3        Crimped taping (Ammo)
+
+                                                                   10         1000 V [DC]                                                                      6        Crimped taping (Ammo)
+
+                                                                   12         1250 V [DC]
+                                                                  1A          125 V [AC]
+                                                                  2A          250 V [AC]
+
+
+
+● Odd size taping
+
+      1           2               3           4               5          6                 7          8           9               10                 11               12
+
+     E           C              Q           E                                                                                     R                                   F
+     Product code             Dielectric &                  Rated voltage                      Capacitance                    Odd taping       Cap. Tol.             Suffix
+                                     construction
+
+
+
+
+Design and specifications are each subject to change without notice. Ask factory for the current technical specifications before purchase and/or use.
+Should a safety concern arise regarding this product, please be sure to contact us immediately.                                                                                            01-Sep-25
+                                                                                                                                                           ECQE(F) series
+ Specifications
+                                                            100V to 1250V
+                                                                [DC]
+                                                                                                                              −40 ℃ to +105 ℃
+             Category temp. range
+    (Including temperature-rise on unit surface)             125 V, 250 V
+                                                                                                                              −40 ℃ to +105 ℃
+                                                                 [AC]
+                                                                                          100 V, 250 V, 400 V, 630 V, 1000 V, 1250 V [DC]
+                   Rated voltage                                                     (Derating of rated voltage by 1.25 %/°C at more than 85 °C)
+                                                                                                          125 V, 250 V [AC]
+                                                              100 V [DC]                                          0.56 μF to 10.0 μF (E12)
+                                                              250 V [DC]                                         0.010 μF to 10.0 μF (E12)
+                                                              400 V [DC]                                         0.010 μF to 2.2 μF (E12)
+                                                              630 V [DC]                                        0.0056 μF to 2.2 μF (E12)
+               Capacitance range
+                                                             1000 V [DC]                                         0.010 μF to 0.22 μF (E12)
+                                                             1250 V [DC]                                        0.0033 μF to 0.22 μF (E12)
+                                                              125 V [AC]                                         0.010 μF to 0.068 μF (E12)
+                                                              250 V [AC]                                         0.010 μF to 2.2 μF (E12)
+            Capacitance tolerance                                                                        ±5 % (J), ±10 % (K)
+           Dissipation factor (tan δ)                                                                tan δ ≦ 1.0 % (20 ℃, 1 kHz)
+                                                            100V to 630V
+                                                                                    Between terminals： R.voltage (V [DC]) × 150 %, 60 s
+                                                                 [DC]
+                                                             1000 V [DC]            Between terminals：R.voltage (V) × 175 %, 2 s to 5 s or 1000 V [AC], 60 s
+                Withstand voltage
+                                                             1250 V [DC]            Between terminals to enclosure：1500 V [AC], 60 s
+                                                              125 V [AC]            Between terminals：R.voltage (V) × 230 %, 60 s
+                                                              250 V [AC]            Between terminals to enclosure：1500 V [AC], 60 s
+                                                            100V to 630V           C ≦ 0.33 μF : IR ≧ 9000 MΩ (20 ℃, 100 V [DC], 60 s)
+                                                                 [DC]              C > 0.33 μF : IR ≧ 3000 MΩ ∙ μF (20 ℃, 100 V [DC], 60 s)
+                                                             1000 V [DC]            IR ≧ 10000 MΩ (20 ℃, 100 V [DC], 60 s)
+           Insulation resistance (IR)
+                                                             1250 V [DC]            IR ≧ 2000 MΩ (20 ℃, 500 V [DC], 60 s)
+                                                              125 V [AC]           C ≦ 0.47 μF : IR ≧ 2000 MΩ (20 ℃, 500 V [DC], 60 s)
+                                                              250 V [AC]           C > 0.47 μF : IR ≧ 3000 MΩ ∙ μF (20 ℃, 100 V [DC], 60 s)
+＊ In case of applying voltage in alternating current (50 Hz or 60 Hz sine wave) to a capacitor with DC rated voltage,
+   please refer to the page of “Permissible voltage (R.M.S) in alternating current corresponding to DC rated voltage”.
+＊ Voltage to be applied to ECQE1A (F) & ECQE2A (F) is only sine wave (50 Hz or 60 Hz).
+
+
+ Dimensions
+
+
+                                                                                 Crimped lead                               Crimped lead                    Cut lead
+                 Straight
+                                                                                   (Suffix B)                                 (Suffix B)                    (Suffix Z)
+
+                                                                                    Type B                                     Type D
+
+                  L max.                                T max.                        L max.                                    L max.
+                                    H max.
+
+
+
+
+                 Marking                                                                                                                                     Marking
+                                                                                                                                Marking
+                                                                                                         H max.
+
+
+
+
+                                                                                    Marking
+                                                                                                                                                 H max.
+  G max.
+
+
+
+
+                                                                                                                                                                            4.5±0.5
+
+
+
+
+               F±1.0
+                                    20 min.
+
+
+
+
+                                                                                                                                                 4.5±0.5
+                                                                                                         4.5±0.5
+
+
+
+
+                                                      ød±0.05
+
+                                                    Copper-clad
+                                                    steel-wire                                                                  S±0.8
+                                                                                     S±0.8
+
+
+
+
+ Packaging specifications for bulk package
+■ Packing quantity : 100 pcs./bag
+
+
+
+
+Design and specifications are each subject to change without notice. Ask factory for the current technical specifications before purchase and/or use.
+Should a safety concern arise regarding this product, please be sure to contact us immediately.                                                                          01-Sep-25
+                                                                                                                                                                ECQE(F) series
+ Taping specifications for automatic insertion
+■ Taping style
+
+     Style AD                                                            Style AB                                                          Style B
+                                 P
+                                                                                                                                                                        P
+
+
+
+
+                                                                       H1
+  H1
+
+
+
+
+                                                                                                              F
+
+
+
+
+                                                                                                                                           H1
+                                         F                                                                                                                                  F
+
+
+
+
+                                                                              H0
+
+
+
+
+                                                                                                                                                 H0
+          H0
+
+
+
+
+                                                                                                                                                                P0
+                           P0                                                                    P0
+
+
+     Style C                                                             Style D                                                           Style E
+                                                                                                          P
+                                     P                                                                                                                                  P
+
+
+
+
+                                                                                                                                          H1
+                                                                            H1
+
+
+
+
+                                                                                                                                                                                F
+     H1
+
+
+
+
+                                                F                                                                 F
+
+
+
+
+                                                                                                                                               H0
+           H0
+
+
+
+
+                                                                                  H0
+
+
+
+
+                           P0                                                                                                                              P0
+                                                                                                   P0
+
+
+* Please check the product drawing for the shape of the lead wire forming.
+  The above diagram shows the taping dimensions, and the lead wire forming shape is an example.
+* H1 dimension is based on insertion machine “Panasert RH series” made by Panasonic. Consult with Panasonic technical staff when using other insertion machines.
+
+                                                                                                                      Size list                                                     Unit：mm
+                                                                                                                                                           Style
+                                                                                                                                 AD          AB           B        C          D         E
+                                                                                                                        P       12.7        12.7        15.0     25.4       15.0      30.0
+                                                                                                                       P0       12.7        12.7        15.0     12.7       15.0      15.0
+                                                                                                                        F        5.0         5.0         5.0      5.0        7.5       7.5
+                                                                                                                       H0       16.0        16.0        16.0     16.0       16.0      16.0
+                                                                                                                       H1*      34.0        34.0        39.0     39.0       44.0      44.0
+                                                                                                                                                                                       *:max.
+
+
+■ Packaging specifications                                                                                                                                 ● Lead spacing
+                                      Capacitance range                           Taping style                                                                                   Lead
+   Series         R.voltage                                                                                           Packing              Suffix               Style
+                                              (μF)                  AD      AB      B     C    D              E                                                                 spacing
+                                         0.56 to 0.68               〇                                                  Ammo                ( ) F3                  AD             5.0
+                                          0.82 to 1.0                               〇                                  Ammo                ( ) F3                  AB             5.0
+                 100 V [DC]
+                                           1.2 to 3.3                                       〇                          Ammo                ( ) F3                   B             5.0
+                                           1.2 to 3.3                                                         〇        Ammo                R( ) F                  C              5.0
+                                        0.010 to 0.27                〇                                                 Ammo                ( ) F3                  D              7.5
+                                              0.33                                  〇                                  Ammo                ( ) F3                   E             7.5
+                 250 V [DC]               0.39 to 1.5                                       〇                          Ammo                ( ) F3                                   Unit：mm
+                                        0.010 to 0.33                                                 〇                Ammo                R( ) F
+                                          0.39 to 1.5                                                         〇        Ammo                R( ) F
+                                        0.010 to 0.10                〇                                                 Ammo                ( ) F3
+                                         0.12 to 0.47                                       〇                          Ammo                ( ) F3
+                 400 V [DC]
+                                        0.010 to 0.10                                                 〇                Ammo                R( ) F
+ ECQE(F)                                 0.12 to 0.47                                                         〇        Ammo                R( ) F
+                                       0.0056 to 0.033               〇                                                 Ammo                ( ) F3
+                                        0.039 to 0.047                              〇                                  Ammo                ( ) F3
+                 630 V [DC]             0.056 to 0.22                                       〇                          Ammo                ( ) F3
+                                        0.001 to 0.047                                                〇                Ammo                R( ) F
+                                        0.056 to 0.22                                                         〇        Ammo                R( ) F
+                 1000 V [DC]            0.010 to 0.10                                                         〇        Ammo                R( ) F
+                 1250 V [DC]           0.0033 to 0.022                                                        〇        Ammo                R( ) F
+                                        0.010 to 0.068                      〇                                          Ammo                ( ) F6
+                 125 V [AC]
+                                        0.010 to 0.068                                                〇                Ammo                R( ) F
+                                        0.010 to 0.033                      〇                                          Ammo                ( ) F6
+                 250 V [AC]             0.010 to 0.047                                                〇                Ammo                R( ) F
+                                        0.056 to 0.22                                                         〇        Ammo                R( ) F
+See the column “Rating ·Dimensions · Quantity” for packaging quantity
+
+Design and specifications are each subject to change without notice. Ask factory for the current technical specifications before purchase and/or use.
+Should a safety concern arise regarding this product, please be sure to contact us immediately.                                                                                     01-Sep-25
+                                                                                                                                                                   ECQE(F) series
+ Rating · Dimensions · Quantity
+■ Rated voltage [DC]：100 V, Capacitance tolerance：±5 ％(J), ±10 ％(K)
+                                                                                       Dimensions (ｍｍ)                                                         Min. order Q'ty (PCS)
+                                           Cap.                                      H max.        F                  S         G max.                           Taping              Bulk
+             Part No.                                     L           T
+                                           (μF)                                            Crimped                 Crimped                   ød         Standard   Odd size   Odd size    Straight・
+                                                         max.        max.       Straight               Straight                 Straight                                                  Crimped
+                                                                                             lead                    lead                                5.0 mm    5.0 mm     7.5 mm        lead
+
+   ECQE1564□F( )                           0.56          12.0         5.5        10.9        15.9         10.0       10.0         1.0        0.6
+                                                                                                                                                         500          –
+   ECQE1684□F( )                           0.68          12.0         6.0        11.9        16.9         10.0       10.0         1.0        0.6
+                                                                                                                                                                                 –
+   ECQE1824□F( )                           0.82          12.0         6.0        13.5        18.5         10.0       10.0         1.0        0.6
+                                                                                                                                                                   1,000
+   ECQE1105□F( )                            1.0          12.0         6.7        14.0        19.0         10.0       10.0         1.0        0.6
+   ECQE1125□F( )                            1.2          18.5         5.5        12.8        17.8         15.0       10.0         1.0        0.6                               600
+   ECQE1155□F( )                            1.5          18.5         6.0        13.4        18.4         15.0       10.0         1.0        0.8
+   ECQE1185□F( )                            1.8          18.5         6.5        14.4        19.4         15.0       10.0         1.0        0.8                    500        500
+   ECQE1225□F( )                            2.2          18.5         7.0        15.0        20.0         15.0       10.0         1.0        0.8
+                                                                                                                                                                                           500
+   ECQE1275□F( )                            2.7          18.5         8.0        15.8        20.8         15.0       10.0         1.0        0.8
+                                                                                                                                                           –                   400
+   ECQE1335□F( )                            3.3          18.5         8.5        16.5        21.5         15.0       10.0         1.0        0.8                      400
+   ECQE1395□F( )                            3.9          26.0         7.0        16.4        21.4         22.5       15.0         1.0        0.8
+   ECQE1475□F( )                            4.7          26.0         7.5        17.0        22.0         22.5       15.0         1.0        0.8
+   ECQE1565□F( )                            5.6          26.0         8.3        17.5        22.5         22.5       15.0         1.0        0.8
+                                                                                                                                                                      –          –
+   ECQE1685□F( )                            6.8          26.0         9.0        18.5        23.5         22.5       15.0         1.0        0.8
+   ECQE1825□F( )                            8.2          26.0         10.0       20.0        25.0         22.5       15.0         1.5        0.8
+   ECQE1106□F( )                           10.0          26.0         11.5       21.0        26.0         22.5       15.0         1.5        0.8
+* □：Capacitance tolerance code                                                                                                    Type D : 0.56 μF to 1.0 μF
+  ()：Suffix for lead crimped or taped type                                                                                        Type B : 1.2 μF to 10.0 μF
+
+■ Rated voltage [DC]：250 V, Capacitance tolerance：±5 ％(J), ±10 ％(K)
+                                                                                Dimensions (ｍｍ)                                                          Min. order Q'ty (PCS)
+                                           Cap.                              H max.       F     S                     G max.                            Taping                 Bulk
+             Part No.                                   L    T
+                                           (μF)                                    Crimped                 Crimped                  ød     Standard     Odd size   Odd size              Crimped
+                                                       max. max. Straight                      Straight                Straight                                               Straight
+                                                                                     lead                    lead                           5.0 mm      5.0 mm     7.5 mm                  lead
+   ECQE2103□F( )                          0.010        10.3     4.3      7.4         12.4       7.5         7.5           1.0      0.6
+   ECQE2123□F( )                          0.012        10.3     4.4      7.5         12.5       7.5         7.5           1.0      0.6
+   ECQE2153□F( )                          0.015        10.3     4.4      7.5         12.5       7.5         7.5           1.0      0.6
+   ECQE2183□F( )                          0.018        10.3     4.4      7.5         12.5       7.5         7.5           1.0      0.6
+   ECQE2223□F( )                          0.022        10.3     4.4      7.5         12.5       7.5         7.5           1.0      0.6
+   ECQE2273□F( )                          0.027        10.3     4.4      7.5         12.5       7.5         7.5           1.0      0.6
+                                                                                                                                            1000
+   ECQE2333□F( )                          0.033        10.3     4.5      7.5         12.5       7.5         7.5           1.0      0.6
+   ECQE2393□F( )                          0.039        10.3     4.5      7.5         12.5       7.5         7.5           1.0      0.6
+   ECQE2473□F( )                          0.047        10.3     4.5      7.5         12.5       7.5         7.5           1.0      0.6
+                                                                                                                                                           –
+   ECQE2563□F( )                          0.056        10.3     4.8      7.9         12.9       7.5         7.5           1.0      0.6                             1000
+   ECQE2683□F( )                          0.068        10.3     4.5      7.5         12.5       7.5         7.5           1.0      0.6
+   ECQE2823□F( )                          0.082        10.3     4.9      8.0         13.0       7.5         7.5           1.0      0.6
+   ECQE2104□F( )                          0.10         10.3     5.8      8.4         13.4       7.5         7.5           1.0      0.6
+   ECQE2124□F( )                          0.12         10.3     6.0      9.0         14.0       7.5         7.5           1.0      0.6
+   ECQE2154□F( )                          0.15         10.3     6.0      10.8        15.8       7.5         7.5           1.0      0.6
+                                                                                                                                            500
+   ECQE2184□F( )                          0.18         12.0     5.0      10.3        15.3       10.0        10.0          1.0      0.6
+   ECQE2224□F( )                          0.22         12.0     5.5      10.5        15.5       10.0        10.0          1.0      0.6
+   ECQE2274□F( )                          0.27         12.0     6.0      11.5        16.5       10.0        10.0          1.0      0.6                                         500
+                                                                                                                                                                                           500
+   ECQE2334□F( )                          0.33         12.0     6.5      12.0        17.0       10.0        10.0          1.0      0.6                   1000
+   ECQE2394□F( )                          0.39         18.5     4.9      12.0        17.0       15.0        10.0          1.0      0.6
+   ECQE2474□F( )                          0.47         18.5     5.3      12.5        17.5       15.0        10.0          1.0      0.6
+   ECQE2564□F( )                          0.56         18.5     5.5      13.0        18.0       15.0        10.0          1.0      0.6                              500
+   ECQE2684□F( )                          0.68         18.5     6.0      13.5        18.5       15.0        10.0          1.0      0.8                   500
+   ECQE2824□F( )                          0.82         18.5     6.5      14.5        19.5       15.0        10.0          1.0      0.8
+   ECQE2105□F( )                           1.0         18.5     7.4      15.0        20.0       15.0        10.0          1.0      0.8
+                                                                                                                                                                    400
+   ECQE2125□F( )                           1.2         18.5     8.0      15.9        20.9       15.0        10.0          1.0      0.8
+   ECQE2155□F( )                           1.5         18.5     9.0      16.8        21.8       15.0        10.0          1.0      0.8                   400        300
+   ECQE2185□F( )                           1.8         26.0     7.5      15.5        20.5       22.5        15.0          1.0      0.8        –
+   ECQE2225□F( )                           2.2         26.0     8.5      16.3        21.3       22.5        15.0          1.0      0.8
+   ECQE2275□F( )                           2.7         26.0     9.4      17.0        22.0       22.5        15.0          1.0      0.8
+   ECQE2335□F( )                           3.3         26.0    10.3      18.0        23.0       22.5        15.0          1.5      0.8
+   ECQE2395 F( )                           3.9         26.0    11.0      20.5        25.5       22.5        15.0          1.5      0.8
+                                                                                                                                                           –          –
+   ECQE2475□F( )                           4.7         26.0    12.0      21.5        26.5       22.5        15.0          1.5      0.8
+   ECQE2565□F( )                           5.6         31.0    11.8      21.0        26.0       27.5        22.5          1.5      0.8
+   ECQE2685□F( )                           6.8         31.0    13.0      22.4        27.4       27.5        22.5          1.5      0.8
+   ECQE2825□F( )                           8.2         31.0    14.3      23.5        28.5       27.5        22.5          1.5      0.8                                         400
+   ECQE2106□F( )                          10.0         31.0    15.9      25.8        30.8       27.5        22.5          1.5      0.8                                         300         400
+* □：Capacitance tolerance code                                                                                                    Type D : 0.010 μF to 0.33 μF
+  ()：Suffix for lead crimped or taped type                                                                                        Type B : 0.39 μF to 10.0 μF
+
+Design and specifications are each subject to change without notice. Ask factory for the current technical specifications before purchase and/or use.
+Should a safety concern arise regarding this product, please be sure to contact us immediately.                                                                                          01-Sep-25
+                                                                                                                                                                   ECQE(F) series
+ Rating · Dimensions · Quantity
+■ Rated voltage [DC]：400 V, Capacitance tolerance：±5 ％(J), ±10 ％(K)
+                                                                                       Dimensions (ｍｍ)                                                         Min. order Q'ty (PCS)
+                                           Cap.                                      H max.        F                  S       G max.                             Taping              Bulk
+             Part No.                                     L           T
+                                           (μF)                                            Crimped                 Crimped                   ød         Standard   Odd size   Odd size    Straight・
+                                                         max.        max.      Straight                Straight               Straight                                                    Crimped
+                                                                                             lead                    lead                                5.0 mm    5.0 mm     7.5 mm        lead
+
+   ECQE4103□F( )                          0.010          10.3         4.3         7.4        12.4        7.5         7.5         1.0         0.6
+   ECQE4123□F( )                          0.012          10.3         4.4         7.5        12.5        7.5         7.5         1.0         0.6
+   ECQE4153□F( )                          0.015          10.3         4.4         7.5        12.5        7.5         7.5         1.0         0.6
+                                                                                                                                                         1000
+   ECQE4183□F( )                          0.018          10.3         4.4         7.5        12.5        7.5         7.5         1.0         0.6
+   ECQE4223□F( )                          0.022          10.3         4.8         7.9        12.9        7.5         7.5         1.0         0.6
+   ECQE4273□F( )                          0.027          10.3         5.5         8.0        13.0        7.5         7.5         1.0         0.6
+   ECQE4333□F( )                          0.033          10.3         6.0         9.0        14.0        7.5         7.5         1.0         0.6                      –       1000
+   ECQE4393□F( )                          0.039          12.0         4.9         8.0        13.0       10.0        10.0         1.0         0.6
+   ECQE4473□F( )                          0.047          12.0         5.0         8.3        13.3       10.0        10.0         1.0         0.6
+   ECQE4563□F( )                          0.056          12.0         5.0        10.0        15.0       10.0        10.0         1.0         0.6         500
+   ECQE4683□F( )                          0.068          12.0         5.4        10.5        15.5       10.0        10.0         1.0         0.6
+   ECQE4823□F( )                          0.082          12.0         5.8        11.0        16.0       10.0        10.0         1.0         0.6
+   ECQE4104□F( )                           0.10          12.0         6.3        12.0        17.0       10.0        10.0         1.0         0.6
+   ECQE4124□F( )                           0.12          18.5         5.0        10.0        15.0       15.0        10.0         1.0         0.6
+   ECQE4154□F( )                           0.15          18.5         5.0        12.4        17.4       15.0        10.0         1.0         0.6                                           500
+   ECQE4184□F( )                           0.18          18.5         5.4        12.5        17.5       15.0        10.0         1.0         0.6
+                                                                                                                                                                               500
+   ECQE4224□F( )                           0.22          18.5         5.9        13.0        18.0       15.0        10.0         1.0         0.6
+                                                                                                                                                                    500
+   ECQE4274□F( )                           0.27          18.5         6.5        14.3        19.3       15.0        10.0         1.0         0.8
+   ECQE4334□F( )                           0.33          18.5         7.0        14.9        19.9       15.0        10.0         1.0         0.8
+   ECQE4394□F( )                           0.39          18.5         7.5        15.4        20.4       15.0        10.0         1.0         0.8
+                                                                                                                                                                               400
+   ECQE4474□F( )                           0.47          18.5         7.8        17.0        22.0       15.0        10.0         1.0         0.8
+                                                                                                                                                           –
+   ECQE4564□F( )                           0.56          26.0         6.5        16.0        21.0       22.5        15.0         1.0         0.8
+   ECQE4684□F( )                           0.68          26.0         7.0        16.5        21.5       22.5        15.0         1.0         0.8
+   ECQE4824□F( )                           0.82          26.0         7.9        17.3        22.3       22.5        15.0         1.0         0.8
+   ECQE4105□F( )                            1.0          26.0         8.5        18.0        23.0       22.5        15.0         1.0         0.8
+                                                                                                                                                                      –          –
+   ECQE4125□F( )                            1.2          26.0         9.5        18.9        23.9       22.5        15.0         1.0         0.8
+   ECQE4155□F( )                            1.5          31.0         9.5        19.0        24.0       27.5        22.5         1.0         0.8
+   ECQE4185□F( )                            1.8          31.0        11.0        20.5        25.5       27.5        22.5         1.5         0.8
+   ECQE4225□F( )                            2.2          31.0        11.0        22.0        27.0       27.5        22.5         1.5         0.8
+* □：Capacitance tolerance code                                                                                                   Type D : 0.010 μF to 0.10 μF
+  ()：Suffix for lead crimped or taped type                                                                                       Type B : 0.12 μF to 2.2 μF
+
+
+
+
+Design and specifications are each subject to change without notice. Ask factory for the current technical specifications before purchase and/or use.
+Should a safety concern arise regarding this product, please be sure to contact us immediately.                                                                                          01-Sep-25
+                                                                                                                                                                   ECQE(F) series
+ Rating · Dimensions · Quantity
+■ Rated voltage [DC]：630 V, Capacitance tolerance：±5 ％(J), ±10 ％(K)
+                                                                                Dimensions (ｍｍ)                                                          Min. order Q'ty (PCS)
+                                           Cap.                              H max.       F     S                     G max.                            Taping                 Bulk
+             Part No.                                   L    T
+                                           (μF)                                    Crimped                 Crimped                 ød     Standard      Odd size   Odd size              Crimped
+                                                       max. max. Straight                      Straight                Straight                                               Straight
+                                                                                     lead                    lead                          5.0 mm       5.0 mm     7.5 mm                  lead
+
+EOL   ECQE6102□F( )                       0.0010       10.0     4.5      9.5         14.5       7.5         5.0          1.0       0.6
+EOL   ECQE6122□F( )                       0.0012       10.0     4.5      10.0        15.0       7.5         5.0          1.0       0.6
+EOL   ECQE6152□F( )                       0.0015       10.0     4.5      10.0        15.0       7.5         5.0          1.0       0.6
+EOL   ECQE6182□F( )                       0.0018       10.0     4.5      10.0        15.0       7.5         5.0          1.0       0.6
+EOL   ECQE6222□F( )                       0.0022       10.0     4.5      10.0        15.0       7.5         5.0          1.0       0.6
+EOL   ECQE6272□F( )                       0.0027       10.0     4.5      10.0        15.0       7.5         5.0          1.0       0.6
+EOL   ECQE6332□F( )                       0.0033       10.0     4.5      10.0        15.0       7.5         5.0          1.0       0.6
+EOL   ECQE6392□F( )                       0.0039       10.0     4.5      10.0        15.0       7.5         5.0          1.0       0.6
+EOL   ECQE6472□F( )                       0.0047       12.0     4.5      10.0        15.0       10.0        7.5          1.0       0.6
+                                                                                                                                           1000
+    ECQE6562□F( )                         0.0056       12.0     4.5      10.0        15.0       10.0        7.5          1.0       0.6                     –
+    ECQE6682□F( )                         0.0068       12.0     4.9      10.0        15.0       10.0        7.5          1.0       0.6                             1000
+    ECQE6822□F( )                         0.0082       12.0     4.5      10.0        15.0       10.0        7.5          1.0       0.6
+    ECQE6103□F( )                          0.010       12.0     4.5      7.5         12.5       10.0        10.0         1.0       0.6
+    ECQE6123□F( )                          0.012       12.0     4.5      7.8         12.8       10.0        10.0         1.0       0.6
+    ECQE6153□F( )                          0.015       12.0     5.0      8.2         13.2       10.0        10.0         1.0       0.6
+    ECQE6183□F( )                          0.018       12.0     4.9      10.0        15.0       10.0        10.0         1.0       0.6
+    ECQE6223□F( )                          0.022       12.0     5.3      10.5        15.5       10.0        10.0         1.0       0.6
+    ECQE6273□F( )                          0.027       12.0     5.5      10.9        15.9       10.0        10.0         1.0       0.6
+    ECQE6333□F( )                          0.033       12.0     6.0      11.9        16.9       10.0        10.0         1.0       0.6      500
+                                                                                                                                                                               500
+    ECQE6393□F( )                          0.039       12.0     6.0      13.4        18.4       10.0        10.0         1.0       0.6                                                     500
+                                                                                                                                                        1000
+    ECQE6473□F( )                          0.047       12.0     6.5      13.5        18.5       10.0        10.0         1.0       0.6
+    ECQE6563□F( )                          0.056       18.5     5.4      10.5        15.5       15.0        10.0         1.0       0.6
+    ECQE6683□F( )                          0.068       18.5     5.8      11.0        16.0       15.0        10.0         1.0       0.6
+    ECQE6823□F( )                          0.082       18.5     6.5      12.0        17.0       15.0        10.0         1.0       0.6                              500
+    ECQE6104□F( )                          0.10        18.5     6.3      14.0        19.0       15.0        10.0         1.0       0.6                   500
+    ECQE6124□F( )                          0.12        18.5     6.3      14.5        19.5       15.0        10.0         1.0       0.8
+    ECQE6154□F( )                          0.15        18.5     7.5      15.4        20.4       15.0        10.0         1.0       0.8
+                                                                                                                                                                    400
+    ECQE6184□F( )                          0.18        18.5     8.0      16.0        21.0       15.0        10.0         1.0       0.8
+    ECQE6224□F( )                          0.22        18.5     9.0      16.5        21.5       15.0        10.0         1.0       0.8                   400        300
+    ECQE6274□F( )                          0.27        26.0     7.0      16.5        21.5       22.5        15.0         1.0       0.8
+                                                                                                                                              –
+    ECQE6334□F( )                          0.33        26.0     7.8      17.0        22.0       22.5        15.0         1.0       0.8
+    ECQE6394□F( )                          0.39        26.0     8.5      17.9        22.9       22.5        15.0         1.0       0.8
+    ECQE6474□F( )                          0.47        26.0     9.3      18.5        23.5       22.5        15.0         1.0       0.8
+    ECQE6564□F( )                          0.56        26.0 10.0         20.0        25.0       22.5        15.0         1.5       0.8
+    ECQE6684□F( )                          0.68        26.0 11.5         21.0        26.0       22.5        15.0         1.5       0.8
+                                                                                                                                                           –          –
+    ECQE6824□F( )                          0.82        31.0 11.3         20.5        25.5       27.5        22.5         1.5       0.8
+    ECQE6105□F( )                           1.0        31.0 12.5         21.9        26.9       27.5        22.5         1.5       0.8
+    ECQE6125□F( )                           1.2        31.0 13.5         23.0        28.0       27.5        22.5         1.5       0.8
+    ECQE6155□F( )                           1.5        31.0 15.3         24.7        29.7       27.5        22.5         1.5       0.8                                         400
+    ECQE6185□F( )                           1.8        31.0 16.8         27.0        32.0       27.5        22.5         1.5       0.8                                                     400
+                                                                                                                                                                               300
+    ECQE6225□F( )                           2.2        31.0 19.5         29.0        34.0       27.5        22.5         1.5       0.8                                                     300
+* □：Capacitance tolerance code                                                                                                 Type D : 0.010 μF to 0.047 μF
+  ()：Suffix for lead crimped or taped type                                                                                     Type B : 0.0056 μF to 0.0082 μF、0.056 μF to 2.2 μF
+
+
+
+
+Design and specifications are each subject to change without notice. Ask factory for the current technical specifications before purchase and/or use.
+Should a safety concern arise regarding this product, please be sure to contact us immediately.                                                                                          01-Sep-25
+                                                                                                                                                            ECQE(F) series
+ Rating · Dimensions · Quantity
+■ Rated voltage [DC]：1000 V, 125 V [AC]*1, Capacitance tolerance：±5 ％(J), ±10 ％(K)
+                                                                                                     Dimensions (ｍｍ)                                              Min. order Q'ty (PCS)
+
+                                           Cap.                                          H max.                F                    S           G max.            Taping       Bulk
+             Part No.                                     L           T
+                                           (μF)                                                 Crimped                         Crimped                     ød    Odd size    Straight・
+                                                         max.        max.        Straight                        Straight                       Straight                      Crimped
+                                                                                                  lead                            lead                            7.5 mm        lead
+
+   ECQE10103□F( )                         0.010          15.5         6.0          11.0           16.0            12.5            12.5             1.0      0.6
+   ECQE10123□F( )                         0.012          15.5         6.0          12.0           17.0            12.5            12.5             1.0      0.6     500
+   ECQE10153□F( )                         0.015          15.5         7.0          12.5           17.5            12.5            12.5             1.0      0.6
+   ECQE10183□F( )                         0.018          15.5         7.5          13.0           20.0            12.5            12.5             1.0      0.8
+                                                                                                                                                                    400
+   ECQE10223□F( )                         0.022          15.5         7.5          15.5           22.5            12.5            12.5             1.0      0.8
+   ECQE10273□F( )                         0.027          21.0         6.0          13.0           18.0            17.5            12.5             1.0      0.8
+   ECQE10333□F( )                         0.033          21.0         6.5          14.0           19.0            17.5            12.5             1.0      0.8     500
+   ECQE10393□F( )                         0.039          21.0         7.0          14.5           19.5            17.5            12.5             1.0      0.8
+   ECQE10473□F( )                         0.047          21.0         7.5          15.5           20.5            17.5            12.5             1.0      0.8                500
+   ECQE10563□F( )                         0.056          21.0         7.5          17.0           22.0            17.5            12.5             1.0      0.8     400
+   ECQE10683□F( )                         0.068          21.0         8.5          18.0           23.0            17.5            12.5             1.0      0.8
+   ECQE10823□F( )                         0.082          21.0         9.0          18.5           23.5            17.5            12.5             1.0      0.8
+                                                                                                                                                                    300
+   ECQE10104□F( )                          0.10          21.0        10.0          20.0           25.0            17.5            12.5             1.0      0.8
+   ECQE10124□F( )                          0.12          26.0         9.0          18.5           23.5            22.5            17.5             1.0      0.8
+   ECQE10154□F( )                          0.15          26.0        10.0          20.0           25.0            22.5            17.5             1.5      0.8
+                                                                                                                                                                     −
+   ECQE10184□F( )                          0.18          26.0        10.5          22.0           27.0            22.5            17.5             1.5      0.8
+   ECQE10224□F( )                          0.22          26.0        12.0          23.0           28.0            22.5            17.5             1.5      0.8
+* □：Capacitance tolerance code                                                                                                   Type D : 0.010 μF to 0.022 μF
+  ()：Suffix for lead crimped or taped type                                                                                       Type B : 0.027 μF to 0.22 μF
+
+    *1： This type has two rated voltage, one is DC rated voltage another is AC rated voltage.
+         DC rated voltage is 1000 V [DC], AC rated voltage is 125 V [AC].
+         Making for rated voltage is “1000 V, 125 V~ ”
+
+           When capacitors use in secondary side of power source, and in case of applying voltage in altering current (50 Hz or
+           60 Hz sine wave) to a capacitor, please refer to the page of “Permissible voltage (R.M.S) in altering current
+           corresponding to DC rated voltage”.
+
+           When capacitors use in primary side of power source, the rated voltage is shown 125 V [AC]. Voltage to be applied
+           to capacitors in only sine wave (50 Hz or 60 Hz).
+
+           AC rated capacitors complying with clause 1 of “Electrical Appliance and Material Safety Law”. And not complying
+           with clause 2 of “Electrical Appliance and Material Safety Law”, in this case please use ECQUA type or ECQUL type.
+
+
+
+
+Design and specifications are each subject to change without notice. Ask factory for the current technical specifications before purchase and/or use.
+Should a safety concern arise regarding this product, please be sure to contact us immediately.                                                                              01-Sep-25
+                                                                                                                                                              ECQE(F) series
+ Rating · Dimensions · Quantity
+■ Rated voltage [DC]：1250 V、125 V [AC]*1, Capacitance tolerance：±5 ％(J), ±10 ％(K)
+                                                                                               Dimensions (ｍｍ)                                                 Min. order Q'ty (PCS)
+                                           Cap.                                  H max.                F                    S           G max.                Taping            Bulk
+             Part No.                                   L    T
+                                           (μF)                                          Crimped                        Crimped                         ød    Odd size              Crimped
+                                                       max. max.         Straight                        Straight                       Straight                         Straight
+                                                                                           lead                           lead                                7.5 mm                  lead
+
+EOL     ECQE12102□F( )                    0.0010       15.5     6.0        11.0            16.0           12.5            10.0             1.0          0.6
+EOL     ECQE12122□F( )                    0.0012       15.5     6.0        11.0            16.0           12.5            10.0             1.0          0.6
+EOL     ECQE12152□F( )                    0.0015       15.5     6.0        11.0            16.0           12.5            10.0             1.0          0.6
+EOL     ECQE12182□F( )                    0.0018       15.5     6.0        11.0            16.0           12.5            10.0             1.0          0.6
+EOL     ECQE12222□F( )                    0.0022       15.5     6.0        11.5            16.5           12.5            10.0             1.0          0.6    500
+EOL     ECQE12272□F( )                    0.0027       15.5     6.5        12.0            17.0           12.5            10.0             1.0          0.6
+   ECQE12332□F( )                         0.0033       15.5     6.0        11.5            16.5           12.5            10.0             1.0          0.6
+   ECQE12392□F( )                         0.0039       15.5     6.5        12.0            17.0           12.5            10.0             1.0          0.6
+   ECQE12472□F( )                         0.0047       15.5     7.0        12.5            17.5           12.5            10.0             1.0          0.6
+   ECQE12562□F( )                         0.0056       15.5     7.5        13.0            18.0           12.5            10.0             1.0          0.6
+                                                                                                                                                               400
+   ECQE12682□F( )                         0.0068       15.5     7.5        15.0            20.0           12.5            10.0             1.0          0.6
+   ECQE12822□F( )                         0.0082       21.0     5.0        12.0            17.0           17.5            12.5             1.0          0.6
+   ECQE12103□F( )                         0.010        21.0     5.0        12.5            17.5           17.5            12.5             1.0          0.6
+   ECQE12123□F( )                         0.012        21.0     5.5        13.0            18.0           17.5            12.5             1.0          0.6
+                                                                                                                                                               500        500
+   ECQE12153□F( )                         0.015        21.0     6.0        13.5            18.5           17.5            12.5             1.0          0.6                            500
+   ECQE12183□F( )                         0.018        21.0     6.5        14.5            19.5           17.5            12.5             1.0          0.8
+   ECQE12223□F( )                         0.022        21.0     7.0        15.0            20.0           17.5            12.5             1.0          0.8
+   ECQE12273□F( )                         0.027        26.0     6.0        15.5            20.5           22.5            17.5             1.0          0.8
+   ECQE12333□F( )                         0.033        26.0     6.5        16.0            21.0           22.5            17.5             1.0          0.8
+   ECQE12393□F( )                         0.039        26.0     7.0        16.5            21.5           22.5            17.5             1.0          0.8
+   ECQE12473□F( )                         0.047        26.0     8.0        17.0            22.0           22.5            17.5             1.0          0.8
+   ECQE12563□F( )                         0.056        31.0     7.5        17.0            22.0           27.5            22.5             1.0          0.8
+   ECQE12683□F( )                         0.068        31.0     8.0        17.5            22.5           27.5            22.5             1.0          0.8
+                                                                                                                                                                −
+   ECQE12823□F( )                         0.082        31.0     9.0        18.5            23.5           27.5            22.5             1.0          0.8
+   ECQE12104□F( )                          0.10        31.0 10.0           19.5            24.5           27.5            22.5             1.0          0.8
+   ECQE12124□F( )                          0.12        31.0 11.5           20.5            25.5           27.5            22.5             1.5          0.8
+   ECQE12154□F( )                          0.15        31.0 12.0           23.0            28.0           27.5            22.5             1.5          0.8
+   ECQE12184□F( )                          0.18        31.0 13.0           24.5            29.5           27.5            22.5             1.5          0.8
+   ECQE12224□F( )                          0.22        31.0 14.5           26.5            31.5           27.5            22.5             1.5          0.8               400
+* □：Capacitance tolerance code                                                                                                   Type D : 0.0033 μF to 0.0068 μF
+  ()：Suffix for lead crimped or taped type                                                                                       Type B : 0.0082 μF to 0.22 μF
+
+      *1： This type has two rated voltage, one is DC rated voltage another is AC rated voltage.
+           DC rated voltage is 1250 V [DC], AC rated voltage is 125 V [AC].
+           Making for rated voltage is “1250 V, 125 V~ ”
+
+           When capacitors use in secondary side of power source, and in case of applying voltage in altering current (50 Hz or
+           60 Hz sine wave) to a capacitor, please refer to the page of “Permissible voltage (R.M.S) in altering current
+           corresponding to DC rated voltage”.
+
+           When capacitors use in primary side of power source, the rated voltage is shown 125 V [AC]. Voltage to be applied
+           to capacitors in only sine wave (50 Hz or 60 Hz).
+
+           AC rated capacitors complying with clause 1 of “Electrical Appliance and Material Safety Law”. And not complying
+           with clause 2 of “Electrical Appliance and Material Safety Law”, in this case please use ECQUA type or ECQUL type.
+
+
+
+
+Design and specifications are each subject to change without notice. Ask factory for the current technical specifications before purchase and/or use.
+Should a safety concern arise regarding this product, please be sure to contact us immediately.                                                                                     01-Sep-25
+                                                                                                                                                                   ECQE(F) series
+ Rating · Dimensions · Quantity
+■ Rated voltage [AC]：125 V, Capacitance tolerance：±5 ％(J), ±10 ％(K)
+ Noise suppression Capacitors (Across-the-line)
+                                                                                       Dimensions (ｍｍ)                                                         Min. order Q'ty (PCS)
+                                           Cap.                                      H max.        F                  S       G max.                             Taping              Bulk
+             Part No.                                     L           T
+                                           (μF)                                            Crimped                 Crimped                   ød         Standard   Odd size   Odd size
+                                                                                                                                                                                          Straight ·
+                                                         max.        max.      Straight                Straight               Straight                                                    Crimped
+                                                                                             lead                    lead                                5.0 mm    5.0 mm     7.5 mm        lead
+
+   ECQE1A103□F( )                         0.010          10.5         4.5         7.5        12.5        7.5         7.5         1.0         0.6
+   ECQE1A123□F( )                         0.012          10.5         4.4         7.5        12.5        7.5         7.5         1.0         0.6
+   ECQE1A153□F( )                         0.015          10.5         4.4         7.5        12.5        7.5         7.5         1.0         0.6
+   ECQE1A183□F( )                         0.018          10.5         4.4         7.5        12.5        7.5         7.5         1.0         0.6
+                                                                                                                                                         1000
+   ECQE1A223□F( )                         0.022          10.5         4.4         7.5        12.5        7.5         7.5         1.0         0.6
+   ECQE1A273□F( )                         0.027          10.5         4.4         7.5        12.5        7.5         7.5         1.0         0.6                      –       1000         500
+   ECQE1A333□F( )                         0.033          10.5         4.5         7.8        12.8        7.5         7.5         1.0         0.6
+   ECQE1A393□F( )                         0.039          10.5         4.5         7.8        12.8        7.5         7.5         1.0         0.6
+   ECQE1A473□F( )                         0.047          10.5         5.5         8.0        13.0        7.5         7.5         1.0         0.6
+   ECQE1A563□F( )                         0.056          10.5         5.9         8.5        13.5        7.5         7.5         1.0         0.6         500
+   ECQE1A683□F( )                         0.068          10.5         6.3         9.4        14.4        7.5         7.5         1.0         0.6
+* □：Capacitance tolerance code                                                                                                   Type D : 0.010 μF to 0.068 μF
+  ()：Suffix for lead crimped or taped type
+
+
+    Notice for AC rated
+           AC rated capacitors complying with clause 1 of “Electrical Appliance and Material Safety Law”.
+           As for clause 2 of “Electrical Appliance and Material Safety Law”, please use ECQUA type or ECQUL type.
+
+
+           When using these capacitors as a across-the-line capacitor, it shall be required to follow either item 1. or item 2. condition.
+               １．Capacitor shall be connected in parallel with varistor (Specifi ed varistor voltage in table 1.)
+               ２．Voltage applied for capacitor shall not exceed other than specifi ed in table 1, when using these capacitors
+
+
+                   Table 1
+                      Capacitor rated voltage                      Varistor voltage                         Pulse voltage
+                               125 V [AC]                                 250 V                               250 V0-p
+
+
+
+
+Design and specifications are each subject to change without notice. Ask factory for the current technical specifications before purchase and/or use.
+Should a safety concern arise regarding this product, please be sure to contact us immediately.                                                                                          01-Sep-25
+                                                                                                                                                                   ECQE(F) series
+ Rating · Dimensions · Quantity
+■ Rated voltage [AC]：250 V, Capacitance tolerance：±5 ％(J), ±10 ％(K)
+ Noise suppression Capacitors (Across-the-line)
+                                                                                       Dimensions (ｍｍ)                                                         Min. order Q'ty (PCS)
+                                           Cap.                                      H max.        F                  S       G max.                             Taping              Bulk
+             Part No.                                     L           T
+                                           (μF)                                            Crimped                 Crimped                   ød         Standard   Odd size   Odd size
+                                                                                                                                                                                          Straight ·
+                                                         max.        max.      Straight                Straight               Straight                                                    Crimped
+                                                                                             lead                    lead                                5.0 mm    5.0 mm     7.5 mm        lead
+
+   ECQE2A103□F( )                         0.010          12.5         5.5        10.8       15.8        10.0        10.0         1.0         0.6
+   ECQE2A123□F( )                         0.012          12.5         6.0        11.5       16.5        10.0        10.0         1.0         0.6
+   ECQE2A153□F( )                         0.015          12.5         6.3         9.9       14.9        10.0        10.0         1.0         0.6
+   ECQE2A183□F( )                         0.018          12.5         6.0        11.9       16.9        10.0        10.0         1.0         0.6         500
+   ECQE2A223□F( )                         0.022          12.5         6.0        11.5       16.5        10.0        10.0         1.0         0.6                   1000
+   ECQE2A273□F( )                         0.027          12.5         5.5        10.9       15.9        10.0        10.0         1.0         0.6
+   ECQE2A333□F( )                         0.033          12.5         6.0        11.9       16.9        10.0        10.0         1.0         0.6
+   ECQE2A393□F( )                         0.039          12.5         6.0        13.4       18.4        10.0        10.0         1.0         0.6
+   ECQE2A473□F( )                         0.047          12.5         6.5        14.4       19.4        10.0        10.0         1.0         0.6
+   ECQE2A563□F( )                         0.056          18.5         5.4        10.5       15.5        15.0        10.0         1.0         0.6
+   ECQE2A683□F( )                         0.068          18.5         5.8        11.0       16.0        15.0        10.0         1.0         0.6
+   ECQE2A823□F( )                         0.082          18.5         6.3        12.0       17.0        15.0        10.0         1.0         0.6                    500
+   ECQE2A104□F( )                          0.10          18.5         6.3        14.0       19.0        15.0        10.0         1.0         0.6                               500
+   ECQE2A124□F( )                          0.12          18.5         6.8        14.5       19.5        15.0        10.0         1.0         0.8                                           500
+   ECQE2A154□F( )                          0.15          18.5         7.5        15.4       20.4        15.0        10.0         1.0         0.8
+                                                                                                                                                                    400
+   ECQE2A184□F( )                          0.18          18.5         8.0        16.0       21.0        15.0        10.0         1.0         0.8
+   ECQE2A224□F( )                          0.22          18.5         9.0        16.9       21.9        15.0        10.0         1.0         0.8                    300
+   ECQE2A274□F( )                          0.27          26.0         7.0        16.5       21.5        22.5        15.0         1.0         0.8
+                                                                                                                                                          −
+   ECQE2A334□F( )                          0.33          26.0         7.8        17.0       22.0        22.5        15.0         1.0         0.8
+   ECQE2A394□F( )                          0.39          26.0         8.5        17.9       22.9        22.5        15.0         1.0         0.8
+   ECQE2A474□F( )                          0.47          26.0         9.3        18.5       23.5        22.5        15.0         1.0         0.8
+   ECQE2A564P( )( )                        0.56          26.0        10.0        20.0         −         22.5          −          1.0         0.8
+   ECQE2A684P( )( )                        0.68          26.0        11.5        21.0         −         22.5          −          1.0         0.8
+                                                                                                                                                                     −
+   ECQE2A824P( )( )                        0.82          26.0        13.0        22.5         −         22.5          −          1.0         0.8
+   ECQE2A105P( )( )                         1.0          31.0        12.5        21.9         −         27.5          −          1.5         0.8
+   ECQE2A125P( )( )                         1.2          31.0        13.5        23.0         −         27.5          −          1.5         0.8
+   ECQE2A155P( )( )                         1.5          31.0        15.3        24.7         −         27.5          −          1.5         0.8
+                                                                                                                                                                               300
+   ECQE2A185P( )( )                         1.8          31.0        16.8        27.0         −         27.5          −          1.5         0.8                                           400
+   ECQE2A225P( )( )                         2.2          31.0        19.5        29.0         −         27.5          −          1.5         0.8                                           300
+* □：Capacitance tolerance code                                                                                                   Type D : 0.010 μF ~ 0.047 μF
+  ()：Suffix for lead crimped or taped type                                                                                       Type B : 0.056 μF ~ 0.47 μF
+  P()()：Please contact us about special part number.
+* Please consult us about Crimped lead type of 0.56 μF to 2.2 μF.
+
+
+
+    Notice for AC rated
+           AC rated capacitors complying with clause 1 of “Electrical Appliance and Material Safety Law”.
+           As for clause 2 of “Electrical Appliance and Material Safety Law”, please use ECQUA type or ECQUL type.
+
+
+           When using these capacitors as a across-the-line capacitor, it shall be required to follow either item 1. or item 2. condition.
+               １．Capacitor shall be connected in parallel with varistor (Specifi ed varistor voltage in table 1.)
+               ２．Voltage applied for capacitor shall not exceed other than specifi ed in table 1, when using these capacitors
+
+
+                   Table 1
+                      Capacitor rated voltage                      Varistor voltage                         Pulse voltage
+                               250 V [AC]                                 470 V                               630 V0-p
+
+
+
+
+Design and specifications are each subject to change without notice. Ask factory for the current technical specifications before purchase and/or use.
+Should a safety concern arise regarding this product, please be sure to contact us immediately.                                                                                          01-Sep-25
+                                                                           Safety and Legal Matters to Be Observed
+
+
+                      Safety and Legal Matters to Be Observed
+
+Product specifications and applications
+■ Please be advised that this product and product specifications are subject to change without notice for
+  improvement purposes. Therefore, please request and confirm the latest delivery specifications that explain
+  the specifications in detail before the final design, or purchase or use of the product, regardless of the
+  application. In addition, do not use this product in any way that deviates from the contents of the company's
+  delivery specifications.
+■ Unless otherwise specified in this catalog or the product specifications, this product is intended for use in
+  general electronic equipment (AV products, home appliances, commercial equipment, office equipment,
+  information and communication equipment, etc.).
+  When this product is used for the following special cases, the specification document suited to each application
+  shall be signed/sealed (with Panasonic Industry and the user) in advance..These include applications requiring
+  special quality and reliability, wherein their failures or malfunctions may directly threaten human life or cause harm
+  to the human body (e.g.: space/aircraft equipment, transportation/traffic equipment, combustion equipment,
+  medical equipment, disaster prevention/crime prevention equipment, safety equipment, etc.).
+
+Safety design and product evaluation
+■ Please ensure safety through protection circuits, redundant circuits, etc., in the customer's system design so
+  that a defect in our company's product will not endanger human life or cause other serious damage.
+■ This catalog shows the quality and performance of individual parts. The durability of parts varies depending on
+  the usage environment and conditions. Therefore, please ensure to evaluate and confirm the state of each part
+  after it has been mounted in your product in the actual operating environment before use.
+  If you have any doubts about the safety of this product, then please notify us immediately, and be sure to conduct
+  a technical review including the above protection circuits and redundant circuits at your company.
+
+Laws / Regulations / Intellectual property
+■ The transportation of dangerous goods as designated by UN numbers, UN classifications, etc., does not apply
+  to this product. In addition, when exporting products, product specifications, and technical information described
+  in this catalog, please comply with the laws and regulations of the countries to which the products are exported,
+  especially those concerning security export control.
+■ Each model of this product complies with the RoHS Directive (Restriction of the use of hazardous substances in
+  electrical and electronic equipment) (2011/65/EU and (EU) 2015/863). The date of compliance with the RoHS
+  Directive and REACH Regulation varies depending on the product model.
+  Further, if you are using product models in stock and are not sure whether or not they comply with the RoHS
+  Directive or REACH Regulation, please contact us by selecting "Sales Inquiry" from the inquiry form.
+■ During the manufacturing process of this product and any of its components and materials to be used,
+  Panasonic Industry does not intentionally use ozone-depleting substances stipulated in the Montreal Protocol
+  and specific bromine-based flame retardants such as PBBs (Poly-Brominated Biphenyls) / PBDEs
+  (Poly-Brominated Diphenyl Ethers). In addition, the materials used in this product are all listed as existing
+  chemical substances based on the Act on the Regulation of Manufacture and Evaluation of Chemical Substances.
+■ With regard to the disposal of this product, please confirm the disposal method in each country and region
+  where it is incorporated into your company's product and used.
+■ The technical information contained in this catalog is intended to show only typical operation and application
+  circuit examples of this product. This catalog does not guarantee that such information does not infringe upon
+  the intellectual property rights of Panasonic Industry or any third party, nor imply that the license of such rights
+  has been granted.
+■ Design, materials, or process related to technical owned by Panasonic Industry are subject to change without
+  notice.
+
+          Panasonic Industry will assume no liability whatsoever if the use of our company's
+          products deviates from the contents of this catalog or does not comply with the
+          precautions. Please be advised of these restrictions.
+
+                                                                                                                  10-May-24
+                                                                     Matters to Be Observed When Using This Product
+
+
+                    Matters to Be Observed When Using This Product
+                                                    (Film capacitor)
+
+Use environments
+■ This product is intended for standard general-purpose use in electronic equipment, and is not designed for use in specific
+  environments described below. Using the product in such specific environments or service conditions, therefore, may
+  affect the performance of the product. Please check the performance and reliability of the product first before using the
+  product.
+
+  (1) The product characteristics may deteriorate in environments where the product is exposed to water, oil, direct sunlight,
+     ozone, UV-rays, radiant rays, etc. Do not use the product in these environments.
+
+  (2) High-humidity environment: When the capacitor is used in a high-humidity environment for a long period, moisture
+     permeates its outer case reaching internal elements as time goes by.
+     This moisture oxidizes a film deposit or spraying of metal, thus causing the capacitor problems. As a result of moisture
+     absorption, some types capacitors may have their capacitances increased.
+
+  (3) Gaseous atmosphere: Avoid using the capacitor in an oxidizing gas, such as a hydrogen chloride gas, hydrogen
+     sulfide gas, and sulfurous acid gas. Using the capacitor in such a gaseous atmosphere results in oxidized film deposit
+     (aluminum) or spraying of metal (zinc) that may cause an ignition or smoking incident.
+
+  (4) Resin coat: If you intend to coat the capacitor with a resin for the purpose of improving its resistance to moisture and
+     gas or fixing a component, make separate inquiries to us about the matter.
+     A chemical solvent included in the resin permeates the metal sprayed parts or electrode (film deposit), which may
+     cause the degradation of the capacitor characteristics. When curing resin, the resin generates chemical reaction heat
+     (curing heat), which may have a negative influence on the capacitor.
+     When embedding the whole capacitor completely with a resin, sufficiently analyze/assess the effects of the
+     thermomechanical stress created by thermal expansion/shrinkage.
+
+  (5) See to it that no dust gets deposited on the product. Dust deposition on the product causes current leakage, etc.,
+     leading to a degradation of the product characteristics.
+
+Cleaning conditions
+■ The effects of cleaning processes on the capacitor vary widely, depending on its structure and materials. Generally
+  speaking, the capacitor is hardly susceptible to a CFC-based solvent and an alcohol-based solvent but is affected by
+  a solvent with high polarity in some cases. In many cases, the capacitor with leads is covered with an outer casing
+  made of an epoxy resin highly resistant to chemicals and is therefore barely affected by a cleaner. We nevertheless
+  advise you to clean the capacitor as quickly as possible. A chip-type laminated film capacitor (ECHU) is not
+  protected with an outer jacket. During cleaning processes, solder flux or a cleaner deposited on an element of
+  the capacitor, may be activated and flow into the capacitor, causing a problem.
+
+■ Ultrasonic cleaning may cause some problems, depending on the cleaner used and ultrasonic power output.
+  Such problems include peeling of protective film, separation of an electrode due to resonance, and degraded
+  capacitor characteristics. Make sufficient examinations/confirmations before carrying out ultrasonic cleaning.
+
+■ As a result of strict regulations on CFC-based and chlorine-based solvents, cleaners not containing such solvents
+  have come into wide use. Some such alternative cleaners are, however, still harmful to the chip-type laminated film
+  capacitor and could be harmful under improper cleaning conditions. Examine the cleaner sufficiently before using it.
+  If you intend to use an alternative cleaner, please contact us in advance. Cleaning methods using an alternative cleaner
+  include a method in which a high-pressure spray of cleaner (water) hits against the board.
+  In this case, the water pressure may cause the protective film to peel off from the element surface.
+  Research the cleaning method before executing it.
+
+■ Dry the cleaned capacitor sufficiently so that no cleaner remains thereon. An insufficient drying process allows the cleaner
+  to remain on the element surface, in which case measurement of the insulation resistance of the capacitor may indicate
+  an apparent drop in the insulation resistance.
+
+■ A recommended cleaner is isopropyl alcohol (IPA), which is a general industrial reagent. Recommended cleaning
+  conditions include a cleaning temperature of 50°C and a cleaning time of 5 minutes or shorter, which apply equally to
+  immersion cleaning, vapor cleaning, and ultrasonic cleaning.
+
+■ A list of cleaners that can be or cannot be used to clean the capacitor is shown on the next page. See the list for your
+  reference. If you are not clear about whether or not a cleaner can be used to clean the capacitor, make sure to contact us.
+
+
+
+                                                                                                                           06-Feb-26
+                                                                            Matters to Be Observed When Using This Product
+
+<List of cleaners that can be or cannot be used to clean the capacitor>
+
+                                                                                                                                Retail
+                                           Cleaning conditions                                           Chip type Lead type
+                                                                                                                               product*
+                                   Ethanol
+                                                                                                            ○         ○          ○
+                                   Ultrasonic cleaning or immersion cleaning for 5 minutes
+                 Alcohol-based
+                                   Isopropyl alcohol (IPA)
+                                                                                                            ○         ○          ○
+                                   Ultrasonic cleaning or immersion cleaning for 5 minutes
+                                   FRW-17: ultrasonic cleaning at 60 °C for 5 minutes
+                 Silicon-based     → FRW-1N: ultrasonic cleaning at 60 °C for 5 minutes                     ○         ○          ○
+                                   → FRW-100: vapor drying at 100 °C for 1 minute
+
+                                   HCFC141b-MS
+Solvent-based
+
+
+
+
+                Halogen-based                                                                               ○         ○          ○
+                                   Ultrasonic cleaning or immersion cleaning for 5 minutes
+
+                                   P3 Cold Cleaner 225S
+                                   Ultrasonic cleaning at 60 °C for 5 minutes
+                                                                                                            ○         ○          ○
+                Petroleum-based    → Ultrasonic rinsing with IPA at ordinary temperature for 5 minutes
+                  Hydrocarbon      → Hot air drying at 40 °C for 5 minutes
+
+                                   Toluene
+                                                                                                            ×         ○          ○
+                                   Ultrasonic cleaning or immersion cleaning for 5 minutes
+
+                                   Terpene Cleaner EC-7
+                                   Spray cleaning at ordinary temperature for 5 minutes
+                Terpene-based                                                                               ×         ○          ○
+                                   → Spray rinsing with pure water at 50 °C for 5 minutes
+                                   → Hot air drying at 80 °C for 5 minutes
+
+                                   Ultrasonic cleaning at 60 °C for 5 minutes
+                   Pure water                                                                               ×         ○          ○
+                                   → Non-blow drying at 85 °C for 5 minutes
+
+                                   Cleanthrough 750H
+                                   Ultrasonic cleaning at 60 °C for 5 minutes
+                                                                                                            ×         ○          ○
+                                   → Ultrasonic rinsing with pure water at 60 °C for 5 minutes
+                                   → Hot air drying at 85 °C for 5 minutes
+
+                                   Cleanthrough 750L
+                                   Ultrasonic cleaning at 60 °C for 5 minutes
+                                                                                                            ×         ○          ―
+                                   → Ultrasonic rinsing with pure water at 60 °C for 5 minutes
+                                   → Hot air drying at 85 °C for 5 minutes
+Water-based
+
+
+
+
+                                                                                                            ×         ○          ―
+
+                   Surfactant
+                                   Cleanthrough LC-841
+                                   Ultrasonic cleaning at 60 °C for 5 minutes
+                                                                                                            ×         ○          ○
+                                   → Ultrasonic rinsing with pure water at 60 °C for 5 minutes
+                                   → Hot air drying at 85 °C for 5 minutes
+
+                                   Pine Alpha ST-100S
+                                   Ultrasonic cleaning at 60 °C for 5 minutes
+                                                                                                            ×         ○          ○
+                                   → Ultrasonic rinsing with pure water at 60 °C for 5 minutes
+                                   → Hot air drying at 85 °C for 5 minutes
+
+                                   Aqua Cleaner 210SET
+                                   Shower cleaning at 60 °C for 1 minute
+                                                                                                            ×         ○          ○
+                                   → Ultrasonic rinsing with pure water at 60 °C for 5 minutes
+                                   → Hot air drying at 85 °C for 5 minutes
+
+                                                                                                   * Retail product: ECWFE, ECWFG
+
+<Uncleaned flux>
+ Uncleaned
+
+
+
+
+                Low-residue flux                             ULF-500VS                                      ○         ○          ○
+                 Non-active flux                               AM-173                                       ○         ○          ○
+
+                                                                 ○ cleaner can be used, × cleaner cannot be used, ― unconfirmed
+
+                                                                                                                                   06-Feb-26
+                                                                     Matters to Be Observed When Using This Product
+
+Response to anomalies and handling conditions
+■ A dielectric film is not a fire-resistant material. In contrast, an ECQE type metallized polyester capacitor and ECWF type/
+  ECWH type metallized polypropylene capacitors each have an outer casing made of a fire-resistant epoxy resin (UL94 V-0).
+
+■ Because the capacitor described herein is made of a combustible material, it may generate smoke or even ignite when
+  exposed to excessive heat. We therefore recommend you cover the capacitor with a fire-resistant material or fire-resistant
+  case. When you use the capacitor at an operating voltage of 30 V AC or higher or 45 V DC or higher, to prevent
+  noise between a line and the ground or between different lines, we recommend you cover a resin component near the
+  capacitor with a fire-resistant material or fire-resistant case (to prevent a fire accident).
+
+■ When a different component in the same circuit has short-circuited or developed an open failure, see to it that a voltage
+  or current higher than the rated voltage or current or excessive heat is not applied to the capacitor.
+  We define the maximum voltage that can be applied consecutively regardless of temperature, as rated voltage*1.
+  Be careful with the fact, however, that this rated voltage is different from rated voltages defined in JIS, IEC, etc.*2
+  *1 Definition of the rated voltage by our company
+     We define the maximum voltage that can be applied continuously within the entire category temperature range,
+     as the rated voltage. In a high-temperature condition where voltage reduction is necessary, a reduced maximum
+     voltage is referred to as the rated voltage. Therefore, the maximum voltage that can be applied continuously at the
+     category upper limit temperature is also referred to as the rated voltage.
+  *2 Definition of the rated voltage by JIS and IEC
+     JIS and IEC define the maximum voltage that can be applied continuously within a temperature range from the
+     category lower limit temperature to the rated temperature, as the rated voltage. According to JIS and IEC, the
+     maximum voltage that can be applied continuously at the category upper limit temperature is referred to as the
+     category voltage. In a temperature range from the rated temperature to the category upper limit temperature,
+     voltage reduction is necessary in some cases, where a reduced maximum voltage is referred to as
+     temperature-dependent reduced voltage.
+
+■ Current that charges or discharges from the capacitor in a rapid charge or discharge causes short-circuit failure,
+  open failure, etc., thus leading to the degradation of the capacitor characteristics. Make sure that the capacitor is
+  charged or discharges with a resistance of 20 Ω/V to 1000 Ω/V or more in series. In a withstand voltage test, service
+  life test, etc., where numbers of the capacitors are connected in parallel, each capacitor must have a resistance of
+  20 Ω/V to 1000 Ω/V or more connected in series thereto.
+
+■ Make sure that a sharp element (a screw driver, solder iron, tweezers, a chassis edge, etc.) does not hit the capacitor
+  surface.
+  Do not apply an unnecessarily heavy load to the leads (for example, by reworking the leads).
+
+■ Accidentally dropping the capacitor on the floor may damage its characteristics. Do not use a capacitor when this
+  happens. If you still use such a dropped capacitor, check its quality first.
+
+■ Be careful not to apply excessive force to the base of the leads of a lead-type capacitor. It causes the exterior resin
+  near the base to crack.
+
+■ The chip-type capacitor has been developed under the assumption that it will be used as an ordinary surface-mounted
+  component. Avoid using a capacitor in an unusual configuration (e.g., stacking the capacitors in two layers, setting
+  the capacitor in a standing position, etc.). When you intend to use the capacitor in an unusual configuration, please
+  contact us in advance.
+
+■ Take care to prevent water or dust from adhering to the terminal surface of the capacitor. Water or dust on the terminal
+  causes current leakage, corrosion, etc.
+
+■ The capacitor emits a humming sound created by mechanical vibration of the dielectric film caused by a coulomb
+  force between the positive and negative electrodes. In particular, the humming sound, in the form of a sound wave
+  containing a source voltage distortion or harmonic component, is heard as a high-tone sound.
+  From the viewpoint of electrical characteristics, it poses no problem. However, when the capacitor is used at a
+  frequency close to the audible frequency, check the humming sound.
+
+■ When the capacitor is used as a capacitor for preventing noise from an AC power supply (across-the-line capacitor),
+  a source voltage is constantly applied to the capacitor and a surge voltage, such as a lightning surge, is applied
+  to the capacitor as well. This may cause the capacitor to ignite or generate smoke. For such capacitors inserted
+  between power lines, strict safety standards are set by individual countries, using products conforming to the safety
+  standards is mandatory. When you are looking for across-the-line capacitors for use in domestic equipment, use
+  capacitors conforming to overseas certification standards or capacitors listed below.
+     ECQE(F)      : Rating 1000 V DC (125 V AC)                    ECQE(F)/(B)/(T)      : Rating 125 V AC (1A)
+     ECQE(F)      : Rating 1250 V DC (125 V AC)                    ECQE(F)/(T)          : Rating 250 V AC (2A)
+
+
+                                                                                                                            06-Feb-26
+                                                                       Matters to Be Observed When Using This Product
+
+■ When ECQE(F)1A /2A, ECQE(B)1A, and ECQE(T)1A /2A are used as across-the-line capacitors, they must satisfy
+  at least one of the following conditions.
+
+  (1) A varistor with a varistor voltage specified in the following table or lower is connected in parallel with the capacitor.
+  (2) No pulse voltage higher than the pulse voltage specified in the following table is applied across both ends of the
+     capacitor.
+
+■ When using a varistor together with the capacitor, confirm the varistor with the delivery specification sheet and use a
+  varistor with no sign of surge-caused deterioration.
+
+   Capacitor rated voltage        Varistor voltage             Pulse voltage
+      125 V.AC (1A)                    250 V                     250 Vo-p
+      250 V.AC (2A)                    470 V                     630 Vo-p
+
+■ Using the capacitor as a voltage dropper may result in a reduction in the capacitance. For example, when an abnormal
+  voltage, such as surge voltage, is applied to the capacitor, a fuse inside the capacitor is activated, which reduces its
+  capacitance. In a worst-case scenario, the capacitor no longer functions as a voltage dropper.
+  Observe the capacitor carefully to see if any abnormal voltage is applied thereto. Such abnormal voltage to the capacitor
+  may generate high voltage applied to the circuit load. To deal with such a problem, provide the circuit with a safety
+  protection means.
+
+Reliability and product life
+■ Capacitor characteristics change, depending on ambient environment conditions under which the capacitor operates.
+  Even when the capacitor is just left as it is, humidity in the air can infiltrate the capacitor and cause a slight change in
+  its capacitance. An extent to which the capacitance changes in this situation varies depending on a dielectric material,
+  an outer casing material, a structure, etc.
+  We take these characteristics changes into consideration before shipping out the capacitor. However, unless a separate
+  agreement is made, our guarantee for the specified capacitance value will be effective only up to the delivery date.
+
+■ When using a capacitor in a circuit that requires precise capacitor elements, such as time constant, use
+  polypropylene-based capacitors with less time-dependent change, such as ECWFD, ECWF(A)、ECWF(L), ECWH(A),
+  PPS-based ECHU(X), and ECHU(C).
+
+■ A product conforming to "AEC-Q200" refers to a product having passed some or all of the evaluation test items defined
+  in AEC-Q200. To know the detailed specifications of individual products or specific evaluation test scores, please
+  contact us.
+  We issue a delivery specification sheet for each product ordered. Please confirm with the sheet when you place
+  an order with us.
+
+Circuit design (working voltage)
+■ The maximum working voltage applicable to a capacitor varies, depending on the voltage waveform, current waveform,
+  frequency, ambient temperature (surface temperature), capacitance, etc. When using a capacitor, check the voltage
+  waveform and current waveform applied across both terminals of the capacitor and the operating frequency and make
+  sure that these are within specified values. When the frequency is high, some product types take different allowable
+  voltages. You can confirm detailed information about this matter on delivery specification sheets.
+
+■ The rated voltage is the maximum voltage that can be applied continuously within the category temperature range.
+  Operating the capacitor with a voltage higher than the rated voltage leads to dielectric breakdown of the capacitor film,
+  which may cause a short-circuit failure. Service lives of capacitors operating at the maximum rated voltages vary,
+  depending on their types.
+
+■ When a voltage higher than the rated voltage is applied to the capacitor, it does not cause a short circuit failure
+  immediately because of the self-recovery ability of the capacitor, however, a drop in the insulation resistance may occur,
+  which can lead to smoke generation or ignition under certain circuit conditions.
+
+■ Do not use a noise-preventing capacitor (AC rated voltage type) in a high-frequency circuit. It may cause smoke
+  generation or ignition under certain service conditions. Rated voltages of capacitors for electronic equipment, except that
+  of a special types, are usually indicated as DC voltage.
+
+
+
+
+                                                                                                                                  06-Feb-26
+                                                                                                         Matters to Be Observed When Using This Product
+
+■ The capacitor has an upper limit service temperature (surface temperature) determined in accordance with the type of
+  a dielectric material making up the capacitor. When using the capacitor at a temperature higher than the rated temperature,
+  confirm the following classification table because some types capacitors require voltage reduction. Even when the
+  capacitor can be used at a temperature higher than the rated temperature, make sure that voltage reduction is carried
+  out to keep the surface temperature equal to or lower than an upper limit service temperature specified in the following
+  table.
+  A capacitor used at a high frequency shows a self-temperature rise. A voltage reduction rate shown in the following
+  table, therefore, cannot be applied in this case.
+  The AC rated voltage type capacitor does not need a temperature-dependent voltage reduction.
+
+  <Rated temperatures, category upper limit temperatures, and voltage reduction rates classified by type in the
+  case of DC working voltage>
+
+                                                                                                           Rated        Category upper limit     Rated voltage in a temperature
+                                                                                                                            temperature         range equal to or higher than the
+    Dielectric material                                                       Type                       temperat        (maximum service              rated temperature
+                                                                                                            ure            temperature)              (voltage reduction rate)
+                                                                ECQE(F)
+         Polyester
+                                                                ECQE(B)                                    85 °C             105 °C                      1.25%/ °C
+          (PET)
+                                                                ECQE(T)
+                                                                ECWF(A)       Rating 250 V DC
+                                                                ECWF(L)                                                                            Voltage reduction is
+                                                                                                           105 °C            105 °C
+                                                                ECWH(A)                                                                               unnecessary.
+                                                                ECWH(C)
+                                                                ECWF(A)       Rating 450 V DC
+                                                                ECWF(A)       Rating 630 V DC
+      Polypropylene                                                                                        85 °C             105 °C                      1.25%/ °C
+                                                                ECWH(V)
+          (PP)
+                                                                ECWFE         Rating 450 V DC
+                                                                ECWFD         Rating 630 V DC
+                                                                                                           85 °C             105 °C                       1.0%/ °C
+                                                                ECWFE         Rating 630 V DC
+                                                                ECWFD         Rating 450 V DC              85 °C             110 °C                      0.62%/ °C
+                                                                ECWFG         Rating 630 V DC              85 °C             110 °C                      1.0%/ °C
+                                                                ECWFJ         Rating 800 V.DC              85°C              110°C                       1.0 %/°C
+                                                                ECHU(X)       Rating 16 V DC
+                                                                ECHU(X)       Rating 50 V DC              125 °C             125 °C            Voltage reduction is unnecessary.
+  Polyphenylene sulfide                                             (0.0001 μF to 0.10 μF)
+         (PPS)                                                  ECHU(X)       Rating 50 V DC
+                                                                                                           105 °C            125 °C                      1.25%/ °C
+                                                                      (0.12 μF to 0.22 μF)
+                                                                ECHU(C)                                    105 °C            105 °C            Voltage reduction is unnecessary.
+
+  ※Rated temperature: upper limit temperature that can be used continuously without involving voltage reduction
+   (which includes the self-temperature rise value)
+  ※Category upper limit temperature: upper limit temperature that can be used continuously when voltage reduction
+   is implemented (which includes the self-temperature rise value)
+
+  <Voltage reduction example>
+    When the rated temperature is 85 °C and the category upper limit temperature is 105 °C, voltage reduction is
+    carried out at a reduction rate of 1.25 %/ °C in a temperature range of 85 °C or higher.
+
+                                                          100
+          Percentage (%) for rated voltage at a working
+          temperature equal to or lower than the rated
+
+
+
+
+                                                          90
+                                                          80
+                         temperature
+
+
+
+
+                                                          70
+
+                                                          60
+                                                          50
+                                                            -40 -30 -20 -10     0     10     20 30 40           50     60 70 80 90               100
+                                                                                     Temperature of the capacitor wall （℃）
+
+
+
+
+                                                                                                                                                                         06-Feb-26
+                                                                     Matters to Be Observed When Using This Product
+
+■ Use the noise-preventing capacitor (AC rated voltage type) on the primary power circuit. This capacitor is designed on the
+  assumption that a 50 Hz or 60 Hz sine wave voltage is applied to the capacitor. When using a capacitor with a DC rated
+  voltage type in an AC circuit, see "Voltage at Which DC Rated Voltage Type Capacitor Can be Used in AC Circuit.
+  " Do not use this type of capacitor on the primary power circuit.
+
+■ When a capacitor is used at a high frequency, its self-heating poses a risk of thermal runaway (smoke generation, ignition).
+  Reduce the working voltage according to the example shown below. For capacitors used at a high frequency,
+  we recommend ECHU(X)/(C), ECWF(A)/(L), and ECWH(A)/(C)/(V).
+
+  <Example of working voltage reduction>
+
+     Capacitor: ECWF2154JA (250 V DC, 0.15 μF) Working frequency: 40 kHz (sine wave)
+     Allowable current value (entered in the delivery specification sheet): 2.0 Arms at 40 kHz
+
+                                     I                     2.0
+                            V=              =                                      = 53 Vrms
+                                   2πfC          2×3.14×40×103×0.15×10-6
+
+     According to the above equation, the AC working voltage (50 Hz or 60 Hz sine wave voltage) of ECWF(A) operating
+     at 40 kHz and 53 Vrms is calculated at 125 Vrms. This indicates that using ECWF(A) at a high frequency causes
+     its allowable voltage to drop. Note that this equation cannot be applied to a working voltage not in a sine waveform,
+     in which case please contact with us.
+
+■ Make sure that the peak value of a pulse voltage (Vo-p) applied across both ends of the capacitor is equal to or lower
+  than the rated DC voltage. When the capacitor is used at a high frequency, its self-heating impairs the voltage
+  endurance characteristics and may lead to destruction of the capacitor. Measure the self-temperature rise value of
+  the capacitor and keep it equal to or lower than the specified value.
+
+■ When a voltage higher than the rated voltage (allowable voltage) is applied to the capacitor as a result of unusual circuit
+  behavior caused by a failure of a different component, provide the capacitor with a means of safety protection.
+
+Circuit design (working current)
+■ Because of its low internal impedance, the capacitor carries an extremely large current flow, depending on the circuit
+  in which the capacitor is incorporated. Particularly, a high pulse current could flow through the capacitor when the
+  power supply is turned on or off. Make sure to check whether a high pulse current is flowing through the capacitor.
+  When the capacitor is used in a high-frequency circuit, such as an inverter circuit and switching circuit, a large current
+  may flow through the capacitor. Be careful in such cases.
+
+■ A current flow exceeding the allowable current value may put the capacitor in a low-capacitance or open state or cause
+  the capacitor to generate heat. This may result in degraded voltage endurance performance or short circuit, thus leading
+  to smoke generation, ignition, etc. When using the capacitor, keep a capacitor current and temperature equal to or
+  lower than the allowable current value and self-temperature rise value specified in the delivery specification sheet.
+
+■ It is necessary that the allowable current in breakdown mode be examined in terms of both pulse current (peak current)
+  and continuous current (RMS current). Confirm that both pulse current and continuous current are equal to or lower
+  than the allowable current value and then use the capacitor.
+
+■ The frequency characteristics of the loss tangent (tanδ) of a capacitor vary depending on the type of a dielectric material
+  used. For this reason, a different allowable RMS current for a given working frequency shows depending on the product
+  type. When a capacitor is used at a high frequency, in particular, its loss tangent (tanδ) gets larger, a current flow
+  larger than the RMS current causes the capacitor to thermally runaway, which may lead to smoke generation or
+  ignition. Using the capacitor at a high frequency, therefore, requires special caution.
+  Please let us know the operating conditions for the capacitor to give you detailed advice.
+  Otherwise, keep the self-temperature rise value and surface temperature of the capacitor within the allowable range even
+  in the most unfavorable operation conditions.
+
+
+
+
+                                                                                                                           06-Feb-26
+                                                                                                                  Matters to Be Observed When Using This Product
+
+■ The RMS current (effective current) varies depending on the capacitance. The following graphs show allowable RMS
+  currents (effective currents) of typical capacitor types by frequency/capacitance. When actually using these capacitors,
+  measure their voltage/current waveforms and ambient temperatures/self-temperature rise values and give us these
+  measurements with your inquires.
+
+
+                                      Type: ECQE(F) (Polyester)                                                                                     Type: ECWF(A) (Polypropylene)
+                                      Rating: 250 V DC -> 150 Vrms (sine wave) 60 Hz                                                                Rating: 250 V DC -> 125 Vrms (sine wave) 60 Hz
+                                      Temperature: -40 °C to 85 °C (capacitor wall temperature)                                                     Temperature: -40 °C to 85 °C (capacitor wall temperature)
+
+                                      5.0                                                               10.0μF
+
+
+
+
+                                                                                                                   Allowable current value (Arms）
+     Allowable current value (Arms）
+
+
+
+
+                                      4.5
+
+
+                                      4.0
+
+
+                                      3.5
+                                                                                                        4.7μF
+                                      3.0
+
+
+                                      2.5                                                               2.2μF
+
+                                      2.0
+
+
+                                      1.0                                                               1.0μF
+
+
+                                      1.5
+                                                                                                        0.22μF
+                                                                                                        0.47μF
+                                      0.5                                                               0.10μF
+                                                                                                        0.047μF
+                                                                                                        0.010μF
+                                      0.0                                                               0.022μF                                                            50            100
+                                            10                                50                  100
+
+                                                            Frequency (ｋHz)                                                                                             Frequency (ｋHz)
+
+
+
+■ When the capacitor is used in a switching circuit or snubber circuit, an instantaneous flow of large pulse current
+  causes the capacitor to locally generate heat. As a result, the film deposit scatters off, which may decreases the
+  capacitance of the capacitor or put the capacitor in an open state. This local heating may trigger a smoke
+  generation or ignition incident.
+
+■ A pulse current value (10000 times) can be given as the product of dV/dt (V/µs) and a capacitance (µF) that are
+  specified in the delivery specification sheet. dV/dt is determined by the element structure.
+
+■ When the capacitor is used in a large-current pulse circuit, keep the pulse current value within the allowable
+  pulse current (Ao-p). When applying a pulse current 10000 times or more, please contact us to discuss the
+  matter separately.
+
+
+
+
+                                                                                                                                                                                                                06-Feb-26
+                                                                       Matters to Be Observed When Using This Product
+
+■ When a voltage V (V) is applied to a capacitor C (farad or F), a charge quantity Q (C) is given as Q = C・V.
+  At this time, a charge current I (A) flowing through the capacitor is given as I = dQ/dt. It follows, therefore, that a pulse
+  current I (A) is given as the product of a capacitance C (µF) and a voltage variation per time dV/dt, that is, I = C・dV/dt.
+
+  <Allowable dV/dt value of ECQE(F) to which a pulse current is applied 10000 times or less>
+
+                                                                                  Type
+            Capacitance
+                                          ECQE(F)                  ECQE(F)                  ECQE(F)                  ECQE(F)
+               (μF)
+                                          100 V DC                 250 V DC                 400 V DC                 630 V DC
+          103   (0.010)
+          123   (0.012)
+          153   (0.015)
+          183   (0.018)                                                                        131
+          223   (0.022)                                                                                                 273
+          273   (0.027)
+          333   (0.033)
+          393   (0.039)                                                48
+          473   (0.047)
+          563   (0.056)
+                                                                                                78
+          683   (0.068)
+          823   (0.082)
+          104   (0.10）
+                                                                                                                        116
+          124   (0.12)
+          154   (0.15)
+          184   (0.18)
+          224   (0.22)
+                                                                       33                       37
+          274   (0.27)
+          334   (0.33)
+          394   (0.39)
+                                                                                                                         63
+          474   (0.47)
+          564   (0.56)
+          684   (0.68)
+                                              22                       18
+          824   (0.82)                                                                          22
+          105 (1.0)
+          125 (1.2)
+                                                                                                                         48
+          155 (1.5)
+          185 (1.8)                                                                             18
+                                              11
+          225 (2.2)
+          275 (2.7)                                                    10
+          335 (3.3)
+          395 (3.9)
+          475 (4.7)
+          565 (5.6)
+                                               6
+          685 (6.8)                                                     8
+          825 (8.2)
+          106 (10.0)
+
+  From the above table, which indicates that the allowable dV/dt value of ECQE4224KF (rated voltage 400 V DC,
+  capacitance 0.22 µF) is 37, the allowable pulse current value of ECQE4224KF is calculated at 8 Ao-p.Ensure,
+  however, that the RMS current value is equal to or lower than the allowable RMS current value.
+
+
+
+
+                                                                                                                                  06-Feb-26
+                                                                      Matters to Be Observed When Using This Product
+
+Circuit design (working temperature)
+■ When the capacitor is used in an AC circuit, especially in a high-frequency circuit, the capacitor generates heat because
+  of the alternating current flowing therethrough. If this self-heating by the capacitor is excessive, the capacitor may
+  deteriorate or generate smoke or even ignite. Confirm the self-temperature rise value of the capacitor under the actual
+  service condition and use the capacitor at the self-temperature rise value equal to or lower than the specified
+  self-temperature rise value.
+  Measure the self-temperature rise value at room temperature in a windless condition. Refer to the delivery specification
+  sheet to check detailed information on the self-temperature rise value.
+  The specified self-temperature rise value varies depending on capacitor types. For more detailed information about
+  this matter, please contact us.
+
+■ Because the working temperature range of a capacitor varies depending on dielectric materials (film types), the working
+  temperature range in which the capacitor can be used is specified for each capacitor type.
+  Note, however, that working temperature ranges listed in a catalog are surface temperatures which are different from
+  ambient temperatures. When using the capacitor, make sure that (ambient temperature + self-temperature rise value
+  (within the specified value)), that is, the surface temperature of the capacitor is within the working temperature range.
+
+■ If the capacitor is used in a temperature condition above the working temperature range, its loss tangent (tan δ) gets
+  larger, inducing self-heating, which leads to exceeding the allowable value. As a result, the dielectric film deteriorates
+  which can cause a short circuit failure that may lead to smoke generation or ignition. When a heat dissipation plate
+  of a different component or resistance generating high heat is present near the capacitor, radiant heat from such an
+  element is applied to a part of the capacitor, in which case the temperature of the capacitor can exceed the working
+  temperature range and smoke generation or ignition may occur. Make sure to check the surface temperature of
+  elements that serve as a heat source.
+
+
+Board design
+■ The chip-type laminated film capacitor is mounted directly on the board without a lead interposed between the capacitor
+  and the board. Because of this configuration, if the thermal expansion coefficient of the capacitor and that of the board
+  differ widely, due to temperature change, etc., after chip mounting, it creates mechanical stress which is applied to the
+  capacitor. This deforms the capacitor body or cracks its soldered part, thus impairing its performance. Examine and
+  check the capacitor sufficiently before mounting it on the board. In particular, when using a ceramic board, please
+  contact us before mounting the capacitor.
+
+  <Thermal expansion coefficients of boards and chip-type laminated film capacitors>
+
+                                 Chip-type laminated
+           Type                                                                 Resin board                      Ceramic board
+                                    film capacitor
+                                     ECHU(X)/(C)
+                                                               Paper phenol    Paper epoxy      Glass epoxy          Alumina
+            Item                       (PPS film)
+    Thermal expansion
+        coefficient                        22                     1 to 30         1 to 15         1 to 25             7 to 8
+        (×10-6/°C)
+
+
+■ Radiant heat from a heat-carrying component present near the capacitor may raise the temperature of the capacitor
+  above the category temperature range. Be careful in such cases. The chip-type capacitor does not have the outer
+  casing that the lead-type capacitor has. If an exposed part of a live component is present near the capacitor, a short
+  circuit may be created through the capacitor. Exercise special caution when determining the location of the capacitor.
+
+■ If the land area of the capacitor is large, a tombstone phenomenon (chip rising) is likely to occur when the volume of
+  solder is not proper. Give each type of capacitor recommended land dimensions as much as possible, even though it
+  is disadvantageous from the viewpoint of ensuring the mounter has sufficient mount clearance.
+
+
+Mounting conditions (chip-type) * Target capacitors: ECHU
+■ In the flow soldering process, a chip component is dipped in melted solder and resulting in a high temperature of the
+  component. The film capacitor has low resistance to heat. Avoid soldering it using the flow soldering process.
+  Applying heat directly to a capacitor from the lower surface of the printed board for repair work (using a hot plate, etc.)
+  may result in the degradation of the capacitor. This process must also be avoided.
+
+
+
+                                                                                                                               06-Feb-26
+                                                                                                                                                                        Matters to Be Observed When Using This Product
+
+■ Reflow soldering is a soldering method in which the proper amount of solder paste is deposited on the fitting land of
+  the surface-mounted board, the chip-type laminated film capacitor is placed on the land, and heat is applied to the
+  capacitor to melt the solder. We recommend the temperature profile shown in the following table for the reflow soldering
+  process. Note, however, that more than two reflow soldering cycles are not allowed and that the second reflow cycle
+  must be carried out after the capacitor temperature returns to normal temperature following the end of the first reflow
+  cycle.
+
+                           Item
+                                                                                                                      Soldering condition                                                                      Mater to note
+  Soldering
+
+                                   Component surface temperature (°C)
+                                                                        300                                                                                        Soldering: 235°C, 5 sec. at
+                                                                                                                                                                           maximum
+                                                                        250
+                                                                                                                                                                  ≥220°C, 30 sec. at maximum
+                                                                                                                                                                                                 The capacitor temperature varies
+  <Reflow soldering>                                                                                        Preheating
+                                                                        200                                                                                                                      depending on the type of the board material
+  The capacitor and the board                                                                             150°C to 180°C
+                                                                                                                                                                                                 and the heat source. Use a glass epoxy
+  are heated in a heat-resistant                                        150
+                                                                                                                                                                                                 board of 115 mm by 50 mm and 0.8 t as
+  furnace or an infrared                                                                                      60 sec. to 120
+                                                                        100                                                                                                                      the standard board to check the capacitor
+  furnace.
+                                                                                                                                                                                                 temperature.
+                                                                         50
+
+                                                                          0
+                                                                                                                                                       Time (s)
+
+
+■ Because the chip-type laminated film capacitor is not protected with an outer casing, an activator (halogen, etc.) in
+  solder paste may corrode the inner deposit electrode, which leads to the degradation of the capacitor characteristics,
+  such as a drop in the capacitance and an increase in the loss tangent (tanδ). Use solder paste with halogen content
+  of 0.1 wt%.
+
+■ When cleaning the capacitor right after soldering it, make sure that its surface temperature is 60 °C or lower.
+
+■ Maximum surface temperatures capacitors reach during the reflow process are as follows: 260 °C at ECHU(X)/(C).
+  A surface temperature higher than these temperatures causes a capacitor problems with its appearance and electrical
+  characteristics, in which case the reliability of the capacitor cannot be guaranteed.
+
+■ When using a solder iron, sufficiently preheat the board land with the iron tip and then carry out soldering work.
+  Do not put the iron tip directly on the body or electrode of a chip-type laminated film capacitor. Particularly, do not
+  bring the iron tip into contact with a side face (sectional surface) of the capacitor.
+  A hot solder iron coming in contact with such parts may cause the degradation of the capacitor characteristics,
+  such as lower insulation resistance and short circuit.
+
+■ Avoid mounting a number of chip-type laminated film capacitors on a board using a solder iron. This process makes
+  temperature control difficult and may lead to the degradation of the capacitor characteristics. Avoid reusing a capacitor
+  (component) once removed with a solder iron.
+
+                                                                                                                                                     ECHU(X)/(C)
+                                                                                                                                                 270°C max.－4s max.
+                                                                                                              Solder iron tip temperature (°C)
+
+
+
+
+                                                                                                                                                 280
+                                                                              Solder iron use condition
+
+
+
+
+                                                                                                                                                 270
+
+                                                                                                                                                 260
+
+                                                                                                                                                 250
+
+                                                                                                                                                 240 0     1       2     3      4     5
+                                                                                                                                                          Soldering time (s)
+                                                                                                                                                           : Specification range
+
+                                                                                                                                          Solder iron wattage: 30 W
+
+
+
+
+                                                                                                                                                                                                                                    06-Feb-26
+                                                                                       Matters to Be Observed When Using This Product
+
+Mounting conditions (lead-type) * Target capacitors: ECQE, ECWF, ECWH
+■ The heat-resistant temperature of a capacitor varies
+                                                                                  Thermocouple (ø 0.1)
+                                                                  Capacitor
+  depending on the type of a dielectric film used and on                         (measurement position B: capacitor element interior)
+  the structure and manufacturing method of the capacitor.
+                                                                                               Metal
+  When mounting the capacitor on a board, set the mounting
+  temperature such that the internal temperature of the                                         Thermocouple (ø 0.1)
+
+  capacitor (see the figure on the right) is equal to or lower                        (measurement position A: metal-sprayed part)
+
+  than the mounting heat-resistant temperature listed in the
+  following table.
+  When a capacitor is sent through a high-temperature atmosphere after being subjected to the (flow) soldering process,
+  check the mounting temperature including the temperature of the capacitor in the high-temperature atmosphere.
+
+                                                                                                                                                  Mounting heat-resistant temperature (peak value)
+   Dielectric material                                                    Type
+                                                                                                                                                  Measurement position A Measurement position B
+
+                                              ECWF(L) 400 V / 0.022 μF to 0.11 μF,
+                                                                                                                                                        135 °C                  125 °C
+                                           ECWF(L) 630 V / 0.01 μF to 0.043 μF, ECWF(A)
+                                            ECWF(L) 400 V / 0.12 μF to 2.4 μF,
+                                            ECWF(L) 630 V / 0.047 μF to 1.3 μF,                                                                         145 °C                  125 °C
+     Polypropylene-               ECWFE 630 V, ECWFG 600 to 1100 V, ECWFJ 600 to 1100 V
+         based
+                                                   ECWH(A), ECWH(V), ECWFD 630 V                                                                        135 °C                  125 °C
+                                                              ECWH(C)                                                                                   140 °C                  125 °C
+                                                            ECWFD 450 V                                                                                 135 °C                    ―
+                                                            ECWFE 450 V                                                                                 125 °C                    ―
+                                                              ECQE(F)                                                                                     ―                     120 °C
+    Polyester-based
+                                                         ECQE(B), ECQE(T)                                                                               160 °C                    ―
+
+■ Set temperature conditions for soldering within the ranges
+  shown in the graph on the right (make sure to confirm that the
+                                                                                                                           400
+  set temperature conditions are equal to or lower than the mounting
+                                                                                                                           380
+  heat-resistant temperature because temperature conditions vary
+                                                                                                                           360                                               Solder iron
+  significantly depending on the equipment structure).
+                                                                                              Soldering temperature (°C)
+
+
+
+
+                                                                                                                           340
+  Carry out no more than two soldering cycles and in such a way
+  that the second soldering cycle is only carried out after the                                                            320
+
+  capacitor temperature returns to a normal temperature following                                                          300
+  the end of the first cycle.                                                                                              280                                              Solder dipping
+
+                                                                                                                           260
+  <Condition example>                                                                                                      240
+
+    Printed circuit board         Board thickness of 0.8 mm or more                                                        220
+
+                                    At 120 °C or less for 1 minute or less                                                       0   1   2    3    4   5    6    7   8
+        Preheating           (the preheating time and final temperature reached                                                              Soldering time (s)
+                                  around the land on the back of the board)
+
+                            There is a certain type of capacitor that must be lifted
+      Capacitor body                   upward from the printed board.
+                                             (processed product)
+
+
+
+■ Since the mounting heat-resistant temperature of the capacitor is low, avoid running the capacitor through an adhesive
+  curing oven for fixing chip components. In the oven, the capacitor is exposed to heat higher than the mounting
+  heat-resistant temperature, which causes the dielectric film to thermally shrink, thus causing a short failure.
+
+■ When a film capacitor is used with chip components, mount the film capacitor and solder it after the adhesive has cured.
+
+■ Do not perform reflow soldering for the capacitor. During reflow soldering, if heat higher than the mounting
+  heat-resistant temperature is applied to the capacitor, it could damage the exterior resin and impair the capacitor
+  characteristics.
+
+
+
+
+                                                                                                                                                                                      06-Feb-26
+                                                                     Matters to Be Observed When Using This Product
+
+■ When the capacitor is mounted on a multilayer board or has copper leads, the internal temperature of the capacitor
+  readily increases because of the high heat conductivity of the copper leads, and therefore the capacitor temperature
+  may rise above the mounting heat-resistant temperature. In such a case, contact us for some advice.
+
+■ Excessive heat stress that is applied to the capacitor during                                             Capacitor
+  the mounting process causes the dielectric film to thermally        Thermocouple (ø 0.1)
+  shrink, which may make the connection of the metal-sprayed
+  part unstable. Current flowing through the capacitor in this
+  state may reduce its capacitance and put it in open mode.
+  When the capacitor is laid down on its side on the board,                    Measurement point              Printed circuit board
+  solder the capacitor so that a thermocouple inserted
+  between the capacitor and the board shows 125 °C or lower.
+
+
+Mounting conditions (temperature measurement)
+■ When using a chip-type capacitor, measure the temperature profile of the mounted capacitor by the following method
+  so that the capacitor is soldered at a temperature equal to or lower than the heat-resistant temperature.
+
+  <Creating a measurement sample>
+    Bond a thermocouple (ø 0.1 T) to the upper surface of the capacitor with an adhesive.
+
+  <Measuring a temperature profile>
+    As shown in the following diagram, connect the same type of thermocouple (3 m to 4 m) as the thermocouple
+    bonded to the capacitor, to the measuring device.
+    Mount the sample capacitor on the board, subject the capacitor to the soldering process, and measure the
+    temperature profile of the capacitor.
+
+
+         Adhesive
+                                                                                                   Measuring device
+
+
+
+                                               Thermocouple
+
+
+                    Capacitor                                     3 m to 4 m
+
+
+
+■ When using a lead-type capacitor with a low mounting heat-resistant temperature, measure the temperature profile
+  of the mounted capacitor by the following method so that the capacitor is soldered at a temperature equal to or lower
+  than the heat-resistant temperature.
+
+  <Creating a measurement sample>
+    Drill a hole of 0.3 mm to 0.8 mm in diameter on the top of the capacitor, the hole being deep enough to reach
+    the central part of the capacitor, and insert a thermocouple (ø 0.1 T) in the hole, affix the thermocouple with
+    an adhesive.
+
+  <Measuring a temperature profile>
+    As shown in the following diagram, connect the same type of thermocouple (3 m to 4 m) as the thermocouple
+    bonded to the capacitor, to the measuring device.
+    Mount the sample capacitor on the board, subject the capacitor to the soldering process, and measure the
+    temperature profile of the capacitor.
+
+
+                                Thermocouple
+                      (thin wire)
+        Capacitor        ø 0.1                                                                      Measuring device
+
+
+
+
+                                                              3 m to 4 m
+                           Circuit board
+
+
+
+
+                                                                                                                           06-Feb-26
+                                        Matters to Be Observed When Using This Product / Reference information
+
+Storage conditions
+■ Do not store the capacitor in a place where moisture, dust, or corrosive gas (hydrogen chloride, hydrogen sulfide, sulfur
+  dioxide, ammonia, etc.) is present. It may impair the solderability of the external electrodes.
+
+■ Avoid a high-temperature/high-humidity place and keep the capacitor in a place where the temperature/humidity condition
+  is controlled at 35 °C and 85%RH or lower.
+
+■ A capacitor kept in storage for a long period will have oxidized leads surface resulting in lower solderability.
+  Make the storage period as short as possible (about 6 months).
+  Storage conditions vary depending on capacitor types. For more detailed information, please contact us.
+
+
+
+
+                                          Reference information
+Guidelines
+Before using the capacitor, make sure to acquire our delivery specification sheet and confirm service conditions.
+If you find measurement values exceeding specified values in the specification sheet or have any question, feel free to
+contact us. We also advise you to refer to RCR-1001B "Safety Application Guide on Components for Use in Electronic
+and Electrical Equipment" and JEITA RCR-2350D "Safety Application Guide for Fixed Plastic Film Capacitors for Use
+in Electronic Equipment."
+
+
+
+
+                                                                                                                          06-Feb-26
+
+```

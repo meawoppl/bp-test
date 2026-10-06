@@ -1,0 +1,45 @@
+{
+  "pcb_sha256": "adc09fb70898ea112616180e9a82c41cd28acdbca2ce22d7ccd2d7653f480ac1",
+  "channel_order": [
+    "AUX2",
+    "AUX1",
+    "AUX4",
+    "AUX3"
+  ],
+  "before": {
+    "projected_interchannel_crossings": [
+      {
+        "nets": [
+          "AUX3_BUFFERED",
+          "AUX4_BUFFERED"
+        ],
+        "xy_mm": [
+          69.8,
+          104.5
+        ]
+      },
+      {
+        "nets": [
+          "AUX1_BUFFERED",
+          "AUX2_BUFFERED"
+        ],
+        "xy_mm": [
+          69.8,
+          86.5
+        ]
+      }
+    ],
+    "vias": 13,
+    "trace_length_mm": 138.55971026816334,
+    "tracks": 41
+  },
+  "after": {
+    "projected_interchannel_crossings": [],
+    "vias": 11,
+    "trace_length_mm": 128.7812091785964,
+    "tracks": 42
+  },
+  "unrelated_copper_unchanged": true,
+  "placements_unchanged": true,
+  "project_rules_unchanged": true
+}

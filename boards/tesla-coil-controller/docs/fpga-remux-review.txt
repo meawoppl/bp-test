@@ -1,0 +1,63 @@
+FPGA J2 contact remap — Portal edit-stack item
+Date: 2026-09-30
+Request: "Re mux the pins from the fpga, we basically don't need to have any crossovers here now"
+Annotation revision: 4fdb099a21b78c7c5d06
+Applied after prior accepted edits at revision a74545d2ddbaebb63ca0.
+Verified Portal revision: d8a863320d950e176f46
+
+Change
+ADC signals now use the lower J2 row (31–40), escaping south to the
+existing ADC back-copper trunks. Eight gate commands use upper contacts
+2, 4, 5, 6, 7, 9, 10, 11, escaping north then east to their existing via bank.
+The 32 projected ADC/gate-command intersections within the J2 area are gone.
+Existing phase/supply layer crossings are outside that count and unchanged.
+
+The schematic, PCB net assignments, circuit.json, daughterboard-pinout.csv,
+and reviewed routing recipe agree. tools/hardware/tesla_fpga_pinmap.py is
+the shared carrier assignment source. The module's physical pinout is unchanged.
+J2.31's carrier symbol name was corrected from NC to FPGA_IOT_49A; the
+actual module PCB connects this contact to UP5K package pad 43. Freed
+contacts J2.12 and J2.14 have explicit no-connect assignments.
+
+integration/tesla-controller.pcf records the new package-pad constraints.
+It is an integration fragment: logical names must match the consuming
+FPGA top level. No Tesla RTL build or hardware programming was performed.
+
+Verification
+- Native KiCad ERC: 0 findings.
+- Native physical DRC: 0 violations.
+- Native schematic/PCB parity: 0 issues.
+- FPGA routing audit: all 29 nets / 69 pads connected; no route angle
+  errors, overlapping segments, or via holes over SMD pads in its scope.
+- Whole-board opens: the same 2 USB D+/D− connections (J1 to J5).
+- Quality audit: unchanged 303 errors, 2411 warnings, 29 informational
+  findings. No added errors or warnings. The only changed finding is the
+  board-wide informational trace-optimization summary. Existing quality
+  findings are retained, not waived; see command-adc-quality-triage.md.
+- Read-only native before/after comparison confirms all 313 placements,
+  unrelated copper, unrelated connected pad clusters, board drawings,
+  and project settings are unchanged. CT1_ZERO remains J2.22/G0 and
+  CT2_ZERO remains J2.24/G1. Earlier CT1 naming and −5 V placement persist.
+- ADC trace length: 484.898 -> 387.064 mm; gate-command trace length:
+  584.133 -> 614.850 mm. Combined reduction: 67.117 mm.
+- Via count remains 319; no components moved. The board remains 2 layers.
+  Connector escapes retain 0.15 mm widths; ADC back trunks retain 0.20 mm.
+- Copper, schematic J2 crop, and native top 3D views visually inspected.
+  The bundle escapes and connector labels are clear.
+
+The read-only custom comparison measures projected track crossings and
+compares native connected-pad clusters, checks not provided by kct.
+Mutation used the existing reviewed routing replay and schematic generator.
+Commands: tesla_route_reviewed.py, tesla_schematic.py,
+check_tesla_draft.py, check_tesla_fpga_routing.py, and kicad-pcb quality.
+
+Evidence
+fpga-remux-verification.json contains final file hashes and physical mapping.
+fpga-remux-quality.json and fpga-remux-quality-delta.json preserve quality results.
+fpga-remux-before.png and fpga-remux-after.png show the local copper comparison.
+fpga-remux-top.png shows the native 3D view.
+fpga-remux-schematic-j2.png shows the updated symbol and labels.
+validation.json and fpga-routing-audit.json contain native check results.
+
+This completes this single routing annotation. The existing USB opens and
+quality backlog remain; this is a development revision, not a fabrication release.

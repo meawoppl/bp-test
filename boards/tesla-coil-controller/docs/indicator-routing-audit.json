@@ -1,0 +1,89 @@
+{
+  "pcb_sha256": "f744fc20eb0d7c93238b2c800618ae538440c4d4ec278f4db8319300e8aaeb7a",
+  "indicators": [
+    {
+      "label": "BAT",
+      "led": "D80",
+      "resistor": "R800",
+      "sensed_net": "VBAT_24V",
+      "reverse_clamp": null,
+      "all_connected": true
+    },
+    {
+      "label": "12V",
+      "led": "D81",
+      "resistor": "R801",
+      "sensed_net": "+12V_BIAS",
+      "reverse_clamp": null,
+      "all_connected": true
+    },
+    {
+      "label": "5V",
+      "led": "D82",
+      "resistor": "R802",
+      "sensed_net": "VIN_5V",
+      "reverse_clamp": null,
+      "all_connected": true
+    },
+    {
+      "label": "3V3",
+      "led": "D83",
+      "resistor": "R803",
+      "sensed_net": "+3V3",
+      "reverse_clamp": null,
+      "all_connected": true
+    },
+    {
+      "label": "GDT1 L",
+      "led": "D84",
+      "resistor": "R804",
+      "sensed_net": "GDT1_L_SW",
+      "reverse_clamp": "D90",
+      "all_connected": true
+    },
+    {
+      "label": "GDT1 R",
+      "led": "D86",
+      "resistor": "R806",
+      "sensed_net": "GDT1_R_SW",
+      "reverse_clamp": "D91",
+      "all_connected": true
+    },
+    {
+      "label": "GDT2 L",
+      "led": "D87",
+      "resistor": "R807",
+      "sensed_net": "GDT2_L_SW",
+      "reverse_clamp": "D92",
+      "all_connected": true
+    },
+    {
+      "label": "GDT2 R",
+      "led": "D88",
+      "resistor": "R808",
+      "sensed_net": "GDT2_R_SW",
+      "reverse_clamp": "D93",
+      "all_connected": true
+    }
+  ],
+  "removed": [
+    "C80",
+    "D85",
+    "R805",
+    "R820",
+    "R821",
+    "R822",
+    "R823",
+    "R824",
+    "U80"
+  ],
+  "freed_J2_contacts": [
+    15,
+    16,
+    17,
+    19
+  ],
+  "local_copper_items": 35,
+  "new_vias": 0,
+  "native_indicator_unconnected": []
+}

@@ -1,0 +1,12 @@
+{
+  "minimum_other_net_copper_clearance_mm": 0.17500000000000426,
+  "closest": {
+    "changed_track_uuid": "f7f0b5e0-eb2a-5676-9352-291cbf97d78b",
+    "other_item": "0dce8db0-3022-5240-bde4-15300af96141",
+    "other_net": "GND"
+  },
+  "required_clearance_mm": 0.15,
+  "centered_pad_exits": true,
+  "bends_outside_endpoint_pad_bodies": true,
+  "plane_fills": "Checked by native DRC; not included in this independent geometric check"
+}

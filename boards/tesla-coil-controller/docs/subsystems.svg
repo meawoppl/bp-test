@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="1190" viewBox="0 0 1440 1190"><rect width="1440" height="1190" fill="#1a1b26"/><defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10z" fill="#c0caf5"/></marker></defs><g font-family="DejaVu Sans, sans-serif">
+<text x="35" y="44" fill="#c0caf5" font-size="29">Tesla coil controller · subsystem map</text>
+<text x="35" y="74" fill="#c0caf5" font-size="16">Solid: present in schematic   •   Dashed: planned circuitry or external hardware</text>
+<text x="35" y="101" fill="#e0af68" font-size="14">Design draft — partly routed; power values and protection remain to be validated.</text>
+<text x="35" y="144" fill="#e0af68" font-size="19">POWER DOMAINS</text>
+<rect x="35" y="165" width="220" height="110" rx="9" fill="#24283b" stroke="#e0af68" stroke-width="2"/>
+<text x="49" y="192" fill="#e0af68" font-size="18">24 V nominal battery pair</text>
+<text x="49" y="218" fill="#c0caf5" font-size="14">J4 + J30 • one 12 V each</text>
+<text x="49" y="240" fill="#c0caf5" font-size="14">Input fuse / reverse / surge</text>
+<text x="49" y="262" fill="#c0caf5" font-size="14">protection still pending</text>
+<rect x="310" y="165" width="245" height="110" rx="9" fill="#24283b" stroke="#e0af68" stroke-width="2"/>
+<text x="324" y="192" fill="#e0af68" font-size="18">12 V bias module</text>
+<text x="324" y="218" fill="#c0caf5" font-size="14">U30 • LMZ14202H</text>
+<text x="324" y="240" fill="#c0caf5" font-size="14">Bias for GDT gate drivers</text>
+<text x="324" y="262" fill="#c0caf5" font-size="14">UVLO ≈21 V on / 19.4 V off</text>
+<rect x="610" y="165" width="245" height="110" rx="9" fill="#24283b" stroke="#e0af68" stroke-width="2"/>
+<text x="624" y="192" fill="#e0af68" font-size="18">5 V logic module</text>
+<text x="624" y="218" fill="#c0caf5" font-size="14">U31 • LMZ14202H</text>
+<text x="624" y="240" fill="#c0caf5" font-size="14">Daughterboard + ADC AVCC</text>
+<text x="624" y="262" fill="#c0caf5" font-size="14">Independent battery input</text>
+<rect x="910" y="165" width="280" height="110" rx="9" fill="#24283b" stroke="#e0af68" stroke-width="2"/>
+<text x="924" y="192" fill="#e0af68" font-size="18">3.3 V logic</text>
+<text x="924" y="218" fill="#c0caf5" font-size="14">U2 • AP2112K</text>
+<text x="924" y="240" fill="#c0caf5" font-size="14">ADC VDRIVE / logic interfaces</text>
+<text x="924" y="262" fill="#c0caf5" font-size="14">Daughterboard: local rails</text>
+<polyline points="255,215 310,215" fill="none" stroke="#c0caf5" stroke-width="2" marker-end="url(#arrow)"/>
+<polyline points="145,165 145,130 730,130 730,165" fill="none" stroke="#c0caf5" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="565" y="120" fill="#7dcfff" font-size="13">battery DC</text>
+<polyline points="855,215 910,215" fill="none" stroke="#c0caf5" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="310" y="315" width="545" height="105" rx="9" fill="#24283b" stroke="#e0af68" stroke-width="2"/>
+<text x="324" y="342" fill="#e0af68" font-size="18">Direct battery distribution</text>
+<text x="324" y="368" fill="#c0caf5" font-size="14">No main buck • C335–C342 ceramic bank</text>
+<text x="324" y="390" fill="#c0caf5" font-size="14">Single 24 V PSU: + to J4.1, − to J30.2; midpoint unused</text>
+<polyline points="145,275 145,365 310,365" fill="none" stroke="#c0caf5" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="170" y="351" fill="#7dcfff" font-size="13">battery DC</text>
+<polyline points="530,275 530,295 1050,295 1050,315" fill="none" stroke="#c0caf5" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="710" y="290" fill="#7dcfff" font-size="13">12 V bias</text>
+<rect x="910" y="315" width="280" height="105" rx="9" fill="#24283b" stroke="#e0af68" stroke-width="2"/>
+<text x="924" y="342" fill="#e0af68" font-size="18">Two GDT primary drivers</text>
+<text x="924" y="368" fill="#c0caf5" font-size="14">4 × UCC27282 / 8 × STD80N10F7</text>
+<text x="924" y="390" fill="#c0caf5" font-size="14">2.2 uF + 15R/1uF per channel</text>
+<text x="924" y="412" fill="#c0caf5" font-size="14">24 V bridges / 12 V gate bias</text>
+<polyline points="855,367 910,367" fill="none" stroke="#c0caf5" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="862" y="353" fill="#7dcfff" font-size="13">VBAT</text>
+<text x="35" y="468" fill="#7dcfff" font-size="19">MEASUREMENT AND REAL-TIME CONTROL</text>
+<rect x="35" y="495" width="245" height="95" rx="9" fill="#24283b" stroke="#7dcfff" stroke-width="2"/>
+<text x="49" y="522" fill="#7dcfff" font-size="18">Two CST inputs</text>
+<text x="49" y="548" fill="#c0caf5" font-size="14">10 ohm burden + TVS clamp</text>
+<text x="49" y="570" fill="#c0caf5" font-size="14">Target ±2 V; select CT ratio</text>
+<rect x="35" y="625" width="245" height="95" rx="9" fill="#24283b" stroke="#7dcfff" stroke-width="2"/>
+<text x="49" y="652" fill="#7dcfff" font-size="18">Raw / envelope paths</text>
+<text x="49" y="678" fill="#c0caf5" font-size="14">Raw currents → CH5 / CH7</text>
+<text x="49" y="700" fill="#c0caf5" font-size="14">Magnitudes → CH6 / CH8</text>
+<rect x="35" y="755" width="245" height="90" rx="9" fill="#24283b" stroke="#7dcfff" stroke-width="2"/>
+<text x="49" y="782" fill="#7dcfff" font-size="18">Zero-cross comparator</text>
+<text x="49" y="808" fill="#c0caf5" font-size="14">2 × TLV3501 → CT1_ZERO / CT2_ZERO</text>
+<text x="49" y="830" fill="#c0caf5" font-size="14">Separate from sampled path</text>
+<rect x="340" y="545" width="280" height="135" rx="9" fill="#24283b" stroke="#7dcfff" stroke-width="2"/>
+<text x="354" y="572" fill="#7dcfff" font-size="18">8-channel simultaneous ADC</text>
+<text x="354" y="598" fill="#c0caf5" font-size="14">U1 • AD7606C-16</text>
+<text x="354" y="620" fill="#c0caf5" font-size="14">200 kSPS initial target</text>
+<text x="354" y="642" fill="#c0caf5" font-size="14">CH1–4: four auxiliary 0–5 V inputs</text>
+<text x="354" y="664" fill="#c0caf5" font-size="14">100R / 1nF input EMI RC</text>
+<rect x="340" y="730" width="280" height="110" rx="9" fill="#24283b" stroke="#7dcfff" stroke-width="2"/>
+<text x="354" y="757" fill="#7dcfff" font-size="18">Auxiliary instrumentation</text>
+<text x="354" y="783" fill="#c0caf5" font-size="14">Four unity-buffered 0–5 V inputs</text>
+<text x="354" y="805" fill="#c0caf5" font-size="14">Common conversion instant</text>
+<text x="354" y="827" fill="#c0caf5" font-size="14">Anti-alias design still required</text>
+<rect x="700" y="510" width="300" height="180" rx="9" fill="#24283b" stroke="#bb9af7" stroke-width="2"/>
+<text x="714" y="537" fill="#bb9af7" font-size="18">Daughterboard FPGA</text>
+<text x="714" y="563" fill="#c0caf5" font-size="14">iCE40UP5K • 3.3 V I/O</text>
+<text x="714" y="585" fill="#c0caf5" font-size="14">4 × ADC data + BUSY / CONVST</text>
+<text x="714" y="607" fill="#c0caf5" font-size="14">Phase / amplitude estimation</text>
+<text x="714" y="629" fill="#c0caf5" font-size="14">Digital phase lead + drive timing</text>
+<text x="714" y="651" fill="#c0caf5" font-size="14">8 direct commands; enable in fabric</text>
+<rect x="700" y="755" width="300" height="110" rx="9" fill="#24283b" stroke="#9ece6a" stroke-width="2"/>
+<text x="714" y="782" fill="#9ece6a" font-size="18">Daughterboard ESP32-S2</text>
+<text x="714" y="808" fill="#c0caf5" font-size="14">USB / Wi-Fi configuration</text>
+<text x="714" y="830" fill="#c0caf5" font-size="14">Supervision and telemetry</text>
+<text x="714" y="852" fill="#c0caf5" font-size="14">Module link / service signals</text>
+<rect x="1070" y="530" width="330" height="145" rx="9" fill="#24283b" stroke="#f7768e" stroke-width="2"/>
+<text x="1084" y="557" fill="#f7768e" font-size="18">Direct FPGA drive interface</text>
+<text x="1084" y="583" fill="#c0caf5" font-size="14">33R damping + 2.2k pull-downs</text>
+<text x="1084" y="605" fill="#c0caf5" font-size="14">Driver input interlock + UVLO</text>
+<text x="1084" y="627" fill="#c0caf5" font-size="14">Overcurrent: ADC → FPGA</text>
+<text x="1084" y="649" fill="#c0caf5" font-size="14">FPGA inserts timed deadtime</text>
+<rect x="1070" y="735" width="330" height="105" rx="9" fill="#24283b" stroke="#e0af68" stroke-width="2" stroke-dasharray="8 5"/>
+<text x="1084" y="762" fill="#e0af68" font-size="18">External bridge / coil</text>
+<text x="1084" y="788" fill="#c0caf5" font-size="14">2 × existing 1:1 GDTs</text>
+<text x="1084" y="810" fill="#c0caf5" font-size="14">8 × CM600HA: 2 per switch</text>
+<text x="1084" y="832" fill="#c0caf5" font-size="14">Four-switch H-bridge</text>
+<polyline points="155,590 155,625" fill="none" stroke="#c0caf5" stroke-width="2" marker-end="url(#arrow)"/>
+<polyline points="280,670 310,670 310,595 340,595" fill="none" stroke="#c0caf5" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="283" y="582" fill="#7dcfff" font-size="13">CH5–8</text>
+<polyline points="480,730 480,680" fill="none" stroke="#c0caf5" stroke-width="2" marker-end="url(#arrow)"/>
+<polyline points="280,555 300,555 300,800 280,800" fill="none" stroke="#c0caf5" stroke-width="2" marker-end="url(#arrow)"/>
+<polyline points="280,800 320,800 320,885 655,885 655,650 700,650" fill="none" stroke="#c0caf5" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="335" y="907" fill="#7dcfff" font-size="13">Phase edges → FPGA globals G0 / G1</text>
+<polyline points="620,600 700,600" fill="none" stroke="#c0caf5" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="630" y="585" fill="#7dcfff" font-size="13">4 lanes</text>
+<polyline points="850,690 850,755" fill="none" stroke="#c0caf5" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="863" y="721" fill="#7dcfff" font-size="13">module comms</text>
+<polyline points="825,755 825,690" fill="none" stroke="#c0caf5" stroke-width="2" marker-end="url(#arrow)"/>
+<polyline points="1000,565 1070,565" fill="none" stroke="#c0caf5" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="1005" y="548" fill="#7dcfff" font-size="13">drive</text>
+<polyline points="1235,530 1235,367 1190,367" fill="none" stroke="#c0caf5" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="1250" y="472" fill="#7dcfff" font-size="13">8 gate commands</text>
+<polyline points="1190,395 1370,395 1370,710 1235,710 1235,735" fill="none" stroke="#c0caf5" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="1192" y="719" fill="#7dcfff" font-size="13">isolated gate drive</text>
+<text x="35" y="969" fill="#7aa2f7" font-size="19">OPERATING FLOW</text>
+<text x="35" y="1004" fill="#c0caf5" font-size="17">1. Apply DC → bias and logic rails start; GDT power is direct; gate drivers require valid bias.</text>
+<text x="35" y="1037" fill="#c0caf5" font-size="17">2. Configure ADC and FPGA; qualify samples and phase edges; precharge bootstrap supplies.</text>
+<text x="35" y="1070" fill="#c0caf5" font-size="17">3. FPGA measures CT phase/amplitude and schedules drive; ADC overcurrent requests a current-zero burst ending.</text>
+<text x="35" y="1113" fill="#f7768e" font-size="16">Schematic implemented; routing and actual GDT/load qualification are pending.</text>
+<text x="35" y="1145" fill="#565f89" font-size="15">GDT secondary destinations/polarities and per-device gate networks still require confirmation.</text>
+</g></svg>

@@ -1,0 +1,66 @@
+[
+  {
+    "adc_channel": 1,
+    "adc_pin": 49,
+    "signal": "AUX1_BUFFERED",
+    "series_resistor": "R1",
+    "shunt_capacitor": "C11",
+    "range": "0-5V"
+  },
+  {
+    "adc_channel": 2,
+    "adc_pin": 51,
+    "signal": "AUX2_BUFFERED",
+    "series_resistor": "R2",
+    "shunt_capacitor": "C12",
+    "range": "0-5V"
+  },
+  {
+    "adc_channel": 3,
+    "adc_pin": 53,
+    "signal": "AUX3_BUFFERED",
+    "series_resistor": "R3",
+    "shunt_capacitor": "C13",
+    "range": "0-5V"
+  },
+  {
+    "adc_channel": 4,
+    "adc_pin": 55,
+    "signal": "AUX4_BUFFERED",
+    "series_resistor": "R4",
+    "shunt_capacitor": "C14",
+    "range": "0-5V"
+  },
+  {
+    "adc_channel": 5,
+    "adc_pin": 57,
+    "signal": "CT1_RAW",
+    "series_resistor": "R5",
+    "shunt_capacitor": "C15",
+    "range": "+/-2.5V"
+  },
+  {
+    "adc_channel": 6,
+    "adc_pin": 59,
+    "signal": "CT1_ENVELOPE",
+    "series_resistor": "R6",
+    "shunt_capacitor": "C16",
+    "range": "0-5V"
+  },
+  {
+    "adc_channel": 7,
+    "adc_pin": 61,
+    "signal": "CT2_RAW",
+    "series_resistor": "R7",
+    "shunt_capacitor": "C17",
+    "range": "+/-2.5V"
+  },
+  {
+    "adc_channel": 8,
+    "adc_pin": 63,
+    "signal": "CT2_ENVELOPE",
+    "series_resistor": "R8",
+    "shunt_capacitor": "C18",
+    "range": "0-5V"
+  }
+]

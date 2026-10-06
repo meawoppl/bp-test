@@ -1,0 +1,336 @@
+{
+  "pcb_sha256": "195723459252e1552f89eed7b35ed93bda4ef9655d4011144b0bc01485bf653c",
+  "copper_layers": 2,
+  "rails": [
+    {
+      "net": "-5V_CT",
+      "source": "C423.1",
+      "pads": 19,
+      "missing": [],
+      "all_connected": true
+    },
+    {
+      "net": "+12V_AUX",
+      "source": "R740.2",
+      "pads": 10,
+      "missing": [],
+      "all_connected": true
+    },
+    {
+      "net": "+5V_ADC",
+      "source": "U1.1",
+      "pads": 24,
+      "missing": [],
+      "all_connected": true
+    },
+    {
+      "net": "GND",
+      "source": "U30.4",
+      "pads": 246,
+      "missing": [],
+      "all_connected": true
+    },
+    {
+      "net": "AUX1_0_5V",
+      "source": "J3.1",
+      "pads": 5,
+      "missing": [],
+      "all_connected": true
+    },
+    {
+      "net": "AUX1_FILTERED",
+      "source": "U70.3",
+      "pads": 4,
+      "missing": [],
+      "all_connected": true
+    },
+    {
+      "net": "AUX1_BUFFERED",
+      "source": "U70.1",
+      "pads": 4,
+      "missing": [],
+      "all_connected": true
+    },
+    {
+      "net": "ADC_CH1",
+      "source": "U1.49",
+      "pads": 3,
+      "missing": [],
+      "all_connected": true
+    },
+    {
+      "net": "AUX2_0_5V",
+      "source": "J8.1",
+      "pads": 5,
+      "missing": [],
+      "all_connected": true
+    },
+    {
+      "net": "AUX2_FILTERED",
+      "source": "U71.3",
+      "pads": 4,
+      "missing": [],
+      "all_connected": true
+    },
+    {
+      "net": "AUX2_BUFFERED",
+      "source": "U71.1",
+      "pads": 4,
+      "missing": [],
+      "all_connected": true
+    },
+    {
+      "net": "ADC_CH2",
+      "source": "U1.51",
+      "pads": 3,
+      "missing": [],
+      "all_connected": true
+    },
+    {
+      "net": "AUX3_0_5V",
+      "source": "J9.1",
+      "pads": 5,
+      "missing": [],
+      "all_connected": true
+    },
+    {
+      "net": "AUX3_FILTERED",
+      "source": "U72.3",
+      "pads": 4,
+      "missing": [],
+      "all_connected": true
+    },
+    {
+      "net": "AUX3_BUFFERED",
+      "source": "U72.1",
+      "pads": 4,
+      "missing": [],
+      "all_connected": true
+    },
+    {
+      "net": "ADC_CH3",
+      "source": "U1.53",
+      "pads": 3,
+      "missing": [],
+      "all_connected": true
+    },
+    {
+      "net": "AUX4_0_5V",
+      "source": "J10.1",
+      "pads": 5,
+      "missing": [],
+      "all_connected": true
+    },
+    {
+      "net": "AUX4_FILTERED",
+      "source": "U73.3",
+      "pads": 4,
+      "missing": [],
+      "all_connected": true
+    },
+    {
+      "net": "AUX4_BUFFERED",
+      "source": "U73.1",
+      "pads": 4,
+      "missing": [],
+      "all_connected": true
+    },
+    {
+      "net": "ADC_CH4",
+      "source": "U1.55",
+      "pads": 3,
+      "missing": [],
+      "all_connected": true
+    }
+  ],
+  "testpoints": [
+    {
+      "ref": "TP700",
+      "net": "AUX1_0_5V",
+      "position_mm": [
+        31.8,
+        80.3
+      ],
+      "connected": true
+    },
+    {
+      "ref": "TP701",
+      "net": "AUX1_BUFFERED",
+      "position_mm": [
+        54.0,
+        82.0
+      ],
+      "connected": true
+    },
+    {
+      "ref": "TP702",
+      "net": "GND",
+      "position_mm": [
+        54.0,
+        85.0
+      ],
+      "connected": true
+    },
+    {
+      "ref": "TP710",
+      "net": "AUX2_0_5V",
+      "position_mm": [
+        31.8,
+        89.3
+      ],
+      "connected": true
+    },
+    {
+      "ref": "TP711",
+      "net": "AUX2_BUFFERED",
+      "position_mm": [
+        54.0,
+        91.0
+      ],
+      "connected": true
+    },
+    {
+      "ref": "TP712",
+      "net": "GND",
+      "position_mm": [
+        54.0,
+        94.0
+      ],
+      "connected": true
+    },
+    {
+      "ref": "TP720",
+      "net": "AUX3_0_5V",
+      "position_mm": [
+        31.8,
+        98.3
+      ],
+      "connected": true
+    },
+    {
+      "ref": "TP721",
+      "net": "AUX3_BUFFERED",
+      "position_mm": [
+        54.0,
+        100.0
+      ],
+      "connected": true
+    },
+    {
+      "ref": "TP722",
+      "net": "GND",
+      "position_mm": [
+        54.0,
+        103.0
+      ],
+      "connected": true
+    },
+    {
+      "ref": "TP730",
+      "net": "AUX4_0_5V",
+      "position_mm": [
+        31.8,
+        107.3
+      ],
+      "connected": true
+    },
+    {
+      "ref": "TP731",
+      "net": "AUX4_BUFFERED",
+      "position_mm": [
+        54.0,
+        109.0
+      ],
+      "connected": true
+    },
+    {
+      "ref": "TP732",
+      "net": "GND",
+      "position_mm": [
+        54.0,
+        112.0
+      ],
+      "connected": true
+    }
+  ],
+  "same_layer_output_crossings": [],
+  "output_crossings_on_separate_layers": [],
+  "bypass_caps_with_ground_checked": 22,
+  "missing_bypass_returns": [],
+  "angle_errors": [],
+  "overlapping_segments": [],
+  "via_holes_over_smd_pads": [],
+  "whole_board_unconnected": 2,
+  "new_track_count": 169,
+  "new_via_count": 49,
+  "channel_map": [
+    {
+      "adc_channel": 1,
+      "adc_pin": 49,
+      "signal": "AUX1_BUFFERED",
+      "series_resistor": "R1",
+      "shunt_capacitor": "C11",
+      "range": "0-5V"
+    },
+    {
+      "adc_channel": 2,
+      "adc_pin": 51,
+      "signal": "AUX2_BUFFERED",
+      "series_resistor": "R2",
+      "shunt_capacitor": "C12",
+      "range": "0-5V"
+    },
+    {
+      "adc_channel": 3,
+      "adc_pin": 53,
+      "signal": "AUX3_BUFFERED",
+      "series_resistor": "R3",
+      "shunt_capacitor": "C13",
+      "range": "0-5V"
+    },
+    {
+      "adc_channel": 4,
+      "adc_pin": 55,
+      "signal": "AUX4_BUFFERED",
+      "series_resistor": "R4",
+      "shunt_capacitor": "C14",
+      "range": "0-5V"
+    },
+    {
+      "adc_channel": 5,
+      "adc_pin": 57,
+      "signal": "CT1_RAW",
+      "series_resistor": "R5",
+      "shunt_capacitor": "C15",
+      "range": "+/-2.5V"
+    },
+    {
+      "adc_channel": 6,
+      "adc_pin": 59,
+      "signal": "CT1_ENVELOPE",
+      "series_resistor": "R6",
+      "shunt_capacitor": "C16",
+      "range": "0-5V"
+    },
+    {
+      "adc_channel": 7,
+      "adc_pin": 61,
+      "signal": "CT2_RAW",
+      "series_resistor": "R7",
+      "shunt_capacitor": "C17",
+      "range": "+/-2.5V"
+    },
+    {
+      "adc_channel": 8,
+      "adc_pin": 63,
+      "signal": "CT2_ENVELOPE",
+      "series_resistor": "R8",
+      "shunt_capacitor": "C18",
+      "range": "0-5V"
+    }
+  ],
+  "output_layers": [
+    "F.Cu"
+  ],
+  "output_vias": []
+}

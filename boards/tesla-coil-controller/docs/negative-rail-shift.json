@@ -1,0 +1,214 @@
+{
+  "annotation_created_at": "2026-09-30T05:50:25.160Z",
+  "translation_mm": [
+    13.6,
+    0
+  ],
+  "references": [
+    "U44",
+    "R421",
+    "C420",
+    "C421",
+    "C422",
+    "C423"
+  ],
+  "all_pad_connectivity_components_unchanged": true,
+  "connected_rail_pad_counts": {
+    "CT_FLY_P": 2,
+    "CT_FLY_N": 2,
+    "CT_NEG_PUMP": 3,
+    "-5V_CT": 19,
+    "+5V_ADC": 24
+  },
+  "whole_board_unconnected": 25,
+  "via_count_unchanged": true,
+  "unrelated_copper_unchanged": true,
+  "unrelated_placements_unchanged": true,
+  "schematic_and_rules_unchanged": true,
+  "all_tracks_octilinear": true,
+  "native_drc_violations": 0,
+  "changes": {
+    "refs": [
+      "U44",
+      "R421",
+      "C420",
+      "C421",
+      "C422",
+      "C423"
+    ],
+    "translation_mm": [
+      13.6,
+      0
+    ],
+    "translated": [
+      "06e4c978-b256-548b-9003-3fda9b5fd976",
+      "1c7150ff-6040-5a30-a35c-8c4d021a9ec5",
+      "61b5fe08-2fb5-5506-b2a4-49c8b6c90a63",
+      "7dc2ff66-d8e5-5826-a751-7e1d90be4e89",
+      "803ff6e0-8ee9-5cfb-8eb3-fb02056a1664",
+      "59c88d2b-dd77-577d-aad5-49ff144c2cd7",
+      "69ce733e-7c27-557f-adf3-43555b5600f6",
+      "d463a1e3-f345-5e57-b1cc-45b1e817ed66",
+      "f7f0b5e0-eb2a-5676-9352-291cbf97d78b",
+      "ae6eeb2c-e558-5cde-8abe-778c5a63d954",
+      "4f9bb9e1-eb65-54f6-873d-8ce3d97fff79",
+      "365e51a6-183c-56e9-a6f7-93c41ade18a4",
+      "ab59e5e2-53df-59d2-af16-f7ebee4abab3",
+      "d8ee8417-4ce2-5f82-9df9-73ed18d5cef9",
+      "fc0d3d0c-c9cd-5a5f-84e1-5205c388390a",
+      "0dce8db0-3022-5240-bde4-15300af96141",
+      "2c134dbc-a960-5ff0-ba5c-646f7980faa9",
+      "6e719c07-f1ce-597c-be6a-b7a70e5720d3",
+      "a12742c2-4673-5a51-a607-77bbf178d544",
+      "43ef79cb-31c5-5c16-a931-85cefcaa976b",
+      "54e39218-7507-557c-8975-5a39f1cadd69",
+      "0e7bc2e5-e8b4-57a9-ba78-8f1e178f286a",
+      "dfb03097-c28f-5f9c-923e-89071ded0b09",
+      "045a512c-3a89-5c69-a50f-ca195750ca54",
+      "3a189026-20b7-5540-905d-1342d5a9923c",
+      "a4f7b41e-71bc-5ec1-8377-de82884651a2",
+      "af98ff11-d3e6-5d15-ac60-9dcd8eec50bb",
+      "ff07a11e-7708-5445-82ea-8c0e507e01d2",
+      "080cd7f0-cd64-5c64-a230-e4358190d490",
+      "59dfd8fc-35d2-5e6b-a359-52fb77c68016",
+      "657dec48-5a30-58cc-bc3e-77d8f4590893"
+    ],
+    "removed": [
+      "251f5bd2-7d9d-5c6b-8167-ae11fb533964",
+      "c43f7bf8-93e1-57ff-b77e-60e9c836cd2e",
+      "dfb03097-c28f-5f9c-923e-89071ded0b09",
+      "d060fe28-993f-5186-a1e2-d9009e27305a",
+      "d5e7fff3-877e-5a68-8240-456a5162c5b1"
+    ],
+    "added": [
+      "9bc60f46-16b1-53aa-b499-f7da3ba40f7a",
+      "c1e3377f-8795-5e44-8e41-1e089151e21a",
+      "0220cc95-0b24-5cc8-8129-84e68a6284a0",
+      "8f7eb3c4-33a1-5709-a4f8-9202e9141bf0",
+      "71519d35-7d52-5ad5-8fab-bde59a3846b4",
+      "7ba6e4d5-4799-5bc7-ac72-23c93d389d41",
+      "d9da23ab-929c-5fdf-b727-6058e63bd0fb"
+    ]
+  },
+  "changed_existing_copper": [
+    "045a512c-3a89-5c69-a50f-ca195750ca54",
+    "06e4c978-b256-548b-9003-3fda9b5fd976",
+    "080cd7f0-cd64-5c64-a230-e4358190d490",
+    "0dce8db0-3022-5240-bde4-15300af96141",
+    "0e7bc2e5-e8b4-57a9-ba78-8f1e178f286a",
+    "1c7150ff-6040-5a30-a35c-8c4d021a9ec5",
+    "2c134dbc-a960-5ff0-ba5c-646f7980faa9",
+    "365e51a6-183c-56e9-a6f7-93c41ade18a4",
+    "3a189026-20b7-5540-905d-1342d5a9923c",
+    "43ef79cb-31c5-5c16-a931-85cefcaa976b",
+    "4f9bb9e1-eb65-54f6-873d-8ce3d97fff79",
+    "54e39218-7507-557c-8975-5a39f1cadd69",
+    "59c88d2b-dd77-577d-aad5-49ff144c2cd7",
+    "59dfd8fc-35d2-5e6b-a359-52fb77c68016",
+    "61b5fe08-2fb5-5506-b2a4-49c8b6c90a63",
+    "657dec48-5a30-58cc-bc3e-77d8f4590893",
+    "69ce733e-7c27-557f-adf3-43555b5600f6",
+    "6e719c07-f1ce-597c-be6a-b7a70e5720d3",
+    "7dc2ff66-d8e5-5826-a751-7e1d90be4e89",
+    "803ff6e0-8ee9-5cfb-8eb3-fb02056a1664",
+    "9aebaf8a-90ed-57aa-aebe-d3973da90192",
+    "a12742c2-4673-5a51-a607-77bbf178d544",
+    "a4f7b41e-71bc-5ec1-8377-de82884651a2",
+    "a6199677-ad0f-5da2-b485-6a17cae170f6",
+    "ab59e5e2-53df-59d2-af16-f7ebee4abab3",
+    "ae6eeb2c-e558-5cde-8abe-778c5a63d954",
+    "af98ff11-d3e6-5d15-ac60-9dcd8eec50bb",
+    "d463a1e3-f345-5e57-b1cc-45b1e817ed66",
+    "d8ee8417-4ce2-5f82-9df9-73ed18d5cef9",
+    "f7f0b5e0-eb2a-5676-9352-291cbf97d78b",
+    "fc0d3d0c-c9cd-5a5f-84e1-5205c388390a",
+    "ff07a11e-7708-5445-82ea-8c0e507e01d2"
+  ],
+  "CT_FLY_P": {
+    "before": {
+      "length_mm": 6.925,
+      "vias": 0
+    },
+    "after": {
+      "length_mm": 6.925,
+      "vias": 0
+    }
+  },
+  "CT_FLY_N": {
+    "before": {
+      "length_mm": 3.347,
+      "vias": 0
+    },
+    "after": {
+      "length_mm": 3.347,
+      "vias": 0
+    }
+  },
+  "CT_NEG_PUMP": {
+    "before": {
+      "length_mm": 5.337,
+      "vias": 0
+    },
+    "after": {
+      "length_mm": 5.337,
+      "vias": 0
+    }
+  },
+  "-5V_CT": {
+    "before": {
+      "length_mm": 267.364,
+      "vias": 17
+    },
+    "after": {
+      "length_mm": 253.764,
+      "vias": 17
+    }
+  },
+  "+5V_ADC": {
+    "before": {
+      "length_mm": 300.873,
+      "vias": 19
+    },
+    "after": {
+      "length_mm": 301.313,
+      "vias": 19
+    }
+  },
+  "source_revision": "ba964551a1900a20ed40",
+  "source_session": "bp-test-rust-events",
+  "before_sha256": "e3dd9d98930ae6a596d8f7d1197ed66031114ebb86159bfad152b5658a1cdea6",
+  "after_sha256": "a00784f1700ad36e24e0c96b6241a215de491906d0989b83e2df08a10c8ea8f4",
+  "native_validation": {
+    "erc": 0,
+    "physical_drc": 0,
+    "schematic_parity": 0,
+    "unconnected_items": 25
+  },
+  "quality_counts": {
+    "error": 301,
+    "warning": 2422,
+    "info": 29
+  },
+  "quality_delta": "negative-rail-shift-quality-delta.json",
+  "quality_report": "negative-rail-shift-quality.json",
+  "recipe_replay_geometry_identical": true,
+  "recipe_repeat_byte_identical": true,
+  "geometry": {
+    "changed_copper_collinear_overlaps": [],
+    "changed_via_drill_pad_overlap": []
+  },
+  "preview": "negative-rail-shift.png",
+  "before_preview": "negative-rail-shift-before.png",
+  "power_audit": "power-routing-audit.json",
+  "cst_audit": "cst-routing-audit.json",
+  "aux_audit": "aux-routing-audit.json",
+  "visual_review": [
+    "Local copper pad exits and flying-capacitor loop retained",
+    "No added copper tails or overlapping collinear segments",
+    "U44 orientation and footprint pin-1 geometry unchanged",
+    "Ground returns retained; C423 ground via moved 0.3 mm down to clear CT_RAW",
+    "Updated subsystem outline and label positions"
+  ],
+  "fabrication_ready": false,
+  "fabrication_outputs": "No fabrication outputs generated for this focused draft edit"
+}

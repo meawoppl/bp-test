@@ -1,0 +1,91 @@
+{
+  "group": "U42 comparator passives",
+  "before": {
+    "R414": [
+      99.0,
+      125.0,
+      0.0
+    ],
+    "C412": [
+      104.0,
+      128.0,
+      180.0
+    ],
+    "C424": [
+      110.0,
+      140.0,
+      0.0
+    ]
+  },
+  "after": {
+    "R414": [
+      100,
+      125,
+      0
+    ],
+    "C412": [
+      104,
+      128,
+      0
+    ],
+    "C424": [
+      109,
+      136.4,
+      0
+    ]
+  },
+  "placement": "R414 aligned with D43/C410; C412 oriented for direct CT_MID feed and rightward ground return; C424 aligned below R416/C413 at 3.45 mm pitch",
+  "changed_tracks": [
+    "2cfacc2a-d934-54a0-84d5-93b9a7a9b7cc",
+    "e40e361f-987f-5cb5-8401-1e4aafe017b3",
+    "06cc0c92-449b-53b2-b894-a3731c2b63f5",
+    "a7797083-b84d-5671-96c0-e24bda3b3ede",
+    "c98e34e5-6034-5395-954f-04e136f85c73",
+    "c46c8d03-2b02-5068-8ce5-e254c42c256f",
+    "21fce83b-6881-5554-b49a-721328a2d436",
+    "b551ca9d-f78b-5320-8500-3684e49b4ff2"
+  ],
+  "removed_tracks": [
+    "fab2874a-d8cd-59ee-8821-9195d24fb68b",
+    "9481e8ef-cf01-5c38-a01d-ba621971aca1",
+    "ba1f2bf5-e220-5e90-b536-0af2fa70d108",
+    "61937eda-4d2c-589a-a1c7-a16d0f1e9e15",
+    "a1e340a6-7ca1-557d-a001-0ce407e3431b",
+    "6b56c574-38e9-5a18-b6ba-7610ca28eb55",
+    "a501cda1-7c83-5f5c-b845-77c063429c38"
+  ],
+  "moved_vias": {
+    "32228be5-86b2-53d9-a880-7aec167a66dc": [
+      106.5,
+      128
+    ],
+    "4bbc49a1-56c2-5b1e-a5f4-3ad85ac2137c": [
+      111.5,
+      136.4
+    ]
+  },
+  "added_vias": 0,
+  "verified_fully_connected_pad_counts": {
+    "CT_MID": 4,
+    "CT_PHASE": 6,
+    "+3V3": 26,
+    "GND": 244
+  },
+  "whole_board_unconnected": 25,
+  "project_rules_preserved": true,
+  "pcb_sha256": "3376aabb5514756c76205f7db8a8fba51bbf8504b212993fb950df699a2ac80d",
+  "validation": {
+    "native_erc": 0,
+    "native_physical_drc": 0,
+    "schematic_parity": 0,
+    "whole_board_unconnected": 25,
+    "local_connectivity_audit": "pass",
+    "visual_review": "front/rear copper and refreshed native top 3D render inspected",
+    "quality_counts": {
+      "error": 299,
+      "warning": 2422,
+      "info": 29
+    },
+    "quality_delta": "C413/C424 placement finding reduced from warning to information; no new error or warning identities"
+  }
+}

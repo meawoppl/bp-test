@@ -1,0 +1,18 @@
+{
+  "igbt": "CM600HA-24H",
+  "igbt_count": 8,
+  "parallel_devices_per_switch": 2,
+  "bridge": "full H-bridge",
+  "gdt_count": 2,
+  "gdt_primary_to_secondary_ratio": 1,
+  "gdt_driver_rail_v": 24,
+  "gate_overdrive": "explicitly user accepted; retain datasheet absolute-maximum caveat without repeated approval requests",
+  "input_source": "Two series 12 V car batteries; 24 V nominal; direct unregulated GDT bridge feed",
+  "overcurrent": "Raw ADC CH5 / CH7 -> FPGA; current-zero termination; no independent analog trip comparator",
+  "output_topology": "Two battery-fed N-MOS full bridges with 12 V bootstrap gate drivers",
+  "maximum_burst_and_repetition": "Awaiting user definition / pulse component qualification",
+  "input_nominal_voltage_v": 24,
+  "gdt_driver_rail": "VBAT_24V, unregulated; follows battery voltage",
+  "gdt_commands": "Eight independent FPGA commands, four per bridge; individual 33R series / 2.2k pull-downs; no shared hardware ARM",
+  "ct_cable_filter": "Two-conductor CMC; matched 150pF cable shunts; 1nF burden shunt"
+}

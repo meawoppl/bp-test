@@ -1,0 +1,32 @@
+{
+  "+5V_ADC": {
+    "before": {
+      "track_length_mm": 414.461,
+      "vias": 23
+    },
+    "after": {
+      "track_length_mm": 321.126,
+      "vias": 21
+    }
+  },
+  "+12V_AUX": {
+    "before": {
+      "track_length_mm": 106.604,
+      "vias": 7
+    },
+    "after": {
+      "track_length_mm": 80.83,
+      "vias": 7
+    }
+  },
+  "+12V_BIAS": {
+    "before": {
+      "track_length_mm": 364.969,
+      "vias": 6
+    },
+    "after": {
+      "track_length_mm": 331.262,
+      "vias": 6
+    }
+  }
+}

@@ -1,0 +1,141 @@
+(footprint "CMC_TAI-TECH_WCM4532F2SF"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "TAI-TECH WCM4532F2SF recommended land pattern, datasheet pp2-3; 1-2 and 4-3 windings; dots at 1/4")
+	(property "Reference" "L"
+		(at 0 -3 0)
+		(layer "F.SilkS")
+		(uuid "b4c550b6-ebb9-448e-b294-9e80451ed4ab")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "CMC_TAI-TECH_WCM4532F2SF"
+		(at 0 3 0)
+		(layer "F.Fab")
+		(uuid "8ee59341-73c3-44e5-9d5b-998b80e401dd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b73ec374-e703-461e-93c0-3989ad488364")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "92edd548-a191-4725-99e3-99c3acd19af6")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -2.65 -1.5)
+		(end -2.65 -0.75)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b07fe416-c55c-4864-a7b4-8709fea494c4")
+	)
+	(fp_line
+		(start -2.25 -2.1)
+		(end 2.25 -2.1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bc9b3731-28fd-416d-83a2-b8ee5ab0a769")
+	)
+	(fp_line
+		(start -2.25 2.1)
+		(end 2.25 2.1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8c89ec96-aa44-4c85-a986-2cbee005eef7")
+	)
+	(fp_rect
+		(start -2.75 -2.2)
+		(end 2.75 2.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "413eb6ec-ad67-46cc-9c6d-9e087cb37932")
+	)
+	(fp_rect
+		(start -2.25 -1.6)
+		(end 2.25 1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "318cd6ef-a909-48c8-8eb6-f52e184ee0b1")
+	)
+	(pad "1" smd rect
+		(at -1.825 -1.125)
+		(size 1.15 1.55)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "2875b551-ab4a-4f5d-aa13-b9e68625da54")
+	)
+	(pad "2" smd rect
+		(at 1.825 -1.125)
+		(size 1.15 1.55)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "fc185356-e3b6-4054-b068-4d950f95aec3")
+	)
+	(pad "3" smd rect
+		(at 1.825 1.125)
+		(size 1.15 1.55)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "2c4e5bd3-f139-4501-afb9-308f47368475")
+	)
+	(pad "4" smd rect
+		(at -1.825 1.125)
+		(size 1.15 1.55)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "00e247fb-5a6a-496c-bf5b-ca0137312496")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/3dmodels/WCM4532F2SF_envelope.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

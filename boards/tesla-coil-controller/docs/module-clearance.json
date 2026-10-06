@@ -1,0 +1,14 @@
+{
+  "envelope_mm": [
+    93,
+    28.2,
+    113,
+    73.2
+  ],
+  "allowed": [
+    "J1",
+    "J2",
+    "H1"
+  ],
+  "overlapping_components": []
+}

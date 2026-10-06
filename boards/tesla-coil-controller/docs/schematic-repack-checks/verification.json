@@ -1,0 +1,52 @@
+{
+  "annotation_revision": "31a5eb8e96f2c91e0d42",
+  "baseline_revision": "068e32479596e4383bf7",
+  "all_exported_components_identical": true,
+  "components": 331,
+  "all_net_names_and_pin_sets_identical": true,
+  "nets": 187,
+  "embedded_library_definitions_identical": true,
+  "all_symbol_attributes_and_relative_fields_identical": true,
+  "symbols_including_power": 550,
+  "annotation_text_and_font_sizes_identical": true,
+  "schematic_object_counts_identical": {
+    "version": 1,
+    "generator": 1,
+    "uuid": 1,
+    "paper": 1,
+    "title_block": 1,
+    "lib_symbols": 1,
+    "symbol": 550,
+    "wire": 770,
+    "global_label": 333,
+    "no_connect": 46,
+    "rectangle": 27,
+    "text": 103,
+    "junction": 234
+  },
+  "unchanged_files": {
+    "controller.kicad_pcb": true,
+    "controller.kicad_pro": true,
+    "Tesla.kicad_sym": true
+  },
+  "boxes": 27,
+  "box_contents_inside_borders": true,
+  "no_overlapping_boxes": true,
+  "page_mm": {
+    "before": [
+      1669.73,
+      1141.05
+    ],
+    "after": [
+      1604.01,
+      908.05
+    ]
+  },
+  "page_area_reduction_percent": 23.55,
+  "sha256": {
+    "controller.kicad_sch": "f2b5141dd1abad7de3899bc79586731d3d814fabe391e4bd833e5a2172757f76",
+    "controller.kicad_pcb": "6760aecdf3a44b736f700e5ce13bae7efe82aa53db7e0343fdc76f4e204c98e3",
+    "controller.kicad_pro": "40e593eb2309fcddf3cd616a5e82b970cb97e4b268436e03b5e1288843705533",
+    "Tesla.kicad_sym": "d011a71185d908b45cabd1d82cbd393b0d19fb2b755ee51913bbc03485bcdfc9"
+  }
+}

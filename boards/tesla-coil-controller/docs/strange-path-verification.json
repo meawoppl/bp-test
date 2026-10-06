@@ -1,0 +1,135 @@
+{
+  "annotation_created_at": "2026-09-30T07:13:31.258Z",
+  "source_revision": "4c4457dea56a0532039e",
+  "scope": "R421.2 to C423.1, -5V_CT",
+  "width_mm": 0.35,
+  "layer": "F.Cu",
+  "before": {
+    "track": 1337,
+    "via": 321
+  },
+  "after": {
+    "track": 1337,
+    "via": 321
+  },
+  "path_length_mm": {
+    "before": 5.1724242404917495,
+    "after": 4.482995128834865,
+    "reduction": 0.6894291116568843
+  },
+  "all_pad_connectivity_components_identical": true,
+  "scoped_net_fully_connected": true,
+  "unrelated_copper_identical": true,
+  "all_vias_identical": true,
+  "footprint_geometry_nets_and_positions_identical": true,
+  "drawings_identical": true,
+  "schematic_and_rules_identical": true,
+  "recipe_matches_board": true,
+  "noncopper_recipe_identical": true,
+  "all_tracks_octilinear": true,
+  "unconnected_before": 2,
+  "unconnected_after": 2,
+  "changes": {
+    "69ce733e-7c27-557f-adf3-43555b5600f6": {
+      "before": {
+        "uuid": "69ce733e-7c27-557f-adf3-43555b5600f6",
+        "net": "-5V_CT",
+        "start_nm": [
+          55687500,
+          116750000
+        ],
+        "end_nm": [
+          55200000,
+          116750000
+        ],
+        "layer": "F.Cu",
+        "kind": "track",
+        "width_nm": 350000
+      },
+      "after": {
+        "uuid": "69ce733e-7c27-557f-adf3-43555b5600f6",
+        "net": "-5V_CT",
+        "start_nm": [
+          55687500,
+          116750000
+        ],
+        "end_nm": [
+          55687500,
+          117700000
+        ],
+        "layer": "F.Cu",
+        "kind": "track",
+        "width_nm": 350000
+      }
+    },
+    "59c88d2b-dd77-577d-aad5-49ff144c2cd7": {
+      "before": {
+        "uuid": "59c88d2b-dd77-577d-aad5-49ff144c2cd7",
+        "net": "-5V_CT",
+        "start_nm": [
+          55200000,
+          119950000
+        ],
+        "end_nm": [
+          56250000,
+          121000000
+        ],
+        "layer": "F.Cu",
+        "kind": "track",
+        "width_nm": 350000
+      },
+      "after": {
+        "uuid": "59c88d2b-dd77-577d-aad5-49ff144c2cd7",
+        "net": "-5V_CT",
+        "start_nm": [
+          55687500,
+          117700000
+        ],
+        "end_nm": [
+          56250000,
+          118262500
+        ],
+        "layer": "F.Cu",
+        "kind": "track",
+        "width_nm": 350000
+      }
+    },
+    "f7f0b5e0-eb2a-5676-9352-291cbf97d78b": {
+      "before": {
+        "uuid": "f7f0b5e0-eb2a-5676-9352-291cbf97d78b",
+        "net": "-5V_CT",
+        "start_nm": [
+          55200000,
+          116750000
+        ],
+        "end_nm": [
+          55200000,
+          119950000
+        ],
+        "layer": "F.Cu",
+        "kind": "track",
+        "width_nm": 350000
+      },
+      "after": {
+        "uuid": "f7f0b5e0-eb2a-5676-9352-291cbf97d78b",
+        "net": "-5V_CT",
+        "start_nm": [
+          56250000,
+          118262500
+        ],
+        "end_nm": [
+          56250000,
+          121000000
+        ],
+        "layer": "F.Cu",
+        "kind": "track",
+        "width_nm": 350000
+      }
+    }
+  },
+  "sha256": {
+    "controller.kicad_pcb": "398f75d0500b6ba0fece3bb6c9623f57c3938b743e4a9f34ee37cd682a198f8e",
+    "controller.kicad_sch": "d7c835048426ddd835efacd77b97f69f1e82488531d796c894160ee7e032665d",
+    "controller.kicad_pro": "40e593eb2309fcddf3cd616a5e82b970cb97e4b268436e03b5e1288843705533"
+  }
+}

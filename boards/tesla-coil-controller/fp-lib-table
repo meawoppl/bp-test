@@ -1,0 +1,1 @@
+(fp_lib_table (lib (name "Tesla") (type "KiCad") (uri "${KIPRJMOD}/Tesla.pretty") (options "") (descr "Project-local Tesla controller")))

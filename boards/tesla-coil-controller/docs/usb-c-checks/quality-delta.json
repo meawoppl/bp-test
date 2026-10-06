@@ -1,0 +1,394 @@
+{
+  "before": {
+    "by_rule": {
+      "decoupling_distance": {
+        "count": 25,
+        "profile_item": "decoupling.max_pin_distance_mm",
+        "severity": "warning",
+        "source": "plugin"
+      },
+      "mistake.bom_health.component_missing_manufacturer_part_number": {
+        "count": 206,
+        "profile_item": null,
+        "severity": "warning",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.bypass_capacitor.bypass_capacitor_placement_could_be_improved": {
+        "count": 19,
+        "profile_item": "decoupling.max_pin_distance_mm",
+        "severity": "info",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin": {
+        "count": 1057,
+        "profile_item": "decoupling.max_pin_distance_mm",
+        "severity": "warning",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.connectivity.led_missing_series_resistor": {
+        "count": 4,
+        "profile_item": null,
+        "severity": "warning",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.connectivity.missing_pull_up_resistor": {
+        "count": 1,
+        "profile_item": null,
+        "severity": "warning",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.differential_pair.differential_pair_length_matching_could_be_improved": {
+        "count": 1,
+        "profile_item": null,
+        "severity": "info",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.manufacturability.acute_angle_in_trace_acid_trap": {
+        "count": 11,
+        "profile_item": null,
+        "severity": "warning",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.manufacturability.thermal_imbalance_may_cause_tombstoning": {
+        "count": 102,
+        "profile_item": null,
+        "severity": "warning",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.power_trace.power_trace_too_narrow": {
+        "count": 11,
+        "profile_item": null,
+        "severity": "warning",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.thermal_management.thermal_pad_may_need_more_vias": {
+        "count": 2,
+        "profile_item": null,
+        "severity": "info",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.thermal_management.thermal_pad_not_connected_to_ground": {
+        "count": 8,
+        "profile_item": null,
+        "severity": "warning",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.via_placement.via_in_smd_pad": {
+        "count": 4,
+        "profile_item": "vias.in_pad",
+        "severity": "error",
+        "source": "kct detect-mistakes"
+      },
+      "optimize_traces.mergeable_segments": {
+        "count": 1,
+        "profile_item": null,
+        "severity": "info",
+        "source": "kct optimize-traces"
+      },
+      "pad_grid": {
+        "count": 3,
+        "profile_item": null,
+        "severity": "warning",
+        "source": "kct check"
+      },
+      "silk_edge_clearance": {
+        "count": 6,
+        "profile_item": null,
+        "severity": "warning",
+        "source": "kct check"
+      },
+      "silk_explanatory_text": {
+        "count": 30,
+        "profile_item": "silkscreen.explanatory_text",
+        "severity": "error",
+        "source": "plugin"
+      },
+      "silk_over_copper": {
+        "count": 68,
+        "profile_item": "silkscreen.over_vias_or_pads",
+        "severity": "error",
+        "source": "kct check"
+      },
+      "silk_overlap": {
+        "count": 143,
+        "profile_item": "silkscreen.over_vias_or_pads",
+        "severity": "error",
+        "source": "kct check"
+      },
+      "silk_pad_clearance": {
+        "count": 57,
+        "profile_item": null,
+        "severity": "error",
+        "source": "kct check"
+      },
+      "silk_text_below_min": {
+        "count": 17,
+        "profile_item": "silkscreen.text_height_mm",
+        "severity": "warning",
+        "source": "plugin"
+      },
+      "silkscreen_line_width": {
+        "count": 926,
+        "profile_item": null,
+        "severity": "warning",
+        "source": "kct check"
+      },
+      "silkscreen_text_height": {
+        "count": 17,
+        "profile_item": "silkscreen.text_height_mm",
+        "severity": "warning",
+        "source": "kct check"
+      }
+    },
+    "errors": 302,
+    "infos": 23,
+    "suppressed": 0,
+    "warnings": 2394
+  },
+  "after": {
+    "by_rule": {
+      "decoupling_distance": {
+        "count": 25,
+        "profile_item": "decoupling.max_pin_distance_mm",
+        "severity": "warning",
+        "source": "plugin"
+      },
+      "mistake.bom_health.component_missing_manufacturer_part_number": {
+        "count": 205,
+        "profile_item": null,
+        "severity": "warning",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.bypass_capacitor.bypass_capacitor_placement_could_be_improved": {
+        "count": 19,
+        "profile_item": "decoupling.max_pin_distance_mm",
+        "severity": "info",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin": {
+        "count": 1056,
+        "profile_item": "decoupling.max_pin_distance_mm",
+        "severity": "warning",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.connectivity.led_missing_series_resistor": {
+        "count": 4,
+        "profile_item": null,
+        "severity": "warning",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.connectivity.missing_pull_up_resistor": {
+        "count": 1,
+        "profile_item": null,
+        "severity": "warning",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.decoupling.missing_decoupling_capacitor": {
+        "count": 1,
+        "profile_item": "decoupling.max_pin_distance_mm",
+        "severity": "error",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.differential_pair.differential_pair_length_matching_could_be_improved": {
+        "count": 2,
+        "profile_item": null,
+        "severity": "info",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.manufacturability.acute_angle_in_trace_acid_trap": {
+        "count": 11,
+        "profile_item": null,
+        "severity": "warning",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.manufacturability.thermal_imbalance_may_cause_tombstoning": {
+        "count": 106,
+        "profile_item": null,
+        "severity": "warning",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.power_trace.power_trace_too_narrow": {
+        "count": 11,
+        "profile_item": null,
+        "severity": "warning",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.thermal_management.thermal_pad_may_need_more_vias": {
+        "count": 2,
+        "profile_item": null,
+        "severity": "info",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.thermal_management.thermal_pad_not_connected_to_ground": {
+        "count": 8,
+        "profile_item": null,
+        "severity": "warning",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.via_placement.via_in_smd_pad": {
+        "count": 4,
+        "profile_item": "vias.in_pad",
+        "severity": "error",
+        "source": "kct detect-mistakes"
+      },
+      "optimize_traces.mergeable_segments": {
+        "count": 1,
+        "profile_item": null,
+        "severity": "info",
+        "source": "kct optimize-traces"
+      },
+      "silk_edge_clearance": {
+        "count": 6,
+        "profile_item": null,
+        "severity": "warning",
+        "source": "kct check"
+      },
+      "silk_explanatory_text": {
+        "count": 30,
+        "profile_item": "silkscreen.explanatory_text",
+        "severity": "error",
+        "source": "plugin"
+      },
+      "silk_over_copper": {
+        "count": 68,
+        "profile_item": "silkscreen.over_vias_or_pads",
+        "severity": "error",
+        "source": "kct check"
+      },
+      "silk_overlap": {
+        "count": 143,
+        "profile_item": "silkscreen.over_vias_or_pads",
+        "severity": "error",
+        "source": "kct check"
+      },
+      "silk_pad_clearance": {
+        "count": 57,
+        "profile_item": null,
+        "severity": "error",
+        "source": "kct check"
+      },
+      "silk_text_below_min": {
+        "count": 17,
+        "profile_item": "silkscreen.text_height_mm",
+        "severity": "warning",
+        "source": "plugin"
+      },
+      "silkscreen_line_width": {
+        "count": 923,
+        "profile_item": null,
+        "severity": "warning",
+        "source": "kct check"
+      },
+      "silkscreen_text_height": {
+        "count": 17,
+        "profile_item": "silkscreen.text_height_mm",
+        "severity": "warning",
+        "source": "kct check"
+      }
+    },
+    "errors": 303,
+    "infos": 24,
+    "suppressed": 0,
+    "warnings": 2390
+  },
+  "added": [
+    {
+      "type": "mistake.decoupling.missing_decoupling_capacitor",
+      "severity": "error",
+      "description": "Missing decoupling capacitor: U3 has a power pin on net 'USB_D+', but no bypass/decoupling capacitor connects that net to a recognized ground return. Without local decoupling, supply transients from switching current can couple into the IC and cause glitches, resets, or radiated noise.",
+      "count": 1
+    },
+    {
+      "type": "mistake.manufacturability.thermal_imbalance_may_cause_tombstoning",
+      "severity": "warning",
+      "description": "Thermal imbalance may cause tombstoning: R27 pad 2 is connected to copper zone (GND), while the other pad is not. The thermal mass difference can cause tombstoning: the pad on the zone heats slower, so solder melts unevenly.",
+      "count": 1
+    },
+    {
+      "type": "mistake.manufacturability.thermal_imbalance_may_cause_tombstoning",
+      "severity": "warning",
+      "description": "Thermal imbalance may cause tombstoning: R25 pad 2 is connected to copper zone (GND), while the other pad is not. The thermal mass difference can cause tombstoning: the pad on the zone heats slower, so solder melts unevenly.",
+      "count": 1
+    },
+    {
+      "type": "mistake.manufacturability.thermal_imbalance_may_cause_tombstoning",
+      "severity": "warning",
+      "description": "Thermal imbalance may cause tombstoning: C22 pad 2 is connected to copper zone (GND), while the other pad is not. The thermal mass difference can cause tombstoning: the pad on the zone heats slower, so solder melts unevenly.",
+      "count": 1
+    },
+    {
+      "type": "mistake.manufacturability.thermal_imbalance_may_cause_tombstoning",
+      "severity": "warning",
+      "description": "Thermal imbalance may cause tombstoning: R24 pad 2 is connected to copper zone (GND), while the other pad is not. The thermal mass difference can cause tombstoning: the pad on the zone heats slower, so solder melts unevenly.",
+      "count": 1
+    },
+    {
+      "type": "mistake.power_trace.power_trace_too_narrow",
+      "severity": "warning",
+      "description": "Power trace too narrow: Power trace on GND is only 0.25mm wide. Narrow power traces cause voltage drop and can overheat under load. For 1A at 1oz copper, traces should be at least 0.5mm wide.",
+      "count": 1
+    },
+    {
+      "type": "mistake.differential_pair.differential_pair_length_matching_could_be_improved",
+      "severity": "info",
+      "description": "Differential pair length matching could be improved: USB_D+/USB_D- have 1.7mm length difference. While within spec (2.0mm max), better matching improves signal integrity margin.",
+      "count": 1
+    },
+    {
+      "type": "optimize_traces.mergeable_segments",
+      "severity": "info",
+      "description": "kct optimize-traces would remove 44 of 1406 segments (corners 979 -> 1078, length -0.6%); merge collinear segments and drop zigzags",
+      "count": 1
+    }
+  ],
+  "removed": [
+    {
+      "type": "mistake.bom_health.component_missing_manufacturer_part_number",
+      "severity": "warning",
+      "description": "Component missing manufacturer part number: J5 (USB DEV / 5V DATA GND) has no MPN/LCSC part-number property, while other components on this board do. Without a specific part number, this component cannot be reliably re-sourced or ordered for assembly.",
+      "count": 1
+    },
+    {
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin",
+      "severity": "warning",
+      "description": "Bypass capacitor too far from power pin: C20 is 77.5mm from J5 pin 1 (VIN_5V). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 77.5mm, the inductance of the trace reduces filtering effectiveness.",
+      "count": 1
+    },
+    {
+      "type": "mistake.power_trace.power_trace_too_narrow",
+      "severity": "warning",
+      "description": "Power trace too narrow: Power trace on GND is only 0.20mm wide. Narrow power traces cause voltage drop and can overheat under load. For 1A at 1oz copper, traces should be at least 0.5mm wide.",
+      "count": 1
+    },
+    {
+      "type": "pad_grid",
+      "severity": "warning",
+      "description": "C413: 2 pads off-grid by up to 0.071mm (grid 0.1mm, footprint Tesla:C_0805_2012Metric).\n  Example: pad C413.1 at (108.050, 132.950).\n  Suggested fix: round pad positions to the router grid (footprint pitch may not align to 0.1mm).\n  Use --verbose for per-pad detail.",
+      "count": 1
+    },
+    {
+      "type": "pad_grid",
+      "severity": "warning",
+      "description": "C613: 2 pads off-grid by up to 0.071mm (grid 0.1mm, footprint Tesla:C_0805_2012Metric).\n  Example: pad C613.1 at (108.050, 149.950).\n  Suggested fix: round pad positions to the router grid (footprint pitch may not align to 0.1mm).\n  Use --verbose for per-pad detail.",
+      "count": 1
+    },
+    {
+      "type": "pad_grid",
+      "severity": "warning",
+      "description": "C740: 2 pads off-grid by up to 0.071mm (grid 0.1mm, footprint Tesla:C_0805_2012Metric).\n  Example: pad C740.1 at (58.050, 80.250).\n  Suggested fix: round pad positions to the router grid (footprint pitch may not align to 0.1mm).\n  Use --verbose for per-pad detail.",
+      "count": 1
+    },
+    {
+      "type": "silkscreen_line_width",
+      "severity": "warning",
+      "description": "Silkscreen line width 0.12mm < minimum 0.15mm on J5",
+      "count": 3
+    },
+    {
+      "type": "optimize_traces.mergeable_segments",
+      "severity": "info",
+      "description": "kct optimize-traces would remove 37 of 1345 segments (corners 933 -> 1032, length -0.6%); merge collinear segments and drop zigzags",
+      "count": 1
+    }
+  ]
+}

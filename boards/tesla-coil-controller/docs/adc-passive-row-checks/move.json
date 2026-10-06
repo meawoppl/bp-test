@@ -1,0 +1,18 @@
+{
+  "command": [
+    "/home/meawoppl/agent-portal-plugins/kicad-pcb/.runtime/kicad-tools/bin/kct",
+    "pcb",
+    "move-footprint",
+    "boards/tesla-coil-controller/controller.kicad_pcb",
+    "--absolute",
+    "--map",
+    "{\"R20\":{\"x\":86.25,\"y\":82.5},\"C10\":{\"x\":88.75,\"y\":82.5,\"rotation\":90}}",
+    "--format",
+    "json"
+  ],
+  "cwd": "/home/meawoppl/repos/bp-test",
+  "ok": true,
+  "stderr": "",
+  "stdout": "{\n  \"pcb\": \"boards/tesla-coil-controller/controller.kicad_pcb\",\n  \"dry_run\": false,\n  \"coordinate_space\": \"absolute\",\n  \"board_origin\": [\n    20.4,\n    27.6\n  ],\n  \"moves\": [\n    {\n      \"reference\": \"R20\",\n      \"footprint\": \"Tesla:R_0603_1608Metric\",\n      \"old_position\": [\n        85.9,\n        80.0\n      ],\n      \"old_rotation\": -90.0,\n      \"new_position\": [\n        86.25,\n        82.5\n      ],\n      \"new_rotation\": -90.0\n    },\n    {\n      \"reference\": \"C10\",\n      \"footprint\": \"Tesla:C_0603_1608Metric\",\n      \"old_position\": [\n        88.0,\n        82.8\n      ],\n      \"old_rotation\": 0.0,\n      \"new_position\": [\n        88.75,\n        82.5\n      ],\n      \"new_rotation\": 90\n    }\n  ],\n  \"moved\": true,\n  \"output\": \"boards/tesla-coil-controller/controller.kicad_pcb\"\n}\n",
+  "tool": "/home/meawoppl/agent-portal-plugins/kicad-pcb/.runtime/kicad-tools/bin/kct"
+}

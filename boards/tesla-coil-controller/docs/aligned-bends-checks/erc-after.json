@@ -1,0 +1,20 @@
+{
+  "ok": true,
+  "source": "controller.kicad_sch",
+  "command": [
+    "/usr/bin/kicad-cli",
+    "sch",
+    "erc",
+    "--format",
+    "json",
+    "--output",
+    "/tmp/.tmpU9Myy6/erc.json",
+    "--exit-code-violations",
+    "/home/meawoppl/repos/bp-test/boards/tesla-coil-controller/controller.kicad_sch"
+  ],
+  "stdout": "Found 0 violations\nSaved ERC Report to /tmp/.tmpU9Myy6/erc.json\n",
+  "stderr": "",
+  "report": "{\n    \"$schema\": \"https://schemas.kicad.org/erc.v1.json\",\n    \"coordinate_units\": \"mm\",\n    \"date\": \"2026-10-02T13:34:29\",\n    \"ignored_checks\": [\n        {\n            \"description\": \"Global label only appears once in the schematic\",\n            \"key\": \"single_global_label\"\n        },\n        {\n            \"description\": \"Four connection points are joined together\",\n            \"key\": \"four_way_junction\"\n        },\n        {\n            \"description\": \"SPICE model issue\",\n            \"key\": \"simulation_model_issue\"\n        },\n        {\n            \"description\": \"Assigned footprint doesn't match footprint filters\",\n            \"key\": \"footprint_filter\"\n        }\n    ],\n    \"included_severities\": [\n        \"error\",\n        \"warning\"\n    ],\n    \"kicad_version\": \"10.0.6\",\n    \"sheets\": [\n        {\n            \"path\": \"/\",\n            \"uuid_path\": \"/71327726-36c8-586d-8335-0447c1d02272\",\n            \"violations\": []\n        }\n    ],\n    \"source\": \"controller.kicad_sch\"\n}\n",
+  "message": null,
+  "tool": "/usr/bin/kicad-cli"
+}

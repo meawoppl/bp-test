@@ -1,0 +1,55 @@
+{
+  "minimum_clearance_mm": 0.325,
+  "via_drill_body_overlap": [],
+  "items": [
+    {
+      "uuid": "1e97aceb-da04-556d-836f-6dd5ec067c1c",
+      "net": "-5V_CT",
+      "min_other_net_clearance_mm": 0.95,
+      "nearest_net": "AUX3_BUFFERED",
+      "nearest_item": "U72.1"
+    },
+    {
+      "uuid": "25f5272a-f071-59d8-a06f-e8390b83eccc",
+      "net": "-5V_CT",
+      "min_other_net_clearance_mm": 0.95,
+      "nearest_net": "AUX4_BUFFERED",
+      "nearest_item": "U73.1"
+    },
+    {
+      "uuid": "59679d5b-d9c3-5f28-ba3d-58c8d2e63236",
+      "net": "-5V_CT",
+      "min_other_net_clearance_mm": 0.95,
+      "nearest_net": "AUX2_BUFFERED",
+      "nearest_item": "U71.1"
+    },
+    {
+      "uuid": "8fecf828-977a-59fd-ae0e-23411552f70f",
+      "net": "-5V_CT",
+      "min_other_net_clearance_mm": 0.325,
+      "nearest_net": "+5V_ADC",
+      "nearest_item": "971dbed2-269a-5f49-8e1b-257415f3dce3"
+    },
+    {
+      "uuid": "a478ee33-6ca0-5ef9-840c-32f6b76e96ae",
+      "net": "-5V_CT",
+      "min_other_net_clearance_mm": 0.325,
+      "nearest_net": "+5V_ADC",
+      "nearest_item": "971dbed2-269a-5f49-8e1b-257415f3dce3"
+    },
+    {
+      "uuid": "b01099d1-613d-5471-a529-bb6135897386",
+      "net": "-5V_CT",
+      "min_other_net_clearance_mm": 0.325,
+      "nearest_net": "+5V_ADC",
+      "nearest_item": "971dbed2-269a-5f49-8e1b-257415f3dce3"
+    },
+    {
+      "uuid": "971dbed2-269a-5f49-8e1b-257415f3dce3",
+      "net": "+5V_ADC",
+      "min_other_net_clearance_mm": 0.325,
+      "nearest_net": "-5V_CT",
+      "nearest_item": "8fecf828-977a-59fd-ae0e-23411552f70f"
+    }
+  ]
+}

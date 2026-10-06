@@ -1,0 +1,63 @@
+Portal “Strange path here” — 2026-09-30
+Annotation: 2026-09-30T07:13:31.258Z
+Source view revision: 4c4457dea56a0532039e
+Saved Portal revision: 0627631b351457f0941d
+
+Simplified the -5V_CT path from R421 pad 2 to C423 pad 1 beside U44.
+Replaced the leftward detour with centered vertical pad exits and one
+short 45-degree offset between them. Path length is 4.483 mm, down from
+5.172 mm (0.689 mm shorter). The width remains 0.35 mm on F.Cu.
+The existing C423 via and its necessary connection are retained.
+Exactly three existing track geometries changed; no tracks or vias
+were added or removed.
+
+Verification:
+- Native ERC: 0; physical DRC: 0; schematic parity: 0.
+- Two existing USB opens remain between J1 and J5: USB_D+ and USB_D-.
+- Every pad-connectivity component matches the pre-edit snapshot.
+- The complete -5V_CT net remains connected.
+- Minimum changed-copper clearance is 0.175 mm against the 0.15 mm rule.
+  This independent geometric check excludes fills; the replay refilled
+  zones and native DRC checked them.
+- Both pad exits are centered, with bends outside their pad bodies.
+- All vias, unrelated copper, footprints, pad nets/geometry, placement,
+  and drawings match the snapshot. Schematic and project rules match
+  byte-for-byte; no library changes.
+- Reviewed routing recipe matches the saved board exactly. Its other
+  fields are unchanged. All tracks remain octilinear.
+- Counts remain 1337 tracks and 321 vias.
+
+Quality: 304 errors, 2411 warnings, 29 infos, 0 suppressed.
+Compared with 3v3-top-quality.json, one -5V_CT acute-angle warning was
+removed. A multiset comparison of complete findings shows no introduced
+findings, including errors, warnings, or infos. The board-wide backlog
+retains the prior dispositions in command-adc-quality-triage.md and
+d42-placement-review.txt. This edit does not waive those findings.
+See strange-path-quality-delta.json and strange-path-quality.json.
+
+Visual review: matched the original annotation capture to R421/C423
+and inspected the saved-board before/after plots. The route uses one
+offset toward C423, straight pad exits, and a right-angle junction with
+the existing via branch. Nearby copper, widths and placements retain
+their geometry. See strange-path-after.png. Plots omit plane fills.
+No new live Workbench or 3D/assembly review was performed; component
+placement, polarity and models were not changed.
+
+Tools: plugin doctor verified KiCad 10.0.6 and kct 0.21.1. The kct
+optimize-traces dry run with net filter 5V_CT proposed a broader net
+rewrite; that proposal was not applied. The existing reviewed routing
+replay applied the three explicit JSON geometry changes and refilled
+zones. Custom scripts were read-only audits of geometry, connectivity,
+clearance, and plots. check_tesla_draft.py ran native ERC, DRC and
+schematic parity and refreshed the schematic PDF. Plugin quality ran
+kct check, detect-mistakes, and optimize-traces in dry-run mode.
+
+Changed file categories:
+- CAD: controller.kicad_pcb.
+- Source: tools/hardware/tesla_reviewed_routing.json.
+- Docs/checks: this review, strange-path verification/clearance/quality/
+  delta JSON and saved-board plot, validation.json, native ERC/DRC
+  reports and refreshed schematic PDF.
+- This remains a routing draft. No fabrication package was published.
+
+Only this path-cleanup annotation was handled.

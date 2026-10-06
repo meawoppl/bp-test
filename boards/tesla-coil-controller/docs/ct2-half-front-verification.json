@@ -1,0 +1,63 @@
+{
+  "annotation_created_at": "2026-09-30T06:12:58.183Z",
+  "net": "CT2_HALF",
+  "testpoint": "TP61",
+  "signal_width_mm": 0.25,
+  "vias_removed": 2,
+  "vias_before": 334,
+  "vias_after": 332,
+  "ct2_half_all_front": true,
+  "net_length_before_mm": 38.79214645562816,
+  "net_length_after_mm": 32.501334764831846,
+  "trace_reduction_mm": 6.290811690796318,
+  "tracks_removed": 8,
+  "tracks_added": 4,
+  "whole_board_unconnected_before": 6,
+  "whole_board_unconnected_after": 6,
+  "all_pad_connectivity_components_unchanged": true,
+  "all_unrelated_copper_unchanged": true,
+  "placements_schematic_and_rules_unchanged": true,
+  "all_tracks_octilinear": true,
+  "minimum_new_copper_clearance_mm": 0.7,
+  "changes": {
+    "removed": [
+      "09cbc0b5-4b83-5716-ae65-9db911799d25",
+      "13bae9a7-6f88-533d-badf-a6c50790fa84",
+      "3fcb5190-e587-54c4-b7f2-3f42a726ff08",
+      "43b7c166-ac4a-5432-9825-9b439172c62a",
+      "56d5d7d2-b622-5840-b863-b54d0c954aa9",
+      "5d1d8149-6306-5f91-90af-71e1429cfcb8",
+      "6914616b-0e45-5040-a7cc-7969e07bef50",
+      "730e99f9-21ac-5037-8439-88689f94eefa",
+      "ddb12db0-5cf5-5f22-b925-cdf736f2aa0a",
+      "f254491d-76ce-50cb-9681-3d6815ae76d8"
+    ],
+    "added": [
+      "77d35d01-b264-5cd1-8700-d19c2976c7ac",
+      "fa4c9594-6c7f-5dcd-989b-c34a629fb4d1",
+      "f1a29f50-a4dc-57ab-84ee-dab9d60a2a49",
+      "1349f17c-3e4e-5e38-9d03-954f14b7db88"
+    ],
+    "changed": []
+  },
+  "native_checks": {
+    "erc": 0,
+    "physical_drc": 0,
+    "schematic_parity": 0,
+    "unconnected_items": 6
+  },
+  "quality_summary": {
+    "errors": 301,
+    "warnings": 2422,
+    "infos": 29,
+    "suppressed": 0
+  },
+  "quality_errors_and_warnings_unchanged": true,
+  "reviewed_recipe_replay_verified": true,
+  "sha256": {
+    "controller.kicad_sch": "ff8cd4e9f39a614229c8226de209fbdf9e1c9422ee68d997bf1e61560671a596",
+    "controller.kicad_pcb": "108f30f66526b1b0bb0613834c649e3d35ec9966e6ba6c01bcdbaeb182cc74c0",
+    "controller.kicad_pro": "40e593eb2309fcddf3cd616a5e82b970cb97e4b268436e03b5e1288843705533"
+  },
+  "portal_revision": "f01426f73e95d0778c6b"
+}

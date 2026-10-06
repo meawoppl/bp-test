@@ -1,0 +1,90 @@
+{
+  "minimum_clearance_mm": 0.3,
+  "via_drill_body_overlap": [],
+  "items": [
+    {
+      "uuid": "05c07ab8-aae5-5942-90e7-8d4473013821",
+      "net": "GDT2_L_LO",
+      "min_other_net_clearance_mm": 0.365685,
+      "nearest_net": "GDT2_L_HI",
+      "nearest_item": "9fa006c1-e5d4-54e3-ad19-4367546d7800"
+    },
+    {
+      "uuid": "1353266b-fdc9-567b-b5da-51ad0f6460dd",
+      "net": "GDT2_L_LO",
+      "min_other_net_clearance_mm": 0.365685,
+      "nearest_net": "GDT2_L_HI",
+      "nearest_item": "9fa006c1-e5d4-54e3-ad19-4367546d7800"
+    },
+    {
+      "uuid": "f9e456c2-39dc-5940-9516-4f7ebe808a4a",
+      "net": "GDT2_L_LO",
+      "min_other_net_clearance_mm": 0.365685,
+      "nearest_net": "GDT2_R_HI",
+      "nearest_item": "21ff58eb-9336-5919-a6c8-512d8f26ea56"
+    },
+    {
+      "uuid": "3543d2e8-dd78-50da-85ca-046da296ce78",
+      "net": "GDT2_L_HI",
+      "min_other_net_clearance_mm": 0.436396,
+      "nearest_net": "GDT2_L_LO",
+      "nearest_item": "808339f5-7c6d-58b4-a9f0-503acbe25070"
+    },
+    {
+      "uuid": "883afd02-ae56-55c3-8391-e292291e02e3",
+      "net": "GDT2_L_HI",
+      "min_other_net_clearance_mm": 0.365685,
+      "nearest_net": "GDT2_L_LO",
+      "nearest_item": "05c07ab8-aae5-5942-90e7-8d4473013821"
+    },
+    {
+      "uuid": "9fa006c1-e5d4-54e3-ad19-4367546d7800",
+      "net": "GDT2_L_HI",
+      "min_other_net_clearance_mm": 0.365685,
+      "nearest_net": "GDT2_L_LO",
+      "nearest_item": "05c07ab8-aae5-5942-90e7-8d4473013821"
+    },
+    {
+      "uuid": "975812d4-9b50-52b3-b4d6-f6ab57292d04",
+      "net": "GDT2_R_LO",
+      "min_other_net_clearance_mm": 0.365685,
+      "nearest_net": "GDT2_R_HI",
+      "nearest_item": "21ff58eb-9336-5919-a6c8-512d8f26ea56"
+    },
+    {
+      "uuid": "a811f4a5-8d1e-51d9-b527-8fe45514c153",
+      "net": "GDT2_R_LO",
+      "min_other_net_clearance_mm": 0.3,
+      "nearest_net": "GDT2_R_HI",
+      "nearest_item": "b5e1223a-6c4a-5cc3-bef1-198f4ae2f055"
+    },
+    {
+      "uuid": "ad22ff73-35f0-565b-925c-182c9f734337",
+      "net": "GDT2_R_LO",
+      "min_other_net_clearance_mm": 0.365685,
+      "nearest_net": "GDT2_R_HI",
+      "nearest_item": "21ff58eb-9336-5919-a6c8-512d8f26ea56"
+    },
+    {
+      "uuid": "21ff58eb-9336-5919-a6c8-512d8f26ea56",
+      "net": "GDT2_R_HI",
+      "min_other_net_clearance_mm": 0.365685,
+      "nearest_net": "GDT2_R_LO",
+      "nearest_item": "975812d4-9b50-52b3-b4d6-f6ab57292d04"
+    },
+    {
+      "uuid": "8014ff35-b4a1-5485-b713-4e1fb49b1f79",
+      "net": "GDT2_R_HI",
+      "min_other_net_clearance_mm": 0.5,
+      "nearest_net": "GDT2_R_LO",
+      "nearest_item": "a811f4a5-8d1e-51d9-b527-8fe45514c153"
+    },
+    {
+      "uuid": "a709ab45-3ced-53fb-a9fb-6f09c3e749ef",
+      "net": "GDT2_R_HI",
+      "min_other_net_clearance_mm": 0.365685,
+      "nearest_net": "GDT2_L_LO",
+      "nearest_item": "05c07ab8-aae5-5942-90e7-8d4473013821"
+    }
+  ]
+}

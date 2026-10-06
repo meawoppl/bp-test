@@ -1,0 +1,18 @@
+{
+  "command": [
+    "/home/meawoppl/agent-portal-plugins/kicad-pcb/.runtime/kicad-tools/bin/kct",
+    "pcb",
+    "sync-netlist",
+    "boards/tesla-coil-controller/controller.kicad_pcb",
+    "--schematic",
+    "boards/tesla-coil-controller/controller.kicad_sch",
+    "--dry-run",
+    "--format",
+    "json"
+  ],
+  "cwd": "/home/meawoppl/repos/bp-test",
+  "ok": true,
+  "stderr": "",
+  "stdout": "{\n  \"pcb\": \"boards/tesla-coil-controller/controller.kicad_pcb\",\n  \"dry_run\": true,\n  \"renamed\": [],\n  \"added\": [],\n  \"orphaned\": [],\n  \"removed\": [],\n  \"pin_mismatches\": [],\n  \"net_updated\": [],\n  \"warnings\": [],\n  \"errors\": []\n}\n",
+  "tool": "/home/meawoppl/agent-portal-plugins/kicad-pcb/.runtime/kicad-tools/bin/kct"
+}

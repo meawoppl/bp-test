@@ -1,0 +1,57 @@
+Portal edit-stack: merge each phase reference into its comparator section
+2026-09-30
+
+Request
+Merge the selected quiet reference circuit with the comparator that uses it,
+in both instances. Source annotation: revision 7f950fdc4e6d7c96dfa8,
+session 91d7cd67-4900-4b54-a9dc-9c2e0eb5396d.
+
+Change
+The schematic now has a single "PHASE COMPARATOR + REFERENCE" section per CST.
+R414/R415 and C412 sit below U42, with a continuous CT1_MID wire to U42 pin 1
+(IN-). R614/R615 and C612 similarly connect to U62 pin 1 on CT2_MID.
+The two separate phase-reference boxes were removed. The 1.65 V midpoint and
+100 ms settling note remain beside each circuit. Existing component values,
+pin assignments, part identities, and electrical networks are unchanged.
+
+Edited source generators:
+  tools/hardware/tesla_cst_schematic.py
+  tools/hardware/tesla_schematic_layout.py
+  tools/hardware/tesla_schematic_layout.json
+Regenerated the native schematic, symbol-library file, layout audit and
+docs/controller-schematic.pdf. The library changes order only; individual
+symbol definitions are identical. Existing block IDs/positions are retained.
+
+Verification
+- kicad-pcb-rs doctor: KiCad 10.0.6 and kicad-tools 0.21.1 available.
+- python3 tools/hardware/tesla_schematic.py: native exported netlist matches
+  every expected component pin in docs/circuit.json.
+- kicad-pcb-rs erc: zero violations.
+- kicad-pcb-rs drc: zero violations, zero unconnected items, zero schematic
+  parity issues.
+- kicad-pcb-rs kct -- validate --sync, with explicit schematic and PCB paths:
+  in_sync true, zero errors/warnings or component/net/pin mismatches.
+- kicad-pcb-rs kct -- symbols: native comparator instances inspected.
+- kicad-pcb-rs quality: same 302 errors, 2394 warnings and 23 informational
+  findings as the preceding testpoint-clarity baseline. All individual
+  findings match; this existing backlog is outside this schematic-only item.
+
+KCT checks electrical parity but does not establish whether a named-net
+connection is visually continuous or audit the exact edit scope. A read-only
+native-geometry comparison additionally verified:
+- CT1_MID has a continuous wire path linking R414.2, R415.1, C412.1 and U42.1.
+- CT2_MID has a continuous wire path linking R614.2, R615.1, C612.1 and U62.1.
+- Only the six reference components moved. Geometry outside these two
+  sections is identical, ignoring serially allocated drawing/power IDs.
+- PCB, project settings and circuit-contract file hashes are unchanged.
+
+Visual review
+Inspected native KiCad SVG renders of both updated comparator sections and
+their neighboring bypass sections. Reference-to-IN- wires are visible,
+reference fields and labels are clear, and explanatory notes are separated.
+Before/after images and JSON verification reports are in
+docs/comparator-reference-checks/. Portal browser tabs were not inspected.
+The updated schematic PDF is available to Portal; no fabrication publication
+was requested or performed.
+
+Only this edit-stack item was handled.

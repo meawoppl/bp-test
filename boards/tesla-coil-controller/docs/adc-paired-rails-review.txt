@@ -1,0 +1,51 @@
+Paired ADC supply routing — 2026-09-30
+
+Portal annotation: 2026-09-30T17:23:54.982Z
+Source revision: 0d0afbcbe8a945b2e0a7
+Verified Portal revision: 64b85c7b65c4d2d9bc2e
+
++5V_ADC now travels beside -5V_CT down the right side of the two CT/ADC
+conditioning rows. The long left-side +5 V descent is removed. Both rows
+retain their local capacitor/pad branches. The positive trunk is 0.50 mm;
+two incoming 0.40 mm segments were widened to 0.50 mm to feed it. Two
+right-side capacitor spurs are shorter. The negative rail's backward jog
+near the charge-pump output is replaced by a direct octilinear connection.
+
+The two rails use short layer transitions at existing crossing routes.
+Four vias were removed and four added, leaving the board's 331 vias
+unchanged. Copper length decreases by 1.229 mm on +5V_ADC and 2.121 mm on
+-5V_CT. The routing recipe changes 19 removed objects, 17 added objects,
+and five modified tracks; the board now has 1342 tracks.
+
+Scope verification confirms every unrelated copper object, footprint,
+pad net assignment, board drawing, schematic, and project rule is
+unchanged from the immediate pre-edit snapshot. Native pad connectivity
+components are identical; both changed rails remain single connected
+networks. The existing reviewed-routing replay generated the saved PCB
+and refilled zones from tools/hardware/tesla_reviewed_routing.json.
+
+Verification:
+- KiCad DRC: zero violations, zero unconnected items, zero schematic
+  parity issues.
+- KiCad ERC: zero violations.
+- KCT schematic/PCB synchronization: in sync, zero errors or warnings.
+- All board tracks are octilinear and nonzero length. Changed copper has
+  at least 0.150 mm clearance to other nets. No changed via drills overlap
+  SMD pads or component bodies; no changed collinear same-net overlaps.
+- Power-routing audit: all five checked rails and all 25 checked bypass
+  ground returns are connected. Whole-board unrouted count is zero.
+- Full quality audit: no new errors or warnings. One -5V_CT acute-angle
+  warning is removed. Existing results remain 302 errors, 2400 warnings,
+  and 23 informational items; the optimizer's informational statistics
+  changed. No checks or rules were suppressed or relaxed.
+
+The before/after PNGs are plots of native board geometry with +5 V orange
+and -5 V cyan. They omit copper zone fills for readability and are not
+Portal screenshots. This is a focused routing cleanup, not a fabrication
+release of the board's existing quality backlog.
+
+Evidence: adc-paired-rails-checks/verification.json, erc-after.json,
+drc-after.json, sync-after.json, quality-after.json, quality-delta.json,
+geometry-check.json, clearances.json, changes.json, power-routing-audit.json,
+and portal-revision.json. Board SHA-256:
+bd39c980fa1abf9b5c17d26d79aa20135568b1fb01d161aa9c8e7f7a2669b935

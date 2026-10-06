@@ -1,0 +1,56 @@
+{
+  "pcb_sha256": "4efce70086fbf5057f111ef4195db9a370abc15b10eccaae1c1f82dc6b60c8ec",
+  "transformation": "Straight parallel trunks with delayed 45-degree breakouts; original pad assignments and endpoint vias retained.",
+  "nets": {
+    "ADC_BUSY": {
+      "before_mm": 52.219,
+      "after_mm": 52.219,
+      "vias": 2
+    },
+    "ADC_CONVST": {
+      "before_mm": 55.06,
+      "after_mm": 55.06,
+      "vias": 2
+    },
+    "ADC_CS_N": {
+      "before_mm": 54.811,
+      "after_mm": 54.811,
+      "vias": 2
+    },
+    "ADC_DOUT_A": {
+      "before_mm": 51.134,
+      "after_mm": 46.164,
+      "vias": 2
+    },
+    "ADC_DOUT_B": {
+      "before_mm": 49.713,
+      "after_mm": 44.742,
+      "vias": 2
+    },
+    "ADC_DOUT_C": {
+      "before_mm": 48.167,
+      "after_mm": 43.197,
+      "vias": 2
+    },
+    "ADC_DOUT_D": {
+      "before_mm": 46.705,
+      "after_mm": 41.734,
+      "vias": 2
+    },
+    "ADC_RESET": {
+      "before_mm": 54.77,
+      "after_mm": 54.77,
+      "vias": 2
+    },
+    "ADC_SCLK": {
+      "before_mm": 51.639,
+      "after_mm": 51.639,
+      "vias": 2
+    },
+    "ADC_SDI": {
+      "before_mm": 45.532,
+      "after_mm": 40.561,
+      "vias": 2
+    }
+  }
+}

@@ -1,0 +1,61 @@
+CT1 net naming review — 2026-09-30
+
+Portal item: “Make the first stuff CT1_* please”
+Project: tesla-coil-controller
+Session: bp-test-rust-events
+
+Changed 17 CT_* net names to CT1_* consistently in the schematic, PCB,
+project symbol library, circuit contract, pin maps, routing recipes, generators,
+checks, and current design documentation. Full mapping and structural evidence:
+ct1-names-verification.json.
+
+TP40–TP43 values now match their CT1_* nets. TP60–TP63 previously displayed
+copied first-channel names; their values now match their existing CT2_* nets.
+CT2 net names and connections are unchanged. The shared -5V_CT rail and
+charge-pump topology are unchanged; the former CT_* pump-internal labels
+also use the CT1_* prefix.
+
+Method
+Used the kicad-pcb-rs wrapper's kct sch rename-signal command with --from,
+--to, --include-nets, --include-globals, --yes, and --format json for each net.
+Applied matching literal name edits to the PCB and supporting files.
+No board regeneration or copper replay was performed.
+
+The native files exactly match the saved baseline after accounting for the
+expected name substitutions and test-point value corrections. Copper, pads,
+placements, UUIDs, zones, and all pad connectivity clusters are unchanged.
+The existing CT2_ENVELOPE route is preserved. Totals remain 1,331 tracks,
+319 vias, and 313 footprints. Project settings are byte-for-byte unchanged.
+The routing recipe differs only in names and its updated contract hash.
+Both channel generators match all 88 checked components in the contract.
+
+Verification
+- kicad-pcb-rs doctor: passed; KiCad 10.0.6, kct 0.21.1.
+- tmp/layout-venv/bin/python tools/hardware/check_tesla_draft.py:
+  ERC 0, physical DRC 0, schematic parity 0, unconnected 2.
+  The two USB_D+/USB_D- opens are identical to the baseline.
+- kicad-pcb-rs quality --json --cwd /home/meawoppl/repos/bp-test
+  --project tesla-coil-controller:
+  304 errors, 2,411 warnings, 29 infos, 0 suppressed.
+  After net-name normalization, 0 findings added and 0 removed.
+  The command reports failure because the existing quality backlog remains.
+- Read-only snapshot/connectivity audit and edited Python syntax checks passed.
+  The custom audit covers exact geometry identity and source/recipe agreement
+  beyond the native checks. It does not modify design objects.
+
+Evidence
+- ct1-names-verification.json
+- ct1-names-quality.json
+- ct1-names-quality-delta.json (baseline: ct2-envelope-quality.json)
+- validation.json and ../fab/checks/{erc,drc}.json
+- controller-schematic.pdf refreshed by the native check.
+- Temporary command logs and snapshots: tmp/tesla-ct1-names/ at repository root.
+
+Visual review: no workbench tabs were visually reviewed for this name-only edit.
+Structural comparison verifies unchanged geometry; text appearance was not
+separately inspected. The subsystem SVG's matching CT1_ZERO text was updated.
+
+Disposition: this naming item is complete. Existing USB opens and quality
+findings retain their prior disposition in command-adc-quality-triage.md and
+d42-placement-review.txt. The project remains a routing draft; no fabrication
+package was regenerated. No other edit-stack item was processed in this change.

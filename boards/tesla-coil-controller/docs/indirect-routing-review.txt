@@ -1,0 +1,55 @@
+U73 / U44 supply routing cleanup — 2026-09-30
+
+Portal item: “Weirdly indirect routing here, and unnecessary side jumps”.
+Annotation revision 1b344c9d9281a7554c58; live baseline c6d7e61128b09c87d766.
+Verified current Portal revision 068e32479596e4383bf7.
+
+Changed only +5V_ADC copper in the selected U73/D73–U44 region and its
+reviewed routing recipe. D73 now uses its existing via at (45.2,112.8)
+for the front-layer crossing to (53.4,114), eliminating the backwards
+loop through the via at (38.8,114). The rear-layer main feed continues
+down x=70.5 to the existing CST supply transition at (73.4,120.1), with
+a short branch to the U44 bypass feed at (64.15,115.5).
+
+Removed 12.260051 mm of routed copper and one through via. Changed copper
+length falls from 40.232590 to 27.972540 mm. Widths remain 0.35 mm for the
+AUX crossing and 0.50 mm for the rear supply trunk/tap. The remaining
+front-layer crossing clears the -5V_CT rear route. U44's local capacitor
+connections, all footprints and other nets remain unchanged.
+
+Reviewed before/after copper images by eye: the backwards loop and
+sideways trunk detour are gone, existing pad exits and cap connections
+are preserved, all new bends are 45/90 degrees, and no new vias, dangling
+ends, overlaps, or unnecessary width changes were introduced. Pin-1
+marks, models and assembly placement are unchanged, verified by the
+footprint audit; no new 3D or hardware-function claim is made.
+
+Checks:
+- KiCad ERC: 0 violations.
+- KiCad DRC: 0 violations, 0 unconnected items, 0 schematic parity issues.
+- KCT schematic/PCB sync: in sync, 0 errors, 0 warnings.
+- All pad connectivity components identical to baseline; +5V_ADC is a
+  single connected component. Unrelated copper, placements, pad geometry,
+  drawings, schematic and project rules match the snapshot.
+- Saved board copper exactly matches the replayed routing recipe.
+- All tracks remain octilinear. Board now has 1405 tracks and 352 vias.
+
+Quality remains 303 errors, 2390 warnings, 24 informational findings.
+The multiset of errors and warnings is identical to baseline. The only
+changed item is the trace optimizer's informational denominator, now
+1405 rather than 1406 segments. Existing dispositions remain in
+usb-c-review.txt and command-adc-quality-triage.md; this scoped change
+neither introduces nor resolves that board-wide backlog. No rules or
+limits were relaxed.
+
+KCT optimize-traces was tried first as a DRC-aware dry run on +5V_ADC.
+It rolled back its proposal and saved nothing. The existing reviewed
+routing recipe/replay workflow was therefore used for the focused
+change, with native KiCad checks and an independent connectivity audit.
+Its internal manufacturer-check count is not native KiCad DRC; native
+KiCad returned zero violations on the resulting board.
+
+Portal rebuilt the current PCB artifacts, and its revision cache is
+current. Auto-publish is disabled. Fabrication outputs were not published:
+this annotation is a routing edit, and the board-wide quality backlog
+remains. Evidence and copper images are in indirect-routing-checks/.

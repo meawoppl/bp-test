@@ -1,0 +1,5 @@
+{
+  "stage": "CST raw/envelope handoffs now terminate at all four ADC input filters",
+  "open_route_ends": {},
+  "reason": "The former intentional analog handoffs are complete. Any future dangling track is a new finding, not an accepted handoff."
+}

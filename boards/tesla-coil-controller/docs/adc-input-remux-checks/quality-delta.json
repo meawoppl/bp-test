@@ -1,0 +1,30 @@
+{
+  "before": {
+    "errors": 288,
+    "warnings": 2401,
+    "infos": 22
+  },
+  "after": {
+    "errors": 288,
+    "warnings": 2401,
+    "infos": 22
+  },
+  "added": [
+    {
+      "description": "kct optimize-traces would remove 31 of 1346 segments (corners 953 -> 1047, length -0.6%); merge collinear segments and drop zigzags",
+      "items": [],
+      "severity": "info",
+      "source": "kct optimize-traces",
+      "type": "optimize_traces.mergeable_segments"
+    }
+  ],
+  "removed": [
+    {
+      "description": "kct optimize-traces would remove 26 of 1350 segments (corners 957 -> 1054, length -0.6%); merge collinear segments and drop zigzags",
+      "items": [],
+      "severity": "info",
+      "source": "kct optimize-traces",
+      "type": "optimize_traces.mergeable_segments"
+    }
+  ]
+}

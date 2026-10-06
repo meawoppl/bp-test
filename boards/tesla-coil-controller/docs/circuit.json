@@ -1,0 +1,6856 @@
+{
+  "J1": {
+    "value": "DF40C-40DP-0.4V(51)",
+    "mpn": "DF40C-40DP-0.4V(51)",
+    "lcsc": "C424643",
+    "footprint": "Tesla:J1_Module_v1_Mate",
+    "pins": {
+      "20": "USB_VBUS_PRESENT",
+      "19": null,
+      "18": null,
+      "17": null,
+      "16": null,
+      "15": null,
+      "14": null,
+      "13": null,
+      "12": null,
+      "11": null,
+      "10": "GND",
+      "9": "GND",
+      "8": "USB_D-",
+      "7": "USB_D+",
+      "6": "GND",
+      "5": "GND",
+      "4": "VIN_5V",
+      "3": "VIN_5V",
+      "2": "VIN_5V",
+      "1": "VIN_5V",
+      "21": null,
+      "22": "GND",
+      "23": null,
+      "24": null,
+      "25": null,
+      "26": null,
+      "27": null,
+      "28": null,
+      "29": null,
+      "30": "GND",
+      "31": "GND",
+      "32": null,
+      "33": null,
+      "34": null,
+      "35": null,
+      "36": null,
+      "37": null,
+      "38": null,
+      "39": null,
+      "40": null
+    },
+    "kind": "connector",
+    "names": {
+      "20": "ESP_GPIO8",
+      "19": "ESP_GPIO7",
+      "18": "ESP_GPIO6",
+      "17": "ESP_GPIO5",
+      "16": "ESP_GPIO4",
+      "15": "ESP_GPIO3",
+      "14": "NC",
+      "13": "ESP_GPIO1",
+      "12": "ESP_GPIO0_BOOT",
+      "11": "ESP_EN",
+      "10": "GND",
+      "9": "GND",
+      "8": "USB_D-",
+      "7": "USB_D+",
+      "6": "GND",
+      "5": "GND",
+      "4": "VIN_5V",
+      "3": "VIN_5V",
+      "2": "VIN_5V",
+      "1": "VIN_5V",
+      "21": "ESP_GPIO40",
+      "22": "GND",
+      "23": "ESP_GPIO39",
+      "24": "ESP_GPIO41",
+      "25": "ESP_GPIO42",
+      "26": "ESP_GPIO43_TXD",
+      "27": "ESP_GPIO44_RXD",
+      "28": "ESP_GPIO35",
+      "29": "ESP_GPIO33",
+      "30": "GND",
+      "31": "GND",
+      "32": "ESP_GPIO34",
+      "33": "ESP_GPIO46",
+      "34": "ESP_GPIO45",
+      "35": "ESP_GPIO15",
+      "36": "ESP_GPIO17",
+      "37": "ESP_GPIO16",
+      "38": "ESP_GPIO18",
+      "39": "ESP_GPIO38",
+      "40": "ESP_GPIO21"
+    },
+    "types": {},
+    "position": [
+      103.0,
+      42.5,
+      0.0
+    ]
+  },
+  "J2": {
+    "value": "DF40C(2.0)-40DS-0.4V(51)",
+    "mpn": "DF40C(2.0)-40DS-0.4V(51)",
+    "lcsc": "C597934",
+    "footprint": "Tesla:J2_Module_v1_Mate",
+    "pins": {
+      "20": null,
+      "19": null,
+      "18": "GND",
+      "17": null,
+      "16": null,
+      "15": null,
+      "14": null,
+      "13": "GND",
+      "12": null,
+      "11": "GDT1_R_LO",
+      "10": "GDT1_R_HI",
+      "9": "GDT1_L_LO",
+      "8": "GND",
+      "7": "GDT1_L_HI",
+      "6": "GDT2_R_LO",
+      "5": "GDT2_R_HI",
+      "4": "GDT2_L_LO",
+      "3": "GND",
+      "2": "GDT2_L_HI",
+      "1": "GND",
+      "21": null,
+      "22": "CT1_ZERO",
+      "23": "GND",
+      "24": "CT2_ZERO",
+      "25": null,
+      "26": null,
+      "27": null,
+      "28": "GND",
+      "29": null,
+      "30": null,
+      "31": "ADC_CONVST",
+      "32": "ADC_RESET",
+      "33": "ADC_SCLK",
+      "34": "ADC_CS_N",
+      "35": "ADC_BUSY",
+      "36": "ADC_SDI",
+      "37": "ADC_DOUT_D",
+      "38": "ADC_DOUT_C",
+      "39": "ADC_DOUT_B",
+      "40": "ADC_DOUT_A"
+    },
+    "kind": "connector",
+    "names": {
+      "20": "FPGA_IOT_43A",
+      "19": "FPGA_IOT_42B",
+      "18": "GND",
+      "17": "FPGA_IOT_41A",
+      "16": "FPGA_IOT_39A",
+      "15": "FPGA_IOT_38B",
+      "14": "FPGA_IOT_36B",
+      "13": "GND",
+      "12": "FPGA_IOB_25B_G3",
+      "11": "FPGA_IOB_29B",
+      "10": "FPGA_IOB_23B",
+      "9": "FPGA_IOT_37A",
+      "8": "GND",
+      "7": "FPGA_IOB_20A",
+      "6": "FPGA_IOB_13B",
+      "5": "FPGA_IOB_22A",
+      "4": "FPGA_IOB_16A",
+      "3": "GND",
+      "2": "FPGA_IOB_18A",
+      "1": "GND",
+      "21": "FPGA_IOT_48B",
+      "22": "FPGA_IOT_46B_G0",
+      "23": "GND",
+      "24": "FPGA_IOT_45A_G1",
+      "25": "NC",
+      "26": "FPGA_RGB0",
+      "27": "FPGA_RGB1",
+      "28": "GND",
+      "29": "FPGA_RGB2",
+      "30": "NC",
+      "31": "FPGA_IOT_49A",
+      "32": "FPGA_IOB_3B_G6",
+      "33": "FPGA_IOT_44B",
+      "34": "FPGA_IOB_5B",
+      "35": "FPGA_IOB_0A",
+      "36": "FPGA_IOB_2A",
+      "37": "FPGA_IOB_4A",
+      "38": "FPGA_IOB_9B",
+      "39": "FPGA_IOB_8A",
+      "40": "FPGA_IOB_6A"
+    },
+    "types": {},
+    "position": [
+      103.0,
+      67.5,
+      0.0
+    ]
+  },
+  "H1": {
+    "value": "M3 module mounting",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:MountingHole_3.2mm_M3",
+    "pins": {},
+    "kind": "hole",
+    "names": {},
+    "types": {},
+    "position": [
+      103.0,
+      55.0,
+      0.0
+    ]
+  },
+  "H2": {
+    "value": "M3",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:MountingHole_3.2mm_M3",
+    "pins": {},
+    "kind": "hole",
+    "names": {},
+    "types": {},
+    "position": [
+      25,
+      32,
+      0
+    ]
+  },
+  "H3": {
+    "value": "M3",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:MountingHole_3.2mm_M3",
+    "pins": {},
+    "kind": "hole",
+    "names": {},
+    "types": {},
+    "position": [
+      179,
+      32,
+      0
+    ]
+  },
+  "H4": {
+    "value": "M3",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:MountingHole_3.2mm_M3",
+    "pins": {},
+    "kind": "hole",
+    "names": {},
+    "types": {},
+    "position": [
+      25,
+      165,
+      0
+    ]
+  },
+  "H5": {
+    "value": "M3",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:MountingHole_3.2mm_M3",
+    "pins": {},
+    "kind": "hole",
+    "names": {},
+    "types": {},
+    "position": [
+      179,
+      165,
+      0
+    ]
+  },
+  "U1": {
+    "value": "AD7606C-16BSTZ",
+    "mpn": "AD7606C-16BSTZ",
+    "lcsc": "C5371769",
+    "footprint": "Tesla:LQFP-64_10x10mm_P0.5mm",
+    "pins": {
+      "1": "+5V_ADC",
+      "2": "GND",
+      "3": "+3V3",
+      "4": "+3V3",
+      "5": "+3V3",
+      "6": "+3V3",
+      "7": "+3V3",
+      "8": "GND",
+      "9": "ADC_CONVST",
+      "10": "+3V3",
+      "11": "ADC_RESET",
+      "12": "ADC_SCLK",
+      "13": "ADC_CS_N",
+      "14": "ADC_BUSY",
+      "15": "ADC_FIRST",
+      "16": "GND",
+      "17": "GND",
+      "18": "GND",
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": null,
+      "23": "+3V3",
+      "24": "ADC_DOUT_A",
+      "25": "ADC_DOUT_B",
+      "26": "GND",
+      "27": "ADC_DOUT_C",
+      "28": "ADC_DOUT_D",
+      "29": "ADC_SDI",
+      "30": "GND",
+      "31": "GND",
+      "32": "GND",
+      "33": "GND",
+      "34": "+3V3",
+      "35": "GND",
+      "36": "REGCAP_A",
+      "37": "+5V_ADC",
+      "38": "+5V_ADC",
+      "39": "REGCAP_D",
+      "40": "GND",
+      "41": "GND",
+      "42": "ADC_REF_2V5",
+      "43": "GND",
+      "44": "ADC_REFCAP",
+      "45": "ADC_REFCAP",
+      "46": "GND",
+      "47": "GND",
+      "48": "+5V_ADC",
+      "49": "ADC_CH1",
+      "50": "GND",
+      "51": "ADC_CH2",
+      "52": "GND",
+      "53": "ADC_CH3",
+      "54": "GND",
+      "55": "ADC_CH4",
+      "56": "GND",
+      "57": "ADC_CH5",
+      "58": "GND",
+      "59": "ADC_CH6",
+      "60": "GND",
+      "61": "ADC_CH7",
+      "62": "GND",
+      "63": "ADC_CH8",
+      "64": "GND"
+    },
+    "kind": "ic",
+    "names": {
+      "1": "AVCC",
+      "37": "AVCC",
+      "38": "AVCC",
+      "48": "AVCC",
+      "2": "AGND",
+      "26": "AGND",
+      "35": "AGND",
+      "40": "AGND",
+      "41": "AGND",
+      "47": "AGND",
+      "43": "AGND",
+      "46": "AGND",
+      "3": "OS0",
+      "4": "OS1",
+      "5": "OS2",
+      "6": "PAR_SER",
+      "7": "STBY_N",
+      "10": "WR_N",
+      "34": "REFSEL",
+      "8": "RANGE",
+      "9": "ADC_CONVST",
+      "11": "ADC_RESET",
+      "12": "ADC_SCLK",
+      "13": "ADC_CS_N",
+      "14": "ADC_BUSY",
+      "15": "ADC_FIRST",
+      "24": "ADC_DOUT_A",
+      "25": "ADC_DOUT_B",
+      "27": "ADC_DOUT_C",
+      "28": "ADC_DOUT_D",
+      "29": "ADC_SDI",
+      "16": "UNUSED_DB",
+      "17": "UNUSED_DB",
+      "18": "UNUSED_DB",
+      "30": "UNUSED_DB",
+      "31": "UNUSED_DB",
+      "32": "UNUSED_DB",
+      "33": "UNUSED_DB",
+      "19": "UNUSED_DOUT",
+      "20": "UNUSED_DOUT",
+      "21": "UNUSED_DOUT",
+      "22": "UNUSED_DOUT",
+      "23": "+3V3",
+      "36": "REGCAP_A",
+      "39": "REGCAP_D",
+      "42": "ADC_REF_2V5",
+      "44": "ADC_REFCAP",
+      "45": "ADC_REFCAP",
+      "49": "V1+",
+      "50": "V1-",
+      "51": "V2+",
+      "52": "V2-",
+      "53": "V3+",
+      "54": "V3-",
+      "55": "V4+",
+      "56": "V4-",
+      "57": "V5+",
+      "58": "V5-",
+      "59": "V6+",
+      "60": "V6-",
+      "61": "V7+",
+      "62": "V7-",
+      "63": "V8+",
+      "64": "V8-"
+    },
+    "types": {
+      "1": "power_in",
+      "37": "power_in",
+      "38": "power_in",
+      "48": "power_in",
+      "2": "power_in",
+      "26": "power_in",
+      "35": "power_in",
+      "40": "power_in",
+      "41": "power_in",
+      "47": "power_in",
+      "43": "power_in",
+      "46": "power_in",
+      "3": "input",
+      "4": "input",
+      "5": "input",
+      "6": "input",
+      "7": "input",
+      "10": "input",
+      "34": "input",
+      "8": "input",
+      "9": "input",
+      "11": "input",
+      "12": "input",
+      "13": "input",
+      "14": "output",
+      "15": "output",
+      "24": "output",
+      "25": "output",
+      "27": "output",
+      "28": "output",
+      "29": "input",
+      "16": "passive",
+      "17": "passive",
+      "18": "passive",
+      "30": "passive",
+      "31": "passive",
+      "32": "passive",
+      "33": "passive",
+      "19": "output",
+      "20": "output",
+      "21": "output",
+      "22": "output",
+      "23": "power_in",
+      "36": "power_out",
+      "39": "power_out",
+      "42": "power_out",
+      "44": "power_out",
+      "45": "passive",
+      "49": "input",
+      "50": "input",
+      "51": "input",
+      "52": "input",
+      "53": "input",
+      "54": "input",
+      "55": "input",
+      "56": "input",
+      "57": "input",
+      "58": "input",
+      "59": "input",
+      "60": "input",
+      "61": "input",
+      "62": "input",
+      "63": "input",
+      "64": "input"
+    },
+    "position": [
+      93.0,
+      96.0,
+      90.0
+    ]
+  },
+  "C1": {
+    "value": "100nF",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:C_0603_1608Metric",
+    "pins": {
+      "1": "+5V_ADC",
+      "2": "GND"
+    },
+    "kind": "c",
+    "names": {},
+    "types": {},
+    "position": [
+      89.25,
+      104.6,
+      270
+    ]
+  },
+  "C2": {
+    "value": "100nF",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:C_0603_1608Metric",
+    "pins": {
+      "1": "+5V_ADC",
+      "2": "GND"
+    },
+    "kind": "c",
+    "names": {},
+    "types": {},
+    "position": [
+      94.5,
+      87.4,
+      90
+    ]
+  },
+  "C3": {
+    "value": "100nF",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:C_0603_1608Metric",
+    "pins": {
+      "1": "+5V_ADC",
+      "2": "GND"
+    },
+    "kind": "c",
+    "names": {},
+    "types": {},
+    "position": [
+      96.75,
+      87.4,
+      90
+    ]
+  },
+  "C4": {
+    "value": "100nF",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:C_0603_1608Metric",
+    "pins": {
+      "1": "+5V_ADC",
+      "2": "GND"
+    },
+    "kind": "c",
+    "names": {},
+    "types": {},
+    "position": [
+      89.25,
+      87.4,
+      90
+    ]
+  },
+  "C5": {
+    "value": "100nF",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:C_0603_1608Metric",
+    "pins": {
+      "1": "+3V3",
+      "2": "GND"
+    },
+    "kind": "c",
+    "names": {},
+    "types": {},
+    "position": [
+      105.0,
+      98.0,
+      0.0
+    ]
+  },
+  "C6": {
+    "value": "1uF",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:C_0603_1608Metric",
+    "pins": {
+      "1": "REGCAP_A",
+      "2": "GND"
+    },
+    "kind": "c",
+    "names": {},
+    "types": {},
+    "position": [
+      99,
+      87.4,
+      90
+    ]
+  },
+  "C7": {
+    "value": "1uF",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:C_0603_1608Metric",
+    "pins": {
+      "1": "REGCAP_D",
+      "2": "GND"
+    },
+    "kind": "c",
+    "names": {},
+    "types": {},
+    "position": [
+      93.75,
+      82.5,
+      90
+    ]
+  },
+  "C8": {
+    "value": "100nF",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:C_0603_1608Metric",
+    "pins": {
+      "1": "ADC_REF_2V5",
+      "2": "GND"
+    },
+    "kind": "c",
+    "names": {},
+    "types": {},
+    "position": [
+      91.5,
+      87.4,
+      90
+    ]
+  },
+  "C9": {
+    "value": "10uF",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:C_0603_1608Metric",
+    "pins": {
+      "1": "ADC_REFCAP",
+      "2": "GND"
+    },
+    "kind": "c",
+    "names": {},
+    "types": {},
+    "position": [
+      91.25,
+      82.5,
+      90
+    ]
+  },
+  "C10": {
+    "value": "10uF",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:C_0603_1608Metric",
+    "pins": {
+      "1": "+5V_ADC",
+      "2": "GND"
+    },
+    "kind": "c",
+    "names": {},
+    "types": {},
+    "position": [
+      88,
+      82.8,
+      0
+    ]
+  },
+  "R1": {
+    "value": "100R",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:R_0603_1608Metric",
+    "pins": {
+      "1": "AUX1_BUFFERED",
+      "2": "ADC_CH1"
+    },
+    "kind": "r",
+    "names": {},
+    "types": {},
+    "position": [
+      79.6,
+      84.8,
+      0.0
+    ]
+  },
+  "C11": {
+    "value": "1nF",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:C_0603_1608Metric",
+    "pins": {
+      "1": "ADC_CH1",
+      "2": "GND"
+    },
+    "kind": "c",
+    "names": {},
+    "types": {},
+    "position": [
+      82,
+      85.575,
+      -90.0
+    ]
+  },
+  "R2": {
+    "value": "100R",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:R_0603_1608Metric",
+    "pins": {
+      "1": "AUX2_BUFFERED",
+      "2": "ADC_CH2"
+    },
+    "kind": "r",
+    "names": {},
+    "types": {},
+    "position": [
+      79.6,
+      88.6,
+      0.0
+    ]
+  },
+  "C12": {
+    "value": "1nF",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:C_0603_1608Metric",
+    "pins": {
+      "1": "ADC_CH2",
+      "2": "GND"
+    },
+    "kind": "c",
+    "names": {},
+    "types": {},
+    "position": [
+      82,
+      89.375,
+      -90.0
+    ]
+  },
+  "R3": {
+    "value": "100R",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:R_0603_1608Metric",
+    "pins": {
+      "1": "AUX3_BUFFERED",
+      "2": "ADC_CH3"
+    },
+    "kind": "r",
+    "names": {},
+    "types": {},
+    "position": [
+      79.6,
+      92.4,
+      0.0
+    ]
+  },
+  "C13": {
+    "value": "1nF",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:C_0603_1608Metric",
+    "pins": {
+      "1": "ADC_CH3",
+      "2": "GND"
+    },
+    "kind": "c",
+    "names": {},
+    "types": {},
+    "position": [
+      82,
+      93.17500000000001,
+      -90.0
+    ]
+  },
+  "R4": {
+    "value": "100R",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:R_0603_1608Metric",
+    "pins": {
+      "1": "AUX4_BUFFERED",
+      "2": "ADC_CH4"
+    },
+    "kind": "r",
+    "names": {},
+    "types": {},
+    "position": [
+      79.6,
+      96.2,
+      0.0
+    ]
+  },
+  "C14": {
+    "value": "1nF",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:C_0603_1608Metric",
+    "pins": {
+      "1": "ADC_CH4",
+      "2": "GND"
+    },
+    "kind": "c",
+    "names": {},
+    "types": {},
+    "position": [
+      82,
+      96.97500000000001,
+      -90.0
+    ]
+  },
+  "R5": {
+    "value": "100R",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:R_0603_1608Metric",
+    "pins": {
+      "1": "CT1_RAW",
+      "2": "ADC_CH5"
+    },
+    "kind": "r",
+    "names": {},
+    "types": {},
+    "position": [
+      79.6,
+      100.0,
+      0.0
+    ]
+  },
+  "C15": {
+    "value": "1nF",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:C_0603_1608Metric",
+    "pins": {
+      "1": "ADC_CH5",
+      "2": "GND"
+    },
+    "kind": "c",
+    "names": {},
+    "types": {},
+    "position": [
+      82,
+      100.775,
+      -90.0
+    ]
+  },
+  "R6": {
+    "value": "100R",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:R_0603_1608Metric",
+    "pins": {
+      "1": "CT1_ENVELOPE",
+      "2": "ADC_CH6"
+    },
+    "kind": "r",
+    "names": {},
+    "types": {},
+    "position": [
+      79.6,
+      103.8,
+      0.0
+    ]
+  },
+  "C16": {
+    "value": "1nF",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:C_0603_1608Metric",
+    "pins": {
+      "1": "ADC_CH6",
+      "2": "GND"
+    },
+    "kind": "c",
+    "names": {},
+    "types": {},
+    "position": [
+      82,
+      104.575,
+      -90.0
+    ]
+  },
+  "R7": {
+    "value": "100R",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:R_0603_1608Metric",
+    "pins": {
+      "1": "CT2_RAW",
+      "2": "ADC_CH7"
+    },
+    "kind": "r",
+    "names": {},
+    "types": {},
+    "position": [
+      79.6,
+      107.6,
+      0.0
+    ]
+  },
+  "C17": {
+    "value": "1nF",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:C_0603_1608Metric",
+    "pins": {
+      "1": "ADC_CH7",
+      "2": "GND"
+    },
+    "kind": "c",
+    "names": {},
+    "types": {},
+    "position": [
+      82,
+      108.375,
+      -90.0
+    ]
+  },
+  "R8": {
+    "value": "100R",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:R_0603_1608Metric",
+    "pins": {
+      "1": "CT2_ENVELOPE",
+      "2": "ADC_CH8"
+    },
+    "kind": "r",
+    "names": {},
+    "types": {},
+    "position": [
+      79.6,
+      111.4,
+      0.0
+    ]
+  },
+  "C18": {
+    "value": "1nF",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:C_0603_1608Metric",
+    "pins": {
+      "1": "ADC_CH8",
+      "2": "GND"
+    },
+    "kind": "c",
+    "names": {},
+    "types": {},
+    "position": [
+      82,
+      112.17500000000001,
+      -90.0
+    ]
+  },
+  "J4": {
+    "value": "12V BATTERY / UPPER",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal",
+    "pins": {
+      "1": "VBAT_24V",
+      "2": "BAT_MID_12V"
+    },
+    "kind": "connector",
+    "names": {
+      "1": "+",
+      "2": "-"
+    },
+    "types": {},
+    "position": [
+      27.5,
+      39,
+      270
+    ]
+  },
+  "R20": {
+    "value": "0R",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:R_0603_1608Metric",
+    "pins": {
+      "1": "VIN_5V",
+      "2": "+5V_ADC"
+    },
+    "kind": "r",
+    "names": {},
+    "types": {},
+    "position": [
+      85.9,
+      80,
+      270
+    ]
+  },
+  "U2": {
+    "value": "AP2112K-3.3",
+    "mpn": "AP2112K-3.3TRG1",
+    "lcsc": "C51118",
+    "footprint": "Tesla:SOT-23-5",
+    "pins": {
+      "1": "VIN_5V",
+      "2": "GND",
+      "3": "VIN_5V",
+      "4": null,
+      "5": "+3V3"
+    },
+    "kind": "ic",
+    "names": {
+      "1": "VIN",
+      "2": "GND",
+      "3": "EN",
+      "4": "NC",
+      "5": "VOUT"
+    },
+    "types": {
+      "1": "power_in",
+      "2": "power_in",
+      "3": "input",
+      "4": "no_connect",
+      "5": "power_out"
+    },
+    "position": [
+      109.8,
+      112,
+      0
+    ]
+  },
+  "C20": {
+    "value": "1uF",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:C_0603_1608Metric",
+    "pins": {
+      "1": "VIN_5V",
+      "2": "GND"
+    },
+    "kind": "c",
+    "names": {},
+    "types": {},
+    "position": [
+      106,
+      111.05,
+      180
+    ]
+  },
+  "C21": {
+    "value": "1uF",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:C_0603_1608Metric",
+    "pins": {
+      "1": "+3V3",
+      "2": "GND"
+    },
+    "kind": "c",
+    "names": {},
+    "types": {},
+    "position": [
+      112.7,
+      111.825,
+      270
+    ]
+  },
+  "R21": {
+    "value": "10k",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:R_0603_1608Metric",
+    "pins": {
+      "1": "GND",
+      "2": "ADC_CONVST"
+    },
+    "kind": "r",
+    "names": {},
+    "types": {},
+    "position": [
+      92.5,
+      108.0,
+      90.0
+    ]
+  },
+  "R22": {
+    "value": "10k",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:R_0603_1608Metric",
+    "pins": {
+      "1": "+3V3",
+      "2": "ADC_CS_N"
+    },
+    "kind": "r",
+    "names": {},
+    "types": {},
+    "position": [
+      96.5,
+      108.0,
+      90.0
+    ]
+  },
+  "R23": {
+    "value": "10k",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:R_0603_1608Metric",
+    "pins": {
+      "1": "+3V3",
+      "2": "ADC_RESET"
+    },
+    "kind": "r",
+    "names": {},
+    "types": {},
+    "position": [
+      94.5,
+      108.0,
+      90.0
+    ]
+  },
+  "J5": {
+    "value": "USB-C / PROGRAMMING ONLY",
+    "mpn": "TYPE-C-31-M-12",
+    "lcsc": "C165948",
+    "footprint": "Tesla:USB_C_Receptacle_HRO_TYPE-C-31-M-12",
+    "pins": {
+      "A1": "GND",
+      "B12": "GND",
+      "A12": "GND",
+      "B1": "GND",
+      "S1": "GND",
+      "A4": "USB_VBUS",
+      "B9": "USB_VBUS",
+      "A9": "USB_VBUS",
+      "B4": "USB_VBUS",
+      "A5": "USB_CC1",
+      "B5": "USB_CC2",
+      "A6": "USB_D+",
+      "B6": "USB_D+",
+      "A7": "USB_D-",
+      "B7": "USB_D-",
+      "A8": null,
+      "B8": null
+    },
+    "kind": "connector",
+    "names": {
+      "A1": "GND",
+      "B12": "GND",
+      "A12": "GND",
+      "B1": "GND",
+      "S1": "SHIELD",
+      "A4": "VBUS",
+      "B9": "VBUS",
+      "A9": "VBUS",
+      "B4": "VBUS",
+      "A5": "CC1",
+      "B5": "CC2",
+      "A6": "D+",
+      "B6": "D+",
+      "A7": "D-",
+      "B7": "D-",
+      "A8": "SBU1",
+      "B8": "SBU2"
+    },
+    "types": {},
+    "position": [
+      128,
+      30.4,
+      180
+    ]
+  },
+  "J40": {
+    "value": "CST SECONDARY",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal",
+    "pins": {
+      "1": "CT1_CABLE_P",
+      "2": "CT1_CABLE_N"
+    },
+    "kind": "connector",
+    "names": {
+      "1": "S1 / DOT",
+      "2": "S2 / RETURN"
+    },
+    "types": {},
+    "position": [
+      29.0,
+      130.0,
+      -90.0
+    ]
+  },
+  "R400": {
+    "value": "20R 1% 1W",
+    "mpn": "CRCW251220R0FKEG",
+    "lcsc": "",
+    "footprint": "Tesla:R_2512_6332Metric",
+    "pins": {
+      "1": "CT1_RAW",
+      "2": "GND"
+    },
+    "kind": "r",
+    "names": {},
+    "types": {},
+    "position": [
+      49.0,
+      129.0,
+      0.0
+    ]
+  },
+  "R401": {
+    "value": "20R 1% 1W",
+    "mpn": "CRCW251220R0FKEG",
+    "lcsc": "",
+    "footprint": "Tesla:R_2512_6332Metric",
+    "pins": {
+      "1": "CT1_RAW",
+      "2": "GND"
+    },
+    "kind": "r",
+    "names": {},
+    "types": {},
+    "position": [
+      49.0,
+      134.0,
+      0.0
+    ]
+  },
+  "D40": {
+    "value": "SMBJ5.0CA",
+    "mpn": "SMBJ5.0CA",
+    "lcsc": "",
+    "footprint": "Tesla:D_SMB",
+    "pins": {
+      "1": "CT1_RAW",
+      "2": "GND"
+    },
+    "kind": "tvs",
+    "names": {
+      "1": "~",
+      "2": "~"
+    },
+    "types": {},
+    "position": [
+      49.0,
+      138.5,
+      0.0
+    ]
+  },
+  "U40": {
+    "value": "OPA197IDBVR",
+    "mpn": "OPA197IDBVR",
+    "lcsc": "",
+    "footprint": "Tesla:SOT-23-5",
+    "pins": {
+      "1": "CT1_RECT_DRIVE",
+      "2": "-5V_CT",
+      "3": "GND",
+      "4": "CT1_RECT_SUM",
+      "5": "+5V_ADC"
+    },
+    "kind": "ic",
+    "names": {
+      "1": "OUT",
+      "2": "V-",
+      "3": "+",
+      "4": "-",
+      "5": "V+"
+    },
+    "types": {
+      "1": "output",
+      "2": "power_in",
+      "3": "input",
+      "4": "input",
+      "5": "power_in"
+    },
+    "position": [
+      61.0,
+      132.0,
+      180.0
+    ]
+  },
+  "U41": {
+    "value": "OPA197IDBVR",
+    "mpn": "OPA197IDBVR",
+    "lcsc": "",
+    "footprint": "Tesla:SOT-23-5",
+    "pins": {
+      "1": "CT1_ABS",
+      "2": "-5V_CT",
+      "3": "GND",
+      "4": "CT1_ABS_SUM",
+      "5": "+5V_ADC"
+    },
+    "kind": "ic",
+    "names": {
+      "1": "OUT",
+      "2": "V-",
+      "3": "+",
+      "4": "-",
+      "5": "V+"
+    },
+    "types": {
+      "1": "output",
+      "2": "power_in",
+      "3": "input",
+      "4": "input",
+      "5": "power_in"
+    },
+    "position": [
+      77.0,
+      132.0,
+      180.0
+    ]
+  },
+  "R402": {
+    "value": "10k 0.1%",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:R_0805_2012Metric",
+    "pins": {
+      "1": "CT1_RAW",
+      "2": "CT1_RECT_SUM"
+    },
+    "kind": "r",
+    "names": {},
+    "types": {},
+    "position": [
+      56.5,
+      131.05,
+      0
+    ]
+  },
+  "R403": {
+    "value": "10k 0.1%",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:R_0805_2012Metric",
+    "pins": {
+      "1": "CT1_RECT_SUM",
+      "2": "CT1_HALF"
+    },
+    "kind": "r",
+    "names": {},
+    "types": {},
+    "position": [
+      57.7,
+      128.1,
+      90
+    ]
+  },
+  "R404": {
+    "value": "10k 0.1%",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:R_0805_2012Metric",
+    "pins": {
+      "1": "CT1_RAW",
+      "2": "CT1_ABS_SUM"
+    },
+    "kind": "r",
+    "names": {},
+    "types": {},
+    "position": [
+      70.0,
+      126.0,
+      0.0
+    ]
+  },
+  "R405": {
+    "value": "10k 0.1%",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:R_0805_2012Metric",
+    "pins": {
+      "1": "CT1_HALF",
+      "2": "CT1_ABS_SUM"
+    },
+    "kind": "r",
+    "names": {},
+    "types": {},
+    "position": [
+      70.0,
+      129.0,
+      0.0
+    ]
+  },
+  "R406": {
+    "value": "10k 0.1%",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:R_0805_2012Metric",
+    "pins": {
+      "1": "CT1_HALF",
+      "2": "CT1_ABS_SUM"
+    },
+    "kind": "r",
+    "names": {},
+    "types": {},
+    "position": [
+      70,
+      132,
+      0
+    ]
+  },
+  "R407": {
+    "value": "10k 0.1%",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:R_0805_2012Metric",
+    "pins": {
+      "1": "CT1_ABS_SUM",
+      "2": "CT1_ABS"
+    },
+    "kind": "r",
+    "names": {},
+    "types": {},
+    "position": [
+      76.775,
+      128.4,
+      0
+    ]
+  },
+  "R408": {
+    "value": "1k",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:R_0805_2012Metric",
+    "pins": {
+      "1": "CT1_ABS",
+      "2": "CT1_ENVELOPE"
+    },
+    "kind": "r",
+    "names": {},
+    "types": {},
+    "position": [
+      81.0,
+      135.5,
+      0.0
+    ]
+  },
+  "D41": {
+    "value": "1N4148W,115",
+    "mpn": "1N4148W,115",
+    "lcsc": "",
+    "footprint": "Tesla:D_SOD-123",
+    "pins": {
+      "1": "CT1_RECT_SUM",
+      "2": "CT1_RECT_DRIVE"
+    },
+    "kind": "diode",
+    "names": {
+      "1": "K",
+      "2": "A"
+    },
+    "types": {},
+    "position": [
+      65.0,
+      127.0,
+      0.0
+    ]
+  },
+  "D42": {
+    "value": "1N4148W,115",
+    "mpn": "1N4148W,115",
+    "lcsc": "",
+    "footprint": "Tesla:D_SOD-123",
+    "pins": {
+      "1": "CT1_RECT_DRIVE",
+      "2": "CT1_HALF"
+    },
+    "kind": "diode",
+    "names": {
+      "1": "K",
+      "2": "A"
+    },
+    "types": {},
+    "position": [
+      65,
+      124.5,
+      180
+    ]
+  },
+  "C400": {
+    "value": "10nF C0G",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:C_0805_2012Metric",
+    "pins": {
+      "1": "CT1_ENVELOPE",
+      "2": "GND"
+    },
+    "kind": "c",
+    "names": {},
+    "types": {},
+    "position": [
+      84.0,
+      136.45,
+      -90.0
+    ]
+  },
+  "C401": {
+    "value": "100nF",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:C_0805_2012Metric",
+    "pins": {
+      "1": "+5V_ADC",
+      "2": "GND"
+    },
+    "kind": "c",
+    "names": {},
+    "types": {},
+    "position": [
+      59.8625,
+      135.7,
+      270
+    ]
+  },
+  "C402": {
+    "value": "100nF",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:C_0805_2012Metric",
+    "pins": {
+      "1": "-5V_CT",
+      "2": "GND"
+    },
+    "kind": "c",
+    "names": {},
+    "types": {},
+    "position": [
+      65,
+      132,
+      0
+    ]
+  },
+  "C403": {
+    "value": "100nF",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:C_0805_2012Metric",
+    "pins": {
+      "1": "+5V_ADC",
+      "2": "GND"
+    },
+    "kind": "c",
+    "names": {},
+    "types": {},
+    "position": [
+      75.8625,
+      135.7,
+      270
+    ]
+  },
+  "C404": {
+    "value": "100nF",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:C_0805_2012Metric",
+    "pins": {
+      "1": "-5V_CT",
+      "2": "GND"
+    },
+    "kind": "c",
+    "names": {},
+    "types": {},
+    "position": [
+      81,
+      132,
+      0
+    ]
+  },
+  "R410": {
+    "value": "5k 0.1%",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:R_0805_2012Metric",
+    "pins": {
+      "1": "CT1_PHASE_AC",
+      "2": "CT1_PHASE"
+    },
+    "kind": "r",
+    "names": {},
+    "types": {},
+    "position": [
+      94.0,
+      132.0,
+      0.0
+    ]
+  },
+  "R411": {
+    "value": "10k 0.1%",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:R_0805_2012Metric",
+    "pins": {
+      "1": "+3V3",
+      "2": "CT1_PHASE"
+    },
+    "kind": "r",
+    "names": {},
+    "types": {},
+    "position": [
+      97,
+      129,
+      270
+    ]
+  },
+  "C410": {
+    "value": "22pF C0G",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:C_0805_2012Metric",
+    "pins": {
+      "1": "CT1_PHASE",
+      "2": "GND"
+    },
+    "kind": "c",
+    "names": {},
+    "types": {},
+    "position": [
+      100.0,
+      137.0,
+      0.0
+    ]
+  },
+  "D43": {
+    "value": "BAT54S,215",
+    "mpn": "BAT54S,215",
+    "lcsc": "",
+    "footprint": "Tesla:SOT-23",
+    "pins": {
+      "1": "GND",
+      "2": "+3V3",
+      "3": "CT1_PHASE"
+    },
+    "kind": "clamp",
+    "names": {
+      "1": "A1",
+      "2": "K2",
+      "3": "K1/A2"
+    },
+    "types": {},
+    "position": [
+      100,
+      132,
+      180
+    ]
+  },
+  "R414": {
+    "value": "1k 0.1%",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:R_0805_2012Metric",
+    "pins": {
+      "1": "+3V3",
+      "2": "CT1_MID"
+    },
+    "kind": "r",
+    "names": {},
+    "types": {},
+    "position": [
+      100,
+      125,
+      0
+    ]
+  },
+  "R415": {
+    "value": "1k 0.1%",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:R_0805_2012Metric",
+    "pins": {
+      "1": "CT1_MID",
+      "2": "GND"
+    },
+    "kind": "r",
+    "names": {},
+    "types": {},
+    "position": [
+      104.0,
+      125.0,
+      0.0
+    ]
+  },
+  "C412": {
+    "value": "1uF",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:C_0805_2012Metric",
+    "pins": {
+      "1": "CT1_MID",
+      "2": "GND"
+    },
+    "kind": "c",
+    "names": {},
+    "types": {},
+    "position": [
+      104,
+      128,
+      0
+    ]
+  },
+  "U42": {
+    "value": "TLV3501AIDBVR",
+    "mpn": "TLV3501AIDBVR",
+    "lcsc": "",
+    "footprint": "Tesla:SOT-23-6",
+    "pins": {
+      "1": "CT1_MID",
+      "2": "GND",
+      "3": "CT1_PHASE",
+      "4": "+3V3",
+      "5": "CT1_ZERO_DRV",
+      "6": "GND"
+    },
+    "kind": "ic",
+    "names": {
+      "1": "-",
+      "2": "V-",
+      "3": "+",
+      "4": "V+",
+      "5": "OUT",
+      "6": "SHDN"
+    },
+    "types": {
+      "1": "input",
+      "2": "power_in",
+      "3": "input",
+      "4": "power_in",
+      "5": "output",
+      "6": "input"
+    },
+    "position": [
+      105.0,
+      132.0,
+      0.0
+    ]
+  },
+  "R416": {
+    "value": "33R",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:R_0805_2012Metric",
+    "pins": {
+      "1": "CT1_ZERO_DRV",
+      "2": "CT1_ZERO"
+    },
+    "kind": "r",
+    "names": {},
+    "types": {},
+    "position": [
+      109,
+      129.5,
+      0
+    ]
+  },
+  "C413": {
+    "value": "100nF",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:C_0805_2012Metric",
+    "pins": {
+      "1": "+3V3",
+      "2": "GND"
+    },
+    "kind": "c",
+    "names": {},
+    "types": {},
+    "position": [
+      109,
+      132.95,
+      0
+    ]
+  },
+  "U44": {
+    "value": "TPS60403DBVR",
+    "mpn": "TPS60403DBVR",
+    "lcsc": "",
+    "footprint": "Tesla:SOT-23-5",
+    "pins": {
+      "1": "CT1_NEG_PUMP",
+      "2": "+5V_ADC",
+      "3": "CT1_FLY_N",
+      "4": "GND",
+      "5": "CT1_FLY_P"
+    },
+    "kind": "ic",
+    "names": {
+      "1": "OUT",
+      "2": "IN",
+      "3": "CFLY-",
+      "4": "GND",
+      "5": "CFLY+"
+    },
+    "types": {
+      "1": "power_out",
+      "2": "power_in",
+      "3": "passive",
+      "4": "power_in",
+      "5": "passive"
+    },
+    "position": [
+      67.2,
+      114.0,
+      0.0
+    ]
+  },
+  "C420": {
+    "value": "1uF 16V",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:C_0805_2012Metric",
+    "pins": {
+      "1": "CT1_FLY_P",
+      "2": "CT1_FLY_N"
+    },
+    "kind": "c",
+    "names": {},
+    "types": {},
+    "position": [
+      67.2,
+      117.0,
+      180.0
+    ]
+  },
+  "C421": {
+    "value": "1uF 16V",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:C_0805_2012Metric",
+    "pins": {
+      "1": "+5V_ADC",
+      "2": "GND"
+    },
+    "kind": "c",
+    "names": {},
+    "types": {},
+    "position": [
+      63.2,
+      114.0,
+      180.0
+    ]
+  },
+  "C422": {
+    "value": "10uF 16V",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:C_0805_2012Metric",
+    "pins": {
+      "1": "CT1_NEG_PUMP",
+      "2": "GND"
+    },
+    "kind": "c",
+    "names": {},
+    "types": {},
+    "position": [
+      63.8,
+      110.5,
+      90.0
+    ]
+  },
+  "R421": {
+    "value": "10R",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:R_0805_2012Metric",
+    "pins": {
+      "1": "CT1_NEG_PUMP",
+      "2": "-5V_CT"
+    },
+    "kind": "r",
+    "names": {},
+    "types": {},
+    "position": [
+      60.6,
+      111.75,
+      180.0
+    ]
+  },
+  "C423": {
+    "value": "10uF 16V",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:C_0805_2012Metric",
+    "pins": {
+      "1": "-5V_CT",
+      "2": "GND"
+    },
+    "kind": "c",
+    "names": {},
+    "types": {},
+    "position": [
+      61.2,
+      116.0,
+      0.0
+    ]
+  },
+  "C424": {
+    "value": "2.2uF",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:C_0805_2012Metric",
+    "pins": {
+      "1": "+3V3",
+      "2": "GND"
+    },
+    "kind": "c",
+    "names": {},
+    "types": {},
+    "position": [
+      109,
+      136.4,
+      0
+    ]
+  },
+  "TP40": {
+    "value": "CT1_RAW",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:TestPoint_Pad_D1.0mm",
+    "pins": {
+      "1": "CT1_RAW"
+    },
+    "kind": "testpoint",
+    "names": {
+      "1": "CT1_RAW"
+    },
+    "types": {},
+    "position": [
+      54.0,
+      139.5,
+      0.0
+    ]
+  },
+  "TP41": {
+    "value": "CT1_HALF",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:TestPoint_Pad_D1.0mm",
+    "pins": {
+      "1": "CT1_HALF"
+    },
+    "kind": "testpoint",
+    "names": {
+      "1": "CT1_HALF"
+    },
+    "types": {},
+    "position": [
+      72.0,
+      135.5,
+      0.0
+    ]
+  },
+  "TP42": {
+    "value": "CT1_ABS",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:TestPoint_Pad_D1.0mm",
+    "pins": {
+      "1": "CT1_ABS"
+    },
+    "kind": "testpoint",
+    "names": {
+      "1": "CT1_ABS"
+    },
+    "types": {},
+    "position": [
+      79.2,
+      138.0,
+      0.0
+    ]
+  },
+  "TP43": {
+    "value": "CT1_ENVELOPE",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:TestPoint_Pad_D1.0mm",
+    "pins": {
+      "1": "CT1_ENVELOPE"
+    },
+    "kind": "testpoint",
+    "names": {
+      "1": "CT1_ENVELOPE"
+    },
+    "types": {},
+    "position": [
+      84,
+      133.5,
+      0
+    ]
+  },
+  "C425": {
+    "value": "1uF 16V",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:C_0805_2012Metric",
+    "pins": {
+      "1": "CT1_RAW",
+      "2": "CT1_PHASE_AC"
+    },
+    "kind": "c",
+    "names": {},
+    "types": {},
+    "position": [
+      90.5,
+      132,
+      0
+    ]
+  },
+  "R422": {
+    "value": "10k 0.1%",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:R_0805_2012Metric",
+    "pins": {
+      "1": "CT1_PHASE",
+      "2": "GND"
+    },
+    "kind": "r",
+    "names": {},
+    "types": {},
+    "position": [
+      97,
+      135,
+      270
+    ]
+  },
+  "R500": {
+    "value": "2.2k",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:R_0805_2012Metric",
+    "pins": {
+      "1": "GDT1_L_HI",
+      "2": "GND"
+    },
+    "kind": "r",
+    "names": {},
+    "types": {},
+    "position": [
+      132.095,
+      82.9,
+      270
+    ]
+  },
+  "R501": {
+    "value": "2.2k",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:R_0805_2012Metric",
+    "pins": {
+      "1": "GDT1_L_LO",
+      "2": "GND"
+    },
+    "kind": "r",
+    "names": {},
+    "types": {},
+    "position": [
+      134.595,
+      82.9,
+      270
+    ]
+  },
+  "R502": {
+    "value": "2.2k",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:R_0805_2012Metric",
+    "pins": {
+      "1": "GDT1_R_HI",
+      "2": "GND"
+    },
+    "kind": "r",
+    "names": {},
+    "types": {},
+    "position": [
+      150.095,
+      82.9,
+      270
+    ]
+  },
+  "R503": {
+    "value": "2.2k",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:R_0805_2012Metric",
+    "pins": {
+      "1": "GDT1_R_LO",
+      "2": "GND"
+    },
+    "kind": "r",
+    "names": {},
+    "types": {},
+    "position": [
+      152.595,
+      82.9,
+      270
+    ]
+  },
+  "R505": {
+    "value": "33R",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:R_0805_2012Metric",
+    "pins": {
+      "1": "GDT1_L_HI",
+      "2": "GDT1_L_HI_BUS"
+    },
+    "kind": "r",
+    "names": {},
+    "types": {},
+    "position": [
+      132.095,
+      79.5,
+      90
+    ]
+  },
+  "R506": {
+    "value": "33R",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:R_0805_2012Metric",
+    "pins": {
+      "1": "GDT1_L_LO",
+      "2": "GDT1_L_LO_BUS"
+    },
+    "kind": "r",
+    "names": {},
+    "types": {},
+    "position": [
+      134.595,
+      79.5,
+      90
+    ]
+  },
+  "R507": {
+    "value": "33R",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:R_0805_2012Metric",
+    "pins": {
+      "1": "GDT1_R_HI",
+      "2": "GDT1_R_HI_BUS"
+    },
+    "kind": "r",
+    "names": {},
+    "types": {},
+    "position": [
+      150.095,
+      79.5,
+      90
+    ]
+  },
+  "R508": {
+    "value": "33R",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:R_0805_2012Metric",
+    "pins": {
+      "1": "GDT1_R_LO",
+      "2": "GDT1_R_LO_BUS"
+    },
+    "kind": "r",
+    "names": {},
+    "types": {},
+    "position": [
+      152.595,
+      79.5,
+      90
+    ]
+  },
+  "U51": {
+    "value": "UCC27282DR",
+    "mpn": "UCC27282DR",
+    "lcsc": "C2867844",
+    "footprint": "Tesla:SOIC-8_3.9x4.9mm_P1.27mm",
+    "pins": {
+      "1": "+12V_BIAS",
+      "2": "GDT1_L_HB",
+      "3": "GDT1_L_HO",
+      "4": "GDT1_L_SW",
+      "5": "GDT1_L_HI_BUS",
+      "6": "GDT1_L_LO_BUS",
+      "7": "GND",
+      "8": "GDT1_L_LO_DRV"
+    },
+    "kind": "ic",
+    "names": {
+      "1": "VDD",
+      "2": "HB",
+      "3": "HO",
+      "4": "HS",
+      "5": "HI",
+      "6": "LI",
+      "7": "VSS",
+      "8": "LO"
+    },
+    "types": {
+      "1": "passive",
+      "2": "passive",
+      "3": "output",
+      "4": "passive",
+      "5": "input",
+      "6": "input",
+      "7": "passive",
+      "8": "output"
+    },
+    "position": [
+      134.0,
+      73.5,
+      -90.0
+    ]
+  },
+  "C520": {
+    "value": "1uF 25V X7R",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:C_0805_2012Metric",
+    "pins": {
+      "1": "GDT1_L_HB",
+      "2": "GDT1_L_SW"
+    },
+    "kind": "c",
+    "names": {},
+    "types": {},
+    "position": [
+      133.365,
+      68.0,
+      180.0
+    ]
+  },
+  "C521": {
+    "value": "100nF 25V",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:C_0805_2012Metric",
+    "pins": {
+      "1": "+12V_BIAS",
+      "2": "GND"
+    },
+    "kind": "c",
+    "names": {},
+    "types": {},
+    "position": [
+      138.75,
+      71.025,
+      0
+    ]
+  },
+  "C522": {
+    "value": "4.7uF 25V X7R",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:C_0805_2012Metric",
+    "pins": {
+      "1": "+12V_BIAS",
+      "2": "GND"
+    },
+    "kind": "c",
+    "names": {},
+    "types": {},
+    "position": [
+      138.75,
+      67.5,
+      0
+    ]
+  },
+  "Q50": {
+    "value": "STD80N10F7",
+    "mpn": "STD80N10F7",
+    "lcsc": "C2832811",
+    "footprint": "Tesla:TO-252-2",
+    "pins": {
+      "1": "GDT1_L_HG",
+      "2": "VBAT_24V",
+      "3": "GDT1_L_SW"
+    },
+    "kind": "mosfet",
+    "names": {
+      "1": "G",
+      "2": "D",
+      "3": "S"
+    },
+    "types": {},
+    "position": [
+      145.0,
+      64.0,
+      90.0
+    ]
+  },
+  "R520": {
+    "value": "4.7R",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:R_0805_2012Metric",
+    "pins": {
+      "1": "GDT1_L_HO",
+      "2": "GDT1_L_HG"
+    },
+    "kind": "r",
+    "names": {},
+    "types": {},
+    "position": [
+      142.72,
+      72.3,
+      90
+    ]
+  },
+  "R521": {
+    "value": "10k",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:R_0805_2012Metric",
+    "pins": {
+      "1": "GDT1_L_HG",
+      "2": "GDT1_L_SW"
+    },
+    "kind": "r",
+    "names": {},
+    "types": {},
+    "position": [
+      145.5,
+      72,
+      0
+    ]
+  },
+  "Q51": {
+    "value": "STD80N10F7",
+    "mpn": "STD80N10F7",
+    "lcsc": "C2832811",
+    "footprint": "Tesla:TO-252-2",
+    "pins": {
+      "1": "GDT1_L_LG",
+      "2": "GDT1_L_SW",
+      "3": "GND"
+    },
+    "kind": "mosfet",
+    "names": {
+      "1": "G",
+      "2": "D",
+      "3": "S"
+    },
+    "types": {},
+    "position": [
+      145.0,
+      83.0,
+      90.0
+    ]
+  },
+  "R522": {
+    "value": "4.7R",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:R_0805_2012Metric",
+    "pins": {
+      "1": "GDT1_L_LO_DRV",
+      "2": "GDT1_L_LG"
+    },
+    "kind": "r",
+    "names": {},
+    "types": {},
+    "position": [
+      139.0,
+      85.5,
+      0.0
+    ]
+  },
+  "R523": {
+    "value": "10k",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:R_0805_2012Metric",
+    "pins": {
+      "1": "GDT1_L_LG",
+      "2": "GND"
+    },
+    "kind": "r",
+    "names": {},
+    "types": {},
+    "position": [
+      139,
+      88.04,
+      180
+    ]
+  },
+  "U52": {
+    "value": "UCC27282DR",
+    "mpn": "UCC27282DR",
+    "lcsc": "C2867844",
+    "footprint": "Tesla:SOIC-8_3.9x4.9mm_P1.27mm",
+    "pins": {
+      "1": "+12V_BIAS",
+      "2": "GDT1_R_HB",
+      "3": "GDT1_R_HO",
+      "4": "GDT1_R_SW",
+      "5": "GDT1_R_HI_BUS",
+      "6": "GDT1_R_LO_BUS",
+      "7": "GND",
+      "8": "GDT1_R_LO_DRV"
+    },
+    "kind": "ic",
+    "names": {
+      "1": "VDD",
+      "2": "HB",
+      "3": "HO",
+      "4": "HS",
+      "5": "HI",
+      "6": "LI",
+      "7": "VSS",
+      "8": "LO"
+    },
+    "types": {
+      "1": "passive",
+      "2": "passive",
+      "3": "output",
+      "4": "passive",
+      "5": "input",
+      "6": "input",
+      "7": "passive",
+      "8": "output"
+    },
+    "position": [
+      152.0,
+      73.5,
+      -90.0
+    ]
+  },
+  "C523": {
+    "value": "1uF 25V X7R",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:C_0805_2012Metric",
+    "pins": {
+      "1": "GDT1_R_HB",
+      "2": "GDT1_R_SW"
+    },
+    "kind": "c",
+    "names": {},
+    "types": {},
+    "position": [
+      151.365,
+      68.0,
+      180.0
+    ]
+  },
+  "C524": {
+    "value": "100nF 25V",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:C_0805_2012Metric",
+    "pins": {
+      "1": "+12V_BIAS",
+      "2": "GND"
+    },
+    "kind": "c",
+    "names": {},
+    "types": {},
+    "position": [
+      156.75,
+      71.025,
+      0
+    ]
+  },
+  "C525": {
+    "value": "4.7uF 25V X7R",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:C_0805_2012Metric",
+    "pins": {
+      "1": "+12V_BIAS",
+      "2": "GND"
+    },
+    "kind": "c",
+    "names": {},
+    "types": {},
+    "position": [
+      156.75,
+      67.5,
+      0
+    ]
+  },
+  "Q52": {
+    "value": "STD80N10F7",
+    "mpn": "STD80N10F7",
+    "lcsc": "C2832811",
+    "footprint": "Tesla:TO-252-2",
+    "pins": {
+      "1": "GDT1_R_HG",
+      "2": "VBAT_24V",
+      "3": "GDT1_R_SW"
+    },
+    "kind": "mosfet",
+    "names": {
+      "1": "G",
+      "2": "D",
+      "3": "S"
+    },
+    "types": {},
+    "position": [
+      163.0,
+      64.0,
+      90.0
+    ]
+  },
+  "R524": {
+    "value": "4.7R",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:R_0805_2012Metric",
+    "pins": {
+      "1": "GDT1_R_HO",
+      "2": "GDT1_R_HG"
+    },
+    "kind": "r",
+    "names": {},
+    "types": {},
+    "position": [
+      160.72,
+      72.3,
+      90
+    ]
+  },
+  "R525": {
+    "value": "10k",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:R_0805_2012Metric",
+    "pins": {
+      "1": "GDT1_R_HG",
+      "2": "GDT1_R_SW"
+    },
+    "kind": "r",
+    "names": {},
+    "types": {},
+    "position": [
+      163.5,
+      72,
+      0
+    ]
+  },
+  "Q53": {
+    "value": "STD80N10F7",
+    "mpn": "STD80N10F7",
+    "lcsc": "C2832811",
+    "footprint": "Tesla:TO-252-2",
+    "pins": {
+      "1": "GDT1_R_LG",
+      "2": "GDT1_R_SW",
+      "3": "GND"
+    },
+    "kind": "mosfet",
+    "names": {
+      "1": "G",
+      "2": "D",
+      "3": "S"
+    },
+    "types": {},
+    "position": [
+      163.0,
+      83.0,
+      90.0
+    ]
+  },
+  "R526": {
+    "value": "4.7R",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:R_0805_2012Metric",
+    "pins": {
+      "1": "GDT1_R_LO_DRV",
+      "2": "GDT1_R_LG"
+    },
+    "kind": "r",
+    "names": {},
+    "types": {},
+    "position": [
+      157.0,
+      85.5,
+      0.0
+    ]
+  },
+  "R527": {
+    "value": "10k",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:R_0805_2012Metric",
+    "pins": {
+      "1": "GDT1_R_LG",
+      "2": "GND"
+    },
+    "kind": "r",
+    "names": {},
+    "types": {},
+    "position": [
+      157,
+      88.04,
+      180
+    ]
+  },
+  "C527": {
+    "value": "2.2uF 50V X7R",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:C_1210_3225Metric",
+    "pins": {
+      "1": "VBAT_24V",
+      "2": "GND"
+    },
+    "kind": "c",
+    "names": {},
+    "types": {},
+    "position": [
+      140,
+      92.5,
+      0
+    ]
+  },
+  "C528": {
+    "value": "100nF 50V",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:C_0805_2012Metric",
+    "pins": {
+      "1": "VBAT_24V",
+      "2": "GND"
+    },
+    "kind": "c",
+    "names": {},
+    "types": {},
+    "position": [
+      136.5,
+      92.5,
+      90
+    ]
+  },
+  "J50": {
+    "value": "GDT 1 PRIMARY",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal",
+    "pins": {
+      "1": "GDT1_OUT_P",
+      "2": "GDT1_R_SW"
+    },
+    "kind": "connector",
+    "names": {
+      "1": "PRIMARY +",
+      "2": "PRIMARY -"
+    },
+    "types": {},
+    "position": [
+      177.0,
+      77.0,
+      90.0
+    ]
+  },
+  "D50": {
+    "value": "SMBJ30A",
+    "mpn": "SMBJ30A-13-F",
+    "lcsc": "",
+    "footprint": "Tesla:D_SMB",
+    "pins": {
+      "1": "VBAT_24V",
+      "2": "GND"
+    },
+    "kind": "diode",
+    "names": {
+      "1": "K",
+      "2": "A"
+    },
+    "types": {},
+    "position": [
+      177.0,
+      52.0,
+      0.0
+    ]
+  },
+  "U53": {
+    "value": "UCC27282DR",
+    "mpn": "UCC27282DR",
+    "lcsc": "C2867844",
+    "footprint": "Tesla:SOIC-8_3.9x4.9mm_P1.27mm",
+    "pins": {
+      "1": "+12V_BIAS",
+      "2": "GDT2_L_HB",
+      "3": "GDT2_L_HO",
+      "4": "GDT2_L_SW",
+      "5": "GDT2_L_HI_BUS",
+      "6": "GDT2_L_LO_BUS",
+      "7": "GND",
+      "8": "GDT2_L_LO_DRV"
+    },
+    "kind": "ic",
+    "names": {
+      "1": "VDD",
+      "2": "HB",
+      "3": "HO",
+      "4": "HS",
+      "5": "HI",
+      "6": "LI",
+      "7": "VSS",
+      "8": "LO"
+    },
+    "types": {
+      "1": "passive",
+      "2": "passive",
+      "3": "output",
+      "4": "passive",
+      "5": "input",
+      "6": "input",
+      "7": "passive",
+      "8": "output"
+    },
+    "position": [
+      134.0,
+      128.5,
+      -90.0
+    ]
+  },
+  "C560": {
+    "value": "1uF 25V X7R",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:C_0805_2012Metric",
+    "pins": {
+      "1": "GDT2_L_HB",
+      "2": "GDT2_L_SW"
+    },
+    "kind": "c",
+    "names": {},
+    "types": {},
+    "position": [
+      133.365,
+      123.0,
+      180.0
+    ]
+  },
+  "C561": {
+    "value": "100nF 25V",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:C_0805_2012Metric",
+    "pins": {
+      "1": "+12V_BIAS",
+      "2": "GND"
+    },
+    "kind": "c",
+    "names": {},
+    "types": {},
+    "position": [
+      138.75,
+      126.025,
+      0
+    ]
+  },
+  "C562": {
+    "value": "4.7uF 25V X7R",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:C_0805_2012Metric",
+    "pins": {
+      "1": "+12V_BIAS",
+      "2": "GND"
+    },
+    "kind": "c",
+    "names": {},
+    "types": {},
+    "position": [
+      138.75,
+      122.5,
+      0
+    ]
+  },
+  "Q54": {
+    "value": "STD80N10F7",
+    "mpn": "STD80N10F7",
+    "lcsc": "C2832811",
+    "footprint": "Tesla:TO-252-2",
+    "pins": {
+      "1": "GDT2_L_HG",
+      "2": "VBAT_24V",
+      "3": "GDT2_L_SW"
+    },
+    "kind": "mosfet",
+    "names": {
+      "1": "G",
+      "2": "D",
+      "3": "S"
+    },
+    "types": {},
+    "position": [
+      145.0,
+      119.0,
+      90.0
+    ]
+  },
+  "R560": {
+    "value": "4.7R",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:R_0805_2012Metric",
+    "pins": {
+      "1": "GDT2_L_HO",
+      "2": "GDT2_L_HG"
+    },
+    "kind": "r",
+    "names": {},
+    "types": {},
+    "position": [
+      142.72,
+      127.3,
+      90
+    ]
+  },
+  "R561": {
+    "value": "10k",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:R_0805_2012Metric",
+    "pins": {
+      "1": "GDT2_L_HG",
+      "2": "GDT2_L_SW"
+    },
+    "kind": "r",
+    "names": {},
+    "types": {},
+    "position": [
+      145.5,
+      127,
+      0
+    ]
+  },
+  "Q55": {
+    "value": "STD80N10F7",
+    "mpn": "STD80N10F7",
+    "lcsc": "C2832811",
+    "footprint": "Tesla:TO-252-2",
+    "pins": {
+      "1": "GDT2_L_LG",
+      "2": "GDT2_L_SW",
+      "3": "GND"
+    },
+    "kind": "mosfet",
+    "names": {
+      "1": "G",
+      "2": "D",
+      "3": "S"
+    },
+    "types": {},
+    "position": [
+      145.0,
+      138.0,
+      90.0
+    ]
+  },
+  "R562": {
+    "value": "4.7R",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:R_0805_2012Metric",
+    "pins": {
+      "1": "GDT2_L_LO_DRV",
+      "2": "GDT2_L_LG"
+    },
+    "kind": "r",
+    "names": {},
+    "types": {},
+    "position": [
+      139.0,
+      140.5,
+      0.0
+    ]
+  },
+  "R563": {
+    "value": "10k",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:R_0805_2012Metric",
+    "pins": {
+      "1": "GDT2_L_LG",
+      "2": "GND"
+    },
+    "kind": "r",
+    "names": {},
+    "types": {},
+    "position": [
+      139,
+      143.04000000000002,
+      180
+    ]
+  },
+  "U54": {
+    "value": "UCC27282DR",
+    "mpn": "UCC27282DR",
+    "lcsc": "C2867844",
+    "footprint": "Tesla:SOIC-8_3.9x4.9mm_P1.27mm",
+    "pins": {
+      "1": "+12V_BIAS",
+      "2": "GDT2_R_HB",
+      "3": "GDT2_R_HO",
+      "4": "GDT2_R_SW",
+      "5": "GDT2_R_HI_BUS",
+      "6": "GDT2_R_LO_BUS",
+      "7": "GND",
+      "8": "GDT2_R_LO_DRV"
+    },
+    "kind": "ic",
+    "names": {
+      "1": "VDD",
+      "2": "HB",
+      "3": "HO",
+      "4": "HS",
+      "5": "HI",
+      "6": "LI",
+      "7": "VSS",
+      "8": "LO"
+    },
+    "types": {
+      "1": "passive",
+      "2": "passive",
+      "3": "output",
+      "4": "passive",
+      "5": "input",
+      "6": "input",
+      "7": "passive",
+      "8": "output"
+    },
+    "position": [
+      152.0,
+      128.5,
+      -90.0
+    ]
+  },
+  "C563": {
+    "value": "1uF 25V X7R",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:C_0805_2012Metric",
+    "pins": {
+      "1": "GDT2_R_HB",
+      "2": "GDT2_R_SW"
+    },
+    "kind": "c",
+    "names": {},
+    "types": {},
+    "position": [
+      151.365,
+      123.0,
+      180.0
+    ]
+  },
+  "C564": {
+    "value": "100nF 25V",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:C_0805_2012Metric",
+    "pins": {
+      "1": "+12V_BIAS",
+      "2": "GND"
+    },
+    "kind": "c",
+    "names": {},
+    "types": {},
+    "position": [
+      156.75,
+      126.025,
+      0
+    ]
+  },
+  "C565": {
+    "value": "4.7uF 25V X7R",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:C_0805_2012Metric",
+    "pins": {
+      "1": "+12V_BIAS",
+      "2": "GND"
+    },
+    "kind": "c",
+    "names": {},
+    "types": {},
+    "position": [
+      156.75,
+      122.5,
+      0
+    ]
+  },
+  "Q56": {
+    "value": "STD80N10F7",
+    "mpn": "STD80N10F7",
+    "lcsc": "C2832811",
+    "footprint": "Tesla:TO-252-2",
+    "pins": {
+      "1": "GDT2_R_HG",
+      "2": "VBAT_24V",
+      "3": "GDT2_R_SW"
+    },
+    "kind": "mosfet",
+    "names": {
+      "1": "G",
+      "2": "D",
+      "3": "S"
+    },
+    "types": {},
+    "position": [
+      163.0,
+      119.0,
+      90.0
+    ]
+  },
+  "R564": {
+    "value": "4.7R",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:R_0805_2012Metric",
+    "pins": {
+      "1": "GDT2_R_HO",
+      "2": "GDT2_R_HG"
+    },
+    "kind": "r",
+    "names": {},
+    "types": {},
+    "position": [
+      160.72,
+      127.3,
+      90
+    ]
+  },
+  "R565": {
+    "value": "10k",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:R_0805_2012Metric",
+    "pins": {
+      "1": "GDT2_R_HG",
+      "2": "GDT2_R_SW"
+    },
+    "kind": "r",
+    "names": {},
+    "types": {},
+    "position": [
+      163.5,
+      127,
+      0
+    ]
+  },
+  "Q57": {
+    "value": "STD80N10F7",
+    "mpn": "STD80N10F7",
+    "lcsc": "C2832811",
+    "footprint": "Tesla:TO-252-2",
+    "pins": {
+      "1": "GDT2_R_LG",
+      "2": "GDT2_R_SW",
+      "3": "GND"
+    },
+    "kind": "mosfet",
+    "names": {
+      "1": "G",
+      "2": "D",
+      "3": "S"
+    },
+    "types": {},
+    "position": [
+      163.0,
+      138.0,
+      90.0
+    ]
+  },
+  "R566": {
+    "value": "4.7R",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:R_0805_2012Metric",
+    "pins": {
+      "1": "GDT2_R_LO_DRV",
+      "2": "GDT2_R_LG"
+    },
+    "kind": "r",
+    "names": {},
+    "types": {},
+    "position": [
+      157.0,
+      140.5,
+      0.0
+    ]
+  },
+  "R567": {
+    "value": "10k",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:R_0805_2012Metric",
+    "pins": {
+      "1": "GDT2_R_LG",
+      "2": "GND"
+    },
+    "kind": "r",
+    "names": {},
+    "types": {},
+    "position": [
+      157,
+      143.04000000000002,
+      180
+    ]
+  },
+  "C567": {
+    "value": "2.2uF 50V X7R",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:C_1210_3225Metric",
+    "pins": {
+      "1": "VBAT_24V",
+      "2": "GND"
+    },
+    "kind": "c",
+    "names": {},
+    "types": {},
+    "position": [
+      140,
+      147.5,
+      0
+    ]
+  },
+  "C568": {
+    "value": "100nF 50V",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:C_0805_2012Metric",
+    "pins": {
+      "1": "VBAT_24V",
+      "2": "GND"
+    },
+    "kind": "c",
+    "names": {},
+    "types": {},
+    "position": [
+      136.5,
+      147.5,
+      90
+    ]
+  },
+  "J51": {
+    "value": "GDT 2 PRIMARY",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal",
+    "pins": {
+      "1": "GDT2_OUT_P",
+      "2": "GDT2_R_SW"
+    },
+    "kind": "connector",
+    "names": {
+      "1": "PRIMARY +",
+      "2": "PRIMARY -"
+    },
+    "types": {},
+    "position": [
+      177.0,
+      132.0,
+      90.0
+    ]
+  },
+  "D51": {
+    "value": "SMBJ30A",
+    "mpn": "SMBJ30A-13-F",
+    "lcsc": "",
+    "footprint": "Tesla:D_SMB",
+    "pins": {
+      "1": "VBAT_24V",
+      "2": "GND"
+    },
+    "kind": "diode",
+    "names": {
+      "1": "K",
+      "2": "A"
+    },
+    "types": {},
+    "position": [
+      177.0,
+      107.0,
+      0.0
+    ]
+  },
+  "C529": {
+    "value": "2.2uF 50V X7R",
+    "mpn": "C3225X7R1H225KT000N",
+    "lcsc": "C76683",
+    "footprint": "Tesla:C_1210_3225Metric",
+    "pins": {
+      "1": "GDT1_L_SW",
+      "2": "GDT1_OUT_P"
+    },
+    "kind": "c",
+    "names": {},
+    "types": {},
+    "position": [
+      172.0,
+      84.0,
+      0.0
+    ]
+  },
+  "R529": {
+    "value": "15R 1W",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:R_2512_6332Metric",
+    "pins": {
+      "1": "GDT1_L_SW",
+      "2": "GDT1_SNUB"
+    },
+    "kind": "r",
+    "names": {},
+    "types": {},
+    "position": [
+      170.0,
+      92.0,
+      0.0
+    ]
+  },
+  "C530": {
+    "value": "1uF 50V X7R",
+    "mpn": "C1206C105K5RACTU",
+    "lcsc": "C2167287",
+    "footprint": "Tesla:C_1206_3216Metric",
+    "pins": {
+      "1": "GDT1_SNUB",
+      "2": "GDT1_OUT_P"
+    },
+    "kind": "c",
+    "names": {},
+    "types": {},
+    "position": [
+      177.0,
+      92.0,
+      0.0
+    ]
+  },
+  "C569": {
+    "value": "2.2uF 50V X7R",
+    "mpn": "C3225X7R1H225KT000N",
+    "lcsc": "C76683",
+    "footprint": "Tesla:C_1210_3225Metric",
+    "pins": {
+      "1": "GDT2_L_SW",
+      "2": "GDT2_OUT_P"
+    },
+    "kind": "c",
+    "names": {},
+    "types": {},
+    "position": [
+      172.0,
+      139.0,
+      0.0
+    ]
+  },
+  "R569": {
+    "value": "15R 1W",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:R_2512_6332Metric",
+    "pins": {
+      "1": "GDT2_L_SW",
+      "2": "GDT2_SNUB"
+    },
+    "kind": "r",
+    "names": {},
+    "types": {},
+    "position": [
+      170.0,
+      147.0,
+      0.0
+    ]
+  },
+  "C570": {
+    "value": "1uF 50V X7R",
+    "mpn": "C1206C105K5RACTU",
+    "lcsc": "C2167287",
+    "footprint": "Tesla:C_1206_3216Metric",
+    "pins": {
+      "1": "GDT2_SNUB",
+      "2": "GDT2_OUT_P"
+    },
+    "kind": "c",
+    "names": {},
+    "types": {},
+    "position": [
+      177.0,
+      147.0,
+      0.0
+    ]
+  },
+  "U30": {
+    "value": "LMZ14202HTZX/NOPB",
+    "mpn": "LMZ14202HTZX/NOPB",
+    "lcsc": "C2861493",
+    "footprint": "Tesla:Texas_NDW-7_TabPin8",
+    "pins": {
+      "1": "VBAT_24V",
+      "2": "P30_RON",
+      "3": "P30_UVLO",
+      "4": "GND",
+      "5": "P30_SS",
+      "6": "P30_FB",
+      "7": "+12V_BIAS",
+      "8": "GND"
+    },
+    "kind": "ic",
+    "names": {
+      "1": "VIN",
+      "2": "RON",
+      "3": "EN",
+      "4": "GND",
+      "5": "SS",
+      "6": "FB",
+      "7": "VOUT",
+      "8": "EP"
+    },
+    "types": {
+      "1": "power_in",
+      "4": "power_in",
+      "7": "power_out",
+      "8": "power_in"
+    },
+    "position": [
+      43.0,
+      62.0,
+      0.0
+    ]
+  },
+  "R300": {
+    "value": "34k",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:R_0805_2012Metric",
+    "pins": {
+      "1": "+12V_BIAS",
+      "2": "P30_FB"
+    },
+    "kind": "r",
+    "names": {},
+    "types": {},
+    "position": [
+      31.0,
+      70.0,
+      180.0
+    ]
+  },
+  "R301": {
+    "value": "2.43k",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:R_0805_2012Metric",
+    "pins": {
+      "1": "P30_FB",
+      "2": "GND"
+    },
+    "kind": "r",
+    "names": {},
+    "types": {},
+    "position": [
+      31.0,
+      73.0,
+      0.0
+    ]
+  },
+  "R302": {
+    "value": "249k",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:R_0805_2012Metric",
+    "pins": {
+      "1": "VBAT_24V",
+      "2": "P30_RON"
+    },
+    "kind": "r",
+    "names": {},
+    "types": {},
+    "position": [
+      47.0,
+      52.0,
+      0.0
+    ]
+  },
+  "R304": {
+    "value": "168k",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:R_0805_2012Metric",
+    "pins": {
+      "1": "VBAT_24V",
+      "2": "P30_UVLO"
+    },
+    "kind": "r",
+    "names": {},
+    "types": {},
+    "position": [
+      25,
+      61,
+      0.0
+    ]
+  },
+  "R305": {
+    "value": "10k",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:R_0805_2012Metric",
+    "pins": {
+      "1": "P30_UVLO",
+      "2": "GND"
+    },
+    "kind": "r",
+    "names": {},
+    "types": {},
+    "position": [
+      25.0,
+      64.0,
+      0.0
+    ]
+  },
+  "C300": {
+    "value": "4.7nF",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:C_0805_2012Metric",
+    "pins": {
+      "1": "P30_SS",
+      "2": "GND"
+    },
+    "kind": "c",
+    "names": {},
+    "types": {},
+    "position": [
+      31.0,
+      66.0,
+      0.0
+    ]
+  },
+  "C301": {
+    "value": "22nF",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:C_0805_2012Metric",
+    "pins": {
+      "1": "+12V_BIAS",
+      "2": "P30_FB"
+    },
+    "kind": "c",
+    "names": {},
+    "types": {},
+    "position": [
+      35.0,
+      71.0,
+      180.0
+    ]
+  },
+  "C302": {
+    "value": "10uF 50V X7R",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:C_1210_3225Metric",
+    "pins": {
+      "1": "VBAT_24V",
+      "2": "GND"
+    },
+    "kind": "c",
+    "names": {},
+    "types": {},
+    "position": [
+      40.0,
+      53.0,
+      0.0
+    ]
+  },
+  "C303": {
+    "value": "10uF 50V X7R",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:C_1210_3225Metric",
+    "pins": {
+      "1": "VBAT_24V",
+      "2": "GND"
+    },
+    "kind": "c",
+    "names": {},
+    "types": {},
+    "position": [
+      40.0,
+      49.0,
+      0.0
+    ]
+  },
+  "C304": {
+    "value": "47uF 25V X7R",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:C_1210_3225Metric",
+    "pins": {
+      "1": "+12V_BIAS",
+      "2": "GND"
+    },
+    "kind": "c",
+    "names": {},
+    "types": {},
+    "position": [
+      38.7,
+      70.5,
+      270
+    ]
+  },
+  "C305": {
+    "value": "47uF 25V X7R",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:C_1210_3225Metric",
+    "pins": {
+      "1": "+12V_BIAS",
+      "2": "GND"
+    },
+    "kind": "c",
+    "names": {},
+    "types": {},
+    "position": [
+      43.2,
+      70.5,
+      270
+    ]
+  },
+  "C306": {
+    "value": "47uF 25V X7R",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:C_1210_3225Metric",
+    "pins": {
+      "1": "+12V_BIAS",
+      "2": "GND"
+    },
+    "kind": "c",
+    "names": {},
+    "types": {},
+    "position": [
+      47.7,
+      70.5,
+      270
+    ]
+  },
+  "U31": {
+    "value": "LMZ14202HTZX/NOPB",
+    "mpn": "LMZ14202HTZX/NOPB",
+    "lcsc": "C2861493",
+    "footprint": "Tesla:Texas_NDW-7_TabPin8",
+    "pins": {
+      "1": "VBAT_24V",
+      "2": "P31_RON",
+      "3": "P31_UVLO",
+      "4": "GND",
+      "5": "P31_SS",
+      "6": "P31_FB",
+      "7": "VIN_5V",
+      "8": "GND"
+    },
+    "kind": "ic",
+    "names": {
+      "1": "VIN",
+      "2": "RON",
+      "3": "EN",
+      "4": "GND",
+      "5": "SS",
+      "6": "FB",
+      "7": "VOUT",
+      "8": "EP"
+    },
+    "types": {
+      "1": "power_in",
+      "4": "power_in",
+      "7": "power_out",
+      "8": "power_in"
+    },
+    "position": [
+      76.0,
+      62.0,
+      0.0
+    ]
+  },
+  "R310": {
+    "value": "34k",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:R_0805_2012Metric",
+    "pins": {
+      "1": "VIN_5V",
+      "2": "P31_FB"
+    },
+    "kind": "r",
+    "names": {},
+    "types": {},
+    "position": [
+      64.0,
+      70.0,
+      180.0
+    ]
+  },
+  "R311": {
+    "value": "6.49k",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:R_0805_2012Metric",
+    "pins": {
+      "1": "P31_FB",
+      "2": "GND"
+    },
+    "kind": "r",
+    "names": {},
+    "types": {},
+    "position": [
+      64.0,
+      73.0,
+      0.0
+    ]
+  },
+  "R312": {
+    "value": "100k",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:R_0805_2012Metric",
+    "pins": {
+      "1": "VBAT_24V",
+      "2": "P31_RON"
+    },
+    "kind": "r",
+    "names": {},
+    "types": {},
+    "position": [
+      64.0,
+      55.0,
+      0.0
+    ]
+  },
+  "R314": {
+    "value": "168k",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:R_0805_2012Metric",
+    "pins": {
+      "1": "VBAT_24V",
+      "2": "P31_UVLO"
+    },
+    "kind": "r",
+    "names": {},
+    "types": {},
+    "position": [
+      58.0,
+      60.0,
+      0.0
+    ]
+  },
+  "R315": {
+    "value": "10k",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:R_0805_2012Metric",
+    "pins": {
+      "1": "P31_UVLO",
+      "2": "GND"
+    },
+    "kind": "r",
+    "names": {},
+    "types": {},
+    "position": [
+      58.0,
+      64.0,
+      0.0
+    ]
+  },
+  "C310": {
+    "value": "4.7nF",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:C_0805_2012Metric",
+    "pins": {
+      "1": "P31_SS",
+      "2": "GND"
+    },
+    "kind": "c",
+    "names": {},
+    "types": {},
+    "position": [
+      64.0,
+      66.0,
+      0.0
+    ]
+  },
+  "C311": {
+    "value": "22nF",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:C_0805_2012Metric",
+    "pins": {
+      "1": "VIN_5V",
+      "2": "P31_FB"
+    },
+    "kind": "c",
+    "names": {},
+    "types": {},
+    "position": [
+      68.0,
+      71.0,
+      180.0
+    ]
+  },
+  "C312": {
+    "value": "10uF 50V X7R",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:C_1210_3225Metric",
+    "pins": {
+      "1": "VBAT_24V",
+      "2": "GND"
+    },
+    "kind": "c",
+    "names": {},
+    "types": {},
+    "position": [
+      73.0,
+      53.0,
+      0.0
+    ]
+  },
+  "C313": {
+    "value": "10uF 50V X7R",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:C_1210_3225Metric",
+    "pins": {
+      "1": "VBAT_24V",
+      "2": "GND"
+    },
+    "kind": "c",
+    "names": {},
+    "types": {},
+    "position": [
+      73.0,
+      49.0,
+      0.0
+    ]
+  },
+  "C314": {
+    "value": "47uF 25V X7R",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:C_1210_3225Metric",
+    "pins": {
+      "1": "VIN_5V",
+      "2": "GND"
+    },
+    "kind": "c",
+    "names": {},
+    "types": {},
+    "position": [
+      71.7,
+      70.5,
+      270
+    ]
+  },
+  "C315": {
+    "value": "47uF 25V X7R",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:C_1210_3225Metric",
+    "pins": {
+      "1": "VIN_5V",
+      "2": "GND"
+    },
+    "kind": "c",
+    "names": {},
+    "types": {},
+    "position": [
+      76.2,
+      70.5,
+      270
+    ]
+  },
+  "C316": {
+    "value": "47uF 25V X7R",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:C_1210_3225Metric",
+    "pins": {
+      "1": "VIN_5V",
+      "2": "GND"
+    },
+    "kind": "c",
+    "names": {},
+    "types": {},
+    "position": [
+      80.7,
+      70.5,
+      270
+    ]
+  },
+  "C333": {
+    "value": "22uF 50V",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:C_1812_4532Metric",
+    "pins": {
+      "1": "VBAT_24V",
+      "2": "GND"
+    },
+    "kind": "c",
+    "names": {},
+    "types": {},
+    "position": [
+      77.05,
+      34.95,
+      90
+    ]
+  },
+  "J30": {
+    "value": "12V BATTERY / LOWER",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal",
+    "pins": {
+      "1": "BAT_MID_12V",
+      "2": "GND"
+    },
+    "kind": "connector",
+    "names": {
+      "1": "+",
+      "2": "-"
+    },
+    "types": {},
+    "position": [
+      27.5,
+      51,
+      270
+    ]
+  },
+  "R509": {
+    "value": "2.2k",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:R_0805_2012Metric",
+    "pins": {
+      "1": "GDT2_L_HI",
+      "2": "GND"
+    },
+    "kind": "r",
+    "names": {},
+    "types": {},
+    "position": [
+      132.095,
+      137.9,
+      270
+    ]
+  },
+  "R513": {
+    "value": "33R",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:R_0805_2012Metric",
+    "pins": {
+      "1": "GDT2_L_HI",
+      "2": "GDT2_L_HI_BUS"
+    },
+    "kind": "r",
+    "names": {},
+    "types": {},
+    "position": [
+      132.095,
+      134.5,
+      90
+    ]
+  },
+  "R510": {
+    "value": "2.2k",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:R_0805_2012Metric",
+    "pins": {
+      "1": "GDT2_L_LO",
+      "2": "GND"
+    },
+    "kind": "r",
+    "names": {},
+    "types": {},
+    "position": [
+      134.595,
+      137.9,
+      270
+    ]
+  },
+  "R514": {
+    "value": "33R",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:R_0805_2012Metric",
+    "pins": {
+      "1": "GDT2_L_LO",
+      "2": "GDT2_L_LO_BUS"
+    },
+    "kind": "r",
+    "names": {},
+    "types": {},
+    "position": [
+      134.595,
+      134.5,
+      90
+    ]
+  },
+  "R511": {
+    "value": "2.2k",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:R_0805_2012Metric",
+    "pins": {
+      "1": "GDT2_R_HI",
+      "2": "GND"
+    },
+    "kind": "r",
+    "names": {},
+    "types": {},
+    "position": [
+      150.095,
+      137.9,
+      270
+    ]
+  },
+  "R515": {
+    "value": "33R",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:R_0805_2012Metric",
+    "pins": {
+      "1": "GDT2_R_HI",
+      "2": "GDT2_R_HI_BUS"
+    },
+    "kind": "r",
+    "names": {},
+    "types": {},
+    "position": [
+      150.095,
+      134.5,
+      90
+    ]
+  },
+  "R512": {
+    "value": "2.2k",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:R_0805_2012Metric",
+    "pins": {
+      "1": "GDT2_R_LO",
+      "2": "GND"
+    },
+    "kind": "r",
+    "names": {},
+    "types": {},
+    "position": [
+      152.595,
+      137.9,
+      270
+    ]
+  },
+  "R516": {
+    "value": "33R",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:R_0805_2012Metric",
+    "pins": {
+      "1": "GDT2_R_LO",
+      "2": "GDT2_R_LO_BUS"
+    },
+    "kind": "r",
+    "names": {},
+    "types": {},
+    "position": [
+      152.595,
+      134.5,
+      90
+    ]
+  },
+  "L40": {
+    "value": "90R @100MHz / 2A CMC",
+    "mpn": "WCM4532F2SF-900T20",
+    "lcsc": "C357325",
+    "footprint": "Tesla:CMC_TAI-TECH_WCM4532F2SF",
+    "pins": {
+      "1": "CT1_CABLE_P",
+      "2": "CT1_RAW",
+      "4": "CT1_CABLE_N",
+      "3": "GND"
+    },
+    "kind": "cmc",
+    "names": {
+      "1": "P IN",
+      "2": "P OUT",
+      "4": "N IN",
+      "3": "N OUT"
+    },
+    "types": {},
+    "position": [
+      42.0,
+      132.539999,
+      0.0
+    ]
+  },
+  "C427": {
+    "value": "150pF 50V C0G",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:C_0805_2012Metric",
+    "pins": {
+      "1": "CT1_CABLE_P",
+      "2": "GND"
+    },
+    "kind": "c",
+    "names": {},
+    "types": {},
+    "position": [
+      36.5,
+      127.8,
+      90
+    ]
+  },
+  "C428": {
+    "value": "150pF 50V C0G",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:C_0805_2012Metric",
+    "pins": {
+      "1": "CT1_CABLE_N",
+      "2": "GND"
+    },
+    "kind": "c",
+    "names": {},
+    "types": {},
+    "position": [
+      36.5,
+      137.3,
+      270
+    ]
+  },
+  "C429": {
+    "value": "1nF 50V C0G",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:C_0805_2012Metric",
+    "pins": {
+      "1": "CT1_RAW",
+      "2": "GND"
+    },
+    "kind": "c",
+    "names": {},
+    "types": {},
+    "position": [
+      54.7,
+      137,
+      180
+    ]
+  },
+  "C526": {
+    "value": "22uF 50V X7R",
+    "mpn": "CGA9P3X7R1H226MT0Y0N",
+    "lcsc": "C49297044",
+    "footprint": "Tesla:C_2220_5750Metric",
+    "pins": {
+      "1": "VBAT_24V",
+      "2": "GND"
+    },
+    "kind": "c",
+    "names": {},
+    "types": {},
+    "position": [
+      141.0,
+      53.8,
+      90.0
+    ]
+  },
+  "C531": {
+    "value": "22uF 50V X7R",
+    "mpn": "CGA9P3X7R1H226MT0Y0N",
+    "lcsc": "C49297044",
+    "footprint": "Tesla:C_2220_5750Metric",
+    "pins": {
+      "1": "VBAT_24V",
+      "2": "GND"
+    },
+    "kind": "c",
+    "names": {},
+    "types": {},
+    "position": [
+      149.0,
+      53.8,
+      90.0
+    ]
+  },
+  "C532": {
+    "value": "22uF 50V X7R",
+    "mpn": "CGA9P3X7R1H226MT0Y0N",
+    "lcsc": "C49297044",
+    "footprint": "Tesla:C_2220_5750Metric",
+    "pins": {
+      "1": "VBAT_24V",
+      "2": "GND"
+    },
+    "kind": "c",
+    "names": {},
+    "types": {},
+    "position": [
+      141.0,
+      98.0,
+      90.0
+    ]
+  },
+  "C533": {
+    "value": "22uF 50V X7R",
+    "mpn": "CGA9P3X7R1H226MT0Y0N",
+    "lcsc": "C49297044",
+    "footprint": "Tesla:C_2220_5750Metric",
+    "pins": {
+      "1": "VBAT_24V",
+      "2": "GND"
+    },
+    "kind": "c",
+    "names": {},
+    "types": {},
+    "position": [
+      149.0,
+      98.0,
+      90.0
+    ]
+  },
+  "C534": {
+    "value": "22uF 50V X7R",
+    "mpn": "CGA9P3X7R1H226MT0Y0N",
+    "lcsc": "C49297044",
+    "footprint": "Tesla:C_2220_5750Metric",
+    "pins": {
+      "1": "VBAT_24V",
+      "2": "GND"
+    },
+    "kind": "c",
+    "names": {},
+    "types": {},
+    "position": [
+      159.0,
+      53.8,
+      90.0
+    ]
+  },
+  "C535": {
+    "value": "22uF 50V X7R",
+    "mpn": "CGA9P3X7R1H226MT0Y0N",
+    "lcsc": "C49297044",
+    "footprint": "Tesla:C_2220_5750Metric",
+    "pins": {
+      "1": "VBAT_24V",
+      "2": "GND"
+    },
+    "kind": "c",
+    "names": {},
+    "types": {},
+    "position": [
+      167.0,
+      53.8,
+      90.0
+    ]
+  },
+  "C536": {
+    "value": "22uF 50V X7R",
+    "mpn": "CGA9P3X7R1H226MT0Y0N",
+    "lcsc": "C49297044",
+    "footprint": "Tesla:C_2220_5750Metric",
+    "pins": {
+      "1": "VBAT_24V",
+      "2": "GND"
+    },
+    "kind": "c",
+    "names": {},
+    "types": {},
+    "position": [
+      159.0,
+      98.0,
+      90.0
+    ]
+  },
+  "C537": {
+    "value": "22uF 50V X7R",
+    "mpn": "CGA9P3X7R1H226MT0Y0N",
+    "lcsc": "C49297044",
+    "footprint": "Tesla:C_2220_5750Metric",
+    "pins": {
+      "1": "VBAT_24V",
+      "2": "GND"
+    },
+    "kind": "c",
+    "names": {},
+    "types": {},
+    "position": [
+      167.0,
+      98.0,
+      90.0
+    ]
+  },
+  "C566": {
+    "value": "22uF 50V X7R",
+    "mpn": "CGA9P3X7R1H226MT0Y0N",
+    "lcsc": "C49297044",
+    "footprint": "Tesla:C_2220_5750Metric",
+    "pins": {
+      "1": "VBAT_24V",
+      "2": "GND"
+    },
+    "kind": "c",
+    "names": {},
+    "types": {},
+    "position": [
+      141.0,
+      108.8,
+      90.0
+    ]
+  },
+  "C571": {
+    "value": "22uF 50V X7R",
+    "mpn": "CGA9P3X7R1H226MT0Y0N",
+    "lcsc": "C49297044",
+    "footprint": "Tesla:C_2220_5750Metric",
+    "pins": {
+      "1": "VBAT_24V",
+      "2": "GND"
+    },
+    "kind": "c",
+    "names": {},
+    "types": {},
+    "position": [
+      149.0,
+      108.8,
+      90.0
+    ]
+  },
+  "C572": {
+    "value": "22uF 50V X7R",
+    "mpn": "CGA9P3X7R1H226MT0Y0N",
+    "lcsc": "C49297044",
+    "footprint": "Tesla:C_2220_5750Metric",
+    "pins": {
+      "1": "VBAT_24V",
+      "2": "GND"
+    },
+    "kind": "c",
+    "names": {},
+    "types": {},
+    "position": [
+      141.0,
+      153.0,
+      90.0
+    ]
+  },
+  "C573": {
+    "value": "22uF 50V X7R",
+    "mpn": "CGA9P3X7R1H226MT0Y0N",
+    "lcsc": "C49297044",
+    "footprint": "Tesla:C_2220_5750Metric",
+    "pins": {
+      "1": "VBAT_24V",
+      "2": "GND"
+    },
+    "kind": "c",
+    "names": {},
+    "types": {},
+    "position": [
+      149.0,
+      153.0,
+      90.0
+    ]
+  },
+  "C574": {
+    "value": "22uF 50V X7R",
+    "mpn": "CGA9P3X7R1H226MT0Y0N",
+    "lcsc": "C49297044",
+    "footprint": "Tesla:C_2220_5750Metric",
+    "pins": {
+      "1": "VBAT_24V",
+      "2": "GND"
+    },
+    "kind": "c",
+    "names": {},
+    "types": {},
+    "position": [
+      159.0,
+      108.8,
+      90.0
+    ]
+  },
+  "C575": {
+    "value": "22uF 50V X7R",
+    "mpn": "CGA9P3X7R1H226MT0Y0N",
+    "lcsc": "C49297044",
+    "footprint": "Tesla:C_2220_5750Metric",
+    "pins": {
+      "1": "VBAT_24V",
+      "2": "GND"
+    },
+    "kind": "c",
+    "names": {},
+    "types": {},
+    "position": [
+      167.0,
+      108.8,
+      90.0
+    ]
+  },
+  "C576": {
+    "value": "22uF 50V X7R",
+    "mpn": "CGA9P3X7R1H226MT0Y0N",
+    "lcsc": "C49297044",
+    "footprint": "Tesla:C_2220_5750Metric",
+    "pins": {
+      "1": "VBAT_24V",
+      "2": "GND"
+    },
+    "kind": "c",
+    "names": {},
+    "types": {},
+    "position": [
+      159.0,
+      153.0,
+      90.0
+    ]
+  },
+  "C577": {
+    "value": "22uF 50V X7R",
+    "mpn": "CGA9P3X7R1H226MT0Y0N",
+    "lcsc": "C49297044",
+    "footprint": "Tesla:C_2220_5750Metric",
+    "pins": {
+      "1": "VBAT_24V",
+      "2": "GND"
+    },
+    "kind": "c",
+    "names": {},
+    "types": {},
+    "position": [
+      167.0,
+      153.0,
+      90.0
+    ]
+  },
+  "C335": {
+    "value": "22uF 50V X7R",
+    "mpn": "CGA9P3X7R1H226MT0Y0N",
+    "lcsc": "C49297044",
+    "footprint": "Tesla:C_2220_5750Metric",
+    "pins": {
+      "1": "VBAT_24V",
+      "2": "GND"
+    },
+    "kind": "c",
+    "names": {},
+    "types": {},
+    "position": [
+      43.0,
+      35.0,
+      0.0
+    ]
+  },
+  "C336": {
+    "value": "22uF 50V X7R",
+    "mpn": "CGA9P3X7R1H226MT0Y0N",
+    "lcsc": "C49297044",
+    "footprint": "Tesla:C_2220_5750Metric",
+    "pins": {
+      "1": "VBAT_24V",
+      "2": "GND"
+    },
+    "kind": "c",
+    "names": {},
+    "types": {},
+    "position": [
+      51.0,
+      35.0,
+      0.0
+    ]
+  },
+  "C337": {
+    "value": "22uF 50V X7R",
+    "mpn": "CGA9P3X7R1H226MT0Y0N",
+    "lcsc": "C49297044",
+    "footprint": "Tesla:C_2220_5750Metric",
+    "pins": {
+      "1": "VBAT_24V",
+      "2": "GND"
+    },
+    "kind": "c",
+    "names": {},
+    "types": {},
+    "position": [
+      59.0,
+      35.0,
+      0.0
+    ]
+  },
+  "C338": {
+    "value": "22uF 50V X7R",
+    "mpn": "CGA9P3X7R1H226MT0Y0N",
+    "lcsc": "C49297044",
+    "footprint": "Tesla:C_2220_5750Metric",
+    "pins": {
+      "1": "VBAT_24V",
+      "2": "GND"
+    },
+    "kind": "c",
+    "names": {},
+    "types": {},
+    "position": [
+      67.0,
+      35.0,
+      0.0
+    ]
+  },
+  "C339": {
+    "value": "22uF 50V X7R",
+    "mpn": "CGA9P3X7R1H226MT0Y0N",
+    "lcsc": "C49297044",
+    "footprint": "Tesla:C_2220_5750Metric",
+    "pins": {
+      "1": "VBAT_24V",
+      "2": "GND"
+    },
+    "kind": "c",
+    "names": {},
+    "types": {},
+    "position": [
+      43.0,
+      41.5,
+      0.0
+    ]
+  },
+  "C340": {
+    "value": "22uF 50V X7R",
+    "mpn": "CGA9P3X7R1H226MT0Y0N",
+    "lcsc": "C49297044",
+    "footprint": "Tesla:C_2220_5750Metric",
+    "pins": {
+      "1": "VBAT_24V",
+      "2": "GND"
+    },
+    "kind": "c",
+    "names": {},
+    "types": {},
+    "position": [
+      51.0,
+      41.5,
+      0.0
+    ]
+  },
+  "C341": {
+    "value": "22uF 50V X7R",
+    "mpn": "CGA9P3X7R1H226MT0Y0N",
+    "lcsc": "C49297044",
+    "footprint": "Tesla:C_2220_5750Metric",
+    "pins": {
+      "1": "VBAT_24V",
+      "2": "GND"
+    },
+    "kind": "c",
+    "names": {},
+    "types": {},
+    "position": [
+      59.0,
+      41.5,
+      0.0
+    ]
+  },
+  "C342": {
+    "value": "22uF 50V X7R",
+    "mpn": "CGA9P3X7R1H226MT0Y0N",
+    "lcsc": "C49297044",
+    "footprint": "Tesla:C_2220_5750Metric",
+    "pins": {
+      "1": "VBAT_24V",
+      "2": "GND"
+    },
+    "kind": "c",
+    "names": {},
+    "types": {},
+    "position": [
+      67.0,
+      41.5,
+      0.0
+    ]
+  },
+  "J60": {
+    "value": "CST 2 SECONDARY",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal",
+    "pins": {
+      "1": "CT2_CABLE_P",
+      "2": "CT2_CABLE_N"
+    },
+    "kind": "connector",
+    "names": {
+      "1": "S1 / DOT",
+      "2": "S2 / RETURN"
+    },
+    "types": {},
+    "position": [
+      29.0,
+      147.0,
+      -90.0
+    ]
+  },
+  "L60": {
+    "value": "90R @100MHz / 2A CMC",
+    "mpn": "WCM4532F2SF-900T20",
+    "lcsc": "C357325",
+    "footprint": "Tesla:CMC_TAI-TECH_WCM4532F2SF",
+    "pins": {
+      "1": "CT2_CABLE_P",
+      "2": "CT2_RAW",
+      "4": "CT2_CABLE_N",
+      "3": "GND"
+    },
+    "kind": "cmc",
+    "names": {
+      "1": "P IN",
+      "2": "P OUT",
+      "4": "N IN",
+      "3": "N OUT"
+    },
+    "types": {},
+    "position": [
+      42.0,
+      149.539999,
+      0.0
+    ]
+  },
+  "C627": {
+    "value": "150pF 50V C0G",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:C_0805_2012Metric",
+    "pins": {
+      "1": "CT2_CABLE_P",
+      "2": "GND"
+    },
+    "kind": "c",
+    "names": {},
+    "types": {},
+    "position": [
+      36.5,
+      144.8,
+      90.0
+    ]
+  },
+  "C628": {
+    "value": "150pF 50V C0G",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:C_0805_2012Metric",
+    "pins": {
+      "1": "CT2_CABLE_N",
+      "2": "GND"
+    },
+    "kind": "c",
+    "names": {},
+    "types": {},
+    "position": [
+      36.5,
+      154.3,
+      -90.0
+    ]
+  },
+  "C629": {
+    "value": "1nF 50V C0G",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:C_0805_2012Metric",
+    "pins": {
+      "1": "CT2_RAW",
+      "2": "GND"
+    },
+    "kind": "c",
+    "names": {},
+    "types": {},
+    "position": [
+      54.7,
+      154.0,
+      180.0
+    ]
+  },
+  "R600": {
+    "value": "20R 1% 1W",
+    "mpn": "CRCW251220R0FKEG",
+    "lcsc": "",
+    "footprint": "Tesla:R_2512_6332Metric",
+    "pins": {
+      "1": "CT2_RAW",
+      "2": "GND"
+    },
+    "kind": "r",
+    "names": {},
+    "types": {},
+    "position": [
+      49.0,
+      146.0,
+      0.0
+    ]
+  },
+  "R601": {
+    "value": "20R 1% 1W",
+    "mpn": "CRCW251220R0FKEG",
+    "lcsc": "",
+    "footprint": "Tesla:R_2512_6332Metric",
+    "pins": {
+      "1": "CT2_RAW",
+      "2": "GND"
+    },
+    "kind": "r",
+    "names": {},
+    "types": {},
+    "position": [
+      49.0,
+      151.0,
+      0.0
+    ]
+  },
+  "D60": {
+    "value": "SMBJ5.0CA",
+    "mpn": "SMBJ5.0CA",
+    "lcsc": "",
+    "footprint": "Tesla:D_SMB",
+    "pins": {
+      "1": "CT2_RAW",
+      "2": "GND"
+    },
+    "kind": "tvs",
+    "names": {
+      "1": "~",
+      "2": "~"
+    },
+    "types": {},
+    "position": [
+      49.0,
+      155.5,
+      0.0
+    ]
+  },
+  "U60": {
+    "value": "OPA197IDBVR",
+    "mpn": "OPA197IDBVR",
+    "lcsc": "",
+    "footprint": "Tesla:SOT-23-5",
+    "pins": {
+      "1": "CT2_RECT_DRIVE",
+      "2": "-5V_CT",
+      "3": "GND",
+      "4": "CT2_RECT_SUM",
+      "5": "+5V_ADC"
+    },
+    "kind": "ic",
+    "names": {
+      "1": "OUT",
+      "2": "V-",
+      "3": "+",
+      "4": "-",
+      "5": "V+"
+    },
+    "types": {
+      "1": "output",
+      "2": "power_in",
+      "3": "input",
+      "4": "input",
+      "5": "power_in"
+    },
+    "position": [
+      61.0,
+      149.0,
+      180.0
+    ]
+  },
+  "U61": {
+    "value": "OPA197IDBVR",
+    "mpn": "OPA197IDBVR",
+    "lcsc": "",
+    "footprint": "Tesla:SOT-23-5",
+    "pins": {
+      "1": "CT2_ABS",
+      "2": "-5V_CT",
+      "3": "GND",
+      "4": "CT2_ABS_SUM",
+      "5": "+5V_ADC"
+    },
+    "kind": "ic",
+    "names": {
+      "1": "OUT",
+      "2": "V-",
+      "3": "+",
+      "4": "-",
+      "5": "V+"
+    },
+    "types": {
+      "1": "output",
+      "2": "power_in",
+      "3": "input",
+      "4": "input",
+      "5": "power_in"
+    },
+    "position": [
+      77.0,
+      149.0,
+      180.0
+    ]
+  },
+  "R602": {
+    "value": "10k 0.1%",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:R_0805_2012Metric",
+    "pins": {
+      "1": "CT2_RAW",
+      "2": "CT2_RECT_SUM"
+    },
+    "kind": "r",
+    "names": {},
+    "types": {},
+    "position": [
+      56.5,
+      148.05,
+      0.0
+    ]
+  },
+  "R603": {
+    "value": "10k 0.1%",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:R_0805_2012Metric",
+    "pins": {
+      "1": "CT2_RECT_SUM",
+      "2": "CT2_HALF"
+    },
+    "kind": "r",
+    "names": {},
+    "types": {},
+    "position": [
+      57.7,
+      145.1,
+      90.0
+    ]
+  },
+  "R604": {
+    "value": "10k 0.1%",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:R_0805_2012Metric",
+    "pins": {
+      "1": "CT2_RAW",
+      "2": "CT2_ABS_SUM"
+    },
+    "kind": "r",
+    "names": {},
+    "types": {},
+    "position": [
+      70.0,
+      143.0,
+      0.0
+    ]
+  },
+  "R605": {
+    "value": "10k 0.1%",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:R_0805_2012Metric",
+    "pins": {
+      "1": "CT2_HALF",
+      "2": "CT2_ABS_SUM"
+    },
+    "kind": "r",
+    "names": {},
+    "types": {},
+    "position": [
+      70.0,
+      146.0,
+      0.0
+    ]
+  },
+  "R606": {
+    "value": "10k 0.1%",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:R_0805_2012Metric",
+    "pins": {
+      "1": "CT2_HALF",
+      "2": "CT2_ABS_SUM"
+    },
+    "kind": "r",
+    "names": {},
+    "types": {},
+    "position": [
+      70.0,
+      149.0,
+      0.0
+    ]
+  },
+  "R607": {
+    "value": "10k 0.1%",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:R_0805_2012Metric",
+    "pins": {
+      "1": "CT2_ABS_SUM",
+      "2": "CT2_ABS"
+    },
+    "kind": "r",
+    "names": {},
+    "types": {},
+    "position": [
+      76.775,
+      145.4,
+      0.0
+    ]
+  },
+  "R608": {
+    "value": "1k",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:R_0805_2012Metric",
+    "pins": {
+      "1": "CT2_ABS",
+      "2": "CT2_ENVELOPE"
+    },
+    "kind": "r",
+    "names": {},
+    "types": {},
+    "position": [
+      81.0,
+      152.5,
+      0.0
+    ]
+  },
+  "D61": {
+    "value": "1N4148W,115",
+    "mpn": "1N4148W,115",
+    "lcsc": "",
+    "footprint": "Tesla:D_SOD-123",
+    "pins": {
+      "1": "CT2_RECT_SUM",
+      "2": "CT2_RECT_DRIVE"
+    },
+    "kind": "diode",
+    "names": {
+      "1": "K",
+      "2": "A"
+    },
+    "types": {},
+    "position": [
+      65.0,
+      144.0,
+      0.0
+    ]
+  },
+  "D62": {
+    "value": "1N4148W,115",
+    "mpn": "1N4148W,115",
+    "lcsc": "",
+    "footprint": "Tesla:D_SOD-123",
+    "pins": {
+      "1": "CT2_RECT_DRIVE",
+      "2": "CT2_HALF"
+    },
+    "kind": "diode",
+    "names": {
+      "1": "K",
+      "2": "A"
+    },
+    "types": {},
+    "position": [
+      65.0,
+      141.5,
+      180.0
+    ]
+  },
+  "C600": {
+    "value": "10nF C0G",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:C_0805_2012Metric",
+    "pins": {
+      "1": "CT2_ENVELOPE",
+      "2": "GND"
+    },
+    "kind": "c",
+    "names": {},
+    "types": {},
+    "position": [
+      84.0,
+      153.45,
+      -90.0
+    ]
+  },
+  "C601": {
+    "value": "100nF",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:C_0805_2012Metric",
+    "pins": {
+      "1": "+5V_ADC",
+      "2": "GND"
+    },
+    "kind": "c",
+    "names": {},
+    "types": {},
+    "position": [
+      59.8625,
+      152.7,
+      -90.0
+    ]
+  },
+  "C602": {
+    "value": "100nF",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:C_0805_2012Metric",
+    "pins": {
+      "1": "-5V_CT",
+      "2": "GND"
+    },
+    "kind": "c",
+    "names": {},
+    "types": {},
+    "position": [
+      65.0,
+      149.0,
+      0.0
+    ]
+  },
+  "C603": {
+    "value": "100nF",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:C_0805_2012Metric",
+    "pins": {
+      "1": "+5V_ADC",
+      "2": "GND"
+    },
+    "kind": "c",
+    "names": {},
+    "types": {},
+    "position": [
+      75.8625,
+      152.7,
+      -90.0
+    ]
+  },
+  "C604": {
+    "value": "100nF",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:C_0805_2012Metric",
+    "pins": {
+      "1": "-5V_CT",
+      "2": "GND"
+    },
+    "kind": "c",
+    "names": {},
+    "types": {},
+    "position": [
+      81.0,
+      149.0,
+      0.0
+    ]
+  },
+  "R610": {
+    "value": "5k 0.1%",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:R_0805_2012Metric",
+    "pins": {
+      "1": "CT2_PHASE_AC",
+      "2": "CT2_PHASE"
+    },
+    "kind": "r",
+    "names": {},
+    "types": {},
+    "position": [
+      94.0,
+      149.0,
+      0.0
+    ]
+  },
+  "R611": {
+    "value": "10k 0.1%",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:R_0805_2012Metric",
+    "pins": {
+      "1": "+3V3",
+      "2": "CT2_PHASE"
+    },
+    "kind": "r",
+    "names": {},
+    "types": {},
+    "position": [
+      97.0,
+      146.0,
+      -90.0
+    ]
+  },
+  "C625": {
+    "value": "1uF 16V",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:C_0805_2012Metric",
+    "pins": {
+      "1": "CT2_RAW",
+      "2": "CT2_PHASE_AC"
+    },
+    "kind": "c",
+    "names": {},
+    "types": {},
+    "position": [
+      90.5,
+      149.0,
+      0.0
+    ]
+  },
+  "R622": {
+    "value": "10k 0.1%",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:R_0805_2012Metric",
+    "pins": {
+      "1": "CT2_PHASE",
+      "2": "GND"
+    },
+    "kind": "r",
+    "names": {},
+    "types": {},
+    "position": [
+      97.0,
+      152.0,
+      -90.0
+    ]
+  },
+  "C610": {
+    "value": "22pF C0G",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:C_0805_2012Metric",
+    "pins": {
+      "1": "CT2_PHASE",
+      "2": "GND"
+    },
+    "kind": "c",
+    "names": {},
+    "types": {},
+    "position": [
+      100.0,
+      154.0,
+      0.0
+    ]
+  },
+  "D63": {
+    "value": "BAT54S,215",
+    "mpn": "BAT54S,215",
+    "lcsc": "",
+    "footprint": "Tesla:SOT-23",
+    "pins": {
+      "1": "GND",
+      "2": "+3V3",
+      "3": "CT2_PHASE"
+    },
+    "kind": "clamp",
+    "names": {
+      "1": "A1",
+      "2": "K2",
+      "3": "K1/A2"
+    },
+    "types": {},
+    "position": [
+      100.0,
+      149.0,
+      180.0
+    ]
+  },
+  "R614": {
+    "value": "1k 0.1%",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:R_0805_2012Metric",
+    "pins": {
+      "1": "+3V3",
+      "2": "CT2_MID"
+    },
+    "kind": "r",
+    "names": {},
+    "types": {},
+    "position": [
+      100.0,
+      142.0,
+      0.0
+    ]
+  },
+  "R615": {
+    "value": "1k 0.1%",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:R_0805_2012Metric",
+    "pins": {
+      "1": "CT2_MID",
+      "2": "GND"
+    },
+    "kind": "r",
+    "names": {},
+    "types": {},
+    "position": [
+      104.0,
+      142.0,
+      0.0
+    ]
+  },
+  "C612": {
+    "value": "1uF",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:C_0805_2012Metric",
+    "pins": {
+      "1": "CT2_MID",
+      "2": "GND"
+    },
+    "kind": "c",
+    "names": {},
+    "types": {},
+    "position": [
+      104.0,
+      145.0,
+      0.0
+    ]
+  },
+  "U62": {
+    "value": "TLV3501AIDBVR",
+    "mpn": "TLV3501AIDBVR",
+    "lcsc": "",
+    "footprint": "Tesla:SOT-23-6",
+    "pins": {
+      "1": "CT2_MID",
+      "2": "GND",
+      "3": "CT2_PHASE",
+      "4": "+3V3",
+      "5": "CT2_ZERO_DRV",
+      "6": "GND"
+    },
+    "kind": "ic",
+    "names": {
+      "1": "-",
+      "2": "V-",
+      "3": "+",
+      "4": "V+",
+      "5": "OUT",
+      "6": "SHDN"
+    },
+    "types": {
+      "1": "input",
+      "2": "power_in",
+      "3": "input",
+      "4": "power_in",
+      "5": "output",
+      "6": "input"
+    },
+    "position": [
+      105.0,
+      149.0,
+      0.0
+    ]
+  },
+  "R616": {
+    "value": "33R",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:R_0805_2012Metric",
+    "pins": {
+      "1": "CT2_ZERO_DRV",
+      "2": "CT2_ZERO"
+    },
+    "kind": "r",
+    "names": {},
+    "types": {},
+    "position": [
+      109.0,
+      146.5,
+      0.0
+    ]
+  },
+  "C613": {
+    "value": "100nF",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:C_0805_2012Metric",
+    "pins": {
+      "1": "+3V3",
+      "2": "GND"
+    },
+    "kind": "c",
+    "names": {},
+    "types": {},
+    "position": [
+      109.0,
+      149.949999,
+      0.0
+    ]
+  },
+  "C624": {
+    "value": "2.2uF",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:C_0805_2012Metric",
+    "pins": {
+      "1": "+3V3",
+      "2": "GND"
+    },
+    "kind": "c",
+    "names": {},
+    "types": {},
+    "position": [
+      109.0,
+      153.4,
+      0.0
+    ]
+  },
+  "TP60": {
+    "value": "CT2_RAW",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:TestPoint_Pad_D1.0mm",
+    "pins": {
+      "1": "CT2_RAW"
+    },
+    "kind": "testpoint",
+    "names": {
+      "1": "CT2_RAW"
+    },
+    "types": {},
+    "position": [
+      54.0,
+      156.5,
+      0.0
+    ]
+  },
+  "TP61": {
+    "value": "CT2_HALF",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:TestPoint_Pad_D1.0mm",
+    "pins": {
+      "1": "CT2_HALF"
+    },
+    "kind": "testpoint",
+    "names": {
+      "1": "CT2_HALF"
+    },
+    "types": {},
+    "position": [
+      72.0,
+      152.5,
+      0.0
+    ]
+  },
+  "TP62": {
+    "value": "CT2_ABS",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:TestPoint_Pad_D1.0mm",
+    "pins": {
+      "1": "CT2_ABS"
+    },
+    "kind": "testpoint",
+    "names": {
+      "1": "CT2_ABS"
+    },
+    "types": {},
+    "position": [
+      79.2,
+      155.0,
+      0.0
+    ]
+  },
+  "TP63": {
+    "value": "CT2_ENVELOPE",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:TestPoint_Pad_D1.0mm",
+    "pins": {
+      "1": "CT2_ENVELOPE"
+    },
+    "kind": "testpoint",
+    "names": {
+      "1": "CT2_ENVELOPE"
+    },
+    "types": {},
+    "position": [
+      84.0,
+      150.5,
+      0.0
+    ]
+  },
+  "J3": {
+    "value": "AUX 1 / 0-5V",
+    "mpn": "S2B-PH-K-S(LF)(SN)",
+    "lcsc": "",
+    "footprint": "Tesla:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal",
+    "pins": {
+      "1": "AUX1_0_5V",
+      "2": "GND"
+    },
+    "kind": "connector",
+    "names": {
+      "1": "AUX1",
+      "2": "GND"
+    },
+    "types": {},
+    "position": [
+      28.0,
+      82.0,
+      -90.0
+    ]
+  },
+  "J8": {
+    "value": "AUX 2 / 0-5V",
+    "mpn": "S2B-PH-K-S(LF)(SN)",
+    "lcsc": "",
+    "footprint": "Tesla:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal",
+    "pins": {
+      "1": "AUX2_0_5V",
+      "2": "GND"
+    },
+    "kind": "connector",
+    "names": {
+      "1": "AUX2",
+      "2": "GND"
+    },
+    "types": {},
+    "position": [
+      28.0,
+      91.0,
+      -90.0
+    ]
+  },
+  "R700": {
+    "value": "1k 0.1%",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:R_0805_2012Metric",
+    "pins": {
+      "1": "AUX1_0_5V",
+      "2": "AUX1_FILTERED"
+    },
+    "kind": "r",
+    "names": {},
+    "types": {},
+    "position": [
+      37.1,
+      82,
+      0
+    ]
+  },
+  "R701": {
+    "value": "1M 1%",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:R_0805_2012Metric",
+    "pins": {
+      "1": "AUX1_0_5V",
+      "2": "GND"
+    },
+    "kind": "r",
+    "names": {},
+    "types": {},
+    "position": [
+      34,
+      84.65,
+      -90
+    ]
+  },
+  "C700": {
+    "value": "150pF 50V C0G",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:C_0805_2012Metric",
+    "pins": {
+      "1": "AUX1_0_5V",
+      "2": "GND"
+    },
+    "kind": "c",
+    "names": {},
+    "types": {},
+    "position": [
+      34,
+      81.05,
+      90
+    ]
+  },
+  "C701": {
+    "value": "2.2nF 50V C0G",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:C_0805_2012Metric",
+    "pins": {
+      "1": "AUX1_FILTERED",
+      "2": "GND"
+    },
+    "kind": "c",
+    "names": {},
+    "types": {},
+    "position": [
+      40,
+      81.05,
+      90
+    ]
+  },
+  "D70": {
+    "value": "BAV199,215",
+    "mpn": "BAV199,215",
+    "lcsc": "",
+    "footprint": "Tesla:SOT-23",
+    "pins": {
+      "1": "GND",
+      "2": "+5V_ADC",
+      "3": "AUX1_FILTERED"
+    },
+    "kind": "clamp",
+    "names": {
+      "1": "A1",
+      "2": "K2",
+      "3": "K1/A2"
+    },
+    "types": {},
+    "position": [
+      42.8,
+      84.65,
+      90
+    ]
+  },
+  "U70": {
+    "value": "OPA197IDBVR",
+    "mpn": "OPA197IDBVR",
+    "lcsc": "",
+    "footprint": "Tesla:SOT-23-5",
+    "pins": {
+      "1": "AUX1_BUFFERED",
+      "2": "-5V_CT",
+      "3": "AUX1_FILTERED",
+      "4": "AUX1_BUFFERED",
+      "5": "+12V_AUX"
+    },
+    "kind": "ic",
+    "names": {
+      "1": "OUT",
+      "2": "V-",
+      "3": "+",
+      "4": "-",
+      "5": "V+"
+    },
+    "types": {
+      "1": "output",
+      "2": "power_in",
+      "3": "input",
+      "4": "input",
+      "5": "power_in"
+    },
+    "position": [
+      47,
+      81.05,
+      0
+    ]
+  },
+  "C702": {
+    "value": "100nF 25V X7R",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:C_0805_2012Metric",
+    "pins": {
+      "1": "+12V_AUX",
+      "2": "GND"
+    },
+    "kind": "c",
+    "names": {},
+    "types": {},
+    "position": [
+      51,
+      80.1,
+      0
+    ]
+  },
+  "C703": {
+    "value": "100nF 16V X7R",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:C_0805_2012Metric",
+    "pins": {
+      "1": "-5V_CT",
+      "2": "GND"
+    },
+    "kind": "c",
+    "names": {},
+    "types": {},
+    "position": [
+      43.16,
+      80.1,
+      180
+    ]
+  },
+  "R710": {
+    "value": "1k 0.1%",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:R_0805_2012Metric",
+    "pins": {
+      "1": "AUX2_0_5V",
+      "2": "AUX2_FILTERED"
+    },
+    "kind": "r",
+    "names": {},
+    "types": {},
+    "position": [
+      37.1,
+      91,
+      0
+    ]
+  },
+  "R711": {
+    "value": "1M 1%",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:R_0805_2012Metric",
+    "pins": {
+      "1": "AUX2_0_5V",
+      "2": "GND"
+    },
+    "kind": "r",
+    "names": {},
+    "types": {},
+    "position": [
+      34,
+      93.65,
+      -90
+    ]
+  },
+  "C710": {
+    "value": "150pF 50V C0G",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:C_0805_2012Metric",
+    "pins": {
+      "1": "AUX2_0_5V",
+      "2": "GND"
+    },
+    "kind": "c",
+    "names": {},
+    "types": {},
+    "position": [
+      34,
+      90.05,
+      90
+    ]
+  },
+  "C711": {
+    "value": "2.2nF 50V C0G",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:C_0805_2012Metric",
+    "pins": {
+      "1": "AUX2_FILTERED",
+      "2": "GND"
+    },
+    "kind": "c",
+    "names": {},
+    "types": {},
+    "position": [
+      40,
+      90.05,
+      90
+    ]
+  },
+  "D71": {
+    "value": "BAV199,215",
+    "mpn": "BAV199,215",
+    "lcsc": "",
+    "footprint": "Tesla:SOT-23",
+    "pins": {
+      "1": "GND",
+      "2": "+5V_ADC",
+      "3": "AUX2_FILTERED"
+    },
+    "kind": "clamp",
+    "names": {
+      "1": "A1",
+      "2": "K2",
+      "3": "K1/A2"
+    },
+    "types": {},
+    "position": [
+      42.8,
+      93.65,
+      90
+    ]
+  },
+  "U71": {
+    "value": "OPA197IDBVR",
+    "mpn": "OPA197IDBVR",
+    "lcsc": "",
+    "footprint": "Tesla:SOT-23-5",
+    "pins": {
+      "1": "AUX2_BUFFERED",
+      "2": "-5V_CT",
+      "3": "AUX2_FILTERED",
+      "4": "AUX2_BUFFERED",
+      "5": "+12V_AUX"
+    },
+    "kind": "ic",
+    "names": {
+      "1": "OUT",
+      "2": "V-",
+      "3": "+",
+      "4": "-",
+      "5": "V+"
+    },
+    "types": {
+      "1": "output",
+      "2": "power_in",
+      "3": "input",
+      "4": "input",
+      "5": "power_in"
+    },
+    "position": [
+      47,
+      90.05,
+      0
+    ]
+  },
+  "C712": {
+    "value": "100nF 25V X7R",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:C_0805_2012Metric",
+    "pins": {
+      "1": "+12V_AUX",
+      "2": "GND"
+    },
+    "kind": "c",
+    "names": {},
+    "types": {},
+    "position": [
+      51,
+      89.1,
+      0
+    ]
+  },
+  "C713": {
+    "value": "100nF 16V X7R",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:C_0805_2012Metric",
+    "pins": {
+      "1": "-5V_CT",
+      "2": "GND"
+    },
+    "kind": "c",
+    "names": {},
+    "types": {},
+    "position": [
+      43.16,
+      89.1,
+      180
+    ]
+  },
+  "R720": {
+    "value": "1k 0.1%",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:R_0805_2012Metric",
+    "pins": {
+      "1": "AUX3_0_5V",
+      "2": "AUX3_FILTERED"
+    },
+    "kind": "r",
+    "names": {},
+    "types": {},
+    "position": [
+      37.1,
+      100,
+      0
+    ]
+  },
+  "R721": {
+    "value": "1M 1%",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:R_0805_2012Metric",
+    "pins": {
+      "1": "AUX3_0_5V",
+      "2": "GND"
+    },
+    "kind": "r",
+    "names": {},
+    "types": {},
+    "position": [
+      34,
+      102.65,
+      -90
+    ]
+  },
+  "C720": {
+    "value": "150pF 50V C0G",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:C_0805_2012Metric",
+    "pins": {
+      "1": "AUX3_0_5V",
+      "2": "GND"
+    },
+    "kind": "c",
+    "names": {},
+    "types": {},
+    "position": [
+      34,
+      99.05,
+      90
+    ]
+  },
+  "C721": {
+    "value": "2.2nF 50V C0G",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:C_0805_2012Metric",
+    "pins": {
+      "1": "AUX3_FILTERED",
+      "2": "GND"
+    },
+    "kind": "c",
+    "names": {},
+    "types": {},
+    "position": [
+      40,
+      99.05,
+      90
+    ]
+  },
+  "D72": {
+    "value": "BAV199,215",
+    "mpn": "BAV199,215",
+    "lcsc": "",
+    "footprint": "Tesla:SOT-23",
+    "pins": {
+      "1": "GND",
+      "2": "+5V_ADC",
+      "3": "AUX3_FILTERED"
+    },
+    "kind": "clamp",
+    "names": {
+      "1": "A1",
+      "2": "K2",
+      "3": "K1/A2"
+    },
+    "types": {},
+    "position": [
+      42.8,
+      102.65,
+      90
+    ]
+  },
+  "U72": {
+    "value": "OPA197IDBVR",
+    "mpn": "OPA197IDBVR",
+    "lcsc": "",
+    "footprint": "Tesla:SOT-23-5",
+    "pins": {
+      "1": "AUX3_BUFFERED",
+      "2": "-5V_CT",
+      "3": "AUX3_FILTERED",
+      "4": "AUX3_BUFFERED",
+      "5": "+12V_AUX"
+    },
+    "kind": "ic",
+    "names": {
+      "1": "OUT",
+      "2": "V-",
+      "3": "+",
+      "4": "-",
+      "5": "V+"
+    },
+    "types": {
+      "1": "output",
+      "2": "power_in",
+      "3": "input",
+      "4": "input",
+      "5": "power_in"
+    },
+    "position": [
+      47,
+      99.05,
+      0
+    ]
+  },
+  "C722": {
+    "value": "100nF 25V X7R",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:C_0805_2012Metric",
+    "pins": {
+      "1": "+12V_AUX",
+      "2": "GND"
+    },
+    "kind": "c",
+    "names": {},
+    "types": {},
+    "position": [
+      51,
+      98.1,
+      0
+    ]
+  },
+  "C723": {
+    "value": "100nF 16V X7R",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:C_0805_2012Metric",
+    "pins": {
+      "1": "-5V_CT",
+      "2": "GND"
+    },
+    "kind": "c",
+    "names": {},
+    "types": {},
+    "position": [
+      43.16,
+      98.1,
+      180
+    ]
+  },
+  "R730": {
+    "value": "1k 0.1%",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:R_0805_2012Metric",
+    "pins": {
+      "1": "AUX4_0_5V",
+      "2": "AUX4_FILTERED"
+    },
+    "kind": "r",
+    "names": {},
+    "types": {},
+    "position": [
+      37.1,
+      109,
+      0
+    ]
+  },
+  "R731": {
+    "value": "1M 1%",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:R_0805_2012Metric",
+    "pins": {
+      "1": "AUX4_0_5V",
+      "2": "GND"
+    },
+    "kind": "r",
+    "names": {},
+    "types": {},
+    "position": [
+      34,
+      111.65,
+      -90
+    ]
+  },
+  "C730": {
+    "value": "150pF 50V C0G",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:C_0805_2012Metric",
+    "pins": {
+      "1": "AUX4_0_5V",
+      "2": "GND"
+    },
+    "kind": "c",
+    "names": {},
+    "types": {},
+    "position": [
+      34,
+      108.05,
+      90
+    ]
+  },
+  "C731": {
+    "value": "2.2nF 50V C0G",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:C_0805_2012Metric",
+    "pins": {
+      "1": "AUX4_FILTERED",
+      "2": "GND"
+    },
+    "kind": "c",
+    "names": {},
+    "types": {},
+    "position": [
+      40,
+      108.05,
+      90
+    ]
+  },
+  "D73": {
+    "value": "BAV199,215",
+    "mpn": "BAV199,215",
+    "lcsc": "",
+    "footprint": "Tesla:SOT-23",
+    "pins": {
+      "1": "GND",
+      "2": "+5V_ADC",
+      "3": "AUX4_FILTERED"
+    },
+    "kind": "clamp",
+    "names": {
+      "1": "A1",
+      "2": "K2",
+      "3": "K1/A2"
+    },
+    "types": {},
+    "position": [
+      42.8,
+      111.65,
+      90
+    ]
+  },
+  "U73": {
+    "value": "OPA197IDBVR",
+    "mpn": "OPA197IDBVR",
+    "lcsc": "",
+    "footprint": "Tesla:SOT-23-5",
+    "pins": {
+      "1": "AUX4_BUFFERED",
+      "2": "-5V_CT",
+      "3": "AUX4_FILTERED",
+      "4": "AUX4_BUFFERED",
+      "5": "+12V_AUX"
+    },
+    "kind": "ic",
+    "names": {
+      "1": "OUT",
+      "2": "V-",
+      "3": "+",
+      "4": "-",
+      "5": "V+"
+    },
+    "types": {
+      "1": "output",
+      "2": "power_in",
+      "3": "input",
+      "4": "input",
+      "5": "power_in"
+    },
+    "position": [
+      47,
+      108.05,
+      0
+    ]
+  },
+  "C732": {
+    "value": "100nF 25V X7R",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:C_0805_2012Metric",
+    "pins": {
+      "1": "+12V_AUX",
+      "2": "GND"
+    },
+    "kind": "c",
+    "names": {},
+    "types": {},
+    "position": [
+      51,
+      107.1,
+      0
+    ]
+  },
+  "C733": {
+    "value": "100nF 16V X7R",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:C_0805_2012Metric",
+    "pins": {
+      "1": "-5V_CT",
+      "2": "GND"
+    },
+    "kind": "c",
+    "names": {},
+    "types": {},
+    "position": [
+      43.16,
+      107.1,
+      180
+    ]
+  },
+  "R740": {
+    "value": "10R",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:R_0805_2012Metric",
+    "pins": {
+      "1": "+12V_BIAS",
+      "2": "+12V_AUX"
+    },
+    "kind": "r",
+    "names": {},
+    "types": {},
+    "position": [
+      55.8,
+      78.5,
+      270
+    ]
+  },
+  "C740": {
+    "value": "10uF 25V X7R",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:C_0805_2012Metric",
+    "pins": {
+      "1": "+12V_AUX",
+      "2": "GND"
+    },
+    "kind": "c",
+    "names": {},
+    "types": {},
+    "position": [
+      59,
+      80.25,
+      0
+    ]
+  },
+  "C741": {
+    "value": "10uF 16V X7R",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:C_0805_2012Metric",
+    "pins": {
+      "1": "-5V_CT",
+      "2": "GND"
+    },
+    "kind": "c",
+    "names": {},
+    "types": {},
+    "position": [
+      48,
+      117.2,
+      0
+    ]
+  },
+  "J9": {
+    "value": "AUX 3 / 0-5V",
+    "mpn": "S2B-PH-K-S(LF)(SN)",
+    "lcsc": "",
+    "footprint": "Tesla:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal",
+    "pins": {
+      "1": "AUX3_0_5V",
+      "2": "GND"
+    },
+    "kind": "connector",
+    "names": {
+      "1": "AUX3",
+      "2": "GND"
+    },
+    "types": {},
+    "position": [
+      28.0,
+      100.0,
+      -90.0
+    ]
+  },
+  "J10": {
+    "value": "AUX 4 / 0-5V",
+    "mpn": "S2B-PH-K-S(LF)(SN)",
+    "lcsc": "",
+    "footprint": "Tesla:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal",
+    "pins": {
+      "1": "AUX4_0_5V",
+      "2": "GND"
+    },
+    "kind": "connector",
+    "names": {
+      "1": "AUX4",
+      "2": "GND"
+    },
+    "types": {},
+    "position": [
+      28.0,
+      109.0,
+      -90.0
+    ]
+  },
+  "R800": {
+    "value": "12k",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:R_0805_2012Metric",
+    "pins": {
+      "1": "VBAT_24V",
+      "2": "LED_80_A"
+    },
+    "kind": "r",
+    "names": {},
+    "types": {},
+    "position": [
+      35,
+      37.3,
+      90
+    ]
+  },
+  "D80": {
+    "value": "GREEN",
+    "mpn": "KT-0805G",
+    "lcsc": "C2297",
+    "footprint": "Tesla:LED_0805_2012Metric",
+    "pins": {
+      "1": "GND",
+      "2": "LED_80_A"
+    },
+    "kind": "led",
+    "names": {
+      "1": "K",
+      "2": "A"
+    },
+    "types": {},
+    "position": [
+      35,
+      33.5,
+      270
+    ]
+  },
+  "R801": {
+    "value": "5.1k",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:R_0805_2012Metric",
+    "pins": {
+      "1": "+12V_BIAS",
+      "2": "LED_81_A"
+    },
+    "kind": "r",
+    "names": {},
+    "types": {},
+    "position": [
+      54.5,
+      66.2,
+      270
+    ]
+  },
+  "D81": {
+    "value": "GREEN",
+    "mpn": "KT-0805G",
+    "lcsc": "C2297",
+    "footprint": "Tesla:LED_0805_2012Metric",
+    "pins": {
+      "1": "GND",
+      "2": "LED_81_A"
+    },
+    "kind": "led",
+    "names": {
+      "1": "K",
+      "2": "A"
+    },
+    "types": {},
+    "position": [
+      54.5,
+      70,
+      90
+    ]
+  },
+  "R802": {
+    "value": "1.5k",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:R_0805_2012Metric",
+    "pins": {
+      "1": "VIN_5V",
+      "2": "LED_82_A"
+    },
+    "kind": "r",
+    "names": {},
+    "types": {},
+    "position": [
+      86,
+      66.2,
+      270
+    ]
+  },
+  "D82": {
+    "value": "GREEN",
+    "mpn": "KT-0805G",
+    "lcsc": "C2297",
+    "footprint": "Tesla:LED_0805_2012Metric",
+    "pins": {
+      "1": "GND",
+      "2": "LED_82_A"
+    },
+    "kind": "led",
+    "names": {
+      "1": "K",
+      "2": "A"
+    },
+    "types": {},
+    "position": [
+      86,
+      70,
+      90
+    ]
+  },
+  "R803": {
+    "value": "680R",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:R_0805_2012Metric",
+    "pins": {
+      "1": "+3V3",
+      "2": "LED_83_A"
+    },
+    "kind": "r",
+    "names": {},
+    "types": {},
+    "position": [
+      106.6,
+      107.8,
+      180
+    ]
+  },
+  "D83": {
+    "value": "GREEN",
+    "mpn": "KT-0805G",
+    "lcsc": "C2297",
+    "footprint": "Tesla:LED_0805_2012Metric",
+    "pins": {
+      "1": "GND",
+      "2": "LED_83_A"
+    },
+    "kind": "led",
+    "names": {
+      "1": "K",
+      "2": "A"
+    },
+    "types": {},
+    "position": [
+      103,
+      107.8,
+      0
+    ]
+  },
+  "R804": {
+    "value": "12k",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:R_0805_2012Metric",
+    "pins": {
+      "1": "GDT1_L_SW",
+      "2": "LED_84_A"
+    },
+    "kind": "r",
+    "names": {},
+    "types": {},
+    "position": [
+      136,
+      64,
+      90
+    ]
+  },
+  "D84": {
+    "value": "GREEN",
+    "mpn": "KT-0805G",
+    "lcsc": "C2297",
+    "footprint": "Tesla:LED_0805_2012Metric",
+    "pins": {
+      "1": "GND",
+      "2": "LED_84_A"
+    },
+    "kind": "led",
+    "names": {
+      "1": "K",
+      "2": "A"
+    },
+    "types": {},
+    "position": [
+      136,
+      60,
+      270
+    ]
+  },
+  "R806": {
+    "value": "12k",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:R_0805_2012Metric",
+    "pins": {
+      "1": "GDT1_R_SW",
+      "2": "LED_86_A"
+    },
+    "kind": "r",
+    "names": {},
+    "types": {},
+    "position": [
+      154,
+      64,
+      90
+    ]
+  },
+  "D86": {
+    "value": "GREEN",
+    "mpn": "KT-0805G",
+    "lcsc": "C2297",
+    "footprint": "Tesla:LED_0805_2012Metric",
+    "pins": {
+      "1": "GND",
+      "2": "LED_86_A"
+    },
+    "kind": "led",
+    "names": {
+      "1": "K",
+      "2": "A"
+    },
+    "types": {},
+    "position": [
+      154,
+      60,
+      270
+    ]
+  },
+  "R807": {
+    "value": "12k",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:R_0805_2012Metric",
+    "pins": {
+      "1": "GDT2_L_SW",
+      "2": "LED_87_A"
+    },
+    "kind": "r",
+    "names": {},
+    "types": {},
+    "position": [
+      136,
+      119,
+      90
+    ]
+  },
+  "D87": {
+    "value": "GREEN",
+    "mpn": "KT-0805G",
+    "lcsc": "C2297",
+    "footprint": "Tesla:LED_0805_2012Metric",
+    "pins": {
+      "1": "GND",
+      "2": "LED_87_A"
+    },
+    "kind": "led",
+    "names": {
+      "1": "K",
+      "2": "A"
+    },
+    "types": {},
+    "position": [
+      136,
+      115,
+      270
+    ]
+  },
+  "R808": {
+    "value": "12k",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:R_0805_2012Metric",
+    "pins": {
+      "1": "GDT2_R_SW",
+      "2": "LED_88_A"
+    },
+    "kind": "r",
+    "names": {},
+    "types": {},
+    "position": [
+      154,
+      119,
+      90
+    ]
+  },
+  "D88": {
+    "value": "GREEN",
+    "mpn": "KT-0805G",
+    "lcsc": "C2297",
+    "footprint": "Tesla:LED_0805_2012Metric",
+    "pins": {
+      "1": "GND",
+      "2": "LED_88_A"
+    },
+    "kind": "led",
+    "names": {
+      "1": "K",
+      "2": "A"
+    },
+    "types": {},
+    "position": [
+      154,
+      115,
+      270
+    ]
+  },
+  "D90": {
+    "value": "1N4148W,115",
+    "mpn": "1N4148W,115",
+    "lcsc": "",
+    "footprint": "Tesla:D_SOD-123",
+    "pins": {
+      "1": "LED_84_A",
+      "2": "GND"
+    },
+    "kind": "diode",
+    "names": {
+      "1": "K",
+      "2": "A"
+    },
+    "types": {},
+    "position": [
+      139,
+      62,
+      90
+    ]
+  },
+  "D91": {
+    "value": "1N4148W,115",
+    "mpn": "1N4148W,115",
+    "lcsc": "",
+    "footprint": "Tesla:D_SOD-123",
+    "pins": {
+      "1": "LED_86_A",
+      "2": "GND"
+    },
+    "kind": "diode",
+    "names": {
+      "1": "K",
+      "2": "A"
+    },
+    "types": {},
+    "position": [
+      157,
+      62,
+      90
+    ]
+  },
+  "D92": {
+    "value": "1N4148W,115",
+    "mpn": "1N4148W,115",
+    "lcsc": "",
+    "footprint": "Tesla:D_SOD-123",
+    "pins": {
+      "1": "LED_87_A",
+      "2": "GND"
+    },
+    "kind": "diode",
+    "names": {
+      "1": "K",
+      "2": "A"
+    },
+    "types": {},
+    "position": [
+      139,
+      117,
+      90
+    ]
+  },
+  "D93": {
+    "value": "1N4148W,115",
+    "mpn": "1N4148W,115",
+    "lcsc": "",
+    "footprint": "Tesla:D_SOD-123",
+    "pins": {
+      "1": "LED_88_A",
+      "2": "GND"
+    },
+    "kind": "diode",
+    "names": {
+      "1": "K",
+      "2": "A"
+    },
+    "types": {},
+    "position": [
+      157,
+      117,
+      90
+    ]
+  },
+  "TP1": {
+    "value": "ADC_FIRST",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:TestPoint_Pad_D1.0mm",
+    "pins": {
+      "1": "ADC_FIRST"
+    },
+    "kind": "testpoint",
+    "names": {
+      "1": "FRSTDATA"
+    },
+    "types": {},
+    "position": [
+      98.5,
+      103.5,
+      0
+    ]
+  },
+  "TP700": {
+    "value": "AUX1_0_5V",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:TestPoint_Pad_D1.0mm_Silk0.15mm",
+    "pins": {
+      "1": "AUX1_0_5V"
+    },
+    "kind": "testpoint",
+    "names": {
+      "1": "IN"
+    },
+    "types": {},
+    "position": [
+      31.8,
+      80.3,
+      0
+    ]
+  },
+  "TP701": {
+    "value": "AUX1_BUFFERED",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:TestPoint_Pad_D1.0mm_Silk0.15mm",
+    "pins": {
+      "1": "AUX1_BUFFERED"
+    },
+    "kind": "testpoint",
+    "names": {
+      "1": "OUT"
+    },
+    "types": {},
+    "position": [
+      54,
+      82,
+      0
+    ]
+  },
+  "TP702": {
+    "value": "GND",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:TestPoint_Pad_D1.0mm_Silk0.15mm",
+    "pins": {
+      "1": "GND"
+    },
+    "kind": "testpoint",
+    "names": {
+      "1": "GND"
+    },
+    "types": {},
+    "position": [
+      54,
+      85,
+      0
+    ]
+  },
+  "TP710": {
+    "value": "AUX2_0_5V",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:TestPoint_Pad_D1.0mm_Silk0.15mm",
+    "pins": {
+      "1": "AUX2_0_5V"
+    },
+    "kind": "testpoint",
+    "names": {
+      "1": "IN"
+    },
+    "types": {},
+    "position": [
+      31.8,
+      89.3,
+      0
+    ]
+  },
+  "TP711": {
+    "value": "AUX2_BUFFERED",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:TestPoint_Pad_D1.0mm_Silk0.15mm",
+    "pins": {
+      "1": "AUX2_BUFFERED"
+    },
+    "kind": "testpoint",
+    "names": {
+      "1": "OUT"
+    },
+    "types": {},
+    "position": [
+      54,
+      91,
+      0
+    ]
+  },
+  "TP712": {
+    "value": "GND",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:TestPoint_Pad_D1.0mm_Silk0.15mm",
+    "pins": {
+      "1": "GND"
+    },
+    "kind": "testpoint",
+    "names": {
+      "1": "GND"
+    },
+    "types": {},
+    "position": [
+      54,
+      94,
+      0
+    ]
+  },
+  "TP720": {
+    "value": "AUX3_0_5V",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:TestPoint_Pad_D1.0mm_Silk0.15mm",
+    "pins": {
+      "1": "AUX3_0_5V"
+    },
+    "kind": "testpoint",
+    "names": {
+      "1": "IN"
+    },
+    "types": {},
+    "position": [
+      31.8,
+      98.3,
+      0
+    ]
+  },
+  "TP721": {
+    "value": "AUX3_BUFFERED",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:TestPoint_Pad_D1.0mm_Silk0.15mm",
+    "pins": {
+      "1": "AUX3_BUFFERED"
+    },
+    "kind": "testpoint",
+    "names": {
+      "1": "OUT"
+    },
+    "types": {},
+    "position": [
+      54,
+      100,
+      0
+    ]
+  },
+  "TP722": {
+    "value": "GND",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:TestPoint_Pad_D1.0mm_Silk0.15mm",
+    "pins": {
+      "1": "GND"
+    },
+    "kind": "testpoint",
+    "names": {
+      "1": "GND"
+    },
+    "types": {},
+    "position": [
+      54,
+      103,
+      0
+    ]
+  },
+  "TP730": {
+    "value": "AUX4_0_5V",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:TestPoint_Pad_D1.0mm_Silk0.15mm",
+    "pins": {
+      "1": "AUX4_0_5V"
+    },
+    "kind": "testpoint",
+    "names": {
+      "1": "IN"
+    },
+    "types": {},
+    "position": [
+      31.8,
+      107.3,
+      0
+    ]
+  },
+  "TP731": {
+    "value": "AUX4_BUFFERED",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:TestPoint_Pad_D1.0mm_Silk0.15mm",
+    "pins": {
+      "1": "AUX4_BUFFERED"
+    },
+    "kind": "testpoint",
+    "names": {
+      "1": "OUT"
+    },
+    "types": {},
+    "position": [
+      54,
+      109,
+      0
+    ]
+  },
+  "TP732": {
+    "value": "GND",
+    "mpn": "",
+    "lcsc": "",
+    "footprint": "Tesla:TestPoint_Pad_D1.0mm_Silk0.15mm",
+    "pins": {
+      "1": "GND"
+    },
+    "kind": "testpoint",
+    "names": {
+      "1": "GND"
+    },
+    "types": {},
+    "position": [
+      54,
+      112,
+      0
+    ]
+  },
+  "U3": {
+    "value": "USBLC6-2SC6",
+    "mpn": "USBLC6-2SC6",
+    "lcsc": "C7519",
+    "footprint": "Tesla:SOT-23-6",
+    "pins": {
+      "1": "USB_D+",
+      "2": "GND",
+      "3": "USB_D-",
+      "4": "USB_D-",
+      "5": "USB_VBUS",
+      "6": "USB_D+"
+    },
+    "kind": "ic",
+    "names": {
+      "1": "D+",
+      "2": "GND",
+      "3": "D-",
+      "4": "D-",
+      "5": "VBUS",
+      "6": "D+"
+    },
+    "types": {},
+    "position": [
+      119.5,
+      32.5,
+      180
+    ]
+  },
+  "R24": {
+    "value": "5.1k",
+    "mpn": "0603WAF5101T5E",
+    "lcsc": "C23186",
+    "footprint": "Tesla:R_0603_1608Metric",
+    "pins": {
+      "1": "USB_CC1",
+      "2": "GND"
+    },
+    "kind": "r",
+    "names": {},
+    "types": {},
+    "position": [
+      136,
+      31.5,
+      180
+    ]
+  },
+  "R25": {
+    "value": "5.1k",
+    "mpn": "0603WAF5101T5E",
+    "lcsc": "C23186",
+    "footprint": "Tesla:R_0603_1608Metric",
+    "pins": {
+      "1": "USB_CC2",
+      "2": "GND"
+    },
+    "kind": "r",
+    "names": {},
+    "types": {},
+    "position": [
+      119.5,
+      28.8,
+      0
+    ]
+  },
+  "R26": {
+    "value": "100k",
+    "mpn": "0603WAF1003T5E",
+    "lcsc": "C25803",
+    "footprint": "Tesla:R_0603_1608Metric",
+    "pins": {
+      "1": "USB_VBUS",
+      "2": "USB_VBUS_PRESENT"
+    },
+    "kind": "r",
+    "names": {},
+    "types": {},
+    "position": [
+      115,
+      29.3,
+      0
+    ]
+  },
+  "R27": {
+    "value": "150k",
+    "mpn": "0603WAF1503T5E",
+    "lcsc": "C22807",
+    "footprint": "Tesla:R_0603_1608Metric",
+    "pins": {
+      "1": "USB_VBUS_PRESENT",
+      "2": "GND"
+    },
+    "kind": "r",
+    "names": {},
+    "types": {},
+    "position": [
+      112,
+      29.3,
+      0
+    ]
+  },
+  "C22": {
+    "value": "100nF / 16V",
+    "mpn": "CL10B104KO8NNNC",
+    "lcsc": "C14663",
+    "footprint": "Tesla:C_0603_1608Metric",
+    "pins": {
+      "1": "USB_VBUS",
+      "2": "GND"
+    },
+    "kind": "c",
+    "names": {},
+    "types": {},
+    "position": [
+      115.8,
+      32.5,
+      180
+    ]
+  }
+}

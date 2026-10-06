@@ -1,0 +1,16 @@
+2026-10-02 — Portal annotation: Angle change could start at the same height
+
+Aligned the four GDT2 B.Cu bend starts at y=124.1 mm, matching CT1_ZERO's existing left-going bend. Preserved every via, all 0.2 mm widths and all existing connections. CT2_ZERO continues straight through this region. Near the receiving vias, L_HI and L_LO finish with vertical segments; R_HI and R_LO continue on their existing horizontal lanes. All bends remain 45 degrees. This updates controller.kicad_pcb and the reviewed routing recipe.
+
+Review checklist, limited to this routing edit:
+- Copper: visual before/after review; no stubs, overlaps, zero-length segments or width changes. Connections to existing vias remain centered. No same-net collinear overlaps in changed copper. Native tracks are all octilinear.
+- Clearance: minimum changed-copper distance to other-net pads/tracks/vias is 0.30 mm. Native DRC, including zone clearance, passes with zero violations.
+- Vias and placement: unchanged. Footprints, pad numbers/nets, drawings, schematic and rules are identical to the baseline. No new layer transitions.
+- Return paths: refilled zones and inspected both outer layers; the front GND reference below the changed diagonal bundle remains continuous through the open corridor. Existing component/power routing is preserved.
+- Connectivity: native pad-connected components match the baseline on every net; zero unconnected items. ERC and schematic parity pass.
+- Global quality: no new errors/warnings. Existing 303 errors and 2390 warnings remain outside this focused item. The aggregate optimize-traces informational estimate changes with segment geometry.
+- RF/decoupling/silkscreen/assembly: unchanged by this edit.
+- Evidence: aligned-bends-checks/verification.json and the before/after/filled renders.
+- Fabrication release outputs were not regenerated; this is a source-board edit.
+
+Portal revision 53406065cb340569e237 is warmed and current.

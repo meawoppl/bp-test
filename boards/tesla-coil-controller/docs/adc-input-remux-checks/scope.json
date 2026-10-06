@@ -1,0 +1,21 @@
+{
+  "changed_pad_nets": [
+    "R1.1",
+    "R2.1",
+    "R3.1",
+    "R4.1"
+  ],
+  "unchanged_footprint_placements": 325,
+  "unchanged_values": true,
+  "project_library_placement_unchanged": true,
+  "other_contract_pins_unchanged": true,
+  "cst_channel_map_unchanged": true,
+  "removed_copper": 20,
+  "added_copper": 12,
+  "unchanged_copper": 1662,
+  "removed_vias": 4,
+  "added_vias": 0,
+  "output_trunk_length_before_mm": 114.96072173913686,
+  "output_trunk_length_after_mm": 109.70386719675123,
+  "new_tracks_octilinear": true
+}

@@ -1,0 +1,49 @@
+{
+  "pcb_sha256": "bd39c980fa1abf9b5c17d26d79aa20135568b1fb01d161aa9c8e7f7a2669b935",
+  "copper_layers": 2,
+  "rails": [
+    {
+      "net": "VIN_5V",
+      "source": "U31.7",
+      "pads": 16,
+      "missing": [],
+      "all_connected": true
+    },
+    {
+      "net": "+5V_ADC",
+      "source": "R20.2",
+      "pads": 24,
+      "missing": [],
+      "all_connected": true
+    },
+    {
+      "net": "+12V_BIAS",
+      "source": "U30.7",
+      "pads": 20,
+      "missing": [],
+      "all_connected": true
+    },
+    {
+      "net": "+12V_AUX",
+      "source": "R740.2",
+      "pads": 10,
+      "missing": [],
+      "all_connected": true
+    },
+    {
+      "net": "+3V3",
+      "source": "U2.5",
+      "pads": 26,
+      "missing": [],
+      "all_connected": true
+    }
+  ],
+  "bypass_caps_with_ground_checked": 25,
+  "missing_bypass_returns": [],
+  "angle_errors": [],
+  "overlapping_segments": [],
+  "via_holes_over_smd_pads": [],
+  "whole_board_unconnected": 0,
+  "new_track_count": 111,
+  "new_via_count": 29
+}

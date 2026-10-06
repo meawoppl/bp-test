@@ -1,0 +1,48 @@
+Portal ADC passive routing completion — 2026-09-30
+Annotation: 2026-09-30T06:08:56.126Z — Finish routing these passives
+Portal revision: 20ac91bf132cd5b56d98
+
+Completed C6/C7 REGCAP_A/REGCAP_D, C8 ADC_REF_2V5 and C9 ADC_REFCAP,
+including both U1 reference-capacitor pins 44/45. All C6-C9 pads are connected.
+Five open connections closed; whole-board opens 11 -> 6.
+Added 23 tracks and 10 vias: six signal layer changes and four local capacitor
+ground returns. Signal width 0.20 mm; ground return width 0.30 mm. Through
+vias 0.60/0.30 mm and 0.50/0.25 mm meet the unchanged native board minimums.
+The short REGCAP_A back-layer bridge preserves the F.Cu ground opening
+and thermal relief at U1 pin 35. All original copper and footprint positions
+are unchanged; schematic, pin assignments, libraries and design rules unchanged.
+
+Native ERC: 0. Physical DRC: 0. Schematic parity: 0.
+Minimum new-copper different-net clearance: 0.175 mm. No new collinear
+overlaps, via drills over SMD pads, or via drills over package bodies.
+All tracks remain octilinear. Connectivity components outside the four
+selected signal nets are unchanged. Existing supply and bypass-return audit
+passes. Isolated reviewed-recipe replay matches copper, placement and opens.
+
+Visual review: inspected the local copper plot, centered straight pad exits,
+bends outside pads, no tails or width islands, clear adjacent pads, all
+layer changes terminating on traces, and the four capacitor ground returns.
+No live Workbench visual claim: the saved-board copper artifact was reviewed.
+Unchanged placement includes the existing C7/C9 distance from U1, beyond
+the profile's 2 mm preference; compact placement remains a separate review
+item. No component/model/polarity edits; assembly preview not part of this edit.
+
+Quality totals: 301 errors, 2422 warnings, 29 infos, zero suppressed.
+Every error and warning entry is unchanged. Existing dispositions remain
+in command-adc-quality-triage.md. Only the informational optimizer aggregate
+changes: 16 of 1352 segments versus 17 of 1329 previously. This does not
+waive the outstanding full-board DFM, procurement or placement findings.
+
+The remaining six opens are USB_D+, USB_D-, ESP_EN, ESP_GPIO0_BOOT,
+SUPPLY_MON and FAULT_STATUS. No other queued annotations were handled.
+
+Tooling: plugin doctor, kct route with --nets REGCAP_D,REGCAP_A,ADC_REFCAP,
+ADC_REF_2V5 --region 87,80,101,92 --preserve-existing --dry-run reported
+no routable multi-pad net despite five native opens. Direct routing on a
+copy was used after that failure, with native DRC and geometry validation.
+Plugin quality and native ERC/DRC/parity were rerun on the saved board.
+
+Changed: controller.kicad_pcb; tools/hardware/tesla_reviewed_routing.json;
+validation/check reports and local review artifacts. Reproduce the copper
+with tools/hardware/tesla_route_reviewed.py. The board remains a development
+routing draft. No manufacturing outputs published for this scoped edit.

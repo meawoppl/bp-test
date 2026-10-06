@@ -1,0 +1,136 @@
+{
+  "added": [
+    {
+      "description": "Component missing manufacturer part number: J30 (12V BATTERY / LOWER) has no MPN/LCSC part-number property, while other components on this board do. Without a specific part number, this component cannot be reliably re-sourced or ordered for assembly.",
+      "items": [
+        {
+          "description": "J30"
+        }
+      ],
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bom_health.component_missing_manufacturer_part_number"
+    },
+    {
+      "description": "Component missing manufacturer part number: J4 (12V BATTERY / UPPER) has no MPN/LCSC part-number property, while other components on this board do. Without a specific part number, this component cannot be reliably re-sourced or ordered for assembly.",
+      "items": [
+        {
+          "description": "J4"
+        }
+      ],
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bom_health.component_missing_manufacturer_part_number"
+    },
+    {
+      "description": "kct optimize-traces would remove 37 of 1345 segments (corners 933 -> 1032, length -0.6%); merge collinear segments and drop zigzags",
+      "items": [],
+      "severity": "info",
+      "source": "kct optimize-traces",
+      "type": "optimize_traces.mergeable_segments"
+    }
+  ],
+  "removed": [
+    {
+      "description": "Component missing manufacturer part number: J30 (BATTERY RAIL / unregulated) has no MPN/LCSC part-number property, while other components on this board do. Without a specific part number, this component cannot be reliably re-sourced or ordered for assembly.",
+      "items": [
+        {
+          "description": "J30"
+        }
+      ],
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bom_health.component_missing_manufacturer_part_number"
+    },
+    {
+      "description": "Component missing manufacturer part number: J4 (TWO 12V BATTERIES / SERIES) has no MPN/LCSC part-number property, while other components on this board do. Without a specific part number, this component cannot be reliably re-sourced or ordered for assembly.",
+      "items": [
+        {
+          "description": "J4"
+        }
+      ],
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bom_health.component_missing_manufacturer_part_number"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C303 is 12.7mm from J30 pin 1 (VBAT_24V). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 12.7mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C303, J30"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C302 is 12.7mm from J30 pin 1 (VBAT_24V). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 12.7mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C302, J30"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C313 is 45.5mm from J30 pin 1 (VBAT_24V). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 45.5mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C313, J30"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C528 is 116.6mm from J30 pin 1 (VBAT_24V). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 116.6mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C528, J30"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C312 is 45.5mm from J30 pin 1 (VBAT_24V). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 45.5mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C312, J30"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "Bypass capacitor too far from power pin: C568 is 145.6mm from J30 pin 1 (VBAT_24V). Bypass capacitors should be within 3.0mm of the power pin they're decoupling. At 145.6mm, the inductance of the trace reduces filtering effectiveness.",
+      "items": [
+        {
+          "description": "C568, J30"
+        }
+      ],
+      "profile_item": "decoupling.max_pin_distance_mm",
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin"
+    },
+    {
+      "description": "kct optimize-traces would remove 36 of 1344 segments (corners 934 -> 1032, length -0.6%); merge collinear segments and drop zigzags",
+      "items": [],
+      "severity": "info",
+      "source": "kct optimize-traces",
+      "type": "optimize_traces.mergeable_segments"
+    }
+  ]
+}

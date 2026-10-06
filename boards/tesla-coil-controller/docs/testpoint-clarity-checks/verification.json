@@ -1,0 +1,61 @@
+{
+  "schematic_existing_objects_changed": [],
+  "schematic_removed_objects": [],
+  "added_junction": [
+    [
+      "junction",
+      [
+        "at",
+        "469.9000",
+        "547.3700"
+      ],
+      [
+        "diameter",
+        "0.8"
+      ],
+      [
+        "color",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "uuid",
+        "7e28153b-7b09-58d7-b366-a4eb28f35b3e"
+      ]
+    ]
+  ],
+  "library_symbols_changed": [
+    "Tesla:TP1"
+  ],
+  "unchanged_files": {
+    "controller.kicad_pcb": true,
+    "controller.kicad_pro": true,
+    "docs/circuit.json": true
+  },
+  "net": "ADC_FIRST",
+  "connected_pads": [
+    {
+      "name": "TP1.1",
+      "position": [
+        78.1,
+        75.9
+      ]
+    },
+    {
+      "name": "U1.15",
+      "position": [
+        75.85,
+        74.075
+      ]
+    }
+  ],
+  "pcb_status": "complete",
+  "quality_unchanged": true,
+  "quality_counts": {
+    "errors": 302,
+    "warnings": 2394,
+    "infos": 23
+  }
+}

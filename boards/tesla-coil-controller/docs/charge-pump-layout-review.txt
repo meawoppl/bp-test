@@ -1,0 +1,38 @@
+Portal annotation: Attach test point to tested net; tighten/center layout
+Annotation revision: 7f950fdc4e6d7c96dfa8
+Working baseline revision: 1e9a8b7c0ca9199f175b
+Verified Portal revision: 31a5eb8e96f2c91e0d42
+
+The isolated marker was #FLG004 (PWR_FLAG), not a physical test point.
+It already named the -5V_CT net. Moved it to the end of a visible wire on
+the filtered output, directly connected to R421 pin 2 and C423 pin 1.
+Showed its PWR_FLAG name to distinguish it from a test point.
+Brought U44 and the flying/output capacitors closer together, aligned the
+notes beneath the circuit, and fitted the border around the content.
+The block shrank from 245.11 x 149.86 to 189.23 x 92.71 mm:
+22.8% narrower, 38.14% shorter, 52.24% less area.
+
+Changed generator sources:
+  tools/hardware/tesla_cst_schematic.py
+  tools/hardware/tesla_schematic.py
+Refreshed controller.kicad_sch, docs/schematic-layout.json, and the schematic PDF.
+
+Verification:
+  Circuit contract verified by the native schematic generator.
+  ERC: 0 violations.
+  DRC: 0 violations; 0 unconnected items; 0 schematic/PCB parity issues.
+  KCT sync: in_sync; 0 errors; 0 warnings.
+  Inspected native KiCad SVG output; before.png and after.png capture this block.
+  Direct-wire audit confirms #FLG004 reaches R421.2 and C423.1 without labels.
+  All 1,983 schematic geometry items outside this block remain unchanged.
+  Other block bounds and embedded symbol definitions remain unchanged.
+  PCB, project settings, symbol library and circuit contract hashes are unchanged.
+  Portal rebuild is complete; ERC, DRC, schematic PDF and BOM stages pass.
+
+The read-only scope audit fills the comparison gap in KCT: it compares
+normalized schematic geometry and file hashes with the pre-edit snapshot.
+No other edit-stack item was processed. Visual inspection used native renders.
+The applicable schematic/parity/output review-checklist items were checked.
+Quality's 302 errors, 2,394 warnings and 23 information findings are identical
+to the previous baseline, including the full violation list. These existing
+PCB findings remain outside this focused schematic change.

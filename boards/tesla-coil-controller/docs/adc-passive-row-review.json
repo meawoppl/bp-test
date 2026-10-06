@@ -1,0 +1,93 @@
+{
+  "annotation": {
+    "title": "All these passives could be in a nice row",
+    "revision": "19e3e9c4d4fa179643e8",
+    "session": "91d7cd67-4900-4b54-a9dc-9c2e0eb5396d"
+  },
+  "result": "R20, C10, C9 and C7 form one vertical-footprint row at 2.5 mm pitch, y=82.5 mm. Only R20 and C10 moved. C9 and C7 and the ADC pin decouplers retain their original placement and copper.",
+  "files_changed": {
+    "pcb": [
+      "controller.kicad_pcb"
+    ],
+    "reproducibility": [
+      "tools/hardware/tesla_placement.json",
+      "tools/hardware/tesla_reviewed_routing.json"
+    ],
+    "schematic": [],
+    "libraries": [],
+    "fabrication": [],
+    "docs": [
+      "adc-passive-row.png",
+      "adc-passive-row-checks",
+      "adc-passive-row-review.json"
+    ]
+  },
+  "tools": [
+    "kct pcb move-footprint --absolute --map",
+    "tesla_route_reviewed.py (existing reviewed copper replay; rotation needs reconstructed local routes rather than endpoint dragging)",
+    "kct validate --sync",
+    "plugin erc",
+    "plugin drc",
+    "plugin quality"
+  ],
+  "verification": {
+    "erc_violations": 0,
+    "physical_drc_violations": 0,
+    "schematic_parity_violations": 0,
+    "in_sync": true,
+    "existing_unconnected": [
+      "USB_D+: J1.7 to J5.1",
+      "USB_D-: J1.8 to J5.2"
+    ],
+    "quality": {
+      "errors": 288,
+      "warnings": 2401,
+      "infos": 22,
+      "new_errors": 0,
+      "passed": false
+    },
+    "scope": {
+      "changed_footprints": [
+        "R20",
+        "C10"
+      ],
+      "aligned_row": [
+        "R20",
+        "C10",
+        "C9",
+        "C7"
+      ],
+      "pitch_mm": 2.5,
+      "centerline_y_mm": 82.5,
+      "unchanged_footprints": 323,
+      "unchanged_values_and_nets": true,
+      "schematic_and_project_unchanged": true,
+      "copper_removed": 11,
+      "copper_added": 11,
+      "unchanged_copper": 1671,
+      "changed_copper_nets": [
+        "VIN_5V",
+        "+5V_ADC",
+        "GND"
+      ],
+      "new_tracks_octilinear": true,
+      "new_via_holes_clear_of_smd_pads": true
+    }
+  },
+  "quality_assessment": [
+    "All 288 error diagnostics are identical to the unchanged-board AUX review baseline; this focused alignment does not resolve the existing whole-board quality backlog.",
+    "Warning count remains 2401. Most diagnostic changes are updated distances from moved bulk capacitor C10 / rail link R20 to all other pads on the shared supply; these are not intended local bypass pairings. Individual IC bypass capacitors and their return paths are unchanged.",
+    "Existing 0.12 mm passive silkscreen-width warnings follow the same moved footprints. No library geometry was changed.",
+    "Info count decreases from 23 to 22. Complete remaining findings are in adc-passive-row-checks/quality.json; prior assessment is in aux-connector-rows-review.json."
+  ],
+  "visual_review": [
+    "Reviewed actual copper/footprint preview for the marked ADC area: regular row and orientation, aligned capacitor ground vias, centered straight pad exits and 45/90 degree transitions; no newly dangling copper or local overlap visible.",
+    "No parts or 3D models changed. No external fabrication/assembly preview or fabrication publish requested; board remains a draft."
+  ],
+  "source_sha256": {
+    "boards/tesla-coil-controller/controller.kicad_pcb": "03bd4a93378657adaa588093240af331b52756ce6389d39176b1c30498b53af0",
+    "boards/tesla-coil-controller/controller.kicad_sch": "7a332f253e0da87c230ef7756dc28f0f6a6b66b09f9658d785f55183c26cf32c",
+    "tools/hardware/tesla_placement.json": "ebe84949417c1fa794de39bf13e3d7924efb6877356e43e7d9a45bd25aa79500",
+    "tools/hardware/tesla_reviewed_routing.json": "225323f32d2a95bfc313d4883883ce5cfd8a69040381658d6861e294c325f692"
+  }
+}

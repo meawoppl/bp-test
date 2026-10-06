@@ -1,0 +1,62 @@
+[
+  {
+    "pad": "R503.1",
+    "angle_deg": 270.0,
+    "nearest_via": [
+      128.0,
+      96.1
+    ],
+    "minimum_hole_to_pad_mm": 0.5301346222722279,
+    "native_drill_overlap": false
+  },
+  {
+    "pad": "C21.2",
+    "angle_deg": 90.0,
+    "nearest_via": [
+      113.1,
+      95.9
+    ],
+    "minimum_hole_to_pad_mm": 0.4664593226833741,
+    "native_drill_overlap": false
+  },
+  {
+    "pad": "R506.2",
+    "angle_deg": 270.0,
+    "nearest_via": [
+      126.1,
+      101.3
+    ],
+    "minimum_hole_to_pad_mm": 0.5018009105498129,
+    "native_drill_overlap": false
+  },
+  {
+    "pad": "R515.2",
+    "angle_deg": 270.0,
+    "nearest_via": [
+      130.0,
+      150.8
+    ],
+    "minimum_hole_to_pad_mm": 0.2522931375135963,
+    "native_drill_overlap": false
+  },
+  {
+    "pad": "R505.2",
+    "angle_deg": 270.0,
+    "nearest_via": [
+      122.2,
+      100.2
+    ],
+    "minimum_hole_to_pad_mm": 0.35,
+    "native_drill_overlap": false
+  },
+  {
+    "pad": "R501.2",
+    "angle_deg": 270.0,
+    "nearest_via": [
+      123.0,
+      97.8
+    ],
+    "minimum_hole_to_pad_mm": 0.225,
+    "native_drill_overlap": false
+  }
+]

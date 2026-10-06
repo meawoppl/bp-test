@@ -1,0 +1,676 @@
+{
+  "scope": "U1 bottom-pin datasheet investigation; no board/schematic edits",
+  "annotation_revision": "a6725f560b3aebf86e6d",
+  "reviewed_portal_revision": "7f950fdc4e6d7c96dfa8",
+  "sources_sha256": {
+    "boards/tesla-coil-controller/controller.kicad_pcb": "e2be3f6cc10f43beb717b568b38dd62b0e61443404a3953141e9c91f886ff7fc",
+    "boards/tesla-coil-controller/controller.kicad_sch": "ecc007fc9cac2e3682c002aa5ad85faea435463ba33d3f09a6195baa862e89c9",
+    "boards/tesla-coil-controller/controller.kicad_pro": "40e593eb2309fcddf3cd616a5e82b970cb97e4b268436e03b5e1288843705533",
+    "boards/tesla-coil-controller/Tesla.kicad_sym": "4a416a1d3453c060a93e4abdf934ac7ea2986bb46ea519d2f61f1ae38d771336",
+    "boards/tesla-coil-controller/docs/circuit.json": "cfa7cedfef65d3bb4680b64c3338380b2b9e33f41419c4badb8ffcbc4c157f7e",
+    "tools/hardware/tesla_reviewed_routing.json": "48a5a459c919ff64fac84341477245da4d82028ca27342a3ffa9b3443f544a4a"
+  },
+  "datasheet": "https://www.analog.com/media/en/technical-documentation/data-sheets/ad7606c-16.pdf",
+  "datasheet_revision": "A, August 2025",
+  "datasheet_sections": [
+    "Table 9 pp15-17",
+    "Table 14 p36",
+    "Table 23 p43",
+    "Figure 123 p59",
+    "layout p60"
+  ],
+  "bottom_pins": [
+    {
+      "pin": 1,
+      "datasheet_name": "AVCC",
+      "role": "analog supply",
+      "net": "+5V_ADC",
+      "x_mm": 89.25,
+      "y_mm": 101.675
+    },
+    {
+      "pin": 2,
+      "datasheet_name": "AGND",
+      "role": "ground",
+      "net": "GND",
+      "x_mm": 89.75,
+      "y_mm": 101.675
+    },
+    {
+      "pin": 3,
+      "datasheet_name": "OS0",
+      "role": "configuration strap HIGH",
+      "net": "+3V3",
+      "x_mm": 90.25,
+      "y_mm": 101.675
+    },
+    {
+      "pin": 4,
+      "datasheet_name": "OS1",
+      "role": "configuration strap HIGH",
+      "net": "+3V3",
+      "x_mm": 90.75,
+      "y_mm": 101.675
+    },
+    {
+      "pin": 5,
+      "datasheet_name": "OS2",
+      "role": "configuration strap HIGH",
+      "net": "+3V3",
+      "x_mm": 91.25,
+      "y_mm": 101.675
+    },
+    {
+      "pin": 6,
+      "datasheet_name": "PAR/SER SEL",
+      "role": "configuration strap HIGH",
+      "net": "+3V3",
+      "x_mm": 91.75,
+      "y_mm": 101.675
+    },
+    {
+      "pin": 7,
+      "datasheet_name": "STBY",
+      "role": "configuration strap HIGH",
+      "net": "+3V3",
+      "x_mm": 92.25,
+      "y_mm": 101.675
+    },
+    {
+      "pin": 8,
+      "datasheet_name": "RANGE",
+      "role": "configuration strap LOW",
+      "net": "GND",
+      "x_mm": 92.75,
+      "y_mm": 101.675
+    },
+    {
+      "pin": 9,
+      "datasheet_name": "CONVST",
+      "role": "interface signal",
+      "net": "ADC_CONVST",
+      "x_mm": 93.25,
+      "y_mm": 101.675
+    },
+    {
+      "pin": 10,
+      "datasheet_name": "WR",
+      "role": "configuration strap HIGH",
+      "net": "+3V3",
+      "x_mm": 93.75,
+      "y_mm": 101.675
+    },
+    {
+      "pin": 11,
+      "datasheet_name": "RESET",
+      "role": "interface signal",
+      "net": "ADC_RESET",
+      "x_mm": 94.25,
+      "y_mm": 101.675
+    },
+    {
+      "pin": 12,
+      "datasheet_name": "RD/SCLK",
+      "role": "interface signal",
+      "net": "ADC_SCLK",
+      "x_mm": 94.75,
+      "y_mm": 101.675
+    },
+    {
+      "pin": 13,
+      "datasheet_name": "CS",
+      "role": "interface signal",
+      "net": "ADC_CS_N",
+      "x_mm": 95.25,
+      "y_mm": 101.675
+    },
+    {
+      "pin": 14,
+      "datasheet_name": "BUSY",
+      "role": "interface signal",
+      "net": "ADC_BUSY",
+      "x_mm": 95.75,
+      "y_mm": 101.675
+    },
+    {
+      "pin": 15,
+      "datasheet_name": "FRSTDATA",
+      "role": "interface signal",
+      "net": "ADC_FIRST",
+      "x_mm": 96.25,
+      "y_mm": 101.675
+    },
+    {
+      "pin": 16,
+      "datasheet_name": "DB0",
+      "role": "unused parallel data: grounded",
+      "net": "GND",
+      "x_mm": 96.75,
+      "y_mm": 101.675
+    }
+  ],
+  "checks": [
+    {
+      "check": "U1.1 matches source net contract",
+      "pass": true
+    },
+    {
+      "check": "U1.2 matches source net contract",
+      "pass": true
+    },
+    {
+      "check": "U1.3 matches source net contract",
+      "pass": true
+    },
+    {
+      "check": "U1.4 matches source net contract",
+      "pass": true
+    },
+    {
+      "check": "U1.5 matches source net contract",
+      "pass": true
+    },
+    {
+      "check": "U1.6 matches source net contract",
+      "pass": true
+    },
+    {
+      "check": "U1.7 matches source net contract",
+      "pass": true
+    },
+    {
+      "check": "U1.8 matches source net contract",
+      "pass": true
+    },
+    {
+      "check": "U1.9 matches source net contract",
+      "pass": true
+    },
+    {
+      "check": "U1.10 matches source net contract",
+      "pass": true
+    },
+    {
+      "check": "U1.11 matches source net contract",
+      "pass": true
+    },
+    {
+      "check": "U1.12 matches source net contract",
+      "pass": true
+    },
+    {
+      "check": "U1.13 matches source net contract",
+      "pass": true
+    },
+    {
+      "check": "U1.14 matches source net contract",
+      "pass": true
+    },
+    {
+      "check": "U1.15 matches source net contract",
+      "pass": true
+    },
+    {
+      "check": "U1.16 matches source net contract",
+      "pass": true
+    },
+    {
+      "check": "U1.17 matches source net contract",
+      "pass": true
+    },
+    {
+      "check": "U1.18 matches source net contract",
+      "pass": true
+    },
+    {
+      "check": "U1.19 matches source net contract",
+      "pass": true
+    },
+    {
+      "check": "U1.20 matches source net contract",
+      "pass": true
+    },
+    {
+      "check": "U1.21 matches source net contract",
+      "pass": true
+    },
+    {
+      "check": "U1.22 matches source net contract",
+      "pass": true
+    },
+    {
+      "check": "U1.23 matches source net contract",
+      "pass": true
+    },
+    {
+      "check": "U1.24 matches source net contract",
+      "pass": true
+    },
+    {
+      "check": "U1.25 matches source net contract",
+      "pass": true
+    },
+    {
+      "check": "U1.26 matches source net contract",
+      "pass": true
+    },
+    {
+      "check": "U1.27 matches source net contract",
+      "pass": true
+    },
+    {
+      "check": "U1.28 matches source net contract",
+      "pass": true
+    },
+    {
+      "check": "U1.29 matches source net contract",
+      "pass": true
+    },
+    {
+      "check": "U1.30 matches source net contract",
+      "pass": true
+    },
+    {
+      "check": "U1.31 matches source net contract",
+      "pass": true
+    },
+    {
+      "check": "U1.32 matches source net contract",
+      "pass": true
+    },
+    {
+      "check": "U1.33 matches source net contract",
+      "pass": true
+    },
+    {
+      "check": "U1.34 matches source net contract",
+      "pass": true
+    },
+    {
+      "check": "U1.35 matches source net contract",
+      "pass": true
+    },
+    {
+      "check": "U1.36 matches source net contract",
+      "pass": true
+    },
+    {
+      "check": "U1.37 matches source net contract",
+      "pass": true
+    },
+    {
+      "check": "U1.38 matches source net contract",
+      "pass": true
+    },
+    {
+      "check": "U1.39 matches source net contract",
+      "pass": true
+    },
+    {
+      "check": "U1.40 matches source net contract",
+      "pass": true
+    },
+    {
+      "check": "U1.41 matches source net contract",
+      "pass": true
+    },
+    {
+      "check": "U1.42 matches source net contract",
+      "pass": true
+    },
+    {
+      "check": "U1.43 matches source net contract",
+      "pass": true
+    },
+    {
+      "check": "U1.44 matches source net contract",
+      "pass": true
+    },
+    {
+      "check": "U1.45 matches source net contract",
+      "pass": true
+    },
+    {
+      "check": "U1.46 matches source net contract",
+      "pass": true
+    },
+    {
+      "check": "U1.47 matches source net contract",
+      "pass": true
+    },
+    {
+      "check": "U1.48 matches source net contract",
+      "pass": true
+    },
+    {
+      "check": "U1.49 matches source net contract",
+      "pass": true
+    },
+    {
+      "check": "U1.50 matches source net contract",
+      "pass": true
+    },
+    {
+      "check": "U1.51 matches source net contract",
+      "pass": true
+    },
+    {
+      "check": "U1.52 matches source net contract",
+      "pass": true
+    },
+    {
+      "check": "U1.53 matches source net contract",
+      "pass": true
+    },
+    {
+      "check": "U1.54 matches source net contract",
+      "pass": true
+    },
+    {
+      "check": "U1.55 matches source net contract",
+      "pass": true
+    },
+    {
+      "check": "U1.56 matches source net contract",
+      "pass": true
+    },
+    {
+      "check": "U1.57 matches source net contract",
+      "pass": true
+    },
+    {
+      "check": "U1.58 matches source net contract",
+      "pass": true
+    },
+    {
+      "check": "U1.59 matches source net contract",
+      "pass": true
+    },
+    {
+      "check": "U1.60 matches source net contract",
+      "pass": true
+    },
+    {
+      "check": "U1.61 matches source net contract",
+      "pass": true
+    },
+    {
+      "check": "U1.62 matches source net contract",
+      "pass": true
+    },
+    {
+      "check": "U1.63 matches source net contract",
+      "pass": true
+    },
+    {
+      "check": "U1.64 matches source net contract",
+      "pass": true
+    },
+    {
+      "check": "U1.3 is on 3.3V and physically reaches U2.5",
+      "pass": true
+    },
+    {
+      "check": "U1.4 is on 3.3V and physically reaches U2.5",
+      "pass": true
+    },
+    {
+      "check": "U1.5 is on 3.3V and physically reaches U2.5",
+      "pass": true
+    },
+    {
+      "check": "U1.6 is on 3.3V and physically reaches U2.5",
+      "pass": true
+    },
+    {
+      "check": "U1.7 is on 3.3V and physically reaches U2.5",
+      "pass": true
+    },
+    {
+      "check": "U1.10 is on 3.3V and physically reaches U2.5",
+      "pass": true
+    },
+    {
+      "check": "U1.23 is on 3.3V and physically reaches U2.5",
+      "pass": true
+    },
+    {
+      "check": "U1.34 is on 3.3V and physically reaches U2.5",
+      "pass": true
+    },
+    {
+      "check": "U1.1 is on +5V_ADC and physically reaches R20.2",
+      "pass": true
+    },
+    {
+      "check": "U1.37 is on +5V_ADC and physically reaches R20.2",
+      "pass": true
+    },
+    {
+      "check": "U1.38 is on +5V_ADC and physically reaches R20.2",
+      "pass": true
+    },
+    {
+      "check": "U1.48 is on +5V_ADC and physically reaches R20.2",
+      "pass": true
+    },
+    {
+      "check": "U1.2 is grounded and physically reaches J2.1",
+      "pass": true
+    },
+    {
+      "check": "U1.8 is grounded and physically reaches J2.1",
+      "pass": true
+    },
+    {
+      "check": "U1.16 is grounded and physically reaches J2.1",
+      "pass": true
+    },
+    {
+      "check": "U1.17 is grounded and physically reaches J2.1",
+      "pass": true
+    },
+    {
+      "check": "U1.18 is grounded and physically reaches J2.1",
+      "pass": true
+    },
+    {
+      "check": "U1.26 is grounded and physically reaches J2.1",
+      "pass": true
+    },
+    {
+      "check": "U1.30 is grounded and physically reaches J2.1",
+      "pass": true
+    },
+    {
+      "check": "U1.31 is grounded and physically reaches J2.1",
+      "pass": true
+    },
+    {
+      "check": "U1.32 is grounded and physically reaches J2.1",
+      "pass": true
+    },
+    {
+      "check": "U1.33 is grounded and physically reaches J2.1",
+      "pass": true
+    },
+    {
+      "check": "U1.35 is grounded and physically reaches J2.1",
+      "pass": true
+    },
+    {
+      "check": "U1.40 is grounded and physically reaches J2.1",
+      "pass": true
+    },
+    {
+      "check": "U1.41 is grounded and physically reaches J2.1",
+      "pass": true
+    },
+    {
+      "check": "U1.43 is grounded and physically reaches J2.1",
+      "pass": true
+    },
+    {
+      "check": "U1.46 is grounded and physically reaches J2.1",
+      "pass": true
+    },
+    {
+      "check": "U1.47 is grounded and physically reaches J2.1",
+      "pass": true
+    },
+    {
+      "check": "U1.50 is grounded and physically reaches J2.1",
+      "pass": true
+    },
+    {
+      "check": "U1.52 is grounded and physically reaches J2.1",
+      "pass": true
+    },
+    {
+      "check": "U1.54 is grounded and physically reaches J2.1",
+      "pass": true
+    },
+    {
+      "check": "U1.56 is grounded and physically reaches J2.1",
+      "pass": true
+    },
+    {
+      "check": "U1.58 is grounded and physically reaches J2.1",
+      "pass": true
+    },
+    {
+      "check": "U1.60 is grounded and physically reaches J2.1",
+      "pass": true
+    },
+    {
+      "check": "U1.62 is grounded and physically reaches J2.1",
+      "pass": true
+    },
+    {
+      "check": "U1.64 is grounded and physically reaches J2.1",
+      "pass": true
+    },
+    {
+      "check": "C1 expected capacitance",
+      "pass": true
+    },
+    {
+      "check": "C1 reaches U1 pin and ground",
+      "pass": true
+    },
+    {
+      "check": "C2 expected capacitance",
+      "pass": true
+    },
+    {
+      "check": "C2 reaches U1 pin and ground",
+      "pass": true
+    },
+    {
+      "check": "C3 expected capacitance",
+      "pass": true
+    },
+    {
+      "check": "C3 reaches U1 pin and ground",
+      "pass": true
+    },
+    {
+      "check": "C4 expected capacitance",
+      "pass": true
+    },
+    {
+      "check": "C4 reaches U1 pin and ground",
+      "pass": true
+    },
+    {
+      "check": "C5 expected capacitance",
+      "pass": true
+    },
+    {
+      "check": "C5 reaches U1 pin and ground",
+      "pass": true
+    },
+    {
+      "check": "C6 expected capacitance",
+      "pass": true
+    },
+    {
+      "check": "C6 reaches U1 pin and ground",
+      "pass": true
+    },
+    {
+      "check": "C7 expected capacitance",
+      "pass": true
+    },
+    {
+      "check": "C7 reaches U1 pin and ground",
+      "pass": true
+    },
+    {
+      "check": "C8 expected capacitance",
+      "pass": true
+    },
+    {
+      "check": "C8 reaches U1 pin and ground",
+      "pass": true
+    },
+    {
+      "check": "C9 expected capacitance",
+      "pass": true
+    },
+    {
+      "check": "C9 reaches U1 pin and ground",
+      "pass": true
+    },
+    {
+      "check": "C10 expected capacitance",
+      "pass": true
+    },
+    {
+      "check": "C10 reaches U1 pin and ground",
+      "pass": true
+    },
+    {
+      "check": "U1.36 output is isolated to its own capacitor",
+      "pass": true
+    },
+    {
+      "check": "U1.39 output is isolated to its own capacitor",
+      "pass": true
+    },
+    {
+      "check": "U1.42 output is isolated to its own capacitor",
+      "pass": true
+    },
+    {
+      "check": "REFCAPA/B shorted only to C9",
+      "pass": true
+    },
+    {
+      "check": "DRC zero violations/opens/parity issues",
+      "pass": true
+    },
+    {
+      "check": "ERC zero violations",
+      "pass": true
+    },
+    {
+      "check": "schematic in sync",
+      "pass": true
+    },
+    {
+      "check": "KCT +3V3 physically complete",
+      "pass": true
+    },
+    {
+      "check": "native whole board has zero opens",
+      "pass": true
+    },
+    {
+      "check": "design files unchanged",
+      "pass": true
+    }
+  ],
+  "failures": [],
+  "limitations": "Connectivity and documented configuration only; no powered hardware or firmware timing test. Layout was not altered."
+}

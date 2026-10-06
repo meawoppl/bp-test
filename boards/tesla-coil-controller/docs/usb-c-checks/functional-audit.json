@@ -1,0 +1,18 @@
+{
+  "connector_contract": "pass",
+  "vbus_to_vin_5v_isolated": "pass",
+  "J1.20": "USB_VBUS_PRESENT",
+  "planar_contact_to_module_length_mm": {
+    "USB_D+": {
+      "A6": 34.784039,
+      "B6": 37.734039
+    },
+    "USB_D-": {
+      "A7": 33.938023,
+      "B7": 34.938023
+    }
+  },
+  "via_barrels_included": false,
+  "routing_replay_copper_and_pads_identical": true,
+  "project_settings_unchanged_by_replay": true
+}

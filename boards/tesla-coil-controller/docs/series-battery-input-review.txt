@@ -1,0 +1,83 @@
+SERIES BATTERY INPUT REVIEW
+Portal annotation: 2026-09-30T18:44:41.307Z
+Source revision: 7f950fdc4e6d7c96dfa8
+
+C333
+C333 is a 22 uF, 50 V rail bypass connected across VBAT_24V and GND.
+Its 1812 footprint is smaller than the 2220 parts in C335-C342, the eight-part
+22 uF reservoir bank. That bank totals 176 uF nominal. C333 adds another
+22 uF nominal in parallel; it does not perform voltage conversion or series
+battery combining. C333 and the bank are unchanged. Exact capacitor part
+selection and effective capacitance under DC bias remain unqualified.
+
+CONNECTIONS
+Both connectors now appear together in BATTERY INPUTS / SERIES LINK +
+RESERVOIR. They were already adjacent on the PCB and remain in place.
+
+Two separate 12 V batteries:
+  J4.1  = upper battery positive = VBAT_24V
+  J4.2  = upper battery negative = BAT_MID_12V
+  J30.1 = lower battery positive = BAT_MID_12V
+  J30.2 = lower battery negative = board GND
+
+The PCB makes the J4.2-J30.1 series link. The upper battery negative must
+remain separate from board ground; tying both battery negatives together
+would short the lower battery through the series link.
+
+One 24 V PSU, instead of the batteries:
+  PSU positive to J4.1; PSU negative to J30.2.
+  Leave J4.2 and J30.1 unused. No jumper is needed.
+
+IMPLEMENTATION
+Previously, J4 and J30 were parallel connections across VBAT_24V/GND.
+Exactly two pad nets changed. The new midpoint uses one straight 6.92 mm,
+2.5 mm-wide F.Cu track. Three old VBAT branch segments were removed; three
+0.4 mm F.Cu segments reconnect the R304 UVLO feed to the unchanged 24 V
+bus, plus the midpoint segment. Ground zones were refilled. No footprints
+moved, and all unrelated track/via objects and net memberships are identical.
+
+Updated sources: build_tesla_controller.py, tesla_power.py,
+tesla_schematic.py, tesla_schematic_blocks.py, tesla_schematic_layout.py,
+tesla_reviewed_routing.json and its replay script. Generated schematic,
+symbol library, circuit contract, layout map and PCB agree. Updated README,
+power-design notes, subsystem diagram and schematic PDF describe this wiring.
+The indicator audit now uses J30.2 as its ground reference.
+
+VERIFICATION
+Evidence is in series-battery-input-checks/:
+  ERC: 0 violations.
+  Native DRC: 0 violations, 0 unconnected items, 0 schematic parity issues.
+  KCT validate --sync with explicit schematic/PCB paths: in_sync=true.
+  KCT net-status: BAT_MID_12V and VBAT_24V complete.
+  Native connectivity: midpoint contains exactly J4.2 and J30.1; R304.1
+    remains in the complete VBAT_24V cluster; every other net is unchanged.
+  Source contract: all components except J4/J30 unchanged; current PCB
+    matches every declared pin net and the reviewed copper recipe.
+  Project rules unchanged; native checks use the existing project exclusions.
+  Indicator audit passed with the new ground reference.
+  Visually reviewed the final schematic block, native PCB copper around
+    both connectors and R304, and the updated subsystem diagram.
+
+Quality audit: 302 errors, 2394 warnings, 23 info, versus the starting
+302 errors, 2400 warnings, 23 info. No new errors or underlying warnings.
+The J4/J30 missing-MPN warning text changed with their names; six obsolete
+J30-to-24 V capacitor-distance warnings disappeared. The trace-optimization
+advisory changed with the new route. Detailed reports retain all findings.
+This is still a development draft. Current capacity, input protection,
+thermal performance and capacitor derating are not qualified by DRC.
+
+TOOLS
+Plugin wrapper:
+  /home/meawoppl/agent-portal-plugins/kicad-pcb/bin/kicad-pcb-rs
+Used its doctor, KCT pcb sync-netlist (dry-run then transactional), ERC,
+DRC and quality commands. Used KCT validate --sync with explicit --schematic
+and --pcb, and net-status --net BAT_MID_12V / VBAT_24V, all in JSON format.
+Exact commands are retained in the respective report wrappers.
+
+The existing tesla_route_reviewed.py applies the deterministic reviewed
+recipe and fills zones. A read-only native audit supplements KCT with
+object-by-object scope comparison and connected-pad membership checks;
+verify.py and verification.json record these. Native SVG/PDF exports were
+used to inspect the final presentation. Portal's automatic build completed
+ERC/DRC and previews; quality remains failed on the existing backlog.
+No fabrication release was published.

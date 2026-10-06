@@ -1,0 +1,31 @@
+Portal supply routing completion — 2026-09-30
+Annotation: 2026-09-30T06:08:24.759Z
+Portal revision: caff3e7aeacb88927520
+
+Completed U30/U31 FB, RON, SS and UVLO control nets. This closes 14
+unconnected items (whole board 25 -> 11). All pads on the converter parts,
+their supporting parts, and the existing supply/ground connections are now
+connected. Added 51 tracks at 0.25 mm and six 0.6/0.3 mm through vias.
+The via size meets the unchanged native board rules. No existing copper,
+placement, schematic, net assignment, or rules changed.
+
+Native ERC: 0. Native physical DRC: 0. Schematic parity: 0.
+Minimum new-copper different-net clearance: 0.30 mm.
+No new off-angle segments, collinear overlaps, or via drills over SMD pads
+or F.Fab package bodies. Existing positive-rail and bypass-return audit
+passes. Visual copper review completed. Isolated reviewed-recipe replay
+matches copper, placements, and connectivity exactly.
+
+Whole-board opens remaining: 11, outside this converter scope.
+USB_D+, USB_D-, ESP_EN, ESP_GPIO0_BOOT, SUPPLY_MON, FAULT_STATUS;
+REGCAP_D (1), REGCAP_A (1), ADC_REFCAP (2), ADC_REF_2V5 (1).
+
+Layout-quality totals remain 301 errors, 2422 warnings, 29 infos, zero
+suppressed. Every error and warning entry is unchanged from baseline.
+Only the aggregate optimizer informational suggestion changes (17 of
+1329 segments versus 15 of 1278 before). The prior triage is recorded in
+command-adc-quality-triage.md. This change does not waive that backlog.
+The board remains a development routing draft.
+
+Current recipe: tools/hardware/tesla_reviewed_routing.json, replayed by
+tools/hardware/tesla_route_reviewed.py. No manufacturing release performed.

@@ -1,0 +1,28 @@
+Focused annotation: evenly spaced J2 right-side vias and removal of earlier crossover doglegs
+Annotation: 2026-10-02T20:20:08.461Z; source revision ae9c762c03e3084c14ff
+
+Changed the last two vias in the x=119 mm column to y=72.7 and 73.6 mm.
+All ten vias now use 0.9 mm pitch, from y=65.5 to 73.6 mm.
+Moved the CT2_ZERO crossover via from (110.6,72.9) to (110.6,72.7) mm.
+CT1_ZERO and CT2_ZERO now cross directly between their front-layer vias in
+single horizontal segments. Removed three unnecessary track segments.
+Adjusted the attached back-layer leads; existing lower bend alignment retained.
+Only CT1_ZERO and CT2_ZERO copper changed. Trace widths, via sizes, footprints,
+schematic, net assignments, and unrelated copper are unchanged.
+Updated the reviewed routing recipe to match the native board exactly.
+
+Verification:
+- KiCad DRC: zero violations, zero unconnected items, zero schematic parity issues.
+- ERC: zero violations; schematic/board synchronization passes.
+- Every net retains the same fully connected pad group.
+- Three moved vias each connect both required copper layers; no pad/body overlap.
+- Minimum changed-copper clearance: 0.236396 mm (required 0.15 mm).
+- No changed copper overlaps, stubs, non-octilinear segments, or width changes.
+- Inspected before/after routing and both refilled copper-layer renders.
+- Broad quality audit unchanged: 303 existing errors, 2390 warnings, 24 infos;
+  no new errors or warnings. This is a focused routing review, not a fab release.
+- Track count 1400 -> 1397; via count remains 346.
+- Each affected route is 0.292893 mm longer overall due to the via relocation.
+- Portal revision 0c9522cb23eef834afe1 is warmed.
+
+Board SHA256: ee0f45208a691e329adb2a015b2371fe824ec03621a8b4a945547288fdc7df49

@@ -1,0 +1,51 @@
+{
+  "annotation": "2026-09-30T07:06:01.050Z",
+  "source_revision": "3d113cef9bdd62c94c1a",
+  "only_two_trace_widths_changed": true,
+  "all_other_pcb_text_unchanged": true,
+  "schematic_and_rules_unchanged": true,
+  "recipe_matches": true,
+  "all_pad_connectivity_clusters_unchanged": true,
+  "unconnected_before": 6,
+  "unconnected_after": 6,
+  "vias": 328,
+  "measurements": [
+    {
+      "ref": "L60",
+      "pin": "3",
+      "uuid": "5340a8d0-f776-5ab2-96f7-44360d9fff51",
+      "old_width_mm": 0.3,
+      "new_width_mm": 0.65,
+      "start_mm": [
+        43.825,
+        156.665
+      ],
+      "end_mm": [
+        43.825,
+        158.5
+      ],
+      "clearance_mm": 1.15,
+      "nearest_net": "CT2_RAW",
+      "nearest_item": "L60.2"
+    },
+    {
+      "ref": "L40",
+      "pin": "3",
+      "uuid": "cf2db331-bf2f-588a-8198-e8e282cf9998",
+      "old_width_mm": 0.3,
+      "new_width_mm": 0.65,
+      "start_mm": [
+        43.825,
+        133.664999
+      ],
+      "end_mm": [
+        43.825,
+        135.5
+      ],
+      "clearance_mm": 1.15,
+      "nearest_net": "CT_RAW",
+      "nearest_item": "L40.2"
+    }
+  ],
+  "sha256": "90d5c84a8d508a2d7d1de0659fcf4b8006944eff54bbfa684129ec709d468bcd"
+}

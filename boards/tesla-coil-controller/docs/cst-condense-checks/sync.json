@@ -1,0 +1,14 @@
+{
+  "schematic": "boards/tesla-coil-controller/controller.kicad_sch",
+  "pcb": "boards/tesla-coil-controller/controller.kicad_pcb",
+  "in_sync": true,
+  "summary": {
+    "errors": 0,
+    "warnings": 0,
+    "missing_on_pcb": 0,
+    "orphaned_on_pcb": 0,
+    "net_mismatches": 0,
+    "pin_mismatches": 0
+  },
+  "issues": []
+}

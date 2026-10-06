@@ -62,3 +62,7 @@ the assembly preview. No physical prototype has been tested. See the
 
 The [workflow log](docs/plugin-workflow-log.md) records plugin testing and prior
 revisions; use the current manufacturing notes for ordering requirements.
+
+## Tesla coil controller
+
+[Acquisition-first controller development](boards/tesla-coil-controller/README.md): eight simultaneous ADC channels, module v1 carrier interface, and two routed UD2.7-derived GDT bridges. This is an unfinished development board, not a fabrication release.

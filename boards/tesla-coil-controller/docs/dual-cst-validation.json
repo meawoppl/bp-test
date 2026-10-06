@@ -1,0 +1,21 @@
+{
+  "duplicated_components": 41,
+  "independent_signal_nets": true,
+  "shared_negative_rail": "-5V_CT",
+  "adc_inputs": [
+    "CT_RAW",
+    "CT_ENVELOPE",
+    "CT2_RAW",
+    "CT2_ENVELOPE",
+    "AUX1_0_5V",
+    "AUX2_0_5V",
+    "AUX3_0_5V",
+    "AUX4_0_5V"
+  ],
+  "phase_contacts": {
+    "CT_ZERO": "J2.22 / G0",
+    "CT2_ZERO": "J2.24 / G1"
+  },
+  "fault_contact": "J2.33",
+  "routing_complete": false
+}

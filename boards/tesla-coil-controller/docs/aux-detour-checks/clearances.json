@@ -1,0 +1,20 @@
+{
+  "minimum_clearance_mm": 0.425,
+  "via_drill_body_overlap": [],
+  "items": [
+    {
+      "uuid": "48c1ee46-3575-5b50-ab7a-4f8d1892412e",
+      "net": "+12V_AUX",
+      "min_other_net_clearance_mm": 0.425,
+      "nearest_net": "GND",
+      "nearest_item": "C702.2"
+    },
+    {
+      "uuid": "6f4f0e8a-9429-5ba0-8cad-aa336bf6e1fd",
+      "net": "+12V_AUX",
+      "min_other_net_clearance_mm": 0.475203,
+      "nearest_net": "+12V_BIAS",
+      "nearest_item": "R740.1"
+    }
+  ]
+}

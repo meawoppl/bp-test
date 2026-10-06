@@ -1,0 +1,276 @@
+{
+  "status": "Focused AUX placement and probe-point change verified",
+  "portal": {
+    "project": "tesla-coil-controller",
+    "revision": "d8a863320d950e176f46",
+    "session": "bp-test-rust-events",
+    "page": "https://9d6a1d76.portal.cosmicfrontier.org/"
+  },
+  "changes": [
+    "Four identical narrow conditioning rows immediately right of J3/J8/J9/J10.",
+    "Twelve bare 1 mm probe pads: raw input, buffered output, and local ground for each channel.",
+    "Short front-copper signal path and unity feedback, with local bypass capacitors beside the op-amp supply pins.",
+    "Preserved ADC assignment: AUX1 to ADC_CH2, AUX2 to ADC_CH1, AUX3 to ADC_CH4, AUX4 to ADC_CH3.",
+    "Two output crossings use opposite copper layers; four output vias total.",
+    "Updated schematic, circuit contract, placement plan, local probe footprint, and reviewed routing recipe."
+  ],
+  "channels": [
+    {
+      "channel": 1,
+      "connector": "J3",
+      "row_y_mm": 82,
+      "probe_refs": {
+        "IN": "TP700",
+        "OUT": "TP701",
+        "GND": "TP702"
+      },
+      "adc_channel": 2
+    },
+    {
+      "channel": 2,
+      "connector": "J8",
+      "row_y_mm": 91,
+      "probe_refs": {
+        "IN": "TP710",
+        "OUT": "TP711",
+        "GND": "TP712"
+      },
+      "adc_channel": 1
+    },
+    {
+      "channel": 3,
+      "connector": "J9",
+      "row_y_mm": 100,
+      "probe_refs": {
+        "IN": "TP720",
+        "OUT": "TP721",
+        "GND": "TP722"
+      },
+      "adc_channel": 4
+    },
+    {
+      "channel": 4,
+      "connector": "J10",
+      "row_y_mm": 109,
+      "probe_refs": {
+        "IN": "TP730",
+        "OUT": "TP731",
+        "GND": "TP732"
+      },
+      "adc_channel": 3
+    }
+  ],
+  "scope_check": {
+    "added_testpoints": [
+      "TP700",
+      "TP701",
+      "TP702",
+      "TP710",
+      "TP711",
+      "TP712",
+      "TP720",
+      "TP721",
+      "TP722",
+      "TP730",
+      "TP731",
+      "TP732"
+    ],
+    "removed_components": [],
+    "moved_components": [
+      "C700",
+      "C701",
+      "C702",
+      "C703",
+      "C710",
+      "C711",
+      "C712",
+      "C713",
+      "C720",
+      "C721",
+      "C722",
+      "C723",
+      "C730",
+      "C731",
+      "C732",
+      "C733",
+      "C741",
+      "D70",
+      "D71",
+      "D72",
+      "D73",
+      "R700",
+      "R701",
+      "R710",
+      "R711",
+      "R720",
+      "R721",
+      "R730",
+      "R731",
+      "U70",
+      "U71",
+      "U72",
+      "U73"
+    ],
+    "existing_component_values_and_pin_nets_unchanged": true,
+    "project_rules_unchanged": true,
+    "board_footprints_before": 313,
+    "board_footprints_after": 325
+  },
+  "verification": {
+    "erc_violations": 0,
+    "physical_drc_violations": 0,
+    "schematic_parity_issues": 0,
+    "schematic_pcb_sync": {
+      "errors": 0,
+      "warnings": 0,
+      "missing_on_pcb": 0,
+      "orphaned_on_pcb": 0,
+      "net_mismatches": 0,
+      "pin_mismatches": 0
+    },
+    "aux_connectivity": "All raw, filtered, buffered, ADC input, and supply/ground nets checked. All 12 new probe pads connected.",
+    "feedback": "All four unity feedback loops stay on front copper.",
+    "bypass_ground_returns_checked": 22,
+    "routing_geometry": "No same-layer output crossings, off-angle owned tracks, duplicate overlapping owned segments, or vias in SMD pads.",
+    "visual_review": "PCB geometry and exported AUX schematic reviewed.",
+    "unchanged_unconnected_items": [
+      {
+        "description": "Missing connection between items",
+        "items": [
+          {
+            "description": "Pad 7 [USB_D+] of J1 on F.Cu",
+            "pos": {
+              "x": 104.4,
+              "y": 41.145
+            },
+            "uuid": "42f21fa8-e6cf-415b-a18b-ffea9db54ad6"
+          },
+          {
+            "description": "PTH pad 1 [USB_D+] of J5",
+            "pos": {
+              "x": 114.5,
+              "y": 34.0
+            },
+            "uuid": "c4321355-d314-4c59-8654-ceb4c406b0d2"
+          }
+        ],
+        "severity": "error",
+        "type": "unconnected_items"
+      },
+      {
+        "description": "Missing connection between items",
+        "items": [
+          {
+            "description": "Pad 8 [USB_D-] of J1 on F.Cu",
+            "pos": {
+              "x": 104.0,
+              "y": 41.145
+            },
+            "uuid": "71ed348a-8011-49cd-af98-d33276255bcd"
+          },
+          {
+            "description": "PTH pad 2 [USB_D-] of J5",
+            "pos": {
+              "x": 117.04,
+              "y": 34.0
+            },
+            "uuid": "24b30f34-5aea-4c7c-bd29-6ffad65cc7f3"
+          }
+        ],
+        "severity": "error",
+        "type": "unconnected_items"
+      }
+    ]
+  },
+  "quality_audit": {
+    "global_gate_passes": false,
+    "baseline": {
+      "errors": 303,
+      "warnings": 2411,
+      "infos": 29
+    },
+    "final": {
+      "errors": 288,
+      "warnings": 2401,
+      "infos": 23
+    },
+    "delta": {
+      "errors": -15,
+      "warnings": -10,
+      "infos": -6
+    },
+    "new_error_diagnostics": {
+      "functional_probe_labels": 12,
+      "kct_silkscreen_geometry_false_positives": 11
+    },
+    "assessment": [
+      "IN/OUT/GND are intentional functional probe legends, retained for probe identification; the generic explanatory-text rule reports them.",
+      "The eleven new kct silkscreen overlap reports disagree with actual KiCad geometry. Native KiCad physical DRC reports no violations. No suppressions were added.",
+      "The kct bypass heuristic compares capacitors against many unrelated pins on a common supply net. Dedicated U70-U73 bypass placement passes the local 2 mm proximity rule; unrelated baseline diagnostics remain.",
+      "The new test-point footprint uses a 0.15 mm silkscreen stroke and is excluded from BOM and assembly placement."
+    ],
+    "false_positive_examples": [
+      {
+        "claim": "IN text at (52.2,106.4) or (52.2,133.4) overlaps C732 or R401",
+        "actual_IN_positions_mm": [
+          [
+            31.8,
+            78.8
+          ],
+          [
+            31.8,
+            87.8
+          ],
+          [
+            31.8,
+            96.8
+          ],
+          [
+            31.8,
+            105.8
+          ]
+        ]
+      },
+      {
+        "claim": "D70/D71/D72 overlap gr_line e2830f64-89d6-4288-89d8-fd4d0f77435c",
+        "actual_line_endpoints_mm": [
+          [
+            20.8,
+            77
+          ],
+          [
+            20.8,
+            28
+          ]
+        ],
+        "actual_diode_positions_mm": [
+          [
+            42.8,
+            84.65
+          ],
+          [
+            42.8,
+            93.65
+          ],
+          [
+            42.8,
+            102.65
+          ]
+        ]
+      }
+    ]
+  },
+  "sha256": {
+    "baseline_pcb": "cf7a6a56b772f336e40a19349ef7e0c039f50a38c5df540b2db04c5c0ff1d45f",
+    "pcb": "af14abb68c2ccae542d75601b7accaaaa9f13a1c7f81c99d542679cba3f56736",
+    "schematic": "7a332f253e0da87c230ef7756dc28f0f6a6b66b09f9658d785f55183c26cf32c",
+    "project": "40e593eb2309fcddf3cd616a5e82b970cb97e4b268436e03b5e1288843705533",
+    "circuit_contract": "ffea59c833afbb51412f10ca654fbdd5a5b409c0b09eddda95c83332e5352bdd",
+    "routing_recipe": "025ecb6764a3594a7182d4ea2e866f156185fc9ffa383c5cdddf30bf0840e267"
+  },
+  "artifacts": {
+    "pcb_preview": "aux-connector-rows.png",
+    "connectivity": "aux-routing-audit.json",
+    "checks": "aux-connector-rows-checks/"
+  }
+}

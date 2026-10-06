@@ -1,0 +1,46 @@
+{
+  "changed_symbols": [
+    "U44",
+    "C421",
+    "C420",
+    "C422",
+    "R421",
+    "C423",
+    "#FLG004"
+  ],
+  "embedded_library_unchanged": true,
+  "other_blocks_unchanged": true,
+  "outside_geometry_items": 1983,
+  "outside_geometry_unchanged": true,
+  "before_size_mm": [
+    245.11,
+    149.86
+  ],
+  "after_size_mm": [
+    189.23,
+    92.71000000000001
+  ],
+  "width_reduction_percent": 22.8,
+  "height_reduction_percent": 38.14,
+  "area_reduction_percent": 52.24,
+  "flag_wire_endpoint_mm": [
+    1129.03,
+    668.02
+  ],
+  "connected_by_wire": {
+    "R421.2": [
+      1082.04,
+      668.02
+    ],
+    "C423.1": [
+      1109.98,
+      678.18
+    ]
+  },
+  "unchanged_file_sha256": {
+    "controller.kicad_pcb": "f744fc20eb0d7c93238b2c800618ae538440c4d4ec278f4db8319300e8aaeb7a",
+    "controller.kicad_pro": "40e593eb2309fcddf3cd616a5e82b970cb97e4b268436e03b5e1288843705533",
+    "docs/circuit.json": "ed36087142e41e036e3cd3aeac827c1573022b393665d32af100777da160703d",
+    "Tesla.kicad_sym": "bdd05e58a1616ab46661e705ec35db607cadd9e5b52eb7d17075296a7082c1fb"
+  }
+}

@@ -1,0 +1,675 @@
+{
+  "quality_passed": false,
+  "added_error_diagnostics": 28,
+  "verified_coordinate_mismatch_false_positives": 28,
+  "cause": "KCT PCB._detect_board_origin subtracts Edge.Cuts origin (20.4,27.6) from footprint/copper coordinates but leaves board-level graphics in sheet coordinates. Silk rules compare these coordinate spaces directly. The wrapper re-adds the origin to the report locations. These are not actual border-to-CST collisions.",
+  "parser_evidence": {
+    "detected_board_origin_mm": [
+      20.4,
+      27.6
+    ],
+    "example_footprints": [
+      {
+        "ref": "C612",
+        "parser_position_mm": [
+          83.6,
+          117.4
+        ]
+      },
+      {
+        "ref": "R600",
+        "parser_position_mm": [
+          28.6,
+          118.4
+        ]
+      }
+    ],
+    "graphics": [
+      {
+        "uuid": "76cb42e0-9e4c-51f7-9ab4-a6bb43518a11",
+        "parser_start_mm": [
+          20.8,
+          120.0
+        ],
+        "parser_end_mm": [
+          114.0,
+          120.0
+        ]
+      },
+      {
+        "uuid": "7439f64b-8a5d-41f8-be4f-e79633af3255",
+        "parser_start_mm": [
+          114.0,
+          118.0
+        ],
+        "parser_end_mm": [
+          73.0,
+          118.0
+        ]
+      }
+    ]
+  },
+  "native_geometry_method": "Read the final board with pcbnew. For every new silk error, measure the identified board line against the native pad bounding rectangle expanded by 0.15 mm, or the identified native footprint silk stroke. All measured gaps exceed the 0.15 mm rule without relocating borders or changing rule thresholds.",
+  "minimum_verified_clearance_mm": 24.1,
+  "measurements": [
+    {
+      "rule": "silk_pad_clearance",
+      "items": "board line, C612-1 on F.SilkS",
+      "board_line_uuid": "7439f64b-8a5d-41f8-be4f-e79633af3255",
+      "reported_location_mm": [
+        134.4,
+        145.6
+      ],
+      "actual_line_start_mm": [
+        114.0,
+        118.0
+      ],
+      "actual_line_end_mm": [
+        73.0,
+        118.0
+      ],
+      "pad_center_mm": [
+        103.05,
+        145.0
+      ],
+      "conservative_actual_clearance_mm": 26.05
+    },
+    {
+      "rule": "silk_pad_clearance",
+      "items": "board line, C612-2 on F.SilkS",
+      "board_line_uuid": "7439f64b-8a5d-41f8-be4f-e79633af3255",
+      "reported_location_mm": [
+        134.4,
+        145.6
+      ],
+      "actual_line_start_mm": [
+        114.0,
+        118.0
+      ],
+      "actual_line_end_mm": [
+        73.0,
+        118.0
+      ],
+      "pad_center_mm": [
+        104.95,
+        145.0
+      ],
+      "conservative_actual_clearance_mm": 26.05
+    },
+    {
+      "rule": "silk_pad_clearance",
+      "items": "board line, L60-2 on F.SilkS",
+      "board_line_uuid": "76cb42e0-9e4c-51f7-9ab4-a6bb43518a11",
+      "reported_location_mm": [
+        41.2,
+        147.6
+      ],
+      "actual_line_start_mm": [
+        20.8,
+        120.0
+      ],
+      "actual_line_end_mm": [
+        114.0,
+        120.0
+      ],
+      "pad_center_mm": [
+        43.825,
+        148.414999
+      ],
+      "conservative_actual_clearance_mm": 27.415
+    },
+    {
+      "rule": "silk_pad_clearance",
+      "items": "board line, R600-1 on F.SilkS",
+      "board_line_uuid": "76cb42e0-9e4c-51f7-9ab4-a6bb43518a11",
+      "reported_location_mm": [
+        41.2,
+        147.6
+      ],
+      "actual_line_start_mm": [
+        20.8,
+        120.0
+      ],
+      "actual_line_end_mm": [
+        114.0,
+        120.0
+      ],
+      "pad_center_mm": [
+        46.0375,
+        146.0
+      ],
+      "conservative_actual_clearance_mm": 24.1
+    },
+    {
+      "rule": "silk_pad_clearance",
+      "items": "board line, R600-2 on F.SilkS",
+      "board_line_uuid": "76cb42e0-9e4c-51f7-9ab4-a6bb43518a11",
+      "reported_location_mm": [
+        41.2,
+        147.6
+      ],
+      "actual_line_start_mm": [
+        20.8,
+        120.0
+      ],
+      "actual_line_end_mm": [
+        114.0,
+        120.0
+      ],
+      "pad_center_mm": [
+        51.9625,
+        146.0
+      ],
+      "conservative_actual_clearance_mm": 24.1
+    },
+    {
+      "rule": "silk_pad_clearance",
+      "items": "board line, R602-1 on F.SilkS",
+      "board_line_uuid": "76cb42e0-9e4c-51f7-9ab4-a6bb43518a11",
+      "reported_location_mm": [
+        41.2,
+        147.6
+      ],
+      "actual_line_start_mm": [
+        20.8,
+        120.0
+      ],
+      "actual_line_end_mm": [
+        114.0,
+        120.0
+      ],
+      "pad_center_mm": [
+        55.5875,
+        148.05
+      ],
+      "conservative_actual_clearance_mm": 27.125
+    },
+    {
+      "rule": "silk_pad_clearance",
+      "items": "board line, R602-2 on F.SilkS",
+      "board_line_uuid": "76cb42e0-9e4c-51f7-9ab4-a6bb43518a11",
+      "reported_location_mm": [
+        41.2,
+        147.6
+      ],
+      "actual_line_start_mm": [
+        20.8,
+        120.0
+      ],
+      "actual_line_end_mm": [
+        114.0,
+        120.0
+      ],
+      "pad_center_mm": [
+        57.4125,
+        148.05
+      ],
+      "conservative_actual_clearance_mm": 27.125
+    },
+    {
+      "rule": "silk_pad_clearance",
+      "items": "board line, R611-1 on F.SilkS",
+      "board_line_uuid": "7439f64b-8a5d-41f8-be4f-e79633af3255",
+      "reported_location_mm": [
+        134.4,
+        145.6
+      ],
+      "actual_line_start_mm": [
+        114.0,
+        118.0
+      ],
+      "actual_line_end_mm": [
+        73.0,
+        118.0
+      ],
+      "pad_center_mm": [
+        97.0,
+        145.0875
+      ],
+      "conservative_actual_clearance_mm": 26.35
+    },
+    {
+      "rule": "silk_pad_clearance",
+      "items": "board line, D63-2 on F.SilkS",
+      "board_line_uuid": "76cb42e0-9e4c-51f7-9ab4-a6bb43518a11",
+      "reported_location_mm": [
+        41.2,
+        147.6
+      ],
+      "actual_line_start_mm": [
+        20.8,
+        120.0
+      ],
+      "actual_line_end_mm": [
+        114.0,
+        120.0
+      ],
+      "pad_center_mm": [
+        100.9375,
+        148.05
+      ],
+      "conservative_actual_clearance_mm": 27.525
+    },
+    {
+      "rule": "silk_pad_clearance",
+      "items": "board line, U60-3 on F.SilkS",
+      "board_line_uuid": "76cb42e0-9e4c-51f7-9ab4-a6bb43518a11",
+      "reported_location_mm": [
+        41.2,
+        147.6
+      ],
+      "actual_line_start_mm": [
+        20.8,
+        120.0
+      ],
+      "actual_line_end_mm": [
+        114.0,
+        120.0
+      ],
+      "pad_center_mm": [
+        62.1375,
+        148.05
+      ],
+      "conservative_actual_clearance_mm": 27.525
+    },
+    {
+      "rule": "silk_pad_clearance",
+      "items": "board line, U60-4 on F.SilkS",
+      "board_line_uuid": "76cb42e0-9e4c-51f7-9ab4-a6bb43518a11",
+      "reported_location_mm": [
+        41.2,
+        147.6
+      ],
+      "actual_line_start_mm": [
+        20.8,
+        120.0
+      ],
+      "actual_line_end_mm": [
+        114.0,
+        120.0
+      ],
+      "pad_center_mm": [
+        59.8625,
+        148.05
+      ],
+      "conservative_actual_clearance_mm": 27.525
+    },
+    {
+      "rule": "silk_pad_clearance",
+      "items": "board line, U61-3 on F.SilkS",
+      "board_line_uuid": "76cb42e0-9e4c-51f7-9ab4-a6bb43518a11",
+      "reported_location_mm": [
+        41.2,
+        147.6
+      ],
+      "actual_line_start_mm": [
+        20.8,
+        120.0
+      ],
+      "actual_line_end_mm": [
+        114.0,
+        120.0
+      ],
+      "pad_center_mm": [
+        78.1375,
+        148.05
+      ],
+      "conservative_actual_clearance_mm": 27.525
+    },
+    {
+      "rule": "silk_pad_clearance",
+      "items": "board line, U61-4 on F.SilkS",
+      "board_line_uuid": "76cb42e0-9e4c-51f7-9ab4-a6bb43518a11",
+      "reported_location_mm": [
+        41.2,
+        147.6
+      ],
+      "actual_line_start_mm": [
+        20.8,
+        120.0
+      ],
+      "actual_line_end_mm": [
+        114.0,
+        120.0
+      ],
+      "pad_center_mm": [
+        75.8625,
+        148.05
+      ],
+      "conservative_actual_clearance_mm": 27.525
+    },
+    {
+      "rule": "silk_pad_clearance",
+      "items": "board line, U62-1 on F.SilkS",
+      "board_line_uuid": "76cb42e0-9e4c-51f7-9ab4-a6bb43518a11",
+      "reported_location_mm": [
+        41.2,
+        147.6
+      ],
+      "actual_line_start_mm": [
+        20.8,
+        120.0
+      ],
+      "actual_line_end_mm": [
+        114.0,
+        120.0
+      ],
+      "pad_center_mm": [
+        103.8625,
+        148.05
+      ],
+      "conservative_actual_clearance_mm": 27.525
+    },
+    {
+      "rule": "silk_pad_clearance",
+      "items": "board line, U62-6 on F.SilkS",
+      "board_line_uuid": "76cb42e0-9e4c-51f7-9ab4-a6bb43518a11",
+      "reported_location_mm": [
+        41.2,
+        147.6
+      ],
+      "actual_line_start_mm": [
+        20.8,
+        120.0
+      ],
+      "actual_line_end_mm": [
+        114.0,
+        120.0
+      ],
+      "pad_center_mm": [
+        106.1375,
+        148.05
+      ],
+      "conservative_actual_clearance_mm": 27.525
+    },
+    {
+      "rule": "silk_pad_clearance",
+      "items": "board line, R611-2 on F.SilkS",
+      "board_line_uuid": "76cb42e0-9e4c-51f7-9ab4-a6bb43518a11",
+      "reported_location_mm": [
+        41.2,
+        147.6
+      ],
+      "actual_line_start_mm": [
+        20.8,
+        120.0
+      ],
+      "actual_line_end_mm": [
+        114.0,
+        120.0
+      ],
+      "pad_center_mm": [
+        97.0,
+        146.9125
+      ],
+      "conservative_actual_clearance_mm": 26.175
+    },
+    {
+      "rule": "silk_pad_clearance",
+      "items": "board line, R616-1 on F.SilkS",
+      "board_line_uuid": "7439f64b-8a5d-41f8-be4f-e79633af3255",
+      "reported_location_mm": [
+        134.4,
+        145.6
+      ],
+      "actual_line_start_mm": [
+        114.0,
+        118.0
+      ],
+      "actual_line_end_mm": [
+        73.0,
+        118.0
+      ],
+      "pad_center_mm": [
+        108.0875,
+        146.5
+      ],
+      "conservative_actual_clearance_mm": 27.575
+    },
+    {
+      "rule": "silk_pad_clearance",
+      "items": "board line, R616-2 on F.SilkS",
+      "board_line_uuid": "7439f64b-8a5d-41f8-be4f-e79633af3255",
+      "reported_location_mm": [
+        134.4,
+        145.6
+      ],
+      "actual_line_start_mm": [
+        114.0,
+        118.0
+      ],
+      "actual_line_end_mm": [
+        73.0,
+        118.0
+      ],
+      "pad_center_mm": [
+        109.9125,
+        146.5
+      ],
+      "conservative_actual_clearance_mm": 27.575
+    },
+    {
+      "rule": "silk_overlap",
+      "items": "R600 (fp_line) {9f253755-3c69-41ed-a1ce-ff667b563a5e}, gr_line {76cb42e0-9e4c-51f7-9ab4-a6bb43518a11} on F.SilkS",
+      "board_line_uuid": "76cb42e0-9e4c-51f7-9ab4-a6bb43518a11",
+      "actual_line_start_mm": [
+        20.8,
+        120.0
+      ],
+      "actual_line_end_mm": [
+        114.0,
+        120.0
+      ],
+      "conservative_actual_clearance_mm": 27.575
+    },
+    {
+      "rule": "silk_over_copper",
+      "items": "gr_line, C612 pad 1 on F.SilkS",
+      "board_line_uuid": "7439f64b-8a5d-41f8-be4f-e79633af3255",
+      "reported_location_mm": [
+        134.4,
+        145.6
+      ],
+      "actual_line_start_mm": [
+        114.0,
+        118.0
+      ],
+      "actual_line_end_mm": [
+        73.0,
+        118.0
+      ],
+      "pad_center_mm": [
+        103.05,
+        145.0
+      ],
+      "conservative_actual_clearance_mm": 26.05
+    },
+    {
+      "rule": "silk_over_copper",
+      "items": "gr_line, C612 pad 2 on F.SilkS",
+      "board_line_uuid": "7439f64b-8a5d-41f8-be4f-e79633af3255",
+      "reported_location_mm": [
+        134.4,
+        145.6
+      ],
+      "actual_line_start_mm": [
+        114.0,
+        118.0
+      ],
+      "actual_line_end_mm": [
+        73.0,
+        118.0
+      ],
+      "pad_center_mm": [
+        104.95,
+        145.0
+      ],
+      "conservative_actual_clearance_mm": 26.05
+    },
+    {
+      "rule": "silk_over_copper",
+      "items": "gr_line, L60 pad 2 on F.SilkS",
+      "board_line_uuid": "76cb42e0-9e4c-51f7-9ab4-a6bb43518a11",
+      "reported_location_mm": [
+        41.2,
+        147.6
+      ],
+      "actual_line_start_mm": [
+        20.8,
+        120.0
+      ],
+      "actual_line_end_mm": [
+        114.0,
+        120.0
+      ],
+      "pad_center_mm": [
+        43.825,
+        148.414999
+      ],
+      "conservative_actual_clearance_mm": 27.415
+    },
+    {
+      "rule": "silk_over_copper",
+      "items": "gr_line, R600 pad 1 on F.SilkS",
+      "board_line_uuid": "76cb42e0-9e4c-51f7-9ab4-a6bb43518a11",
+      "reported_location_mm": [
+        41.2,
+        147.6
+      ],
+      "actual_line_start_mm": [
+        20.8,
+        120.0
+      ],
+      "actual_line_end_mm": [
+        114.0,
+        120.0
+      ],
+      "pad_center_mm": [
+        46.0375,
+        146.0
+      ],
+      "conservative_actual_clearance_mm": 24.1
+    },
+    {
+      "rule": "silk_over_copper",
+      "items": "gr_line, R600 pad 2 on F.SilkS",
+      "board_line_uuid": "76cb42e0-9e4c-51f7-9ab4-a6bb43518a11",
+      "reported_location_mm": [
+        41.2,
+        147.6
+      ],
+      "actual_line_start_mm": [
+        20.8,
+        120.0
+      ],
+      "actual_line_end_mm": [
+        114.0,
+        120.0
+      ],
+      "pad_center_mm": [
+        51.9625,
+        146.0
+      ],
+      "conservative_actual_clearance_mm": 24.1
+    },
+    {
+      "rule": "silk_over_copper",
+      "items": "gr_line, R602 pad 1 on F.SilkS",
+      "board_line_uuid": "76cb42e0-9e4c-51f7-9ab4-a6bb43518a11",
+      "reported_location_mm": [
+        41.2,
+        147.6
+      ],
+      "actual_line_start_mm": [
+        20.8,
+        120.0
+      ],
+      "actual_line_end_mm": [
+        114.0,
+        120.0
+      ],
+      "pad_center_mm": [
+        55.5875,
+        148.05
+      ],
+      "conservative_actual_clearance_mm": 27.125
+    },
+    {
+      "rule": "silk_over_copper",
+      "items": "gr_line, R602 pad 2 on F.SilkS",
+      "board_line_uuid": "76cb42e0-9e4c-51f7-9ab4-a6bb43518a11",
+      "reported_location_mm": [
+        41.2,
+        147.6
+      ],
+      "actual_line_start_mm": [
+        20.8,
+        120.0
+      ],
+      "actual_line_end_mm": [
+        114.0,
+        120.0
+      ],
+      "pad_center_mm": [
+        57.4125,
+        148.05
+      ],
+      "conservative_actual_clearance_mm": 27.125
+    },
+    {
+      "rule": "silk_over_copper",
+      "items": "gr_line, R611 pad 1 on F.SilkS",
+      "board_line_uuid": "7439f64b-8a5d-41f8-be4f-e79633af3255",
+      "reported_location_mm": [
+        134.4,
+        145.6
+      ],
+      "actual_line_start_mm": [
+        114.0,
+        118.0
+      ],
+      "actual_line_end_mm": [
+        73.0,
+        118.0
+      ],
+      "pad_center_mm": [
+        97.0,
+        145.0875
+      ],
+      "conservative_actual_clearance_mm": 26.35
+    },
+    {
+      "rule": "silk_over_copper",
+      "items": "gr_line, R611 pad 2 on F.SilkS",
+      "board_line_uuid": "76cb42e0-9e4c-51f7-9ab4-a6bb43518a11",
+      "reported_location_mm": [
+        41.2,
+        147.6
+      ],
+      "actual_line_start_mm": [
+        20.8,
+        120.0
+      ],
+      "actual_line_end_mm": [
+        114.0,
+        120.0
+      ],
+      "pad_center_mm": [
+        97.0,
+        146.9125
+      ],
+      "conservative_actual_clearance_mm": 26.175
+    }
+  ],
+  "warning_delta_assessment": [
+    "C613 off-grid warning is unchanged except for translated coordinates; its footprint pad pitch is unchanged.",
+    "U62.1 midpoint-decoupler distance improves from 3.24 to 3.16 mm and matches U42; it is the same existing warning. All eight amplifier supply bypasses remain aligned and within 2 mm.",
+    "Bypass-capacitor distance diagnostics change for the existing component pairs as the row moves. Their warning count decreases by one; one corresponding informational diagnostic is added.",
+    "The trace optimizer remains advisory: it still proposes removal of 31 segments."
+  ],
+  "baseline_errors": 288,
+  "after_errors": 302,
+  "baseline_warnings": 2401,
+  "after_warnings": 2400,
+  "no_quality_rules_or_thresholds_changed": true
+}

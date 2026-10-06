@@ -1,0 +1,294 @@
+{
+  "annotation_created_at": "2026-09-30T18:44:41.307Z",
+  "source_revision": "7f950fdc4e6d7c96dfa8",
+  "midpoint_pads": [
+    "J4.2",
+    "J30.1"
+  ],
+  "midpoint_length_mm": 6.92,
+  "midpoint_width_mm": 2.5,
+  "midpoint_layer": "F.Cu",
+  "exactly_two_pad_nets_changed": true,
+  "all_other_net_memberships_identical": true,
+  "all_placements_identical": true,
+  "all_unrelated_copper_identical": true,
+  "all_other_component_contracts_identical": true,
+  "project_rules_identical": true,
+  "uvlo_R304_remains_on_24V": true,
+  "recipe_matches_board": true,
+  "copper_removed": [
+    {
+      "uuid": "03d4cd7e-9bb7-5519-99e9-164bf0a1b2d1",
+      "net": "VBAT_24V",
+      "start_nm": [
+        31000000,
+        51000000
+      ],
+      "end_nm": [
+        36000000,
+        46000000
+      ],
+      "layer": "F.Cu",
+      "kind": "track",
+      "width_nm": 2500000
+    },
+    {
+      "uuid": "928299e6-3ea4-53d7-aff2-6760748e61cc",
+      "net": "VBAT_24V",
+      "start_nm": [
+        27500000,
+        51000000
+      ],
+      "end_nm": [
+        23300000,
+        55200000
+      ],
+      "layer": "F.Cu",
+      "kind": "track",
+      "width_nm": 400000
+    },
+    {
+      "uuid": "cf732e20-5100-5f24-bb8a-6c389c1015af",
+      "net": "VBAT_24V",
+      "start_nm": [
+        27500000,
+        51000000
+      ],
+      "end_nm": [
+        31000000,
+        51000000
+      ],
+      "layer": "F.Cu",
+      "kind": "track",
+      "width_nm": 2500000
+    }
+  ],
+  "copper_added": [
+    {
+      "uuid": "182579ad-f2a5-538a-a805-98e04a3a1cfc",
+      "net": "VBAT_24V",
+      "start_nm": [
+        29000000,
+        53000000
+      ],
+      "end_nm": [
+        25500000,
+        53000000
+      ],
+      "layer": "F.Cu",
+      "kind": "track",
+      "width_nm": 400000
+    },
+    {
+      "uuid": "d48cf14c-d092-5a8c-a8c9-9691daaebbe5",
+      "net": "VBAT_24V",
+      "start_nm": [
+        25500000,
+        53000000
+      ],
+      "end_nm": [
+        23300000,
+        55200000
+      ],
+      "layer": "F.Cu",
+      "kind": "track",
+      "width_nm": 400000
+    },
+    {
+      "uuid": "f6c2c3a1-0676-52dd-bdb6-c92d86d9d6bb",
+      "net": "VBAT_24V",
+      "start_nm": [
+        36000000,
+        46000000
+      ],
+      "end_nm": [
+        29000000,
+        53000000
+      ],
+      "layer": "F.Cu",
+      "kind": "track",
+      "width_nm": 400000
+    },
+    {
+      "uuid": "b2bd19e9-e16a-56d0-9eea-0d085b833da5",
+      "net": "BAT_MID_12V",
+      "start_nm": [
+        27500000,
+        44080000
+      ],
+      "end_nm": [
+        27500000,
+        51000000
+      ],
+      "layer": "F.Cu",
+      "kind": "track",
+      "width_nm": 2500000
+    }
+  ],
+  "erc_violations": 0,
+  "drc_violations": 0,
+  "unconnected_items": 0,
+  "schematic_parity_issues": 0,
+  "schematic_in_sync": true,
+  "quality": {
+    "by_rule": {
+      "decoupling_distance": {
+        "count": 25,
+        "profile_item": "decoupling.max_pin_distance_mm",
+        "severity": "warning",
+        "source": "plugin"
+      },
+      "mistake.bom_health.component_missing_manufacturer_part_number": {
+        "count": 206,
+        "profile_item": null,
+        "severity": "warning",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.bypass_capacitor.bypass_capacitor_placement_could_be_improved": {
+        "count": 19,
+        "profile_item": "decoupling.max_pin_distance_mm",
+        "severity": "info",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.bypass_capacitor.bypass_capacitor_too_far_from_power_pin": {
+        "count": 1057,
+        "profile_item": "decoupling.max_pin_distance_mm",
+        "severity": "warning",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.connectivity.led_missing_series_resistor": {
+        "count": 4,
+        "profile_item": null,
+        "severity": "warning",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.connectivity.missing_pull_up_resistor": {
+        "count": 1,
+        "profile_item": null,
+        "severity": "warning",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.differential_pair.differential_pair_length_matching_could_be_improved": {
+        "count": 1,
+        "profile_item": null,
+        "severity": "info",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.manufacturability.acute_angle_in_trace_acid_trap": {
+        "count": 11,
+        "profile_item": null,
+        "severity": "warning",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.manufacturability.thermal_imbalance_may_cause_tombstoning": {
+        "count": 102,
+        "profile_item": null,
+        "severity": "warning",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.power_trace.power_trace_too_narrow": {
+        "count": 11,
+        "profile_item": null,
+        "severity": "warning",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.thermal_management.thermal_pad_may_need_more_vias": {
+        "count": 2,
+        "profile_item": null,
+        "severity": "info",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.thermal_management.thermal_pad_not_connected_to_ground": {
+        "count": 8,
+        "profile_item": null,
+        "severity": "warning",
+        "source": "kct detect-mistakes"
+      },
+      "mistake.via_placement.via_in_smd_pad": {
+        "count": 4,
+        "profile_item": "vias.in_pad",
+        "severity": "error",
+        "source": "kct detect-mistakes"
+      },
+      "optimize_traces.mergeable_segments": {
+        "count": 1,
+        "profile_item": null,
+        "severity": "info",
+        "source": "kct optimize-traces"
+      },
+      "pad_grid": {
+        "count": 3,
+        "profile_item": null,
+        "severity": "warning",
+        "source": "kct check"
+      },
+      "silk_edge_clearance": {
+        "count": 6,
+        "profile_item": null,
+        "severity": "warning",
+        "source": "kct check"
+      },
+      "silk_explanatory_text": {
+        "count": 30,
+        "profile_item": "silkscreen.explanatory_text",
+        "severity": "error",
+        "source": "plugin"
+      },
+      "silk_over_copper": {
+        "count": 68,
+        "profile_item": "silkscreen.over_vias_or_pads",
+        "severity": "error",
+        "source": "kct check"
+      },
+      "silk_overlap": {
+        "count": 143,
+        "profile_item": "silkscreen.over_vias_or_pads",
+        "severity": "error",
+        "source": "kct check"
+      },
+      "silk_pad_clearance": {
+        "count": 57,
+        "profile_item": null,
+        "severity": "error",
+        "source": "kct check"
+      },
+      "silk_text_below_min": {
+        "count": 17,
+        "profile_item": "silkscreen.text_height_mm",
+        "severity": "warning",
+        "source": "plugin"
+      },
+      "silkscreen_line_width": {
+        "count": 926,
+        "profile_item": null,
+        "severity": "warning",
+        "source": "kct check"
+      },
+      "silkscreen_text_height": {
+        "count": 17,
+        "profile_item": "silkscreen.text_height_mm",
+        "severity": "warning",
+        "source": "kct check"
+      }
+    },
+    "errors": 302,
+    "infos": 23,
+    "suppressed": 0,
+    "warnings": 2394
+  },
+  "quality_new_errors": 0,
+  "quality_existing_warnings_renamed": [
+    "J4",
+    "J30"
+  ],
+  "quality_warning_count_change": -6,
+  "visual_review": [
+    "Final battery schematic block",
+    "Native PCB copper: J4/J30 midpoint and R304 supply feed"
+  ],
+  "sha256": {
+    "controller.kicad_sch": "f0b95d9ec020fee5d86e21d65bdfaa05a228a78f408c7d500f1871ccd189bba6",
+    "controller.kicad_pcb": "f744fc20eb0d7c93238b2c800618ae538440c4d4ec278f4db8319300e8aaeb7a",
+    "controller.kicad_pro": "40e593eb2309fcddf3cd616a5e82b970cb97e4b268436e03b5e1288843705533"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "model": "Two equal synchronized current pulses; 0.8uF equivalent per GDT at nominal load; 24 reversals at 60kHz. Source 50mOhm; each PCB feed 20mOhm/0.2uH. Linear effective capacitance and lumped ESR.",
+  "limitations": "Sensitivity only. No measured MLCC bias/aging guarantee, nonlinear IGBT/Miller load, core, TVS, hot-plug contact bounce, MLCC ESL, regulator input impedance or layout. Burst RMS is not continuous thermal qualification. No claim of 470uF equivalence.",
+  "cases": [
+    {
+      "case": "Former 470uF cans",
+      "bank_effective_uF": 470.0,
+      "assumed_bank_esr_ohm": 0.073,
+      "lead_uH": 1.0,
+      "battery_V": 24,
+      "pulse_A": 20.0,
+      "charge_per_edge_uC": 38.4,
+      "bridge_min_V": 22.4088523,
+      "bridge_max_V": 24.3426062,
+      "bank_ripple_Arms_during_burst": 5.42611039927916
+    },
+    {
+      "case": "8 ceramics, 12uF each",
+      "bank_effective_uF": 96.0,
+      "assumed_bank_esr_ohm": 0.005,
+      "lead_uH": 1.0,
+      "battery_V": 24,
+      "pulse_A": 20.0,
+      "charge_per_edge_uC": 38.4,
+      "bridge_min_V": 23.3061894,
+      "bridge_max_V": 24.0997768,
+      "bank_ripple_Arms_during_burst": 6.484370041543183
+    },
+    {
+      "case": "8 ceramics, 4uF each",
+      "bank_effective_uF": 32.0,
+      "assumed_bank_esr_ohm": 0.005,
+      "lead_uH": 1.0,
+      "battery_V": 24,
+      "pulse_A": 20.0,
+      "charge_per_edge_uC": 38.4,
+      "bridge_min_V": 22.7140917,
+      "bridge_max_V": 24.3607148,
+      "bank_ripple_Arms_during_burst": 7.330155566999792
+    },
+    {
+      "case": "Stress: 4uF each, 2x load, 5uH leads",
+      "bank_effective_uF": 32.0,
+      "assumed_bank_esr_ohm": 0.005,
+      "lead_uH": 5.0,
+      "battery_V": 30,
+      "pulse_A": 50.0,
+      "charge_per_edge_uC": 96.0,
+      "bridge_min_V": 25.279358,
+      "bridge_max_V": 32.092872,
+      "bank_ripple_Arms_during_burst": 18.345681092652676
+    }
+  ],
+  "unclamped_hotplug_30V_5uH_estimated_peak_V": 51.220538547285
+}

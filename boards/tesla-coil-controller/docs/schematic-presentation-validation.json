@@ -1,0 +1,16 @@
+{
+  "scope": "2026-09-28 independent GDT commands and CT cable filtering",
+  "netlist_matches_circuit_contract": true,
+  "erc_violations": 0,
+  "schematic_parity": 0,
+  "visual_review": [
+    "Control AND gate and command resistors",
+    "Both driver/bootstrap/MOSFET stages",
+    "DC-block/damping/primary connectors",
+    "Local reservoir and bypass groups",
+    "Two independent arm qualification banks",
+    "CST choke winding polarity and cable/burden filter capacitors"
+  ],
+  "horizontal_spacing_factor": 0.75,
+  "additional_cst_chain_factor": 0.7
+}

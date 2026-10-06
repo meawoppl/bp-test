@@ -1,0 +1,67 @@
+Portal D42 placement — 2026-09-30
+Annotation: 2026-09-30T06:18:50.036Z — We moved the diode on the other CST stack, but missed moving this one
+Source revision: 699238caec4beb0b5994
+Saved Portal revision: 874058f434e78337a986
+
+Moved D42 from (65,137) to (65,124.5) mm, above D41, matching the D62/D61
+arrangement. The 2.5 mm pitch leaves clearance to the relocated C420;
+copying D62's 3 mm pitch exactly would overlap C420's courtyard.
+D42 remains at 180 degrees: pin 1/cathode CT_RECT_DRIVE on the right,
+pin 2/anode CT_HALF on the left. Component, footprint and 3D model retained.
+Local -5 V and CST border lines were adjusted around the footprint.
+
+Both affected nets now use 0.25 mm F.Cu tracks only. Removed four vias
+(whole board: 332 -> 328), with no vias added. CT_RECT_DRIVE length is
+17.9566 -> 15.1687 mm; CT_HALF is 40.7392 -> 30.5528 mm, a combined
+12.9743 mm reduction. Twenty tracks replace twenty-two tracks/four vias.
+
+Native ERC: 0. Physical DRC: 0. Schematic parity: 0.
+Six pre-existing unconnected items remain: USB_D+, USB_D-, ESP_EN,
+ESP_GPIO0_BOOT, SUPPLY_MON and FAULT_STATUS. All pad-connectivity clusters
+match the baseline. D42 is the only moved footprint; all unrelated copper,
+pads, schematic and rules are unchanged. The recipe replay produced the
+candidate, and saved placement/circuit metadata match the final geometry.
+New copper's minimum other-net clearance is 0.30 mm excluding filled zones;
+native DRC checked the saved, filled board. No new collinear overlaps,
+via/pad overlaps or off-angle tracks were found.
+
+Visual review used saved-board before/after plots, including centered pad
+exits, bends outside pads, no stubs, retained widths, cathode orientation,
+and local silk clearance. No live Workbench tab, new 3D render, or assembly
+preview was reviewed for this edit. Diode model and transform are unchanged
+apart from the parent footprint translation.
+
+Plugin quality: 304 errors, 2422 warnings, 29 infos, zero suppressed.
+The three additional errors are kct silk-overlap false positives against
+moved region borders. Actual native-geometry separations are 29.0559,
+31.1709 and 30.8034 mm; the detector offsets board graphics by the
+(20.4,27.6) mm board origin while footprint graphics remain absolute.
+The full delta and coordinates are in d42-placement-quality-delta.json.
+Other changed entries are moved border-junction reports, D42's three
+unchanged 0.12 mm library silk-width warnings at its new position, and the
+optimizer aggregate. Existing categories and dispositions are recorded in
+command-adc-quality-triage.md. This is not a full-board quality waiver.
+
+Tooling: plugin doctor; KiCad 10.0.6; kct 0.21.1. Queried kct pcb footprints
+and used kct pcb move-footprint on the isolated copy. Its endpoint-drag
+operation cannot reproduce the reviewed counterpart's exact copper, so the
+existing tesla_route_reviewed.py recipe handled routing. Final spacing was
+set in that recipe. Local silkscreen lines were patched directly and their
+positions persisted in the placement plan's existing open_top/outline_points
+format. Custom read-only audits compared all connectivity clusters and
+unchanged copper, and measured geometric clearance and overlap. The plugin
+quality stage ran kct check, detect-mistakes and optimize-traces dry-run.
+Native check_tesla_draft.py regenerated ERC/DRC/parity reports.
+
+Changed categories:
+- PCB: controller.kicad_pcb; D42, its two nets, local silk borders and zone fill.
+- Replay metadata: tesla_reviewed_routing.json, tesla_placement.json,
+  docs/circuit.json and docs/floorplan-regions.json.
+- Docs/checks: placement previews, verification, quality/delta, routing notes,
+  validation.json, native ERC/DRC reports and refreshed schematic PDF.
+- Schematic source, project rules and libraries: unchanged.
+- Fabrication Gerbers/BOM/CPL/STEP: not published; board remains a routing draft.
+  Full-board routing, procurement/footprint/model checks and assembly rotation
+  review remain required for a fabrication release.
+
+Only this diode annotation was handled.

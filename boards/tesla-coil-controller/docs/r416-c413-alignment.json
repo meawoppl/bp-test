@@ -1,0 +1,39 @@
+{
+  "changed_footprints": [
+    "R416"
+  ],
+  "aligned_x_mm": 109,
+  "center_spacing_y_mm": 3.45,
+  "changed_tracks": [
+    "f47650f1-832c-50d8-998a-0fb36ddfa349",
+    "86408131-cc9d-592d-a291-23bb55cdafd7"
+  ],
+  "added_tracks": [
+    "9ad7e978-0314-556d-885e-4d2d5abb0358"
+  ],
+  "removed_tracks": [],
+  "vias_changed": 0,
+  "native_verified_connections": [
+    "U42.5 -> R416.1",
+    "R416.2 -> J2.22",
+    "U42.4 -> C413.1"
+  ],
+  "whole_board_unconnected": 25,
+  "pcb_sha256": "e8f42bcc90a6c78b22c9632dd80f780222301f7d45837e52f11bc8dd0ba8cfe0",
+  "project_rules_preserved": true,
+  "native_checks": {
+    "erc": 0,
+    "physical_drc": 0,
+    "schematic_parity": 0,
+    "unconnected_items": 25
+  },
+  "quality": {
+    "error": 308,
+    "warning": 2425,
+    "info": 26,
+    "rule_count_changes": {},
+    "disposition": "Existing whole-board backlog; see command-adc-quality-triage.md."
+  },
+  "visual_review": "Local front/back copper plot: aligned centers, centered pad exits, 45-degree bends, no tails, preserved decoupling return; no vias added.",
+  "fabrication_outputs": "Not published: remaining board routing incomplete."
+}

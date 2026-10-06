@@ -1,0 +1,62 @@
+2026-10-01 — Portal item 2026-10-01T16:44:33.969Z
+Input revision: 81f1cb4b3f52d362968d
+
+The +12V_BIAS trunk now runs horizontally at y=74.7 mm, from x=50.5
+to the x=116 mm power spine. Its 0.8 mm width is retained. The small
+left chamfer remains; the right-hand dogleg is removed. A transition
+at x=96.5 mm puts the connector crossing on B.Cu. This leaves the ADC
+fanout on F.Cu and preserves the existing front crossing of VIN_5V.
+The AUX supply branch follows the relocated trunk.
+
+All ten ADC fanout vias just below J2 are removed. SDI and DOUT_A/B/C/D
+now stay entirely on F.Cu, removing their five additional return vias
+near U1. CONVST/RESET/SCLK/CS_N/BUSY keep their required B.Cu portions
+near the ADC, with staggered transitions at y=84.4/85.2 mm. The two
+CT_ZERO signals cross this fanout on B.Cu, adding four transitions
+outside the connector body. Net reduction: six vias, 352 to 346.
+Signal exits from the connector are centered, straight, and 0.2 mm wide.
+
+New signal vias are 0.50/0.25 mm diameter/drill: this board's minimums
+take precedence over the playbook's preferred 0.45/0.20 mm. The power
+transition retains the existing 0.60/0.30 mm size.
+
+Validation:
+- Native KiCad ERC: zero violations.
+- Native KiCad DRC: zero violations, schematic parity issues, or unrouted
+  items under the existing board settings. Existing ignored rules are
+  recorded in the DRC JSON; none were changed for this edit.
+- kct schematic/PCB sync: zero errors or warnings.
+- Native pad connectivity groups identical before/after, all connected.
+- All footprints, pad assignments, board drawings, schematic, project
+  rules, symbol library, and circuit description unchanged.
+- Copper outside the explicit thirteen-net delta is unchanged.
+- Routing recipe exactly matches the saved native board copper.
+- All tracks remain octilinear. No changed collinear overlaps, via-in-pad
+  holes, package-body drill overlaps, or orphan transitions.
+- Minimum changed-copper clearance: 0.199999 mm (0.200 mm nominal).
+- Broader quality audit remains at 303 errors, 2390 warnings, 24 info.
+  No errors or warnings were added or removed. Only the aggregate
+  mergeable-segments information changed. This is not a globally clean
+  layout-quality report; pre-existing findings remain outside this item.
+
+Visual review:
+Reviewed the full power-trunk crop, J2-to-ADC detail, and separate filled
+F.Cu/B.Cu views. Confirmed straight rail, clear VIN_5V crossing, centered
+pad exits, no short width islands or tails, fewer connector transitions,
+and clear new via locations. Ground fills were regenerated; the B.Cu
+ground is open beneath the long ADC runs between the local crossings.
+The local power/CT crossings still interrupt the opposite-layer return
+plane; this edit does not constitute an impedance or signal-integrity
+qualification. Ground stitching and decoupler returns were preserved.
+No package placements, connector access, or 3D model geometry changed.
+
+Checks were run through kicad-pcb-rs drc/erc/quality --json --project
+tesla-coil-controller, and kicad-pcb-rs kct --json -- validate --sync
+controller.kicad_sch controller.kicad_pcb --format json. The installed
+kct launcher has a stale interpreter path, so KICAD_PCB_KCT pointed to
+the task-local shim using /usr/bin/python3 with its installed modules.
+No KiCad IPC instance was running. The precise reroute was applied using
+pcbnew after checking that kct optimize-traces cannot change its topology.
+
+Evidence: 12v-connector-checks/*.json and the adjacent before/after,
+detail, and filled-review PNGs. Fabrication release was not performed.

@@ -1,0 +1,40 @@
+D70-D73 clamp supply routing review — 2026-10-02
+
+Portal annotation 2026-10-02T20:16:06.189Z, source ae9c762c03e3084c14ff.
+Updated Portal revision 256f44588757c316920f.
+
+Replaced the +5V_ADC back-layer comb with one 0.35 mm straight track at
+x=45.2 mm, y=85.8–112.8 mm, joining the four existing clamp-supply vias.
+This removes 26.428427 mm of copper from the net. The adjacent -5V_CT vias
+at y=87.7, 96.7, 105.7 moved from x=45.4 to the existing x=46 mm spine;
+front connections extend 0.6 mm and their old back stubs are removed.
+No components or other nets moved. All pad connectivity is identical.
+Track count 1412 -> 1399. Via count remains 346.
+
+Checks completed:
+- Refilled zones; visually reviewed both copper layers and ground fill.
+- No added stubs, duplicate overlapping tracks, doglegs, width islands,
+  off-angle traces, or pad grazes. The rail is a single straight segment.
+- Existing centered front pad exits retained. Moved vias outside package
+  bodies and SMD pads, with live front/back connections.
+- Minimum changed copper to other-net copper clearance: 0.325 mm.
+- Native DRC: no violations, no unconnected items, no parity issues.
+- ERC: no violations. Schematic sync: in sync.
+- Full native pad connectivity groups unchanged; every net fully connected.
+- Unrelated copper, footprint geometry, values, pin nets, board drawings,
+  schematic, project rules, symbol library and circuit metadata unchanged.
+- Reviewed routing recipe exactly matches saved native copper.
+- Decoupling placement, high-speed/RF, silkscreen, models, connector pinouts,
+  and assembly orientation unchanged. No new fabrication release requested.
+- Project quality scan remains 303 errors / 2390 warnings / 24 infos.
+  No new errors or warnings. Existing findings cover silk, BOM,
+  decoupling and prior geometry; see before/after reports and delta.
+
+Tool choice:
+kct optimize-traces --net +5V_ADC --no-45 --dry-run --format json
+reported no length reduction and cannot replace this branch topology.
+Applied the explicit local routing delta with KiCad's native PCB API,
+exact-shape clearance preflight, zone refill and connectivity audits.
+The initial candidate crossed three -5V_CT vias; preflight rejected it
+before saving. Moving those vias onto their supply spine passed preflight.
+Canonical PCB is controller.kicad_pcb; outputs here are review evidence.

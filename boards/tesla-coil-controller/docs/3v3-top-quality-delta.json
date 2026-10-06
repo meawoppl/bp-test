@@ -1,0 +1,31 @@
+{
+  "removed": [
+    {
+      "description": "Acute angle in trace (acid trap): Trace on +3V3 (B.Cu) has a 45\u00b0 angle. Angles less than 90\u00b0 can trap etchant during PCB manufacturing, causing over-etching at the vertex. This can weaken the trace and cause reliability issues.",
+      "items": [
+        {
+          "description": "+3V3, B.Cu"
+        }
+      ],
+      "severity": "warning",
+      "source": "kct detect-mistakes",
+      "type": "mistake.manufacturability.acute_angle_in_trace_acid_trap"
+    },
+    {
+      "description": "kct optimize-traces would remove 17 of 1336 segments (corners 951 -> 1055, length -0.9%); merge collinear segments and drop zigzags",
+      "items": [],
+      "severity": "info",
+      "source": "kct optimize-traces",
+      "type": "optimize_traces.mergeable_segments"
+    }
+  ],
+  "added": [
+    {
+      "description": "kct optimize-traces would remove 19 of 1337 segments (corners 955 -> 1055, length -0.9%); merge collinear segments and drop zigzags",
+      "items": [],
+      "severity": "info",
+      "source": "kct optimize-traces",
+      "type": "optimize_traces.mergeable_segments"
+    }
+  ]
+}

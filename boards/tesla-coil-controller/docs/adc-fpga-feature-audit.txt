@@ -1,0 +1,227 @@
+ADC / FPGA feature-access audit — 2026-09-30
+
+Scope and conclusion
+--------------------
+Read-only review of the AD7606C-16BSTZ (carrier U1) connected through J2 to
+the iCE40UP5K-SG48 (module U2). This checks the present schematic, PCB
+copper, FPGA constraints and the manufacturers' device documentation.
+
+The existing four-lane, software-controlled serial interface is correctly
+connected end to end. It can access the ADC register map and its major
+software features. It does not expose every interface feature: DOUTE-H
+are unconnected, and FRSTDATA reaches only a test point. These five signals
+can be added using already available FPGA GPIO on the mating connector.
+
+Four lanes cannot carry all eight channels at 1 MSPS with both status and
+CRC enabled. The current 200 kSPS target has sufficient transfer bandwidth.
+Eight lanes resolve this bandwidth bottleneck, but maximum-rate operation
+also requires a clock and FPGA timing implementation that have not yet
+been demonstrated. This review made no schematic, PCB or pin-map changes.
+
+Verified digital connections
+----------------------------
+Carrier net     ADC U1 pin    Mating J2 pin    FPGA U2 SG48 pad
+ADC_CONVST          9              31               43
+ADC_RESET         11              32               44
+ADC_SCLK          12              33               34
+ADC_CS_N          13              34               45
+ADC_BUSY          14              35               46
+ADC_SDI           29              36               47
+ADC_DOUT_D        28              37               48
+ADC_DOUT_C        27              38                3
+ADC_DOUT_B        25              39                4
+ADC_DOUT_A        24              40                2
+
+Every row agrees across both schematic netlists, both boards' native copper
+connectivity, the official SG48 package table, and tesla-controller.pcf.
+The selected FPGA pads are usable GPIO, not power or configuration pads.
+The ADC is on fabric GPIO; its controller must be implemented in FPGA logic.
+The module's existing ESP32 SPI wiring is a separate interface.
+
+Missing signals and available expansion
+--------------------------------------
+U1.15 FRSTDATA (ADC_FIRST) connects to TP1, with no route to the FPGA.
+It identifies the first conversion word and can provide an independent
+framing check. CS and an exact clock count permit operation without it;
+the optional status channel ID provides another check with extra clocks.
+
+U1.19, .20, .21 and .22 are DOUTE, DOUTF, DOUTG and DOUTH. All four are
+intentionally unconnected. Eight-lane operation is consequently unavailable.
+
+Verified unused carrier J2 contacts already connected to module GPIO:
+J2 contact       FPGA pad       Package signal
+12                  20         IOB_25b_G3
+14                  25         IOT_36b
+15                  27         IOT_38b
+16                  26         IOT_39a
+17                  28         IOT_41a
+19                  31         IOT_42b
+20                  32         IOT_43a
+21                  36         IOT_48b
+25                  38         IOT_50b
+30                  42         IOT_51a
+
+Recommendation: reserve five of these ten contacts for FRSTDATA and DOUTE-H,
+then update the schematic, PCB, canonical pin map and PCF together. Choose
+the assignment from physical routing and timing constraints. No new FPGA
+device or module connector is needed. J2.12 is also a global-clock-capable
+input and could be retained for a future external clock. J2.25 and .30 are
+marked unused on the carrier but do reach GPIO on the module.
+
+Mode, supplies and reset
+-----------------------
+OS0/1/2 (U1.3/4/5) are high: software mode. PAR/SER (6) is high: serial.
+STBY_N (7) is high and RANGE (8) is low; both are correctly fixed for
+software mode. WR_N (10) is high. The unused parallel DB0-2 (16-18) and
+DB12-15 (30-33) pins are grounded as specified for serial operation.
+
+ADC VDRIVE is nominal 3.3 V; all used FPGA I/O banks are nominal 3.3 V.
+These are separate regulators on the two boards, fed from common VIN5V.
+Their nominal LVCMOS input/output limits are compatible; no ADC digital
+signal applies its 5 V analog supply to an FPGA input. Rail startup order,
+tolerances and actual waveforms remain hardware validation items.
+
+All ADC grounds, AVCC pins, mode straps, reference/regulator capacitors,
+and ten local decoupling capacitors were checked for connectivity. All
+seven J2 ground contacts connect on both boards. REGCAP_A and REGCAP_D
+remain separate. REFSEL is high, selecting the internal reference.
+
+10 kohm pulls hold CONVST low (R21), CS_N high (R22), and RESET high (R23).
+After the rails settle, FPGA startup must issue a defined full reset and
+configure the ADC before sampling. Full reset requires at least 3.2 us
+high, followed by at least 274 us setup time. Rev. A Table 3 footnote 3
+additionally requires the first power-up wait plus device setup time to
+exceed 2 seconds; the 10 ms power-up minimum alone is insufficient.
+A conservative sequence waits 2.1 s after stable rails, then produces a
+fresh >=4 us high reset pulse and waits >=274 us after its falling edge.
+Do not assume the power-on pull-up alone proves a valid reset sequence.
+
+Feature access through the existing wiring
+-----------------------------------------
+Feature                         Access / qualifications
+Eight simultaneous channels     Yes, all eight via DOUTA-D in four-lane mode.
+Register read/write             Yes, CS_N/SCLK/SDI/DOUTA are connected.
+One/two/four-lane formats       Yes. Reset defaults to two lanes; explicitly
+                                select four lanes in CONFIG 0x02[4:3].
+Eight-lane format                No; DOUTE-H need the four additional wires.
+FRSTDATA indication              TP1 only; add one wire for FPGA observation.
+Input range per channel         Registers 0x03-06 accessible; analog input
+                                circuitry limits useful external ranges.
+Bandwidth per channel           Register 0x07 accessible.
+Oversampling / resolution       Register 0x08 accessible, including OSR 256;
+                                higher ratios reduce output sample rate.
+External oversampling clock     Accessible using the existing CONVST pin;
+                                provide the specified low-jitter waveform.
+Gain/offset/phase calibration   Registers 0x09-20 accessible. Phase delays
+                                change the conversion/sampling schedule.
+Conversion status / channel ID  Accessible, +8 bits per conversion result.
+Conversion CRC                  Accessible, +16 bits per output lane frame.
+Register-interface CRC          Accessible, 24-bit CRC register transfers.
+Digital error reporting         Registers 0x21/22 and status accessible;
+                                includes memory/interface diagnostics.
+Open-input detection            Registers 0x23/24/2C accessible. Measures
+                                conditions at ADC pins; a buffered sensor
+                                disconnect need not look open at those pins.
+Internal diagnostic mux         Registers 0x28-2B accessible, including
+                                supply/reference/temperature test sources.
+Clock counters / chip identity  Registers 0x2D/2E/2F accessible.
+Interface test patterns         Accessible; use all eight known patterns to
+                                verify channel order and serial capture.
+Standby/auto-standby/shutdown    CONFIG power bits accessible despite fixed
+                                STBY_N. Respect mode wake/reset timing.
+External analog reference       Not selectable by FPGA: REFSEL strapped high.
+True differential inputs        Not presented: every Vx- pin is grounded.
+Parallel bus / hardware mode    Fixed board straps prevent these modes;
+                                software serial mode supplies the controls.
+
+CONFIG 0x02[4:3] is 10 for four lanes and 11 for eight; preserve other bits
+when changing it. CRC enable is in 0x21[2]; preserve the other diagnostic
+enable bits, including the reset-enabled ROM check. Diagnostics and power
+modes require a deliberate configuration/restore sequence, not just wires.
+
+The analog front ends currently target 0-5 V on CH1-4 (AUX1, AUX2, AUX3,
+AUX4) and CH6/8 (CT envelopes), and +/-2.5 V on CH5/7 (CT raw signals).
+Changing ADC range registers does not change those front ends or expose
+the full differential input capability. Other ranges/reference choices
+would require a separate analog design review.
+
+Bandwidth and timing limits
+---------------------------
+Clocks per complete eight-channel sample set:
+Lanes      Raw       With status       With CRC       With status + CRC
+4           32            48              48                  64
+8           16            24              32                  40
+
+At VDRIVE >=3.1 V, the ADC permits at most 63.5 MHz SCLK. Therefore a
+four-lane status+CRC frame takes at least 64/63.5 MHz = 1.008 us, already
+longer than a 1 MSPS sample interval before CS or other overhead. This is
+a hard interface bandwidth limitation, even with pipelined conversion.
+Eight lanes reduce that frame to 40 clocks (0.630 us at 63.5 MHz).
+
+At the documented provisional 25 MHz SCLK and 200 kSPS target, four-lane
+status+CRC transfer takes 2.56 us. With 0.65 us maximum conversion time,
+the simple no-oversampling schedule totals 3.21 us within the 5 us period,
+leaving margin for framing/control. This is a timing budget, not measured
+or synthesized performance. Oversampling and phase delays need new budgets.
+
+For 1 MSPS, reads must overlap conversions. Data must be read before the
+next BUSY falling edge, with a 25 ns guard. Using the full 0.50-0.65 us
+conversion-time range conservatively leaves 0.825 us between worst-case
+updates after that guard. Forty clocks at 48 MHz take 0.833 us even before
+control/FPGA delays, so nominal 48 MHz is not a robust full-rate guarantee.
+
+The FPGA's internal HFOSC is nominal 48 MHz, with +/-20% industrial
+temperature frequency tolerance (38.4-57.6 MHz) and 40-60% duty-cycle
+limits. No dedicated FPGA reference oscillator was found; the module's
+40 MHz crystal belongs to the ESP32. A full-rate claim needs a defined
+clock source, all-corners timing closure and a conversion/read schedule.
+The simple clock-count arithmetic does not by itself select that clock.
+
+The ADC changes subsequent DOUT bits after rising SCLK edges; maximum
+access delay is 15.7 ns at VDRIVE >=3.1 V, minimum hold is 7 ns. SDI is
+captured on falling SCLK edges with 9 ns setup. A naive opposite-edge
+DOUT sample at 48 MHz has only 10.42 ns and is not sufficient. Constrain
+the complete FPGA-output/board/ADC/board/FPGA-input path and use an
+appropriate capture phase. Also account for the first-bit CS enable time
+(18 ns max), framing and the 25 ns write/read interval above 50 MHz.
+
+No Tesla acquisition HDL or timing constraints were found, only the PCF
+pin constraints. Consequently this audit does not prove FPGA timing,
+resource fit, CRC implementation, startup behavior or measured signal
+integrity. Bring-up should exercise register CRC, all eight distinct test
+patterns, channel IDs, reset/error flags and BUSY timeout handling.
+
+Verification evidence and limits
+--------------------------------
+324 automated checks passed with zero failures. They cover all 64 ADC
+pins, ten digital paths, ten spare GPIO routes, pulls/decoupling, package
+pin roles, schematic/PCB agreement and PCF correspondence. Physical
+continuity was evaluated using KiCad's native connectivity, not net names
+alone. These are design-file checks, not measurements on assembled boards.
+
+Fresh KiCad 10.0.6 DRC: carrier 0 violations, 0 schematic parity issues,
+2 existing USB_D+/USB_D- opens unrelated to the ADC; module 0 violations
+and 0 opens. Standard project-ignored checks are recorded in the JSON.
+The secondary kct checker reports module GND and RF_ANT incompleteness;
+native KiCad DRC does not reproduce those opens, and the ADC-relevant
+ground contacts pass native connectivity checks. This discrepancy is
+recorded rather than treated as a missing ADC ground.
+
+The adjacent adc-fpga-feature-audit.json contains per-pin connectivity,
+test results, source SHA-256 hashes, pin mappings and DRC results. The
+source designs and PCF hashes were rechecked after producing this report.
+Use the current PCF/netlists as the mapping authority over older routing
+notes. No connectivity changes are included in this audit.
+
+Sources
+-------
+Analog Devices AD7606C-16 data sheet Rev. A, August 2025: Tables 3/5
+(pp. 9-12), pin descriptions (pp. 14-16), digital filtering/calibration
+(pp. 37-42), serial interface (pp. 47-51), diagnostics and register map.
+https://www.analog.com/media/en/technical-documentation/data-sheets/ad7606c-16.pdf
+Repository copy: docs/datasheets/AD7606C-16.pdf
+
+Lattice iCE40 UltraPlus data sheet FPGA-DS-02008-2.4, February 2025:
+Table 4.11 (HFOSC), sysI/O levels and switching characteristics.
+https://www.latticesemi.com/view_document?document_id=51968
+Official SG48 pin table: libraries/datasheets/ice40up5k-pinout.xlsx

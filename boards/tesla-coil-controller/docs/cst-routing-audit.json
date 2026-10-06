@@ -1,0 +1,330 @@
+{
+  "copper_layers": 2,
+  "native_whole_board_unconnected": 2,
+  "local_connectivity": [
+    {
+      "net": "+3V3",
+      "local_pad_count": 12,
+      "all_local_pads_connected": true,
+      "missing": [],
+      "external_pad_count": 14
+    },
+    {
+      "net": "+5V_ADC",
+      "local_pad_count": 8,
+      "all_local_pads_connected": true,
+      "missing": [],
+      "external_pad_count": 16
+    },
+    {
+      "net": "-5V_CT",
+      "local_pad_count": 8,
+      "all_local_pads_connected": true,
+      "missing": [],
+      "external_pad_count": 11
+    },
+    {
+      "net": "CT1_ABS",
+      "local_pad_count": 4,
+      "all_local_pads_connected": true,
+      "missing": [],
+      "external_pad_count": 0
+    },
+    {
+      "net": "CT1_ABS_SUM",
+      "local_pad_count": 5,
+      "all_local_pads_connected": true,
+      "missing": [],
+      "external_pad_count": 0
+    },
+    {
+      "net": "CT1_CABLE_N",
+      "local_pad_count": 3,
+      "all_local_pads_connected": true,
+      "missing": [],
+      "external_pad_count": 0
+    },
+    {
+      "net": "CT1_CABLE_P",
+      "local_pad_count": 3,
+      "all_local_pads_connected": true,
+      "missing": [],
+      "external_pad_count": 0
+    },
+    {
+      "net": "CT1_ENVELOPE",
+      "local_pad_count": 3,
+      "all_local_pads_connected": true,
+      "missing": [],
+      "external_pad_count": 1
+    },
+    {
+      "net": "CT1_HALF",
+      "local_pad_count": 5,
+      "all_local_pads_connected": true,
+      "missing": [],
+      "external_pad_count": 0
+    },
+    {
+      "net": "CT1_MID",
+      "local_pad_count": 4,
+      "all_local_pads_connected": true,
+      "missing": [],
+      "external_pad_count": 0
+    },
+    {
+      "net": "CT1_PHASE",
+      "local_pad_count": 6,
+      "all_local_pads_connected": true,
+      "missing": [],
+      "external_pad_count": 0
+    },
+    {
+      "net": "CT1_PHASE_AC",
+      "local_pad_count": 2,
+      "all_local_pads_connected": true,
+      "missing": [],
+      "external_pad_count": 0
+    },
+    {
+      "net": "CT1_RAW",
+      "local_pad_count": 9,
+      "all_local_pads_connected": true,
+      "missing": [],
+      "external_pad_count": 1
+    },
+    {
+      "net": "CT1_RECT_DRIVE",
+      "local_pad_count": 3,
+      "all_local_pads_connected": true,
+      "missing": [],
+      "external_pad_count": 0
+    },
+    {
+      "net": "CT1_RECT_SUM",
+      "local_pad_count": 4,
+      "all_local_pads_connected": true,
+      "missing": [],
+      "external_pad_count": 0
+    },
+    {
+      "net": "CT1_ZERO",
+      "local_pad_count": 1,
+      "all_local_pads_connected": true,
+      "missing": [],
+      "external_pad_count": 1
+    },
+    {
+      "net": "CT1_ZERO_DRV",
+      "local_pad_count": 2,
+      "all_local_pads_connected": true,
+      "missing": [],
+      "external_pad_count": 0
+    },
+    {
+      "net": "CT2_ABS",
+      "local_pad_count": 4,
+      "all_local_pads_connected": true,
+      "missing": [],
+      "external_pad_count": 0
+    },
+    {
+      "net": "CT2_ABS_SUM",
+      "local_pad_count": 5,
+      "all_local_pads_connected": true,
+      "missing": [],
+      "external_pad_count": 0
+    },
+    {
+      "net": "CT2_CABLE_N",
+      "local_pad_count": 3,
+      "all_local_pads_connected": true,
+      "missing": [],
+      "external_pad_count": 0
+    },
+    {
+      "net": "CT2_CABLE_P",
+      "local_pad_count": 3,
+      "all_local_pads_connected": true,
+      "missing": [],
+      "external_pad_count": 0
+    },
+    {
+      "net": "CT2_ENVELOPE",
+      "local_pad_count": 3,
+      "all_local_pads_connected": true,
+      "missing": [],
+      "external_pad_count": 1
+    },
+    {
+      "net": "CT2_HALF",
+      "local_pad_count": 5,
+      "all_local_pads_connected": true,
+      "missing": [],
+      "external_pad_count": 0
+    },
+    {
+      "net": "CT2_MID",
+      "local_pad_count": 4,
+      "all_local_pads_connected": true,
+      "missing": [],
+      "external_pad_count": 0
+    },
+    {
+      "net": "CT2_PHASE",
+      "local_pad_count": 6,
+      "all_local_pads_connected": true,
+      "missing": [],
+      "external_pad_count": 0
+    },
+    {
+      "net": "CT2_PHASE_AC",
+      "local_pad_count": 2,
+      "all_local_pads_connected": true,
+      "missing": [],
+      "external_pad_count": 0
+    },
+    {
+      "net": "CT2_RAW",
+      "local_pad_count": 9,
+      "all_local_pads_connected": true,
+      "missing": [],
+      "external_pad_count": 1
+    },
+    {
+      "net": "CT2_RECT_DRIVE",
+      "local_pad_count": 3,
+      "all_local_pads_connected": true,
+      "missing": [],
+      "external_pad_count": 0
+    },
+    {
+      "net": "CT2_RECT_SUM",
+      "local_pad_count": 4,
+      "all_local_pads_connected": true,
+      "missing": [],
+      "external_pad_count": 0
+    },
+    {
+      "net": "CT2_ZERO",
+      "local_pad_count": 1,
+      "all_local_pads_connected": true,
+      "missing": [],
+      "external_pad_count": 1
+    },
+    {
+      "net": "CT2_ZERO_DRV",
+      "local_pad_count": 2,
+      "all_local_pads_connected": true,
+      "missing": [],
+      "external_pad_count": 0
+    },
+    {
+      "net": "GND",
+      "local_pad_count": 46,
+      "all_local_pads_connected": true,
+      "missing": [],
+      "external_pad_count": 200
+    }
+  ],
+  "local_connectivity_failures": [],
+  "non_octilinear_tracks": [],
+  "via_hole_over_smd_pad": [],
+  "overlapping_local_tracks": [],
+  "five_volt_entry": "R20.2",
+  "five_volt_entry_missing_connections": [],
+  "amplifier_bypass_placement": [
+    {
+      "ic": "U40",
+      "pin": 5,
+      "capacitor": "C401",
+      "pin_to_pad_mm": 1.8,
+      "aligned": true
+    },
+    {
+      "ic": "U40",
+      "pin": 2,
+      "capacitor": "C402",
+      "pin_to_pad_mm": 1.9125,
+      "aligned": true
+    },
+    {
+      "ic": "U41",
+      "pin": 5,
+      "capacitor": "C403",
+      "pin_to_pad_mm": 1.8,
+      "aligned": true
+    },
+    {
+      "ic": "U41",
+      "pin": 2,
+      "capacitor": "C404",
+      "pin_to_pad_mm": 1.9125,
+      "aligned": true
+    },
+    {
+      "ic": "U60",
+      "pin": 5,
+      "capacitor": "C601",
+      "pin_to_pad_mm": 1.8,
+      "aligned": true
+    },
+    {
+      "ic": "U60",
+      "pin": 2,
+      "capacitor": "C602",
+      "pin_to_pad_mm": 1.9125,
+      "aligned": true
+    },
+    {
+      "ic": "U61",
+      "pin": 5,
+      "capacitor": "C603",
+      "pin_to_pad_mm": 1.8,
+      "aligned": true
+    },
+    {
+      "ic": "U61",
+      "pin": 2,
+      "capacitor": "C604",
+      "pin_to_pad_mm": 1.9125,
+      "aligned": true
+    }
+  ],
+  "J4_J30_aligned": true,
+  "pcb_sha256": "09ecacc95f5b89fc38426687c7362060d2b2ae32b70aa3db7149ec374fa642db",
+  "adc_links": [
+    {
+      "signal": "CT1_RAW",
+      "source": "R400.1",
+      "filter": "R5/C15",
+      "adc_channel": 5,
+      "adc_pin": 57,
+      "all_connected": true
+    },
+    {
+      "signal": "CT1_ENVELOPE",
+      "source": "C400.1",
+      "filter": "R6/C16",
+      "adc_channel": 6,
+      "adc_pin": 59,
+      "all_connected": true
+    },
+    {
+      "signal": "CT2_RAW",
+      "source": "R600.1",
+      "filter": "R7/C17",
+      "adc_channel": 7,
+      "adc_pin": 61,
+      "all_connected": true
+    },
+    {
+      "signal": "CT2_ENVELOPE",
+      "source": "C600.1",
+      "filter": "R8/C18",
+      "adc_channel": 8,
+      "adc_pin": 63,
+      "all_connected": true
+    }
+  ]
+}

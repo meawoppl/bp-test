@@ -1,0 +1,111 @@
+J5 USB-C programming port — 2026-09-30
+
+Portal item: “Lets just replace this with a USBC header.”
+Annotation revision 7f950fdc4e6d7c96dfa8; edited live baseline 31a5eb8e96f2c91e0d42.
+Verified Portal revision c6d7e61128b09c87d766.
+
+J5 replaces the four-pin header with the HRO TYPE-C-31-M-12 receptacle
+already used by boards/programming-carrier (LCSC C165948). Its footprint
+and USB_C_HRO_envelope.step model are reused in Tesla's local library.
+The schematic section and connector value say PROGRAMMING ONLY.
+
+The controller is self-powered. USB VBUS does not connect to VIN_5V; it
+supplies only U3's clamp rail, C22 (100 nF) and the R26/R27 presence divider.
+Both D+ contacts join USB_D+ to J1.7, and both D- contacts join USB_D- to
+J1.8. SBU1/2 are explicitly unused. Each CC pin has its own 5.1 kohm
+pulldown (R24/R25). Shield and ground contacts connect to the ground planes.
+U3, USBLC6-2SC6, protects both data lines (1/6 = D+, 3/4 = D-, 2 = GND,
+5 = VBUS). C22's VBUS pad is 1.7875 mm from U3.5 on the same layer.
+
+R26 = 100 kohm and R27 = 150 kohm feed USB_VBUS_PRESENT to the formerly
+unused J1.20 contact, mapped to ESP GPIO8. The divider produces nominally
+3.0 V from 5 V. Firmware must configure GPIO8 as a self-powered USB VBUS
+monitor and handle connection/disconnection accordingly. Firmware was not
+changed. Programming uses the module's native ESP32-S2 USB path and its
+existing boot/reset facilities; no USB-UART bridge or USB-PD is added.
+
+PCB scope and visual review
+- J5 sits at the upper edge at (128, 30.4), rotated 180 degrees. Support
+  parts sit next to it, above the existing 24 V distribution route.
+- Only J5 moved among existing footprints. Added U3, R24–R27 and C22.
+- Replaced the old USB pair and its connector power branch. Trimmed the
+  now-unused VIN_5V tail from x=114.5 to x=109 at y=39.5 on B.Cu.
+  No other existing routing or component placement was changed.
+- Reviewed the native schematic export and copper preview by eye: legible
+  programming-only note, separate CC resistors, no dangling power tail,
+  centered straight pad exits, no same-net overlap or needless width steps.
+  New tracks are all 0/45/90 degrees. D+/D- signal vias change layers;
+  added ground vias serve the connector, ESD/capacitor and layer transitions.
+  Reference text is visible for J5/U3 and hidden for the new passives.
+- The native 3D top view was inspected: the connector envelope is on the
+  top edge, U3 and passives are correctly oriented, and U3 pin 1 is marked.
+  The USB-C body model is the existing simplified envelope. No claim of
+  a detailed connector-internals or external assembly-service review.
+
+Planar routed contact-to-module lengths (via barrel lengths excluded):
+  A6 -> J1.7 D+ 34.784039 mm; A7 -> J1.8 D- 33.938023 mm (0.846016 mm skew).
+  B6 -> J1.7 D+ 37.734039 mm; B7 -> J1.8 D- 34.938023 mm (2.796016 mm skew).
+  Both active signal paths traverse four through vias. Duplicate connector
+  contacts account for the branches and differing A/B contact path lengths.
+This is a 12 Mbit/s USB full-speed programming path. Trace width is 0.15 mm;
+these checks do not establish a controlled 90-ohm differential impedance.
+The existing two-layer power distribution still interrupts the reference
+plane at crossings. Physical USB operation and signal integrity are not
+verified by ERC/DRC and remain hardware validation work.
+
+Verification
+- KiCad ERC: 0 violations.
+- KiCad DRC: 0 violations, 0 unconnected items, 0 schematic parity issues.
+- KCT schematic/PCB sync: in sync, 0 errors, 0 warnings.
+- Functional audit: connector pads match the circuit contract; both cable
+  orientations have connected data paths; no J5 contact on VIN_5V.
+- Routing recipe replayed on a scratch board with identical copper and
+  pad/net assignments. Project settings are byte-identical to the baseline.
+- Portal's current ERC/DRC, schematic, BOM, 3D and export stages completed.
+  No fabrication release was published for this annotation.
+
+Quality audit: 303 errors, 2390 warnings, 24 infos. Baseline was 302 errors,
+2394 warnings, 23 infos; existing findings are preserved outside this item.
+See quality-delta.json and the prior charge-pump-layout-checks for baseline.
+The new/changed findings are accounted for as follows:
+- One false error: KCT treats U3 pin 1 / USB_D+ as a power pin and asks for
+  a decoupling capacitor. ST specifies pin 1 as I/O, while pin 5 is VBUS.
+  C22 decouples pin 5. Adding a capacitor across D+ would be inappropriate.
+- Four warnings: R24/R25/R27/C22 have one pad on GND fill. Their ground
+  pads use the existing thermal-relief settings and short return vias;
+  copper connectivity is verified. This is expected for Rd/divider/bypass
+  parts. Reflow balance is not guaranteed by this check.
+- The GND width heuristic now reports 0.25 rather than 0.20 mm and assumes
+  a 1 A load. New 0.25 mm branches are local signal/decoupler ground ties
+  into the filled planes, not a board supply feed. No 1 A USB load exists.
+- An informational aggregate USB-net mismatch is 1.7 mm. KCT assumes USB
+  high speed; the intended native ESP32-S2 interface is full speed. Actual
+  per-contact planar path measurements are recorded above without claiming
+  high-speed compliance.
+- Trace-optimizer counts changed (44 mergeable segments across the board);
+  no global cleanup was applied. Existing routing remains outside scope.
+- Old J5 missing-MPN, 5 V bypass-distance and three thin-silk warnings are
+  gone. Three old off-grid warnings also disappeared from the tool output;
+  C413/C613/C740 did not move, so this is not claimed as a physical fix.
+No rules were disabled and no tolerances were relaxed for this edit.
+
+Implementation
+Schematic, PCB, circuit contract, USB and daughterboard pinout CSVs, local
+library/model, constructor, schematic generator, placement and reviewed
+routing recipe are synchronized. KCT routing was attempted on scratch
+copies first; it did not produce a usable candidate within its deadline.
+The existing pcbnew authoring/replay path was used, then native checks run.
+The historical usb-routing-review.txt describes the superseded header.
+
+Primary references used for the electrical details:
+- Espressif self-powered USB device/VBUS monitoring:
+  https://docs.espressif.com/projects/esp-idf/en/release-v5.5/esp32s2/api-reference/peripherals/usb_device.html
+- ST USBLC6-2 pinout and application connection:
+  https://www.st.com/resource/en/datasheet/usblc6-2.pdf
+- USB Type-C sink Rd termination:
+  https://www.ti.com/lit/ds/symlink/tusb320.pdf
+
+Evidence: usb-c-checks/verification.json, erc-final.json, drc-final.json,
+sync-final.json, quality-final.json, quality-delta.json, geometry-audit.json,
+functional-audit.json, status-current.json, schematic-final.png, pcb-final.png,
+3d-top.png and render.json.

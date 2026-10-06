@@ -1,0 +1,169 @@
+{
+  "pcb_sha256": "4358668f000b5cf27c9b03141468c1ca68452022c1518f9bf6bd0ebf8bcf6ead",
+  "removed_ground": [
+    {
+      "uuid": "4e5546c1-cb45-5cf5-967d-5bba502ae174",
+      "start": [
+        124.7,
+        90.1
+      ],
+      "end": [
+        124.7,
+        91.8
+      ],
+      "kind": "track"
+    },
+    {
+      "uuid": "603559ce-5f86-55c1-94cb-6123b7591349",
+      "start": [
+        125.8,
+        91.3
+      ],
+      "end": [
+        126.1,
+        91.3
+      ],
+      "kind": "track"
+    },
+    {
+      "uuid": "89626403-6efa-5423-b36e-eaf543166123",
+      "start": [
+        124.6,
+        92.0
+      ],
+      "end": [
+        124.6,
+        92.0
+      ],
+      "kind": "via"
+    },
+    {
+      "uuid": "12abb88a-7334-5ca0-a4cd-36e04a864134",
+      "start": [
+        125.4,
+        91.3
+      ],
+      "end": [
+        125.8,
+        91.3
+      ],
+      "kind": "track"
+    },
+    {
+      "uuid": "47bce82d-7c86-5f76-9e5e-d2a7a97e0ece",
+      "start": [
+        125.4,
+        90.2
+      ],
+      "end": [
+        125.7,
+        89.9
+      ],
+      "kind": "track"
+    },
+    {
+      "uuid": "8b89cbb8-a46d-5253-89d5-828f969f09a8",
+      "start": [
+        124.6,
+        92.0
+      ],
+      "end": [
+        125.4,
+        92.0
+      ],
+      "kind": "track"
+    },
+    {
+      "uuid": "bf402c47-6bfb-5dbf-b550-53e6e68166e7",
+      "start": [
+        127.9,
+        90.5
+      ],
+      "end": [
+        127.9,
+        95.9
+      ],
+      "kind": "track"
+    },
+    {
+      "uuid": "f02e9760-008d-5c47-83a1-be219956ce4b",
+      "start": [
+        125.7,
+        89.9
+      ],
+      "end": [
+        127.3,
+        89.9
+      ],
+      "kind": "track"
+    },
+    {
+      "uuid": "f7aa0389-205c-5b58-9238-d956c86b5df6",
+      "start": [
+        127.3,
+        89.9
+      ],
+      "end": [
+        127.9,
+        90.5
+      ],
+      "kind": "track"
+    },
+    {
+      "uuid": "f91b5494-2f8a-5e90-94da-f31a5e54609f",
+      "start": [
+        125.4,
+        95.2
+      ],
+      "end": [
+        125.4,
+        90.2
+      ],
+      "kind": "track"
+    }
+  ],
+  "via_count_before": 347,
+  "via_count_after": 343,
+  "new_vias": 0,
+  "parallel_pairs": [
+    [
+      "R522",
+      "R523"
+    ],
+    [
+      "R526",
+      "R527"
+    ],
+    [
+      "R562",
+      "R563"
+    ],
+    [
+      "R566",
+      "R567"
+    ]
+  ],
+  "indicator_positions": {
+    "D83": [
+      103,
+      107.8,
+      0
+    ],
+    "R803": [
+      106.6,
+      107.8,
+      180
+    ]
+  },
+  "new_supply_routing_layer": "F.Cu",
+  "main_adc_feed_width_mm": 0.4,
+  "cst_branch_width_mm": 0.35,
+  "indicator_feed_width_mm": 0.25,
+  "adc_supply_to_c5": {
+    "layer": "F.Cu",
+    "vias": 0,
+    "escape_width_mm": 0.2,
+    "capacitor_approach_width_mm": 0.4,
+    "narrow_section_reason": "Fine-pitch ADC pad escape and clearance to adjacent DOUT_A via"
+  }
+}

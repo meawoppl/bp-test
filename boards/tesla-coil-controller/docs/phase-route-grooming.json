@@ -1,0 +1,154 @@
+{
+  "pcb_sha256": "922e387c2bcea1951de7881ba8db175475ecf512baaef05dd5d0e59ef005bd0b",
+  "routes": {
+    "CT_ZERO": {
+      "source": "R416.2",
+      "contact": "J2.22",
+      "before": {
+        "length_mm": 81.7228,
+        "vias": 0,
+        "layer_lengths_mm": {
+          "F.Cu": 81.7228,
+          "B.Cu": 0
+        }
+      },
+      "after": {
+        "length_mm": 86.9599,
+        "vias": 2,
+        "layer_lengths_mm": {
+          "F.Cu": 28.9918,
+          "B.Cu": 57.9681
+        }
+      },
+      "connected": true,
+      "width_mm": 0.2
+    },
+    "CT2_ZERO": {
+      "source": "R616.2",
+      "contact": "J2.24",
+      "before": {
+        "length_mm": 103.7714,
+        "vias": 0,
+        "layer_lengths_mm": {
+          "F.Cu": 103.7714,
+          "B.Cu": 0
+        }
+      },
+      "after": {
+        "length_mm": 107.5925,
+        "vias": 2,
+        "layer_lengths_mm": {
+          "F.Cu": 24.0675,
+          "B.Cu": 83.525
+        }
+      },
+      "connected": true,
+      "width_mm": 0.2
+    }
+  },
+  "parallel_trunk_spacing_mm": 0.8,
+  "gate_bundle_trunks_mm": [
+    121.4,
+    122.2,
+    123,
+    123.8
+  ],
+  "fpga_return_vias_mm": {
+    "CT_ZERO": [
+      119,
+      74.1
+    ],
+    "CT2_ZERO": [
+      119,
+      73.2
+    ]
+  },
+  "comparator_vias_mm": {
+    "CT_ZERO": [
+      114.4,
+      129.5
+    ],
+    "CT2_ZERO": [
+      112,
+      152.5
+    ]
+  },
+  "bias_crossing_via_before_mm": [
+    120,
+    119
+  ],
+  "bias_crossing_via_after_mm": [
+    118,
+    119
+  ],
+  "footprints_unchanged": true,
+  "schematic_unchanged": true,
+  "project_rules_unchanged": true,
+  "all_other_copper_unchanged": true,
+  "all_tracks_octilinear": true,
+  "whole_board_unconnected": 25,
+  "added_copper": [
+    "23247498-f014-5f2e-afbe-1d86f199ae1d",
+    "5f997707-426c-550a-9bc1-80a90f26c67c",
+    "74d2505b-6087-5382-b8bc-5c73757a3e76",
+    "7b2e7a12-59a6-5834-9151-50bb2d7dcbab",
+    "93550aec-47c3-54fe-a661-fcae9c8c3b25",
+    "93a15a69-9b58-570e-bb7f-b28702be41cb",
+    "952fd434-5317-5537-867f-325f0ed38790",
+    "99de88ed-480f-54ac-abe8-d2d5fc181810",
+    "b13c2796-8ea0-5b24-a67f-e25dc410cdaf",
+    "b1dcc9fa-b60e-5a4d-b4e5-0c213c1019e4",
+    "b9bff20b-99df-5f7c-a593-633b663d37ec",
+    "c138571b-ca3a-539c-a4c2-59ec843cffed",
+    "d7dd786e-17b2-5223-ad86-23e795648ad8",
+    "d9e56c4b-3425-5f30-a5a8-8e672279780b",
+    "e91b3e4c-9858-5d0d-bb49-8109c21f89ce",
+    "f18d8a1b-9dc7-5e14-b1b2-763b17d9cf54",
+    "f6be6cb4-40e1-5941-8cee-a3719c728968"
+  ],
+  "removed_copper": [
+    "2b3d5b16-c22e-5e16-8aa9-05a507222717",
+    "5b1ef513-f530-5d77-9e53-a27416214816",
+    "5f928c3e-4567-5c78-880b-91cf69512f83",
+    "70129463-226f-598d-9f84-135f593e69f3",
+    "7fc67de4-44eb-59b9-9435-2b413dffde44",
+    "883bcb57-ddbc-5b58-878b-ad71774f964a",
+    "8bdf7cf9-da02-55ec-92aa-d2ff9eb27cbc",
+    "9ad7e978-0314-556d-885e-4d2d5abb0358",
+    "ae79ebd7-5614-556c-840e-141f932a5c54",
+    "b8552332-02e9-5165-af60-f768fa5247d9",
+    "eaa48b5a-e5f6-5a84-b302-cdc19b547288"
+  ],
+  "modified_copper": [
+    "b7e86c47-d5ea-5836-ac92-a8aad1e6ef97",
+    "d7e22c3b-007b-5a5f-a807-db58fe9371c2",
+    "ec3ae9c7-0f49-5b0a-984d-bff6f18b05b2"
+  ],
+  "native_checks": {
+    "stage": "Development routing: CST/AUX inputs connected to ADC, supply distribution, FPGA signals and H-bridge drivers; remaining controller routing incomplete",
+    "erc": 0,
+    "physical_drc": 0,
+    "schematic_parity": 0,
+    "unconnected_items": 25,
+    "fabrication_ready": false,
+    "sha256": {
+      "controller.kicad_sch": "ff8cd4e9f39a614229c8226de209fbdf9e1c9422ee68d997bf1e61560671a596",
+      "controller.kicad_pcb": "922e387c2bcea1951de7881ba8db175475ecf512baaef05dd5d0e59ef005bd0b",
+      "controller.kicad_pro": "40e593eb2309fcddf3cd616a5e82b970cb97e4b268436e03b5e1288843705533"
+    },
+    "native_drc_findings": 0,
+    "intentional_open_route_ends": [],
+    "native_whole_board_unconnected": 25
+  },
+  "via_layer_usage_verified": true,
+  "unbranched_paths_verified": true,
+  "gate_and_bias_pad_clusters_unchanged": true,
+  "replay_idempotent": true,
+  "quality_errors_unchanged": true,
+  "quality_warnings_unchanged": true,
+  "visual_review": [
+    "F.Cu native SVG",
+    "B.Cu native SVG",
+    "labeled route overlay"
+  ]
+}

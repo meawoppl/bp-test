@@ -1,0 +1,11 @@
+{
+  "minimum_changed_copper_clearance_mm": 0.232106781186569,
+  "closest_items": [
+    "105acee8-bb63-5994-b5fd-66fe30715050",
+    "0834c4ef-40b5-58c9-b1e3-ab3e7c309a27",
+    "+3V3",
+    "GND"
+  ],
+  "below_0_15mm": [],
+  "excludes_zone_fills": true
+}

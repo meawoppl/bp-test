@@ -1,0 +1,16 @@
+{
+  "stage": "Development routing: CST/AUX inputs connected to ADC, supply distribution, FPGA signals and H-bridge drivers; remaining controller routing incomplete",
+  "erc": 0,
+  "physical_drc": 0,
+  "schematic_parity": 0,
+  "unconnected_items": 2,
+  "fabrication_ready": false,
+  "sha256": {
+    "controller.kicad_sch": "d1f2157437e8d7cc722dd2446009ce7c7402762126eb5a5e3ba4992b00055342",
+    "controller.kicad_pcb": "cf7a6a56b772f336e40a19349ef7e0c039f50a38c5df540b2db04c5c0ff1d45f",
+    "controller.kicad_pro": "40e593eb2309fcddf3cd616a5e82b970cb97e4b268436e03b5e1288843705533"
+  },
+  "native_drc_findings": 0,
+  "intentional_open_route_ends": [],
+  "native_whole_board_unconnected": 2
+}

@@ -1,0 +1,16 @@
+{
+  "command": [
+    "/home/meawoppl/repos/bp-test/tmp/tesla-12v-connector/kct",
+    "validate",
+    "--sync",
+    "boards/tesla-coil-controller/controller.kicad_sch",
+    "boards/tesla-coil-controller/controller.kicad_pcb",
+    "--format",
+    "json"
+  ],
+  "cwd": "/home/meawoppl/repos/bp-test",
+  "ok": true,
+  "stderr": "",
+  "stdout": "{\n  \"schematic\": \"boards/tesla-coil-controller/controller.kicad_sch\",\n  \"pcb\": \"boards/tesla-coil-controller/controller.kicad_pcb\",\n  \"in_sync\": true,\n  \"summary\": {\n    \"errors\": 0,\n    \"warnings\": 0,\n    \"missing_on_pcb\": 0,\n    \"orphaned_on_pcb\": 0,\n    \"net_mismatches\": 0,\n    \"pin_mismatches\": 0\n  },\n  \"issues\": []\n}\n",
+  "tool": "/home/meawoppl/repos/bp-test/tmp/tesla-12v-connector/kct"
+}

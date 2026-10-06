@@ -1,0 +1,17 @@
+{
+  "command": [
+    "/usr/bin/kicad-cli",
+    "sch",
+    "export",
+    "pdf",
+    "-o",
+    "boards/tesla-coil-controller/docs/controller-schematic.pdf",
+    "boards/tesla-coil-controller/controller.kicad_sch"
+  ],
+  "cwd": "/home/meawoppl/repos/bp-test",
+  "ok": true,
+  "requested_tool": "kicad-cli",
+  "stderr": "",
+  "stdout": "Plotted to 'boards/tesla-coil-controller/docs/controller-schematic.pdf'.\nDone.\n",
+  "tool": "/usr/bin/kicad-cli"
+}

@@ -1,0 +1,77 @@
+DRSSTC UNIVERSAL DRIVER V2.7 Rev C Bill of Materials                                           Updated 15 Jan 2015                      Mouser Order: http://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=ea98910c97
+
+Part Number          Description                                                    Package       Reference Designator                   Vendor      Qnty Price (ea) Ext. Price Notes
+SEMICONDUCTORS (SMD)
+74HC14DR2G                 Hex schmitt trigger INVERTER, SOIC                         SO14        IC4                                     Mouser      1       0.46      0.46   SN74HC14DG4
+74HC08DR2G                 Quad 2-input AND gate, SOIC                                SO14        IC5                                     Mouser      1       0.39      0.39
+SN74HC74DR                 Dual D type positive edge triggered FLIP FLOP, SOIC        SO14        IC6                                     Mouser      1       0.56      0.56
+LM311DR                    Comparator, SOIC                                            SO8        IC7                                     Mouser      1       0.47      0.47
+TL3116CD                   High Speed Comparator, SOIC                                 SO8        IC8                                     Mouser      1       2.94      2.94   TI Samples (please buy to support TI)
+UCC27423D                  Dual 4A gate driver with enable, SOIC                       SO8        IC9, IC10                               Mouser      2       2.39      4.78   TI Samples (please buy to support TI)
+LM8365BALMF27              2.7V Open Collector Under Voltage Lock-Out                SOT23-5      IC11                                    Mouser      1       0.79      0.79   TI Samples (please buy to support TI)
+FDD8424H                   Dual Complimentary Mosfet 40V 20A                         TO252-4      U1, U2, U3, U4                          Mouser      4       0.95       3.8
+RESISTORS (SMD)
+CRCW08051R00FKEA           1 ohm Resistor, SMD                                        0805        R31                                     Mouser      1       0.08     0.08
+CRCW121015R0JNEAHP         15 ohm 1W Resistor, SMD                                    1210        R19, R24                                Mouser      2       0.66     1.32
+CRCW0805470RFKEA           470 ohm 0805 Resistor, SMD                                 0805        R4, R6, R9, R14, R25, R26               Mouser      6      0.048     0.288
+                                                                                                  R2, R3, R5, R8, R10, R11, R12, R15,
+CRCW08051K00FKEA           1k 0805 Resistor, SMD                                      0805                                                Mouser      12     0.048     0.576
+                                                                                                  R18, R21, R22, R23
+CRCW08051K80FKEA           1.8k 0805 Resistor, SMD                                    0805        R16                                     Mouser      1       0.08      0.08
+CRCW08054K70FKEA           4.7k 0805 Resistor, SMD, 1%                                0805        R30                                     Mouser      1       0.08      0.08
+CRCW080510K0FKEA           10k 0805 Resistor, SMD                                     0805        R13                                     Mouser      1       0.08      0.08
+652-TC33X-2-503E           50k 3mm Trimmer Resistor SMD                               3mm         R29                                     Mouser      1       0.25      0.25   UD27B for UVLO trip set - Was 33k 0805 Resistor in UD27A
+CRCW0805100KFKEA           100k 0805 Resistor, SMD                                    0805        R7, R27                                 Mouser      2       0.08      0.16
+CAPACITORS (SMD)
+C0805C151J5GACT            150pF COG(NPO) Ceramic Capacitor 0805                      0805        C32                                     Mouser      1       0.1        0.1
+C0805C102K5RACTU           50volts 1000pF X7R Ceramic 10% 0805                        0805        C14, C17, C33*, C34                     Mouser      4       0.02      0.08   C33*: 220pF for original UD2, 2.2nF for CM600 & Large Bricks
+C0805C103K1RACTU           10nF 50V X7R Ceramic Capacitor 0805                        0805        C10                                     Mouser      1       0.1        0.1
+                                                                                                  C4, C5, C7, C8, C11, C12, C13, C15,
+C0805C104K5RACTU           0.1uF 50V X7R Ceramic Capacitor 0805                       0805                                                Mouser      14     0.027     0.378
+                                                                                                  C16, C18, C20, C26, C27, C36
+C0805C105K4RACTU           1uF 16V X7R Ceramic Capacitor 0805                         0805        C6, C9, C19, C25                        Mouser      4       0.12      0.48
+C1206C105K5RACTU           1uF 50V X7R Ceramic Capacitor 1206                         1206        C24, C31                                Mouser      2       0.28      0.56
+C3225X7R1H225K             2.2uF, 50V X7R Ceramic Capacitor 1210                      1210        C21, C30                                Mouser      2       0.62      1.24
+GRM31CF51H475ZA01L         4.7uF, 50V Y5V Ceramic Capacitor 1206                      1206        C22, C23, C28, C29, C35                 Mouser      5       0.54       2.7
+CAPACITORS & RESISTORS (Through Hole)
+EKZH350ELL221MHB5D         220uF 35V Electrolytic 8mm 3.5mm Spacing, Through Hole     E3,5-8      C1, C4A, C4B                            Mouser      3       0.46      1.38   Originally 647-UPJ1V101MPD1TD 100uF 35V
+661-ELXZ250ELL331MH1       330uF 25V Electrolytic 8mm 3.5mm Spacing,Through Hole      E3,5-8      C2, C3                                  Mouser      2       0.45       0.9
+72-T93YA-10K               10k 23-turn Variable Resistor, Through Hole                 T93        R20                                     Mouser      1       1.54      1.54
+293-5.1-RC                 5.1 ohm 500mW Resistor, Through Hole                      0309/12      R17, R28                                Mouser      1       0.15      0.15   Install under board; R28 Optional with resistor of your choice
+MOS2CT52R510J              51 ohm 2W Resistor, Through Hole                          411/15       R1                                      Mouser      1       0.13      0.13
+EKYB350ELL102MJ30S         1000uF 35VDC Low Impedence (5mm spacing, 3.5 better)     10x30mm       C4C                                     Mouser      1       0.79      0.79   UD27B - Optional for added capacitance (8mm dia x 3.5mm)
+DIODES & REGULATORS
+DF04SA-E3/77               Bridge Rectifier 1A 400V, SMD                              B40S        B1                                      Mouser      1       0.79      0.79
+MBR0530                    Schottky Diode 0530 30V 500mA, SMD                       SOD123        D1, D2, D4, D5, D6, D7                  Mouser      6       0.34      2.04
+GSD2004W-E3-08             Diode, General Purpose, SMD                              SOD123        D14, D15                                Mouser      2       0.13      0.26   Added one for UD27C
+MCL4148-TR/MCL4148-TR3     Signal Diode, 100V 350mA, SMD                            SOD323        D3, D8, D9, D10, D11, D12, D13          Mouser      7       0.05      0.35   or LS4148 - much easier to solder!
+MC7805ECDTX                5V Voltage Regulator Linear 0.5A SMD                     TO-252-3      IC1                                     Mouser      1       0.66      0.66   TI Samples (please buy to support TI)
+R-789.0-0.5                9V RECOM Regulator Switching 36V max 1A Through Hole      R78XX        IC2                                     Mouser      1       7.38      7.38   Can replace with 12V Regulator, or Linear 7812/09 (heat sink)
+MC7824BD2TG                24V Voltage Regulator Linear 1.5A SMD                    D2PAK-2       IC3                                     Mouser      1       0.92      0.92   TI Samples (please buy to support TI)
+                                                                                                                                                                               Choose any color of your fancy! (LS R976-NR-1 for 633nm, LO R976-
+LTST-C171TBKT              LED - SMD Blue Clear 466nm                                 0805        LED-PWR                                 Mouser      1       0.26      0.26
+                                                                                                                                                                               PS-1 for 606nm, or any other 0805 SMD LED)
+FIBER, INDUCTOR, CONNECTORS
+OPF2412T                   Optical ST Receiver                                           -        RX1                                    Mouser       1      11.99     11.99
+IF-D95T                    Industrial Fiber Receiver                                     -        RX2                                    Digikey      1       6.55     6.55
+SLOT-7 series              Phase Lead Inductor Slot-7                                 Slot-7      L1                                     Coilcraft    1        0         0     Coilcraft Sample (please buy to support Coil Craft!)
+0555-0-15-01-30-27-10-0    Phase lead Inductor Pin socket                                -        -                                      Mouser       5      0.334     1.67    4 is good enough to save cost
+69190-403                  3 Pin Header, RL & R Select                                 0.1"       SV1                                    Mouser       1       0.11     0.11
+69190-402                  2 Pin Header, UVLO Jumper                                   0.1"       JMP1                                   Mouser       1       0.13     0.13    For UD27B - Can replace with just a wire
+M20-9980345                2x3 Header, Phase selection                                 0.1"       PHASE                                  Mouser       1       0.26     0.26
+M7581-05                   Jumper for phase selection/inductor                         0.1"       -                                      Mouser       4       0.18     0.72    Added one for UD27B
+22-01-2067                 Molex 0.100 (2.54mm) Center Connector - 6 Pin            22-01-2067    LED                                    Mouser       1       0.26     0.26    To wire
+                                                                                                  20VAC, 24VDC, GDT1, GDT2, FB-CT,
+22-01-2027                 Molex 0.100 (2.54mm) Center Connector - 2 Pin            22-23-2021                                            Mouser      6       0.2       1.2    To wire
+                                                                                                  OCD-CT
+22-28-0360                 Molex 0.100 Header strip (polarized) 1x36                22-28-0360    -                                       Mouser       1      1.59     1.59    On Board
+08-52-0123                 Molex Pins for 22-01-20X7                                22-01-20X7    -                                       Mouser      18     0.092     1.656   Pins
+OTHERS (EXTERNAL, OPTIONAL)
+546-186D20                 20VCT 115/230V 30VA Transformer                              -         -                                      Mouser       1      13.18       -     18-20VAC transformer…
+PMT-24V50W1AA              24VDC 2.09A 50W SMPS 85 VAC to 264 VAC                     Delta       -                                      Mouser       1      18.54       -     ... or 24VDC Power Supply (only one required)
+270-238                    Aluminium Project Box                                        -         -                                     Radioshack    1       3.49       -     Cheap project box, works great for me
+446164951                  Ferrite Clamp-on Bead for GDT (250 Ohms at 100Mhz)           -         -                                      Mouser       1       0.75       -     For common mode noise reduction on GDT output
+
+www.loneoceans.com/labs/                                                                                                                                              $66.43 Total Without Optionals (check your components)
+Prepared by Gao Guangyan; See website for more UD2x details.                                                                                                                 Note some components required from Digikey / Coilcraft
+
