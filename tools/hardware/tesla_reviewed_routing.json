@@ -4287,13 +4287,13 @@
     },
     "TP60": {
       "position_nm": [
-        54000000,
-        154000000
+        40200000,
+        155500000
       ],
       "angle_deg": 0.0,
       "reference_nm": [
-        54000000,
-        154000000
+        40200000,
+        150500000
       ],
       "footprint": "Tesla:TestPoint_Pad_D1.0mm",
       "value": "CT2_RAW"
@@ -18634,7 +18634,7 @@
       "uuid": "627c0844-9857-5db2-ac1d-1f24fec0ec9a",
       "net": "CT2_RAW",
       "start_nm": [
-        41725000,
+        40600000,
         158000000
       ],
       "end_nm": [
@@ -23037,7 +23037,7 @@
         155500000
       ],
       "end_nm": [
-        41725000,
+        40200000,
         155500000
       ],
       "layer": "F.Cu",
@@ -25494,21 +25494,6 @@
       "layer": "B.Cu",
       "kind": "track",
       "width_nm": 200000
-    },
-    {
-      "uuid": "aca89de0-7978-5d07-91ff-ea783c04811a",
-      "net": "CT2_RAW",
-      "start_nm": [
-        41725000,
-        158000000
-      ],
-      "end_nm": [
-        41325000,
-        157600000
-      ],
-      "layer": "F.Cu",
-      "kind": "track",
-      "width_nm": 500000
     },
     {
       "uuid": "ad22ff73-35f0-565b-925c-182c9f734337",
@@ -28831,21 +28816,6 @@
       "width_nm": 200000
     },
     {
-      "uuid": "d069328a-43ea-5ba0-a488-c9ff6f46f3ce",
-      "net": "CT2_RAW",
-      "start_nm": [
-        41325000,
-        155900000
-      ],
-      "end_nm": [
-        41725000,
-        155500000
-      ],
-      "layer": "F.Cu",
-      "kind": "track",
-      "width_nm": 500000
-    },
-    {
       "uuid": "d0afa5e7-e6d0-51b5-bb7f-755a7aadd6e2",
       "net": "GND",
       "start_nm": [
@@ -31905,21 +31875,6 @@
       "width_nm": 1200000
     },
     {
-      "uuid": "f67859e7-1cb8-503f-8600-6f032f36af6c",
-      "net": "CT2_RAW",
-      "start_nm": [
-        41325000,
-        155900000
-      ],
-      "end_nm": [
-        41325000,
-        157600000
-      ],
-      "layer": "F.Cu",
-      "kind": "track",
-      "width_nm": 500000
-    },
-    {
       "uuid": "f6be6cb4-40e1-5941-8cee-a3719c728968",
       "net": "CT1_ZERO",
       "start_nm": [
@@ -33376,21 +33331,6 @@
       "width_nm": 500000
     },
     {
-      "uuid": "160bb69e-54e7-50e2-ab80-46786e51d242",
-      "net": "CT2_RAW",
-      "start_nm": [
-        51975000,
-        154000000
-      ],
-      "end_nm": [
-        54000000,
-        154000000
-      ],
-      "layer": "F.Cu",
-      "kind": "track",
-      "width_nm": 500000
-    },
-    {
       "uuid": "0084bfc8-cd4f-5120-95dc-d614daa8e601",
       "net": "USB_D+",
       "start_nm": [
@@ -34132,6 +34072,36 @@
       "layer": "B.Cu",
       "kind": "track",
       "width_nm": 150000
+    },
+    {
+      "uuid": "9289ae97-ca78-59c8-bf96-91853698e760",
+      "net": "CT2_RAW",
+      "start_nm": [
+        40200000,
+        155500000
+      ],
+      "end_nm": [
+        40200000,
+        157600000
+      ],
+      "layer": "F.Cu",
+      "kind": "track",
+      "width_nm": 500000
+    },
+    {
+      "uuid": "9289ae97-ca78-59c8-bf96-91853698e761",
+      "net": "CT2_RAW",
+      "start_nm": [
+        40200000,
+        157600000
+      ],
+      "end_nm": [
+        40600000,
+        158000000
+      ],
+      "layer": "F.Cu",
+      "kind": "track",
+      "width_nm": 500000
     }
   ]
 }

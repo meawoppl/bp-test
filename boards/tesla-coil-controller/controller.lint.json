@@ -218,7 +218,7 @@
     "b7daaf81-d346-58ed-821b-e497d1b605f7",
     "f9fa0226-ba05-5c85-9b94-455a2d0fa61d"
    ],
-   "evidence": "3cb3cb3aed0d319e39b774f13f3d95001649dcd5033850c993e78c239b54f95b",
+   "evidence": "85256947546e4b69a977c8292b4fe2d933c6fc76153020d1fd3ea7a133c4c899",
    "action": "flag",
    "reason": "detour chain re-evaluated after the collinear merges exposed the full run; routing cleanup candidate (user review of wiggly traces)",
    "reviewer": "Claude Fable 5.1 for matt@cosmicfrontier.org",
@@ -237,7 +237,7 @@
     "160bb69e-54e7-50e2-ab80-46786e51ad9a",
     "9289ae97-ca78-59c8-bf96-918536983a0e"
    ],
-   "evidence": "12ecbc357a5259b7891de39e16455f978aac2d4412d5857b9aeb0ed4f7d1f8d8",
+   "evidence": "d3e01bc2e7ad6a0a5f40c4ab8d9c8f6cf1d8154f8f8635f3f8ae955e6433e59d",
    "action": "ignore",
    "reason": "Width step is a pad escape, via neck, feedback/indicator tap or documented rail class change (docs/POWER-ROUTING.md); run lengths and loads checked, no current-capacity concern",
    "reviewer": "Claude Fable 5.1 for matt@cosmicfrontier.org",
@@ -256,7 +256,7 @@
     "160bb69e-54e7-50e2-ab80-46786e51ad9a",
     "9289ae97-ca78-59c8-bf96-918536983a0e"
    ],
-   "evidence": "7ccb95559d8b5820fab3ed90f5a927472d96f8b674e21b1d5493687289fd74d0",
+   "evidence": "b95ff66f59878215f3f03f516a3deeff26992444db4804c868bbeac67ac3f2e2",
    "action": "flag",
    "reason": "acute junction on CT2_RAW; routing cleanup candidate (user review of wiggly traces)",
    "reviewer": "Claude Fable 5.1 for matt@cosmicfrontier.org",
@@ -274,7 +274,7 @@
    "subjects": [
     "40100932-20c5-5a0e-9653-558a6634f7d3"
    ],
-   "evidence": "8093699723982ab2655b913751b0d417de148519624f65c2398672b3dc99484b",
+   "evidence": "f55f26417aa38fc0d81302d1780fd628b3475f99e8d3b7a3c528e90b2c6a8568",
    "action": "ignore",
    "reason": "0.1-0.2 mm stair-step/jog segment; cosmetic, connectivity confirmed by DRC",
    "reviewer": "Claude Fable 5.1 for matt@cosmicfrontier.org",
@@ -293,7 +293,7 @@
     "2523292e-aa10-5400-8626-06361e96a581",
     "27122aa2-3c6c-54ef-af07-4bffdac83a46"
    ],
-   "evidence": "8d48e1366e4c3f118d3273bee16b9806b3ee9ff98c2c7a229870d47b4f06e872",
+   "evidence": "0751c90b8a7fdafaa149b0d24db350de6acd0e09724ec9a19f7fe50bdcdd7fa7",
    "action": "ignore",
    "reason": "Width step is a pad escape, via neck, feedback/indicator tap or documented rail class change (docs/POWER-ROUTING.md); run lengths and loads checked, no current-capacity concern",
    "reviewer": "Claude Fable 5.1 for matt@cosmicfrontier.org",
@@ -312,7 +312,7 @@
     "28a69377-6707-519b-8ae6-902bffb3fad6",
     "d728fca7-25c3-5813-8168-abebf5da4385"
    ],
-   "evidence": "904d3907d4bb5bea37cb423ad2ddffd6788d3c85698c776bdd3dbe24f26245b8",
+   "evidence": "582bfcf3760d104e28b57eb1b294a11f53c6429ce5cabaf4bf35d9b149f1dc97",
    "action": "ignore",
    "reason": "Width step is a pad escape, via neck, feedback/indicator tap or documented rail class change (docs/POWER-ROUTING.md); run lengths and loads checked, no current-capacity concern",
    "reviewer": "Claude Fable 5.1 for matt@cosmicfrontier.org",
@@ -331,7 +331,7 @@
     "53a0bd48-7a65-5ec5-aa20-53cba7a5649a",
     "e4312e1c-25d9-5781-ac8b-9f2f71835172"
    ],
-   "evidence": "f714c11e012f6fb6875a17c1e53e8af383064405587f3931db3d441bf47c9d74",
+   "evidence": "2ad55816810a63a2a6bf5a2d0150039b5a6e47a0f705088a258d9fcde0023de2",
    "action": "ignore",
    "reason": "Width step is a pad escape, via neck, feedback/indicator tap or documented rail class change (docs/POWER-ROUTING.md); run lengths and loads checked, no current-capacity concern",
    "reviewer": "Claude Fable 5.1 for matt@cosmicfrontier.org",
@@ -350,7 +350,7 @@
     "797bc410-304a-5592-8030-605b25527595",
     "7d532d70-d981-587a-9b65-28526b0b7524"
    ],
-   "evidence": "d6c25334dd6d0e074a3cce68d49fdc6cfefe00b1f3651f4d38fc11e62fe2a561",
+   "evidence": "66cf66e46c5e148d448b1cb1b621bdd602a5799ff25235b0a24e921533003782",
    "action": "ignore",
    "reason": "Width step is a pad escape, via neck, feedback/indicator tap or documented rail class change (docs/POWER-ROUTING.md); run lengths and loads checked, no current-capacity concern",
    "reviewer": "Claude Fable 5.1 for matt@cosmicfrontier.org",
@@ -369,7 +369,7 @@
     "78f4b985-226c-5251-b039-200767fb9433",
     "9ff72da7-890b-5e45-9080-ae0c7d4a1031"
    ],
-   "evidence": "77b84418bf0a9d49fea50c96bd29d7f760c91b733b48403178878e7f8c797347",
+   "evidence": "c58a2cb3d1fdf9ded7aaab337f5ed4bb5a7d5bb94ce5fa02b9a199f4aa57e3bc",
    "action": "ignore",
    "reason": "Width step is a pad escape, via neck, feedback/indicator tap or documented rail class change (docs/POWER-ROUTING.md); run lengths and loads checked, no current-capacity concern",
    "reviewer": "Claude Fable 5.1 for matt@cosmicfrontier.org",
@@ -388,7 +388,7 @@
     "70947666-c12c-5cac-90c9-9e0cd532616b",
     "b619ea16-4807-5acc-a5f8-7ed38a208ef7"
    ],
-   "evidence": "065c803396ca75dc29f52925d6954385a6cc9edaaf18250c856e567180f7c68a",
+   "evidence": "f1d9300adcc110098521b7a7874f26bd62f33ace03129cbdee5bea3c325c4669",
    "action": "flag",
    "reason": "acute junction on GDT1_R_SW; routing cleanup candidate (user review of wiggly traces)",
    "reviewer": "Claude Fable 5.1 for matt@cosmicfrontier.org",
@@ -407,7 +407,7 @@
     "5b473c24-ee99-5b2a-a8f1-12c30b3e62d2",
     "d325a714-c068-5fe0-a54d-19ace8474fff"
    ],
-   "evidence": "ec980ee195c6ab9a3ee9b69dd9e5928b1182f7aacadc88fc8ee99522994968f8",
+   "evidence": "2554b249a37783e922c25596274d76885719fc80560f43fafb2897de10c87bf1",
    "action": "ignore",
    "reason": "Width step is a pad escape, via neck, feedback/indicator tap or documented rail class change (docs/POWER-ROUTING.md); run lengths and loads checked, no current-capacity concern",
    "reviewer": "Claude Fable 5.1 for matt@cosmicfrontier.org",
@@ -429,7 +429,7 @@
     "e8de888f-b24d-5950-92f8-f1be36cd913c",
     "efb553e3-08db-5b01-8c4d-10dc0ae00bdf"
    ],
-   "evidence": "c8485cc23de6c4d1c6a1c6cb3d70bf358b3480a0ab9eecc6486830c64cdc9293",
+   "evidence": "856f88fff4fcee1b7625e79de14080757c0102dfd8fbe5727dea0e59a7c32f3f",
    "action": "flag",
    "reason": "detour on CT1_RECT_DRIVE; routing cleanup candidate (user review of wiggly traces)",
    "reviewer": "Claude Fable 5.1 for matt@cosmicfrontier.org",
@@ -448,7 +448,7 @@
     "89271f13-a9d8-5189-b1e5-04e25bb7c07d",
     "a66743c5-fc72-5a52-90b2-ffd6d730642b"
    ],
-   "evidence": "aecdb415f1be0ad081fdf88d00c0996b9fb10803cc5a91669a6f69c161022e1e",
+   "evidence": "a116019d77a70f6238f6a1810c1f1cc8e8158d24f4a16a1960a73d6d544c6b32",
    "action": "flag",
    "reason": "acute junction on GDT2_R_SW; routing cleanup candidate (user review of wiggly traces)",
    "reviewer": "Claude Fable 5.1 for matt@cosmicfrontier.org",
@@ -467,7 +467,7 @@
     "cf0b4e9d-747c-56a2-987e-812617e330b1",
     "d796bfc0-4807-49d0-b26e-54e4a9523ded"
    ],
-   "evidence": "914a35c90dc47e1b8e547424aabdce1eb1786f1dfcacf488b252700ff426d6a8",
+   "evidence": "5a69c40a5e11cbad325b6727bb0cae6ae5e507cd8d1cf7a8b3ce28e450a774b0",
    "action": "ignore",
    "reason": "Diagonal link from Q57.2 is shorter than the pad clearance, a cardinal escape would produce sub-0.2 mm stubs; 45-degree exit retained",
    "reviewer": "Claude Fable 5.1 for matt@cosmicfrontier.org",
@@ -486,7 +486,7 @@
     "8367aeeb-c455-5b9b-8742-32f35bfe7ef1",
     "985b5f7e-8d5c-58c0-aba3-9e00780374f1"
    ],
-   "evidence": "c79f57f65121d73e18110d8a95a940e9e7ed00a1e361cf40cd269b016fd7e9cf",
+   "evidence": "2f980bb6c86fe65f5843f8433d5b1119e6d58678aa478bf7408932528fd9a483",
    "action": "ignore",
    "reason": "Width step is a pad escape, via neck, feedback/indicator tap or documented rail class change (docs/POWER-ROUTING.md); run lengths and loads checked, no current-capacity concern",
    "reviewer": "Claude Fable 5.1 for matt@cosmicfrontier.org",
@@ -504,7 +504,7 @@
    "subjects": [
     "9bc9da8f-f0cf-5619-93e7-9bb43e1e247e"
    ],
-   "evidence": "8a479570d19b98f51733efb65a21df3658bd319d82c4142492c7195416e882fd",
+   "evidence": "a295aa3673d62f308f9dabbd11dbae85e5d95244ee0d3f2e9fdaf68ac50d3e17",
    "action": "ignore",
    "reason": "Endpoint overlaps the adjacent same-net 0.2 mm track envelope (0.14 mm stair-step offset at the U1 +3V3 pin tie); KiCad connectivity and DRC report 0 unconnected",
    "reviewer": "Claude Fable 5.1 for matt@cosmicfrontier.org",
@@ -524,7 +524,7 @@
     "25f5272a-f071-59d8-a06f-e8390b83eccc",
     "ec535949-7a60-5164-9776-32d8b11de674"
    ],
-   "evidence": "a5df86b558f92b4daf0151307bc73322994eb932a4c401df9a372d332ffc58a6",
+   "evidence": "6097cd8619d81f1d84aad9c876dd7ce5ff5c6e2d176daad4c6a39d0defdd858d",
    "action": "ignore",
    "reason": "Extra length/bends come from the cardinal pad escape added in the cosmetic pass (exit along the pad axis, then diagonal); intended shape",
    "reviewer": "Claude Fable 5.1 for matt@cosmicfrontier.org",
@@ -543,7 +543,7 @@
     "20bed86a-367b-561f-8437-7af802b58c33",
     "83679d9e-e2c1-54dc-953a-6261e8022c52"
    ],
-   "evidence": "1ca4e9c231ef6401d2ea7352f386fd7c4bd480d4da7ba59bc76498201b00a3b5",
+   "evidence": "944aa3d82d0bc909f847d5bc75aa996eb8bc908b1ae95f7950aacd4b90c2f973",
    "action": "ignore",
    "reason": "Width step is a pad escape, via neck, feedback/indicator tap or documented rail class change (docs/POWER-ROUTING.md); run lengths and loads checked, no current-capacity concern",
    "reviewer": "Claude Fable 5.1 for matt@cosmicfrontier.org",
@@ -562,7 +562,7 @@
     "78f4b985-226c-5251-b039-200767fb9433",
     "9ff72da7-890b-5e45-9080-ae0c7d4a1031"
    ],
-   "evidence": "74cba7e039683a166ebc8c888b614c70a1e85d5e79d0a3ee37d051b759ba2dc0",
+   "evidence": "be9e236891c82c7079bfa1b04862f06c0c1442345a948fa1f58d336c0181f893",
    "action": "ignore",
    "reason": "Width step is a pad escape, via neck, feedback/indicator tap or documented rail class change (docs/POWER-ROUTING.md); run lengths and loads checked, no current-capacity concern",
    "reviewer": "Claude Fable 5.1 for matt@cosmicfrontier.org",
@@ -581,7 +581,7 @@
     "a0c76afb-735c-5533-abb0-f2f590d5943d",
     "a41d6542-4d2c-5ce4-812f-a3bb742e3985"
    ],
-   "evidence": "cccffd97a16e6b2c0fa01152fa21144dd755acd9f4dcb75199febc872b2d29b7",
+   "evidence": "2aa6a3c55ea86bfdb7b47d09ec4c8cfd57a47ae94ccc145362206365fd452aca",
    "action": "ignore",
    "reason": "Width step is a pad escape, via neck, feedback/indicator tap or documented rail class change (docs/POWER-ROUTING.md); run lengths and loads checked, no current-capacity concern",
    "reviewer": "Claude Fable 5.1 for matt@cosmicfrontier.org",
@@ -600,7 +600,7 @@
     "a0c76afb-735c-5533-abb0-f2f590d5943d",
     "a41d6542-4d2c-5ce4-812f-a3bb742e3985"
    ],
-   "evidence": "de084dd139b9c1e09355a29b8be4f25a3bdb58b54f696c0557d9e4387a89aec9",
+   "evidence": "cc82aac1a5f5423be2fddac539809c2e6123a84b978bb501ca80e7b91ca69e0b",
    "action": "ignore",
    "reason": "Width step is a pad escape, via neck, feedback/indicator tap or documented rail class change (docs/POWER-ROUTING.md); run lengths and loads checked, no current-capacity concern",
    "reviewer": "Claude Fable 5.1 for matt@cosmicfrontier.org",
@@ -620,7 +620,7 @@
     "59679d5b-d9c3-5f28-ba3d-58c8d2e63236",
     "67ba64f9-d6ee-515b-ac62-e9889a48e8ef"
    ],
-   "evidence": "2eb6fa84b2103adf0a49c5ab56e785d615004a21a0d2b2efbb0cf6ef074e7148",
+   "evidence": "d4f7cea26c81fc96a5f55bf75f6d5fef86ba23619eef012489c3ca4685f8a083",
    "action": "flag",
    "reason": "detour chain re-evaluated after the collinear merges exposed the full run; routing cleanup candidate (user review of wiggly traces)",
    "reviewer": "Claude Fable 5.1 for matt@cosmicfrontier.org",
@@ -639,7 +639,7 @@
     "03e41ddd-5132-59ac-8957-39c54f6a60ff",
     "af6eabbd-8f79-52b7-8ec8-d79474bcfc91"
    ],
-   "evidence": "86692811b9f1289fbbe2e1f7ebcbce976d4441c7da3c75bc0df5c4dc23458fa9",
+   "evidence": "0433754d35305b8fc1de8def6c45c013cb00aef56b4f35e3cee51ce6daace869",
    "action": "ignore",
    "reason": "Width step is a pad escape, via neck, feedback/indicator tap or documented rail class change (docs/POWER-ROUTING.md); run lengths and loads checked, no current-capacity concern",
    "reviewer": "Claude Fable 5.1 for matt@cosmicfrontier.org",
@@ -658,7 +658,7 @@
     "d8c1523b-9e6a-5a77-a8e4-4c8ce9e2e415",
     "eb4352a8-f811-5e12-9c05-457045384a61"
    ],
-   "evidence": "12476f5613a47dd9bcc93fc62356fc06724760787235831bc19b8f56481177ca",
+   "evidence": "6e7e722ede2175c00a6913c7ceb1ab5860d7bbe420bd3deb60addd9d8596304c",
    "action": "ignore",
    "reason": "Width step is a pad escape, via neck, feedback/indicator tap or documented rail class change (docs/POWER-ROUTING.md); run lengths and loads checked, no current-capacity concern",
    "reviewer": "Claude Fable 5.1 for matt@cosmicfrontier.org",
@@ -677,7 +677,7 @@
     "61931f6c-6495-56dd-8ce5-8f2e82ee9233",
     "ddabd8cf-efdc-443d-9fb4-7c84c4085056"
    ],
-   "evidence": "2d55abf3394e04e6ae8ce226917cf95dec08857a0a32ab070cc7613abd1cc543",
+   "evidence": "714b8ba803a70dec04e30fa5ce19a961a0cdcae17200b8364e0b8d906265a9c6",
    "action": "ignore",
    "reason": "2.5 mm trace leaving the large R569.1 pad; the cardinal escape would need a 90-degree corner on a wide trace, the diagonal exit is the cleaner shape",
    "reviewer": "Claude Fable 5.1 for matt@cosmicfrontier.org",
@@ -696,7 +696,7 @@
     "2bc2350d-c019-5f66-949f-9fb28c454ed8",
     "c824d82c-fa4b-544c-97a2-dce001cae6bb"
    ],
-   "evidence": "9e1164236ae31e6e0e100666ee444bf38287ea4c561b44b4f62a6f42b379a7b4",
+   "evidence": "d06572c0b2f86f0d2376b147bc43dc149e5f193b0f466f74ba58bbc00f62f2d0",
    "action": "ignore",
    "reason": "Width step is a pad escape, via neck, feedback/indicator tap or documented rail class change (docs/POWER-ROUTING.md); run lengths and loads checked, no current-capacity concern",
    "reviewer": "Claude Fable 5.1 for matt@cosmicfrontier.org",
@@ -715,7 +715,7 @@
     "0ba07ee0-3802-53bc-b78b-4030c788161c",
     "655814bf-587e-5745-b66e-a477bf8ce09a"
    ],
-   "evidence": "27f56b865a72837546abca2eec3e960ef6d41738b3a0c0c1deb09a84907a0604",
+   "evidence": "3ec14a4b9b96c127cd000774166c441d8b00bddb4cc9b3de3cb5bb33a9a805b9",
    "action": "ignore",
    "reason": "Width step is a pad escape, via neck, feedback/indicator tap or documented rail class change (docs/POWER-ROUTING.md); run lengths and loads checked, no current-capacity concern",
    "reviewer": "Claude Fable 5.1 for matt@cosmicfrontier.org",
@@ -734,7 +734,7 @@
     "becc4fe3-1883-5017-89e7-c6e917379ca1",
     "d75e4dc9-c6d7-5710-8067-5e60fe26f3fd"
    ],
-   "evidence": "63eebbe247c78c0c7a2b3eb803e7251c93a130ebf82399fb3ba7ef87cf293938",
+   "evidence": "3101fd2ccd7899b68886b89d1a7f19b61595c22c0911bc16b8f331510ff41684",
    "action": "ignore",
    "reason": "Width step is a pad escape, via neck, feedback/indicator tap or documented rail class change (docs/POWER-ROUTING.md); run lengths and loads checked, no current-capacity concern",
    "reviewer": "Claude Fable 5.1 for matt@cosmicfrontier.org",
@@ -752,7 +752,7 @@
    "subjects": [
     "b9740c71-bedd-5cd7-b224-59f895ed724d"
    ],
-   "evidence": "2f1a2c26b23434c0725e0670822d085f3067bc4e68fae191099cd4484f1a6684",
+   "evidence": "c96bcce3cb6717f7bb36df7f1732a27e38666032084b745d38bc6e6f41aeafe0",
    "action": "ignore",
    "reason": "Endpoint overlaps the adjacent same-net 0.2 mm track envelope (0.14 mm stair-step offset at the U1 +3V3 pin tie); KiCad connectivity and DRC report 0 unconnected",
    "reviewer": "Claude Fable 5.1 for matt@cosmicfrontier.org",
@@ -771,7 +771,7 @@
     "20bed86a-367b-561f-8437-7af802b58c33",
     "f7f0b5e0-eb2a-5676-9352-291cbf97d78b"
    ],
-   "evidence": "8d1f85712bbbe33e9f5903460abde5df7c8da5469057fbc29dba5f3987487549",
+   "evidence": "2da76d986920c40dd7ab0927f052366437469f34c91760b9092de9e17742fd5d",
    "action": "ignore",
    "reason": "Width step is a pad escape, via neck, feedback/indicator tap or documented rail class change (docs/POWER-ROUTING.md); run lengths and loads checked, no current-capacity concern",
    "reviewer": "Claude Fable 5.1 for matt@cosmicfrontier.org",
@@ -789,7 +789,7 @@
    "subjects": [
     "eeb7d4b9-9def-5542-98b1-51ac7d09a3c1"
    ],
-   "evidence": "820d9d10461d4742730bcd5db867c7e45d43c85c4c804c3842235a020e629e11",
+   "evidence": "4d4ae7f4ee5ca4975a916e1253909014c854e264addeed309fab14dd6c52be54",
    "action": "ignore",
    "reason": "Endpoint overlaps the adjacent same-net 0.2 mm track envelope (0.14 mm stair-step offset at the U1 +3V3 pin tie); KiCad connectivity and DRC report 0 unconnected",
    "reviewer": "Claude Fable 5.1 for matt@cosmicfrontier.org",
@@ -808,7 +808,7 @@
     "15c6dbb0-002c-5f18-8d3a-0c222bb5e002",
     "e3ead472-8ea4-56c0-9b2e-6db1ef732855"
    ],
-   "evidence": "2cdbebc1fedd271309bf618235dea365406854dee01a775b8cb96368e30d973c",
+   "evidence": "57e9ad4a805dbcfbf4059490a90a6c5058cc5150acf9399b0bc2a6f96b6cb4a4",
    "action": "flag",
    "reason": "GDT2_OUT_P width step on a switching/battery path; deferred to the documented high-current battery/GDT path review (docs/POWER-ROUTING.md says it is still open)",
    "reviewer": "Claude Fable 5.1 for matt@cosmicfrontier.org",
@@ -827,7 +827,7 @@
     "0fd5290a-6620-5ee4-b3f2-b8c39c9be380",
     "15b418c1-3a7c-4852-9aa4-833e0ec24661"
    ],
-   "evidence": "ffea7b918b67bb57a9850af8804c859810e3059a3858adc41638ea422026f27f",
+   "evidence": "c172044d289f2f94639f63a3c79e5e62a6ec5e09deeefd28c67277e14e6d77a7",
    "action": "ignore",
    "reason": "Diagonal link from Q53.2 is shorter than the pad clearance, a cardinal escape would produce sub-0.2 mm stubs; 45-degree exit retained",
    "reviewer": "Claude Fable 5.1 for matt@cosmicfrontier.org",
@@ -846,7 +846,7 @@
     "1c54c2b2-9f0c-5884-9aa3-f6abb7086b2a",
     "a86bd858-b99a-5073-82ad-1a8ee4fe441a"
    ],
-   "evidence": "9745cbca50febb7cd875363f8519cc98aa997266d5c9e0eb664574f7f09761ff",
+   "evidence": "10f9505036b24827d6008424ac8a86bfd43bd5c927b4d40963c3a27e9e1141fa",
    "action": "ignore",
    "reason": "Width step is a pad escape, via neck, feedback/indicator tap or documented rail class change (docs/POWER-ROUTING.md); run lengths and loads checked, no current-capacity concern",
    "reviewer": "Claude Fable 5.1 for matt@cosmicfrontier.org",
@@ -866,7 +866,7 @@
     "67d71650-5020-52a2-a371-3b8fdc3698fd",
     "b0f035b4-82d2-5f26-8a2c-2294a5eec23c"
    ],
-   "evidence": "d478e710f2fb0bdc2b4d7e55c23b53fa71dea659d2a53f55ba4ae0d7032236a9",
+   "evidence": "4468c2b73b7d9d1c3746afc0c3abf7604fa5548e9962511d40636e1d58920b81",
    "action": "flag",
    "reason": "detour chain re-evaluated after the collinear merges exposed the full run; routing cleanup candidate (user review of wiggly traces)",
    "reviewer": "Claude Fable 5.1 for matt@cosmicfrontier.org",
@@ -891,7 +891,7 @@
     "fc3598f7-02ca-51f6-af8b-f3cff81f243e",
     "fc3598f7-02ca-51f6-af8b-f3cff81fe001"
    ],
-   "evidence": "f251872a30178944b4f1f64fa2364b229cf50c75853ba0f09ca04b6647c4f7ce",
+   "evidence": "2bec603998fdb0524b81c428af0d5ce26aad9240602d10587715dc9e526e81db",
    "action": "ignore",
    "reason": "1.55 mm jog around a pad/via; cosmetic",
    "reviewer": "Claude Fable 5.1 for matt@cosmicfrontier.org",
@@ -910,7 +910,7 @@
     "33c46ce8-a3ad-557d-9d59-1fe9f2d6cb89",
     "a4aeb77c-4044-51bb-a260-64f2abdb9b26"
    ],
-   "evidence": "dfee28d1dc73a5ba077d7ea0ee5b1abd7b3552ceda9235790829530266c3f555",
+   "evidence": "ddceee452d4e460140506c1acd0e343a29c92fd06a28fc2d72d18330824ba31f",
    "action": "ignore",
    "reason": "Width step is a pad escape, via neck, feedback/indicator tap or documented rail class change (docs/POWER-ROUTING.md); run lengths and loads checked, no current-capacity concern",
    "reviewer": "Claude Fable 5.1 for matt@cosmicfrontier.org",
@@ -934,7 +934,7 @@
     "e15e2111-1587-5ebb-a3ba-9d8c79002e72",
     "fb2998e7-856c-5103-a2a7-ca5959259be7"
    ],
-   "evidence": "f839e3ff883cd7f719aae5beb88e18670b5b6bcd93e462368367bcc162d01f67",
+   "evidence": "c892d9e78ceca8caeb1d587a7157a221ffe6116b909692938ad95e45912d6595",
    "action": "flag",
    "reason": "bend count chain re-evaluated after the collinear merges exposed the full run; routing cleanup candidate (user review of wiggly traces)",
    "reviewer": "Claude Fable 5.1 for matt@cosmicfrontier.org",
@@ -953,7 +953,7 @@
     "53337e42-2f61-53ae-a71a-a903a0eaf4f5",
     "90c826a1-519a-54b3-90c6-ee89e9ef86b7"
    ],
-   "evidence": "34d04e7f00bc546c53035922118a41a1a0244d90783f4ca8cf0598f87669068a",
+   "evidence": "812d94791c2080f42f4d3347ea279f07a5ef6158dba7c078e26d9e3102d8132c",
    "action": "ignore",
    "reason": "Width step is a pad escape, via neck, feedback/indicator tap or documented rail class change (docs/POWER-ROUTING.md); run lengths and loads checked, no current-capacity concern",
    "reviewer": "Claude Fable 5.1 for matt@cosmicfrontier.org",
@@ -972,7 +972,7 @@
     "5b74140d-9fc2-561b-81f2-5e1489c8a328",
     "82c801f4-acad-58b2-901b-d5c9c141d57f"
    ],
-   "evidence": "85b4223987c448a6a1163bb30cc19c865fd58cd9c31753a918ec10528fcb790e",
+   "evidence": "71ac9bfb43ca9c39d8d29007de4cba3e211c57614e22da56bfda4c426afcf7ce",
    "action": "ignore",
    "reason": "Width step is a pad escape, via neck, feedback/indicator tap or documented rail class change (docs/POWER-ROUTING.md); run lengths and loads checked, no current-capacity concern",
    "reviewer": "Claude Fable 5.1 for matt@cosmicfrontier.org",
@@ -991,7 +991,7 @@
     "0fe10dbc-b0b8-422d-99b3-ad6e25721c29",
     "a9f3c45c-7e0c-5c42-a187-fcda30a85172"
    ],
-   "evidence": "e62e9b15a9d3307e64e1e38014098859aba720c87e43ae2ff40a7e3e7b2b27f3",
+   "evidence": "fd20e9c724a7dedd568453bbcaea4af58a7ffe267d3ba4b852e3d9d685057cd7",
    "action": "ignore",
    "reason": "Cardinal escape from Q51.2 collides with the adjacent GND via/track (DRC short); 45-degree exit retained",
    "reviewer": "Claude Fable 5.1 for matt@cosmicfrontier.org",
@@ -1010,7 +1010,7 @@
     "02c97bad-13b5-502a-80fb-1ab40f6632da",
     "8c16677d-5491-51ad-a635-538d40ef2cf7"
    ],
-   "evidence": "1b59fa5eefaf2f5ec4b2123b6a4a9602bd0bbc2d3d463c52266fca8941fa09a6",
+   "evidence": "795efa0ac8f8f4cb1522233ac9214ca8a7f41f094e2aee04a238b118850f6f12",
    "action": "ignore",
    "reason": "Width step is a pad escape, via neck, feedback/indicator tap or documented rail class change (docs/POWER-ROUTING.md); run lengths and loads checked, no current-capacity concern",
    "reviewer": "Claude Fable 5.1 for matt@cosmicfrontier.org",
@@ -1035,7 +1035,7 @@
     "d2a7e0a2-dbd9-5ef5-b03b-7011d63a160d",
     "f39b6c22-faf3-517d-b0fb-1c8acc23f543"
    ],
-   "evidence": "1f5ad259eee3e1adfe71448513dae3ce9ebd3cde37641c83398a8d3bf1993a94",
+   "evidence": "6980998cd33d0a61d10a32600c8ab5a0bc9e8b442956067276642f9ef248d696",
    "action": "ignore",
    "reason": "1.55 mm jog around a pad/via; cosmetic",
    "reviewer": "Claude Fable 5.1 for matt@cosmicfrontier.org",
@@ -1054,7 +1054,7 @@
     "5ad6ffde-6e9e-58e8-b095-164dc85dfa80",
     "b15aa7ae-6634-5e8a-b089-fba3412357df"
    ],
-   "evidence": "7eebd1d6e8e137b00b1d3a8f29d4025b059e20ccd731982df68d6e44396d93a5",
+   "evidence": "dc2cf29f3ddf103338201173711f62905b5e57ad2bbcb8b1269b289a495a51b8",
    "action": "flag",
    "reason": "GDT1_OUT_P width step on a switching/battery path; deferred to the documented high-current battery/GDT path review (docs/POWER-ROUTING.md says it is still open)",
    "reviewer": "Claude Fable 5.1 for matt@cosmicfrontier.org",
@@ -1078,7 +1078,7 @@
     "df9dfdbd-f563-5a05-a4dc-e17aed61e614",
     "ffef5304-c319-5f0e-bf28-80bb19c23de3"
    ],
-   "evidence": "b8490763aa856c2647928d8792936ded43147cee1162dba401dcf8e4fb510a40",
+   "evidence": "7087b1f884581348f5dad76550d5aa66ab93537d4d6c376e69ca1b72fdeb0060",
    "action": "flag",
    "reason": "bend count on +5V_ADC; routing cleanup candidate (user review of wiggly traces)",
    "reviewer": "Claude Fable 5.1 for matt@cosmicfrontier.org",
@@ -1097,7 +1097,7 @@
     "6521bd9b-c143-5957-b9e1-0995349a22cb",
     "cd57e6ae-5318-53b3-8bfc-fa0076502af5"
    ],
-   "evidence": "0880e52ec9ebf586f16e3872f7332ed5b9cff64e89d69ea1ebbebbb50a62994d",
+   "evidence": "583f36b4ac553e08bb5ef7ea274f81943eb7759ae2991892a7553b10ae0cf276",
    "action": "ignore",
    "reason": "Width step is a pad escape, via neck, feedback/indicator tap or documented rail class change (docs/POWER-ROUTING.md); run lengths and loads checked, no current-capacity concern",
    "reviewer": "Claude Fable 5.1 for matt@cosmicfrontier.org",
@@ -1116,7 +1116,7 @@
     "032eb6ac-b6d5-5ecb-92f6-766eff66bc07",
     "e333832f-bc0f-5c86-a7ee-26372a575b70"
    ],
-   "evidence": "72c158a2e12efe09de6d1e8fe8d4f93d92e8d57abe3f2c5093b83054b14df7d3",
+   "evidence": "f3e96278f4b3df40b689d6c98eeb48ae30c91b09496548a12a74f8c92c7b4f41",
    "action": "ignore",
    "reason": "Width step is a pad escape, via neck, feedback/indicator tap or documented rail class change (docs/POWER-ROUTING.md); run lengths and loads checked, no current-capacity concern",
    "reviewer": "Claude Fable 5.1 for matt@cosmicfrontier.org",
@@ -1135,7 +1135,7 @@
     "21423804-1fb5-5cf1-99e5-ab4e15502cff",
     "6521bd9b-c143-5957-b9e1-0995349a22cb"
    ],
-   "evidence": "30f41d4cbe58e13c68d94727ae27c48cab761b7b1b6722eeefa5ad6060f358e0",
+   "evidence": "0d8cba547ce0a22aa17e461b9a09d062c36c96e3ba9bd701c596e7c8bf13e043",
    "action": "ignore",
    "reason": "Width step is a pad escape, via neck, feedback/indicator tap or documented rail class change (docs/POWER-ROUTING.md); run lengths and loads checked, no current-capacity concern",
    "reviewer": "Claude Fable 5.1 for matt@cosmicfrontier.org",
@@ -1154,7 +1154,7 @@
     "6d03b864-b522-4d39-99c4-a855684f3ff9",
     "d664f47c-7e6e-560d-be8b-29dab2d65931"
    ],
-   "evidence": "468a3d18418b352a5c8f7cd0767d50fc615b50ba348c6b4fc05545f07fa91495",
+   "evidence": "7dfd309beabb055758851402b569df091ad1bacee0e42d6c4520fc9a7d68fbd0",
    "action": "ignore",
    "reason": "2.5 mm trace leaving the large R529.1 pad; the cardinal escape would need a 90-degree corner on a wide trace, the diagonal exit is the cleaner shape",
    "reviewer": "Claude Fable 5.1 for matt@cosmicfrontier.org",
@@ -1173,7 +1173,7 @@
     "03e41ddd-5132-59ac-8957-39c54f6a60ff",
     "af6eabbd-8f79-52b7-8ec8-d79474bcfc91"
    ],
-   "evidence": "f96ba70ffb03ee8e927a7953bea39f410b1fc7a01b55ce96d500ee0388136ae6",
+   "evidence": "cc528c0629f8d17809642ab274b13a91c8bfb35d5cc4df3cdd84edcfff855969",
    "action": "ignore",
    "reason": "Width step is a pad escape, via neck, feedback/indicator tap or documented rail class change (docs/POWER-ROUTING.md); run lengths and loads checked, no current-capacity concern",
    "reviewer": "Claude Fable 5.1 for matt@cosmicfrontier.org",
@@ -1192,7 +1192,7 @@
     "53337e42-2f61-53ae-a71a-a903a0eaf4f5",
     "5db2022d-2743-56ee-8af2-57c7dde43471"
    ],
-   "evidence": "52d9841196c9fbf9c24749ee57c2509e6c56d6bb73bd30dfd6178de1f21d240f",
+   "evidence": "864c9c182a09166d8e62bfa28568da6a11f1ae237180f251e4232a77469a955b",
    "action": "ignore",
    "reason": "Width step is a pad escape, via neck, feedback/indicator tap or documented rail class change (docs/POWER-ROUTING.md); run lengths and loads checked, no current-capacity concern",
    "reviewer": "Claude Fable 5.1 for matt@cosmicfrontier.org",
@@ -1211,7 +1211,7 @@
     "53337e42-2f61-53ae-a71a-a903a0eaf4f5",
     "90c826a1-519a-54b3-90c6-ee89e9ef86b7"
    ],
-   "evidence": "1a143b3b7af4435f28cd7f570c679013a6775ed3522ff1442dabee13b24c47ce",
+   "evidence": "845a475415beb1a4b7c5fe55ed0e7a745f1e0ba1a8439499a1e38f6053bb2142",
    "action": "ignore",
    "reason": "Width step is a pad escape, via neck, feedback/indicator tap or documented rail class change (docs/POWER-ROUTING.md); run lengths and loads checked, no current-capacity concern",
    "reviewer": "Claude Fable 5.1 for matt@cosmicfrontier.org",
@@ -1230,7 +1230,7 @@
     "1f4e4062-c23c-568b-a4a2-4ca058cae002",
     "fbd9d0ce-4657-54ae-a290-5a96b0f16be7"
    ],
-   "evidence": "c698a153a547b90df2544a8a2395fd661b173132451851873f41c8c41ff7431d",
+   "evidence": "0508f17ffd840f385a8c8aa3d629a96ef8080050983552b6f43c407d76c51158",
    "action": "ignore",
    "reason": "Width step is a pad escape, via neck, feedback/indicator tap or documented rail class change (docs/POWER-ROUTING.md); run lengths and loads checked, no current-capacity concern",
    "reviewer": "Claude Fable 5.1 for matt@cosmicfrontier.org",
@@ -1249,7 +1249,7 @@
     "a12742c2-4673-5a51-a607-77bbf178d544",
     "e053e2d1-00ed-47d3-aaf2-8535ad404cd1"
    ],
-   "evidence": "cf0aa68ed90638fcff997cde840dfd5aa3459a1be01cae7acec2954fa197e6a3",
+   "evidence": "fd08f2b373af38a2a434712cbb2eccd0c09fd2d158e6e979216d5b756dc213fb",
    "action": "flag",
    "reason": "GND via sits tangent to / 0.1 mm into a SOT-23-5 GND pad; move the via 0.3 mm outward or accept as via-at-pad-edge with the assembler",
    "reviewer": "Claude Fable 5.1 for matt@cosmicfrontier.org",
@@ -1267,7 +1267,7 @@
    "subjects": [
     "533e8b89-7bea-5761-9dcf-7d65b7abe4a1"
    ],
-   "evidence": "3e22dd2d4bb222e5f88ede5d36de22d631edd8f9626eef7204c22d132771fdf0",
+   "evidence": "e2435caa5c6ada0c9e1c0557525aebf3a94df2f41ad4a772fca8eaa82bcb44a8",
    "action": "ignore",
    "reason": "Pad stub ends inside the GND pour, which the rule does not model; DRC reports 0 unconnected",
    "reviewer": "Claude Fable 5.1 for matt@cosmicfrontier.org",
@@ -1285,7 +1285,7 @@
    "subjects": [
     "bc53191c-f1c9-584b-9ac6-0f96828f6a72"
    ],
-   "evidence": "c607710c81089c97b9268ccce8b8c4ffe549a299357f2df6de5e1c882a1871f7",
+   "evidence": "d8bbcf018ca9075fc837ec54f303d71db9910bc493c17a37f938cdbc8aeacedd",
    "action": "ignore",
    "reason": "Endpoint overlaps the adjacent same-net 0.2 mm track envelope (0.14 mm stair-step offset at the U1 +3V3 pin tie); KiCad connectivity and DRC report 0 unconnected",
    "reviewer": "Claude Fable 5.1 for matt@cosmicfrontier.org",
@@ -1304,7 +1304,7 @@
     "03e41ddd-5132-59ac-8957-39c54f6a60ff",
     "e6d3acbf-e702-566e-bf1e-2a95d7a466f7"
    ],
-   "evidence": "bc73d298acaa1927dc7786b369db4462e9dc6567d5f796129a78cf0bbead64ff",
+   "evidence": "26c78954c531fa163357a547a050cc994c90358819c3ccd88d6d678f11b66a1f",
    "action": "ignore",
    "reason": "Width step is a pad escape, via neck, feedback/indicator tap or documented rail class change (docs/POWER-ROUTING.md); run lengths and loads checked, no current-capacity concern",
    "reviewer": "Claude Fable 5.1 for matt@cosmicfrontier.org",
@@ -1323,7 +1323,7 @@
     "0761f6b1-212c-5a01-90f4-7375f074d808",
     "d6db96ce-d863-55cd-ab23-26939872febf"
    ],
-   "evidence": "cca020a5f11672e11c11261840382bdbc41d934009c593a004d7a9e86918f090",
+   "evidence": "62a255848d64eb63d9bdca8457a1554c8f4ab0154fc9bb7c21dc74512c96b0b1",
    "action": "ignore",
    "reason": "Width step is a pad escape, via neck, feedback/indicator tap or documented rail class change (docs/POWER-ROUTING.md); run lengths and loads checked, no current-capacity concern",
    "reviewer": "Claude Fable 5.1 for matt@cosmicfrontier.org",
@@ -1342,7 +1342,7 @@
     "15c6dbb0-002c-5f18-8d3a-0c222bb5e002",
     "e3ead472-8ea4-56c0-9b2e-6db1ef732855"
    ],
-   "evidence": "5fce166a08bc8ccc94e304252f0f4ffd26b0015ca9b0e5ef746096636b44f2b2",
+   "evidence": "d9a04dfa92de39882cf7d7edc5494a7fdf6a09e8aadaf8a0a5e026dfe721cf51",
    "action": "flag",
    "reason": "GDT2_OUT_P width step on a switching/battery path; deferred to the documented high-current battery/GDT path review (docs/POWER-ROUTING.md says it is still open)",
    "reviewer": "Claude Fable 5.1 for matt@cosmicfrontier.org",
@@ -1361,7 +1361,7 @@
     "c225ef57-3aa8-5dda-b991-2f418acff3f4",
     "d4b29fdb-a4d0-5b66-9466-ba8b652cc6ca"
    ],
-   "evidence": "accfedd5c3a0c0d8413ff8b38f4af1f79d657df09ec27664b45b3c871b1137a8",
+   "evidence": "7d6dd5e8f1ddacd6dd0ebaddba26136b2a1437e63fc1bd7cda69a09aa76671d7",
    "action": "ignore",
    "reason": "Width step is a pad escape, via neck, feedback/indicator tap or documented rail class change (docs/POWER-ROUTING.md); run lengths and loads checked, no current-capacity concern",
    "reviewer": "Claude Fable 5.1 for matt@cosmicfrontier.org",
@@ -1383,7 +1383,7 @@
     "9dc8f9e2-7897-554b-bcb4-c34de2ecc0e8",
     "b7e86c47-d5ea-5836-ac92-a8aad1e6ef97"
    ],
-   "evidence": "85c50e0fc69435c3206a108d1b914e71a95607603cf06e9d9da2f958a7f231f7",
+   "evidence": "8f72f077572897e3492466ee2b73538e1ae5d546892d7ccc10c56845b31d18de",
    "action": "flag",
    "reason": "3.7 mm reversal on +12V_BIAS; routing cleanup candidate (user review of wiggly traces)",
    "reviewer": "Claude Fable 5.1 for matt@cosmicfrontier.org",
@@ -1402,7 +1402,7 @@
     "5b74140d-9fc2-561b-81f2-5e1489c8a328",
     "82c801f4-acad-58b2-901b-d5c9c141d57f"
    ],
-   "evidence": "51bfdabf8f0f2a129b8fa829f9887333a4bcc7b349a9104d0bd5be187d646089",
+   "evidence": "aaccaaa70da9e77fcc1ce28f7c2aca15736810d963a9ae4746be777091542de1",
    "action": "ignore",
    "reason": "Width step is a pad escape, via neck, feedback/indicator tap or documented rail class change (docs/POWER-ROUTING.md); run lengths and loads checked, no current-capacity concern",
    "reviewer": "Claude Fable 5.1 for matt@cosmicfrontier.org",
@@ -1421,7 +1421,7 @@
     "03e41ddd-5132-59ac-8957-39c54f6a60ff",
     "e6d3acbf-e702-566e-bf1e-2a95d7a466f7"
    ],
-   "evidence": "2d8501d8bff1f9bd056f7446b633cb5473ce7fb18defab9a1ac0a42a0dec9651",
+   "evidence": "2b08b5457cb44ae82ea483c09986534d487bfacab047e4cfd148af044da347e3",
    "action": "ignore",
    "reason": "Width step is a pad escape, via neck, feedback/indicator tap or documented rail class change (docs/POWER-ROUTING.md); run lengths and loads checked, no current-capacity concern",
    "reviewer": "Claude Fable 5.1 for matt@cosmicfrontier.org",
@@ -1440,7 +1440,7 @@
     "b15aa7ae-6634-5e8a-b089-fba3412357df",
     "bcdf1442-8faa-5207-bbc7-9f4df4d4e002"
    ],
-   "evidence": "adee0e1e7ecbe38593686c9c699d1355f159e8118a33fc7a9c21f02fb0ad0bf7",
+   "evidence": "4742cae774b3e60f3894452dc76a67f8815a17093f041e382292c38938ac7406",
    "action": "flag",
    "reason": "GDT1_OUT_P width step on a switching/battery path; deferred to the documented high-current battery/GDT path review (docs/POWER-ROUTING.md says it is still open)",
    "reviewer": "Claude Fable 5.1 for matt@cosmicfrontier.org",
@@ -1458,7 +1458,7 @@
    "subjects": [
     "120837b6-7105-5c14-b418-cccc8bf3eed2"
    ],
-   "evidence": "4e7b8808c0132c9dbcde874ef5aa5c72ee17ca225363db2a0c9824c9c9d7d3f6",
+   "evidence": "1e40bc382c3f0eae98eda06503e521d675a5fc93a611d7c74794d71c5580902a",
    "action": "ignore",
    "reason": "Endpoint overlaps the adjacent same-net 0.2 mm track envelope (0.14 mm stair-step offset at the U1 +3V3 pin tie); KiCad connectivity and DRC report 0 unconnected",
    "reviewer": "Claude Fable 5.1 for matt@cosmicfrontier.org",
@@ -1476,7 +1476,7 @@
    "subjects": [
     "120837b6-7105-5c14-b418-cccc8bf3eed2"
    ],
-   "evidence": "8093699723982ab2655b913751b0d417de148519624f65c2398672b3dc99484b",
+   "evidence": "f55f26417aa38fc0d81302d1780fd628b3475f99e8d3b7a3c528e90b2c6a8568",
    "action": "ignore",
    "reason": "0.1-0.2 mm stair-step/jog segment; cosmetic, connectivity confirmed by DRC",
    "reviewer": "Claude Fable 5.1 for matt@cosmicfrontier.org",
@@ -1495,7 +1495,7 @@
     "5857148f-354f-5b50-a1c7-d24a5baacabf",
     "ec4d790b-530d-56e7-821d-8d092bc7a154"
    ],
-   "evidence": "5a2190f85561c7db0548c09aba0ed90d5ff690d0270b7941a038d7821971a9b9",
+   "evidence": "139eed3e2b367a717bd9c5834d078913c085ccd4e68b85694c9b91ca17453bfe",
    "action": "ignore",
    "reason": "Width step is a pad escape, via neck, feedback/indicator tap or documented rail class change (docs/POWER-ROUTING.md); run lengths and loads checked, no current-capacity concern",
    "reviewer": "Claude Fable 5.1 for matt@cosmicfrontier.org",
@@ -1514,7 +1514,7 @@
     "26e10972-61ac-54c1-a676-a7983a4a28cb",
     "600c732a-0757-5c1a-beb0-6f914b165168"
    ],
-   "evidence": "5a7f50fb152c2f4a225757db35813f4875674fe743a08c66f9acc666ea6d8c7d",
+   "evidence": "234387e6512b90b9c50cc3f481a936e249eb8b8a398ee14f8d11e78bad115b1a",
    "action": "ignore",
    "reason": "Width step is a pad escape, via neck, feedback/indicator tap or documented rail class change (docs/POWER-ROUTING.md); run lengths and loads checked, no current-capacity concern",
    "reviewer": "Claude Fable 5.1 for matt@cosmicfrontier.org",
@@ -1533,7 +1533,7 @@
     "35cc5c7d-afba-5a03-aa40-4da3c73ee002",
     "8b3e916f-2f77-577f-bc3f-63da34814342"
    ],
-   "evidence": "4bb7b35e9b56c6275674b69388319beddfb6d13325e054962561be46b2882919",
+   "evidence": "7da48a5a17f669202a13d4ce0db3d83fff4387401d0bbfc3d90fa708cc5e8237",
    "action": "ignore",
    "reason": "Width step is a pad escape, via neck, feedback/indicator tap or documented rail class change (docs/POWER-ROUTING.md); run lengths and loads checked, no current-capacity concern",
    "reviewer": "Claude Fable 5.1 for matt@cosmicfrontier.org",
@@ -1552,7 +1552,7 @@
     "8c46a2a5-a599-5083-a64a-64ff5ca1979e",
     "d4560764-1690-5e80-99e7-acd92f2644d8"
    ],
-   "evidence": "1f446615671b74cf994ce9c1e009098ce05ce8e388f3f62d17b69722a8e58997",
+   "evidence": "2b79a4a20bdbfd1303ffac64f12836b8ce3f670775202c7d119308837009fb07",
    "action": "ignore",
    "reason": "Width step is a pad escape, via neck, feedback/indicator tap or documented rail class change (docs/POWER-ROUTING.md); run lengths and loads checked, no current-capacity concern",
    "reviewer": "Claude Fable 5.1 for matt@cosmicfrontier.org",
@@ -1571,7 +1571,7 @@
     "4f239341-125a-5f7a-8643-39e2342a4dda",
     "f6c2c3a1-0676-52dd-bdb6-c92d86d9d6bb"
    ],
-   "evidence": "32f5984c1e776ad7f41a5b4f33e9c9bf1dc47fd82198bdeb5d14065402e929f7",
+   "evidence": "47ef7a12531889d3ab6bc43ba292c6257fac5e352900b8c061030b720ab4ad36",
    "action": "ignore",
    "reason": "Width step is a pad escape, via neck, feedback/indicator tap or documented rail class change (docs/POWER-ROUTING.md); run lengths and loads checked, no current-capacity concern",
    "reviewer": "Claude Fable 5.1 for matt@cosmicfrontier.org",
@@ -1595,7 +1595,7 @@
     "efee9f77-591b-5d33-ac3f-926d068a9b90",
     "f04416eb-a7a0-5186-b0be-8f1ebf0f21bf"
    ],
-   "evidence": "ff5e49c9c87361489aa380f0a0f36099e1dd88829a3ad0c001ce5755941e10e8",
+   "evidence": "35e4bc7e3642c5d70ad28ec2b467001fe1285f0c328ea88c71af5a419dcbd0e0",
    "action": "flag",
    "reason": "detour on CT2_PHASE; routing cleanup candidate (user review of wiggly traces)",
    "reviewer": "Claude Fable 5.1 for matt@cosmicfrontier.org",
@@ -1614,7 +1614,7 @@
     "8367aeeb-c455-5b9b-8742-32f35bfe7ef1",
     "985b5f7e-8d5c-58c0-aba3-9e00780374f1"
    ],
-   "evidence": "b2684d0a9e6fee893b248213fa672c0b5caf303b20613a9dd30aa1451361cbae",
+   "evidence": "4152b8f5b19ab4ff2cccd8d2c8fb24a0690ad3e99654e4f1d08f8d0d2eecc35b",
    "action": "ignore",
    "reason": "Width step is a pad escape, via neck, feedback/indicator tap or documented rail class change (docs/POWER-ROUTING.md); run lengths and loads checked, no current-capacity concern",
    "reviewer": "Claude Fable 5.1 for matt@cosmicfrontier.org",
@@ -1633,7 +1633,7 @@
     "6521bd9b-c143-5957-b9e1-0995349a22cb",
     "cd57e6ae-5318-53b3-8bfc-fa0076502af5"
    ],
-   "evidence": "32dc8c48598246ccf20201feb4c779c368db4adaa2df18eba4a06e65edeecd1e",
+   "evidence": "2e89940daa3d98dd3f46fee8b17d9d1d5014fd0167f34a09f1fef5087467788c",
    "action": "ignore",
    "reason": "Width step is a pad escape, via neck, feedback/indicator tap or documented rail class change (docs/POWER-ROUTING.md); run lengths and loads checked, no current-capacity concern",
    "reviewer": "Claude Fable 5.1 for matt@cosmicfrontier.org",
@@ -1652,7 +1652,7 @@
     "2a665973-d0f2-58b5-90a3-f1c7e757ffbb",
     "48c1ee46-3575-5b50-ab7a-4f8d1892412e"
    ],
-   "evidence": "8f9149dbd046ef91812345434beeddd4e787a16f172101a838d85fde3db82e4a",
+   "evidence": "b7c07ba02e1963a3d234862ed2053dc6121c3b407ff3e962e7b2da4b8de64b18",
    "action": "ignore",
    "reason": "Width step is a pad escape, via neck, feedback/indicator tap or documented rail class change (docs/POWER-ROUTING.md); run lengths and loads checked, no current-capacity concern",
    "reviewer": "Claude Fable 5.1 for matt@cosmicfrontier.org",
@@ -1671,7 +1671,7 @@
     "d8c1523b-9e6a-5a77-a8e4-4c8ce9e2e415",
     "eb4352a8-f811-5e12-9c05-457045384a61"
    ],
-   "evidence": "19168a14d0197709ca3423a5438f9ee998423c76ff837ab634cbacd9f87ba8e6",
+   "evidence": "cad812a124ad3e788c877efce8388567d9c7ca105cc73a6dae30773dbc1885ea",
    "action": "ignore",
    "reason": "Width step is a pad escape, via neck, feedback/indicator tap or documented rail class change (docs/POWER-ROUTING.md); run lengths and loads checked, no current-capacity concern",
    "reviewer": "Claude Fable 5.1 for matt@cosmicfrontier.org",
@@ -1693,7 +1693,7 @@
     "bd1bf713-9bb2-523b-af78-7c52695fb288",
     "d5aa6e61-16a7-5694-9960-c387cc5bb500"
    ],
-   "evidence": "1c7b652f47c73bd99080ed0b45201442d98346be1baaf43ae47ad5105cbeae45",
+   "evidence": "4351313f0b465206067001040c59dbe1cce5e2e3bea404f8901e07041c325be8",
    "action": "flag",
    "reason": "detour on -5V_CT; routing cleanup candidate (user review of wiggly traces)",
    "reviewer": "Claude Fable 5.1 for matt@cosmicfrontier.org",
@@ -1712,7 +1712,7 @@
     "550b670c-4e3a-4fb4-8907-ff39f2c986e7",
     "ba8839bb-0fbe-5283-924e-8f85bdc1e747"
    ],
-   "evidence": "c2f129b05cd72477fbcf0d5450dd42f9c776c3764754d4a04e91e3f1dacf7b1d",
+   "evidence": "7bafce08a40dd47eb970b6528655ebdfd85679b2125e4f4e706f7f8c8f65dbf0",
    "action": "flag",
    "reason": "GND via sits tangent to / 0.1 mm into a SOT-23-5 GND pad; move the via 0.3 mm outward or accept as via-at-pad-edge with the assembler",
    "reviewer": "Claude Fable 5.1 for matt@cosmicfrontier.org",
@@ -1731,7 +1731,7 @@
     "39a9b60e-1331-50a8-8d9a-a4d58c916f16",
     "9151d47c-c85e-53f8-89ea-6bb08171d3d2"
    ],
-   "evidence": "fe88fd53630daaca78b226d0add596da0099291fcf8a41d1975c4a492dfb0cb8",
+   "evidence": "4694f9ecda6a47c4591bfb39f0ebf92803ded800d8d3111eb84a35691569fc1e",
    "action": "ignore",
    "reason": "Width step is a pad escape, via neck, feedback/indicator tap or documented rail class change (docs/POWER-ROUTING.md); run lengths and loads checked, no current-capacity concern",
    "reviewer": "Claude Fable 5.1 for matt@cosmicfrontier.org",
@@ -1750,7 +1750,7 @@
     "797bc410-304a-5592-8030-605b25527595",
     "7f45f067-cf55-526a-aa47-95ec51bcbe16"
    ],
-   "evidence": "1862739393c9e258f2c8259b380b42c9daca1bebf4f9c881513c6bfd8eeca44a",
+   "evidence": "37b7562b679c3f9d6ee1e0c9484c933f59dd35a4e86d5f1256de7d700e2db278",
    "action": "ignore",
    "reason": "Width step is a pad escape, via neck, feedback/indicator tap or documented rail class change (docs/POWER-ROUTING.md); run lengths and loads checked, no current-capacity concern",
    "reviewer": "Claude Fable 5.1 for matt@cosmicfrontier.org",
@@ -1769,7 +1769,7 @@
     "21423804-1fb5-5cf1-99e5-ab4e15502cff",
     "6521bd9b-c143-5957-b9e1-0995349a22cb"
    ],
-   "evidence": "75067a55fcf0e1494c32037d3cb1a45d6a8a239381f0ea89c21b439013a8029d",
+   "evidence": "9dc0958020d8e2f4a4f2ea5d5bec18eb72d3a4dbea9f1e33ecbeb8aa0d90b79f",
    "action": "ignore",
    "reason": "Width step is a pad escape, via neck, feedback/indicator tap or documented rail class change (docs/POWER-ROUTING.md); run lengths and loads checked, no current-capacity concern",
    "reviewer": "Claude Fable 5.1 for matt@cosmicfrontier.org",
@@ -1793,7 +1793,7 @@
     "e196bd58-ab8b-574d-a0ee-4da71ba32a30",
     "fc297012-7ac8-5488-bf0f-32094105002c"
    ],
-   "evidence": "ba8ebdd3750fe0368b39df0306b25ba0bcc71f4e38232c02f3f2b945a5270e0b",
+   "evidence": "e5a0585935cf56a93103c9e0325f96e26e59bda8d254fe2ac44a26cf8493ec71",
    "action": "flag",
    "reason": "bend count on CT1_PHASE; routing cleanup candidate (user review of wiggly traces)",
    "reviewer": "Claude Fable 5.1 for matt@cosmicfrontier.org",
@@ -1812,7 +1812,7 @@
     "33c46ce8-a3ad-557d-9d59-1fe9f2d6cb89",
     "a4aeb77c-4044-51bb-a260-64f2abdb9b26"
    ],
-   "evidence": "8bfe027b31d4f1f3cf953642d2fd5f80925d6000843b2c89feb58cfa89383876",
+   "evidence": "db5ae219666aad136880e9f19fe298cad307f5bb451ab2f4d6c10cd2fe3e9491",
    "action": "ignore",
    "reason": "Width step is a pad escape, via neck, feedback/indicator tap or documented rail class change (docs/POWER-ROUTING.md); run lengths and loads checked, no current-capacity concern",
    "reviewer": "Claude Fable 5.1 for matt@cosmicfrontier.org",
@@ -1831,7 +1831,7 @@
     "5d2e6e84-68eb-488e-bdde-4e0afe9b5379",
     "bce63182-cc1e-5ac1-8244-2da28b0d47ed"
    ],
-   "evidence": "df6bdac324b82a0b8119f2b2d99ad70b985e071555e43a750649781f273b16b6",
+   "evidence": "fea0c2d5065596c34f1d584496b6de1bb4383a2d896f82ccda42c66f0442552a",
    "action": "ignore",
    "reason": "Cardinal escape from C15.1 collides with the adjacent GND via/track (DRC short); 45-degree exit retained",
    "reviewer": "Claude Fable 5.1 for matt@cosmicfrontier.org",
@@ -1853,7 +1853,7 @@
     "7de91ce1-65a9-5489-ad73-24b78969e76f",
     "bf677e88-ba6d-5bc6-b576-646f17181a20"
    ],
-   "evidence": "1bdadf09402d6d68bdce67661878de043bdd753d644f4182673b8db8457c889c",
+   "evidence": "015ed86f35677f49c4bb2926d83c1ea3ca951d56dfc06fb36156e234f2025fb7",
    "action": "flag",
    "reason": "detour on CT2_RECT_DRIVE; routing cleanup candidate (user review of wiggly traces)",
    "reviewer": "Claude Fable 5.1 for matt@cosmicfrontier.org",
@@ -1877,7 +1877,7 @@
     "e196bd58-ab8b-574d-a0ee-4da71ba32a30",
     "fc297012-7ac8-5488-bf0f-32094105002c"
    ],
-   "evidence": "f59f6c0ebe5742efc958ca2cf3fa1a4cc15507226a2e9ccb8e223cb576d7693f",
+   "evidence": "bee7a3d66fbde2241512810fd755f413d2e5cf6eaff92e8a84e90ad44ae7f669",
    "action": "flag",
    "reason": "detour on CT1_PHASE; routing cleanup candidate (user review of wiggly traces)",
    "reviewer": "Claude Fable 5.1 for matt@cosmicfrontier.org",
@@ -1896,7 +1896,7 @@
     "b15aa7ae-6634-5e8a-b089-fba3412357df",
     "bcdf1442-8faa-5207-bbc7-9f4df4d4e002"
    ],
-   "evidence": "d1ec9acab5de7a24de3d752917199f4bd8748fe5fe2f0008fd46efbbe2fe1d84",
+   "evidence": "dd7b9532e46bbd6a140f198c5924fd0c7932e91f180f9f6dc667dcb48074edd5",
    "action": "flag",
    "reason": "GDT1_OUT_P width step on a switching/battery path; deferred to the documented high-current battery/GDT path review (docs/POWER-ROUTING.md says it is still open)",
    "reviewer": "Claude Fable 5.1 for matt@cosmicfrontier.org",
@@ -1915,7 +1915,7 @@
     "699abefb-6cbf-5e4c-9094-3a8d1a3aeacc",
     "fc3598f7-02ca-51f6-af8b-f3cff81f243e"
    ],
-   "evidence": "9a6bfbc5cceec46c913160cc9e262f9f118438c1d6d9911bf543ebc91c331df3",
+   "evidence": "02b7fb9029400dbf5dba096642835129f07d47137f8e1194e937a2e753bbeff1",
    "action": "ignore",
    "reason": "Width step is a pad escape, via neck, feedback/indicator tap or documented rail class change (docs/POWER-ROUTING.md); run lengths and loads checked, no current-capacity concern",
    "reviewer": "Claude Fable 5.1 for matt@cosmicfrontier.org",
@@ -1934,7 +1934,7 @@
     "797bc410-304a-5592-8030-605b25527595",
     "7f45f067-cf55-526a-aa47-95ec51bcbe16"
    ],
-   "evidence": "0418cc79d235c52a2f914080c0495a5bc27e69fdaba8b327d20ffb737546a894",
+   "evidence": "416209e0e8e0d494451dccdc71700f5f937830024db96e0498e87c07144d1c29",
    "action": "ignore",
    "reason": "Width step is a pad escape, via neck, feedback/indicator tap or documented rail class change (docs/POWER-ROUTING.md); run lengths and loads checked, no current-capacity concern",
    "reviewer": "Claude Fable 5.1 for matt@cosmicfrontier.org",
@@ -1952,7 +1952,7 @@
    "subjects": [
     "80cf4ba9-5e7a-5332-8b72-d4472d936a92"
    ],
-   "evidence": "d61339302fc68101d9ec2e3c7c560fe10a733e63c8c1b28a44055724d594d393",
+   "evidence": "d99bd8d0ed2d160a25e1c52661b7b84a1adbdd6acd7223bed0ef88ee8787ef76",
    "action": "ignore",
    "reason": "0.1-0.2 mm stair-step/jog segment; cosmetic, connectivity confirmed by DRC",
    "reviewer": "Claude Fable 5.1 for matt@cosmicfrontier.org",
@@ -1971,7 +1971,7 @@
     "53337e42-2f61-53ae-a71a-a903a0eaf4f5",
     "5db2022d-2743-56ee-8af2-57c7dde43471"
    ],
-   "evidence": "369f5907b4e0892ff9971c7351490724f2b519c7ed58b1367baaca37cd2c45e7",
+   "evidence": "c568e08a49ec1c7dd9087e2c980b726467508e33c932087d481d777015ba3dab",
    "action": "ignore",
    "reason": "Width step is a pad escape, via neck, feedback/indicator tap or documented rail class change (docs/POWER-ROUTING.md); run lengths and loads checked, no current-capacity concern",
    "reviewer": "Claude Fable 5.1 for matt@cosmicfrontier.org",
@@ -1996,7 +1996,7 @@
     "c435ad76-e71f-5ac6-9417-e18741b4ddfc",
     "d664f47c-7e6e-560d-be8b-29dab2d65931"
    ],
-   "evidence": "4bebcc75f04a93f5337bb4b3c57baee2300a147cbe65e6dafed68f3e823904e9",
+   "evidence": "6790fca2446fafbaaf22f615cd668d3d56ff5d6c2e5228e02d6f62e13321d091",
    "action": "flag",
    "reason": "4.2 mm reversal on GDT1_L_SW; routing cleanup candidate (user review of wiggly traces)",
    "reviewer": "Claude Fable 5.1 for matt@cosmicfrontier.org",
@@ -2021,7 +2021,7 @@
     "e4b46137-e6ce-5682-830c-2539f987d38b",
     "eb4352a8-f811-5e12-9c05-457045384a61"
    ],
-   "evidence": "8a48eb39c758552733c87203b98fe7f8e0f7badd00e90fc0a2226b17d3d7ee21",
+   "evidence": "e1203c25b315951c17ba8b40c5e4247218d3719d79dab0867ab1a17e6978f388",
    "action": "ignore",
    "reason": "1.55 mm jog around a pad/via; cosmetic",
    "reviewer": "Claude Fable 5.1 for matt@cosmicfrontier.org",
@@ -2040,7 +2040,7 @@
     "ba4193c4-7f34-56be-a400-6b563111a7e2",
     "d2a7e0a2-dbd9-5ef5-b03b-7011d63a160d"
    ],
-   "evidence": "95604a19eadc1162f3aa51c337fad1000502ee0dc90a52b357700daab8b10aeb",
+   "evidence": "69a11e43f50ac350f1bf407a9fb439c40fb2fc54fa02d1c521df4c81f9dc1275",
    "action": "flag",
    "reason": "acute junction on GDT1_L_SW; routing cleanup candidate (user review of wiggly traces)",
    "reviewer": "Claude Fable 5.1 for matt@cosmicfrontier.org",
@@ -2059,7 +2059,7 @@
     "41a2c7ca-b450-5680-be9c-ae99a38d2174",
     "529f24ee-15e2-5422-93d7-c0b246ec7078"
    ],
-   "evidence": "b1479485a81b07f4b7aa7f57dbbed028816cbc47d2c70a557a24878c21b1ecc8",
+   "evidence": "3c821cdd5585473bf4474332ad8520e3b92fa6266b9b7e2911cbeed78c02a113",
    "action": "ignore",
    "reason": "Width step is a pad escape, via neck, feedback/indicator tap or documented rail class change (docs/POWER-ROUTING.md); run lengths and loads checked, no current-capacity concern",
    "reviewer": "Claude Fable 5.1 for matt@cosmicfrontier.org",
@@ -2078,7 +2078,7 @@
     "4f239341-125a-5f7a-8643-39e2342a4dda",
     "f6c2c3a1-0676-52dd-bdb6-c92d86d9d6bb"
    ],
-   "evidence": "b67ddc2ef9d5925bce0bcb7cebc2b5914bd29617b3c0922e8cbf7d3fa0d03404",
+   "evidence": "805fed6582dfc78608fe21d9ec9936fe8de75fa425ea8ddcb959cd0c721c6ad4",
    "action": "ignore",
    "reason": "Width step is a pad escape, via neck, feedback/indicator tap or documented rail class change (docs/POWER-ROUTING.md); run lengths and loads checked, no current-capacity concern",
    "reviewer": "Claude Fable 5.1 for matt@cosmicfrontier.org",
@@ -2097,7 +2097,7 @@
     "75e935eb-3166-5d28-b022-0f632f9cbc42",
     "ad7e4552-7c74-528e-ab20-f88abf1bd12f"
    ],
-   "evidence": "390f6039086f6174387cbefc66f8afb375fc90031247444567e1e4444bd425d0",
+   "evidence": "f51ea2f06ff9a99049b06c2a176626d95d1bd5b64f24a17c7da52f38f5a26e19",
    "action": "flag",
    "reason": "VBAT_24V width step on a switching/battery path; deferred to the documented high-current battery/GDT path review (docs/POWER-ROUTING.md says it is still open)",
    "reviewer": "Claude Fable 5.1 for matt@cosmicfrontier.org",
@@ -2116,7 +2116,7 @@
     "797bc410-304a-5592-8030-605b25527595",
     "7d532d70-d981-587a-9b65-28526b0b7524"
    ],
-   "evidence": "81ca8b8e89ff9988dbfe57de337a4657b0398690c781b1fb2010bf8861e84270",
+   "evidence": "4c17bda8d55f6b4935a54370433f93f840ea6173e7d821e90fa148a0d49050d4",
    "action": "ignore",
    "reason": "Width step is a pad escape, via neck, feedback/indicator tap or documented rail class change (docs/POWER-ROUTING.md); run lengths and loads checked, no current-capacity concern",
    "reviewer": "Claude Fable 5.1 for matt@cosmicfrontier.org",
@@ -2134,7 +2134,7 @@
    "subjects": [
     "1f274f0c-b298-5804-a924-abcdf2f49993"
    ],
-   "evidence": "7e482294db2d54e8547a37e6f64e600fc126e4459a31902112fe5ffd38ea1e3c",
+   "evidence": "12cc9e1e35e7531c18710ab8b0baec0d3fcddcdd3b0066f14a2a3aca6e6691e0",
    "action": "ignore",
    "reason": "0.1-0.2 mm stair-step/jog segment; cosmetic, connectivity confirmed by DRC",
    "reviewer": "Claude Fable 5.1 for matt@cosmicfrontier.org",
@@ -2158,7 +2158,7 @@
     "c7efc5ec-71e0-5ae9-8c53-a43a646c5314",
     "df99ee69-14b6-55a8-a17a-c34a9581c372"
    ],
-   "evidence": "10acb5f0ec617591dc90a28111f34f493d914566eb427ee703f976203fa0e341",
+   "evidence": "b6c22f259c98484c59b9f5b4ed9944fed3cf16e6890220e0d2ff1be71a599aa1",
    "action": "flag",
    "reason": "bend count chain re-evaluated after the collinear merges exposed the full run; routing cleanup candidate (user review of wiggly traces)",
    "reviewer": "Claude Fable 5.1 for matt@cosmicfrontier.org",
@@ -2177,7 +2177,7 @@
     "160bb69e-54e7-50e2-ab80-46786e51ad9a",
     "9289ae97-ca78-59c8-bf96-918536983a0e"
    ],
-   "evidence": "864227d89c85247827ee30bf3d832950dd8bd1b2b2d9f2d8c6e968602347b399",
+   "evidence": "7ca6216d48f8d087099dffed2fc3975256216edf39fd2005af6649755d08ac4a",
    "action": "ignore",
    "reason": "Width step is a pad escape, via neck, feedback/indicator tap or documented rail class change (docs/POWER-ROUTING.md); run lengths and loads checked, no current-capacity concern",
    "reviewer": "Claude Fable 5.1 for matt@cosmicfrontier.org",
@@ -2196,7 +2196,7 @@
     "b88f7133-90f3-5bf1-b32f-0016f241ed0e",
     "f6c2c3a1-0676-52dd-bdb6-c92d86d9d6bb"
    ],
-   "evidence": "f99841bd2e816c9eb4ed7ecec2b0acd4f83c00188675d94c0e7dc3f7ed5841c8",
+   "evidence": "1241b383323dc89e6f76e94a9edcc1b3d746a908f3aec02206568ab1cd52694c",
    "action": "ignore",
    "reason": "Width step is a pad escape, via neck, feedback/indicator tap or documented rail class change (docs/POWER-ROUTING.md); run lengths and loads checked, no current-capacity concern",
    "reviewer": "Claude Fable 5.1 for matt@cosmicfrontier.org",
@@ -2215,7 +2215,7 @@
     "5c88d50c-d488-515d-8dce-2619a8944cf4",
     "cc5d242a-78d6-5ca1-82a9-8a5078fcfbc6"
    ],
-   "evidence": "714a753b3cb3f79b820c9b1e7cd99d8895199f5559d76e58ec4d58e3efb31fbb",
+   "evidence": "cfc89113c0cc891b59fc99f472624d0318ebd6730c1dddad71130dccee326ec4",
    "action": "ignore",
    "reason": "Width step is a pad escape, via neck, feedback/indicator tap or documented rail class change (docs/POWER-ROUTING.md); run lengths and loads checked, no current-capacity concern",
    "reviewer": "Claude Fable 5.1 for matt@cosmicfrontier.org",
@@ -2234,7 +2234,7 @@
     "02c97bad-13b5-502a-80fb-1ab40f6632da",
     "8c16677d-5491-51ad-a635-538d40ef2cf7"
    ],
-   "evidence": "8be996876ab63c85bf383e0686477261e6c9e26339bfd508b4c223270d2b9ec4",
+   "evidence": "a544e801ac7f09940d037cefea0d0e6d08b1934caa1edc42fd7912b8ba8c4dcc",
    "action": "ignore",
    "reason": "Width step is a pad escape, via neck, feedback/indicator tap or documented rail class change (docs/POWER-ROUTING.md); run lengths and loads checked, no current-capacity concern",
    "reviewer": "Claude Fable 5.1 for matt@cosmicfrontier.org",
@@ -2253,7 +2253,7 @@
     "55ea11bd-2b0c-5b9b-afe3-fb0348e274d6",
     "8943cecc-e493-5935-a143-3a0910816066"
    ],
-   "evidence": "91e1e5e7f97f21d88c5e8b9c2865be7e1b3ba8bd0228951a07d1bea3b996ebd1",
+   "evidence": "3a3b19d9d175014429eb9e8c1bf221f27a3a8652c01d9f8d99a6bfbd62f9bc61",
    "action": "ignore",
    "reason": "Width step is a pad escape, via neck, feedback/indicator tap or documented rail class change (docs/POWER-ROUTING.md); run lengths and loads checked, no current-capacity concern",
    "reviewer": "Claude Fable 5.1 for matt@cosmicfrontier.org",
@@ -2272,7 +2272,7 @@
     "2523292e-aa10-5400-8626-06361e96a581",
     "27122aa2-3c6c-54ef-af07-4bffdac83a46"
    ],
-   "evidence": "1dff00dad1641a4a001745fad67d782d4cb5495c64900321c7075c45619fabcd",
+   "evidence": "b431be24819e5a6bd72d07e7adf8d9d801898ebfea08e1bb5bb859490f2d129d",
    "action": "ignore",
    "reason": "Width step is a pad escape, via neck, feedback/indicator tap or documented rail class change (docs/POWER-ROUTING.md); run lengths and loads checked, no current-capacity concern",
    "reviewer": "Claude Fable 5.1 for matt@cosmicfrontier.org",
@@ -2297,7 +2297,7 @@
     "c573ac7c-3c72-541e-bc1d-f888ba44e001",
     "c573ac7c-3c72-541e-bc1d-f888ba44e002"
    ],
-   "evidence": "d53a7cb1417341faba61636c3c1868d02a2ee48a02debd352977b8fbd4785d7a",
+   "evidence": "bc2815bd44ff78f74088fa4fa0352c4145928fad2250a5b22048b4dfcc684a99",
    "action": "ignore",
    "reason": "1.55 mm jog around a pad/via; cosmetic",
    "reviewer": "Claude Fable 5.1 for matt@cosmicfrontier.org",
@@ -2316,7 +2316,7 @@
     "1c54c2b2-9f0c-5884-9aa3-f6abb7086b2a",
     "a86bd858-b99a-5073-82ad-1a8ee4fe441a"
    ],
-   "evidence": "6b2ec8cd6839ee9c914e91305cfff0a22ae112c3b89cfb431e6e87aaf3451d6d",
+   "evidence": "817f4ee0b9f96f9af723883f07fcff819d15298693edacc23857e90441676c94",
    "action": "ignore",
    "reason": "Width step is a pad escape, via neck, feedback/indicator tap or documented rail class change (docs/POWER-ROUTING.md); run lengths and loads checked, no current-capacity concern",
    "reviewer": "Claude Fable 5.1 for matt@cosmicfrontier.org",
@@ -2335,7 +2335,7 @@
     "75e935eb-3166-5d28-b022-0f632f9cbc42",
     "ad7e4552-7c74-528e-ab20-f88abf1bd12f"
    ],
-   "evidence": "c53a93f884d829e2d9dec18626f9f85913136815713384ba72a0c8a0bb847b0e",
+   "evidence": "9b8a0648320ceefcf03b0f51ec6188598ec10fb21e580306bc1cc54ae31092f9",
    "action": "flag",
    "reason": "VBAT_24V width step on a switching/battery path; deferred to the documented high-current battery/GDT path review (docs/POWER-ROUTING.md says it is still open)",
    "reviewer": "Claude Fable 5.1 for matt@cosmicfrontier.org",
@@ -2354,7 +2354,7 @@
     "5e1ee41d-4545-54bd-be92-cf4d8c8a4f6b",
     "c573ac7c-3c72-541e-bc1d-f888ba444364"
    ],
-   "evidence": "a6bacb594cda409d0b89acbfda33578428445cc1a90e8cd30a4e1fa56a64fb57",
+   "evidence": "cb47183d39272c87d615d2952c42bfe0e155ecfc90ca79cc7513a04d9c558602",
    "action": "ignore",
    "reason": "Width step is a pad escape, via neck, feedback/indicator tap or documented rail class change (docs/POWER-ROUTING.md); run lengths and loads checked, no current-capacity concern",
    "reviewer": "Claude Fable 5.1 for matt@cosmicfrontier.org",
@@ -2373,7 +2373,7 @@
     "8c46a2a5-a599-5083-a64a-64ff5ca1979e",
     "d4560764-1690-5e80-99e7-acd92f2644d8"
    ],
-   "evidence": "28d57727e89df72612de5168e2ca26b130ce4f9580a3d513ee16a2f4fa422cf7",
+   "evidence": "79f77815240074ff083eafc59b329f6b6c182e8799a20bb3723ff00eec0dc69e",
    "action": "ignore",
    "reason": "Width step is a pad escape, via neck, feedback/indicator tap or documented rail class change (docs/POWER-ROUTING.md); run lengths and loads checked, no current-capacity concern",
    "reviewer": "Claude Fable 5.1 for matt@cosmicfrontier.org",
@@ -2397,7 +2397,7 @@
     "aedd39e5-5071-5db8-9675-d17a4135b37a",
     "f11d541a-05db-5041-93f1-2a35ceef316a"
    ],
-   "evidence": "451bbadc4fb0ef9d0cd0caafacb6d3afbf93d2f432b0f89108dcd94c7cbc00f2",
+   "evidence": "51c6ec8b63a0db4ad8af36870b1b4ba4782016ee00253ddac8b71f16a15f412a",
    "action": "flag",
    "reason": "bend count chain re-evaluated after the collinear merges exposed the full run; routing cleanup candidate (user review of wiggly traces)",
    "reviewer": "Claude Fable 5.1 for matt@cosmicfrontier.org",
@@ -2416,7 +2416,7 @@
     "6082871f-7a67-5545-844f-ba83a1de957c",
     "a2da533f-1f15-51fe-a88f-df6495be050f"
    ],
-   "evidence": "30aa9bcf74d359daa960125a281ebb3d14cf9f6096c0431bd1f60937df508ab5",
+   "evidence": "90384e8bbcae5f70bf47266825d64261c08b35b3c97e8772e126adc2aa32be88",
    "action": "ignore",
    "reason": "Width step is a pad escape, via neck, feedback/indicator tap or documented rail class change (docs/POWER-ROUTING.md); run lengths and loads checked, no current-capacity concern",
    "reviewer": "Claude Fable 5.1 for matt@cosmicfrontier.org",
@@ -2435,7 +2435,7 @@
     "5d4d02d6-fc1a-5a3c-b087-46f1d567ad12",
     "9dc8f9e2-7897-554b-bcb4-c34de2ecc0e8"
    ],
-   "evidence": "81c4553c5276f53c1d60c435697a2e9014fd0f1f1ce3d5a34f3ae9df83199b24",
+   "evidence": "b120a6d7d22ad0277b6df59d07980e939ae05d98ee00939e6773f4ec7284474b",
    "action": "ignore",
    "reason": "Width step is a pad escape, via neck, feedback/indicator tap or documented rail class change (docs/POWER-ROUTING.md); run lengths and loads checked, no current-capacity concern",
    "reviewer": "Claude Fable 5.1 for matt@cosmicfrontier.org",
@@ -2454,7 +2454,7 @@
     "5ad6ffde-6e9e-58e8-b095-164dc85dfa80",
     "b15aa7ae-6634-5e8a-b089-fba3412357df"
    ],
-   "evidence": "f9ecc3acd7c21df47bf8bdcbdc89d3920611e8203e270d72d63a847864624f38",
+   "evidence": "ac6ab48ed6c66fbec9245426d6a6a0aaa2c0ad9a1fb4850d8904d1a9e3ff4ae9",
    "action": "flag",
    "reason": "GDT1_OUT_P width step on a switching/battery path; deferred to the documented high-current battery/GDT path review (docs/POWER-ROUTING.md says it is still open)",
    "reviewer": "Claude Fable 5.1 for matt@cosmicfrontier.org",
@@ -2473,7 +2473,7 @@
     "62fc2343-96c2-5422-a4a7-02b38dd4373d",
     "881f3f75-5e69-5c50-b5e9-85b807abb8d1"
    ],
-   "evidence": "4861af7e15e5ec3e2aa8760cda39e3bce01cbb76d3a2bf1fa598fbb7da38cd7f",
+   "evidence": "c956873c25f5459d5db050225c037e440d8e4dd0e815d274c21050f4fc506902",
    "action": "ignore",
    "reason": "Width step is a pad escape, via neck, feedback/indicator tap or documented rail class change (docs/POWER-ROUTING.md); run lengths and loads checked, no current-capacity concern",
    "reviewer": "Claude Fable 5.1 for matt@cosmicfrontier.org",
@@ -2492,7 +2492,7 @@
     "6d4ad5d0-4095-5247-94fa-f3b3f070b9e5",
     "e178f6f0-1b9e-5926-93ca-c1e09684f524"
    ],
-   "evidence": "a78c8ce03d75eeb7339cb302e305212c8ec6403ba6c6f668ebf3accbb0cb1c33",
+   "evidence": "106e559a905308755ec36565fbe554d1ee38273b96c0c4a44e54855d36727e97",
    "action": "ignore",
    "reason": "Width step is a pad escape, via neck, feedback/indicator tap or documented rail class change (docs/POWER-ROUTING.md); run lengths and loads checked, no current-capacity concern",
    "reviewer": "Claude Fable 5.1 for matt@cosmicfrontier.org",
@@ -2511,7 +2511,7 @@
     "b88f7133-90f3-5bf1-b32f-0016f241ed0e",
     "f6c2c3a1-0676-52dd-bdb6-c92d86d9d6bb"
    ],
-   "evidence": "a92296b3c056f89f937b04d59cf6521c3ac0e3ba0ecfc7f7f77508667701eaa1",
+   "evidence": "f298c40aafbad9cc314e1a80155afee5012f83bee9a57ca38af54d2337b6f895",
    "action": "ignore",
    "reason": "Width step is a pad escape, via neck, feedback/indicator tap or documented rail class change (docs/POWER-ROUTING.md); run lengths and loads checked, no current-capacity concern",
    "reviewer": "Claude Fable 5.1 for matt@cosmicfrontier.org",
@@ -2529,7 +2529,7 @@
    "subjects": [
     "5ffbe9d7-0a91-5423-975b-1604d6d64782"
    ],
-   "evidence": "820d9d10461d4742730bcd5db867c7e45d43c85c4c804c3842235a020e629e11",
+   "evidence": "4d4ae7f4ee5ca4975a916e1253909014c854e264addeed309fab14dd6c52be54",
    "action": "ignore",
    "reason": "Endpoint overlaps the adjacent same-net 0.2 mm track envelope (0.14 mm stair-step offset at the U1 +3V3 pin tie); KiCad connectivity and DRC report 0 unconnected",
    "reviewer": "Claude Fable 5.1 for matt@cosmicfrontier.org",
@@ -2548,7 +2548,7 @@
     "02c97bad-13b5-502a-80fb-1ab40f6632da",
     "8c16677d-5491-51ad-a635-538d40ef2cf7"
    ],
-   "evidence": "dd5830bb594cc8fff2863d7402175a434ee07630c674b120a8b62b5b3b1fcfa3",
+   "evidence": "e088cbd0e7c51a177803ca0289bac5bdb7661e35c74d2f486dab2f4d1d50bd62",
    "action": "flag",
    "reason": "acute junction on CT1_RAW; routing cleanup candidate (user review of wiggly traces)",
    "reviewer": "Claude Fable 5.1 for matt@cosmicfrontier.org",
@@ -2567,7 +2567,7 @@
     "699abefb-6cbf-5e4c-9094-3a8d1a3aeacc",
     "fc3598f7-02ca-51f6-af8b-f3cff81f243e"
    ],
-   "evidence": "b71db2d795ba895731690e4d70f6b3786aef6e72e05e9bde82becb8c0d52d1b3",
+   "evidence": "87bac309bc01baeb48264cd52c4c79f102f81ef13fe991da224bb3e3d7e322bd",
    "action": "ignore",
    "reason": "Width step is a pad escape, via neck, feedback/indicator tap or documented rail class change (docs/POWER-ROUTING.md); run lengths and loads checked, no current-capacity concern",
    "reviewer": "Claude Fable 5.1 for matt@cosmicfrontier.org",
@@ -2586,7 +2586,7 @@
     "1d68201b-f70e-50ae-88a1-9ebd88adc6fe",
     "675a5bfc-5260-50ed-bab7-b6182925f78d"
    ],
-   "evidence": "1c492fabe458b63eb3c9b5fc67567b74f7cef50441046cc0fdfb5a5c2c05b3a3",
+   "evidence": "fb88d7c3e4ac6c5e0bbbe07c2fc149af5c3ac94e466afb3cd95e0d6340da2342",
    "action": "ignore",
    "reason": "Width step is a pad escape, via neck, feedback/indicator tap or documented rail class change (docs/POWER-ROUTING.md); run lengths and loads checked, no current-capacity concern",
    "reviewer": "Claude Fable 5.1 for matt@cosmicfrontier.org",
@@ -2605,7 +2605,7 @@
     "55ea11bd-2b0c-5b9b-afe3-fb0348e274d6",
     "8943cecc-e493-5935-a143-3a0910816066"
    ],
-   "evidence": "caba802c6d10c8fa3f110da7498e652ac349b5b98345c2ab83a7602db7d54bcd",
+   "evidence": "e03f5d1464c118ea092ffdf09be755173ad0638b2d7cc2ce0bff5a7f7c57a43f",
    "action": "ignore",
    "reason": "Width step is a pad escape, via neck, feedback/indicator tap or documented rail class change (docs/POWER-ROUTING.md); run lengths and loads checked, no current-capacity concern",
    "reviewer": "Claude Fable 5.1 for matt@cosmicfrontier.org",
@@ -2624,7 +2624,7 @@
     "9634c240-3509-5e10-b96a-6fa372b5a904",
     "d7b5bd36-0e84-5299-ba34-3725625dad4a"
    ],
-   "evidence": "f01ef82ae8d39c2e6a65bfc8e01e653d591ae498c32fc408dc89beb811fc9fdc",
+   "evidence": "8aeb905cba1321f6338db6b9fea751abaf1d41d3bf085d892ad9ef741dbb547c",
    "action": "flag",
    "reason": "acute junction on GDT2_L_SW; routing cleanup candidate (user review of wiggly traces)",
    "reviewer": "Claude Fable 5.1 for matt@cosmicfrontier.org",
@@ -2643,7 +2643,7 @@
     "7db14467-1b63-5a9c-83a8-c77ad99e3a2d",
     "c6486942-145a-4c29-a213-2e8f1a560f49"
    ],
-   "evidence": "4264295a04750e9f6b3b3dbfecb2f74fdabca6da151e474946a02c96915925b2",
+   "evidence": "515a95949c1fd2587bfe7c966011cc6ddfcd0c956622f37c5f56981d5f3796d0",
    "action": "ignore",
    "reason": "Cardinal escape from Q55.2 collides with the adjacent GND via/track (DRC short); 45-degree exit retained",
    "reviewer": "Claude Fable 5.1 for matt@cosmicfrontier.org",
@@ -2665,7 +2665,7 @@
     "983676d9-6583-512d-add3-3a38631c14f9",
     "d7d85226-143b-5c7e-9559-54a0ec10ee51"
    ],
-   "evidence": "3c89b4860333b6bb69186e603c8637dac2d053f00a4ec8b1b7fe9d0a38c87a24",
+   "evidence": "f0ed6ea1d3f8dbd6e697a4a4cfbd4c25fa8382c9564e388ef375164a76754e42",
    "action": "flag",
    "reason": "detour on -5V_CT; routing cleanup candidate (user review of wiggly traces)",
    "reviewer": "Claude Fable 5.1 for matt@cosmicfrontier.org",
@@ -2687,7 +2687,7 @@
     "af98ff11-d3e6-5d15-ac60-9dcd8eec50bb",
     "ff07a11e-7708-5445-82ea-8c0e507e01d2"
    ],
-   "evidence": "40a8c709d109aade45bb5d168927adf8b3e492d89f0c6911ffcf578ec0ad1554",
+   "evidence": "0429fcb1cf71d4ef21c4d13777d22034ee0227b586fb27a37e9888472a9e5607",
    "action": "flag",
    "reason": "detour on CT1_FLY_P; routing cleanup candidate (user review of wiggly traces)",
    "reviewer": "Claude Fable 5.1 for matt@cosmicfrontier.org",
@@ -2706,7 +2706,7 @@
     "032eb6ac-b6d5-5ecb-92f6-766eff66bc07",
     "e333832f-bc0f-5c86-a7ee-26372a575b70"
    ],
-   "evidence": "7db4cebb143bdac66e771ccd74ae84dd869e6a6b6d41ccf0ce530c15a6ee25c2",
+   "evidence": "1557e5c4573a8a530297aa0a976ad00fe1729f3eebf3bd8531f400b7b9e4299f",
    "action": "ignore",
    "reason": "Width step is a pad escape, via neck, feedback/indicator tap or documented rail class change (docs/POWER-ROUTING.md); run lengths and loads checked, no current-capacity concern",
    "reviewer": "Claude Fable 5.1 for matt@cosmicfrontier.org",
@@ -2731,7 +2731,7 @@
     "a4aeb77c-4044-51bb-a260-64f2abdb9b26",
     "cc293bf0-11ee-5596-8e80-41a719980a40"
    ],
-   "evidence": "ce4ee8c95a581016ab4e5bf9fbeee1377fc0764dc8685da26f3d7e04da7136be",
+   "evidence": "fb776110d510d2929a43c31b3ff2a47993920d1ed4a7fa684fb6780d6b0955bd",
    "action": "flag",
    "reason": "4.2 mm reversal on GDT2_L_SW; routing cleanup candidate (user review of wiggly traces)",
    "reviewer": "Claude Fable 5.1 for matt@cosmicfrontier.org",
@@ -2750,7 +2750,7 @@
     "58ae3a01-3212-5b39-b5e4-e2905bd6bb51",
     "bc7368ff-2f05-5313-9f61-964247e13ebc"
    ],
-   "evidence": "826a3cb2af5cbc3c502bacf57a83e759bfdb01613789fde37ef9f17e1ed5c729",
+   "evidence": "d81609c29ff66308f3782937990ae4b20d1dfc85ef03f4a34a747a601aca73c7",
    "action": "ignore",
    "reason": "Width step is a pad escape, via neck, feedback/indicator tap or documented rail class change (docs/POWER-ROUTING.md); run lengths and loads checked, no current-capacity concern",
    "reviewer": "Claude Fable 5.1 for matt@cosmicfrontier.org",
@@ -2769,7 +2769,7 @@
     "3f525293-f705-50f8-895b-c1da806b918d",
     "eae9417c-f54e-5f6e-af28-6b54f286f86e"
    ],
-   "evidence": "d2f5ff54eda8b138f93578e8210a2fcebf6a6894b5182dfb13dcb9fb7d4a7e8c",
+   "evidence": "127dc89e17307d16b7afe5174fb0495500f32e5baafd38e5f4e10090ce2db78b",
    "action": "ignore",
    "reason": "Width step is a pad escape, via neck, feedback/indicator tap or documented rail class change (docs/POWER-ROUTING.md); run lengths and loads checked, no current-capacity concern",
    "reviewer": "Claude Fable 5.1 for matt@cosmicfrontier.org",
@@ -2787,7 +2787,7 @@
    "subjects": [
     "641ce652-26f9-5994-8d61-814bd0f72729"
    ],
-   "evidence": "8a2886abf74aade6bc8ba44a919b10acf40eba416917b659a91883a8c0ac0079",
+   "evidence": "6c746342384c3c05a1332ec8fd7e957168ee72faef5ba897b036d46c09413eef",
    "action": "ignore",
    "reason": "0.1-0.2 mm stair-step/jog segment; cosmetic, connectivity confirmed by DRC",
    "reviewer": "Claude Fable 5.1 for matt@cosmicfrontier.org",
@@ -2811,7 +2811,7 @@
     "efee9f77-591b-5d33-ac3f-926d068a9b90",
     "f04416eb-a7a0-5186-b0be-8f1ebf0f21bf"
    ],
-   "evidence": "2ce90c2290903d0ed13913a6e3fbd2d4724b7eec94308a91f19429cd7ac56c94",
+   "evidence": "d4917b6613e401af9f8b34570215d1dd251a995e97c0a66e6f374dbc5a163b62",
    "action": "flag",
    "reason": "bend count on CT2_PHASE; routing cleanup candidate (user review of wiggly traces)",
    "reviewer": "Claude Fable 5.1 for matt@cosmicfrontier.org",
@@ -2830,7 +2830,7 @@
     "41a2c7ca-b450-5680-be9c-ae99a38d2174",
     "529f24ee-15e2-5422-93d7-c0b246ec7078"
    ],
-   "evidence": "b3346ef733f0a4f12039031cfd7c50b54ccd4f28d0c374e3a126e202d409009d",
+   "evidence": "1d7cfadbfc98380eab47321a5f196b42576173c808abd551139a6a27f11779ab",
    "action": "ignore",
    "reason": "Width step is a pad escape, via neck, feedback/indicator tap or documented rail class change (docs/POWER-ROUTING.md); run lengths and loads checked, no current-capacity concern",
    "reviewer": "Claude Fable 5.1 for matt@cosmicfrontier.org",
@@ -2849,7 +2849,7 @@
     "568e6921-a4c8-56de-9a2a-f944383af6ee",
     "9ff72da7-890b-5e45-9080-ae0c7d4a1031"
    ],
-   "evidence": "be6c1e7b8388d98d5f133af2aa366a32094dd93918240f0137e9a2e6f1291020",
+   "evidence": "b092191477c72c0aab0a9664b0b19f283f1fe97beb068318d15770f6a191b19f",
    "action": "ignore",
    "reason": "Width step is a pad escape, via neck, feedback/indicator tap or documented rail class change (docs/POWER-ROUTING.md); run lengths and loads checked, no current-capacity concern",
    "reviewer": "Claude Fable 5.1 for matt@cosmicfrontier.org",
@@ -2868,7 +2868,7 @@
     "5ea63acd-4671-572e-9663-83c356b4558d",
     "7d532d70-d981-587a-9b65-28526b0b7524"
    ],
-   "evidence": "c43ed61b87dec11c0d0f10e212688c157286b236d84507853952aed2c621b95a",
+   "evidence": "6fb961d9ee99387eef3596c6ea82aeca50b898730d78dfc3796b2b83fe8c1b09",
    "action": "ignore",
    "reason": "Width step is a pad escape, via neck, feedback/indicator tap or documented rail class change (docs/POWER-ROUTING.md); run lengths and loads checked, no current-capacity concern",
    "reviewer": "Claude Fable 5.1 for matt@cosmicfrontier.org",
@@ -2887,7 +2887,7 @@
     "02133256-6272-5409-b300-6209ea015be9",
     "e3ead472-8ea4-56c0-9b2e-6db1ef732855"
    ],
-   "evidence": "daa70ef893f2138cd53d5d423272180af7636b3072cfe64eb3dd2aef6ee993af",
+   "evidence": "2e604b0ec82f4438cdbe075fa95159169b74b3d6359ff7f5c4e58714509e0265",
    "action": "flag",
    "reason": "GDT2_OUT_P width step on a switching/battery path; deferred to the documented high-current battery/GDT path review (docs/POWER-ROUTING.md says it is still open)",
    "reviewer": "Claude Fable 5.1 for matt@cosmicfrontier.org",
@@ -2905,7 +2905,7 @@
    "subjects": [
     "120837b6-7105-5c14-b418-cccc8bf3eed2"
    ],
-   "evidence": "4e7b8808c0132c9dbcde874ef5aa5c72ee17ca225363db2a0c9824c9c9d7d3f6",
+   "evidence": "1e40bc382c3f0eae98eda06503e521d675a5fc93a611d7c74794d71c5580902a",
    "action": "ignore",
    "reason": "Endpoint overlaps the adjacent same-net 0.2 mm track envelope (0.14 mm stair-step offset at the U1 +3V3 pin tie); KiCad connectivity and DRC report 0 unconnected",
    "reviewer": "Claude Fable 5.1 for matt@cosmicfrontier.org",
@@ -2924,7 +2924,7 @@
     "529f24ee-15e2-5422-93d7-c0b246ec7078",
     "7f45f067-cf55-526a-aa47-95ec51bcbe16"
    ],
-   "evidence": "aade94c4e28dc56e41a31e496378c58bf0a3f9cf2562b30bcdcf60500e0e3fa7",
+   "evidence": "7ee1567092a0bbb0d6d8c3eff8b6fe0ef1e15c66e1b50388bc4b761165bf8b84",
    "action": "ignore",
    "reason": "Width step is a pad escape, via neck, feedback/indicator tap or documented rail class change (docs/POWER-ROUTING.md); run lengths and loads checked, no current-capacity concern",
    "reviewer": "Claude Fable 5.1 for matt@cosmicfrontier.org",
@@ -2943,7 +2943,7 @@
     "02133256-6272-5409-b300-6209ea015be9",
     "e3ead472-8ea4-56c0-9b2e-6db1ef732855"
    ],
-   "evidence": "483ab318a0109617f2a20fefc7192fcf838773e3d273bce8a7ddf34e0b3fa3a6",
+   "evidence": "42e97c21f8da4dc32f63c2fcdc9570a7f7b91ef9da13f2681e5b8a7000ad3399",
    "action": "flag",
    "reason": "GDT2_OUT_P width step on a switching/battery path; deferred to the documented high-current battery/GDT path review (docs/POWER-ROUTING.md says it is still open)",
    "reviewer": "Claude Fable 5.1 for matt@cosmicfrontier.org",
@@ -2962,7 +2962,7 @@
     "809e3cb9-5655-5187-ae28-fc6aa86c6c21",
     "9cf6c505-9819-55ef-b7ed-270fd19c074a"
    ],
-   "evidence": "ae325f63e5434a7bfa030a897ac0aa5a964d3b8df31a7a1195984f7f29a32716",
+   "evidence": "54c1f881c59806e0dff1a3cf07077c038bc323aa44e07c4937aae37065924748",
    "action": "ignore",
    "reason": "Width step is a pad escape, via neck, feedback/indicator tap or documented rail class change (docs/POWER-ROUTING.md); run lengths and loads checked, no current-capacity concern",
    "reviewer": "Claude Fable 5.1 for matt@cosmicfrontier.org",
@@ -2981,7 +2981,7 @@
     "568e6921-a4c8-56de-9a2a-f944383af6ee",
     "9ff72da7-890b-5e45-9080-ae0c7d4a1031"
    ],
-   "evidence": "2a996d55c14448a27944eeb88d8a9f2b91493694f00c84b74385de90e65b1cb1",
+   "evidence": "b37aea05f6a00c1b83e31cab1e9d24a34b62d421fbc6b34b82bbc0bde652e8a1",
    "action": "ignore",
    "reason": "Width step is a pad escape, via neck, feedback/indicator tap or documented rail class change (docs/POWER-ROUTING.md); run lengths and loads checked, no current-capacity concern",
    "reviewer": "Claude Fable 5.1 for matt@cosmicfrontier.org",
@@ -3005,7 +3005,7 @@
     "bac11b83-5573-56c7-b8b7-90a1f5f0e512",
     "e0dc38b4-ac78-5b66-a5f2-d1e7e9f0a7b5"
    ],
-   "evidence": "dbd68c7876eed197e8aefb57e0711041451899548a4ffa6af1b84e7724c2ac27",
+   "evidence": "f1db8be172afaae0fece2a2dc3c66ff9991d68d330a70e960b5ed393c4755e87",
    "action": "ignore",
    "reason": "Extra length/bends come from the cardinal pad escape added in the cosmetic pass (exit along the pad axis, then diagonal); intended shape",
    "reviewer": "Claude Fable 5.1 for matt@cosmicfrontier.org",
@@ -3024,7 +3024,7 @@
     "5e1ee41d-4545-54bd-be92-cf4d8c8a4f6b",
     "c573ac7c-3c72-541e-bc1d-f888ba444364"
    ],
-   "evidence": "54aced79cbebd53ef2f04611ed1e494b08b0d1eaec992f65d1c870d43cb81828",
+   "evidence": "8d76639f7324d79a50bed0147b2ba00bc88bdbbae89ae5efa888c13c250c1fc1",
    "action": "ignore",
    "reason": "Width step is a pad escape, via neck, feedback/indicator tap or documented rail class change (docs/POWER-ROUTING.md); run lengths and loads checked, no current-capacity concern",
    "reviewer": "Claude Fable 5.1 for matt@cosmicfrontier.org",
@@ -3043,7 +3043,7 @@
     "8e25408d-0692-513c-aa4d-b62de15310c9",
     "b0a1ca4d-75c6-58c0-a5b0-bac51907d342"
    ],
-   "evidence": "dce646750a3b1fd7756635768c74f2aa8444f7e319990541bc08a7994fb3b150",
+   "evidence": "e8f711cb0a64fcc3806f9238aa1122ce25b8d6787015aedc6a2e4f3c03229c1f",
    "action": "flag",
    "reason": "redundant bend on ADC_RESET (new rule in kct 0.22+); pre-existing geometry, routing cleanup candidate",
    "reviewer": "Claude Fable 5.1 for matt@cosmicfrontier.org",
@@ -3067,7 +3067,7 @@
     "703594bb-c913-5b07-b566-3377f8eba048",
     "ccff441e-9dbf-5f2c-be90-2244f469549f"
    ],
-   "evidence": "fe4f20d56f795ee6501d2a8a86cc11df23ca7eab4d4a6bd10751d7880a303e57",
+   "evidence": "8fb26cbd33657a34013eba81c11045599423483fd7693d62479330f1443b0050",
    "action": "flag",
    "reason": "34.1 mm reversal on VBAT_24V; routing cleanup candidate (user review of wiggly traces); re-keyed after the bus moved under J1",
    "reviewer": "Claude Fable 5.1 for matt@cosmicfrontier.org",
@@ -3091,7 +3091,7 @@
     "9151d47c-c85e-53f8-89ea-6bb08171d3d2",
     "e68289ea-6099-5169-af71-0bd051a348e9"
    ],
-   "evidence": "6f90862f7c378a957c27f9f1db0039d435433b6ccf59211b63dac195803d4b26",
+   "evidence": "37bb08901ab8d8b183931ec46e7baa672f00fc585aa9ef417dc7bfa48812bd87",
    "action": "flag",
    "reason": "+3V3 feed to the folded R411 pull-up takes an L off the x=95.5 drop; same class as the D43/D63 feed findings, routing cleanup candidate",
    "reviewer": "Claude Fable 5.1 for matt@cosmicfrontier.org",
@@ -3115,7 +3115,7 @@
     "9151d47c-c85e-53f8-89ea-6bb08171d3d2",
     "e68289ea-6099-5169-af71-0bd051a348e9"
    ],
-   "evidence": "88ecd3518980a7a2e097a4e15bbc8b4397d92a0be7ac9ca8065beb3d0aaf2973",
+   "evidence": "b3fec675599645a1178654fe3b4946dcbf3d543a19de617f84b1e34b19a1aa0a",
    "action": "flag",
    "reason": "+3V3 feed to the folded R411 pull-up takes an L off the x=95.5 drop; same class as the D43/D63 feed findings, routing cleanup candidate",
    "reviewer": "Claude Fable 5.1 for matt@cosmicfrontier.org",
@@ -3125,34 +3125,6 @@
    "at": {
     "x": 95.5,
     "y": 128.0875
-   }
-  },
-  {
-   "key": "37e4efa98ac5c7129662f08fefd9d5e7fbd089e9d8bab6d285f00414bc605b72",
-   "rule": "route.backtrack",
-   "subjects": [
-    "160bb69e-54e7-50e2-ab80-46786e51ad9a",
-    "160bb69e-54e7-50e2-ab80-46786e51d240",
-    "160bb69e-54e7-50e2-ab80-46786e51d241",
-    "160bb69e-54e7-50e2-ab80-46786e51d242",
-    "627c0844-9857-5db2-ac1d-1f24fec0ec9a",
-    "8367aeeb-c455-5b9b-8742-32f35bfe7ef1",
-    "9289ae97-ca78-59c8-bf96-918536983a0e",
-    "985b5f7e-8d5c-58c0-aba3-9e00780374f1",
-    "aca89de0-7978-5d07-91ff-ea783c04811a",
-    "d069328a-43ea-5ba0-a488-c9ff6f46f3ce",
-    "f67859e7-1cb8-503f-8600-6f032f36af6c"
-   ],
-   "evidence": "505b03351b4948e6faa5479e75d9d7436cfdc6420091c76e1289fcc92d6ef96d",
-   "action": "ignore",
-   "reason": "test-point spur branches off the net trunk, so the chain heuristic sees a reversal; the lead itself is one straight segment",
-   "reviewer": "Claude Fable 5.1 for matt@cosmicfrontier.org",
-   "reviewed_at": 1791308257,
-   "severity": "info",
-   "message": "Chain reverses direction relative to its endpoint axis; inspect intentional tuning",
-   "at": {
-    "x": 54.0,
-    "y": 154.0
    }
   },
   {
@@ -3171,7 +3143,7 @@
     "9b0ef72e-33b3-5b55-9aa9-d2b5844da948",
     "e333832f-bc0f-5c86-a7ee-26372a575b70"
    ],
-   "evidence": "6c4916c24e0b1b98d938918871f4e25eb1e415e097bedae66e82a0775c7c13cd",
+   "evidence": "5d3e3ac3651cda4bd9a714f1e435d8bb467c512cb09ad3e5e34286d4679ed5df",
    "action": "ignore",
    "reason": "CT1_RAW burden-resistor riser; chain heuristic reverses at the via to the B.Cu bus, intentional (re-keyed after the TP40 lead changed)",
    "reviewer": "Claude Fable 5.1 for matt@cosmicfrontier.org",
@@ -3196,7 +3168,7 @@
     "aab47aae-f7b4-50c4-873c-98e8691f88f1",
     "b332a046-5dd6-592f-aa76-32f2d8c55c09"
    ],
-   "evidence": "aa9e3503b538af94720828d38af7f30b3ac24cca0385fdbdac37a554196c1ad3",
+   "evidence": "d44cfb9cca80b612d973c48535dffa0cc346f6e717101501aeb10d02e85a5011",
    "action": "ignore",
    "reason": "test-point spur branches off the net trunk, so the chain heuristic sees a reversal; the lead itself is one straight segment",
    "reviewer": "Claude Fable 5.1 for matt@cosmicfrontier.org",
@@ -3221,7 +3193,7 @@
     "c07daf45-849c-515c-adba-566352d1ceff",
     "cca87fd7-dfcb-53c9-b6ed-219870cfed7b"
    ],
-   "evidence": "cd220ebe6d1094f864cba4f526d7aca8df6d2c181430387974ef5e372f858442",
+   "evidence": "44c343b8db3f4f34d76c6df788c48675054a3db998081d15e03aa60632d317e4",
    "action": "ignore",
    "reason": "test-point spur branches off the net trunk, so the chain heuristic sees a reversal; the lead itself is one straight segment",
    "reviewer": "Claude Fable 5.1 for matt@cosmicfrontier.org",
@@ -3243,7 +3215,7 @@
     "0084bfc8-cd4f-5120-95dc-d614daa8e60b",
     "0084bfc8-cd4f-5120-95dc-d614daa8e60c"
    ],
-   "evidence": "000282c428ab5c1493d5f30d17610c909ff618238363f2c58f85c5e3da4b6c71",
+   "evidence": "4159ace458085c301edeffd62a791af6a9f8dfdd340558251b8043af13b62694",
    "action": "ignore",
    "reason": "USB-C D- pad pair bridged over the top of the pad row because the D+/D- pads interleave; via-free by design",
    "reviewer": "Claude Fable 5.1 for matt@cosmicfrontier.org",
@@ -3263,7 +3235,7 @@
     "0084bfc8-cd4f-5120-95dc-d614daa8e614",
     "0084bfc8-cd4f-5120-95dc-d614daa8e615"
    ],
-   "evidence": "6122db691937dbf48b637994230cee7786be5b25e1f0a3b7194f01413f5e057e",
+   "evidence": "76d6d16029345c2d8b761e18a9c2969cb4c4f0d69433bb3e702d5921d2d28b8f",
    "action": "ignore",
    "reason": "USB-C VBUS pad pair bridged above the pad row, verticals offset 0.2 mm inboard to clear the connector's alignment holes; via-free by design",
    "reviewer": "Claude Fable 5.1 for matt@cosmicfrontier.org",
@@ -3285,7 +3257,7 @@
     "0084bfc8-cd4f-5120-95dc-d614daa8e60b",
     "0084bfc8-cd4f-5120-95dc-d614daa8e60c"
    ],
-   "evidence": "7d83f84e12dec8d30f8d23010dbda12ab84fc0dbbf06d8450cd0e73c5a57ab17",
+   "evidence": "475c5adbc95275dc7020a4e4f943f99b856f6c952712f849d5aee869faf6e9bf",
    "action": "ignore",
    "reason": "USB-C D- pad pair bridged over the top of the pad row because the D+/D- pads interleave; via-free by design",
    "reviewer": "Claude Fable 5.1 for matt@cosmicfrontier.org",
@@ -3295,6 +3267,32 @@
    "at": {
     "x": 127.75,
     "y": 34.445
+   }
+  },
+  {
+   "key": "3a5e79a73a6adc466a2fd9f1a3fb905fd4c9076144d614c8ce7e09feb3a11df2",
+   "rule": "route.backtrack",
+   "subjects": [
+    "160bb69e-54e7-50e2-ab80-46786e51ad9a",
+    "160bb69e-54e7-50e2-ab80-46786e51d240",
+    "160bb69e-54e7-50e2-ab80-46786e51d241",
+    "627c0844-9857-5db2-ac1d-1f24fec0ec9a",
+    "8367aeeb-c455-5b9b-8742-32f35bfe7ef1",
+    "9289ae97-ca78-59c8-bf96-918536983a0e",
+    "9289ae97-ca78-59c8-bf96-91853698e760",
+    "9289ae97-ca78-59c8-bf96-91853698e761",
+    "985b5f7e-8d5c-58c0-aba3-9e00780374f1"
+   ],
+   "evidence": "97a1bd89a74dd2a15257f7c51bb0f96cda7dbae4fb32edc102f8481256836090",
+   "action": "ignore",
+   "reason": "CT2_RAW detour around the D60 TVS now turns its corner on TP60; chain heuristic sees the test-point spur as a reversal",
+   "reviewer": "Claude Fable 5.1 for matt@cosmicfrontier.org",
+   "reviewed_at": 1791313123,
+   "severity": "info",
+   "message": "Chain reverses direction relative to its endpoint axis; inspect intentional tuning",
+   "at": {
+    "x": 51.975,
+    "y": 154.0
    }
   }
  ]
