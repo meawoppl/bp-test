@@ -10080,22 +10080,6 @@
       "width_nm": 500000
     },
     {
-      "uuid": "02d6e12a-b690-5bf6-850b-4f478c5110d4",
-      "net": "VIN_5V",
-      "start_nm": [
-        85900000,
-        77400000
-      ],
-      "end_nm": [
-        85900000,
-        77400000
-      ],
-      "layer": "F.Cu",
-      "kind": "via",
-      "width_nm": 600000,
-      "drill_nm": 300000
-    },
-    {
       "uuid": "02de2478-6b8d-5202-90c6-829d1d1163d1",
       "net": "AUX2_BUFFERED",
       "start_nm": [
@@ -15914,21 +15898,6 @@
       "width_nm": 150000
     },
     {
-      "uuid": "463eafd3-2dbb-5e3d-91ec-a10ba1b1dbd4",
-      "net": "VIN_5V",
-      "start_nm": [
-        85900000,
-        78750000
-      ],
-      "end_nm": [
-        86250000,
-        79100000
-      ],
-      "layer": "F.Cu",
-      "kind": "track",
-      "width_nm": 500000
-    },
-    {
       "uuid": "46a277e7-77c8-55fa-a2b4-892e887fdf7d",
       "net": "CT2_ENVELOPE",
       "start_nm": [
@@ -18415,21 +18384,6 @@
       "kind": "via",
       "width_nm": 600000,
       "drill_nm": 300000
-    },
-    {
-      "uuid": "62fa1371-9447-51b3-bdd0-0d1de6fa3002",
-      "net": "VIN_5V",
-      "start_nm": [
-        85900000,
-        75400000
-      ],
-      "end_nm": [
-        85900000,
-        77400000
-      ],
-      "layer": "B.Cu",
-      "kind": "track",
-      "width_nm": 500000
     },
     {
       "uuid": "62fc2343-96c2-5422-a4a7-02b38dd4373d",
@@ -21610,21 +21564,6 @@
       "width_nm": 200000
     },
     {
-      "uuid": "841aa3da-8004-5939-9130-0328306bb541",
-      "net": "VIN_5V",
-      "start_nm": [
-        85900000,
-        77400000
-      ],
-      "end_nm": [
-        85900000,
-        78750000
-      ],
-      "layer": "F.Cu",
-      "kind": "track",
-      "width_nm": 500000
-    },
-    {
       "uuid": "8434da95-beb8-5213-950d-dfe5b0a8b95e",
       "net": "-5V_CT",
       "start_nm": [
@@ -22248,21 +22187,6 @@
         111000000
       ],
       "layer": "B.Cu",
-      "kind": "track",
-      "width_nm": 500000
-    },
-    {
-      "uuid": "8ac865a2-8ad9-56b8-906b-7629e686cb71",
-      "net": "VIN_5V",
-      "start_nm": [
-        86250000,
-        79100000
-      ],
-      "end_nm": [
-        86250000,
-        81675000
-      ],
-      "layer": "F.Cu",
       "kind": "track",
       "width_nm": 500000
     },
@@ -30001,21 +29925,6 @@
       "width_nm": 250000
     },
     {
-      "uuid": "e71cd4df-fefe-5870-a721-596e68d9d6d7",
-      "net": "VIN_5V",
-      "start_nm": [
-        84500000,
-        75400000
-      ],
-      "end_nm": [
-        85900000,
-        75400000
-      ],
-      "layer": "B.Cu",
-      "kind": "track",
-      "width_nm": 500000
-    },
-    {
       "uuid": "e75bc8ac-3ea5-5906-87cf-eaa286d57502",
       "net": "ADC_DOUT_C",
       "start_nm": [
@@ -33798,6 +33707,21 @@
       "kind": "via",
       "width_nm": 600000,
       "drill_nm": 300000
+    },
+    {
+      "uuid": "808446c4-4b3a-50b1-982f-7ae852fbe900",
+      "net": "VIN_5V",
+      "start_nm": [
+        84500000,
+        81675000
+      ],
+      "end_nm": [
+        86250000,
+        81675000
+      ],
+      "layer": "F.Cu",
+      "kind": "track",
+      "width_nm": 500000
     }
   ]
 }
