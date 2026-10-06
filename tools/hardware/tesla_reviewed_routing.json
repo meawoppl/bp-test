@@ -452,13 +452,13 @@
     },
     "R801": {
       "position_nm": [
-        57000000,
-        66200000
+        54500000,
+        64500000
       ],
-      "angle_deg": 270.0,
+      "angle_deg": 90.0,
       "reference_nm": [
-        58500000,
-        66200000
+        56700000,
+        64500000
       ],
       "footprint": "Tesla:R_0805_2012Metric",
       "value": "5.1k"
@@ -1024,13 +1024,13 @@
     },
     "R802": {
       "position_nm": [
-        86000000,
-        66200000
+        83500000,
+        64500000
       ],
-      "angle_deg": -90.0,
+      "angle_deg": 90.0,
       "reference_nm": [
-        86000000,
-        71200000
+        85700000,
+        64500000
       ],
       "footprint": "Tesla:R_0805_2012Metric",
       "value": "1.5k"
@@ -1895,13 +1895,13 @@
     },
     "D81": {
       "position_nm": [
-        57000000,
-        70000000
+        54500000,
+        60700000
       ],
-      "angle_deg": 90.0,
+      "angle_deg": 270.0,
       "reference_nm": [
-        58500000,
-        70000000
+        56700000,
+        60700000
       ],
       "footprint": "Tesla:LED_0805_2012Metric",
       "value": "GREEN"
@@ -2909,13 +2909,13 @@
     },
     "D82": {
       "position_nm": [
-        86000000,
-        70000000
+        83500000,
+        60700000
       ],
-      "angle_deg": 90.0,
+      "angle_deg": 270.0,
       "reference_nm": [
-        86000000,
-        65000000
+        85700000,
+        60700000
       ],
       "footprint": "Tesla:LED_0805_2012Metric",
       "value": "GREEN"
@@ -11866,21 +11866,6 @@
       "width_nm": 1200000
     },
     {
-      "uuid": "1c1d5e3b-d1da-5a5f-8243-337ad3ea2cfe",
-      "net": "LED_82_A",
-      "start_nm": [
-        86000000,
-        67112500
-      ],
-      "end_nm": [
-        86000000,
-        69062500
-      ],
-      "layer": "F.Cu",
-      "kind": "track",
-      "width_nm": 250000
-    },
-    {
       "uuid": "1c1f94e2-9206-5117-aea3-49c2fe8105a9",
       "net": "GND",
       "start_nm": [
@@ -14448,21 +14433,6 @@
       "width_nm": 300000
     },
     {
-      "uuid": "44f6bc51-de63-5c9c-9f70-5ff9a4de90b3",
-      "net": "VIN_5V",
-      "start_nm": [
-        90000000,
-        67500000
-      ],
-      "end_nm": [
-        90000000,
-        40500000
-      ],
-      "layer": "B.Cu",
-      "kind": "track",
-      "width_nm": 1000000
-    },
-    {
       "uuid": "454a879e-0102-5e14-9ee7-aab5754b7d66",
       "net": "LED_87_A",
       "start_nm": [
@@ -15224,21 +15194,6 @@
       "drill_nm": 300000
     },
     {
-      "uuid": "5153e925-99b3-5ca8-bda5-d47b9ca21546",
-      "net": "VIN_5V",
-      "start_nm": [
-        86000000,
-        65287499
-      ],
-      "end_nm": [
-        84400000,
-        65287499
-      ],
-      "layer": "F.Cu",
-      "kind": "track",
-      "width_nm": 250000
-    },
-    {
       "uuid": "51df3c51-9c8d-55b9-8eab-fc8b9a3a9fcd",
       "net": "GND",
       "start_nm": [
@@ -15630,21 +15585,6 @@
       "layer": "F.Cu",
       "kind": "track",
       "width_nm": 250000
-    },
-    {
-      "uuid": "568e6921-a4c8-56de-9a2a-f944383af6ee",
-      "net": "VIN_5V",
-      "start_nm": [
-        84000000,
-        69525000
-      ],
-      "end_nm": [
-        83500000,
-        69025000
-      ],
-      "layer": "F.Cu",
-      "kind": "track",
-      "width_nm": 1000000
     },
     {
       "uuid": "56d2dbbb-080c-5179-aa11-f8d4316d6066",
@@ -19272,22 +19212,6 @@
       "width_nm": 200000
     },
     {
-      "uuid": "86e3ab1a-ef7c-5fa1-9fdc-d9894e0ef112",
-      "net": "VIN_5V",
-      "start_nm": [
-        84000000,
-        73500000
-      ],
-      "end_nm": [
-        84000000,
-        73500000
-      ],
-      "layer": "F.Cu",
-      "kind": "via",
-      "width_nm": 600000,
-      "drill_nm": 300000
-    },
-    {
       "uuid": "87230e06-ffeb-5927-8fa5-973681016a99",
       "net": "AUX2_0_5V",
       "start_nm": [
@@ -19619,21 +19543,6 @@
       "layer": "F.Cu",
       "kind": "track",
       "width_nm": 800000
-    },
-    {
-      "uuid": "8c46a2a5-a599-5083-a64a-64ff5ca1979e",
-      "net": "VIN_5V",
-      "start_nm": [
-        84000000,
-        73500000
-      ],
-      "end_nm": [
-        84500000,
-        74000000
-      ],
-      "layer": "B.Cu",
-      "kind": "track",
-      "width_nm": 500000
     },
     {
       "uuid": "8c7ee225-1719-5d0f-a988-884fbb4cab8a",
@@ -20792,21 +20701,6 @@
       "layer": "F.Cu",
       "kind": "track",
       "width_nm": 1200000
-    },
-    {
-      "uuid": "9ff72da7-890b-5e45-9080-ae0c7d4a1031",
-      "net": "VIN_5V",
-      "start_nm": [
-        83500000,
-        66187500
-      ],
-      "end_nm": [
-        83500000,
-        69025000
-      ],
-      "layer": "F.Cu",
-      "kind": "track",
-      "width_nm": 250000
     },
     {
       "uuid": "a04913d3-1c5a-5e5e-99c9-08dbef74b306",
@@ -23236,21 +23130,6 @@
       "width_nm": 300000
     },
     {
-      "uuid": "bf9e863c-904e-5def-aea8-02ee14652367",
-      "net": "VIN_5V",
-      "start_nm": [
-        84400000,
-        65287499
-      ],
-      "end_nm": [
-        83500000,
-        66187500
-      ],
-      "layer": "F.Cu",
-      "kind": "track",
-      "width_nm": 250000
-    },
-    {
       "uuid": "bffbc885-6b33-5a78-86bc-22853b42af8a",
       "net": "GDT2_R_HI",
       "start_nm": [
@@ -23325,21 +23204,6 @@
       "kind": "via",
       "width_nm": 600000,
       "drill_nm": 300000
-    },
-    {
-      "uuid": "c0a2cdfd-821a-55e3-8cea-f3bceed2793a",
-      "net": "VIN_5V",
-      "start_nm": [
-        84500000,
-        74000000
-      ],
-      "end_nm": [
-        84500000,
-        81000000
-      ],
-      "layer": "B.Cu",
-      "kind": "track",
-      "width_nm": 500000
     },
     {
       "uuid": "c0b37404-6082-56f0-8019-e91689787c9d",
@@ -23753,21 +23617,6 @@
       "layer": "F.Cu",
       "kind": "track",
       "width_nm": 250000
-    },
-    {
-      "uuid": "c57f73c7-f215-59b5-a920-3a082434fe0d",
-      "net": "VIN_5V",
-      "start_nm": [
-        84000000,
-        69525000
-      ],
-      "end_nm": [
-        84000000,
-        73500000
-      ],
-      "layer": "F.Cu",
-      "kind": "track",
-      "width_nm": 1000000
     },
     {
       "uuid": "c5c6b3ff-0ae1-5683-8924-d5197ad9caff",
@@ -24684,21 +24533,6 @@
       "kind": "via",
       "width_nm": 600000,
       "drill_nm": 300000
-    },
-    {
-      "uuid": "d4560764-1690-5e80-99e7-acd92f2644d8",
-      "net": "VIN_5V",
-      "start_nm": [
-        84000000,
-        73500000
-      ],
-      "end_nm": [
-        90000000,
-        67500000
-      ],
-      "layer": "B.Cu",
-      "kind": "track",
-      "width_nm": 1000000
     },
     {
       "uuid": "d4a364d8-353b-5410-94bc-a41f52049bf3",
@@ -32332,66 +32166,6 @@
       "width_nm": 800000
     },
     {
-      "uuid": "00f8c589-eb46-568b-961c-f14229a0fa0c",
-      "net": "+12V_BIAS",
-      "start_nm": [
-        57000000,
-        65287500
-      ],
-      "end_nm": [
-        55400000,
-        65287500
-      ],
-      "layer": "F.Cu",
-      "kind": "track",
-      "width_nm": 250000
-    },
-    {
-      "uuid": "00f8c589-eb46-568b-961c-f14229a0fa0d",
-      "net": "+12V_BIAS",
-      "start_nm": [
-        55400000,
-        65287500
-      ],
-      "end_nm": [
-        54500000,
-        66187500
-      ],
-      "layer": "F.Cu",
-      "kind": "track",
-      "width_nm": 250000
-    },
-    {
-      "uuid": "00f8c589-eb46-568b-961c-f14229a0fa0e",
-      "net": "+12V_BIAS",
-      "start_nm": [
-        54500000,
-        66187500
-      ],
-      "end_nm": [
-        54500000,
-        69025000
-      ],
-      "layer": "F.Cu",
-      "kind": "track",
-      "width_nm": 250000
-    },
-    {
-      "uuid": "00f8c589-eb46-568b-961c-f14229a0fa0f",
-      "net": "LED_81_A",
-      "start_nm": [
-        57000000,
-        67112500
-      ],
-      "end_nm": [
-        57000000,
-        69062500
-      ],
-      "layer": "F.Cu",
-      "kind": "track",
-      "width_nm": 250000
-    },
-    {
       "uuid": "00f8c589-eb46-568b-961c-f14229a0fa10",
       "net": "VBAT_24V",
       "start_nm": [
@@ -32887,6 +32661,142 @@
       "layer": "B.Cu",
       "kind": "track",
       "width_nm": 200000
+    },
+    {
+      "uuid": "00f8c589-eb46-568b-961c-f14229a0fe01",
+      "net": "+12V_BIAS",
+      "start_nm": [
+        54500000,
+        65412500
+      ],
+      "end_nm": [
+        54500000,
+        69025000
+      ],
+      "layer": "F.Cu",
+      "kind": "track",
+      "width_nm": 250000
+    },
+    {
+      "uuid": "00f8c589-eb46-568b-961c-f14229a0fe02",
+      "net": "LED_81_A",
+      "start_nm": [
+        54500000,
+        61637500
+      ],
+      "end_nm": [
+        54500000,
+        63587500
+      ],
+      "layer": "F.Cu",
+      "kind": "track",
+      "width_nm": 250000
+    },
+    {
+      "uuid": "00f8c589-eb46-568b-961c-f14229a0fe03",
+      "net": "VIN_5V",
+      "start_nm": [
+        83500000,
+        65412500
+      ],
+      "end_nm": [
+        83500000,
+        69025000
+      ],
+      "layer": "F.Cu",
+      "kind": "track",
+      "width_nm": 250000
+    },
+    {
+      "uuid": "00f8c589-eb46-568b-961c-f14229a0fe04",
+      "net": "LED_82_A",
+      "start_nm": [
+        83500000,
+        61637500
+      ],
+      "end_nm": [
+        83500000,
+        63587500
+      ],
+      "layer": "F.Cu",
+      "kind": "track",
+      "width_nm": 250000
+    },
+    {
+      "uuid": "00f8c589-eb46-568b-961c-f14229a0fe05",
+      "net": "VIN_5V",
+      "start_nm": [
+        83500000,
+        69025000
+      ],
+      "end_nm": [
+        83500000,
+        69025000
+      ],
+      "layer": "F.Cu",
+      "kind": "via",
+      "width_nm": 600000,
+      "drill_nm": 300000
+    },
+    {
+      "uuid": "00f8c589-eb46-568b-961c-f14229a0fe06",
+      "net": "VIN_5V",
+      "start_nm": [
+        83500000,
+        69025000
+      ],
+      "end_nm": [
+        84500000,
+        70025000
+      ],
+      "layer": "B.Cu",
+      "kind": "track",
+      "width_nm": 500000
+    },
+    {
+      "uuid": "00f8c589-eb46-568b-961c-f14229a0fe07",
+      "net": "VIN_5V",
+      "start_nm": [
+        84500000,
+        70025000
+      ],
+      "end_nm": [
+        84500000,
+        81000000
+      ],
+      "layer": "B.Cu",
+      "kind": "track",
+      "width_nm": 500000
+    },
+    {
+      "uuid": "00f8c589-eb46-568b-961c-f14229a0fe08",
+      "net": "VIN_5V",
+      "start_nm": [
+        83500000,
+        69025000
+      ],
+      "end_nm": [
+        90000000,
+        62525000
+      ],
+      "layer": "B.Cu",
+      "kind": "track",
+      "width_nm": 1000000
+    },
+    {
+      "uuid": "00f8c589-eb46-568b-961c-f14229a0fe09",
+      "net": "VIN_5V",
+      "start_nm": [
+        90000000,
+        62525000
+      ],
+      "end_nm": [
+        90000000,
+        40500000
+      ],
+      "layer": "B.Cu",
+      "kind": "track",
+      "width_nm": 1000000
     }
   ]
 }
