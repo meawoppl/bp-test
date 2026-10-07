@@ -27,7 +27,7 @@ The old discrete inductors, bootstrap/ripple-injection networks and LM5164 conve
 
 ## Battery reservoir and protection
 
-C333 remains 22uF/50V. C335–C342 form an eight-part 22uF/50V X7R 2220 battery reservoir; each bridge has the same bank. These replace all three 470uF electrolytics. See [CERAMIC-RESERVOIRS.md](CERAMIC-RESERVOIRS.md): 176uF nominal per bank is not 470uF effective, and losing can ESR increases hot-plug ringing. Input protection/damping remains a release blocker.
+The single 22uF/50V 1812 (C333) that sat beside the reservoir on its own stub was removed on 2026-10-07 as redundant. C335–C342 form an eight-part 22uF/50V X7R 2220 battery reservoir; each bridge has the same bank. These replace all three 470uF electrolytics. See [CERAMIC-RESERVOIRS.md](CERAMIC-RESERVOIRS.md): 176uF nominal per bank is not 470uF effective, and losing can ESR increases hot-plug ringing. Input protection/damping remains a release blocker.
 
 D50/D51 SMBJ30A remain bridge rail clamps. Their specified peak clamp is 48.4 V, which **does not guarantee the new modules remain below 42 V**. Input transient suppression/filtering must be coordinated before energizing the assembly. Input fuse/reverse protection, switching-noise separation from the ADC, rail load budgets and thermal tests remain open. This board is an unrouted circuit/placement draft, not a fabrication release.
 

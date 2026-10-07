@@ -166,7 +166,6 @@ def draw(g):
  route('GND',pt('J30',2))
  capbank(BANKS['battery'][:4],x+172.72,y+55.88,'8 x 22uF / 50V / 2220 reservoir')
  capbank(BANKS['battery'][4:],x+172.72,y+99.06)
- capbank(['C333'],x+340.36,y+71.12,'Local rail bypass')
  note('Series: J4 upper battery, J30 lower battery; pin 1 +, pin 2 -.',x+25.4,y+129.54,1.3)
  note('Single 24 V PSU: + to J4.1, - to J30.2; leave J4.2 / J30.1 unused.',x+25.4,y+137.16,1.3)
  note('BAT_MID_12V joins J4.2 to J30.1 only; it is not board ground.',x+25.4,y+144.78,1.3)

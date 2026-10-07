@@ -6,8 +6,8 @@
   "unconnected_items": 0,
   "fabrication_ready": false,
   "sha256": {
-    "controller.kicad_sch": "3811914dc09dcbea69773ede005c59cd339d528fa2ce3edae2ed8fcc5016b752",
-    "controller.kicad_pcb": "cdaacea13972107857f739bf518db3f2b5172b08426b944d21ee553d66b4d4ac",
+    "controller.kicad_sch": "bedbf4e24ec9cc9fd81fc5fb8dd3f33ff17d57077d84bb1c76a65b50f36ff2d9",
+    "controller.kicad_pcb": "7d58946e2c72bf8da1fbec78508c8777eb91a2cca9735e2c629653852625314a",
     "controller.kicad_pro": "40e593eb2309fcddf3cd616a5e82b970cb97e4b268436e03b5e1288843705533"
   },
   "native_drc_findings": 0,

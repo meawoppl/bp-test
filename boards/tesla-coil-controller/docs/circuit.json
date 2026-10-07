@@ -3717,24 +3717,6 @@
       270
     ]
   },
-  "C333": {
-    "value": "22uF 50V",
-    "mpn": "",
-    "lcsc": "",
-    "footprint": "Tesla:C_1812_4532Metric",
-    "pins": {
-      "1": "VBAT_24V",
-      "2": "GND"
-    },
-    "kind": "c",
-    "names": {},
-    "types": {},
-    "position": [
-      77.05,
-      34.95,
-      90
-    ]
-  },
   "J30": {
     "value": "12V BATTERY / LOWER",
     "mpn": "",
