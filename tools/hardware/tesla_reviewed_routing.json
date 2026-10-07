@@ -1740,12 +1740,12 @@
     "H4": {
       "position_nm": [
         25000000,
-        161800000
+        156900000
       ],
       "angle_deg": 0.0,
       "reference_nm": [
         24000000,
-        167800000
+        162900000
       ],
       "footprint": "Tesla:MountingHole_3.2mm_M3",
       "value": "M3"
@@ -3638,12 +3638,12 @@
     "H5": {
       "position_nm": [
         173000000,
-        161800000
+        156900000
       ],
       "angle_deg": 0.0,
       "reference_nm": [
         198000000,
-        167800000
+        162900000
       ],
       "footprint": "Tesla:MountingHole_3.2mm_M3",
       "value": "M3"
