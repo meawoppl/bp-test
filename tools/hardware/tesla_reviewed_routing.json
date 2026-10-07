@@ -1,7 +1,7 @@
 {
   "version": 1,
   "description": "Reviewed two-layer routing: ordered J2.33-40 GDT commands, back-layer CST zero-crossing pair alongside the GDT2 command bundle, straight ADC bus trunks, 0603 ADC passives, relocated rails, local unbuffered power/bridge-leg indicators; obsolete enable and FPGA LED logic removed. FRSTDATA now terminates at local TP1; J7.7 is unused. AUX channel order is AUX1/AUX2/AUX3/AUX4, matching the connector-aligned rows without inter-channel route crossovers. AUX unity-buffer feedback is local on F.Cu; five unnecessary feedback vias removed. CST CH5-8 fully connected; direct regulator-to-CST 3V3 feed; via-free indicator above U2; four U53 input resistors below its package. Front-layer 3V3 feeds, horizontal indicator left of U2, removed abandoned ground copper, four parallel low-side gate resistor pairs. Removed both ADC-to-C5 3V3 transition vias; connection now entirely F.Cu. Four 0.6 mm front-layer HO paths under SOICs; uniform 2.5 x 3.4 mm input-resistor groups below U51-U54. CST local 3V3 branches on F.Cu with six redundant supply vias removed. R416 aligned above C413 at x=109 mm with local lead adjustments. Shared negative-rail generator centered between AUX and CST conditioning, local loop preserved and supply leads shortened. C741 relocated next to U73/C733 negative supply bypass; obsolete branch and one via removed. C429 CT1_RAW filter relocated beside R401/D40, clear of the rear +5V_ADC trunks; local front-layer leads and one fewer ground via. U42 passive alignment: R414 on the D43/C410 axis, C412 oriented for direct CT1_MID routing, and C424 in the R416/C413 column at 3.45 mm pitch; seven surplus segments removed, no added vias. D62 moved above D61 at 3 mm pitch; feedback rerouted on F.Cu, two vias removed and the CT2 rectifier copper shortened by 4.2349 mm. CT1_ZERO and CT2_ZERO use 0.20 mm back-layer trunks at x=119.8/120.6 mm, 0.80 mm pitch alongside GDT2; both return to F.Cu at the FPGA via group. The bias-rail crossing via is at (118,119) mm. VBAT_24V upper bridge feed is 2.50 mm F.Cu through D50.1, removing both three-via transition banks; EXT_CLOCK crosses it on B.Cu from J7.8 and returns at (134.5,42) mm (net five vias removed). AUX2_0_5V input under R711 is one continuous 0.25 mm F.Cu trace from (31.5,89.5) to (57.5,89.5) mm, eliminating the two-via back-layer hop. U44 negative charge-pump block (U44/R421/C420-C423) translated 13.6 mm right with its flying-capacitor loop. Negative output spur shortened 13.6 mm; +5V_ADC bridge passes down its left side and feeds the relocated input via, with no added vias. C333 rotated 90 degrees with its VBAT pad at (77.05,37) mm; the adjacent 24 V detour is replaced by the straight 2.5 mm F.Cu bus, shortening copper 4.95 mm without adding vias. ADC +5 V branches at C4/C2 and the C1 feed through the LQFP pad ring moved to F.Cu; three local vias removed. Incoming B.Cu feed at R20/C10 and all other rail distribution retained. Finished both LMZ14202H converter RON, UVLO, soft-start and feedback networks with 0.25 mm traces and six 0.6/0.3 mm vias; original copper and component positions retained. Finished ADC reference/regulator capacitors C6-C9: five open connections closed, with explicit ground returns. Short layer bridges cross existing supply copper and preserve ground thermal access. Original copper and placement retained. Simplified the annotated CT2_HALF branch to TP61 entirely on front copper: two vias removed, R606 tap straightened, 6.29 mm shorter, connectivity and placement retained. Moved CST1 diode D42 from (65,137) to (65,124.5), above D41, retaining 180-degree polarity. Matched the compact front-copper topology of D62, with clearance for C420. Replaced CT1_RECT_DRIVE and CT1_HALF copper, removing four vias; local silkscreen borders adjusted. J7 service/monitor/clock header removed with all 10 EXT_CLOCK tracks and three vias. J1.11/12/15/16 and J2.32 are unused on this controller; shared ground and other copper retained. U44 shared negative-rail block moved 4 mm right and 5 mm up to clear CST1 diodes; local charge-pump loops translated intact, two supply branches adjusted without extra vias. Connector-aligned AUX rows with raw, buffered, and ground probe pads. R20/C10/C9/C7 aligned at 2.5 mm pitch on y=82.5 mm; local power feed and ground return updated. AUX1-AUX4 remapped to ADC CH1-CH4 at R1-R4. All buffered AUX paths stay on F.Cu; both output crossovers and four vias removed, with CST CH5-CH8 unchanged. CST channels condensed to a matched 17 mm pitch with shortened lower probe/bypass area; electrical contract unchanged. U30/U31 feedback taps simplified with R300/R310 and C301/C311 rotated 180 degrees in place, matching direct divider branches and no added vias. J5 is the HRO TYPE-C-31-M-12 USB-C receptacle for self-powered programming. U3 protects both data lines; R24/R25 terminate CC1/CC2 separately. USB_VBUS only feeds protection and the R26/R27 sense divider to J1.20 (GPIO8). Host VBUS is isolated from VIN_5V.; paired ADC \u00b15 V distribution along the right side of the conditioning rows; annotated U44 negative-output bottom bridge now on F.Cu with two vias removed; nearby positive-rail transition moved below the crossing Series battery input review: J4 upper 12 V, J30 lower 12 V; isolated BAT_MID_12V straight 2.5 mm front link J4.2 to J30.1. Single 24 V uses J4.1 and J30.2. Re-fed U30 UVLO from VBAT_24V bus; all other copper preserved.; straighten +12 V at y=74.7 mm and cross J2 on back; simplify ADC fanout to front with transitions near ADC; straighten D70-D73 +5V_ADC back-layer clamp supply through the aligned vias at x=45.2 mm; align the four lower GDT2 bend starts with CT1_ZERO at y=124.1 mm, preserving all vias and 0.2 mm B.Cu widths; extend the J2 right via column to ten vias at 0.9 mm pitch and straighten CT1/CT2 ZERO front-layer crossover links, preserving widths and via sizes; replace the auxiliary supply detour beside C702 and R740 with a direct front-layer link, removing one redundant via and preserving the supply trunk and component placement",
-  "net_contract_sha256": "915de509717f886ce2e29520d7d0612a45a6332432f02124b8b4620805a9f35a",
+  "net_contract_sha256": "0ca97b351b0f7aec20fd0a1f85ac80bcaedc94de3a965c740faa7a57ae7cff87",
   "removed_footprints": [
     "U50",
     "U55",
@@ -18,7 +18,11 @@
     "R822",
     "R823",
     "R824",
-    "J7"
+    "J7",
+    "C527",
+    "C528",
+    "C567",
+    "C568"
   ],
   "placements": {
     "R421": {
@@ -1307,19 +1311,6 @@
       ],
       "footprint": "Tesla:C_0805_2012Metric",
       "value": "1nF 50V C0G"
-    },
-    "C527": {
-      "position_nm": [
-        134000000,
-        92500000
-      ],
-      "angle_deg": 0.0,
-      "reference_nm": [
-        145000000,
-        94700000
-      ],
-      "footprint": "Tesla:C_1210_3225Metric",
-      "value": "2.2uF 50V X7R"
     },
     "TP732": {
       "position_nm": [
@@ -3037,19 +3028,6 @@
       "footprint": "Tesla:R_0805_2012Metric",
       "value": "33R"
     },
-    "C528": {
-      "position_nm": [
-        130500000,
-        92500000
-      ],
-      "angle_deg": 90.0,
-      "reference_nm": [
-        148000000,
-        94700000
-      ],
-      "footprint": "Tesla:C_0805_2012Metric",
-      "value": "100nF 50V"
-    },
     "C339": {
       "position_nm": [
         43000000,
@@ -3570,19 +3548,6 @@
       "footprint": "Tesla:C_0805_2012Metric",
       "value": "100nF"
     },
-    "C567": {
-      "position_nm": [
-        134000000,
-        147500000
-      ],
-      "angle_deg": 0.0,
-      "reference_nm": [
-        145000000,
-        149700000
-      ],
-      "footprint": "Tesla:C_1210_3225Metric",
-      "value": "2.2uF 50V X7R"
-    },
     "C732": {
       "position_nm": [
         51000000,
@@ -3881,19 +3846,6 @@
       ],
       "footprint": "Tesla:TestPoint_Pad_D1.0mm",
       "value": "CT2_ABS"
-    },
-    "C568": {
-      "position_nm": [
-        130500000,
-        147500000
-      ],
-      "angle_deg": 90.0,
-      "reference_nm": [
-        148000000,
-        149700000
-      ],
-      "footprint": "Tesla:C_0805_2012Metric",
-      "value": "100nF 50V"
     },
     "R400": {
       "position_nm": [
@@ -6193,18 +6145,6 @@
       "thermal_angle_deg": 90.0
     },
     {
-      "ref": "C527",
-      "pin": "1",
-      "net": "VBAT_24V",
-      "thermal_angle_deg": 90.0
-    },
-    {
-      "ref": "C527",
-      "pin": "2",
-      "net": "GND",
-      "thermal_angle_deg": 90.0
-    },
-    {
       "ref": "TP732",
       "pin": "1",
       "net": "GND",
@@ -8377,18 +8317,6 @@
       "thermal_angle_deg": 90.0
     },
     {
-      "ref": "C528",
-      "pin": "1",
-      "net": "VBAT_24V",
-      "thermal_angle_deg": 90.0
-    },
-    {
-      "ref": "C528",
-      "pin": "2",
-      "net": "GND",
-      "thermal_angle_deg": 90.0
-    },
-    {
       "ref": "C339",
       "pin": "1",
       "net": "VBAT_24V",
@@ -9049,18 +8977,6 @@
       "thermal_angle_deg": 90.0
     },
     {
-      "ref": "C567",
-      "pin": "1",
-      "net": "VBAT_24V",
-      "thermal_angle_deg": 90.0
-    },
-    {
-      "ref": "C567",
-      "pin": "2",
-      "net": "GND",
-      "thermal_angle_deg": 90.0
-    },
-    {
       "ref": "C732",
       "pin": "1",
       "net": "+12V_AUX",
@@ -9335,18 +9251,6 @@
       "pin": "1",
       "net": "CT2_ABS",
       "thermal_angle_deg": 45.0
-    },
-    {
-      "ref": "C568",
-      "pin": "1",
-      "net": "VBAT_24V",
-      "thermal_angle_deg": 90.0
-    },
-    {
-      "ref": "C568",
-      "pin": "2",
-      "net": "GND",
-      "thermal_angle_deg": 90.0
     },
     {
       "ref": "R400",
@@ -10892,22 +10796,6 @@
       "width_nm": 1200000
     },
     {
-      "uuid": "0f4cbe54-4d27-5369-b141-1cbed24e85b5",
-      "net": "VBAT_24V",
-      "start_nm": [
-        130500000,
-        149950000
-      ],
-      "end_nm": [
-        130500000,
-        149950000
-      ],
-      "layer": "F.Cu",
-      "kind": "via",
-      "width_nm": 600000,
-      "drill_nm": 300000
-    },
-    {
       "uuid": "0f57ef6c-4f90-52e2-be85-137fab9cccac",
       "net": "VIN_5V",
       "start_nm": [
@@ -11881,36 +11769,6 @@
       "width_nm": 600000
     },
     {
-      "uuid": "1c3c47d3-a46f-5e62-ad08-5709c507c3e5",
-      "net": "VBAT_24V",
-      "start_nm": [
-        131300000,
-        147800000
-      ],
-      "end_nm": [
-        131300000,
-        148450000
-      ],
-      "layer": "F.Cu",
-      "kind": "track",
-      "width_nm": 500000
-    },
-    {
-      "uuid": "1c3c47d3-a46f-5e62-ad08-5709c507e001",
-      "net": "VBAT_24V",
-      "start_nm": [
-        131300000,
-        148450000
-      ],
-      "end_nm": [
-        130500000,
-        148450000
-      ],
-      "layer": "F.Cu",
-      "kind": "track",
-      "width_nm": 500000
-    },
-    {
       "uuid": "1c54c2b2-9f0c-5884-9aa3-f6abb7086b2a",
       "net": "GDT1_L_SW",
       "start_nm": [
@@ -12425,21 +12283,6 @@
       "layer": "F.Cu",
       "kind": "track",
       "width_nm": 200000
-    },
-    {
-      "uuid": "25d1ae8c-b80c-56ab-bfe3-8864062fb4a3",
-      "net": "VBAT_24V",
-      "start_nm": [
-        131600000,
-        92500000
-      ],
-      "end_nm": [
-        131300000,
-        92800000
-      ],
-      "layer": "F.Cu",
-      "kind": "track",
-      "width_nm": 500000
     },
     {
       "uuid": "25eafc89-baca-52c0-9969-ce6c475b9539",
@@ -13126,37 +12969,6 @@
       "width_nm": 250000
     },
     {
-      "uuid": "306478eb-106f-571a-92aa-b382820f7863",
-      "net": "VBAT_24V",
-      "start_nm": [
-        132525000,
-        92500000
-      ],
-      "end_nm": [
-        131600000,
-        92500000
-      ],
-      "layer": "F.Cu",
-      "kind": "track",
-      "width_nm": 500000
-    },
-    {
-      "uuid": "30870a44-977c-54e5-87b3-3ba80bc69a07",
-      "net": "VBAT_24V",
-      "start_nm": [
-        130500000,
-        94950000
-      ],
-      "end_nm": [
-        130500000,
-        94950000
-      ],
-      "layer": "F.Cu",
-      "kind": "via",
-      "width_nm": 600000,
-      "drill_nm": 300000
-    },
-    {
       "uuid": "30c422d0-40ed-51c5-8ed0-4a8b7d20e553",
       "net": "GND",
       "start_nm": [
@@ -13652,22 +13464,6 @@
       "end_nm": [
         53400000,
         114000000
-      ],
-      "layer": "F.Cu",
-      "kind": "via",
-      "width_nm": 600000,
-      "drill_nm": 300000
-    },
-    {
-      "uuid": "36ac14da-fad5-515d-81e6-b137dc98beba",
-      "net": "VBAT_24V",
-      "start_nm": [
-        133000000,
-        156800000
-      ],
-      "end_nm": [
-        133000000,
-        156800000
       ],
       "layer": "F.Cu",
       "kind": "via",
@@ -14523,22 +14319,6 @@
       "width_nm": 1000000
     },
     {
-      "uuid": "479f1187-9482-5abd-bdc3-d8488641d1ae",
-      "net": "VBAT_24V",
-      "start_nm": [
-        133000000,
-        101800000
-      ],
-      "end_nm": [
-        133000000,
-        101800000
-      ],
-      "layer": "F.Cu",
-      "kind": "via",
-      "width_nm": 600000,
-      "drill_nm": 300000
-    },
-    {
       "uuid": "47afb33f-5b5b-5b61-8d7e-b23ba406363e",
       "net": "VBAT_24V",
       "start_nm": [
@@ -15011,21 +14791,6 @@
       "width_nm": 2500000
     },
     {
-      "uuid": "4f70ff35-cdc9-5769-a946-8175c8b5f4ef",
-      "net": "VBAT_24V",
-      "start_nm": [
-        130500000,
-        94950000
-      ],
-      "end_nm": [
-        130500000,
-        99300000
-      ],
-      "layer": "B.Cu",
-      "kind": "track",
-      "width_nm": 600000
-    },
-    {
       "uuid": "4f82ba6c-bb66-5bcd-9d67-b831617793a8",
       "net": "+12V_BIAS",
       "start_nm": [
@@ -15222,21 +14987,6 @@
       "layer": "F.Cu",
       "kind": "track",
       "width_nm": 1500000
-    },
-    {
-      "uuid": "53337e42-2f61-53ae-a71a-a903a0eaf4f5",
-      "net": "VBAT_24V",
-      "start_nm": [
-        133000000,
-        156800000
-      ],
-      "end_nm": [
-        135000000,
-        156800000
-      ],
-      "layer": "F.Cu",
-      "kind": "track",
-      "width_nm": 600000
     },
     {
       "uuid": "533e8b89-7bea-5761-9dcf-7d65b7abe4a1",
@@ -15951,21 +15701,6 @@
       "width_nm": 180000
     },
     {
-      "uuid": "5bbfd6a4-2237-5d3e-b34b-979e7a154103",
-      "net": "VBAT_24V",
-      "start_nm": [
-        130500000,
-        154300000
-      ],
-      "end_nm": [
-        133000000,
-        156800000
-      ],
-      "layer": "B.Cu",
-      "kind": "track",
-      "width_nm": 600000
-    },
-    {
       "uuid": "5c057039-b10f-58c5-9dcb-dde17176ae66",
       "net": "GND",
       "start_nm": [
@@ -16497,21 +16232,6 @@
       "width_nm": 200000
     },
     {
-      "uuid": "63e18602-7a19-5ab1-88a7-206edfe18f4f",
-      "net": "VBAT_24V",
-      "start_nm": [
-        130500000,
-        99300000
-      ],
-      "end_nm": [
-        133000000,
-        101800000
-      ],
-      "layer": "B.Cu",
-      "kind": "track",
-      "width_nm": 600000
-    },
-    {
       "uuid": "63e5f28a-f8d0-5d61-9d01-813f4a4a2d6d",
       "net": "ADC_SCLK",
       "start_nm": [
@@ -16585,21 +16305,6 @@
       "layer": "F.Cu",
       "kind": "track",
       "width_nm": 300000
-    },
-    {
-      "uuid": "6521bd9b-c143-5957-b9e1-0995349a22cb",
-      "net": "VBAT_24V",
-      "start_nm": [
-        133000000,
-        101800000
-      ],
-      "end_nm": [
-        135000000,
-        101800000
-      ],
-      "layer": "F.Cu",
-      "kind": "track",
-      "width_nm": 600000
     },
     {
       "uuid": "655814bf-587e-5745-b66e-a477bf8ce09a",
@@ -16736,21 +16441,6 @@
       "layer": "F.Cu",
       "kind": "track",
       "width_nm": 250000
-    },
-    {
-      "uuid": "66fd8d00-3490-5810-98c8-e262f2359bba",
-      "net": "VBAT_24V",
-      "start_nm": [
-        132525000,
-        147500000
-      ],
-      "end_nm": [
-        131600000,
-        147500000
-      ],
-      "layer": "F.Cu",
-      "kind": "track",
-      "width_nm": 500000
     },
     {
       "uuid": "675a5bfc-5260-50ed-bab7-b6182925f78d",
@@ -17360,21 +17050,6 @@
       "layer": "F.Cu",
       "kind": "track",
       "width_nm": 400000
-    },
-    {
-      "uuid": "709dbcee-acad-5d32-9316-6d8a3fd361e1",
-      "net": "VBAT_24V",
-      "start_nm": [
-        131300000,
-        92800000
-      ],
-      "end_nm": [
-        131300000,
-        93450000
-      ],
-      "layer": "F.Cu",
-      "kind": "track",
-      "width_nm": 500000
     },
     {
       "uuid": "71270c1f-d124-54fb-b8b9-106d0c782e8a",
@@ -18052,21 +17727,6 @@
       "layer": "F.Cu",
       "kind": "track",
       "width_nm": 200000
-    },
-    {
-      "uuid": "7b8edc3f-e728-5ec1-8e99-6e61947ae001",
-      "net": "VBAT_24V",
-      "start_nm": [
-        131300000,
-        93450000
-      ],
-      "end_nm": [
-        130500000,
-        93450000
-      ],
-      "layer": "F.Cu",
-      "kind": "track",
-      "width_nm": 500000
     },
     {
       "uuid": "7bbf0562-cafe-573a-8fe4-5bc080bdc5e7",
@@ -21911,21 +21571,6 @@
       "width_nm": 300000
     },
     {
-      "uuid": "b119ae0d-2ca5-5c63-b782-f3a98456e401",
-      "net": "VBAT_24V",
-      "start_nm": [
-        130500000,
-        149950000
-      ],
-      "end_nm": [
-        130500000,
-        148450000
-      ],
-      "layer": "F.Cu",
-      "kind": "track",
-      "width_nm": 500000
-    },
-    {
       "uuid": "b13c2796-8ea0-5b24-a67f-e25dc410cdaf",
       "net": "CT2_ZERO",
       "start_nm": [
@@ -22441,21 +22086,6 @@
       "layer": "F.Cu",
       "kind": "track",
       "width_nm": 2500000
-    },
-    {
-      "uuid": "b89eca89-6e5f-5fb0-b487-9e580540fde9",
-      "net": "VBAT_24V",
-      "start_nm": [
-        131600000,
-        147500000
-      ],
-      "end_nm": [
-        131300000,
-        147800000
-      ],
-      "layer": "F.Cu",
-      "kind": "track",
-      "width_nm": 500000
     },
     {
       "uuid": "b8a7a9a9-d455-5b1a-85dc-b84fee3f6f10",
@@ -23816,21 +23446,6 @@
       "layer": "F.Cu",
       "kind": "track",
       "width_nm": 200000
-    },
-    {
-      "uuid": "c86f1250-ed56-5e8b-99d8-637e293b8686",
-      "net": "VBAT_24V",
-      "start_nm": [
-        130500000,
-        149950000
-      ],
-      "end_nm": [
-        130500000,
-        154300000
-      ],
-      "layer": "B.Cu",
-      "kind": "track",
-      "width_nm": 600000
     },
     {
       "uuid": "c88cce5c-a671-51b2-a1cb-594efa4b720a",
@@ -26160,21 +25775,6 @@
       "layer": "F.Cu",
       "kind": "track",
       "width_nm": 300000
-    },
-    {
-      "uuid": "f2e58d39-14d3-5d13-8682-db69c6467cba",
-      "net": "VBAT_24V",
-      "start_nm": [
-        130500000,
-        94950000
-      ],
-      "end_nm": [
-        130500000,
-        93450000
-      ],
-      "layer": "F.Cu",
-      "kind": "track",
-      "width_nm": 500000
     },
     {
       "uuid": "f301f679-1e41-51b4-b7c9-79e084595e61",

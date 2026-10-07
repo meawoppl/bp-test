@@ -36,7 +36,7 @@ The low-capacitance nominal model gives about 7.33Arms bank ripple during the bu
 
 1. Confirm effective capacitance and ripple heating on the selected part across battery voltage, temperature, aging and pulse spectrum. Increase bank count or revise load/duty limits if the measured rail droop is unacceptable.
 2. Complete input damping, inrush and transient protection. An idealized 30V hot-plug into 96uF total effective capacitance through 5uH/50mOhm estimates **51.2V unclamped peak**. It is a warning calculation, not a predicted protected waveform. The existing SMBJ30A maximum clamp of 48.4V does not protect the 42V-input modules adequately. This was already open and is more important with ceramic-only reservoirs.
-3. Route short wide paired power/return paths from each bank to its bridge. The floorplan is not a routed-current-sharing guarantee. Keep the existing small bypass parts at the switching loops. Avoid strain near large MLCCs; verify assembly/board-flex suitability.
+3. Route short wide paired power/return paths from each bank to its bridge. The floorplan is not a routed-current-sharing guarantee. The former 2.2uF/100nF bypass pairs beside each bridge were removed on 2026-10-07; the paralleled bank is the only local bypass, so its placement against the bridge loop matters. Avoid strain near large MLCCs; verify assembly/board-flex suitability.
 4. Validate with actual GDTs, gates, cable lengths and synchronized/independent command patterns. Models omit nonlinear Miller behavior, core saturation, PCB parasitics and regulator input dynamics.
 
 Circuit contract, symbols and native ERC/physical DRC/parity are checked. The board remains an **unrouted development draft**, not an approved fabrication package.

@@ -3,14 +3,14 @@
   "erc": 0,
   "physical_drc": 0,
   "schematic_parity": 0,
-  "unconnected_items": 2,
+  "unconnected_items": 0,
   "fabrication_ready": false,
   "sha256": {
-    "controller.kicad_sch": "d1f2157437e8d7cc722dd2446009ce7c7402762126eb5a5e3ba4992b00055342",
-    "controller.kicad_pcb": "cf7a6a56b772f336e40a19349ef7e0c039f50a38c5df540b2db04c5c0ff1d45f",
+    "controller.kicad_sch": "3811914dc09dcbea69773ede005c59cd339d528fa2ce3edae2ed8fcc5016b752",
+    "controller.kicad_pcb": "cdaacea13972107857f739bf518db3f2b5172b08426b944d21ee553d66b4d4ac",
     "controller.kicad_pro": "40e593eb2309fcddf3cd616a5e82b970cb97e4b268436e03b5e1288843705533"
   },
   "native_drc_findings": 0,
   "intentional_open_route_ends": [],
-  "native_whole_board_unconnected": 2
+  "native_whole_board_unconnected": 0
 }

@@ -67,7 +67,6 @@ def draw_output(g):
   bank=BANKS[f'gdt{ch+1}']
   capbank(bank[:4],x+45.72,y+269.24,'8 x 22uF / 50V X7R / 2220 reservoir')
   capbank(bank[4:],x+45.72,y+304.8)
-  capbank([cr(7),cr(8)],x+223.52,y+292.1,'Local bypass')
   put('D'+str(50+ch),x+350.52,y+292.1,True);route('VBAT_24V',pt('D'+str(50+ch),1));route('GND',pt('D'+str(50+ch),2))
   note('Precharge: both lows ON, both highs OFF. Insert deadtime before each leg commutation.',x+12.7,y+325.12,1.1)
   note('UD2.7: 2.2uF / 50V X7R DC block, with parallel 15R + 1uF / 50V X7R damping branch.',x+12.7,y+335.28,1.1)

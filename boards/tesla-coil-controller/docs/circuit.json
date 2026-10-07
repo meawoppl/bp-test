@@ -2589,42 +2589,6 @@
       180
     ]
   },
-  "C527": {
-    "value": "2.2uF 50V X7R",
-    "mpn": "",
-    "lcsc": "",
-    "footprint": "Tesla:C_1210_3225Metric",
-    "pins": {
-      "1": "VBAT_24V",
-      "2": "GND"
-    },
-    "kind": "c",
-    "names": {},
-    "types": {},
-    "position": [
-      140,
-      92.5,
-      0
-    ]
-  },
-  "C528": {
-    "value": "100nF 50V",
-    "mpn": "",
-    "lcsc": "",
-    "footprint": "Tesla:C_0805_2012Metric",
-    "pins": {
-      "1": "VBAT_24V",
-      "2": "GND"
-    },
-    "kind": "c",
-    "names": {},
-    "types": {},
-    "position": [
-      136.5,
-      92.5,
-      90
-    ]
-  },
   "J50": {
     "value": "GDT 1 PRIMARY",
     "mpn": "",
@@ -3093,42 +3057,6 @@
       157,
       143.04000000000002,
       180
-    ]
-  },
-  "C567": {
-    "value": "2.2uF 50V X7R",
-    "mpn": "",
-    "lcsc": "",
-    "footprint": "Tesla:C_1210_3225Metric",
-    "pins": {
-      "1": "VBAT_24V",
-      "2": "GND"
-    },
-    "kind": "c",
-    "names": {},
-    "types": {},
-    "position": [
-      140,
-      147.5,
-      0
-    ]
-  },
-  "C568": {
-    "value": "100nF 50V",
-    "mpn": "",
-    "lcsc": "",
-    "footprint": "Tesla:C_0805_2012Metric",
-    "pins": {
-      "1": "VBAT_24V",
-      "2": "GND"
-    },
-    "kind": "c",
-    "names": {},
-    "types": {},
-    "position": [
-      136.5,
-      147.5,
-      90
     ]
   },
   "J51": {
