@@ -1,0 +1,7 @@
+fpga/top.json
+fpga/top.asc
+fpga/top.bin
+firmware/build/
+firmware/sdkconfig
+firmware/sdkconfig.old
+firmware/managed_components/

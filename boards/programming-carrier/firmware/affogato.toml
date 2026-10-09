@@ -1,0 +1,8 @@
+[project]
+name = "programming-carrier-v1-test"
+
+[fpga]
+device = "up5k"
+package = "sg48"
+top = "top"
+pcf = "fpga/project.pcf"
