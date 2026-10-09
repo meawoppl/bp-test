@@ -1,0 +1,337 @@
+I (30) boot: ESP-IDF v5.3.2 2nd stage bootloader
+I (30) boot: compile time Oct  9 2026 13:44:15
+I (30) boot: chip revision: v1.0
+I (30) boot: efuse block revision: v0.2
+I (30) boot.esp32s2: SPI Speed      : 80MHz
+I (31) boot.esp32s2: SPI Mode       : DIO
+I (31) boot.esp32s2: SPI Flash Size : 4MB
+I (31) boot: Enabling RNG early entropy source...
+I (31) boot: Partition Table:
+I (31) boot: ## Label            Usage          Type ST Offset   Length
+I (32) boot:  0 nvs              WiFi data        01 02 00009000 00006000
+I (33) boot:  1 phy_init         RF data          01 01 0000f000 00001000
+I (35) boot:  2 factory          factory app      00 00 00010000 00100000
+I (36) boot: End of partition table
+I (36) esp_image: segment 0: paddr=00010020 vaddr=3f000020 size=27474h (160884) map
+I (68) esp_image: segment 1: paddr=0003749c vaddr=3ffc20e0 size=01cf8h (  7416) load
+I (70) esp_image: segment 2: paddr=0003919c vaddr=40024000 size=06e7ch ( 28284) load
+I (77) esp_image: segment 3: paddr=00040020 vaddr=40080020 size=26968h (158056) map
+I (108) esp_image: segment 4: paddr=00066990 vaddr=4002ae7c size=07260h ( 29280) load
+I (123) boot: Loaded app from partition at offset 0x10000
+I (124) boot: Disabling RNG early entropy source...
+I (144) main_task: Started on CPU0
+I (144) main_task: Calling app_main()
+I (154) main: programming-carrier-v1-test 1.0.0 (app programming-carrier-v1-test, elf 1ed879675, bitstream 104090 bytes sha256 6ca0147ad0b8ed3f…)
+I (156) ice40_spi: Configuring SPI bus: SCLK=12 MOSI=11 MISO=13
+I (157) ice40_spi: SPI bus initialized
+I (157) gpio: GPIO[36]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 
+I (159) gpio: GPIO[37]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 
+I (160) ice40_loader: FPGA loader initialized (CRESET=36, CDONE=37)
+I (161) ice40_loader: Loading FPGA from ROM, size=104090
+I (165) ice40_loader: Loading 104090 bytes
+I (258) ice40_loader: FPGA configuration complete
+I (259) fpga_link: loader: ESP_OK, CDONE=1
+I (259) fpga_link: runtime id=0x50435431 abi=0x00010000
+I (261) main: FPGA fixture image loaded and identified
+I (262) gpio: GPIO[1]| InputEn: 0| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 
+I (263) gpio: GPIO[2]| InputEn: 0| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 
+I (264) gpio: GPIO[3]| InputEn: 0| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 
+I (265) gpio: GPIO[4]| InputEn: 0| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 
+I (266) gpio: GPIO[5]| InputEn: 0| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 
+I (267) gpio: GPIO[6]| InputEn: 0| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 
+I (268) gpio: GPIO[7]| InputEn: 0| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 
+I (269) gpio: GPIO[8]| InputEn: 0| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 
+I (270) gpio: GPIO[15]| InputEn: 0| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 
+I (271) gpio: GPIO[16]| InputEn: 0| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 
+I (272) gpio: GPIO[17]| InputEn: 0| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 
+I (273) gpio: GPIO[18]| InputEn: 0| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 
+I (274) gpio: GPIO[21]| InputEn: 0| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 
+I (275) gpio: GPIO[33]| InputEn: 0| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 
+I (276) gpio: GPIO[34]| InputEn: 0| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 
+I (277) gpio: GPIO[35]| InputEn: 0| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 
+I (278) gpio: GPIO[38]| InputEn: 0| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 
+I (279) gpio: GPIO[39]| InputEn: 0| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 
+I (280) gpio: GPIO[40]| InputEn: 0| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 
+I (281) gpio: GPIO[41]| InputEn: 0| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 
+I (282) gpio: GPIO[42]| InputEn: 0| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 
+I (283) gpio: GPIO[43]| InputEn: 0| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 
+I (284) gpio: GPIO[44]| InputEn: 0| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 
+I (285) gpio: GPIO[45]| InputEn: 0| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 
+I (286) gpio: GPIO[46]| InputEn: 0| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 
+[5n
+programming-carrier-v1-test idle: eligible outputs low, RGB sinks released.
+Confirm the module is on programming carrier v1, then:
+  fixture arm carrier-v1
+  fixture start      (full sequence; `fixture stop` any time)
+  fixture            (all commands)
+
+
+Type 'help' to get the list of commands.
+Use UP/DOWN arrows to navigate through command history.
+Press TAB when typing command name to auto-complete.
+
+Your terminal application does not support escape sequences.
+
+Line editing and history features are disabled.
+
+On Windows, try using Putty instead.
+carrier>  I (792) main_task: Returned from app_main()
+
+[mon] >>> fixture status
+fixture status
+identity:   programming-carrier-v1-test
+armed:      no (fixture arm carrier-v1)
+state:      idle
+repeat:     off, walk dwell 300 ms
+bitstream:  104090 bytes, sha256 6ca0147ad0b8ed3f…
+fpga:       ESP_OK, frames 19, uptime 1739 ms, watchdog trips 0
+gpio46:     LOW, 0 presses since boot
+applied:    1 steps, 0 with readback mismatch
+observed:   0 ok, 0 bad (fixture mark ok|bad <note>)
+carrier>  
+carrier>  
+[mon] >>> fixture arm carrier-v1
+fixture arm carrier-v1
+armed: programming-carrier-v1-test on programming carrier v1
+carrier>  
+carrier>  
+[mon] >>> fixture start
+fixture start
+all-on and GPIO45 are opt-in: `fixture allon`, `fixture gpio45`
+fixture: 359 steps; `fixture stop` at any time
+[baseline 1/359] all eligible outputs off
+carrier>  
+carrier>  [bank 2/359] 6 on: D12 D13 D14 D15 D16 D17
+[bank 4/359] 8 on: D18 D19 D20 D21 D22 D23 D24 D25
+[bank 6/359] 8 on: D26 D27 D28 D29 D30 D31 D32 D33
+[bank 8/359] ON D34 ESP_GPIO44_RXD [U6] J1-27 pkg U1-49
+[bank 10/359] 8 on: D42 D43 D44 D45 D46 D47 D48 D49
+[bank 12/359] 8 on: D50 D51 D52 D53 D54 D55 D56 D57
+[bank 14/359] 8 on: D58 D59 D60 D61 D62 D63 D64 D65
+[bank 16/359] 6 on: D66 D67 D68 D69 D70 D71
+[walk 18/359] ON D12 ESP_GPIO1 [U3] J1-13 pkg U1-6
+[walk 20/359] ON D13 ESP_GPIO2 [U3] J1-14 pkg U1-7
+[walk 22/359] ON D14 ESP_GPIO3 [U3] J1-15 pkg U1-8
+[walk 24/359] ON D15 ESP_GPIO4 [U3] J1-16 pkg U1-9
+[walk 26/359] ON D16 ESP_GPIO5 [U3] J1-17 pkg U1-10
+[walk 28/359] ON D17 ESP_GPIO6 [U3] J1-18 pkg U1-11
+[walk 30/359] ON D18 ESP_GPIO7 [U4] J1-19 pkg U1-12
+[walk 32/359] ON D19 ESP_GPIO8 [U4] J1-20 pkg U1-13
+[walk 34/359] ON D20 ESP_GPIO15 [U4] J1-35 pkg U1-21
+[walk 36/359] ON D21 ESP_GPIO16 [U4] J1-37 pkg U1-22
+[walk 38/359] ON D22 ESP_GPIO17 [U4] J1-36 pkg U1-23
+[walk 40/359] ON D23 ESP_GPIO18 [U4] J1-38 pkg U1-24
+[walk 42/359] ON D24 ESP_GPIO21 [U4] J1-40 pkg U1-28
+[walk 44/359] ON D25 ESP_GPIO33 [U4] J1-29 pkg U1-37
+[walk 46/359] ON D26 ESP_GPIO34 [U5] J1-32 pkg U1-38
+[walk 48/359] ON D27 ESP_GPIO35 [U5] J1-28 pkg U1-39
+[walk 50/359] ON D28 ESP_GPIO38 [U5] J1-39 pkg U1-42
+[walk 52/359] ON D29 ESP_GPIO39 [U5] J1-23 pkg U1-43
+[walk 54/359] ON D30 ESP_GPIO40 [U5] J1-21 pkg U1-44
+[walk 56/359] ON D31 ESP_GPIO41 [U5] J1-24 pkg U1-46
+[walk 58/359] ON D32 ESP_GPIO42 [U5] J1-25 pkg U1-47
+[walk 60/359] ON D33 ESP_GPIO43_TXD [U5] J1-26 pkg U1-48
+[walk 62/359] ON D34 ESP_GPIO44_RXD [U6] J1-27 pkg U1-49
+[walk 64/359] ON D42 FPGA_IOB_0A [U7] J2-35 pkg U2-46
+[walk 66/359] ON D43 FPGA_IOB_2A [U7] J2-36 pkg U2-47
+[walk 68/359] ON D44 FPGA_IOB_3B_G6 [U7] J2-32 pkg U2-44
+[walk 70/359] ON D45 FPGA_IOB_4A [U7] J2-37 pkg U2-48
+[walk 72/359] ON D46 FPGA_IOB_5B [U7] J2-34 pkg U2-45
+[walk 74/359] ON D47 FPGA_IOB_6A [U7] J2-40 pkg U2-2
+[walk 76/359] ON D48 FPGA_IOB_8A [U7] J2-39 pkg U2-4
+[walk 78/359] ON D49 FPGA_IOB_9B [U7] J2-38 pkg U2-3
+[walk 80/359] ON D50 FPGA_IOB_13B [U8] J2-6 pkg U2-6
+[walk 82/359] ON D51 FPGA_IOB_16A [U8] J2-4 pkg U2-9
+[walk 84/359] ON D52 FPGA_IOB_18A [U8] J2-2 pkg U2-10
+[walk 86/359] ON D53 FPGA_IOB_20A [U8] J2-7 pkg U2-11
+[walk 88/359] ON D54 FPGA_IOB_22A [U8] J2-5 pkg U2-12
+[walk 90/359] ON D55 FPGA_IOB_23B [U8] J2-10 pkg U2-21
+[walk 92/359] ON D56 FPGA_IOB_25B_G3 [U8] J2-12 pkg U2-20
+[walk 94/359] ON D57 FPGA_IOB_29B [U8] J2-11 pkg U2-19
+[walk 96/359] ON D58 FPGA_IOT_36B [U9] J2-14 pkg U2-25
+[walk 98/359] ON D59 FPGA_IOT_37A [U9] J2-9 pkg U2-23
+[walk 100/359] ON D60 FPGA_IOT_38B [U9] J2-15 pkg U2-27
+[walk 102/359] ON D61 FPGA_IOT_39A [U9] J2-16 pkg U2-26
+[walk 104/359] ON D62 FPGA_IOT_41A [U9] J2-17 pkg U2-28
+[walk 106/359] ON D63 FPGA_IOT_42B [U9] J2-19 pkg U2-31
+[walk 108/359] ON D64 FPGA_IOT_43A [U9] J2-20 pkg U2-32
+[walk 110/359] ON D65 FPGA_IOT_44B [U9] J2-33 pkg U2-34
+[walk 112/359] ON D66 FPGA_IOT_45A_G1 [U10] J2-24 pkg U2-37
+[walk 114/359] ON D67 FPGA_IOT_46B_G0 [U10] J2-22 pkg U2-35
+[walk 116/359] ON D68 FPGA_IOT_48B [U10] J2-21 pkg U2-36
+[walk 118/359] ON D69 FPGA_IOT_49A [U10] J2-31 pkg U2-43
+[walk 120/359] ON D70 FPGA_IOT_50B [U10] J2-25 pkg U2-38
+[walk 122/359] ON D71 FPGA_IOT_51A [U10] J2-30 pkg U2-42
+[walk 124/359] ON D71 FPGA_IOT_51A [U10] J2-30 pkg U2-42
+[walk 126/359] ON D70 FPGA_IOT_50B [U10] J2-25 pkg U2-38
+[walk 128/359] ON D69 FPGA_IOT_49A [U10] J2-31 pkg U2-43
+[walk 130/359] ON D68 FPGA_IOT_48B [U10] J2-21 pkg U2-36
+[walk 132/359] ON D67 FPGA_IOT_46B_G0 [U10] J2-22 pkg U2-35
+[walk 134/359] ON D66 FPGA_IOT_45A_G1 [U10] J2-24 pkg U2-37
+[walk 136/359] ON D65 FPGA_IOT_44B [U9] J2-33 pkg U2-34
+[walk 138/359] ON D64 FPGA_IOT_43A [U9] J2-20 pkg U2-32
+[walk 140/359] ON D63 FPGA_IOT_42B [U9] J2-19 pkg U2-31
+[walk 142/359] ON D62 FPGA_IOT_41A [U9] J2-17 pkg U2-28
+[walk 144/359] ON D61 FPGA_IOT_39A [U9] J2-16 pkg U2-26
+[walk 146/359] ON D60 FPGA_IOT_38B [U9] J2-15 pkg U2-27
+[walk 148/359] ON D59 FPGA_IOT_37A [U9] J2-9 pkg U2-23
+[walk 150/359] ON D58 FPGA_IOT_36B [U9] J2-14 pkg U2-25
+[walk 152/359] ON D57 FPGA_IOB_29B [U8] J2-11 pkg U2-19
+[walk 154/359] ON D56 FPGA_IOB_25B_G3 [U8] J2-12 pkg U2-20
+[walk 156/359] ON D55 FPGA_IOB_23B [U8] J2-10 pkg U2-21
+[walk 158/359] ON D54 FPGA_IOB_22A [U8] J2-5 pkg U2-12
+[walk 160/359] ON D53 FPGA_IOB_20A [U8] J2-7 pkg U2-11
+[walk 162/359] ON D52 FPGA_IOB_18A [U8] J2-2 pkg U2-10
+[walk 164/359] ON D51 FPGA_IOB_16A [U8] J2-4 pkg U2-9
+[walk 166/359] ON D50 FPGA_IOB_13B [U8] J2-6 pkg U2-6
+[walk 168/359] ON D49 FPGA_IOB_9B [U7] J2-38 pkg U2-3
+[walk 170/359] ON D48 FPGA_IOB_8A [U7] J2-39 pkg U2-4
+[walk 172/359] ON D47 FPGA_IOB_6A [U7] J2-40 pkg U2-2
+[walk 174/359] ON D46 FPGA_IOB_5B [U7] J2-34 pkg U2-45
+[walk 176/359] ON D45 FPGA_IOB_4A [U7] J2-37 pkg U2-48
+[walk 178/359] ON D44 FPGA_IOB_3B_G6 [U7] J2-32 pkg U2-44
+[walk 180/359] ON D43 FPGA_IOB_2A [U7] J2-36 pkg U2-47
+[walk 182/359] ON D42 FPGA_IOB_0A [U7] J2-35 pkg U2-46
+[walk 184/359] ON D34 ESP_GPIO44_RXD [U6] J1-27 pkg U1-49
+[walk 186/359] ON D33 ESP_GPIO43_TXD [U5] J1-26 pkg U1-48
+[walk 188/359] ON D32 ESP_GPIO42 [U5] J1-25 pkg U1-47
+[walk 190/359] ON D31 ESP_GPIO41 [U5] J1-24 pkg U1-46
+[walk 192/359] ON D30 ESP_GPIO40 [U5] J1-21 pkg U1-44
+[walk 194/359] ON D29 ESP_GPIO39 [U5] J1-23 pkg U1-43
+[walk 196/359] ON D28 ESP_GPIO38 [U5] J1-39 pkg U1-42
+[walk 198/359] ON D27 ESP_GPIO35 [U5] J1-28 pkg U1-39
+[walk 200/359] ON D26 ESP_GPIO34 [U5] J1-32 pkg U1-38
+[walk 202/359] ON D25 ESP_GPIO33 [U4] J1-29 pkg U1-37
+[walk 204/359] ON D24 ESP_GPIO21 [U4] J1-40 pkg U1-28
+[walk 206/359] ON D23 ESP_GPIO18 [U4] J1-38 pkg U1-24
+[walk 208/359] ON D22 ESP_GPIO17 [U4] J1-36 pkg U1-23
+[walk 210/359] ON D21 ESP_GPIO16 [U4] J1-37 pkg U1-22
+[walk 212/359] ON D20 ESP_GPIO15 [U4] J1-35 pkg U1-21
+[walk 214/359] ON D19 ESP_GPIO8 [U4] J1-20 pkg U1-13
+[walk 216/359] ON D18 ESP_GPIO7 [U4] J1-19 pkg U1-12
+[walk 218/359] ON D17 ESP_GPIO6 [U3] J1-18 pkg U1-11
+[walk 220/359] ON D16 ESP_GPIO5 [U3] J1-17 pkg U1-10
+[walk 222/359] ON D15 ESP_GPIO4 [U3] J1-16 pkg U1-9
+[walk 224/359] ON D14 ESP_GPIO3 [U3] J1-15 pkg U1-8
+[walk 226/359] ON D13 ESP_GPIO2 [U3] J1-14 pkg U1-7
+[walk 228/359] ON D12 ESP_GPIO1 [U3] J1-13 pkg U1-6
+[checker 230/359] 3 on: D12 D14 D16
+[checker 231/359] 3 on: D13 D15 D17
+[checker 232/359] 3 on: D12 D14 D16
+[checker 233/359] 3 on: D13 D15 D17
+[checker 234/359] 3 on: D12 D14 D16
+[checker 235/359] 3 on: D13 D15 D17
+[checker 237/359] 4 on: D18 D20 D22 D24
+[checker 238/359] 4 on: D19 D21 D23 D25
+[checker 239/359] 4 on: D18 D20 D22 D24
+[checker 240/359] 4 on: D19 D21 D23 D25
+[checker 241/359] 4 on: D18 D20 D22 D24
+[checker 242/359] 4 on: D19 D21 D23 D25
+[checker 244/359] 4 on: D26 D28 D30 D32
+[checker 245/359] 4 on: D27 D29 D31 D33
+[checker 246/359] 4 on: D26 D28 D30 D32
+[checker 247/359] 4 on: D27 D29 D31 D33
+[checker 248/359] 4 on: D26 D28 D30 D32
+[checker 249/359] 4 on: D27 D29 D31 D33
+[checker 251/359] ON D34 ESP_GPIO44_RXD [U6] J1-27 pkg U1-49
+[checker 253/359] ON D34 ESP_GPIO44_RXD [U6] J1-27 pkg U1-49
+[checker 255/359] ON D34 ESP_GPIO44_RXD [U6] J1-27 pkg U1-49
+[checker 258/359] 4 on: D42 D44 D46 D48
+[checker 259/359] 4 on: D43 D45 D47 D49
+[checker 260/359] 4 on: D42 D44 D46 D48
+[checker 261/359] 4 on: D43 D45 D47 D49
+[checker 262/359] 4 on: D42 D44 D46 D48
+[checker 263/359] 4 on: D43 D45 D47 D49
+[checker 265/359] 4 on: D50 D52 D54 D56
+[checker 266/359] 4 on: D51 D53 D55 D57
+[checker 267/359] 4 on: D50 D52 D54 D56
+[checker 268/359] 4 on: D51 D53 D55 D57
+[checker 269/359] 4 on: D50 D52 D54 D56
+[checker 270/359] 4 on: D51 D53 D55 D57
+[checker 272/359] 4 on: D58 D60 D62 D64
+[checker 273/359] 4 on: D59 D61 D63 D65
+[checker 274/359] 4 on: D58 D60 D62 D64
+[checker 275/359] 4 on: D59 D61 D63 D65
+[checker 276/359] 4 on: D58 D60 D62 D64
+[checker 277/359] 4 on: D59 D61 D63 D65
+[checker 279/359] 3 on: D66 D68 D70
+[checker 280/359] 3 on: D67 D69 D71
+[checker 281/359] 3 on: D66 D68 D70
+[checker 282/359] 3 on: D67 D69 D71
+[checker 283/359] 3 on: D66 D68 D70
+[checker 284/359] 3 on: D67 D69 D71
+[walkzero 286/359] 5 on: D13 D14 D15 D16 D17
+[walkzero 287/359] 5 on: D12 D14 D15 D16 D17
+[walkzero 288/359] 5 on: D12 D13 D15 D16 D17
+[walkzero 289/359] 5 on: D12 D13 D14 D16 D17
+[walkzero 290/359] 5 on: D12 D13 D14 D15 D17
+[walkzero 291/359] 5 on: D12 D13 D14 D15 D16
+[walkzero 293/359] 7 on: D19 D20 D21 D22 D23 D24 D25
+[walkzero 294/359] 7 on: D18 D20 D21 D22 D23 D24 D25
+[walkzero 295/359] 7 on: D18 D19 D21 D22 D23 D24 D25
+[walkzero 296/359] 7 on: D18 D19 D20 D22 D23 D24 D25
+[walkzero 297/359] 7 on: D18 D19 D20 D21 D23 D24 D25
+[walkzero 298/359] 7 on: D18 D19 D20 D21 D22 D24 D25
+[walkzero 299/359] 7 on: D18 D19 D20 D21 D22 D23 D25
+[walkzero 300/359] 7 on: D18 D19 D20 D21 D22 D23 D24
+[walkzero 302/359] 7 on: D27 D28 D29 D30 D31 D32 D33
+[walkzero 303/359] 7 on: D26 D28 D29 D30 D31 D32 D33
+[walkzero 304/359] 7 on: D26 D27 D29 D30 D31 D32 D33
+[walkzero 305/359] 7 on: D26 D27 D28 D30 D31 D32 D33
+[walkzero 306/359] 7 on: D26 D27 D28 D29 D31 D32 D33
+[walkzero 307/359] 7 on: D26 D27 D28 D29 D30 D32 D33
+[walkzero 308/359] 7 on: D26 D27 D28 D29 D30 D31 D33
+[walkzero 309/359] 7 on: D26 D27 D28 D29 D30 D31 D32
+[walkzero 311/359] 7 on: D43 D44 D45 D46 D47 D48 D49
+[walkzero 312/359] 7 on: D42 D44 D45 D46 D47 D48 D49
+[walkzero 313/359] 7 on: D42 D43 D45 D46 D47 D48 D49
+[walkzero 314/359] 7 on: D42 D43 D44 D46 D47 D48 D49
+[walkzero 315/359] 7 on: D42 D43 D44 D45 D47 D48 D49
+[walkzero 316/359] 7 on: D42 D43 D44 D45 D46 D48 D49
+[walkzero 317/359] 7 on: D42 D43 D44 D45 D46 D47 D49
+[walkzero 318/359] 7 on: D42 D43 D44 D45 D46 D47 D48
+[walkzero 320/359] 7 on: D51 D52 D53 D54 D55 D56 D57
+[walkzero 321/359] 7 on: D50 D52 D53 D54 D55 D56 D57
+[walkzero 322/359] 7 on: D50 D51 D53 D54 D55 D56 D57
+[walkzero 323/359] 7 on: D50 D51 D52 D54 D55 D56 D57
+[walkzero 324/359] 7 on: D50 D51 D52 D53 D55 D56 D57
+[walkzero 325/359] 7 on: D50 D51 D52 D53 D54 D56 D57
+[walkzero 326/359] 7 on: D50 D51 D52 D53 D54 D55 D57
+[walkzero 327/359] 7 on: D50 D51 D52 D53 D54 D55 D56
+[walkzero 329/359] 7 on: D59 D60 D61 D62 D63 D64 D65
+[walkzero 330/359] 7 on: D58 D60 D61 D62 D63 D64 D65
+[walkzero 331/359] 7 on: D58 D59 D61 D62 D63 D64 D65
+[walkzero 332/359] 7 on: D58 D59 D60 D62 D63 D64 D65
+[walkzero 333/359] 7 on: D58 D59 D60 D61 D63 D64 D65
+[walkzero 334/359] 7 on: D58 D59 D60 D61 D62 D64 D65
+[walkzero 335/359] 7 on: D58 D59 D60 D61 D62 D63 D65
+[walkzero 336/359] 7 on: D58 D59 D60 D61 D62 D63 D64
+[walkzero 338/359] 5 on: D67 D68 D69 D70 D71
+[walkzero 339/359] 5 on: D66 D68 D69 D70 D71
+[walkzero 340/359] 5 on: D66 D67 D69 D70 D71
+[walkzero 341/359] 5 on: D66 D67 D68 D70 D71
+[walkzero 342/359] 5 on: D66 D67 D68 D69 D71
+[walkzero 343/359] 5 on: D66 D67 D68 D69 D70
+[rgb 345/359] ON D74 FPGA_RGB0 [U11] J2-26 pkg U2-39 (sink: red monitor lit LOW; check module D1)
+[rgb 347/359] ON D75 FPGA_RGB1 [U11] J2-27 pkg U2-40 (sink: red monitor lit LOW; check module D1)
+[rgb 349/359] ON D76 FPGA_RGB2 [U11] J2-29 pkg U2-41 (sink: red monitor lit LOW; check module D1)
+[rgb 351/359] 2 on: D74 D75
+[rgb 353/359] 2 on: D75 D76
+[rgb 355/359] 2 on: D74 D76
+[rgb 357/359] 3 on: D74 D75 D76
+[baseline 359/359] all eligible outputs off
+fixture: sequence complete; outputs safe (EN D10, BOOT D11 and power D1/D2 stay lit)
+
+[mon] >>> fixture status
+fixture status
+identity:   programming-carrier-v1-test
+armed:      yes
+state:      idle
+repeat:     off, walk dwell 300 ms
+bitstream:  104090 bytes, sha256 6ca0147ad0b8ed3f…
+fpga:       ESP_OK, frames 1997, uptime 115218 ms, watchdog trips 0
+gpio46:     LOW, 0 presses since boot
+applied:    361 steps, 0 with readback mismatch
+observed:   0 ok, 0 bad (fixture mark ok|bad <note>)
+carrier>  
+carrier>  

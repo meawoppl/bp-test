@@ -19,6 +19,26 @@ The affogato CLI passes only `/dev/ttyACM0` into its container. Check the
 port first (`lsusb | grep 303a`, `/dev/serial/by-id/usb-Espressif*`). Then
 set SW1=RUN and press RESET. Keep SW3 (GPIO46) released during reset.
 
+### Native build (macOS, no Docker)
+
+This is how the first board was brought up on 2026-10-09 (log: `bringup-2026-10-09.log`).
+It uses [oss-cad-suite](https://github.com/YosysHQ/oss-cad-suite-build) and ESP-IDF v5.3.2.
+
+```bash
+yosys -q -p "synth_ice40 -top top -json fpga/top.json" fpga/rtl/*.v
+nextpnr-ice40 --up5k --package sg48 --json fpga/top.json --pcf fpga/project.pcf --asc fpga/top.asc
+icepack fpga/top.asc fpga/top.bin
+cd firmware && idf.py set-target esp32s2 && idf.py -p /dev/cu.usbmodem* flash
+```
+
+The design uses 364/5280 LCs and 34/39 I/O, and meets 48 MHz with 55.6 MHz max.
+After flashing, set SW1 to RUN and press RESET. The app console then enumerates
+as a new `usbmodem` port. Keep one terminal session open, or use
+`tools/console.py PORT "fixture status"`, which leaves DTR/RTS deasserted.
+Repeatedly opening the port with DTR/RTS asserted once made the console stop
+responding. `esptool --before usb_reset --after hard_reset chip_id` recovers it
+without touching the board.
+
 ## Operating
 
 The console is USB CDC (`affogato monitor`, or any serial terminal). It boots
