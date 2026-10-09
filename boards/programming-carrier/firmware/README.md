@@ -51,6 +51,13 @@ fixture start                 # baseline, banks, walk fwd/rev, checkerboard, wal
 fixture stop                  # works during any dwell; returns to safe idle
 ```
 
+Arming is stored in NVS, so you only need to do it once per module; `fixture disarm`
+clears it. Once armed, pressing **SW3** starts the full sequence when the fixture
+is idle, and stops whatever is running. The sequence runs at 5× the
+human-inspection dwell times (`SEQ_SPEEDUP` in `fixture.c`), about 21 s in total.
+The walk dwell is 60 ms; for slower probing use `dwell 300` or `pause`/`step`.
+D35 (GPIO45) and D36 (GPIO46) are not in the sequence. D36 lights while SW3 is held.
+
 | Command | Effect |
 |---|---|
 | `status`, `banks` | Identity, hashes, FPGA link, readback summary; channel table |

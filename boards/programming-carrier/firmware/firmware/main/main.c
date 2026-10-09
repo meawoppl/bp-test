@@ -2,6 +2,7 @@
 #include <esp_app_desc.h>
 #include <esp_console.h>
 #include <esp_log.h>
+#include <nvs_flash.h>
 
 #include "fixture.h"
 #include "fpga_link.h"
@@ -20,7 +21,14 @@ void app_main(void)
     ESP_LOGI(TAG, "%s %s (app %s, elf %s, bitstream %u bytes sha256 %s…)", FIXTURE_IDENTITY,
              app->version, app->project_name, elf_sha, (unsigned)bin_size, bin_hash);
 
-    esp_err_t ret = fpga_link_init();
+    esp_err_t ret = nvs_flash_init();
+    if (ret == ESP_ERR_NVS_NO_FREE_PAGES || ret == ESP_ERR_NVS_NEW_VERSION_FOUND) {
+        ESP_ERROR_CHECK(nvs_flash_erase());
+        ret = nvs_flash_init();
+    }
+    ESP_ERROR_CHECK(ret);
+
+    ret = fpga_link_init();
     if (ret == ESP_OK) {
         ESP_LOGI(TAG, "FPGA fixture image loaded and identified");
     } else {
@@ -38,8 +46,8 @@ void app_main(void)
 
     printf("\n%s idle: eligible outputs low, RGB sinks released.\n"
            "Confirm the module is on programming carrier v1, then:\n"
-           "  fixture arm " FIXTURE_ARM_TOKEN "\n"
-           "  fixture start      (full sequence; `fixture stop` any time)\n"
+           "  fixture arm " FIXTURE_ARM_TOKEN "   (once; persists)\n"
+           "  fixture start      (or press SW3; SW3/`fixture stop` stops)\n"
            "  fixture            (all commands)\n\n",
            FIXTURE_IDENTITY);
     ESP_ERROR_CHECK(esp_console_start_repl(repl));

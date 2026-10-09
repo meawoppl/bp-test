@@ -16,6 +16,7 @@
 #include <freertos/FreeRTOS.h>
 #include <freertos/queue.h>
 #include <freertos/task.h>
+#include <nvs.h>
 
 #include "carrier_map.h"
 #include "fpga_link.h"
@@ -27,6 +28,11 @@
 #define MAX_STEPS 640
 #define ALLON_MAX_MS 10000
 #define GPIO45_MAX_MS 3000
+#define BUTTON_DEBOUNCE_MS 150
+
+// Sequence dwell times are written at human-inspection speed and divided by this.
+#define SEQ_SPEEDUP 5
+#define SEQ_MS(ms) ((ms) / SEQ_SPEEDUP)
 
 typedef enum {
     PH_BASELINE,
@@ -72,7 +78,7 @@ static QueueHandle_t cmd_queue;
 static bool fpga_ok;
 static bool armed;
 static bool repeat;
-static uint16_t walk_dwell_ms = 300;
+static uint16_t walk_dwell_ms = SEQ_MS(300);
 
 // Scheduler-owned state; read without locking by `status`.
 static volatile state_t state = ST_IDLE;
@@ -258,8 +264,8 @@ static void build_banks(program_t *p)
     for (int b = 0; b < CARRIER_BANK_COUNT; b++) {
         uint64_t m = bank_mask(b);
         if (!m) continue;
-        push(p, m, 1000, PH_BANK);
-        push(p, 0, 300, PH_BANK);
+        push(p, m, SEQ_MS(1000), PH_BANK);
+        push(p, 0, SEQ_MS(300), PH_BANK);
     }
 }
 
@@ -289,10 +295,10 @@ static void build_checker(program_t *p)
             }
         }
         for (int r = 0; r < 3; r++) {
-            push(p, even, 250, PH_CHECKER);
-            push(p, odd, 250, PH_CHECKER);
+            push(p, even, SEQ_MS(250), PH_CHECKER);
+            push(p, odd, SEQ_MS(250), PH_CHECKER);
         }
-        push(p, 0, 300, PH_CHECKER);
+        push(p, 0, SEQ_MS(300), PH_CHECKER);
     }
 }
 
@@ -304,7 +310,7 @@ static void build_walkzero(program_t *p)
         for (int i = 0; i < CARRIER_CHANNEL_COUNT; i++) {
             if (m & (1ULL << i)) push(p, m & ~(1ULL << i), walk_dwell_ms, PH_WALKZERO);
         }
-        push(p, 0, 300, PH_WALKZERO);
+        push(p, 0, SEQ_MS(300), PH_WALKZERO);
     }
 }
 
@@ -317,14 +323,50 @@ static void build_rgb(program_t *p)
         for (int i = 0; i < CARRIER_CHANNEL_COUNT; i++) {
             if (ch_rgb(i) && (combos[c] >> CARRIER_CHANNELS[i].index) & 1) on |= 1ULL << i;
         }
-        push(p, on, 1000, PH_RGB);
-        push(p, 0, 300, PH_RGB);
+        push(p, on, SEQ_MS(1000), PH_RGB);
+        push(p, 0, SEQ_MS(300), PH_RGB);
     }
 }
 
 static program_t program_new(void)
 {
     return (program_t){ .steps = calloc(MAX_STEPS, sizeof(step_t)), .len = 0 };
+}
+
+static program_t build_full(void)
+{
+    program_t p = program_new();
+    push(&p, 0, SEQ_MS(2000), PH_BASELINE);
+    build_banks(&p);
+    build_walk(&p, true, true);
+    build_checker(&p);
+    build_walkzero(&p);
+    build_rgb(&p);
+    push(&p, 0, SEQ_MS(500), PH_BASELINE);
+    return p;
+}
+
+// Arming persists in NVS so SW3 can start the sequence without a host.
+static void armed_store(bool value)
+{
+    nvs_handle_t nvs;
+    armed = value;
+    if (nvs_open("fixture", NVS_READWRITE, &nvs) == ESP_OK) {
+        nvs_set_u8(nvs, "armed", value);
+        nvs_commit(nvs);
+        nvs_close(nvs);
+    }
+}
+
+static void armed_load(void)
+{
+    nvs_handle_t nvs;
+    uint8_t value = 0;
+    if (nvs_open("fixture", NVS_READONLY, &nvs) == ESP_OK) {
+        nvs_get_u8(nvs, "armed", &value);
+        nvs_close(nvs);
+    }
+    armed = value;
 }
 
 // ---------------------------------------------------------------- scheduler
@@ -412,6 +454,7 @@ static void scheduler_task(void *arg)
 {
     TickType_t deadline = 0;
     TickType_t last_keepalive = 0;
+    TickType_t last_edge = 0;
     gpio46_level = gpio_get_level(GPIO46);
 
     for (;;) {
@@ -433,11 +476,25 @@ static void scheduler_task(void *arg)
         }
 
         int level = gpio_get_level(GPIO46);
-        if (level != gpio46_level) {
+        if (level != gpio46_level && (now - last_edge) >= pdMS_TO_TICKS(BUTTON_DEBOUNCE_MS)) {
+            last_edge = now;
             gpio46_level = level;
-            if (level) gpio46_presses++;
             printf("INPUT GPIO46/SW3 read %s (%s)\n", level ? "HIGH" : "LOW",
                    level ? "pressed" : "released");
+            if (level) {
+                gpio46_presses++;
+                // SW3 press: start the full sequence when idle, stop anything running.
+                if (state != ST_IDLE) {
+                    enter_idle("stopped by SW3");
+                } else if (!armed) {
+                    printf("SW3 ignored: not armed (`fixture arm " FIXTURE_ARM_TOKEN "`)\n");
+                } else {
+                    cmd_t start = { .op = OP_RUN, .program = build_full() };
+                    printf("fixture: SW3 started full sequence, %d steps; press SW3 again to stop\n",
+                           start.program.len);
+                    handle(&start, &deadline);
+                }
+            }
         }
 
         if (fpga_ok && (now - last_keepalive) >= pdMS_TO_TICKS(KEEPALIVE_MS)) {
@@ -458,6 +515,7 @@ static void scheduler_task(void *arg)
 esp_err_t fixture_init(bool fpga_available)
 {
     fpga_ok = fpga_available;
+    armed_load();
     esp_outputs_configure();
     safe_state();
 
@@ -550,7 +608,7 @@ static void cmd_banks(void)
 
 static int usage(void)
 {
-    printf("fixture status | banks | arm " FIXTURE_ARM_TOKEN "\n"
+    printf("fixture status | banks | arm " FIXTURE_ARM_TOKEN " | disarm\n"
            "fixture start | walk [fwd|rev] | checkerboard | walkzero | bankseq\n"
            "fixture bank <U3..U10> | hold <signal|Dnn> | rgb <0|1|2|all>\n"
            "fixture allon [ms<=%d] | gpio45 [ms<=%d] | input46\n"
@@ -589,7 +647,7 @@ static int fixture_cmd(int argc, char **argv)
     if (!strcmp(sub, "repeat") && arg) { repeat = !strcmp(arg, "on"); return 0; }
     if (!strcmp(sub, "dwell") && arg) {
         int ms = atoi(arg);
-        if (ms < 50 || ms > 5000) { printf("dwell 50..5000 ms\n"); return 1; }
+        if (ms < 10 || ms > 5000) { printf("dwell 10..5000 ms\n"); return 1; }
         walk_dwell_ms = ms;
         return 0;
     }
@@ -609,8 +667,15 @@ static int fixture_cmd(int argc, char **argv)
             printf("refused: type `fixture arm " FIXTURE_ARM_TOKEN "` to confirm the fixture\n");
             return 1;
         }
-        armed = true;
-        printf("armed: %s on programming carrier v1\n", FIXTURE_IDENTITY);
+        armed_store(true);
+        printf("armed: %s on programming carrier v1 (persists across resets; SW3 starts/stops)\n",
+               FIXTURE_IDENTITY);
+        return 0;
+    }
+    if (!strcmp(sub, "disarm")) {
+        armed_store(false);
+        send(OP_STOP, (program_t){ 0 });
+        printf("disarmed\n");
         return 0;
     }
 
@@ -618,14 +683,7 @@ static int fixture_cmd(int argc, char **argv)
     program_t p;
     if (!strcmp(sub, "start")) {
         if (!require_armed()) return 1;
-        p = program_new();
-        push(&p, 0, 2000, PH_BASELINE);
-        build_banks(&p);
-        build_walk(&p, true, true);
-        build_checker(&p);
-        build_walkzero(&p);
-        build_rgb(&p);
-        push(&p, 0, 500, PH_BASELINE);
+        p = build_full();
         printf("all-on and GPIO45 are opt-in: `fixture allon`, `fixture gpio45`\n");
         run(p);
     } else if (!strcmp(sub, "walk")) {
