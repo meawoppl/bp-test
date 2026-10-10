@@ -156,7 +156,7 @@
 		(layer "F.Cu")
 		(uuid "002d613d-4a21-4c17-a21f-d33c3210b961")
 		(at 104 88 90)
-		(descr "Resistor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "470 Ohm current limit for display LED D70 (row 4 bit 3) from the switched 5 V rail.")
 		(tags "resistor")
 		(property "Reference" "R70"
 			(at 0 -1.65 90)
@@ -379,7 +379,7 @@
 		(layer "F.Cu")
 		(uuid "01384c1d-f19b-4027-bda0-a5188de34387")
 		(at 122 94)
-		(descr "Capacitor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "10 uF reservoir on the 5 V LED supply for display column bit 0.")
 		(tags "capacitor")
 		(property "Reference" "C55"
 			(at 0 -1.68 0)
@@ -602,7 +602,7 @@
 		(layer "F.Cu")
 		(uuid "026052f0-5828-474d-8cac-c6d48b628f7c")
 		(at 173 31)
-		(descr "Capacitor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "100 nF VBUS bypass at the eFuse U14 input.")
 		(tags "capacitor")
 		(property "Reference" "C69"
 			(at 0 -2.8 0)
@@ -825,7 +825,7 @@
 		(layer "F.Cu")
 		(uuid "02d0c411-7e32-4a62-b88a-64a50e055ecb")
 		(at 145.3 60 180)
-		(descr "Capacitor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "100 nF bypass at the OCXO Y1 supply pin.")
 		(tags "capacitor")
 		(property "Reference" "C73"
 			(at 0 -1.68 180)
@@ -1048,7 +1048,7 @@
 		(layer "F.Cu")
 		(uuid "03b3503f-53e6-471e-94d1-d7943e7c4832")
 		(at 151 71 90)
-		(descr "Resistor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "4.7 kOhm I2C pull-up on the OLED's SDA (ESP GPIO1).")
 		(tags "resistor")
 		(property "Reference" "R175"
 			(at 0 -1.65 90)
@@ -1271,7 +1271,7 @@
 		(layer "F.Cu")
 		(uuid "042832f9-eefb-4247-8300-6f60a0d065bd")
 		(at 135 71)
-		(descr "Capacitor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "10 uF reservoir at the OLED header J8.")
 		(tags "capacitor")
 		(property "Reference" "C77"
 			(at 0 -1.68 0)
@@ -1494,7 +1494,7 @@
 		(layer "F.Cu")
 		(uuid "046de602-30ae-4e35-b05b-f8441fa1330c")
 		(at 24 14)
-		(descr "Mounting Hole 3.2mm, no annular, M3")
+		(descr "M3 corner mounting hole.")
 		(tags "mounting hole 3.2mm no annular m3")
 		(property "Reference" "H2"
 			(at 0 -4 0)
@@ -1639,7 +1639,7 @@
 		(layer "F.Cu")
 		(uuid "04806a23-214c-41fb-b45e-136b449a19ef")
 		(at 177 40.5)
-		(descr "Capacitor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "10 uF bulk capacitor on the switched 5 V rail at the eFuse U14 output.")
 		(tags "capacitor")
 		(property "Reference" "C62"
 			(at 0 -2.8 0)
@@ -1862,7 +1862,7 @@
 		(layer "F.Cu")
 		(uuid "049dee1d-87ad-48d0-b81b-610e8966adf4")
 		(at 191.7 46.3375 90)
-		(descr "Resistor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "100 kOhm pulldown holding the trigger input low when J6 is open.")
 		(tags "resistor")
 		(property "Reference" "R9"
 			(at 2.8 0 0)
@@ -2085,7 +2085,7 @@
 		(layer "F.Cu")
 		(uuid "06c4cce3-f26c-41c6-8772-92b0a359d092")
 		(at 104 94)
-		(descr "Capacitor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "10 uF reservoir on the 5 V LED supply for display column bit 3.")
 		(tags "capacitor")
 		(property "Reference" "C52"
 			(at 0 -1.68 0)
@@ -2308,7 +2308,7 @@
 		(layer "F.Cu")
 		(uuid "0707c34c-e0ac-417e-b8de-7a29abe266b6")
 		(at 199.2 81.7 90)
-		(descr "LED SMD 0603, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "PPS indicator LED: blinks with the GPS timepulse.")
 		(tags "LED")
 		(property "Reference" "D74"
 			(at 0 4 270)
@@ -2571,7 +2571,7 @@
 		(layer "F.Cu")
 		(uuid "08c294bc-a5a5-4062-8c93-5d7f943b6245")
 		(at 174 52 180)
-		(descr "Resistor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "100 Ohm series resistor carrying the 3.3 V trigger to the FPGA (IOT_50B).")
 		(tags "resistor")
 		(property "Reference" "R80"
 			(at 0 -1.65 180)
@@ -2794,7 +2794,7 @@
 		(layer "F.Cu")
 		(uuid "0a7638ef-b5d8-4ed5-8473-c590977b1034")
 		(at 89 36.15 90)
-		(descr "Resistor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "100 kOhm gate pulldown keeping column bit 6's MOSFET Q10 off while the buffer is disabled.")
 		(tags "resistor")
 		(property "Reference" "R129"
 			(at 0 -1.65 90)
@@ -3017,6 +3017,7 @@
 		(layer "F.Cu")
 		(uuid "0a950e9b-286c-4512-a157-901cd67c4341")
 		(at 146.25 68.0875)
+		(descr "Test pad: OLED I2C SCL (ESP GPIO2).")
 		(property "Reference" "TP63"
 			(at 0 -2 0)
 			(layer "F.SilkS")
@@ -3080,7 +3081,7 @@
 		(layer "F.Cu")
 		(uuid "0b358f27-2899-4f59-800b-39dbc4293ae5")
 		(at 122 84 -90)
-		(descr "LED SMD 1206, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "Display LED, row 4 bit 0: lit while column MOSFET Q16 is on.")
 		(tags "LED")
 		(property "Reference" "D73"
 			(at -4 0 0)
@@ -3355,7 +3356,7 @@
 		(layer "F.Cu")
 		(uuid "0b4209e1-fa5f-4818-8423-2e6faea151f6")
 		(at 74 60 -90)
-		(descr "LED SMD 1206, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "Display LED, row 2 bit 8: lit while column MOSFET Q8 is on.")
 		(tags "LED")
 		(property "Reference" "D33"
 			(at -4 0 0)
@@ -3630,7 +3631,7 @@
 		(layer "F.Cu")
 		(uuid "0b4efedb-b5a6-4da1-8cab-c3756d9b1bf7")
 		(at 74 88 90)
-		(descr "Resistor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "470 Ohm current limit for display LED D65 (row 4 bit 8) from the switched 5 V rail.")
 		(tags "resistor")
 		(property "Reference" "R65"
 			(at 0 -1.65 90)
@@ -3853,7 +3854,7 @@
 		(layer "F.Cu")
 		(uuid "0c4aa91a-ce87-4fa7-826a-69b8d042f4e1")
 		(at 116 94)
-		(descr "Capacitor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "10 uF reservoir on the 5 V LED supply for display column bit 1.")
 		(tags "capacitor")
 		(property "Reference" "C54"
 			(at 0 -1.68 0)
@@ -4076,7 +4077,7 @@
 		(layer "F.Cu")
 		(uuid "0ce27d3c-8564-40ca-b6d1-6e99dc5ec744")
 		(at 50 60 -90)
-		(descr "LED SMD 1206, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "Display LED, row 2 bit 12: lit while column MOSFET Q4 is on.")
 		(tags "LED")
 		(property "Reference" "D29"
 			(at -4 0 0)
@@ -4351,7 +4352,7 @@
 		(layer "F.Cu")
 		(uuid "0e1505dc-106d-4cb4-8aab-0bf16ab115ff")
 		(at 116 60 -90)
-		(descr "LED SMD 1206, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "Display LED, row 2 bit 1: lit while column MOSFET Q15 is on.")
 		(tags "LED")
 		(property "Reference" "D40"
 			(at -4 0 0)
@@ -4626,7 +4627,7 @@
 		(layer "F.Cu")
 		(uuid "0ee6818a-28e8-4743-972b-dd5f9efe0312")
 		(at 38 64 90)
-		(descr "Resistor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "470 Ohm current limit for display LED D27 (row 2 bit 14) from the switched 5 V rail.")
 		(tags "resistor")
 		(property "Reference" "R27"
 			(at 0 -1.65 90)
@@ -4849,7 +4850,7 @@
 		(layer "F.Cu")
 		(uuid "0f7b182c-b1bb-4025-ac1f-b5fe9eea8e93")
 		(at 188 65.8 180)
-		(descr "Capacitor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "100 nF bypass for the trigger output driver U10.")
 		(tags "capacitor")
 		(property "Reference" "C15"
 			(at 2.8 0 90)
@@ -5072,7 +5073,7 @@
 		(layer "F.Cu")
 		(uuid "106c229a-29ef-4eab-a800-c8102c2fcb39")
 		(at 38 72 -90)
-		(descr "LED SMD 1206, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "Display LED, row 3 bit 14: lit while column MOSFET Q2 is on.")
 		(tags "LED")
 		(property "Reference" "D43"
 			(at -4 0 0)
@@ -5347,7 +5348,7 @@
 		(layer "F.Cu")
 		(uuid "1184f467-537d-4484-9e4e-622915a4378e")
 		(at 68 52 90)
-		(descr "Resistor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "470 Ohm current limit for display LED D16 (row 1 bit 9) from the switched 5 V rail.")
 		(tags "resistor")
 		(property "Reference" "R16"
 			(at 0 -1.65 90)
@@ -5570,7 +5571,7 @@
 		(layer "F.Cu")
 		(uuid "122ebea1-88ed-4d93-a895-0479ba96a364")
 		(at 68 88 90)
-		(descr "Resistor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "470 Ohm current limit for display LED D64 (row 4 bit 9) from the switched 5 V rail.")
 		(tags "resistor")
 		(property "Reference" "R64"
 			(at 0 -1.65 90)
@@ -5793,7 +5794,7 @@
 		(layer "F.Cu")
 		(uuid "12563456-ef73-4417-a00c-be70653f647c")
 		(at 50 33 -90)
-		(descr "Resistor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "100 Ohm gate resistor between the buffer and column bit 12's MOSFET Q4.")
 		(tags "resistor")
 		(property "Reference" "R103"
 			(at 0 -1.65 270)
@@ -6016,6 +6017,7 @@
 		(layer "F.Cu")
 		(uuid "126fdd87-122d-49d9-b009-420b2d326322")
 		(at 188.5875 72.5)
+		(descr "Test pad: 5 V driver output, before R162.")
 		(property "Reference" "TP24"
 			(at 0 -2 0)
 			(layer "F.SilkS")
@@ -6079,7 +6081,7 @@
 		(layer "F.Cu")
 		(uuid "13930574-028f-4530-a3af-cc6cae025e85")
 		(at 171.8 22.05 180)
-		(descr "Capacitor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "4.7 uF input capacitor for the 3.3 V LDO U12.")
 		(tags "capacitor")
 		(property "Reference" "C65"
 			(at 0 2.8 0)
@@ -6302,7 +6304,7 @@
 		(layer "F.Cu")
 		(uuid "13aaf1d8-eec3-4369-b1e7-1c994dae6a3e")
 		(at 179 77.5)
-		(descr "SOT, 5 Pin, generated with kicad-footprint-generator ipc_gullwing_generator.py")
+		(descr "Switchable 3.3 V LDO for the GPS receiver, enabled by ESP GPIO6 (GPS_EN).")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "U5"
 			(at -1 3 0)
@@ -6612,7 +6614,7 @@
 		(layer "F.Cu")
 		(uuid "1661ab99-20b5-4f83-9b90-aba0ede15c6b")
 		(at 62 33 -90)
-		(descr "Resistor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "100 Ohm gate resistor between the buffer and column bit 10's MOSFET Q6.")
 		(tags "resistor")
 		(property "Reference" "R105"
 			(at 0 -1.65 270)
@@ -6835,7 +6837,7 @@
 		(layer "F.Cu")
 		(uuid "16a38e2f-bc64-4a6f-81cb-77825602c9b2")
 		(at 122 48 -90)
-		(descr "LED SMD 1206, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "Display LED, row 1 bit 0: lit while column MOSFET Q16 is on.")
 		(tags "LED")
 		(property "Reference" "D25"
 			(at -4 0 0)
@@ -7110,7 +7112,7 @@
 		(layer "F.Cu")
 		(uuid "171a103b-128a-4011-8421-e78e2f924610")
 		(at 110 48 -90)
-		(descr "LED SMD 1206, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "Display LED, row 1 bit 2: lit while column MOSFET Q14 is on.")
 		(tags "LED")
 		(property "Reference" "D23"
 			(at -4 0 0)
@@ -7385,7 +7387,7 @@
 		(layer "F.Cu")
 		(uuid "175827f0-a1c7-4870-9d5b-cab2505c6e44")
 		(at 44 48 -90)
-		(descr "LED SMD 1206, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "Display LED, row 1 bit 13: lit while column MOSFET Q3 is on.")
 		(tags "LED")
 		(property "Reference" "D12"
 			(at -4 0 0)
@@ -7660,6 +7662,7 @@
 		(layer "F.Cu")
 		(uuid "19026380-c3d0-4b06-bd1d-89f29fff2c99")
 		(at 168.05 43)
+		(descr "Test pad: switched 5 V load rail.")
 		(property "Reference" "TP2"
 			(at 0 -2 0)
 			(layer "F.SilkS")
@@ -7723,7 +7726,7 @@
 		(layer "F.Cu")
 		(uuid "1941ed58-e9a3-4e1b-a3d8-2e5c5725f5bd")
 		(at 162 64.4 180)
-		(descr "Resistor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "100 kOhm pulldown keeping the OCXO LDO U15 off until ESP GPIO5 enables it.")
 		(tags "resistor")
 		(property "Reference" "R178"
 			(at 0 -1.65 180)
@@ -7946,7 +7949,7 @@
 		(layer "F.Cu")
 		(uuid "1a140765-223b-4855-9b3e-db05bd28abaf")
 		(at 160.5 70)
-		(descr "module CMS SOT223 6 pins, http://www.ti.com/lit/ds/symlink/tps737.pdf")
+		(descr "Low-noise 3.3 V LDO for the OCXO, enabled by ESP GPIO5.")
 		(tags "CMS SOT")
 		(property "Reference" "U15"
 			(at 3.9 2.5 0)
@@ -8264,7 +8267,7 @@
 		(layer "F.Cu")
 		(uuid "1ad46813-4739-447c-a61a-0c28dc9cc75c")
 		(at 175.3 90 180)
-		(descr "Capacitor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "100 nF bypass on the GPS receiver's VCC pin (U6 pin 8).")
 		(tags "capacitor")
 		(property "Reference" "C8"
 			(at 0 2.8 0)
@@ -8487,6 +8490,7 @@
 		(layer "F.Cu")
 		(uuid "1be0b6cf-c0b3-49eb-8900-c1a7d637502c")
 		(at 178.3 73.55)
+		(descr "Test pad: 3.3 V GPS rail.")
 		(property "Reference" "TP5"
 			(at 0 -2 0)
 			(layer "F.SilkS")
@@ -8550,7 +8554,7 @@
 		(layer "F.Cu")
 		(uuid "1d8ac4f7-f1aa-4816-90d5-d903f5ba2adb")
 		(at 59.5 26.8625)
-		(descr "Capacitor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "100 nF bypass for display buffer U3.")
 		(tags "capacitor")
 		(property "Reference" "C4"
 			(at 0 -1.68 0)
@@ -8773,7 +8777,7 @@
 		(layer "F.Cu")
 		(uuid "1db5c499-1733-4984-9f7a-01faafab615a")
 		(at 74 33 -90)
-		(descr "Resistor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "100 Ohm gate resistor between the buffer and column bit 8's MOSFET Q8.")
 		(tags "resistor")
 		(property "Reference" "R107"
 			(at 0 -1.65 270)
@@ -8996,7 +9000,7 @@
 		(layer "F.Cu")
 		(uuid "1ebbf5ab-7dd6-4f41-b094-8cf3555f8134")
 		(at 32 33 -90)
-		(descr "Resistor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "100 Ohm gate resistor between the buffer and column bit 15's MOSFET Q1.")
 		(tags "resistor")
 		(property "Reference" "R100"
 			(at 0 -1.65 270)
@@ -9219,7 +9223,7 @@
 		(layer "F.Cu")
 		(uuid "1f31dc71-7f0e-48e3-a99d-b283536150a6")
 		(at 88.5 43.5 90)
-		(descr "Capacitor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "100 nF bypass on the 5 V LED supply for display column bit 6.")
 		(tags "capacitor")
 		(property "Reference" "C29"
 			(at 0 -1.68 90)
@@ -9442,6 +9446,7 @@
 		(layer "F.Cu")
 		(uuid "1f48fc3a-fb9b-46ad-8006-81f2e1bc51f3")
 		(at 167.5 81.1)
+		(descr "Test pad: PPS at ESP32 GPIO38.")
 		(property "Reference" "TP15"
 			(at 0 -2 0)
 			(layer "F.SilkS")
@@ -9505,7 +9510,7 @@
 		(layer "F.Cu")
 		(uuid "2026b6df-edfc-4bd6-a140-dda248cf5d6d")
 		(at 92 52 90)
-		(descr "Resistor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "470 Ohm current limit for display LED D20 (row 1 bit 5) from the switched 5 V rail.")
 		(tags "resistor")
 		(property "Reference" "R20"
 			(at 0 -1.65 90)
@@ -9728,7 +9733,7 @@
 		(layer "F.Cu")
 		(uuid "210e0f4c-d1b1-41be-a188-fa872171de11")
 		(at 176.2 27.049999)
-		(descr "Capacitor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "4.7 uF output capacitor for U2 (3.3 V logic rail).")
 		(tags "capacitor")
 		(property "Reference" "C3"
 			(at 0 -2.8 0)
@@ -9951,6 +9956,7 @@
 		(layer "F.Cu")
 		(uuid "238f6a6e-d71f-4d66-82a1-8357c2f065a4")
 		(at 166.55 35.5)
+		(descr "Test pad: GPS UART RX (from ESP32 GPIO43).")
 		(property "Reference" "TP26"
 			(at 0 -2 0)
 			(layer "F.SilkS")
@@ -10014,7 +10020,7 @@
 		(layer "F.Cu")
 		(uuid "23a65c61-afd8-4739-a786-53eb33cde842")
 		(at 38 94)
-		(descr "Capacitor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "10 uF reservoir on the 5 V LED supply for display column bit 14.")
 		(tags "capacitor")
 		(property "Reference" "C41"
 			(at 0 -1.68 0)
@@ -10237,7 +10243,7 @@
 		(layer "F.Cu")
 		(uuid "23cb8c40-a1f7-4329-988e-f5c3f5e509e8")
 		(at 183.2 76.55)
-		(descr "Capacitor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "4.7 uF output capacitor for the GPS LDO U5.")
 		(tags "capacitor")
 		(property "Reference" "C7"
 			(at 0 -2.8 0)
@@ -10460,7 +10466,7 @@
 		(layer "F.Cu")
 		(uuid "2429be06-ba39-499c-93ee-b4bb45c7e0a3")
 		(at 196 106)
-		(descr "Mounting Hole 3.2mm, no annular, M3")
+		(descr "M3 corner mounting hole.")
 		(tags "mounting hole 3.2mm no annular m3")
 		(property "Reference" "H5"
 			(at 0 -4 0)
@@ -10605,7 +10611,7 @@
 		(layer "F.Cu")
 		(uuid "244c1bf1-ca1b-476c-985e-3c41119be163")
 		(at 188.5 30 180)
-		(descr "SOT, 6 Pin, generated with kicad-footprint-generator ipc_gullwing_generator.py")
+		(descr "ESD protection for the USB-C data pair (D+/D-) and VBUS.")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "U1"
 			(at 0 -3.8 0)
@@ -10921,7 +10927,7 @@
 		(layer "F.Cu")
 		(uuid "248a4e17-2824-4c85-8e7b-a5919ddb6932")
 		(at 86 52 90)
-		(descr "Resistor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "470 Ohm current limit for display LED D19 (row 1 bit 6) from the switched 5 V rail.")
 		(tags "resistor")
 		(property "Reference" "R19"
 			(at 0 -1.65 90)
@@ -11144,7 +11150,7 @@
 		(layer "F.Cu")
 		(uuid "2498113d-989f-4089-8bc4-710697ca75e3")
 		(at 168.75 26.1 90)
-		(descr "Capacitor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "4.7 uF input capacitor for the always-on logic LDO U2.")
 		(tags "capacitor")
 		(property "Reference" "C2"
 			(at 0 2.8 270)
@@ -11367,7 +11373,7 @@
 		(layer "F.Cu")
 		(uuid "26145aa4-b38c-4f3d-92fa-1547ec62600d")
 		(at 183.5 86.7)
-		(descr "ublox MAX 6/7/8")
+		(descr "u-blox MAX-M10S GNSS receiver: UART time/position and the PPS timing reference.")
 		(tags "GPS ublox MAX 6/7/8")
 		(property "Reference" "U6"
 			(at 0 6 0)
@@ -11799,7 +11805,7 @@
 		(layer "F.Cu")
 		(uuid "265a0089-f7a3-4893-8351-64caf89c2779")
 		(at 100.5 43.5 90)
-		(descr "Capacitor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "100 nF bypass on the 5 V LED supply for display column bit 4.")
 		(tags "capacitor")
 		(property "Reference" "C31"
 			(at 0 -1.68 90)
@@ -12022,7 +12028,7 @@
 		(layer "F.Cu")
 		(uuid "2694eada-2fcd-42da-8d7a-15c9b1169a0c")
 		(at 191 50 180)
-		(descr "Resistor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "1 kOhm series input resistor on the trigger input; forms the input filter with C75.")
 		(tags "resistor")
 		(property "Reference" "R8"
 			(at 0 2.8 0)
@@ -12245,7 +12251,7 @@
 		(layer "F.Cu")
 		(uuid "275ac0d2-371f-4127-995e-876ab2a1ff80")
 		(at 162 62.2)
-		(descr "Capacitor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "10 uF input capacitor for the OCXO LDO U15.")
 		(tags "capacitor")
 		(property "Reference" "C70"
 			(at 2.8 0 270)
@@ -12468,7 +12474,7 @@
 		(layer "F.Cu")
 		(uuid "276457b8-d320-4462-8c89-0c5197f8c870")
 		(at 58.5 43.5 90)
-		(descr "Capacitor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "100 nF bypass on the 5 V LED supply for display column bit 11.")
 		(tags "capacitor")
 		(property "Reference" "C24"
 			(at 0 -1.68 90)
@@ -12691,7 +12697,7 @@
 		(layer "F.Cu")
 		(uuid "28126a2d-a454-4694-92fb-1bd17ab336f3")
 		(at 53.65 24 -90)
-		(descr "TSSOP, 20 Pin, generated with kicad-footprint-generator ipc_gullwing_generator.py")
+		(descr "Octal buffer driving display column gates for bits 8-15 from the FPGA; LED_OE_N blanks its outputs.")
 		(tags "TSSOP SO")
 		(property "Reference" "U3"
 			(at -6 0 180)
@@ -13122,7 +13128,7 @@
 		(layer "F.Cu")
 		(uuid "28327fa2-4918-4c4a-ae3b-161846e2b316")
 		(at 44 64 90)
-		(descr "Resistor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "470 Ohm current limit for display LED D28 (row 2 bit 13) from the switched 5 V rail.")
 		(tags "resistor")
 		(property "Reference" "R28"
 			(at 0 -1.65 90)
@@ -13345,7 +13351,7 @@
 		(layer "F.Cu")
 		(uuid "28401000-f50d-4c30-8b46-4056ce37a5b4")
 		(at 197.2 30 90)
-		(descr "USB Type-C receptacle for USB 2.0 and PD, http://www.krhro.com/uploads/soft/180320/1-1P320120243.pdf")
+		(descr "USB-C input: 5 V power (PD-negotiated) and USB data for the module's ESP32.")
 		(tags "usb usb-c 2.0 pd")
 		(property "Reference" "J3"
 			(at -10 -0.2 270)
@@ -13763,7 +13769,7 @@
 		(layer "F.Cu")
 		(uuid "294ceb72-68c1-41c8-871a-751bb7af89a2")
 		(at 62 72 -90)
-		(descr "LED SMD 1206, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "Display LED, row 3 bit 10: lit while column MOSFET Q6 is on.")
 		(tags "LED")
 		(property "Reference" "D47"
 			(at -4 0 0)
@@ -14038,7 +14044,7 @@
 		(layer "F.Cu")
 		(uuid "2a68afd1-6c9a-48d5-a9d0-b8adfa71824e")
 		(at 188.8 46.3 90)
-		(descr "Capacitor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "1 nF trigger input filter capacitor (with R8).")
 		(tags "capacitor")
 		(property "Reference" "C75"
 			(at 2.8 0 0)
@@ -14261,7 +14267,7 @@
 		(layer "F.Cu")
 		(uuid "2b6a598e-e566-45e0-a2ce-e9a44e9c3c7e")
 		(at 197.46 90)
-		(descr "http://www.amphenolrf.com/132289.html")
+		(descr "SMA input for the active GNSS antenna; also carries the antenna's DC bias.")
 		(tags "SMA")
 		(property "Reference" "J5"
 			(at -6.46 -5 90)
@@ -14642,7 +14648,7 @@
 		(layer "F.Cu")
 		(uuid "2c7fdef2-1ab6-473c-827a-22083ccd9509")
 		(at 92 76 90)
-		(descr "Resistor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "470 Ohm current limit for display LED D52 (row 3 bit 5) from the switched 5 V rail.")
 		(tags "resistor")
 		(property "Reference" "R52"
 			(at 0 -1.65 90)
@@ -14865,6 +14871,7 @@
 		(layer "F.Cu")
 		(uuid "2cd9e9cc-b0ab-4fec-8476-f25854735c8a")
 		(at 186.3 44.75)
+		(descr "Test pad: filtered trigger input.")
 		(property "Reference" "TP17"
 			(at 0 -2 0)
 			(layer "F.SilkS")
@@ -14928,7 +14935,7 @@
 		(layer "F.Cu")
 		(uuid "2ec03c68-8b7c-4593-8ade-e79f7f25a040")
 		(at 80 72 -90)
-		(descr "LED SMD 1206, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "Display LED, row 3 bit 7: lit while column MOSFET Q9 is on.")
 		(tags "LED")
 		(property "Reference" "D50"
 			(at -4 0 0)
@@ -15203,7 +15210,7 @@
 		(layer "F.Cu")
 		(uuid "2ef45ece-9e9c-4590-bb45-d4ad94211d46")
 		(at 107 36.15 90)
-		(descr "Resistor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "100 kOhm gate pulldown keeping column bit 3's MOSFET Q13 off while the buffer is disabled.")
 		(tags "resistor")
 		(property "Reference" "R132"
 			(at 0 -1.65 90)
@@ -15426,7 +15433,7 @@
 		(layer "F.Cu")
 		(uuid "2f37ceba-0068-431a-a87b-e068461ffddb")
 		(at 196.5 80.9125)
-		(descr "Resistor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "1 kOhm current limit for the PPS indicator LED D74.")
 		(tags "resistor")
 		(property "Reference" "R179"
 			(at 0 -1.65 0)
@@ -15649,6 +15656,7 @@
 		(layer "F.Cu")
 		(uuid "3084dd33-f99f-4bdc-a6b7-703e1830a8c0")
 		(at 155 24.3)
+		(descr "Board-to-board plug to the ESP32 side of the module: USB, 5 V input, GPS UART, PPS, reset and control GPIOs.")
 		(property "Reference" "J1"
 			(at 7 0 0)
 			(layer "F.SilkS")
@@ -16196,7 +16204,7 @@
 		(layer "F.Cu")
 		(uuid "30dfffc3-29e2-4f98-aa44-64b645724254")
 		(at 44 88 90)
-		(descr "Resistor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "470 Ohm current limit for display LED D60 (row 4 bit 13) from the switched 5 V rail.")
 		(tags "resistor")
 		(property "Reference" "R60"
 			(at 0 -1.65 90)
@@ -16419,7 +16427,7 @@
 		(layer "F.Cu")
 		(uuid "31eec05f-9dee-4dbf-bed7-88a29b42fb75")
 		(at 62 38 -90)
-		(descr "SOT, 3 Pin, generated with kicad-footprint-generator ipc_gullwing_generator.py")
+		(descr "Low-side switch for display column bit 10: sinks that column's four LED cathodes.")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "Q6"
 			(at -4 0 0)
@@ -16712,7 +16720,7 @@
 		(layer "F.Cu")
 		(uuid "31f3fce2-fefa-4842-adb0-8073f63e53f8")
 		(at 98 72 -90)
-		(descr "LED SMD 1206, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "Display LED, row 3 bit 4: lit while column MOSFET Q12 is on.")
 		(tags "LED")
 		(property "Reference" "D53"
 			(at -4 0 0)
@@ -16987,7 +16995,7 @@
 		(layer "F.Cu")
 		(uuid "32054bcd-6932-4f5c-a02f-99475120f5e7")
 		(at 122 38 -90)
-		(descr "SOT, 3 Pin, generated with kicad-footprint-generator ipc_gullwing_generator.py")
+		(descr "Low-side switch for display column bit 0: sinks that column's four LED cathodes.")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "Q16"
 			(at -4 0 0)
@@ -17280,7 +17288,7 @@
 		(layer "F.Cu")
 		(uuid "32698933-ad96-4164-b78c-d229b2b90bf2")
 		(at 50 64 90)
-		(descr "Resistor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "470 Ohm current limit for display LED D29 (row 2 bit 12) from the switched 5 V rail.")
 		(tags "resistor")
 		(property "Reference" "R29"
 			(at 0 -1.65 90)
@@ -17503,7 +17511,7 @@
 		(layer "F.Cu")
 		(uuid "33d685ee-0896-4ae8-a01f-c642e3ff2b6a")
 		(at 125 36.15 90)
-		(descr "Resistor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "100 kOhm gate pulldown keeping column bit 0's MOSFET Q16 off while the buffer is disabled.")
 		(tags "resistor")
 		(property "Reference" "R135"
 			(at 0 -1.65 90)
@@ -17726,7 +17734,7 @@
 		(layer "F.Cu")
 		(uuid "34733600-3c14-4e43-8e9d-4b8162900506")
 		(at 44 76 90)
-		(descr "Resistor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "470 Ohm current limit for display LED D44 (row 3 bit 13) from the switched 5 V rail.")
 		(tags "resistor")
 		(property "Reference" "R44"
 			(at 0 -1.65 90)
@@ -17949,7 +17957,7 @@
 		(layer "F.Cu")
 		(uuid "36db982b-748f-4f57-9cc7-31a9ece7a6ef")
 		(at 181 40.5)
-		(descr "Capacitor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "10 uF bulk capacitor on the switched 5 V rail at the eFuse U14 output.")
 		(tags "capacitor")
 		(property "Reference" "C63"
 			(at 0 -2.8 0)
@@ -18172,7 +18180,7 @@
 		(layer "F.Cu")
 		(uuid "371ea3fa-18f7-4d74-ab9d-7e50c852f6e7")
 		(at 188.8 58)
-		(descr "Resistor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "Lower 10 kOhm of the divider setting the 2.5 V trigger threshold.")
 		(tags "resistor")
 		(property "Reference" "R161"
 			(at 0 2.8 180)
@@ -18395,7 +18403,7 @@
 		(layer "F.Cu")
 		(uuid "375c98f6-85eb-46ed-aea5-694d61230c13")
 		(at 70.5 43.5 90)
-		(descr "Capacitor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "100 nF bypass on the 5 V LED supply for display column bit 9.")
 		(tags "capacitor")
 		(property "Reference" "C26"
 			(at 0 -1.68 90)
@@ -18618,7 +18626,7 @@
 		(layer "F.Cu")
 		(uuid "37e5ed91-5661-4fb2-87ec-d4235548fd8e")
 		(at 118.5 43.5 90)
-		(descr "Capacitor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "100 nF bypass on the 5 V LED supply for display column bit 1.")
 		(tags "capacitor")
 		(property "Reference" "C34"
 			(at 0 -1.68 90)
@@ -18841,7 +18849,7 @@
 		(layer "F.Cu")
 		(uuid "3887a098-7dde-47c7-a8eb-53d4b4407cdc")
 		(at 104 60 -90)
-		(descr "LED SMD 1206, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "Display LED, row 2 bit 3: lit while column MOSFET Q13 is on.")
 		(tags "LED")
 		(property "Reference" "D38"
 			(at -4 0 0)
@@ -19116,7 +19124,7 @@
 		(layer "F.Cu")
 		(uuid "38b2f34a-c283-407e-93d6-d064db50b660")
 		(at 44 38 -90)
-		(descr "SOT, 3 Pin, generated with kicad-footprint-generator ipc_gullwing_generator.py")
+		(descr "Low-side switch for display column bit 13: sinks that column's four LED cathodes.")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "Q3"
 			(at -4 0 0)
@@ -19409,7 +19417,7 @@
 		(layer "F.Cu")
 		(uuid "393939f3-15f2-4883-a7ec-288b747073b0")
 		(at 175.3 87.8 180)
-		(descr "Capacitor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "4.7 uF bulk bypass on the GPS receiver supply at V_BCKP/V_IO (U6 pins 6-7).")
 		(tags "capacitor")
 		(property "Reference" "C9"
 			(at 0 2.8 0)
@@ -19632,7 +19640,7 @@
 		(layer "F.Cu")
 		(uuid "39dd9921-4733-4a9c-9d6a-9826436b452f")
 		(at 181.8 33)
-		(descr "Resistor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "100 kOhm pulldown keeping the 5 V load switch U14 off until ESP GPIO4 enables it.")
 		(tags "resistor")
 		(property "Reference" "R169"
 			(at 0 -2.8 0)
@@ -19855,7 +19863,7 @@
 		(layer "F.Cu")
 		(uuid "3a8c84b3-be2e-4113-8adb-0f9e8fb2e3a0")
 		(at 74 94)
-		(descr "Capacitor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "10 uF reservoir on the 5 V LED supply for display column bit 8.")
 		(tags "capacitor")
 		(property "Reference" "C47"
 			(at 0 -1.68 0)
@@ -20078,7 +20086,7 @@
 		(layer "F.Cu")
 		(uuid "3b2ce560-0551-4df0-a0d4-fed586f7de32")
 		(at 122 72 -90)
-		(descr "LED SMD 1206, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "Display LED, row 3 bit 0: lit while column MOSFET Q16 is on.")
 		(tags "LED")
 		(property "Reference" "D57"
 			(at -4 0 0)
@@ -20353,7 +20361,7 @@
 		(layer "F.Cu")
 		(uuid "3c47196e-e24e-4032-93df-9e333715ef3b")
 		(at 62 94)
-		(descr "Capacitor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "10 uF reservoir on the 5 V LED supply for display column bit 10.")
 		(tags "capacitor")
 		(property "Reference" "C45"
 			(at 0 -1.68 0)
@@ -20576,7 +20584,7 @@
 		(layer "F.Cu")
 		(uuid "3ca8b448-910d-464f-a1f6-150cdf143323")
 		(at 41 36.15 90)
-		(descr "Resistor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "100 kOhm gate pulldown keeping column bit 14's MOSFET Q2 off while the buffer is disabled.")
 		(tags "resistor")
 		(property "Reference" "R121"
 			(at 0 -1.65 90)
@@ -20799,7 +20807,7 @@
 		(layer "F.Cu")
 		(uuid "3dd31398-d2aa-473b-917c-a00f2d51c684")
 		(at 188 69.05)
-		(descr "SOT, 5 Pin, generated with kicad-footprint-generator ipc_gullwing_generator.py")
+		(descr "5 V line driver for the FPGA's trigger output to J7.")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "U10"
 			(at 3 2.6 0)
@@ -21107,7 +21115,7 @@
 		(layer "F.Cu")
 		(uuid "3ebe4f7f-1d78-4f0c-a8a7-4cd5f4ceb751")
 		(at 32 88 90)
-		(descr "Resistor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "470 Ohm current limit for display LED D58 (row 4 bit 15) from the switched 5 V rail.")
 		(tags "resistor")
 		(property "Reference" "R58"
 			(at 0 -1.65 90)
@@ -21330,7 +21338,7 @@
 		(layer "F.Cu")
 		(uuid "3f5a0809-0833-46f8-8be8-8cf3c2b412d3")
 		(at 68 84 -90)
-		(descr "LED SMD 1206, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "Display LED, row 4 bit 9: lit while column MOSFET Q7 is on.")
 		(tags "LED")
 		(property "Reference" "D64"
 			(at -4 0 0)
@@ -21605,6 +21613,7 @@
 		(layer "F.Cu")
 		(uuid "421b7514-cd4e-4b5b-bcac-df4207db661c")
 		(at 177.695 33.8)
+		(descr "Test pad: filtered load-current monitor at ESP32 ADC GPIO3.")
 		(property "Reference" "TP12"
 			(at 0 -2 0)
 			(layer "F.SilkS")
@@ -21668,7 +21677,7 @@
 		(layer "F.Cu")
 		(uuid "422a1b27-2100-44a4-a3c1-344ce8e409e0")
 		(at 86 48 -90)
-		(descr "LED SMD 1206, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "Display LED, row 1 bit 6: lit while column MOSFET Q10 is on.")
 		(tags "LED")
 		(property "Reference" "D19"
 			(at -4 0 0)
@@ -21943,7 +21952,7 @@
 		(layer "F.Cu")
 		(uuid "4358e12b-8626-4112-ac3e-8a2ed951c299")
 		(at 188.8 55 180)
-		(descr "Resistor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "Upper 10 kOhm of the divider setting the 2.5 V trigger threshold from 5 V.")
 		(tags "resistor")
 		(property "Reference" "R160"
 			(at 0 -2.8 180)
@@ -22166,7 +22175,7 @@
 		(layer "F.Cu")
 		(uuid "4486cc76-781f-4eef-96e1-e1f3873cbd31")
 		(at 92 48 -90)
-		(descr "LED SMD 1206, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "Display LED, row 1 bit 5: lit while column MOSFET Q11 is on.")
 		(tags "LED")
 		(property "Reference" "D20"
 			(at -4 0 0)
@@ -22441,6 +22450,7 @@
 		(layer "F.Cu")
 		(uuid "44ccf576-6ee8-4954-bdf4-b4e9b9966c23")
 		(at 161.1714 58.0589)
+		(descr "Test pad: 10 MHz clock at the FPGA.")
 		(property "Reference" "TP16"
 			(at 0 -2 0)
 			(layer "F.SilkS")
@@ -22504,7 +22514,7 @@
 		(layer "F.Cu")
 		(uuid "455770dc-5c65-4a36-b998-badfeae5a525")
 		(at 179 42.8)
-		(descr "LED SMD 0603, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "Power LED: lit while the switched 5 V rail is on.")
 		(tags "LED")
 		(property "Reference" "D1"
 			(at 0 2.8 180)
@@ -22767,7 +22777,7 @@
 		(layer "F.Cu")
 		(uuid "457cd84b-7dd6-4739-8344-02ae61e4f4b7")
 		(at 116 52 90)
-		(descr "Resistor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "470 Ohm current limit for display LED D24 (row 1 bit 1) from the switched 5 V rail.")
 		(tags "resistor")
 		(property "Reference" "R24"
 			(at 0 -1.65 90)
@@ -22990,7 +23000,7 @@
 		(layer "F.Cu")
 		(uuid "45f85d46-1954-4140-b035-d53253fe3f02")
 		(at 32 38 -90)
-		(descr "SOT, 3 Pin, generated with kicad-footprint-generator ipc_gullwing_generator.py")
+		(descr "Low-side switch for display column bit 15: sinks that column's four LED cathodes.")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "Q1"
 			(at -4 0 0)
@@ -23283,7 +23293,7 @@
 		(layer "F.Cu")
 		(uuid "46ab22cd-ee6b-4770-b8d2-39bda0a8ee82")
 		(at 178 36.3)
-		(descr "Resistor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "100 kOhm isolation resistor; with C78 filters the load-current monitor into ESP32 ADC GPIO3.")
 		(tags "resistor")
 		(property "Reference" "R176"
 			(at 0 -1.65 0)
@@ -23506,7 +23516,7 @@
 		(layer "F.Cu")
 		(uuid "46eaf426-91ad-4284-9650-fbee08d9513d")
 		(at 56 88 90)
-		(descr "Resistor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "470 Ohm current limit for display LED D62 (row 4 bit 11) from the switched 5 V rail.")
 		(tags "resistor")
 		(property "Reference" "R62"
 			(at 0 -1.65 90)
@@ -23729,7 +23739,7 @@
 		(layer "F.Cu")
 		(uuid "478a31bb-8d6b-4833-9344-5da19ac537f6")
 		(at 178 55 180)
-		(descr "Capacitor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "100 nF bypass for the trigger translator U7.")
 		(tags "capacitor")
 		(property "Reference" "C11"
 			(at 0 2.8 0)
@@ -23952,7 +23962,7 @@
 		(layer "F.Cu")
 		(uuid "47e6fec7-4f8f-4201-91ef-53e33853e90e")
 		(at 40.5 43.5 90)
-		(descr "Capacitor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "100 nF bypass on the 5 V LED supply for display column bit 14.")
 		(tags "capacitor")
 		(property "Reference" "C21"
 			(at 0 -1.68 90)
@@ -24175,6 +24185,7 @@
 		(layer "F.Cu")
 		(uuid "48b5cc3c-81a4-4a35-886a-89f62392a4c4")
 		(at 171.5 66.45)
+		(descr "Test pad: GPS UART TX (to ESP32 GPIO44).")
 		(property "Reference" "TP25"
 			(at 0 -2 0)
 			(layer "F.SilkS")
@@ -24238,7 +24249,7 @@
 		(layer "F.Cu")
 		(uuid "4adfc194-0f12-4406-896a-93c2f7679c3b")
 		(at 32 94)
-		(descr "Capacitor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "10 uF reservoir on the 5 V LED supply for display column bit 15.")
 		(tags "capacitor")
 		(property "Reference" "C40"
 			(at 0 -1.68 0)
@@ -24461,7 +24472,7 @@
 		(layer "F.Cu")
 		(uuid "4b7f675a-6742-4c10-94ed-0be559ddac8c")
 		(at 98 52 90)
-		(descr "Resistor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "470 Ohm current limit for display LED D21 (row 1 bit 4) from the switched 5 V rail.")
 		(tags "resistor")
 		(property "Reference" "R21"
 			(at 0 -1.65 90)
@@ -24684,7 +24695,7 @@
 		(layer "F.Cu")
 		(uuid "4c15e656-0e58-4e31-ae72-8b09d750f59a")
 		(at 92 38 -90)
-		(descr "SOT, 3 Pin, generated with kicad-footprint-generator ipc_gullwing_generator.py")
+		(descr "Low-side switch for display column bit 5: sinks that column's four LED cathodes.")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "Q11"
 			(at -4 0 0)
@@ -24977,7 +24988,7 @@
 		(layer "F.Cu")
 		(uuid "4d2fd509-bd1e-404f-a77a-d91b2121d067")
 		(at 38 33 -90)
-		(descr "Resistor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "100 Ohm gate resistor between the buffer and column bit 14's MOSFET Q2.")
 		(tags "resistor")
 		(property "Reference" "R101"
 			(at 0 -1.65 270)
@@ -25200,7 +25211,7 @@
 		(layer "F.Cu")
 		(uuid "4ee0d67f-1157-4c82-899b-5b472b1be246")
 		(at 169 40.5)
-		(descr "Capacitor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "10 uF bulk capacitor on the switched 5 V rail at the eFuse U14 output.")
 		(tags "capacitor")
 		(property "Reference" "C60"
 			(at 0 -2.8 0)
@@ -25423,6 +25434,7 @@
 		(layer "F.Cu")
 		(uuid "4f8f7a04-84db-47bf-a4e0-64b499825a12")
 		(at 176.9542 48)
+		(descr "Test pad: translated 3.3 V trigger.")
 		(property "Reference" "TP20"
 			(at 0 -2 0)
 			(layer "F.SilkS")
@@ -25486,7 +25498,7 @@
 		(layer "F.Cu")
 		(uuid "50ae68cf-ab16-417b-bf46-65de9b108e21")
 		(at 94.5 43.5 90)
-		(descr "Capacitor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "100 nF bypass on the 5 V LED supply for display column bit 5.")
 		(tags "capacitor")
 		(property "Reference" "C30"
 			(at 0 -1.68 90)
@@ -25709,7 +25721,7 @@
 		(layer "F.Cu")
 		(uuid "50e26803-2d6b-46cc-8fc0-37677f147609")
 		(at 122 60 -90)
-		(descr "LED SMD 1206, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "Display LED, row 2 bit 0: lit while column MOSFET Q16 is on.")
 		(tags "LED")
 		(property "Reference" "D41"
 			(at -4 0 0)
@@ -25984,7 +25996,7 @@
 		(layer "F.Cu")
 		(uuid "50ee32e2-7963-4e59-a907-72b771c23c11")
 		(at 196 14)
-		(descr "Mounting Hole 3.2mm, no annular, M3")
+		(descr "M3 corner mounting hole.")
 		(tags "mounting hole 3.2mm no annular m3")
 		(property "Reference" "H3"
 			(at 0 -4 0)
@@ -26129,7 +26141,7 @@
 		(layer "F.Cu")
 		(uuid "512937a9-9480-42ea-b695-ebc71849740d")
 		(at 50 48 -90)
-		(descr "LED SMD 1206, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "Display LED, row 1 bit 12: lit while column MOSFET Q4 is on.")
 		(tags "LED")
 		(property "Reference" "D13"
 			(at -4 0 0)
@@ -26404,7 +26416,7 @@
 		(layer "F.Cu")
 		(uuid "5277c068-957b-44f5-a96b-37270ede66fc")
 		(at 190 18)
-		(descr "Capacitor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "1 uF VBUS bypass at the PD controller U11.")
 		(tags "capacitor")
 		(property "Reference" "C64"
 			(at 0 -2.8 0)
@@ -26627,7 +26639,7 @@
 		(layer "F.Cu")
 		(uuid "52e638b1-29ad-4f42-9781-5def619bf0e8")
 		(at 86 33 -90)
-		(descr "Resistor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "100 Ohm gate resistor between the buffer and column bit 6's MOSFET Q10.")
 		(tags "resistor")
 		(property "Reference" "R109"
 			(at 0 -1.65 270)
@@ -26850,7 +26862,7 @@
 		(layer "F.Cu")
 		(uuid "5425ec37-7fb3-4c02-ad87-5f3d344cf3e2")
 		(at 101 36.15 90)
-		(descr "Resistor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "100 kOhm gate pulldown keeping column bit 4's MOSFET Q12 off while the buffer is disabled.")
 		(tags "resistor")
 		(property "Reference" "R131"
 			(at 0 -1.65 90)
@@ -27073,7 +27085,7 @@
 		(layer "F.Cu")
 		(uuid "54be1d34-2f11-409c-b98c-632741858c6e")
 		(at 110 72 -90)
-		(descr "LED SMD 1206, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "Display LED, row 3 bit 2: lit while column MOSFET Q14 is on.")
 		(tags "LED")
 		(property "Reference" "D55"
 			(at -4 0 0)
@@ -27348,6 +27360,7 @@
 		(layer "F.Cu")
 		(uuid "57979e0e-f9ff-4a20-9495-c6d6e6dc8c74")
 		(at 166.6208 14)
+		(descr "Test pad: ESP32 GPIO0 boot strap.")
 		(property "Reference" "TP65"
 			(at 0 -2 0)
 			(layer "F.SilkS")
@@ -27411,7 +27424,7 @@
 		(layer "F.Cu")
 		(uuid "57bd7098-72ad-4a53-8461-2c5c25d25e4a")
 		(at 56 64 90)
-		(descr "Resistor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "470 Ohm current limit for display LED D30 (row 2 bit 11) from the switched 5 V rail.")
 		(tags "resistor")
 		(property "Reference" "R30"
 			(at 0 -1.65 90)
@@ -27634,7 +27647,7 @@
 		(layer "F.Cu")
 		(uuid "584bfd4e-4d64-4b4c-82b8-e134ce253307")
 		(at 50 52 90)
-		(descr "Resistor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "470 Ohm current limit for display LED D13 (row 1 bit 12) from the switched 5 V rail.")
 		(tags "resistor")
 		(property "Reference" "R13"
 			(at 0 -1.65 90)
@@ -27857,7 +27870,7 @@
 		(layer "F.Cu")
 		(uuid "59d97119-bf9f-45e6-aaaa-75e12f2faa66")
 		(at 68 94)
-		(descr "Capacitor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "10 uF reservoir on the 5 V LED supply for display column bit 9.")
 		(tags "capacitor")
 		(property "Reference" "C46"
 			(at 0 -1.68 0)
@@ -28080,7 +28093,7 @@
 		(layer "F.Cu")
 		(uuid "5a45435d-f0f1-42f7-8300-dc5e3cd26302")
 		(at 62 52 90)
-		(descr "Resistor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "470 Ohm current limit for display LED D15 (row 1 bit 10) from the switched 5 V rail.")
 		(tags "resistor")
 		(property "Reference" "R15"
 			(at 0 -1.65 90)
@@ -28303,7 +28316,7 @@
 		(layer "F.Cu")
 		(uuid "5aabaee6-0db4-43e4-a720-41fad629214f")
 		(at 104 64 90)
-		(descr "Resistor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "470 Ohm current limit for display LED D38 (row 2 bit 3) from the switched 5 V rail.")
 		(tags "resistor")
 		(property "Reference" "R38"
 			(at 0 -1.65 90)
@@ -28526,6 +28539,7 @@
 		(layer "F.Cu")
 		(uuid "5ac161b5-1ae0-4c21-8ca9-78a166beb3eb")
 		(at 155 49.3)
+		(descr "Board-to-board receptacle to the FPGA side of the module: display column drives, LED_OE_N, PPS, trigger and the 10 MHz clock.")
 		(property "Reference" "J2"
 			(at 14 0 0)
 			(layer "F.SilkS")
@@ -29060,7 +29074,7 @@
 		(layer "F.Cu")
 		(uuid "5c81e398-3b52-4727-914c-25f1e4e46b42")
 		(at 104 84 -90)
-		(descr "LED SMD 1206, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "Display LED, row 4 bit 3: lit while column MOSFET Q13 is on.")
 		(tags "LED")
 		(property "Reference" "D70"
 			(at -4 0 0)
@@ -29335,7 +29349,7 @@
 		(layer "F.Cu")
 		(uuid "5ca1ddf2-83c3-47a7-a391-f3af7c93d729")
 		(at 83 36.15 90)
-		(descr "Resistor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "100 kOhm gate pulldown keeping column bit 7's MOSFET Q9 off while the buffer is disabled.")
 		(tags "resistor")
 		(property "Reference" "R128"
 			(at 0 -1.65 90)
@@ -29558,7 +29572,7 @@
 		(layer "F.Cu")
 		(uuid "5db8a7fe-8e91-4a81-8df5-2fae6d4236fd")
 		(at 147 88)
-		(descr "HS OLED C5248080, 4-pin GND/VCC/SCL/SDA, manual assembly on 3mm spacers; vendor drawing p6")
+		(descr "0.96 inch I2C OLED showing date/time; mounted on spacers and wired through J8.")
 		(property "Reference" "DS1"
 			(at 0 15.4 0)
 			(layer "F.SilkS")
@@ -29746,7 +29760,7 @@
 		(layer "F.Cu")
 		(uuid "5f403bdd-a20e-44ee-af2f-6f314e7753a6")
 		(at 113 36.15 90)
-		(descr "Resistor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "100 kOhm gate pulldown keeping column bit 2's MOSFET Q14 off while the buffer is disabled.")
 		(tags "resistor")
 		(property "Reference" "R133"
 			(at 0 -1.65 90)
@@ -29969,7 +29983,7 @@
 		(layer "F.Cu")
 		(uuid "5fa59034-0936-4deb-84cd-82667f53a958")
 		(at 98 84 -90)
-		(descr "LED SMD 1206, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "Display LED, row 4 bit 4: lit while column MOSFET Q12 is on.")
 		(tags "LED")
 		(property "Reference" "D69"
 			(at -4 0 0)
@@ -30244,7 +30258,7 @@
 		(layer "F.Cu")
 		(uuid "600c88b7-b1e4-49d2-a284-1b157b5a6f1f")
 		(at 68 38 -90)
-		(descr "SOT, 3 Pin, generated with kicad-footprint-generator ipc_gullwing_generator.py")
+		(descr "Low-side switch for display column bit 9: sinks that column's four LED cathodes.")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "Q7"
 			(at -4 0 0)
@@ -30537,7 +30551,7 @@
 		(layer "F.Cu")
 		(uuid "6091e3f3-470c-48ed-91d7-234e96efc506")
 		(at 98 60 -90)
-		(descr "LED SMD 1206, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "Display LED, row 2 bit 4: lit while column MOSFET Q12 is on.")
 		(tags "LED")
 		(property "Reference" "D37"
 			(at -4 0 0)
@@ -30812,7 +30826,7 @@
 		(layer "F.Cu")
 		(uuid "629d64a7-5c8b-4507-8771-5e3cdbbcbf9b")
 		(at 74 72 -90)
-		(descr "LED SMD 1206, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "Display LED, row 3 bit 8: lit while column MOSFET Q8 is on.")
 		(tags "LED")
 		(property "Reference" "D49"
 			(at -4 0 0)
@@ -31087,7 +31101,7 @@
 		(layer "F.Cu")
 		(uuid "63c4b90b-6295-414d-ad49-a684bc1d95c0")
 		(at 38 52 90)
-		(descr "Resistor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "470 Ohm current limit for display LED D11 (row 1 bit 14) from the switched 5 V rail.")
 		(tags "resistor")
 		(property "Reference" "R11"
 			(at 0 -1.65 90)
@@ -31310,7 +31324,7 @@
 		(layer "F.Cu")
 		(uuid "6408436c-6cd9-4ba9-b4c8-b7bd0effe839")
 		(at 168 32.5 180)
-		(descr "Capacitor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "Sets the eFuse U14's output slew rate (inrush limit).")
 		(tags "capacitor")
 		(property "Reference" "C68"
 			(at 0 -2.8 180)
@@ -31533,7 +31547,7 @@
 		(layer "F.Cu")
 		(uuid "64467efb-6300-4784-9b1c-64fed0c6661c")
 		(at 110 38 -90)
-		(descr "SOT, 3 Pin, generated with kicad-footprint-generator ipc_gullwing_generator.py")
+		(descr "Low-side switch for display column bit 2: sinks that column's four LED cathodes.")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "Q14"
 			(at -4 0 0)
@@ -31826,6 +31840,7 @@
 		(layer "F.Cu")
 		(uuid "64835d9b-5842-4fae-8501-d760d820a7cc")
 		(at 187.05 14.5)
+		(descr "Test pad: USB VBUS input.")
 		(property "Reference" "TP1"
 			(at 0 -2 0)
 			(layer "F.SilkS")
@@ -31889,7 +31904,7 @@
 		(layer "F.Cu")
 		(uuid "64dc2698-f5f5-4e9f-8468-69483c37d83a")
 		(at 86 76 90)
-		(descr "Resistor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "470 Ohm current limit for display LED D51 (row 3 bit 6) from the switched 5 V rail.")
 		(tags "resistor")
 		(property "Reference" "R51"
 			(at 0 -1.65 90)
@@ -32112,7 +32127,7 @@
 		(layer "F.Cu")
 		(uuid "6843a281-203e-4eb4-a07d-d7ea3e35d70f")
 		(at 104 52 90)
-		(descr "Resistor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "470 Ohm current limit for display LED D22 (row 1 bit 3) from the switched 5 V rail.")
 		(tags "resistor")
 		(property "Reference" "R22"
 			(at 0 -1.65 90)
@@ -32335,7 +32350,7 @@
 		(layer "F.Cu")
 		(uuid "6d05a6ca-cb57-4872-8f95-245d770e79a9")
 		(at 122 76 90)
-		(descr "Resistor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "470 Ohm current limit for display LED D57 (row 3 bit 0) from the switched 5 V rail.")
 		(tags "resistor")
 		(property "Reference" "R57"
 			(at 0 -1.65 90)
@@ -32558,7 +32573,7 @@
 		(layer "F.Cu")
 		(uuid "6de00ef1-34ed-419f-ae6d-f3a6c21e19bb")
 		(at 110 33 -90)
-		(descr "Resistor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "100 Ohm gate resistor between the buffer and column bit 2's MOSFET Q14.")
 		(tags "resistor")
 		(property "Reference" "R113"
 			(at 0 -1.65 270)
@@ -32781,7 +32796,7 @@
 		(layer "F.Cu")
 		(uuid "6e2701cf-eae8-4aeb-8870-104ac8067ec2")
 		(at 71 36.15 90)
-		(descr "Resistor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "100 kOhm gate pulldown keeping column bit 9's MOSFET Q7 off while the buffer is disabled.")
 		(tags "resistor")
 		(property "Reference" "R126"
 			(at 0 -1.65 90)
@@ -33004,7 +33019,7 @@
 		(layer "F.Cu")
 		(uuid "6edc4787-6761-429d-8c71-86382fb50d86")
 		(at 192 70)
-		(descr "Resistor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "33 Ohm series termination for the 5 V trigger output on J7.")
 		(tags "resistor")
 		(property "Reference" "R162"
 			(at 0 -2.8 0)
@@ -33227,7 +33242,7 @@
 		(layer "F.Cu")
 		(uuid "6f82c032-068f-49c1-9eb2-579f2783ba72")
 		(at 38 84 -90)
-		(descr "LED SMD 1206, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "Display LED, row 4 bit 14: lit while column MOSFET Q2 is on.")
 		(tags "LED")
 		(property "Reference" "D59"
 			(at -4 0 0)
@@ -33502,6 +33517,7 @@
 		(layer "F.Cu")
 		(uuid "6f8c6770-da3f-4e36-8106-15d8cc3e18c6")
 		(at 192.7 23.5)
+		(descr "Test pad: PD controller I2C SDA.")
 		(property "Reference" "TP10"
 			(at 0 -2 0)
 			(layer "F.SilkS")
@@ -33566,7 +33582,7 @@
 		(layer "F.Cu")
 		(uuid "6fb96a58-1ff9-4d87-a458-3fb6c83a4b65")
 		(at 154 68.8 90)
-		(descr "Capacitor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "22 uF output capacitor for the OCXO LDO U15; it needs at least 10 uF effective for stability.")
 		(tags "capacitor")
 		(property "Reference" "C71"
 			(at 2.8 0 0)
@@ -33789,7 +33805,7 @@
 		(layer "F.Cu")
 		(uuid "713ab89f-aaea-421d-aabd-44d1f1a6abb2")
 		(at 35 36.15 90)
-		(descr "Resistor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "100 kOhm gate pulldown keeping column bit 15's MOSFET Q1 off while the buffer is disabled.")
 		(tags "resistor")
 		(property "Reference" "R120"
 			(at 0 -1.65 90)
@@ -34012,6 +34028,7 @@
 		(layer "F.Cu")
 		(uuid "715cd376-e814-4f38-ab5c-5c6ddf613f32")
 		(at 182.6125 71.35)
+		(descr "Test pad: FPGA trigger output, before the 5 V driver.")
 		(property "Reference" "TP23"
 			(at 0 -2 0)
 			(layer "F.SilkS")
@@ -34075,7 +34092,7 @@
 		(layer "F.Cu")
 		(uuid "730f3c9e-cef2-4608-9fba-dde4cfb79fb8")
 		(at 98 64 90)
-		(descr "Resistor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "470 Ohm current limit for display LED D37 (row 2 bit 4) from the switched 5 V rail.")
 		(tags "resistor")
 		(property "Reference" "R37"
 			(at 0 -1.65 90)
@@ -34298,7 +34315,7 @@
 		(layer "F.Cu")
 		(uuid "732c6d80-76f9-4294-856a-90d75e5d98ea")
 		(at 164 18)
-		(descr "Resistor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "100 kOhm pull-up holding ESP32 GPIO0 (boot strap) high for normal run.")
 		(tags "resistor")
 		(property "Reference" "R4"
 			(at 0 -1.65 0)
@@ -34521,6 +34538,7 @@
 		(layer "F.Cu")
 		(uuid "7405ad4d-d4e7-4df5-9a5f-0fe7b1374837")
 		(at 178.2125 94.4875)
+		(descr "Test pad: GPS receiver RESET_N.")
 		(property "Reference" "TP27"
 			(at 0 -2 0)
 			(layer "F.SilkS")
@@ -34584,7 +34602,7 @@
 		(layer "F.Cu")
 		(uuid "7440083e-1caf-4fe6-971c-2e7de65eba1e")
 		(at 56 84 -90)
-		(descr "LED SMD 1206, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "Display LED, row 4 bit 11: lit while column MOSFET Q5 is on.")
 		(tags "LED")
 		(property "Reference" "D62"
 			(at -4 0 0)
@@ -34859,7 +34877,7 @@
 		(layer "F.Cu")
 		(uuid "75b359fd-d232-43f9-8f0c-0dab0641d6a8")
 		(at 52.5 43.5 90)
-		(descr "Capacitor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "100 nF bypass on the 5 V LED supply for display column bit 12.")
 		(tags "capacitor")
 		(property "Reference" "C23"
 			(at 0 -1.68 90)
@@ -35082,7 +35100,7 @@
 		(layer "F.Cu")
 		(uuid "78d1ebbb-b614-4eaf-ac2c-dc2f91c1abe3")
 		(at 62 84 -90)
-		(descr "LED SMD 1206, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "Display LED, row 4 bit 10: lit while column MOSFET Q6 is on.")
 		(tags "LED")
 		(property "Reference" "D63"
 			(at -4 0 0)
@@ -35357,7 +35375,7 @@
 		(layer "F.Cu")
 		(uuid "7d399488-65d4-417a-a89c-aa1fbcc17a65")
 		(at 62 48 -90)
-		(descr "LED SMD 1206, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "Display LED, row 1 bit 10: lit while column MOSFET Q6 is on.")
 		(tags "LED")
 		(property "Reference" "D15"
 			(at -4 0 0)
@@ -35632,7 +35650,7 @@
 		(layer "F.Cu")
 		(uuid "7f477cc2-49f9-4f93-8009-c66984677187")
 		(at 80 64 90)
-		(descr "Resistor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "470 Ohm current limit for display LED D34 (row 2 bit 7) from the switched 5 V rail.")
 		(tags "resistor")
 		(property "Reference" "R34"
 			(at 0 -1.65 90)
@@ -35855,7 +35873,7 @@
 		(layer "F.Cu")
 		(uuid "7f8e8d55-6e9b-4db5-82a3-cc5dabf1707a")
 		(at 110 76 90)
-		(descr "Resistor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "470 Ohm current limit for display LED D55 (row 3 bit 2) from the switched 5 V rail.")
 		(tags "resistor")
 		(property "Reference" "R55"
 			(at 0 -1.65 90)
@@ -36078,6 +36096,7 @@
 		(layer "F.Cu")
 		(uuid "812b1cfb-4129-4e5d-b883-13c5a6f95415")
 		(at 170.2 97.2)
+		(descr "Test pad: PPS at the GPS receiver.")
 		(property "Reference" "TP13"
 			(at 0 -2 0)
 			(layer "F.SilkS")
@@ -36141,7 +36160,7 @@
 		(layer "F.Cu")
 		(uuid "8198a7b6-2c1b-426a-81e6-d923eb0550e4")
 		(at 197.46 70)
-		(descr "http://www.amphenolrf.com/132289.html")
+		(descr "SMA trigger output, driven at 5 V from the FPGA through U10.")
 		(tags "SMA")
 		(property "Reference" "J7"
 			(at -5.96 -8.5 90)
@@ -36522,6 +36541,7 @@
 		(layer "F.Cu")
 		(uuid "82c306d2-c2ee-492c-a480-ef9621559ca8")
 		(at 196 78)
+		(descr "Test pad: antenna DC bias after R5.")
 		(property "Reference" "TP29"
 			(at 0 -2 0)
 			(layer "F.SilkS")
@@ -36585,7 +36605,7 @@
 		(layer "F.Cu")
 		(uuid "842bac53-8d37-4ae1-9538-3628636dbe43")
 		(at 86 94)
-		(descr "Capacitor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "10 uF reservoir on the 5 V LED supply for display column bit 6.")
 		(tags "capacitor")
 		(property "Reference" "C49"
 			(at 0 -1.68 0)
@@ -36808,7 +36828,7 @@
 		(layer "F.Cu")
 		(uuid "84ee9f86-83b1-4c71-83c5-9177b584cfc4")
 		(at 186 32.799999 180)
-		(descr "Capacitor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "100 nF bypass on USB VBUS at the ESD array U1.")
 		(tags "capacitor")
 		(property "Reference" "C1"
 			(at 0 2.8 0)
@@ -37031,7 +37051,7 @@
 		(layer "F.Cu")
 		(uuid "8685bf05-f3d0-4a6d-b00c-a15106f471d4")
 		(at 116 76 90)
-		(descr "Resistor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "470 Ohm current limit for display LED D56 (row 3 bit 1) from the switched 5 V rail.")
 		(tags "resistor")
 		(property "Reference" "R56"
 			(at 0 -1.65 90)
@@ -37254,7 +37274,7 @@
 		(layer "F.Cu")
 		(uuid "87076890-eb73-409a-8b6d-12bb6f21de6b")
 		(at 92 94)
-		(descr "Capacitor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "10 uF reservoir on the 5 V LED supply for display column bit 5.")
 		(tags "capacitor")
 		(property "Reference" "C50"
 			(at 0 -1.68 0)
@@ -37477,7 +37497,7 @@
 		(layer "F.Cu")
 		(uuid "88327331-d7e6-474f-b8fd-dcfa3ac24694")
 		(at 32 60 -90)
-		(descr "LED SMD 1206, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "Display LED, row 2 bit 15: lit while column MOSFET Q1 is on.")
 		(tags "LED")
 		(property "Reference" "D26"
 			(at -4 0 0)
@@ -37752,7 +37772,7 @@
 		(layer "F.Cu")
 		(uuid "8851f4bf-a40b-4f1b-9bfd-d3d520d3b86f")
 		(at 185 55 180)
-		(descr "Capacitor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "100 nF filter on the 2.5 V trigger threshold.")
 		(tags "capacitor")
 		(property "Reference" "C13"
 			(at -2.8 0 270)
@@ -37975,7 +37995,7 @@
 		(layer "F.Cu")
 		(uuid "88b4d102-7343-4792-8276-81abcc07b05b")
 		(at 147 75.42)
-		(descr "Wurth 61300411121 / C5184785; 1x4 straight male; 3mm solder tails, 6mm posts")
+		(descr "OLED header: GND, 3.3 V, I2C SCL (ESP GPIO2), SDA (ESP GPIO1).")
 		(property "Reference" "J8"
 			(at 0 2.6 0)
 			(layer "F.Fab")
@@ -38160,7 +38180,7 @@
 		(layer "F.Cu")
 		(uuid "8960426c-11ab-4466-bf1e-fe1cc8d5a127")
 		(at 112.5 43.5 90)
-		(descr "Capacitor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "100 nF bypass on the 5 V LED supply for display column bit 2.")
 		(tags "capacitor")
 		(property "Reference" "C33"
 			(at 0 -1.68 90)
@@ -38383,7 +38403,7 @@
 		(layer "F.Cu")
 		(uuid "8a0e428b-f26d-4151-bb18-2727ada628ad")
 		(at 182 36.3)
-		(descr "Capacitor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "100 nF filter capacitor on the load-current monitor into the ESP32 ADC (with R176).")
 		(tags "capacitor")
 		(property "Reference" "C78"
 			(at 0 -1.68 0)
@@ -38606,7 +38626,7 @@
 		(layer "F.Cu")
 		(uuid "8a2ec5a4-2726-431d-96fe-9dec295f2b3b")
 		(at 174 49 180)
-		(descr "Resistor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "100 Ohm series resistor carrying the 3.3 V trigger to ESP32 GPIO21.")
 		(tags "resistor")
 		(property "Reference" "R81"
 			(at 0 -1.65 180)
@@ -38829,7 +38849,7 @@
 		(layer "F.Cu")
 		(uuid "8a7c1489-a6e9-43c8-9c58-ecab464bc726")
 		(at 140 71)
-		(descr "Capacitor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "100 nF bypass at the OLED header J8.")
 		(tags "capacitor")
 		(property "Reference" "C76"
 			(at 0 -1.68 0)
@@ -39052,7 +39072,7 @@
 		(layer "F.Cu")
 		(uuid "8b1275f3-3333-4ff4-9585-3a167f27a1d2")
 		(at 38 88 90)
-		(descr "Resistor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "470 Ohm current limit for display LED D59 (row 4 bit 14) from the switched 5 V rail.")
 		(tags "resistor")
 		(property "Reference" "R59"
 			(at 0 -1.65 90)
@@ -39275,7 +39295,7 @@
 		(layer "F.Cu")
 		(uuid "8b1ed1ad-7e8a-4c2d-b414-34e1f7ea1fdb")
 		(at 74 52 90)
-		(descr "Resistor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "470 Ohm current limit for display LED D17 (row 1 bit 8) from the switched 5 V rail.")
 		(tags "resistor")
 		(property "Reference" "R17"
 			(at 0 -1.65 90)
@@ -39498,7 +39518,7 @@
 		(layer "F.Cu")
 		(uuid "8bd4da10-178c-4b0f-b90e-72dd8523da41")
 		(at 186.5 26)
-		(descr "Resistor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "10 kOhm I2C pull-up on the PD controller's SCL.")
 		(tags "resistor")
 		(property "Reference" "R168"
 			(at 0 -2.8 0)
@@ -39721,7 +39741,7 @@
 		(layer "F.Cu")
 		(uuid "8c93d51c-2bc5-438c-9939-725a31a903fa")
 		(at 98 48 -90)
-		(descr "LED SMD 1206, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "Display LED, row 1 bit 4: lit while column MOSFET Q12 is on.")
 		(tags "LED")
 		(property "Reference" "D21"
 			(at -4 0 0)
@@ -39996,7 +40016,7 @@
 		(layer "F.Cu")
 		(uuid "8cf7b872-db24-4ca4-b65a-0cd01272140d")
 		(at 68 33 -90)
-		(descr "Resistor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "100 Ohm gate resistor between the buffer and column bit 9's MOSFET Q7.")
 		(tags "resistor")
 		(property "Reference" "R106"
 			(at 0 -1.65 270)
@@ -40219,7 +40239,7 @@
 		(layer "F.Cu")
 		(uuid "8d080b43-e850-4d72-8c3e-3ad97f7fcb13")
 		(at 174 85.6 180)
-		(descr "Resistor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "33 Ohm source damping on the PPS branch to the FPGA (IOT_46B_G0).")
 		(tags "resistor")
 		(property "Reference" "R6"
 			(at 0 -1.65 180)
@@ -40442,7 +40462,7 @@
 		(layer "F.Cu")
 		(uuid "8d4c29c7-8134-41eb-9324-07cde4e5d834")
 		(at 184 69.05 180)
-		(descr "Resistor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "100 kOhm pulldown keeping the trigger output low while the FPGA is unconfigured.")
 		(tags "resistor")
 		(property "Reference" "R163"
 			(at 0 2.8 0)
@@ -40665,7 +40685,7 @@
 		(layer "F.Cu")
 		(uuid "8d969260-84f0-4909-a26d-2f04ef0da4c2")
 		(at 50 72 -90)
-		(descr "LED SMD 1206, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "Display LED, row 3 bit 12: lit while column MOSFET Q4 is on.")
 		(tags "LED")
 		(property "Reference" "D45"
 			(at -4 0 0)
@@ -40940,7 +40960,7 @@
 		(layer "F.Cu")
 		(uuid "8f687276-c6ba-49de-8933-3d578d3b2d31")
 		(at 86 64 90)
-		(descr "Resistor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "470 Ohm current limit for display LED D35 (row 2 bit 6) from the switched 5 V rail.")
 		(tags "resistor")
 		(property "Reference" "R35"
 			(at 0 -1.65 90)
@@ -41163,7 +41183,7 @@
 		(layer "F.Cu")
 		(uuid "9099f843-7d85-4b2c-9b87-81ec3f7d16a9")
 		(at 110 94)
-		(descr "Capacitor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "10 uF reservoir on the 5 V LED supply for display column bit 2.")
 		(tags "capacitor")
 		(property "Reference" "C53"
 			(at 0 -1.68 0)
@@ -41386,7 +41406,7 @@
 		(layer "F.Cu")
 		(uuid "90b9f2b8-d3e2-489d-b35e-67665c30e3d3")
 		(at 80 33 -90)
-		(descr "Resistor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "100 Ohm gate resistor between the buffer and column bit 7's MOSFET Q9.")
 		(tags "resistor")
 		(property "Reference" "R108"
 			(at 0 -1.65 270)
@@ -41609,6 +41629,7 @@
 		(layer "F.Cu")
 		(uuid "90d9f2dc-a795-4681-a0c7-c0ce57ff02f0")
 		(at 171.4089 83.9214)
+		(descr "Test pad: PPS at the FPGA.")
 		(property "Reference" "TP14"
 			(at 0 -2 0)
 			(layer "F.SilkS")
@@ -41672,7 +41693,7 @@
 		(layer "F.Cu")
 		(uuid "90e2e048-f483-4bf4-bf13-1e217e650b07")
 		(at 80 60 -90)
-		(descr "LED SMD 1206, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "Display LED, row 2 bit 7: lit while column MOSFET Q9 is on.")
 		(tags "LED")
 		(property "Reference" "D34"
 			(at -4 0 0)
@@ -41947,7 +41968,7 @@
 		(layer "F.Cu")
 		(uuid "9337bbfa-2789-4f8e-99ba-11c033c7ddd4")
 		(at 47 36.15 90)
-		(descr "Resistor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "100 kOhm gate pulldown keeping column bit 13's MOSFET Q3 off while the buffer is disabled.")
 		(tags "resistor")
 		(property "Reference" "R122"
 			(at 0 -1.65 90)
@@ -42170,7 +42191,7 @@
 		(layer "F.Cu")
 		(uuid "93a92532-740e-410d-823e-373ef279a677")
 		(at 110 60 -90)
-		(descr "LED SMD 1206, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "Display LED, row 2 bit 2: lit while column MOSFET Q14 is on.")
 		(tags "LED")
 		(property "Reference" "D39"
 			(at -4 0 0)
@@ -42445,7 +42466,7 @@
 		(layer "F.Cu")
 		(uuid "93ce791e-0a80-4d2c-acb8-48eae811a825")
 		(at 101.65 24 -90)
-		(descr "TSSOP, 20 Pin, generated with kicad-footprint-generator ipc_gullwing_generator.py")
+		(descr "Octal buffer driving display column gates for bits 0-7 from the FPGA; LED_OE_N blanks its outputs.")
 		(tags "TSSOP SO")
 		(property "Reference" "U4"
 			(at -6 0 180)
@@ -42876,7 +42897,7 @@
 		(layer "F.Cu")
 		(uuid "946804c4-3b62-4656-a2db-28dc94a00d1c")
 		(at 80 38 -90)
-		(descr "SOT, 3 Pin, generated with kicad-footprint-generator ipc_gullwing_generator.py")
+		(descr "Low-side switch for display column bit 7: sinks that column's four LED cathodes.")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "Q9"
 			(at -4 0 0)
@@ -43169,7 +43190,7 @@
 		(layer "F.Cu")
 		(uuid "951610de-4dd0-4a21-b4f9-5298fb8e4810")
 		(at 74 48 -90)
-		(descr "LED SMD 1206, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "Display LED, row 1 bit 8: lit while column MOSFET Q8 is on.")
 		(tags "LED")
 		(property "Reference" "D17"
 			(at -4 0 0)
@@ -43444,7 +43465,7 @@
 		(layer "F.Cu")
 		(uuid "96456127-32e7-4c87-ae13-7b42cff7234c")
 		(at 174 82.6 180)
-		(descr "Resistor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "33 Ohm source damping on the PPS branch to ESP32 GPIO38.")
 		(tags "resistor")
 		(property "Reference" "R7"
 			(at 0 -1.65 180)
@@ -43667,7 +43688,7 @@
 		(layer "F.Cu")
 		(uuid "96ee6b17-dcb2-4da2-9e21-2c36b7c74c81")
 		(at 74 64 90)
-		(descr "Resistor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "470 Ohm current limit for display LED D33 (row 2 bit 8) from the switched 5 V rail.")
 		(tags "resistor")
 		(property "Reference" "R33"
 			(at 0 -1.65 90)
@@ -43890,7 +43911,7 @@
 		(layer "F.Cu")
 		(uuid "9742e183-17a2-4fe6-8da2-5d52e959c5d8")
 		(at 116 88 90)
-		(descr "Resistor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "470 Ohm current limit for display LED D72 (row 4 bit 1) from the switched 5 V rail.")
 		(tags "resistor")
 		(property "Reference" "R72"
 			(at 0 -1.65 90)
@@ -44113,7 +44134,7 @@
 		(layer "F.Cu")
 		(uuid "97605f9f-1355-4ad5-9e60-1fdbc058102b")
 		(at 74 76 90)
-		(descr "Resistor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "470 Ohm current limit for display LED D49 (row 3 bit 8) from the switched 5 V rail.")
 		(tags "resistor")
 		(property "Reference" "R49"
 			(at 0 -1.65 90)
@@ -44336,7 +44357,7 @@
 		(layer "F.Cu")
 		(uuid "97e1388e-e6ea-4843-896b-b0c4e2a7d716")
 		(at 68 48 -90)
-		(descr "LED SMD 1206, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "Display LED, row 1 bit 9: lit while column MOSFET Q7 is on.")
 		(tags "LED")
 		(property "Reference" "D16"
 			(at -4 0 0)
@@ -44611,7 +44632,7 @@
 		(layer "F.Cu")
 		(uuid "9a037f05-31c0-491f-b8a8-15bf7e3c8998")
 		(at 110 64 90)
-		(descr "Resistor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "470 Ohm current limit for display LED D39 (row 2 bit 2) from the switched 5 V rail.")
 		(tags "resistor")
 		(property "Reference" "R39"
 			(at 0 -1.65 90)
@@ -44834,7 +44855,7 @@
 		(layer "F.Cu")
 		(uuid "9b26828a-66ff-4f0a-8c1c-02b153f64525")
 		(at 32 64 90)
-		(descr "Resistor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "470 Ohm current limit for display LED D26 (row 2 bit 15) from the switched 5 V rail.")
 		(tags "resistor")
 		(property "Reference" "R26"
 			(at 0 -1.65 90)
@@ -45057,6 +45078,7 @@
 		(layer "F.Cu")
 		(uuid "9b42dd9e-45fb-4e81-9880-378996a37d0c")
 		(at 185 58)
+		(descr "Test pad: 2.5 V trigger threshold.")
 		(property "Reference" "TP18"
 			(at 0 -2 0)
 			(layer "F.SilkS")
@@ -45120,7 +45142,7 @@
 		(layer "F.Cu")
 		(uuid "9bbc70e5-8429-4199-8d01-3eab395c4d8f")
 		(at 34.5 43.5 90)
-		(descr "Capacitor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "100 nF bypass on the 5 V LED supply for display column bit 15.")
 		(tags "capacitor")
 		(property "Reference" "C20"
 			(at 0 -1.68 90)
@@ -45343,7 +45365,7 @@
 		(layer "F.Cu")
 		(uuid "9bc40abc-1b9b-422a-b1e2-58cc9a19a13f")
 		(at 62 76 90)
-		(descr "Resistor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "470 Ohm current limit for display LED D47 (row 3 bit 10) from the switched 5 V rail.")
 		(tags "resistor")
 		(property "Reference" "R47"
 			(at 0 -1.65 90)
@@ -45566,7 +45588,7 @@
 		(layer "F.Cu")
 		(uuid "9dae200d-8eab-46a7-9d10-36a48462ec2c")
 		(at 32 76 90)
-		(descr "Resistor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "470 Ohm current limit for display LED D42 (row 3 bit 15) from the switched 5 V rail.")
 		(tags "resistor")
 		(property "Reference" "R42"
 			(at 0 -1.65 90)
@@ -45789,7 +45811,7 @@
 		(layer "F.Cu")
 		(uuid "9e6f1eed-9f1a-44aa-a7c3-cce2b820f80d")
 		(at 174.8 76.55 180)
-		(descr "Capacitor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "4.7 uF input capacitor for the GPS LDO U5.")
 		(tags "capacitor")
 		(property "Reference" "C6"
 			(at 0 2.8 0)
@@ -46012,7 +46034,7 @@
 		(layer "F.Cu")
 		(uuid "9e70e270-1262-453d-9b79-162940cdb082")
 		(at 122 52 90)
-		(descr "Resistor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "470 Ohm current limit for display LED D25 (row 1 bit 0) from the switched 5 V rail.")
 		(tags "resistor")
 		(property "Reference" "R25"
 			(at 0 -1.65 90)
@@ -46235,7 +46257,7 @@
 		(layer "F.Cu")
 		(uuid "9eda047b-38d7-4b95-b164-b1ac2d7e6a70")
 		(at 44 33 -90)
-		(descr "Resistor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "100 Ohm gate resistor between the buffer and column bit 13's MOSFET Q3.")
 		(tags "resistor")
 		(property "Reference" "R102"
 			(at 0 -1.65 270)
@@ -46458,7 +46480,7 @@
 		(layer "F.Cu")
 		(uuid "9f329232-9c89-4071-9948-17598521a605")
 		(at 116 38 -90)
-		(descr "SOT, 3 Pin, generated with kicad-footprint-generator ipc_gullwing_generator.py")
+		(descr "Low-side switch for display column bit 1: sinks that column's four LED cathodes.")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "Q15"
 			(at -4 0 0)
@@ -46751,7 +46773,7 @@
 		(layer "F.Cu")
 		(uuid "a01f8063-8110-4675-877a-7a1b40cb898c")
 		(at 86 60 -90)
-		(descr "LED SMD 1206, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "Display LED, row 2 bit 6: lit while column MOSFET Q10 is on.")
 		(tags "LED")
 		(property "Reference" "D35"
 			(at -4 0 0)
@@ -47026,7 +47048,7 @@
 		(layer "F.Cu")
 		(uuid "a07a883d-d1b1-439b-8d0d-9add94364b93")
 		(at 68 76 90)
-		(descr "Resistor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "470 Ohm current limit for display LED D48 (row 3 bit 9) from the switched 5 V rail.")
 		(tags "resistor")
 		(property "Reference" "R48"
 			(at 0 -1.65 90)
@@ -47249,7 +47271,7 @@
 		(layer "F.Cu")
 		(uuid "a1f1cfc9-04b5-4dfa-ae8e-c7590b0913d7")
 		(at 186 50.95 180)
-		(descr "SOT, 6 Pin, generated with kicad-footprint-generator ipc_gullwing_generator.py")
+		(descr "Fast comparator that detects the external trigger input against the 2.5 V threshold.")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "U9"
 			(at 0 2.8 0)
@@ -47565,7 +47587,7 @@
 		(layer "F.Cu")
 		(uuid "a3093aa0-1e16-41ad-bb3f-2b84dbc7ad2a")
 		(at 62 64 90)
-		(descr "Resistor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "470 Ohm current limit for display LED D31 (row 2 bit 10) from the switched 5 V rail.")
 		(tags "resistor")
 		(property "Reference" "R31"
 			(at 0 -1.65 90)
@@ -47788,7 +47810,7 @@
 		(layer "F.Cu")
 		(uuid "a6078045-8057-4871-8d41-f45b4f3e8f37")
 		(at 172 28)
-		(descr "SOT, 5 Pin, generated with kicad-footprint-generator ipc_gullwing_generator.py")
+		(descr "Always-on 3.3 V LDO from USB VBUS; powers the logic rail for the display buffers, OLED and pull-ups.")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "U2"
 			(at 0 -2.8 0)
@@ -48098,7 +48120,7 @@
 		(layer "F.Cu")
 		(uuid "a622236d-aded-4976-867b-99015271265f")
 		(at 44 60 -90)
-		(descr "LED SMD 1206, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "Display LED, row 2 bit 13: lit while column MOSFET Q3 is on.")
 		(tags "LED")
 		(property "Reference" "D28"
 			(at -4 0 0)
@@ -48373,7 +48395,7 @@
 		(layer "F.Cu")
 		(uuid "a64240ca-b25f-4097-8f40-13f708099e2c")
 		(at 68 72 -90)
-		(descr "LED SMD 1206, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "Display LED, row 3 bit 9: lit while column MOSFET Q7 is on.")
 		(tags "LED")
 		(property "Reference" "D48"
 			(at -4 0 0)
@@ -48648,7 +48670,7 @@
 		(layer "F.Cu")
 		(uuid "a6bd81bc-53fb-4903-8530-3530dc5551d3")
 		(at 80 88 90)
-		(descr "Resistor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "470 Ohm current limit for display LED D66 (row 4 bit 7) from the switched 5 V rail.")
 		(tags "resistor")
 		(property "Reference" "R66"
 			(at 0 -1.65 90)
@@ -48871,7 +48893,7 @@
 		(layer "F.Cu")
 		(uuid "a7166b98-b153-4875-9bcb-df9b6d3ee16d")
 		(at 110 84 -90)
-		(descr "LED SMD 1206, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "Display LED, row 4 bit 2: lit while column MOSFET Q14 is on.")
 		(tags "LED")
 		(property "Reference" "D71"
 			(at -4 0 0)
@@ -49146,7 +49168,7 @@
 		(layer "F.Cu")
 		(uuid "a9b88319-b544-4714-bd03-cdc9330aa4f7")
 		(at 92 60 -90)
-		(descr "LED SMD 1206, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "Display LED, row 2 bit 5: lit while column MOSFET Q11 is on.")
 		(tags "LED")
 		(property "Reference" "D36"
 			(at -4 0 0)
@@ -49421,7 +49443,7 @@
 		(layer "F.Cu")
 		(uuid "a9dfb4f6-b61a-4bcb-853e-c3c96fc75f50")
 		(at 153 62)
-		(descr "Abracon AOC97FAJC-10.0000, Crystal SMD SMT, 9.7x7.5mm package, SMD, https://abracon.com/datasheets/AOC97.pdf")
+		(descr "10 MHz OCXO frequency reference; clocks the FPGA through R173.")
 		(property "Reference" "Y1"
 			(at -2 4.9 0)
 			(layer "F.SilkS")
@@ -49597,7 +49619,7 @@
 		(layer "F.Cu")
 		(uuid "aa2a629c-cb66-4016-907e-66e00f0403e9")
 		(at 116 72 -90)
-		(descr "LED SMD 1206, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "Display LED, row 3 bit 1: lit while column MOSFET Q15 is on.")
 		(tags "LED")
 		(property "Reference" "D56"
 			(at -4 0 0)
@@ -49872,7 +49894,7 @@
 		(layer "F.Cu")
 		(uuid "aa65b328-1bf3-4184-a5ef-28b0b8e168e8")
 		(at 86 72 -90)
-		(descr "LED SMD 1206, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "Display LED, row 3 bit 6: lit while column MOSFET Q10 is on.")
 		(tags "LED")
 		(property "Reference" "D51"
 			(at -4 0 0)
@@ -50147,7 +50169,7 @@
 		(layer "F.Cu")
 		(uuid "aaa495bc-a869-465c-b21d-816a1158dddb")
 		(at 32 84 -90)
-		(descr "LED SMD 1206, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "Display LED, row 4 bit 15: lit while column MOSFET Q1 is on.")
 		(tags "LED")
 		(property "Reference" "D58"
 			(at -4 0 0)
@@ -50422,6 +50444,7 @@
 		(layer "F.Cu")
 		(uuid "ad6f5d11-420d-4950-aff1-270708a94f57")
 		(at 177.1375 19.55)
+		(descr "Test pad: 3.3 V rail for the PD I2C pull-ups.")
 		(property "Reference" "TP4"
 			(at 0 -2 0)
 			(layer "F.SilkS")
@@ -50485,7 +50508,7 @@
 		(layer "F.Cu")
 		(uuid "adbbd403-80c0-47a4-9273-5239a9de5111")
 		(at 38 48 -90)
-		(descr "LED SMD 1206, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "Display LED, row 1 bit 14: lit while column MOSFET Q2 is on.")
 		(tags "LED")
 		(property "Reference" "D11"
 			(at -4 0 0)
@@ -50760,7 +50783,7 @@
 		(layer "F.Cu")
 		(uuid "adf34f47-8ca9-4948-bd3e-c4e0c734a626")
 		(at 92 64 90)
-		(descr "Resistor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "470 Ohm current limit for display LED D36 (row 2 bit 5) from the switched 5 V rail.")
 		(tags "resistor")
 		(property "Reference" "R36"
 			(at 0 -1.65 90)
@@ -50983,7 +51006,7 @@
 		(layer "F.Cu")
 		(uuid "ae82f159-7ef7-4b60-a1c4-c687e554334a")
 		(at 24 106)
-		(descr "Mounting Hole 3.2mm, no annular, M3")
+		(descr "M3 corner mounting hole.")
 		(tags "mounting hole 3.2mm no annular m3")
 		(property "Reference" "H4"
 			(at 0 -4 0)
@@ -51128,7 +51151,7 @@
 		(layer "F.Cu")
 		(uuid "af6c22e4-efaa-44aa-8ed3-bee88e199890")
 		(at 32 52 90)
-		(descr "Resistor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "470 Ohm current limit for display LED D10 (row 1 bit 15) from the switched 5 V rail.")
 		(tags "resistor")
 		(property "Reference" "R10"
 			(at 0 -1.65 90)
@@ -51351,7 +51374,7 @@
 		(layer "F.Cu")
 		(uuid "af77b887-7df6-4ded-b78a-b893ccc42622")
 		(at 116 84 -90)
-		(descr "LED SMD 1206, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "Display LED, row 4 bit 1: lit while column MOSFET Q15 is on.")
 		(tags "LED")
 		(property "Reference" "D72"
 			(at -4 0 0)
@@ -51626,7 +51649,7 @@
 		(layer "F.Cu")
 		(uuid "afc52cff-a131-45c9-8c8b-b876c2da1b0c")
 		(at 53 36.15 90)
-		(descr "Resistor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "100 kOhm gate pulldown keeping column bit 12's MOSFET Q4 off while the buffer is disabled.")
 		(tags "resistor")
 		(property "Reference" "R123"
 			(at 0 -1.65 90)
@@ -51849,6 +51872,7 @@
 		(layer "F.Cu")
 		(uuid "b09dcff0-12d8-42e0-8d0a-c2d1d27e9689")
 		(at 179.7 57)
+		(descr "Test pad: comparator output (5 V trigger).")
 		(property "Reference" "TP19"
 			(at 0 -2 0)
 			(layer "F.SilkS")
@@ -51912,7 +51936,7 @@
 		(layer "F.Cu")
 		(uuid "b0f48dc6-00c1-48e4-be01-3e3967816cab")
 		(at 173 40.5)
-		(descr "Capacitor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "10 uF bulk capacitor on the switched 5 V rail at the eFuse U14 output.")
 		(tags "capacitor")
 		(property "Reference" "C61"
 			(at 0 -2.8 0)
@@ -52135,7 +52159,7 @@
 		(layer "F.Cu")
 		(uuid "b18d2822-9912-44ce-8ead-de9279372910")
 		(at 116 33 -90)
-		(descr "Resistor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "100 Ohm gate resistor between the buffer and column bit 1's MOSFET Q15.")
 		(tags "resistor")
 		(property "Reference" "R114"
 			(at 0 -1.65 270)
@@ -52358,6 +52382,7 @@
 		(layer "F.Cu")
 		(uuid "b2537ac2-3548-49b9-957f-5d7abbf175ed")
 		(at 180.8875 30.5)
+		(descr "Test pad: 5 V load-switch enable (ESP GPIO4).")
 		(property "Reference" "TP7"
 			(at 0 -2 0)
 			(layer "F.SilkS")
@@ -52421,6 +52446,7 @@
 		(layer "F.Cu")
 		(uuid "b333394e-4361-4d84-820f-cca8b68645fe")
 		(at 167.6375 18)
+		(descr "Test pad: 3.3 V logic rail.")
 		(property "Reference" "TP3"
 			(at 0 -2 0)
 			(layer "F.SilkS")
@@ -52484,7 +52510,7 @@
 		(layer "F.Cu")
 		(uuid "b3de619e-2524-47dc-9ede-cea0733297d3")
 		(at 92 72 -90)
-		(descr "LED SMD 1206, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "Display LED, row 3 bit 5: lit while column MOSFET Q11 is on.")
 		(tags "LED")
 		(property "Reference" "D52"
 			(at -4 0 0)
@@ -52759,7 +52785,7 @@
 		(layer "F.Cu")
 		(uuid "b4d34edf-b20f-4f21-9121-00f225746e46")
 		(at 92 84 -90)
-		(descr "LED SMD 1206, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "Display LED, row 4 bit 5: lit while column MOSFET Q11 is on.")
 		(tags "LED")
 		(property "Reference" "D68"
 			(at -4 0 0)
@@ -53034,7 +53060,7 @@
 		(layer "F.Cu")
 		(uuid "b57158bc-324d-402b-b68a-7d00bfad81c9")
 		(at 116 64 90)
-		(descr "Resistor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "470 Ohm current limit for display LED D40 (row 2 bit 1) from the switched 5 V rail.")
 		(tags "resistor")
 		(property "Reference" "R40"
 			(at 0 -1.65 90)
@@ -53257,7 +53283,7 @@
 		(layer "F.Cu")
 		(uuid "b6d2ba22-c4d9-493e-9af7-8c8468d57bad")
 		(at 56 60 -90)
-		(descr "LED SMD 1206, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "Display LED, row 2 bit 11: lit while column MOSFET Q5 is on.")
 		(tags "LED")
 		(property "Reference" "D30"
 			(at -4 0 0)
@@ -53532,7 +53558,7 @@
 		(layer "F.Cu")
 		(uuid "b6e01a17-553f-46af-8140-25e5660239eb")
 		(at 124.5 43.5 90)
-		(descr "Capacitor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "100 nF bypass on the 5 V LED supply for display column bit 0.")
 		(tags "capacitor")
 		(property "Reference" "C35"
 			(at 0 -1.68 90)
@@ -53755,7 +53781,7 @@
 		(layer "F.Cu")
 		(uuid "b70cbee8-c797-402c-8768-5d514375b239")
 		(at 188 21)
-		(descr "WDFN, 10 Pin, generated with kicad-footprint-generator ipc_noLead_generator.py")
+		(descr "USB-C PD sink controller; requests 5 V / 3 A from the source, status over I2C.")
 		(tags "WDFN NoLead")
 		(property "Reference" "U11"
 			(at -3.5 -2.7 0)
@@ -54120,7 +54146,7 @@
 		(layer "F.Cu")
 		(uuid "b866c08f-81b6-4c47-a3cd-5643941646fe")
 		(at 50 88 90)
-		(descr "Resistor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "470 Ohm current limit for display LED D61 (row 4 bit 12) from the switched 5 V rail.")
 		(tags "resistor")
 		(property "Reference" "R61"
 			(at 0 -1.65 90)
@@ -54343,7 +54369,7 @@
 		(layer "F.Cu")
 		(uuid "b8d24fd9-579e-4fc7-b9fe-5a5318d4ecca")
 		(at 56 38 -90)
-		(descr "SOT, 3 Pin, generated with kicad-footprint-generator ipc_gullwing_generator.py")
+		(descr "Low-side switch for display column bit 11: sinks that column's four LED cathodes.")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "Q5"
 			(at -4 0 0)
@@ -54636,7 +54662,7 @@
 		(layer "F.Cu")
 		(uuid "bab96910-92b1-444e-bf3f-9dc5a8013557")
 		(at 106.5 43.5 90)
-		(descr "Capacitor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "100 nF bypass on the 5 V LED supply for display column bit 3.")
 		(tags "capacitor")
 		(property "Reference" "C32"
 			(at 0 -1.68 90)
@@ -54859,7 +54885,7 @@
 		(layer "F.Cu")
 		(uuid "babed3f6-fbb5-4e73-82ca-d47f5c091da2")
 		(at 74 38 -90)
-		(descr "SOT, 3 Pin, generated with kicad-footprint-generator ipc_gullwing_generator.py")
+		(descr "Low-side switch for display column bit 8: sinks that column's four LED cathodes.")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "Q8"
 			(at -4 0 0)
@@ -55152,7 +55178,7 @@
 		(layer "F.Cu")
 		(uuid "bc245d35-e58b-49eb-a1b4-948c7263ce00")
 		(at 56 48 -90)
-		(descr "LED SMD 1206, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "Display LED, row 1 bit 11: lit while column MOSFET Q5 is on.")
 		(tags "LED")
 		(property "Reference" "D14"
 			(at -4 0 0)
@@ -55427,7 +55453,7 @@
 		(layer "F.Cu")
 		(uuid "bc3649bd-ac28-488c-a41a-30b7a8d18bef")
 		(at 56 72 -90)
-		(descr "LED SMD 1206, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "Display LED, row 3 bit 11: lit while column MOSFET Q5 is on.")
 		(tags "LED")
 		(property "Reference" "D46"
 			(at -4 0 0)
@@ -55702,7 +55728,7 @@
 		(layer "F.Cu")
 		(uuid "bc840cfb-0abd-4b0f-990a-4571d757b272")
 		(at 115 23)
-		(descr "Resistor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "10 kOhm pull-up holding LED_OE_N high, so the display stays blank until the FPGA enables it.")
 		(tags "resistor")
 		(property "Reference" "R140"
 			(at 0 -1.65 0)
@@ -55925,7 +55951,7 @@
 		(layer "F.Cu")
 		(uuid "bced37e7-52ec-420c-851f-b1660dc534b3")
 		(at 74 84 -90)
-		(descr "LED SMD 1206, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "Display LED, row 4 bit 8: lit while column MOSFET Q8 is on.")
 		(tags "LED")
 		(property "Reference" "D65"
 			(at -4 0 0)
@@ -56200,7 +56226,7 @@
 		(layer "F.Cu")
 		(uuid "bd480833-5ae4-4695-94bc-a7a25266c04d")
 		(at 193.5 19.1 90)
-		(descr "Resistor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "Sets the PD controller's 3 A current request.")
 		(tags "resistor")
 		(property "Reference" "R164"
 			(at 0 -2.8 90)
@@ -56435,7 +56461,7 @@
 		(layer "F.Cu")
 		(uuid "bd6157a4-5cfd-47df-9341-641c5dd890bd")
 		(at 32 48 -90)
-		(descr "LED SMD 1206, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "Display LED, row 1 bit 15: lit while column MOSFET Q1 is on.")
 		(tags "LED")
 		(property "Reference" "D10"
 			(at -4 0 0)
@@ -56710,6 +56736,7 @@
 		(layer "F.Cu")
 		(uuid "bd8d30c4-4923-4ad5-9914-409feea23468")
 		(at 164.7 61.9)
+		(descr "Test pad: OCXO LDO enable (ESP GPIO5).")
 		(property "Reference" "TP8"
 			(at 0 -2 0)
 			(layer "F.SilkS")
@@ -56773,7 +56800,7 @@
 		(layer "F.Cu")
 		(uuid "be1aa2a4-db21-4556-9aa9-dc8cdfb96ccf")
 		(at 107.5 26.8625)
-		(descr "Capacitor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "100 nF bypass for display buffer U4.")
 		(tags "capacitor")
 		(property "Reference" "C5"
 			(at 0 -1.68 0)
@@ -56996,7 +57023,7 @@
 		(layer "F.Cu")
 		(uuid "bed8651d-2b79-40c5-8163-a8c14bb34540")
 		(at 180 50.95 180)
-		(descr "SOT, 5 Pin, generated with kicad-footprint-generator ipc_gullwing_generator.py")
+		(descr "Schmitt buffer translating the comparator's 5 V trigger to 3.3 V for the GPS EXTINT, FPGA and ESP32.")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "U7"
 			(at 0 -2.5 0)
@@ -57304,7 +57331,7 @@
 		(layer "F.Cu")
 		(uuid "bf8fe214-9de7-4a0f-bdb9-f8a623228995")
 		(at 56 94)
-		(descr "Capacitor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "10 uF reservoir on the 5 V LED supply for display column bit 11.")
 		(tags "capacitor")
 		(property "Reference" "C44"
 			(at 0 -1.68 0)
@@ -57527,7 +57554,7 @@
 		(layer "F.Cu")
 		(uuid "bfc83513-c088-425f-86fb-980f97107c44")
 		(at 59 36.15 90)
-		(descr "Resistor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "100 kOhm gate pulldown keeping column bit 11's MOSFET Q5 off while the buffer is disabled.")
 		(tags "resistor")
 		(property "Reference" "R124"
 			(at 0 -1.65 90)
@@ -57750,7 +57777,7 @@
 		(layer "F.Cu")
 		(uuid "c07c246b-233d-45ff-b221-3fdad566d90a")
 		(at 80 94)
-		(descr "Capacitor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "10 uF reservoir on the 5 V LED supply for display column bit 7.")
 		(tags "capacitor")
 		(property "Reference" "C48"
 			(at 0 -1.68 0)
@@ -57973,7 +58000,7 @@
 		(layer "F.Cu")
 		(uuid "c2e22308-a729-4484-9408-0e40e9d78f62")
 		(at 50 38 -90)
-		(descr "SOT, 3 Pin, generated with kicad-footprint-generator ipc_gullwing_generator.py")
+		(descr "Low-side switch for display column bit 12: sinks that column's four LED cathodes.")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "Q4"
 			(at -4 0 0)
@@ -58266,7 +58293,7 @@
 		(layer "F.Cu")
 		(uuid "c4962a5d-78f6-4dab-ad3c-3e58a8091b44")
 		(at 68 64 90)
-		(descr "Resistor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "470 Ohm current limit for display LED D32 (row 2 bit 9) from the switched 5 V rail.")
 		(tags "resistor")
 		(property "Reference" "R32"
 			(at 0 -1.65 90)
@@ -58489,7 +58516,7 @@
 		(layer "F.Cu")
 		(uuid "c4a975bd-4a03-4efe-92ba-e0572e65fb91")
 		(at 191.77 86.7)
-		(descr "Resistor SMD 1206, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "10 Ohm feed from the receiver's VCC_RF to the antenna bias network.")
 		(tags "resistor")
 		(property "Reference" "R5"
 			(at -2.8 0 90)
@@ -58732,7 +58759,7 @@
 		(layer "F.Cu")
 		(uuid "c4e59b22-ad80-4323-b21b-277d237bce7b")
 		(at 86 84 -90)
-		(descr "LED SMD 1206, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "Display LED, row 4 bit 6: lit while column MOSFET Q10 is on.")
 		(tags "LED")
 		(property "Reference" "D67"
 			(at -4 0 0)
@@ -59007,7 +59034,7 @@
 		(layer "F.Cu")
 		(uuid "c5350194-f1f0-4e31-9d3d-409a944dd36f")
 		(at 98 38 -90)
-		(descr "SOT, 3 Pin, generated with kicad-footprint-generator ipc_gullwing_generator.py")
+		(descr "Low-side switch for display column bit 4: sinks that column's four LED cathodes.")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "Q12"
 			(at -4 0 0)
@@ -59300,7 +59327,7 @@
 		(layer "F.Cu")
 		(uuid "c7710647-41e4-4355-959b-e68086b58b41")
 		(at 104 76 90)
-		(descr "Resistor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "470 Ohm current limit for display LED D54 (row 3 bit 3) from the switched 5 V rail.")
 		(tags "resistor")
 		(property "Reference" "R54"
 			(at 0 -1.65 90)
@@ -59523,7 +59550,7 @@
 		(layer "F.Cu")
 		(uuid "c845539d-7145-45cb-beb1-7f7971ee09c2")
 		(at 104 48 -90)
-		(descr "LED SMD 1206, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "Display LED, row 1 bit 3: lit while column MOSFET Q13 is on.")
 		(tags "LED")
 		(property "Reference" "D22"
 			(at -4 0 0)
@@ -59798,7 +59825,7 @@
 		(layer "F.Cu")
 		(uuid "c8987664-1753-423e-8474-2a4c9f9908d6")
 		(at 44 52 90)
-		(descr "Resistor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "470 Ohm current limit for display LED D12 (row 1 bit 13) from the switched 5 V rail.")
 		(tags "resistor")
 		(property "Reference" "R12"
 			(at 0 -1.65 90)
@@ -60021,7 +60048,7 @@
 		(layer "F.Cu")
 		(uuid "ca812edb-8bf6-47c9-a1cb-bab9a7d680cd")
 		(at 155 36.8)
-		(descr "Mounting Hole 3.2mm, no annular, M3")
+		(descr "M3 clamp screw midway between J1 and J2; tensions the module onto both connectors.")
 		(tags "mounting hole 3.2mm no annular m3")
 		(property "Reference" "H1"
 			(at 0 -4 0)
@@ -60166,7 +60193,7 @@
 		(layer "F.Cu")
 		(uuid "ca98eb78-d9fa-4ecd-94b6-7d8c77313aa2")
 		(at 65 36.15 90)
-		(descr "Resistor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "100 kOhm gate pulldown keeping column bit 10's MOSFET Q6 off while the buffer is disabled.")
 		(tags "resistor")
 		(property "Reference" "R125"
 			(at 0 -1.65 90)
@@ -60389,7 +60416,7 @@
 		(layer "F.Cu")
 		(uuid "cc2ad13c-6903-43d3-93c1-f47f8352442d")
 		(at 98 33 -90)
-		(descr "Resistor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "100 Ohm gate resistor between the buffer and column bit 4's MOSFET Q12.")
 		(tags "resistor")
 		(property "Reference" "R111"
 			(at 0 -1.65 270)
@@ -60612,7 +60639,7 @@
 		(layer "F.Cu")
 		(uuid "cc94bb93-3dc0-4a67-9b64-25f6fd7eaaec")
 		(at 80 48 -90)
-		(descr "LED SMD 1206, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "Display LED, row 1 bit 7: lit while column MOSFET Q9 is on.")
 		(tags "LED")
 		(property "Reference" "D18"
 			(at -4 0 0)
@@ -60887,7 +60914,7 @@
 		(layer "F.Cu")
 		(uuid "cd010a62-f394-4f87-9711-b7e6b58d0e74")
 		(at 173 34)
-		(descr "DFN, 8 Pin, generated with kicad-footprint-generator ipc_noLead_generator.py")
+		(descr "eFuse load switch creating the switched 5 V rail, enabled by ESP GPIO4; sets the current limit and reports load current.")
 		(tags "DFN NoLead")
 		(property "Reference" "U14"
 			(at 0 5 0)
@@ -61215,7 +61242,7 @@
 		(layer "F.Cu")
 		(uuid "cd6a2e64-906a-45ac-8650-3601a52b2215")
 		(at 76.5 43.5 90)
-		(descr "Capacitor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "100 nF bypass on the 5 V LED supply for display column bit 8.")
 		(tags "capacitor")
 		(property "Reference" "C27"
 			(at 0 -1.68 90)
@@ -61438,7 +61465,7 @@
 		(layer "F.Cu")
 		(uuid "ce2eb009-e16a-4ca5-b65c-dc2352365529")
 		(at 62 88 90)
-		(descr "Resistor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "470 Ohm current limit for display LED D63 (row 4 bit 10) from the switched 5 V rail.")
 		(tags "resistor")
 		(property "Reference" "R63"
 			(at 0 -1.65 90)
@@ -61661,7 +61688,7 @@
 		(layer "F.Cu")
 		(uuid "cec58caa-d455-4030-a190-e0eb5e4566cb")
 		(at 176.5 93.4 90)
-		(descr "Resistor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "33 Ohm series resistor from ESP32 GPIO40 to the GPS receiver's RESET_N.")
 		(tags "resistor")
 		(property "Reference" "R180"
 			(at 0 -1.65 90)
@@ -61884,7 +61911,7 @@
 		(layer "F.Cu")
 		(uuid "cf153164-40d5-4101-8638-88fe17f80dc2")
 		(at 104 38 -90)
-		(descr "SOT, 3 Pin, generated with kicad-footprint-generator ipc_gullwing_generator.py")
+		(descr "Low-side switch for display column bit 3: sinks that column's four LED cathodes.")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "Q13"
 			(at -4 0 0)
@@ -62177,7 +62204,7 @@
 		(layer "F.Cu")
 		(uuid "cf651f2c-65ad-4880-9114-ad7c893e522b")
 		(at 122 64 90)
-		(descr "Resistor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "470 Ohm current limit for display LED D41 (row 2 bit 0) from the switched 5 V rail.")
 		(tags "resistor")
 		(property "Reference" "R41"
 			(at 0 -1.65 90)
@@ -62400,7 +62427,7 @@
 		(layer "F.Cu")
 		(uuid "cfc6854f-654c-4530-9b94-8a26710d02ea")
 		(at 176 23)
-		(descr "SOT, 5 Pin, generated with kicad-footprint-generator ipc_gullwing_generator.py")
+		(descr "Always-on 3.3 V LDO (+3V3_CC) for the PD controller's I2C pull-ups.")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "U12"
 			(at 0 2.4 0)
@@ -62710,7 +62737,7 @@
 		(layer "F.Cu")
 		(uuid "d0b1e7cc-ff80-49a2-b707-bfe25c61fe94")
 		(at 38 60 -90)
-		(descr "LED SMD 1206, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "Display LED, row 2 bit 14: lit while column MOSFET Q2 is on.")
 		(tags "LED")
 		(property "Reference" "D27"
 			(at -4 0 0)
@@ -62985,7 +63012,7 @@
 		(layer "F.Cu")
 		(uuid "d1b8cc09-1d77-423d-b444-418ede54094d")
 		(at 92 33 -90)
-		(descr "Resistor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "100 Ohm gate resistor between the buffer and column bit 5's MOSFET Q11.")
 		(tags "resistor")
 		(property "Reference" "R110"
 			(at 0 -1.65 270)
@@ -63208,7 +63235,7 @@
 		(layer "F.Cu")
 		(uuid "d27aa39e-34f9-4c4d-938c-3240298d3275")
 		(at 145.73 71 90)
-		(descr "Resistor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "4.7 kOhm I2C pull-up on the OLED's SCL (ESP GPIO2).")
 		(tags "resistor")
 		(property "Reference" "R174"
 			(at 0 -1.65 90)
@@ -63431,7 +63458,7 @@
 		(layer "F.Cu")
 		(uuid "d38d9cf4-542e-4a2b-ac03-fc4dbe532ba3")
 		(at 82.5 43.5 90)
-		(descr "Capacitor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "100 nF bypass on the 5 V LED supply for display column bit 7.")
 		(tags "capacitor")
 		(property "Reference" "C28"
 			(at 0 -1.68 90)
@@ -63654,7 +63681,7 @@
 		(layer "F.Cu")
 		(uuid "d3db02e7-fd77-42a2-b46c-dbbc10f9e3d2")
 		(at 182.5 47.5 180)
-		(descr "Capacitor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "100 nF bypass for the trigger comparator U9.")
 		(tags "capacitor")
 		(property "Reference" "C14"
 			(at 0 2.8 0)
@@ -63877,7 +63904,7 @@
 		(layer "F.Cu")
 		(uuid "d3e16de4-62b0-42b2-8f67-298e23f8ebcc")
 		(at 122 88 90)
-		(descr "Resistor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "470 Ohm current limit for display LED D73 (row 4 bit 0) from the switched 5 V rail.")
 		(tags "resistor")
 		(property "Reference" "R73"
 			(at 0 -1.65 90)
@@ -64100,7 +64127,7 @@
 		(layer "F.Cu")
 		(uuid "d4ec516c-7960-4c6c-8137-12b1b617e412")
 		(at 110 88 90)
-		(descr "Resistor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "470 Ohm current limit for display LED D71 (row 4 bit 2) from the switched 5 V rail.")
 		(tags "resistor")
 		(property "Reference" "R71"
 			(at 0 -1.65 90)
@@ -64323,7 +64350,7 @@
 		(layer "F.Cu")
 		(uuid "d4f17bdd-67b8-49d1-b6f0-94dab32dab60")
 		(at 116 48 -90)
-		(descr "LED SMD 1206, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "Display LED, row 1 bit 1: lit while column MOSFET Q15 is on.")
 		(tags "LED")
 		(property "Reference" "D24"
 			(at -4 0 0)
@@ -64598,7 +64625,7 @@
 		(layer "F.Cu")
 		(uuid "d73b5e25-cb6e-4c9c-8a5c-92303219b67a")
 		(at 68 60 -90)
-		(descr "LED SMD 1206, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "Display LED, row 2 bit 9: lit while column MOSFET Q7 is on.")
 		(tags "LED")
 		(property "Reference" "D32"
 			(at -4 0 0)
@@ -64873,7 +64900,7 @@
 		(layer "F.Cu")
 		(uuid "d81c8f20-7b55-4ba6-b900-76a707ad6862")
 		(at 174 79.8 180)
-		(descr "Resistor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "100 kOhm pulldown keeping the GPS LDO U5 off until ESP GPIO6 enables it.")
 		(tags "resistor")
 		(property "Reference" "R177"
 			(at 0 -1.65 180)
@@ -65096,7 +65123,7 @@
 		(layer "F.Cu")
 		(uuid "d8e3ccf8-91ab-443f-afd2-e12338f48ef8")
 		(at 64.5 43.5 90)
-		(descr "Capacitor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "100 nF bypass on the 5 V LED supply for display column bit 10.")
 		(tags "capacitor")
 		(property "Reference" "C25"
 			(at 0 -1.68 90)
@@ -65319,7 +65346,7 @@
 		(layer "F.Cu")
 		(uuid "d9eba60b-d6a8-40e2-aa28-d3cffb100f04")
 		(at 92 88 90)
-		(descr "Resistor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "470 Ohm current limit for display LED D68 (row 4 bit 5) from the switched 5 V rail.")
 		(tags "resistor")
 		(property "Reference" "R68"
 			(at 0 -1.65 90)
@@ -65542,7 +65569,7 @@
 		(layer "F.Cu")
 		(uuid "dd0e094c-51a1-4a3e-ac95-79c9dd98e563")
 		(at 197.46 50)
-		(descr "http://www.amphenolrf.com/132289.html")
+		(descr "SMA trigger input; 5 V tolerant, detected at a 2.5 V threshold.")
 		(tags "SMA")
 		(property "Reference" "J6"
 			(at -4.46 -9 90)
@@ -65923,7 +65950,7 @@
 		(layer "F.Cu")
 		(uuid "ddf8322e-1bc5-48e7-b76f-0d02795d5eb4")
 		(at 50 76 90)
-		(descr "Resistor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "470 Ohm current limit for display LED D45 (row 3 bit 12) from the switched 5 V rail.")
 		(tags "resistor")
 		(property "Reference" "R45"
 			(at 0 -1.65 90)
@@ -66146,7 +66173,7 @@
 		(layer "F.Cu")
 		(uuid "de2baba8-a42c-4dc8-a3ef-b7ad4bc9f9df")
 		(at 56 76 90)
-		(descr "Resistor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "470 Ohm current limit for display LED D46 (row 3 bit 11) from the switched 5 V rail.")
 		(tags "resistor")
 		(property "Reference" "R46"
 			(at 0 -1.65 90)
@@ -66369,7 +66396,7 @@
 		(layer "F.Cu")
 		(uuid "de37c6c8-f6ba-4bdf-8105-d3333ba2f3b8")
 		(at 95 36.15 90)
-		(descr "Resistor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "100 kOhm gate pulldown keeping column bit 5's MOSFET Q11 off while the buffer is disabled.")
 		(tags "resistor")
 		(property "Reference" "R130"
 			(at 0 -1.65 90)
@@ -66592,7 +66619,7 @@
 		(layer "F.Cu")
 		(uuid "dea28a3c-2034-41c3-ace1-87134e5f826d")
 		(at 50 84 -90)
-		(descr "LED SMD 1206, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "Display LED, row 4 bit 12: lit while column MOSFET Q4 is on.")
 		(tags "LED")
 		(property "Reference" "D61"
 			(at -4 0 0)
@@ -66867,7 +66894,7 @@
 		(layer "F.Cu")
 		(uuid "dee06cea-2c9b-425d-ace2-a8103ee09681")
 		(at 38 76 90)
-		(descr "Resistor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "470 Ohm current limit for display LED D43 (row 3 bit 14) from the switched 5 V rail.")
 		(tags "resistor")
 		(property "Reference" "R43"
 			(at 0 -1.65 90)
@@ -67090,7 +67117,7 @@
 		(layer "F.Cu")
 		(uuid "e1017528-8a58-4b13-8283-0e2d64dad8cd")
 		(at 46.5 43.5 90)
-		(descr "Capacitor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "100 nF bypass on the 5 V LED supply for display column bit 13.")
 		(tags "capacitor")
 		(property "Reference" "C22"
 			(at 0 -1.68 90)
@@ -67313,7 +67340,7 @@
 		(layer "F.Cu")
 		(uuid "e1049951-a83c-4f11-a98f-34de54d3ee37")
 		(at 32 72 -90)
-		(descr "LED SMD 1206, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "Display LED, row 3 bit 15: lit while column MOSFET Q1 is on.")
 		(tags "LED")
 		(property "Reference" "D42"
 			(at -4 0 0)
@@ -67588,7 +67615,7 @@
 		(layer "F.Cu")
 		(uuid "e12d0a8f-accd-47b5-95cf-86779b27d170")
 		(at 86 88 90)
-		(descr "Resistor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "470 Ohm current limit for display LED D67 (row 4 bit 6) from the switched 5 V rail.")
 		(tags "resistor")
 		(property "Reference" "R67"
 			(at 0 -1.65 90)
@@ -67811,7 +67838,7 @@
 		(layer "F.Cu")
 		(uuid "e20d50fc-1fb5-44ad-b931-9098a4b1c07a")
 		(at 80 76 90)
-		(descr "Resistor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "470 Ohm current limit for display LED D50 (row 3 bit 7) from the switched 5 V rail.")
 		(tags "resistor")
 		(property "Reference" "R50"
 			(at 0 -1.65 90)
@@ -68034,7 +68061,7 @@
 		(layer "F.Cu")
 		(uuid "e33ae809-85da-4c37-8db1-5e8a413f5129")
 		(at 44 72 -90)
-		(descr "LED SMD 1206, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "Display LED, row 3 bit 13: lit while column MOSFET Q3 is on.")
 		(tags "LED")
 		(property "Reference" "D44"
 			(at -4 0 0)
@@ -68309,6 +68336,7 @@
 		(layer "F.Cu")
 		(uuid "e346c10f-322a-4fe7-9370-ebfb540cdd90")
 		(at 146.25 57.5)
+		(descr "Test pad: 3.3 V OCXO rail.")
 		(property "Reference" "TP6"
 			(at 0 -2 0)
 			(layer "F.SilkS")
@@ -68372,7 +68400,7 @@
 		(layer "F.Cu")
 		(uuid "e3495e22-52ca-400c-8a13-7df7b5dbdaea")
 		(at 98 76 90)
-		(descr "Resistor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "470 Ohm current limit for display LED D53 (row 3 bit 4) from the switched 5 V rail.")
 		(tags "resistor")
 		(property "Reference" "R53"
 			(at 0 -1.65 90)
@@ -68595,7 +68623,7 @@
 		(layer "F.Cu")
 		(uuid "e4fcdf31-2b08-4a46-a301-a7167f205cee")
 		(at 180.2 22.05)
-		(descr "Capacitor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "4.7 uF output capacitor for U12 (+3V3_CC).")
 		(tags "capacitor")
 		(property "Reference" "C66"
 			(at 0 -2.8 0)
@@ -68818,7 +68846,7 @@
 		(layer "F.Cu")
 		(uuid "e538c3a4-0fda-4627-9bfc-be78300b94ee")
 		(at 122 33 -90)
-		(descr "Resistor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "100 Ohm gate resistor between the buffer and column bit 0's MOSFET Q16.")
 		(tags "resistor")
 		(property "Reference" "R115"
 			(at 0 -1.65 270)
@@ -69041,6 +69069,7 @@
 		(layer "F.Cu")
 		(uuid "e561aef4-446a-4cb6-9e08-3bfd8c4be81f")
 		(at 189.5 77.3375)
+		(descr "Test pad: receiver VCC_RF antenna supply.")
 		(property "Reference" "TP28"
 			(at 0 -2 0)
 			(layer "F.SilkS")
@@ -69104,7 +69133,7 @@
 		(layer "F.Cu")
 		(uuid "e648ca87-7736-4bbf-ad78-1673c22d3a70")
 		(at 183 42.8 180)
-		(descr "Resistor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "2.2 kOhm current limit for the 5 V power LED D1.")
 		(tags "resistor")
 		(property "Reference" "R3"
 			(at 0 2.8 0)
@@ -69327,7 +69356,7 @@
 		(layer "F.Cu")
 		(uuid "e6561497-8dd9-4bc0-ae49-b8b100adc225")
 		(at 104 33 -90)
-		(descr "Resistor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "100 Ohm gate resistor between the buffer and column bit 3's MOSFET Q13.")
 		(tags "resistor")
 		(property "Reference" "R112"
 			(at 0 -1.65 270)
@@ -69550,6 +69579,7 @@
 		(layer "F.Cu")
 		(uuid "e691a265-a1bd-4484-80f7-086c042e6635")
 		(at 146.25 65.3875)
+		(descr "Test pad: OLED I2C SDA (ESP GPIO1).")
 		(property "Reference" "TP64"
 			(at 0 -2 0)
 			(layer "F.SilkS")
@@ -69613,7 +69643,7 @@
 		(layer "F.Cu")
 		(uuid "e6f4f0a7-3b9c-453d-bc42-882d4fd02194")
 		(at 193.2325 89.6 90)
-		(descr "Inductor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "27 nH bias choke: feeds antenna DC onto the RF line while blocking RF from the supply.")
 		(tags "inductor")
 		(property "Reference" "L1"
 			(at 0 -1.55 90)
@@ -69825,7 +69855,7 @@
 		(layer "F.Cu")
 		(uuid "e73051b7-7f44-4683-b10b-cadb99791557")
 		(at 86 38 -90)
-		(descr "SOT, 3 Pin, generated with kicad-footprint-generator ipc_gullwing_generator.py")
+		(descr "Low-side switch for display column bit 6: sinks that column's four LED cathodes.")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "Q10"
 			(at -4 0 0)
@@ -70118,7 +70148,7 @@
 		(layer "F.Cu")
 		(uuid "e898b0cd-ba0a-43d6-9c42-b0807f8e43db")
 		(at 80 84 -90)
-		(descr "LED SMD 1206, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "Display LED, row 4 bit 7: lit while column MOSFET Q9 is on.")
 		(tags "LED")
 		(property "Reference" "D66"
 			(at -4 0 0)
@@ -70393,7 +70423,7 @@
 		(layer "F.Cu")
 		(uuid "ebaa5e48-38d4-4adc-885a-a72564fbc6ea")
 		(at 56 33 -90)
-		(descr "Resistor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "100 Ohm gate resistor between the buffer and column bit 11's MOSFET Q5.")
 		(tags "resistor")
 		(property "Reference" "R104"
 			(at 0 -1.65 270)
@@ -70616,7 +70646,7 @@
 		(layer "F.Cu")
 		(uuid "ec16394d-3b73-499a-82cb-c7c2e99f53a7")
 		(at 98 88 90)
-		(descr "Resistor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "470 Ohm current limit for display LED D69 (row 4 bit 4) from the switched 5 V rail.")
 		(tags "resistor")
 		(property "Reference" "R69"
 			(at 0 -1.65 90)
@@ -70839,7 +70869,7 @@
 		(layer "F.Cu")
 		(uuid "ed0de291-514d-46f6-a12c-6898087a8bcf")
 		(at 62 60 -90)
-		(descr "LED SMD 1206, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "Display LED, row 2 bit 10: lit while column MOSFET Q6 is on.")
 		(tags "LED")
 		(property "Reference" "D31"
 			(at -4 0 0)
@@ -71114,7 +71144,7 @@
 		(layer "F.Cu")
 		(uuid "edf0b150-4eff-4df2-b38b-738a09741549")
 		(at 145.3 62.4 180)
-		(descr "Capacitor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "10 uF local reservoir at the OCXO Y1.")
 		(tags "capacitor")
 		(property "Reference" "C74"
 			(at 0 -1.68 180)
@@ -71337,7 +71367,7 @@
 		(layer "F.Cu")
 		(uuid "ee2cb0cb-78c5-4dd1-81fd-3c55ca649ba1")
 		(at 182.5 26)
-		(descr "Resistor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "10 kOhm I2C pull-up on the PD controller's SDA.")
 		(tags "resistor")
 		(property "Reference" "R167"
 			(at 0 -2.8 0)
@@ -71560,6 +71590,7 @@
 		(layer "F.Cu")
 		(uuid "ef55e436-d1f4-4659-a877-8ea4ecac220c")
 		(at 193 21.5)
+		(descr "Test pad: PD controller I2C SCL.")
 		(property "Reference" "TP11"
 			(at 0 -2 0)
 			(layer "F.SilkS")
@@ -71624,6 +71655,7 @@
 		(layer "F.Cu")
 		(uuid "f04b5ab4-a832-4be5-848e-5512db2ed085")
 		(at 58.575 21.1375)
+		(descr "Test pad: display output enable LED_OE_N.")
 		(property "Reference" "TP30"
 			(at 0 -2 0)
 			(layer "F.SilkS")
@@ -71687,7 +71719,7 @@
 		(layer "F.Cu")
 		(uuid "f0778429-8774-4a02-8e9b-cda49901dbc6")
 		(at 50 94)
-		(descr "Capacitor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "10 uF reservoir on the 5 V LED supply for display column bit 12.")
 		(tags "capacitor")
 		(property "Reference" "C43"
 			(at 0 -1.68 0)
@@ -71910,6 +71942,7 @@
 		(layer "F.Cu")
 		(uuid "f0bf352b-ed3b-48aa-b91a-14cf60e6cfd9")
 		(at 170.2458 77.6333)
+		(descr "Test pad: GPS LDO enable (ESP GPIO6).")
 		(property "Reference" "TP9"
 			(at 0 -2 0)
 			(layer "F.SilkS")
@@ -71973,7 +72006,7 @@
 		(layer "F.Cu")
 		(uuid "f0c21c5d-cbc2-4451-8ba7-9bc04ac400f7")
 		(at 162 59.9)
-		(descr "Resistor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "33 Ohm series termination on the 10 MHz OCXO clock to the FPGA.")
 		(tags "resistor")
 		(property "Reference" "R173"
 			(at 0 -1.65 0)
@@ -72196,7 +72229,7 @@
 		(layer "F.Cu")
 		(uuid "f106a387-259c-4a56-a65e-25d9c083db10")
 		(at 104 72 -90)
-		(descr "LED SMD 1206, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "Display LED, row 3 bit 3: lit while column MOSFET Q13 is on.")
 		(tags "LED")
 		(property "Reference" "D54"
 			(at -4 0 0)
@@ -72471,7 +72504,7 @@
 		(layer "F.Cu")
 		(uuid "f10c6ad8-4bae-4b73-be5c-b1ebf20508f9")
 		(at 44 84 -90)
-		(descr "LED SMD 1206, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "Display LED, row 4 bit 13: lit while column MOSFET Q3 is on.")
 		(tags "LED")
 		(property "Reference" "D60"
 			(at -4 0 0)
@@ -72746,7 +72779,7 @@
 		(layer "F.Cu")
 		(uuid "f1348cf6-6f53-4654-a19e-a21e55d87b38")
 		(at 80 52 90)
-		(descr "Resistor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "470 Ohm current limit for display LED D18 (row 1 bit 7) from the switched 5 V rail.")
 		(tags "resistor")
 		(property "Reference" "R18"
 			(at 0 -1.65 90)
@@ -72969,7 +73002,7 @@
 		(layer "F.Cu")
 		(uuid "f24aa9d6-84b0-4119-86a5-3a649d5edb6d")
 		(at 173 37.5)
-		(descr "Resistor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "Sets the eFuse current limit (about 2.5 A) and scales its current-monitor output.")
 		(tags "resistor")
 		(property "Reference" "R170"
 			(at 0 -2.8 0)
@@ -73192,7 +73225,7 @@
 		(layer "F.Cu")
 		(uuid "f26ef0d8-6f1f-4b7a-ab1c-43b1eefb7330")
 		(at 77 36.15 90)
-		(descr "Resistor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "100 kOhm gate pulldown keeping column bit 8's MOSFET Q8 off while the buffer is disabled.")
 		(tags "resistor")
 		(property "Reference" "R127"
 			(at 0 -1.65 90)
@@ -73415,7 +73448,7 @@
 		(layer "F.Cu")
 		(uuid "f3b7ea33-68ac-4617-82b7-61b77b2bb3cd")
 		(at 38 38 -90)
-		(descr "SOT, 3 Pin, generated with kicad-footprint-generator ipc_gullwing_generator.py")
+		(descr "Low-side switch for display column bit 14: sinks that column's four LED cathodes.")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "Q2"
 			(at -4 0 0)
@@ -73708,7 +73741,7 @@
 		(layer "F.Cu")
 		(uuid "f5c03914-8123-48c6-9a7f-ba30569eeea1")
 		(at 193.2325 83.79 90)
-		(descr "Capacitor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "10 nF RF bypass on the antenna bias node; keeps RF out of the DC feed.")
 		(tags "capacitor")
 		(property "Reference" "C10"
 			(at 0 -1.68 90)
@@ -73931,7 +73964,7 @@
 		(layer "F.Cu")
 		(uuid "f60ee79e-ef9e-4e2f-b902-ca9ea2711ea0")
 		(at 98 94)
-		(descr "Capacitor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "10 uF reservoir on the 5 V LED supply for display column bit 4.")
 		(tags "capacitor")
 		(property "Reference" "C51"
 			(at 0 -1.68 0)
@@ -74154,7 +74187,7 @@
 		(layer "F.Cu")
 		(uuid "f92e8a2f-c636-401a-b5aa-4888f13fc9fb")
 		(at 44 94)
-		(descr "Capacitor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "10 uF reservoir on the 5 V LED supply for display column bit 13.")
 		(tags "capacitor")
 		(property "Reference" "C42"
 			(at 0 -1.68 0)
@@ -74377,7 +74410,7 @@
 		(layer "F.Cu")
 		(uuid "fa713feb-4d5f-4d16-aef6-5cec554f107d")
 		(at 110 52 90)
-		(descr "Resistor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "470 Ohm current limit for display LED D23 (row 1 bit 2) from the switched 5 V rail.")
 		(tags "resistor")
 		(property "Reference" "R23"
 			(at 0 -1.65 90)
@@ -74600,7 +74633,7 @@
 		(layer "F.Cu")
 		(uuid "fa809e4c-c3a1-47cc-8608-272c19e41e06")
 		(at 56 52 90)
-		(descr "Resistor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "470 Ohm current limit for display LED D14 (row 1 bit 11) from the switched 5 V rail.")
 		(tags "resistor")
 		(property "Reference" "R14"
 			(at 0 -1.65 90)
@@ -74823,7 +74856,7 @@
 		(layer "F.Cu")
 		(uuid "fcc6612d-a5e1-48f7-b321-57cc190285ac")
 		(at 119 36.15 90)
-		(descr "Resistor SMD 0805, square end terminal, IPC_7351 nominal, generated with kicad-footprint-generator")
+		(descr "100 kOhm gate pulldown keeping column bit 1's MOSFET Q15 off while the buffer is disabled.")
 		(tags "resistor")
 		(property "Reference" "R134"
 			(at 0 -1.65 90)
