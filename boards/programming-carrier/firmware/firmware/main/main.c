@@ -6,6 +6,7 @@
 
 #include "fixture.h"
 #include "fpga_link.h"
+#include "wifi_test.h"
 
 static const char *TAG = "main";
 
@@ -43,6 +44,7 @@ void app_main(void)
     ESP_ERROR_CHECK(esp_console_new_repl_usb_cdc(&cdc_config, &repl_config, &repl));
     esp_console_register_help_command();
     fixture_register_commands();
+    wifi_test_register_commands();
 
     printf("\n%s idle: eligible outputs low, RGB sinks released.\n"
            "Confirm the module is on programming carrier v1, then:\n"

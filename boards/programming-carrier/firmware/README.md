@@ -67,6 +67,7 @@ D35 (GPIO45) and D36 (GPIO46) are not in the sequence. D36 lights while SW3 is h
 | `allon [ms]` | Opt-in all-regular-on, ≤10 s; watch USB current and the LDO |
 | `gpio45 [ms]` | Opt-in strap test, ≤3 s HIGH then LOW |
 | `input46` | GPIO46/SW3 edges are always logged as `INPUT` lines |
+| `wifi scan`, `wifi connect <ssid> [pass]`, `wifi off` | On-demand Wi-Fi check (off at boot); module v1 needs an antenna on U.FL J3 |
 | `mark ok\|bad [note]` | Record an optical observation against the current step |
 
 `f` is an alias for `fixture`. The log keeps three kinds of evidence separate:
