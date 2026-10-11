@@ -888,8 +888,8 @@
     "footprint": "Calibrator:R_0805_2012Metric"
   },
   "R4": {
-    "x_mm": 164.0,
-    "y_mm": 18.0,
+    "x_mm": 176.7755,
+    "y_mm": 16.5,
     "rotation_deg": 0.0,
     "footprint": "Calibrator:R_0805_2012Metric"
   },
