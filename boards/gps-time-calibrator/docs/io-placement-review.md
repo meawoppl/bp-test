@@ -6,9 +6,12 @@ construction/routing scripts in `tmp/` are historical and must not be replayed.
 - USB protection U1 stays immediately behind J3. Always-on LDO U2/C2/C3
   sits directly above the PD sink U11 (2026-10-11): VBUS reaches it through one
   short B.Cu hop under the CC lanes, and its 3.3 V output runs on F.Cu straight
-  into the R167/R168 pull-up rail. TP3 sits on the top 3.3 V strip. R176/C78 now sit beside
-  U14/R170, rather than beneath the daughterboard. The unfiltered eFuse
-  current-mirror route is shorter; the longer ADC run is after the RC filter.
+  into the R167/R168 pull-up rail. TP3 sits on the top 3.3 V strip. The eFuse U14 sits
+  directly left of U1 (2026-10-11): VBUS arrives on F.Cu from TP1 through its
+  input cap C69, and the four 10 uF output caps C60-C63 form a 2x2 block whose
+  inner pads share one VIN_5V copper island with two vias to the In2 plane.
+  R170, R176/C78 and TP12 sit in a column just below it, so the unfiltered ILM
+  route is a few millimetres long; the longer ADC run is after the RC filter.
 - U9 and U7 now share a horizontal input-channel axis. R8 feeds U9 directly;
   threshold divider/filter and bypass parts sit above/below the lane. R80/R81
   are beside U7 instead of near the bottom display, removing the long detour.

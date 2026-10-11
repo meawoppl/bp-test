@@ -1,5 +1,5 @@
 {
-  "pcb_sha256": "54017c665c1ab3580fe895586724a10a7f66721773df1b9befd6fd1c859c1f1a",
+  "pcb_sha256": "a01c5c61289caef68187e54157986b10843ee4dbff8c4692d51ba3c08171eae5",
   "count": 26,
   "findings": [],
   "probe_points": [
@@ -118,11 +118,11 @@
       "label": "I_MON",
       "net": "ESP_GPIO3",
       "position_mm": [
-        183.3,
-        44.362
+        181.5,
+        39.2
       ],
       "diameter_mm": 1.0,
-      "nearest_body_mm": 0.141
+      "nearest_body_mm": 0.387
     },
     {
       "ref": "TP13",

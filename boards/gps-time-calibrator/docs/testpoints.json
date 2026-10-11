@@ -22,7 +22,7 @@
         188.1,
         27.0
       ],
-      "branch_mm": 2.828
+      "branch_mm": 0.0
     },
     {
       "label": "5V_LOAD",
@@ -225,14 +225,14 @@
       "target": null,
       "ref": "TP12",
       "position": [
-        183.3,
-        44.362
+        181.5,
+        39.2
       ],
       "label_position": [
-        186.3,
-        44.362
+        184.6,
+        39.2
       ],
-      "branch_mm": 3.536
+      "branch_mm": 1.888
     },
     {
       "label": "PPS_SRC",
