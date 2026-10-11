@@ -4,7 +4,7 @@ U11 now HUSB238_002DD/C7471904. Hardware VSET grounded: 5 V only. R164 22.6k pro
 
 C64 upgraded to 1uF/50V X7R 0805. R165/R166 and the obsolete VBUS detection chain removed. Package pin mapping checked against the Hynetek datasheet; local footprint based on KiCad's DFN 3x3mm, 0.5mm pitch, 1.8x2.5mm EP. 3D envelope is drawing-derived, not vendor CAD.
 
-CC1 was completely removed and rerouted using short front escapes plus a straight/45-degree back-layer route, with two vias total. Antenna-bias R5/C10/L1 were aligned into vertical runs; the feed from U6 has been moved outward from the other pads. The main GNSS RF feed remains unchanged.
+CC1 and CC2 now escape east under the J3 receptacle and run on F.Cu only, around the connector to U11, with no vias. To keep the two lanes from crossing, they land swapped at U11: J3 A5 (CC1 net) goes to U11 pin 5 (CC2) and J3 B5 (CC2 net) goes to pin 4 (CC1). The HUSB238 detects orientation from whichever CC pin sees Rp, so the swap is electrically transparent. Antenna-bias R5/C10/L1 were aligned into vertical runs; the feed from U6 has been moved outward from the other pads. The main GNSS RF feed remains unchanged.
 
 29 visible exterior pin-1 silk dots cover all 13 ICs and 16 MOSFETs. Board-level graphics deliberately avoid changing shared library geometry. Marker coordinates and pad-1 associations are recorded in pin1-markers.json. Passives have no new orientation dots.
 
