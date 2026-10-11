@@ -130,7 +130,6 @@ FIXED = {
     "TP30": "Test pad: display output enable LED_OE_N.",
     "TP63": "Test pad: OLED I2C SCL (ESP GPIO2).",
     "TP64": "Test pad: OLED I2C SDA (ESP GPIO1).",
-    "TP65": "Test pad: ESP32 GPIO0 boot strap.",
 }
 
 

@@ -1,10 +1,10 @@
 # Bring-up test points
 
-27 labeled bare-copper signal/power probe pads. Dedicated ground pads were removed at the user’s request; use the grounded SMA connector shields. The 16 per-channel LED gate/drain pairs were removed at the user’s request; use the existing large LED, resistor and MOSFET pads. TP31–TP62 are deliberately unused reference numbers.
+26 labeled bare-copper signal/power probe pads. Dedicated ground pads were removed at the user’s request; use the grounded SMA connector shields. The 16 per-channel LED gate/drain pairs were removed at the user’s request; use the existing large LED, resistor and MOSFET pads. TP31–TP62 are deliberately unused reference numbers.
 
 All pads are on the component side, outside the assembled module, OLED, mounting hardware and other component envelopes. Functional labels are 0.9 mm silkscreen text. `testpoint-audit.json` records native pad and label access checks; native DRC separately verifies electrical and silkscreen/mask clearance.
 
-All 27 pads are uniformly 1 mm in diameter. These are bare probe pads, not fitted wire loops. TP6, TP64 and TP63 form a vertical column at X=146.25 mm beside the OCXO.
+All 26 pads are uniformly 1 mm in diameter. These are bare probe pads, not fitted wire loops. TP6, TP64 and TP63 form a vertical column at X=146.25 mm beside the OCXO.
 
 No paste apertures, purchased parts, BOM entries or placement entries. The bare pads connect solidly to same-net copper zones; soldering thermal reliefs are unnecessary for these unpopulated features.
 
@@ -14,7 +14,7 @@ No paste apertures, purchased parts, BOM entries or placement entries. The bare 
 - `PPS_SRC` is on the common GPS PPS net near its indicator branch; `PPS_FPGA` and `PPS_ESP` are after their respective source resistors. These are electrical access points, not calibrated timing-reference planes. Include probing and propagation delay in timing characterization.
 - `GPS_TX` is GNSS TX → ESP RX; `GPS_RX` is GNSS RX ← ESP TX.
 - `I_MON` is the filtered ADC node after R176. Do not drive it. The eFuse programming/mirror node itself has no added testpoint.
-- `BOOT_N` may be grounded for recovery during reset/power-up; it is not an added reset circuit.
+- GPIO0 (`ESP_GPIO0_BOOT`) has no probe pad; its 100k pull-up R4 sits beside J1 pin 12, and its J1-side pad (pad 1, nearer J1) can be grounded for recovery during reset/power-up. Never ground pad 2; it is +3V3_LOGIC.
 - The antenna bias network (`ANT_PWR`, `ANT_BIAS`) has no probe pads; probe R5 and C10 directly. No probe pad was added to GNSS_RF or USB D+/D−.
 - The SMA connectors already expose the external trigger input and output.
 
@@ -48,7 +48,6 @@ No paste apertures, purchased parts, BOM entries or placement entries. The bare 
 | TP30 | LED_OE_N | `FPGA_IOT_44B` | 1 | 58.575 / 21.137 |
 | TP63 | OLED_SCL | `ESP_GPIO2` | 1 | 146.250 / 68.088 |
 | TP64 | OLED_SDA | `ESP_GPIO1` | 1 | 146.250 / 65.388 |
-| TP65 | BOOT_N | `ESP_GPIO0_BOOT` | 1 | 166.621 / 14.000 |
 
 ## Validation
 

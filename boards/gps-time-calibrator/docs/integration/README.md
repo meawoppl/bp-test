@@ -67,7 +67,7 @@ GPIO numbers are ESP32-S2 GPIO numbers, not QFN pad numbers.
 | 43 | J1.26 | ESP TX → U6.3 GPS RX | High impedance until GPS powered |
 | 44 | J1.27 | ESP RX ← U6.2 GPS TX | Input, no pull |
 | 19 / 20 | J1.8 / J1.7 | Native USB D− / D+ | USB peripheral |
-| 0 | J1.12 | Boot strap, TP65 | Leave high in normal run |
+| 0 | J1.12 | Boot strap, 100k pull-up R4 | Leave high in normal run |
 
 Use independent I²C controllers/bus handles: OLED on GPIO1/2, PD on GPIO7/8.
 Both start at **100 kHz**. Addresses are 7-bit: PD **0x08**, OLED **0x3C**

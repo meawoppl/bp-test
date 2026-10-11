@@ -576,27 +576,6 @@
         65.3875
       ],
       "branch_mm": 7.071
-    },
-    {
-      "label": "BOOT_N",
-      "net": "ESP_GPIO0_BOOT",
-      "source": [
-        "R4",
-        "1"
-      ],
-      "diameter": 1.0,
-      "group": "control",
-      "target": null,
-      "ref": "TP65",
-      "position": [
-        166.6208,
-        14.0
-      ],
-      "label_position": [
-        170.2058,
-        14.0
-      ],
-      "branch_mm": 0.0
     }
   ],
   "missing": []

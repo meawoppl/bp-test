@@ -52,7 +52,7 @@ affogato monitor -p /dev/ttyACM0
 `affogato run -p /dev/ttyACM0` flashes and monitors; it is not a substitute for
 `build`. Serial port is an example; verify the actual device. The USB carrier
 has no BOOT/RUN or RESET switch, so provision and validate USB/OTA recovery on
-the programmer first. TP65 can expose GPIO0, but J1.11/ESP_EN is not connected
+the programmer first. GPIO0 is reachable at pull-up R4 pad 1 beside J1, but J1.11/ESP_EN is not connected
 on the carrier. Do not design the updater around an automatic hardware boot override.
 
 Pin the Affogato git revision and Docker **image digest**, rather than relying on

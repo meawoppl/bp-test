@@ -6761,29 +6761,6 @@
       0
     ]
   },
-  "TP65": {
-    "value": "BOOT_N",
-    "mpn": "",
-    "lcsc": "",
-    "footprint": "Calibrator:TP_1p0mm",
-    "pins": {
-      "1": "ESP_GPIO0_BOOT"
-    },
-    "kind": "testpoint",
-    "names": {
-      "1": "ESP_GPIO0_BOOT"
-    },
-    "types": {
-      "1": "passive"
-    },
-    "bom": false,
-    "assembly": "PCB copper",
-    "position": [
-      166.6208,
-      14.0,
-      0
-    ]
-  },
   "TP15": {
     "value": "PPS_ESP",
     "mpn": "",

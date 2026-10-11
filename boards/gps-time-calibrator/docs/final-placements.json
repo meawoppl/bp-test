@@ -707,12 +707,6 @@
     "rotation_deg": -90.0,
     "footprint": "Calibrator:LED_1206_3216Metric"
   },
-  "TP65": {
-    "x_mm": 166.6208,
-    "y_mm": 14.0,
-    "rotation_deg": 0.0,
-    "footprint": "Calibrator:TP_1p0mm"
-  },
   "R30": {
     "x_mm": 56.0,
     "y_mm": 64.0,
@@ -888,9 +882,9 @@
     "footprint": "Calibrator:R_0805_2012Metric"
   },
   "R4": {
-    "x_mm": 176.7755,
-    "y_mm": 16.5,
-    "rotation_deg": 0.0,
+    "x_mm": 156.5,
+    "y_mm": 17.0,
+    "rotation_deg": 90.0,
     "footprint": "Calibrator:R_0805_2012Metric"
   },
   "TP27": {
