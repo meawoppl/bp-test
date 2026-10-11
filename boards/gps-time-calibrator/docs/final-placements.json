@@ -462,8 +462,8 @@
     "footprint": "Calibrator:C_0805_2012Metric"
   },
   "R161": {
-    "x_mm": 188.8,
-    "y_mm": 58.0,
+    "x_mm": 191.0,
+    "y_mm": 54.0,
     "rotation_deg": 0.0,
     "footprint": "Calibrator:R_0805_2012Metric"
   },
@@ -564,8 +564,8 @@
     "footprint": "Calibrator:LED_1206_3216Metric"
   },
   "R160": {
-    "x_mm": 188.8,
-    "y_mm": 55.0,
+    "x_mm": 191.0,
+    "y_mm": 52.0,
     "rotation_deg": 180.0,
     "footprint": "Calibrator:R_0805_2012Metric"
   },
@@ -990,9 +990,9 @@
     "footprint": "Calibrator:LED_1206_3216Metric"
   },
   "C13": {
-    "x_mm": 185.0,
-    "y_mm": 55.0,
-    "rotation_deg": 180.0,
+    "x_mm": 191.038,
+    "y_mm": 56.0,
+    "rotation_deg": 0.0,
     "footprint": "Calibrator:C_0805_2012Metric"
   },
   "C33": {
