@@ -1,10 +1,10 @@
 # Bring-up test points
 
-30 labeled bare-copper signal/power probe pads. Dedicated ground pads were removed at the user’s request; use the grounded SMA connector shields. The 16 per-channel LED gate/drain pairs were removed at the user’s request; use the existing large LED, resistor and MOSFET pads. TP31–TP62 are deliberately unused reference numbers.
+28 labeled bare-copper signal/power probe pads. Dedicated ground pads were removed at the user’s request; use the grounded SMA connector shields. The 16 per-channel LED gate/drain pairs were removed at the user’s request; use the existing large LED, resistor and MOSFET pads. TP31–TP62 are deliberately unused reference numbers.
 
 All pads are on the component side, outside the assembled module, OLED, mounting hardware and other component envelopes. Functional labels are 0.9 mm silkscreen text. `testpoint-audit.json` records native pad and label access checks; native DRC separately verifies electrical and silkscreen/mask clearance.
 
-All 30 pads are uniformly 1 mm in diameter. These are bare probe pads, not fitted wire loops. TP6, TP64 and TP63 form a vertical column at X=146.25 mm beside the OCXO.
+All 28 pads are uniformly 1 mm in diameter. These are bare probe pads, not fitted wire loops. TP6, TP64 and TP63 form a vertical column at X=146.25 mm beside the OCXO.
 
 No paste apertures, purchased parts, BOM entries or placement entries. The bare pads connect solidly to same-net copper zones; soldering thermal reliefs are unnecessary for these unpopulated features.
 
@@ -15,7 +15,7 @@ No paste apertures, purchased parts, BOM entries or placement entries. The bare 
 - `GPS_TX` is GNSS TX → ESP RX; `GPS_RX` is GNSS RX ← ESP TX.
 - `I_MON` is the filtered ADC node after R176. Do not drive it. The eFuse programming/mirror node itself has no added testpoint.
 - `BOOT_N` may be grounded for recovery during reset/power-up; it is not an added reset circuit.
-- `ANT_PWR` and `ANT_BIAS` are on the DC side of the antenna bias network. No probe pad was added to GNSS_RF or USB D+/D−.
+- The antenna bias network (`ANT_PWR`, `ANT_BIAS`) has no probe pads; probe R5 and C10 directly. No probe pad was added to GNSS_RF or USB D+/D−.
 - The SMA connectors already expose the external trigger input and output.
 
 ## Point map
@@ -46,8 +46,6 @@ No paste apertures, purchased parts, BOM entries or placement entries. The bare 
 | TP25 | GPS_TX | `ESP_GPIO44_RXD` | 1 | 171.500 / 66.450 |
 | TP26 | GPS_RX | `ESP_GPIO43_TXD` | 1 | 166.550 / 35.500 |
 | TP27 | GPS_RST_N | `GPS_RESET_N` | 1 | 178.213 / 94.487 |
-| TP28 | ANT_PWR | `ANT_PWR` | 1 | 189.500 / 77.338 |
-| TP29 | ANT_BIAS | `ANT_BIAS` | 1 | 196.000 / 78.000 |
 | TP30 | LED_OE_N | `FPGA_IOT_44B` | 1 | 58.575 / 21.137 |
 | TP63 | OLED_SCL | `ESP_GPIO2` | 1 | 146.250 / 68.088 |
 | TP64 | OLED_SDA | `ESP_GPIO1` | 1 | 146.250 / 65.388 |

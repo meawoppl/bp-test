@@ -1,6 +1,6 @@
 {
   "pcb_sha256": "34ffd3d94bd70bf63b3aeaa7bd951701a0e9c58c0ce0248afd6ebb8a1af70774",
-  "count": 30,
+  "count": 28,
   "findings": [],
   "probe_points": [
     {
@@ -266,28 +266,6 @@
       ],
       "diameter_mm": 1.0,
       "nearest_body_mm": 1.967
-    },
-    {
-      "ref": "TP28",
-      "label": "ANT_PWR",
-      "net": "ANT_PWR",
-      "position_mm": [
-        189.5,
-        77.3375
-      ],
-      "diameter_mm": 1.0,
-      "nearest_body_mm": 0.822
-    },
-    {
-      "ref": "TP29",
-      "label": "ANT_BIAS",
-      "net": "ANT_BIAS",
-      "position_mm": [
-        196.0,
-        78.0
-      ],
-      "diameter_mm": 1.0,
-      "nearest_body_mm": 1.698
     },
     {
       "ref": "TP30",

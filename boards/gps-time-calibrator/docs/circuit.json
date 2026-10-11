@@ -5004,8 +5004,8 @@
     "names": {},
     "bom": true,
     "position": [
-      174.0,
-      87.8,
+      175.2,
+      90.0,
       180.0
     ]
   },
@@ -5023,8 +5023,8 @@
     "names": {},
     "bom": true,
     "position": [
-      174.0,
-      91.0,
+      175.2,
+      87.8,
       180.0
     ]
   },
@@ -5061,9 +5061,9 @@
     "names": {},
     "bom": true,
     "position": [
-      191.6,
-      79.8,
-      0
+      190.9,
+      82.9,
+      -90.0
     ]
   },
   "C10": {
@@ -5099,9 +5099,9 @@
     "names": {},
     "bom": true,
     "position": [
-      174,
+      175.2,
       85.6,
-      180
+      180.0
     ]
   },
   "R7": {
@@ -5118,9 +5118,9 @@
     "names": {},
     "bom": true,
     "position": [
-      174,
+      175.2,
       82.6,
-      180
+      180.0
     ]
   },
   "U7": {
@@ -6246,7 +6246,7 @@
     "types": {},
     "bom": true,
     "position": [
-      174,
+      175.2,
       79.8,
       180.0
     ]
@@ -6649,29 +6649,6 @@
       0
     ]
   },
-  "TP28": {
-    "value": "ANT_PWR",
-    "mpn": "",
-    "lcsc": "",
-    "footprint": "Calibrator:TP_1p0mm",
-    "pins": {
-      "1": "ANT_PWR"
-    },
-    "kind": "testpoint",
-    "names": {
-      "1": "ANT_PWR"
-    },
-    "types": {
-      "1": "passive"
-    },
-    "bom": false,
-    "assembly": "PCB copper",
-    "position": [
-      189.5,
-      77.3375,
-      0
-    ]
-  },
   "TP30": {
     "value": "LED_OE_N",
     "mpn": "",
@@ -6945,29 +6922,6 @@
     "position": [
       179.7,
       57.0,
-      0
-    ]
-  },
-  "TP29": {
-    "value": "ANT_BIAS",
-    "mpn": "",
-    "lcsc": "",
-    "footprint": "Calibrator:TP_1p0mm",
-    "pins": {
-      "1": "ANT_BIAS"
-    },
-    "kind": "testpoint",
-    "names": {
-      "1": "ANT_BIAS"
-    },
-    "types": {
-      "1": "passive"
-    },
-    "bom": false,
-    "assembly": "PCB copper",
-    "position": [
-      196.0,
-      78.0,
       0
     ]
   },

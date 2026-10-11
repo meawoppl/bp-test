@@ -131,8 +131,6 @@ FIXED = {
     "TP25": "Test pad: GPS UART TX (to ESP32 GPIO44).",
     "TP26": "Test pad: GPS UART RX (from ESP32 GPIO43).",
     "TP27": "Test pad: GPS receiver RESET_N.",
-    "TP28": "Test pad: receiver VCC_RF antenna supply.",
-    "TP29": "Test pad: antenna DC bias after R5.",
     "TP30": "Test pad: display output enable LED_OE_N.",
     "TP63": "Test pad: OLED I2C SCL (ESP GPIO2).",
     "TP64": "Test pad: OLED I2C SDA (ESP GPIO1).",

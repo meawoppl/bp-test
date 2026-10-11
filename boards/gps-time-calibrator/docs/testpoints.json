@@ -536,62 +536,6 @@
       "branch_mm": 2.828
     },
     {
-      "label": "ANT_PWR",
-      "net": "ANT_PWR",
-      "source": [
-        "R5",
-        "1"
-      ],
-      "diameter": 1.0,
-      "group": "control",
-      "target": null,
-      "ref": "TP28",
-      "position": [
-        189.5,
-        77.3375
-      ],
-      "label_position": [
-        189.5,
-        75.6375
-      ],
-      "branch_mm": 2.5
-    },
-    {
-      "label": "ANT_BIAS",
-      "net": "ANT_BIAS",
-      "source": [
-        "R5",
-        "2"
-      ],
-      "diameter": 1.0,
-      "group": "control",
-      "target": null,
-      "ref": "TP29",
-      "position": [
-        196.0,
-        78.0
-      ],
-      "label_position": [
-        196.0,
-        76.55
-      ],
-      "branch_mm": 4.283,
-      "branch_points": [
-        [
-          192.4625,
-          79.8
-        ],
-        [
-          194.2625,
-          78
-        ],
-        [
-          196,
-          78
-        ]
-      ]
-    },
-    {
       "label": "LED_OE_N",
       "net": "FPGA_IOT_44B",
       "source": [
