@@ -354,27 +354,6 @@
       "branch_mm": 0.0
     },
     {
-      "label": "TRIG_FILT",
-      "net": "TRIGGER_LIMIT",
-      "source": [
-        "R8",
-        "2"
-      ],
-      "diameter": 1.0,
-      "group": "trigger",
-      "target": null,
-      "ref": "TP17",
-      "position": [
-        186.3,
-        44.75
-      ],
-      "label_position": [
-        181.635,
-        44.75
-      ],
-      "branch_mm": 3.536
-    },
-    {
       "label": "TRIG_2V5",
       "net": "TRIGGER_VREF",
       "source": [

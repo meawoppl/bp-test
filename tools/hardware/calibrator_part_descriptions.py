@@ -123,7 +123,6 @@ FIXED = {
     "TP14": "Test pad: PPS at the FPGA.",
     "TP15": "Test pad: PPS at ESP32 GPIO38.",
     "TP16": "Test pad: 10 MHz clock at the FPGA.",
-    "TP17": "Test pad: filtered trigger input.",
     "TP18": "Test pad: 2.5 V trigger threshold.",
     "TP19": "Test pad: comparator output (5 V trigger).",
     "TP20": "Test pad: translated 3.3 V trigger.",

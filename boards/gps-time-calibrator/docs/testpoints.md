@@ -1,10 +1,10 @@
 # Bring-up test points
 
-31 labeled bare-copper signal/power probe pads. Dedicated ground pads were removed at the user’s request; use the grounded SMA connector shields. The 16 per-channel LED gate/drain pairs were removed at the user’s request; use the existing large LED, resistor and MOSFET pads. TP31–TP62 are deliberately unused reference numbers.
+30 labeled bare-copper signal/power probe pads. Dedicated ground pads were removed at the user’s request; use the grounded SMA connector shields. The 16 per-channel LED gate/drain pairs were removed at the user’s request; use the existing large LED, resistor and MOSFET pads. TP31–TP62 are deliberately unused reference numbers.
 
 All pads are on the component side, outside the assembled module, OLED, mounting hardware and other component envelopes. Functional labels are 0.9 mm silkscreen text. `testpoint-audit.json` records native pad and label access checks; native DRC separately verifies electrical and silkscreen/mask clearance.
 
-All 31 pads are uniformly 1 mm in diameter. These are bare probe pads, not fitted wire loops. TP6, TP64 and TP63 form a vertical column at X=146.25 mm beside the OCXO.
+All 30 pads are uniformly 1 mm in diameter. These are bare probe pads, not fitted wire loops. TP6, TP64 and TP63 form a vertical column at X=146.25 mm beside the OCXO.
 
 No paste apertures, purchased parts, BOM entries or placement entries. The bare pads connect solidly to same-net copper zones; soldering thermal reliefs are unnecessary for these unpopulated features.
 
@@ -38,7 +38,6 @@ No paste apertures, purchased parts, BOM entries or placement entries. The bare 
 | TP14 | PPS_FPGA | `FPGA_IOT_46B_G0` | 1 | 171.409 / 83.921 |
 | TP15 | PPS_ESP | `ESP_GPIO38` | 1 | 167.500 / 81.100 |
 | TP16 | CLK_FPGA | `FPGA_IOB_3B_G6` | 1 | 161.171 / 58.059 |
-| TP17 | TRIG_FILT | `TRIGGER_LIMIT` | 1 | 186.300 / 44.750 |
 | TP18 | TRIG_2V5 | `TRIGGER_VREF` | 1 | 185.000 / 58.000 |
 | TP19 | TRIG_CMP | `TRIGGER_5V` | 1 | 179.700 / 57.000 |
 | TP20 | TRIG_3V3 | `TRIGGER_3V3` | 1 | 176.954 / 48.000 |

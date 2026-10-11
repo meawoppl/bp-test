@@ -5184,9 +5184,9 @@
     "names": {},
     "bom": true,
     "position": [
-      191.7,
-      46.3375,
-      90
+      191.0,
+      48.0,
+      0.0
     ]
   },
   "R80": {
@@ -6095,9 +6095,9 @@
     "types": {},
     "bom": true,
     "position": [
-      188.8,
-      46.3,
-      90.0
+      191.038,
+      45.95,
+      0.0
     ]
   },
   "DS1": {
@@ -6370,29 +6370,6 @@
     "position": [
       161.1714,
       58.0589,
-      0
-    ]
-  },
-  "TP17": {
-    "value": "TRIG_FILT",
-    "mpn": "",
-    "lcsc": "",
-    "footprint": "Calibrator:TP_1p0mm",
-    "pins": {
-      "1": "TRIGGER_LIMIT"
-    },
-    "kind": "testpoint",
-    "names": {
-      "1": "TRIGGER_LIMIT"
-    },
-    "types": {
-      "1": "passive"
-    },
-    "bom": false,
-    "assembly": "PCB copper",
-    "position": [
-      186.3,
-      44.75,
       0
     ]
   },

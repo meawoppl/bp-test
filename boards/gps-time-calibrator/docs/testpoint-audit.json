@@ -1,6 +1,6 @@
 {
   "pcb_sha256": "34ffd3d94bd70bf63b3aeaa7bd951701a0e9c58c0ce0248afd6ebb8a1af70774",
-  "count": 31,
+  "count": 30,
   "findings": [],
   "probe_points": [
     {
@@ -178,17 +178,6 @@
       ],
       "diameter_mm": 1.0,
       "nearest_body_mm": 0.37
-    },
-    {
-      "ref": "TP17",
-      "label": "TRIG_FILT",
-      "net": "TRIGGER_LIMIT",
-      "position_mm": [
-        186.3,
-        44.75
-      ],
-      "diameter_mm": 1.0,
-      "nearest_body_mm": 0.999
     },
     {
       "ref": "TP18",

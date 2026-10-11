@@ -291,7 +291,7 @@ of skipping it. Store rail steps/current snapshots and all state transitions.
   headroom. Observe rails physically; no software rail sensor was fitted.
 - Test walking-one: four LEDs illuminate in exactly one column; bit15 left,
   bit0 right. Verify /OE blanks both buffers and no startup flash occurs.
-- Compare PPS at TP13/14/15; compare SMA trigger against TP17/19/20 and FPGA
+- Compare PPS at TP13/14/15; compare SMA trigger against TP19/20 and FPGA
   event timestamps. Calibrate RC/comparator/translator/FPGA pipeline delays.
 - At slow triggers, reconcile each FPGA event with valid TIM-TM2. At burst rates,
   require FIFO completeness and account for M10S message decimation explicitly.
