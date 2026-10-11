@@ -1,5 +1,5 @@
 {
-  "pcb_sha256": "da6776374fe7e15cc85d76a0a647dd84afe949e3e7ee8e37772d99362fb811fa",
+  "pcb_sha256": "54017c665c1ab3580fe895586724a10a7f66721773df1b9befd6fd1c859c1f1a",
   "count": 26,
   "findings": [],
   "probe_points": [
@@ -30,11 +30,11 @@
       "label": "3V3_LOGIC",
       "net": "+3V3_LOGIC",
       "position_mm": [
-        170.6,
-        32.6
+        172.0,
+        12.5
       ],
       "diameter_mm": 1.0,
-      "nearest_body_mm": 0.204
+      "nearest_body_mm": 6.504
     },
     {
       "ref": "TP5",
@@ -100,7 +100,7 @@
         18.5
       ],
       "diameter_mm": 1.0,
-      "nearest_body_mm": 2.199
+      "nearest_body_mm": 1.779
     },
     {
       "ref": "TP11",
@@ -243,7 +243,7 @@
         35.5
       ],
       "diameter_mm": 1.0,
-      "nearest_body_mm": 0.343
+      "nearest_body_mm": 1.054
     },
     {
       "ref": "TP27",

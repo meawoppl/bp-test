@@ -4,7 +4,9 @@ Reworked 2026-09-27. Canonical PCB and `circuit.json` preserve these placements;
 construction/routing scripts in `tmp/` are historical and must not be replayed.
 
 - USB protection U1 stays immediately behind J3. Always-on LDO U2/C2/C3
-  moved above the eFuse into the USB/power cluster. R176/C78 now sit beside
+  sits directly above the PD sink U11 (2026-10-11): VBUS reaches it through one
+  short B.Cu hop under the CC lanes, and its 3.3 V output runs on F.Cu straight
+  into the R167/R168 pull-up rail. TP3 sits on the top 3.3 V strip. R176/C78 now sit beside
   U14/R170, rather than beneath the daughterboard. The unfiltered eFuse
   current-mirror route is shorter; the longer ADC run is after the RC filter.
 - U9 and U7 now share a horizontal input-channel axis. R8 feeds U9 directly;

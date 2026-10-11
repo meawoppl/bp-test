@@ -24,7 +24,7 @@ No paste apertures, purchased parts, BOM entries or placement entries. The bare 
 |---|---|---|---:|---|
 | TP1 | VBUS | `USB_VBUS` | 1 | 190.600 / 27.000 |
 | TP2 | 5V_LOAD | `VIN_5V` | 1 | 169.412 / 38.600 |
-| TP3 | 3V3_LOGIC | `+3V3_LOGIC` | 1 | 170.600 / 32.600 |
+| TP3 | 3V3_LOGIC | `+3V3_LOGIC` | 1 | 172.000 / 12.500 |
 | TP5 | 3V3_GPS | `+3V3_GPS` | 1 | 178.300 / 73.550 |
 | TP6 | 3V3_OCXO | `+3V3_OCXO` | 1 | 146.250 / 57.500 |
 | TP7 | LOAD_EN | `ESP_GPIO4` | 1 | 186.488 / 36.600 |

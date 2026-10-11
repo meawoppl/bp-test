@@ -57,14 +57,14 @@
       "target": null,
       "ref": "TP3",
       "position": [
-        170.6,
-        32.6
+        172.0,
+        12.5
       ],
       "label_position": [
-        174.0,
-        34.1
+        172.0,
+        11.2
       ],
-      "branch_mm": 1.8
+      "branch_mm": 0.0
     },
     {
       "label": "3V3_GPS",
