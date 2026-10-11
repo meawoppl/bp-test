@@ -30,8 +30,8 @@ No paste apertures, purchased parts, BOM entries or placement entries. The bare 
 | TP7 | LOAD_EN | `ESP_GPIO4` | 1 | 186.488 / 36.600 |
 | TP8 | OCXO_EN | `ESP_GPIO5` | 1 | 164.700 / 61.900 |
 | TP9 | GPS_EN | `ESP_GPIO6` | 1 | 170.246 / 77.633 |
-| TP10 | PD_SDA | `USB_PD_SDA` | 1 | 177.300 / 18.850 |
-| TP11 | PD_SCL | `USB_PD_SCL` | 1 | 181.600 / 21.600 |
+| TP10 | PD_SDA | `USB_PD_SDA` | 1 | 183.000 / 18.500 |
+| TP11 | PD_SCL | `USB_PD_SCL` | 1 | 183.000 / 20.500 |
 | TP12 | I_MON | `ESP_GPIO3` | 1 | 183.300 / 44.362 |
 | TP13 | PPS_SRC | `GPS_PPS` | 1 | 170.200 / 97.200 |
 | TP14 | PPS_FPGA | `FPGA_IOT_46B_G0` | 1 | 171.409 / 83.921 |

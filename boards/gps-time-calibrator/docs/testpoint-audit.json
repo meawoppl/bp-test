@@ -1,5 +1,5 @@
 {
-  "pcb_sha256": "b55fc83e3917acb4e3f048c61692056ec4288041184e4642cbb614f89c838c13",
+  "pcb_sha256": "82361b766ba92903b3cdf7807983570772a09095ebfabd1923f3321713f414c0",
   "count": 27,
   "findings": [],
   "probe_points": [
@@ -96,22 +96,22 @@
       "label": "PD_SDA",
       "net": "USB_PD_SDA",
       "position_mm": [
-        177.3,
-        18.85
+        183.0,
+        18.5
       ],
       "diameter_mm": 1.0,
-      "nearest_body_mm": 0.764
+      "nearest_body_mm": 2.199
     },
     {
       "ref": "TP11",
       "label": "PD_SCL",
       "net": "USB_PD_SCL",
       "position_mm": [
-        181.6,
-        21.6
+        183.0,
+        20.5
       ],
       "diameter_mm": 1.0,
-      "nearest_body_mm": 0.099
+      "nearest_body_mm": 2.199
     },
     {
       "ref": "TP12",
