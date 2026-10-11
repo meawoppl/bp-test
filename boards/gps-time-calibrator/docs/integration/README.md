@@ -114,7 +114,7 @@ current sinks for the onboard LED, not three unused carrier GPIOs.
 flowchart TD
     USB["USB VBUS: 5 V ONLY"] --> MOD["Module 5V input → ESP32 + FPGA"]
     USB --> LOGIC["U2: 3V3_LOGIC → OLED + LED buffers"]
-    USB --> CC["U12: 3V3_CC + U11 PD controller"]
+    USB --> CC["U11 PD controller (pull-ups on 3V3_LOGIC)"]
     USB --> EF["U14 eFuse · GPIO4"]
     EF --> LOAD["VIN_5V → LED anodes + trigger circuits"]
     LOAD --> GPSL["U5 · GPIO6 → 3V3_GPS<br/>GNSS + input translator + antenna bias"]
@@ -176,7 +176,7 @@ settled measurement. Calibrate offset with loads off and slope against a meter;
 check behavior near zero and ADC settling with this high source resistance.
 
 The mirror tolerance is 249–304µA/A at 1A, plus ADC errors. It is not the hardware
-protection loop and cannot detect fast surges. Raw daughterboard, Wi-Fi, U2/U12,
+protection loop and cannot detect fast surges. Raw daughterboard, Wi-Fi, U2,
 OLED and buffer current **bypass the shunt/mirror path**. USB budget is their
 measured worst-case current plus switched current, uncertainty and margin.
 

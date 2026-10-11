@@ -12,7 +12,7 @@ def arrow(points):s.append(f'<polyline points="{points}" fill="none" stroke="#7a
 text(35,40,'GPS calibrator — power and control',27)
 text(35,69,'5 V-only USB-PD sink · firmware must never request higher voltage',16,'#a9b1d6')
 box(300,95,300,80,'USB-C J3',['USB_VBUS (always on)']);arrow('450,175 450,205 230,205 230,230');arrow('450,175 450,205 685,205 685,230')
-box(35,230,400,130,'Always-on controller domain',['Daughterboard → onboard 3.3 V / FPGA rails','U2 → +3V3_LOGIC: OLED and LED buffers','U12 → +3V3_CC: I²C pull-ups'],'#9ece6a')
+box(35,230,400,130,'Always-on controller domain',['Daughterboard → onboard 3.3 V / FPGA rails','U2 → +3V3_LOGIC: OLED, LED buffers and PD I²C pull-ups'],'#9ece6a')
 box(500,230,365,130,'HUSB238 U11',['SDA → GPIO7 / SCL → GPIO8','I²C address 0x08; read source/contract','VSET = GND (5 V); ISET = 22.6k (3 A)'])
 arrow('685,360 685,391 230,391 230,420')
 box(35,420,400,130,'ESP32 firmware policy',['Read contract and honor USB power limits','GPIO4 → main eFuse enable','GPIO5 → OCXO enable; GPIO6 → GPS enable'],'#bb9af7')

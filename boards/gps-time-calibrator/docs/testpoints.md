@@ -1,10 +1,10 @@
 # Bring-up test points
 
-28 labeled bare-copper signal/power probe pads. Dedicated ground pads were removed at the user’s request; use the grounded SMA connector shields. The 16 per-channel LED gate/drain pairs were removed at the user’s request; use the existing large LED, resistor and MOSFET pads. TP31–TP62 are deliberately unused reference numbers.
+27 labeled bare-copper signal/power probe pads. Dedicated ground pads were removed at the user’s request; use the grounded SMA connector shields. The 16 per-channel LED gate/drain pairs were removed at the user’s request; use the existing large LED, resistor and MOSFET pads. TP31–TP62 are deliberately unused reference numbers.
 
 All pads are on the component side, outside the assembled module, OLED, mounting hardware and other component envelopes. Functional labels are 0.9 mm silkscreen text. `testpoint-audit.json` records native pad and label access checks; native DRC separately verifies electrical and silkscreen/mask clearance.
 
-All 28 pads are uniformly 1 mm in diameter. These are bare probe pads, not fitted wire loops. TP6, TP64 and TP63 form a vertical column at X=146.25 mm beside the OCXO.
+All 27 pads are uniformly 1 mm in diameter. These are bare probe pads, not fitted wire loops. TP6, TP64 and TP63 form a vertical column at X=146.25 mm beside the OCXO.
 
 No paste apertures, purchased parts, BOM entries or placement entries. The bare pads connect solidly to same-net copper zones; soldering thermal reliefs are unnecessary for these unpopulated features.
 
@@ -25,7 +25,6 @@ No paste apertures, purchased parts, BOM entries or placement entries. The bare 
 | TP1 | VBUS | `USB_VBUS` | 1 | 190.600 / 27.000 |
 | TP2 | 5V_LOAD | `VIN_5V` | 1 | 169.412 / 38.600 |
 | TP3 | 3V3_LOGIC | `+3V3_LOGIC` | 1 | 170.600 / 32.600 |
-| TP4 | 3V3_CC | `+3V3_CC` | 1 | 181.000 / 23.600 |
 | TP5 | 3V3_GPS | `+3V3_GPS` | 1 | 178.300 / 73.550 |
 | TP6 | 3V3_OCXO | `+3V3_OCXO` | 1 | 146.250 / 57.500 |
 | TP7 | LOAD_EN | `ESP_GPIO4` | 1 | 186.488 / 36.600 |

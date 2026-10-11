@@ -1,6 +1,6 @@
 {
-  "pcb_sha256": "14f887fc2f2af314890ceb99e43cdba3333ebbc65b62f7ef94bdd3f98839a066",
-  "count": 28,
+  "pcb_sha256": "b55fc83e3917acb4e3f048c61692056ec4288041184e4642cbb614f89c838c13",
+  "count": 27,
   "findings": [],
   "probe_points": [
     {
@@ -35,17 +35,6 @@
       ],
       "diameter_mm": 1.0,
       "nearest_body_mm": 0.204
-    },
-    {
-      "ref": "TP4",
-      "label": "3V3_CC",
-      "net": "+3V3_CC",
-      "position_mm": [
-        181.0,
-        23.6
-      ],
-      "diameter_mm": 1.0,
-      "nearest_body_mm": 1.011
     },
     {
       "ref": "TP5",

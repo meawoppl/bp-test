@@ -67,27 +67,6 @@
       "branch_mm": 1.8
     },
     {
-      "label": "3V3_CC",
-      "net": "+3V3_CC",
-      "source": [
-        "U12",
-        "5"
-      ],
-      "diameter": 1.0,
-      "group": "power",
-      "target": null,
-      "ref": "TP4",
-      "position": [
-        181.0,
-        23.6
-      ],
-      "label_position": [
-        181.0,
-        24.85
-      ],
-      "branch_mm": 2.5
-    },
-    {
       "label": "3V3_GPS",
       "net": "+3V3_GPS",
       "source": [

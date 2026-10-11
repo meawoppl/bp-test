@@ -63,7 +63,7 @@ def custom_map(ref):
   m.update({n:((i-(len(ground)-1)/2)*2.54,-48.26,90) for i,n in enumerate(ground)})
   m.update({n:((i-(len(supply)-1)/2)*5.08,48.26,270) for i,n in enumerate(supply)})
   return m,12.7,43.18
- if ref in ['U2','U5','U12']:
+ if ref in ['U2','U5']:
   return {'1':(-12.7,5.08,0),'3':(-12.7,0,0),'5':(12.7,5.08,180),'4':(12.7,-5.08,180),'2':(0,-15.24,90)},7.62,10.16
  if ref in ['U7','U10','U13','U16']:
   m={'2':(-12.7,0,0),'4':(12.7,0,180),'5':(0,15.24,270),'3':(0,-15.24,90)}
@@ -209,10 +209,10 @@ place('R164',478.79,93.98,270)
 path(P('U11',9),(478.79,78.74),P('R164',1));power('GND',*P('R164',2))
 label('PD_ISET',466.09,78.74)
 for ref,x,n,y in [('R167',478.79,'6',63.5),('R168',502.92,'7',68.58)]:
- place(ref,x,45.72,270);path(P(ref,2),(snap(x),snap(y)),P('U11',n));junction((x,y));power('+3V3_CC',*P(ref,1));label(parts[ref]['pins']['2'],x,y)
+ place(ref,x,45.72,270);path(P(ref,2),(snap(x),snap(y)),P('U11',n));junction((x,y));power('+3V3_LOGIC',*P(ref,1));label(parts[ref]['pins']['2'],x,y)
 note('5 V ONLY: VSET grounded / ISET 22.6k = 3 A / I2C 0x08',353.06,121.92,1.2)
 note('D+/D- charger detection unused; USB data stays with ESP32',353.06,129.54,1.2)
-# Compact, explicitly wired LDO macro used for all three rails.
+# Compact, explicitly wired LDO macro used for both always-on/logic rails.
 def ldo(ref,ci,co,x,y):
  place(ref,x,y);a=P(ref,1);en=P(ref,3);out=P(ref,5)
  lx=snap(x-25.4);rx=snap(x+26.67);top=snap(y-5.08)
@@ -223,7 +223,6 @@ def ldo(ref,ci,co,x,y):
  bypass(ci,lx,y+8.89,parts[ref]['pins']['1'],upper=top);power(parts[ref]['pins']['1'],lx,top)
  path(out,(rx,top));bypass(co,rx,y+8.89,parts[ref]['pins']['5'],upper=top);power(parts[ref]['pins']['5'],rx,top)
  port(ref,2,2.54);port(ref,4)
-ldo('U12','C65','C66',558.8,46.99)
 place('U14',699.77,60.96)
 # Raw input reservoir and parallel IN pins.
 bypass('C69',641.35,58.42,'USB_VBUS',upper=44.45)

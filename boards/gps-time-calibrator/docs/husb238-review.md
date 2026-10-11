@@ -1,6 +1,6 @@
 # HUSB238 replacement review
 
-U11 now HUSB238_002DD/C7471904. Hardware VSET grounded: 5 V only. R164 22.6k programs a 3 A request; actual available current must be checked over I²C. GPIO7 = SDA, GPIO8 = SCL, address 0x08. Existing 10k pullups use always-on +3V3_CC. Firmware must never override to a higher voltage. USB data bypasses the unused BC1.2 pins; GATE is unused. TPS259531 and its filtered current-mirror ADC circuit remain unchanged.
+U11 now HUSB238_002DD/C7471904. Hardware VSET grounded: 5 V only. R164 22.6k programs a 3 A request; actual available current must be checked over I²C. GPIO7 = SDA, GPIO8 = SCL, address 0x08. Existing 10k pullups use the always-on +3V3_LOGIC rail (U2). Firmware must never override to a higher voltage. USB data bypasses the unused BC1.2 pins; GATE is unused. TPS259531 and its filtered current-mirror ADC circuit remain unchanged.
 
 C64 upgraded to 1uF/50V X7R 0805. R165/R166 and the obsolete VBUS detection chain removed. Package pin mapping checked against the Hynetek datasheet; local footprint based on KiCad's DFN 3x3mm, 0.5mm pitch, 1.8x2.5mm EP. 3D envelope is drawing-derived, not vendor CAD.
 

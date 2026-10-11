@@ -22,7 +22,7 @@ for ref,f in fps.items():
  if not ref.startswith('TP'):mechanics[ref]=bbox(f)
 rows=[]
 assert not spec['missing']
-assert len(spec['testpoints'])==28
+assert len(spec['testpoints'])==27
 assert not any(s['group'] in ['led','ground'] for s in spec['testpoints'])
 for s in spec['testpoints']:
  f=fps[s['ref']];qs=list(f.Pads());assert len(qs)==1;q=qs[0]

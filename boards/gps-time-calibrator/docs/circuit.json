@@ -5644,40 +5644,6 @@
       180.0
     ]
   },
-  "U12": {
-    "value": "AP2112K-3.3",
-    "footprint": "Calibrator:SOT-23-5_U12",
-    "pins": {
-      "1": "USB_VBUS",
-      "2": "GND",
-      "3": "USB_VBUS",
-      "4": null,
-      "5": "+3V3_CC"
-    },
-    "lcsc": "C51118",
-    "mpn": "AP2112K-3.3TRG1",
-    "kind": "ic",
-    "names": {
-      "1": "VIN",
-      "2": "GND",
-      "3": "EN",
-      "4": "NC",
-      "5": "VOUT"
-    },
-    "types": {
-      "1": "power_in",
-      "2": "power_in",
-      "3": "input",
-      "4": "no_connect",
-      "5": "power_out"
-    },
-    "bom": true,
-    "position": [
-      173.35,
-      22.0,
-      0.0
-    ]
-  },
   "U14": {
     "value": "TPS259531DSGR",
     "footprint": "Calibrator:DFN-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm",
@@ -5749,7 +5715,7 @@
     "value": "10k",
     "footprint": "Calibrator:R_0805_2012Metric",
     "pins": {
-      "1": "+3V3_CC",
+      "1": "+3V3_LOGIC",
       "2": "USB_PD_SDA"
     },
     "lcsc": "C17414",
@@ -5768,7 +5734,7 @@
     "value": "10k",
     "footprint": "Calibrator:R_0805_2012Metric",
     "pins": {
-      "1": "+3V3_CC",
+      "1": "+3V3_LOGIC",
       "2": "USB_PD_SCL"
     },
     "lcsc": "C17414",
@@ -5837,44 +5803,6 @@
     "position": [
       191.45,
       22.95,
-      -90.0
-    ]
-  },
-  "C65": {
-    "value": "4.7uF",
-    "footprint": "Calibrator:C_0805_2012Metric",
-    "pins": {
-      "1": "USB_VBUS",
-      "2": "GND"
-    },
-    "lcsc": "C1779",
-    "mpn": "CL21A475KAQNNNE",
-    "kind": "c",
-    "names": {},
-    "types": {},
-    "bom": true,
-    "position": [
-      169.2,
-      22.0,
-      -90.0
-    ]
-  },
-  "C66": {
-    "value": "4.7uF",
-    "footprint": "Calibrator:C_0805_2012Metric",
-    "pins": {
-      "1": "+3V3_CC",
-      "2": "GND"
-    },
-    "lcsc": "C1779",
-    "mpn": "CL21A475KAQNNNE",
-    "kind": "c",
-    "names": {},
-    "types": {},
-    "bom": true,
-    "position": [
-      176.5,
-      22.0,
       -90.0
     ]
   },
@@ -6761,29 +6689,6 @@
     "position": [
       170.6,
       32.6,
-      0.0
-    ]
-  },
-  "TP4": {
-    "value": "3V3_CC",
-    "mpn": "",
-    "lcsc": "",
-    "footprint": "Calibrator:TP_1p0mm",
-    "pins": {
-      "1": "+3V3_CC"
-    },
-    "kind": "testpoint",
-    "names": {
-      "1": "+3V3_CC"
-    },
-    "types": {
-      "1": "passive"
-    },
-    "bom": false,
-    "assembly": "PCB copper",
-    "position": [
-      181.0,
-      23.6,
       0.0
     ]
   },

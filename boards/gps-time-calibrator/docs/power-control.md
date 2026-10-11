@@ -4,7 +4,7 @@ Updated 2026-09-27. The ordered daughterboard v1 is unchanged.
 
 ## Domains
 
-USB VBUS feeds the daughterboard's 5 V contacts, U2 (+3V3_LOGIC), U12 (+3V3_CC), and U11 directly. The controller, OLED, LED buffers and PD sink can therefore start while the high-current load domain is off. U13 NOR and C67 were removed.
+USB VBUS feeds the daughterboard's 5 V contacts, U2 (+3V3_LOGIC) and U11 directly. The controller, OLED, LED buffers and PD sink can therefore start while the high-current load domain is off. U13 NOR and C67 were removed.
 
 U14 TPS259531 enables the switched `VIN_5V` domain: LED anodes, 5 V trigger circuitry, U5 GPS LDO input, and U15 OCXO LDO input. U5 and U15 have independent active-high enables with 100k pulldowns. U7 trigger translation and its C11 bypass use +3V3_GPS so the translator cannot drive an unpowered GNSS EXTINT pin. This also means the translated input trigger is unavailable while GPS power is off.
 
@@ -17,7 +17,7 @@ U14 TPS259531 enables the switched `VIN_5V` domain: LED anodes, 5 V trigger circ
 | 19 | GPIO7 | HUSB238 SDA (USB_PD_SDA) |
 | 20 | GPIO8 | HUSB238 SCL (USB_PD_SCL) |
 
-U11 is now **HUSB238_002DD (C7471904)**, a USB-PD sink with I²C address **0x08**. GPIO7/SDA and GPIO8/SCL have 10k pull-ups to +3V3_CC; start at 100 kHz and check rise time on hardware. VSET is directly grounded for **5 V**, and R164 = 22.6k (C3016901) selects a **3 A request**. C64 is 1uF/50V X7R (C28323), immediately adjacent to VIN. The old R165/R166 VBUS detector chain is removed. No external Rd resistors are required.
+U11 is now **HUSB238_002DD (C7471904)**, a USB-PD sink with I²C address **0x08**. GPIO7/SDA and GPIO8/SCL have 10k pull-ups to the always-on +3V3_LOGIC rail (the separate U12 +3V3_CC LDO was removed); start at 100 kHz and check rise time on hardware. VSET is directly grounded for **5 V**, and R164 = 22.6k (C3016901) selects a **3 A request**. C64 is 1uF/50V X7R (C28323), immediately adjacent to VIN. The old R165/R166 VBUS detector chain is removed. No external Rd resistors are required.
 
 **This board must never request more than 5 V.** The raw VBUS domain feeds the module and AP2112 regulators directly. I²C overrides the hardware voltage setting: use status reads only during bring-up; firmware must reject every request other than 5 V. A 3 A request does not guarantee a 3 A contract—read actual source capability/contract and keep switched loads off if insufficient.
 
