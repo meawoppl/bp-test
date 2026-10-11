@@ -22,18 +22,18 @@ No paste apertures, purchased parts, BOM entries or placement entries. The bare 
 
 | Ref | Silkscreen | Net | Pad Ø (mm) | X / Y (mm) |
 |---|---|---|---:|---|
-| TP1 | VBUS | `USB_VBUS` | 1 | 187.050 / 14.500 |
-| TP2 | 5V_LOAD | `VIN_5V` | 1 | 168.050 / 43.000 |
-| TP3 | 3V3_LOGIC | `+3V3_LOGIC` | 1 | 167.637 / 18.000 |
-| TP4 | 3V3_CC | `+3V3_CC` | 1 | 177.137 / 19.550 |
+| TP1 | VBUS | `USB_VBUS` | 1 | 190.600 / 27.000 |
+| TP2 | 5V_LOAD | `VIN_5V` | 1 | 169.412 / 38.600 |
+| TP3 | 3V3_LOGIC | `+3V3_LOGIC` | 1 | 170.600 / 32.600 |
+| TP4 | 3V3_CC | `+3V3_CC` | 1 | 181.000 / 23.600 |
 | TP5 | 3V3_GPS | `+3V3_GPS` | 1 | 178.300 / 73.550 |
 | TP6 | 3V3_OCXO | `+3V3_OCXO` | 1 | 146.250 / 57.500 |
-| TP7 | LOAD_EN | `ESP_GPIO4` | 1 | 180.887 / 30.500 |
+| TP7 | LOAD_EN | `ESP_GPIO4` | 1 | 186.488 / 36.600 |
 | TP8 | OCXO_EN | `ESP_GPIO5` | 1 | 164.700 / 61.900 |
 | TP9 | GPS_EN | `ESP_GPIO6` | 1 | 170.246 / 77.633 |
-| TP10 | PD_SDA | `USB_PD_SDA` | 1 | 192.700 / 23.500 |
-| TP11 | PD_SCL | `USB_PD_SCL` | 1 | 193.000 / 21.500 |
-| TP12 | I_MON | `ESP_GPIO3` | 1 | 177.695 / 33.800 |
+| TP10 | PD_SDA | `USB_PD_SDA` | 1 | 177.300 / 18.850 |
+| TP11 | PD_SCL | `USB_PD_SCL` | 1 | 181.600 / 21.600 |
+| TP12 | I_MON | `ESP_GPIO3` | 1 | 183.300 / 44.362 |
 | TP13 | PPS_SRC | `GPS_PPS` | 1 | 170.200 / 97.200 |
 | TP14 | PPS_FPGA | `FPGA_IOT_46B_G0` | 1 | 171.409 / 83.921 |
 | TP15 | PPS_ESP | `ESP_GPIO38` | 1 | 167.500 / 81.100 |

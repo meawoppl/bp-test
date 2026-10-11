@@ -1,5 +1,5 @@
 {
-  "pcb_sha256": "34ffd3d94bd70bf63b3aeaa7bd951701a0e9c58c0ce0248afd6ebb8a1af70774",
+  "pcb_sha256": "14f887fc2f2af314890ceb99e43cdba3333ebbc65b62f7ef94bdd3f98839a066",
   "count": 28,
   "findings": [],
   "probe_points": [
@@ -8,44 +8,44 @@
       "label": "VBUS",
       "net": "USB_VBUS",
       "position_mm": [
-        187.05,
-        14.5
+        190.6,
+        27.0
       ],
       "diameter_mm": 1.0,
-      "nearest_body_mm": 2.281
+      "nearest_body_mm": 0.809
     },
     {
       "ref": "TP2",
       "label": "5V_LOAD",
       "net": "VIN_5V",
       "position_mm": [
-        168.05,
-        43.0
+        169.412,
+        38.6
       ],
       "diameter_mm": 1.0,
-      "nearest_body_mm": 0.999
+      "nearest_body_mm": 0.229
     },
     {
       "ref": "TP3",
       "label": "3V3_LOGIC",
       "net": "+3V3_LOGIC",
       "position_mm": [
-        167.6375,
-        18.0
+        170.6,
+        32.6
       ],
       "diameter_mm": 1.0,
-      "nearest_body_mm": 1.437
+      "nearest_body_mm": 0.204
     },
     {
       "ref": "TP4",
       "label": "3V3_CC",
       "net": "+3V3_CC",
       "position_mm": [
-        177.1375,
-        19.55
+        181.0,
+        23.6
       ],
       "diameter_mm": 1.0,
-      "nearest_body_mm": 1.054
+      "nearest_body_mm": 1.011
     },
     {
       "ref": "TP5",
@@ -74,11 +74,11 @@
       "label": "LOAD_EN",
       "net": "ESP_GPIO4",
       "position_mm": [
-        180.8875,
-        30.5
+        186.488,
+        36.6
       ],
       "diameter_mm": 1.0,
-      "nearest_body_mm": 1.029
+      "nearest_body_mm": 0.529
     },
     {
       "ref": "TP8",
@@ -100,40 +100,40 @@
         77.6333
       ],
       "diameter_mm": 1.0,
-      "nearest_body_mm": 1.875
+      "nearest_body_mm": 2.334
     },
     {
       "ref": "TP10",
       "label": "PD_SDA",
       "net": "USB_PD_SDA",
       "position_mm": [
-        192.7,
-        23.5
+        177.3,
+        18.85
       ],
       "diameter_mm": 1.0,
-      "nearest_body_mm": 0.659
+      "nearest_body_mm": 0.764
     },
     {
       "ref": "TP11",
       "label": "PD_SCL",
       "net": "USB_PD_SCL",
       "position_mm": [
-        193.0,
-        21.5
+        181.6,
+        21.6
       ],
       "diameter_mm": 1.0,
-      "nearest_body_mm": 0.199
+      "nearest_body_mm": 0.099
     },
     {
       "ref": "TP12",
       "label": "I_MON",
       "net": "ESP_GPIO3",
       "position_mm": [
-        177.695,
-        33.8
+        183.3,
+        44.362
       ],
       "diameter_mm": 1.0,
-      "nearest_body_mm": 1.029
+      "nearest_body_mm": 0.141
     },
     {
       "ref": "TP13",
@@ -144,7 +144,7 @@
         97.2
       ],
       "diameter_mm": 1.0,
-      "nearest_body_mm": 1.599
+      "nearest_body_mm": 5.222
     },
     {
       "ref": "TP14",
@@ -155,7 +155,7 @@
         83.9214
       ],
       "diameter_mm": 1.0,
-      "nearest_body_mm": 0.452
+      "nearest_body_mm": 1.615
     },
     {
       "ref": "TP15",
@@ -166,7 +166,7 @@
         81.1
       ],
       "diameter_mm": 1.0,
-      "nearest_body_mm": 4.307
+      "nearest_body_mm": 5.505
     },
     {
       "ref": "TP16",
@@ -188,7 +188,7 @@
         58.0
       ],
       "diameter_mm": 1.0,
-      "nearest_body_mm": 1.499
+      "nearest_body_mm": 3.929
     },
     {
       "ref": "TP19",
@@ -254,7 +254,7 @@
         35.5
       ],
       "diameter_mm": 1.0,
-      "nearest_body_mm": 1.054
+      "nearest_body_mm": 0.343
     },
     {
       "ref": "TP27",
@@ -265,7 +265,7 @@
         94.4875
       ],
       "diameter_mm": 1.0,
-      "nearest_body_mm": 1.967
+      "nearest_body_mm": 0.242
     },
     {
       "ref": "TP30",
