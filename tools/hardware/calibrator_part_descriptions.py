@@ -145,7 +145,8 @@ def display(ref):
     """Descriptions for the 4 x 16 optical display and its column drivers.
 
     Bit 15 is the leftmost column. LED D(10+n) sits in row n//16 + 1 and
-    column bit 15 - n%16; column bit b is switched by Q(16-b).
+    column bit 15 - n%16; column bit b is switched by Q(16-b). Each LED has
+    its own 100 nF: C20-C35 for row 1, C80-C127 for rows 2-4.
     """
     kind, num = re.match(r"([A-Z]+)(\d+)", ref).groups()
     num = int(num)
@@ -166,9 +167,10 @@ def display(ref):
     if kind == "R" and 120 <= num <= 135:
         bit = 135 - num
         return f"100 kOhm gate pulldown keeping column bit {bit}'s MOSFET Q{16 - bit} off while the buffer is disabled."
-    if kind == "C" and 20 <= num <= 35:
-        bit = 35 - num
-        return f"100 nF bypass on the 5 V LED supply for display column bit {bit}."
+    if kind == "C" and (20 <= num <= 35 or 80 <= num <= 127):
+        row, col = (0, num - 20) if num <= 35 else ((num - 80) // 16 + 1, (num - 80) % 16)
+        return (f"100 nF local bypass at display LED D{10 + row * 16 + col} (row {row + 1} bit {15 - col}); "
+                "identical on every LED so all 64 turn on alike.")
     if kind == "C" and 40 <= num <= 55:
         bit = 55 - num
         return f"10 uF reservoir on the 5 V LED supply for display column bit {bit}."

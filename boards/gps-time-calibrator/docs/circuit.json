@@ -796,7 +796,7 @@
     "bom": true,
     "position": [
       34.5,
-      43.5,
+      52.0,
       90.0
     ]
   },
@@ -1056,7 +1056,7 @@
     "bom": true,
     "position": [
       40.5,
-      43.5,
+      52.0,
       90.0
     ]
   },
@@ -1316,7 +1316,7 @@
     "bom": true,
     "position": [
       46.5,
-      43.5,
+      52.0,
       90.0
     ]
   },
@@ -1576,7 +1576,7 @@
     "bom": true,
     "position": [
       52.5,
-      43.5,
+      52.0,
       90.0
     ]
   },
@@ -1836,7 +1836,7 @@
     "bom": true,
     "position": [
       58.5,
-      43.5,
+      52.0,
       90.0
     ]
   },
@@ -2096,7 +2096,7 @@
     "bom": true,
     "position": [
       64.5,
-      43.5,
+      52.0,
       90.0
     ]
   },
@@ -2356,7 +2356,7 @@
     "bom": true,
     "position": [
       70.5,
-      43.5,
+      52.0,
       90.0
     ]
   },
@@ -2616,7 +2616,7 @@
     "bom": true,
     "position": [
       76.5,
-      43.5,
+      52.0,
       90.0
     ]
   },
@@ -2876,7 +2876,7 @@
     "bom": true,
     "position": [
       82.5,
-      43.5,
+      52.0,
       90.0
     ]
   },
@@ -3136,7 +3136,7 @@
     "bom": true,
     "position": [
       88.5,
-      43.5,
+      52.0,
       90.0
     ]
   },
@@ -3396,7 +3396,7 @@
     "bom": true,
     "position": [
       94.5,
-      43.5,
+      52.0,
       90.0
     ]
   },
@@ -3656,7 +3656,7 @@
     "bom": true,
     "position": [
       100.5,
-      43.5,
+      52.0,
       90.0
     ]
   },
@@ -3916,7 +3916,7 @@
     "bom": true,
     "position": [
       106.5,
-      43.5,
+      52.0,
       90.0
     ]
   },
@@ -4176,7 +4176,7 @@
     "bom": true,
     "position": [
       112.5,
-      43.5,
+      52.0,
       90.0
     ]
   },
@@ -4436,7 +4436,7 @@
     "bom": true,
     "position": [
       118.5,
-      43.5,
+      52.0,
       90.0
     ]
   },
@@ -4696,7 +4696,7 @@
     "bom": true,
     "position": [
       124.5,
-      43.5,
+      52.0,
       90.0
     ]
   },
@@ -7068,5 +7068,917 @@
       0
     ],
     "manufacturer": "Wurth Elektronik"
+  },
+  "C80": {
+    "value": "100nF",
+    "mpn": "CL21B104KBCNNNC",
+    "lcsc": "C1711",
+    "footprint": "Calibrator:C_0805_2012Metric",
+    "pins": {
+      "1": "VIN_5V",
+      "2": "GND"
+    },
+    "kind": "c",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      34.5,
+      64.0,
+      90.0
+    ]
+  },
+  "C81": {
+    "value": "100nF",
+    "mpn": "CL21B104KBCNNNC",
+    "lcsc": "C1711",
+    "footprint": "Calibrator:C_0805_2012Metric",
+    "pins": {
+      "1": "VIN_5V",
+      "2": "GND"
+    },
+    "kind": "c",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      40.5,
+      64.0,
+      90.0
+    ]
+  },
+  "C82": {
+    "value": "100nF",
+    "mpn": "CL21B104KBCNNNC",
+    "lcsc": "C1711",
+    "footprint": "Calibrator:C_0805_2012Metric",
+    "pins": {
+      "1": "VIN_5V",
+      "2": "GND"
+    },
+    "kind": "c",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      46.5,
+      64.0,
+      90.0
+    ]
+  },
+  "C83": {
+    "value": "100nF",
+    "mpn": "CL21B104KBCNNNC",
+    "lcsc": "C1711",
+    "footprint": "Calibrator:C_0805_2012Metric",
+    "pins": {
+      "1": "VIN_5V",
+      "2": "GND"
+    },
+    "kind": "c",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      52.5,
+      64.0,
+      90.0
+    ]
+  },
+  "C84": {
+    "value": "100nF",
+    "mpn": "CL21B104KBCNNNC",
+    "lcsc": "C1711",
+    "footprint": "Calibrator:C_0805_2012Metric",
+    "pins": {
+      "1": "VIN_5V",
+      "2": "GND"
+    },
+    "kind": "c",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      58.5,
+      64.0,
+      90.0
+    ]
+  },
+  "C85": {
+    "value": "100nF",
+    "mpn": "CL21B104KBCNNNC",
+    "lcsc": "C1711",
+    "footprint": "Calibrator:C_0805_2012Metric",
+    "pins": {
+      "1": "VIN_5V",
+      "2": "GND"
+    },
+    "kind": "c",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      64.5,
+      64.0,
+      90.0
+    ]
+  },
+  "C86": {
+    "value": "100nF",
+    "mpn": "CL21B104KBCNNNC",
+    "lcsc": "C1711",
+    "footprint": "Calibrator:C_0805_2012Metric",
+    "pins": {
+      "1": "VIN_5V",
+      "2": "GND"
+    },
+    "kind": "c",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      70.5,
+      64.0,
+      90.0
+    ]
+  },
+  "C87": {
+    "value": "100nF",
+    "mpn": "CL21B104KBCNNNC",
+    "lcsc": "C1711",
+    "footprint": "Calibrator:C_0805_2012Metric",
+    "pins": {
+      "1": "VIN_5V",
+      "2": "GND"
+    },
+    "kind": "c",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      76.5,
+      64.0,
+      90.0
+    ]
+  },
+  "C88": {
+    "value": "100nF",
+    "mpn": "CL21B104KBCNNNC",
+    "lcsc": "C1711",
+    "footprint": "Calibrator:C_0805_2012Metric",
+    "pins": {
+      "1": "VIN_5V",
+      "2": "GND"
+    },
+    "kind": "c",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      82.5,
+      64.0,
+      90.0
+    ]
+  },
+  "C89": {
+    "value": "100nF",
+    "mpn": "CL21B104KBCNNNC",
+    "lcsc": "C1711",
+    "footprint": "Calibrator:C_0805_2012Metric",
+    "pins": {
+      "1": "VIN_5V",
+      "2": "GND"
+    },
+    "kind": "c",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      88.5,
+      64.0,
+      90.0
+    ]
+  },
+  "C90": {
+    "value": "100nF",
+    "mpn": "CL21B104KBCNNNC",
+    "lcsc": "C1711",
+    "footprint": "Calibrator:C_0805_2012Metric",
+    "pins": {
+      "1": "VIN_5V",
+      "2": "GND"
+    },
+    "kind": "c",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      94.5,
+      64.0,
+      90.0
+    ]
+  },
+  "C91": {
+    "value": "100nF",
+    "mpn": "CL21B104KBCNNNC",
+    "lcsc": "C1711",
+    "footprint": "Calibrator:C_0805_2012Metric",
+    "pins": {
+      "1": "VIN_5V",
+      "2": "GND"
+    },
+    "kind": "c",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      100.5,
+      64.0,
+      90.0
+    ]
+  },
+  "C92": {
+    "value": "100nF",
+    "mpn": "CL21B104KBCNNNC",
+    "lcsc": "C1711",
+    "footprint": "Calibrator:C_0805_2012Metric",
+    "pins": {
+      "1": "VIN_5V",
+      "2": "GND"
+    },
+    "kind": "c",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      106.5,
+      64.0,
+      90.0
+    ]
+  },
+  "C93": {
+    "value": "100nF",
+    "mpn": "CL21B104KBCNNNC",
+    "lcsc": "C1711",
+    "footprint": "Calibrator:C_0805_2012Metric",
+    "pins": {
+      "1": "VIN_5V",
+      "2": "GND"
+    },
+    "kind": "c",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      112.5,
+      64.0,
+      90.0
+    ]
+  },
+  "C94": {
+    "value": "100nF",
+    "mpn": "CL21B104KBCNNNC",
+    "lcsc": "C1711",
+    "footprint": "Calibrator:C_0805_2012Metric",
+    "pins": {
+      "1": "VIN_5V",
+      "2": "GND"
+    },
+    "kind": "c",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      118.5,
+      64.0,
+      90.0
+    ]
+  },
+  "C95": {
+    "value": "100nF",
+    "mpn": "CL21B104KBCNNNC",
+    "lcsc": "C1711",
+    "footprint": "Calibrator:C_0805_2012Metric",
+    "pins": {
+      "1": "VIN_5V",
+      "2": "GND"
+    },
+    "kind": "c",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      124.5,
+      64.0,
+      90.0
+    ]
+  },
+  "C96": {
+    "value": "100nF",
+    "mpn": "CL21B104KBCNNNC",
+    "lcsc": "C1711",
+    "footprint": "Calibrator:C_0805_2012Metric",
+    "pins": {
+      "1": "VIN_5V",
+      "2": "GND"
+    },
+    "kind": "c",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      34.5,
+      76.0,
+      90.0
+    ]
+  },
+  "C97": {
+    "value": "100nF",
+    "mpn": "CL21B104KBCNNNC",
+    "lcsc": "C1711",
+    "footprint": "Calibrator:C_0805_2012Metric",
+    "pins": {
+      "1": "VIN_5V",
+      "2": "GND"
+    },
+    "kind": "c",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      40.5,
+      76.0,
+      90.0
+    ]
+  },
+  "C98": {
+    "value": "100nF",
+    "mpn": "CL21B104KBCNNNC",
+    "lcsc": "C1711",
+    "footprint": "Calibrator:C_0805_2012Metric",
+    "pins": {
+      "1": "VIN_5V",
+      "2": "GND"
+    },
+    "kind": "c",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      46.5,
+      76.0,
+      90.0
+    ]
+  },
+  "C99": {
+    "value": "100nF",
+    "mpn": "CL21B104KBCNNNC",
+    "lcsc": "C1711",
+    "footprint": "Calibrator:C_0805_2012Metric",
+    "pins": {
+      "1": "VIN_5V",
+      "2": "GND"
+    },
+    "kind": "c",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      52.5,
+      76.0,
+      90.0
+    ]
+  },
+  "C100": {
+    "value": "100nF",
+    "mpn": "CL21B104KBCNNNC",
+    "lcsc": "C1711",
+    "footprint": "Calibrator:C_0805_2012Metric",
+    "pins": {
+      "1": "VIN_5V",
+      "2": "GND"
+    },
+    "kind": "c",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      58.5,
+      76.0,
+      90.0
+    ]
+  },
+  "C101": {
+    "value": "100nF",
+    "mpn": "CL21B104KBCNNNC",
+    "lcsc": "C1711",
+    "footprint": "Calibrator:C_0805_2012Metric",
+    "pins": {
+      "1": "VIN_5V",
+      "2": "GND"
+    },
+    "kind": "c",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      64.5,
+      76.0,
+      90.0
+    ]
+  },
+  "C102": {
+    "value": "100nF",
+    "mpn": "CL21B104KBCNNNC",
+    "lcsc": "C1711",
+    "footprint": "Calibrator:C_0805_2012Metric",
+    "pins": {
+      "1": "VIN_5V",
+      "2": "GND"
+    },
+    "kind": "c",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      70.5,
+      76.0,
+      90.0
+    ]
+  },
+  "C103": {
+    "value": "100nF",
+    "mpn": "CL21B104KBCNNNC",
+    "lcsc": "C1711",
+    "footprint": "Calibrator:C_0805_2012Metric",
+    "pins": {
+      "1": "VIN_5V",
+      "2": "GND"
+    },
+    "kind": "c",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      76.5,
+      76.0,
+      90.0
+    ]
+  },
+  "C104": {
+    "value": "100nF",
+    "mpn": "CL21B104KBCNNNC",
+    "lcsc": "C1711",
+    "footprint": "Calibrator:C_0805_2012Metric",
+    "pins": {
+      "1": "VIN_5V",
+      "2": "GND"
+    },
+    "kind": "c",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      82.5,
+      76.0,
+      90.0
+    ]
+  },
+  "C105": {
+    "value": "100nF",
+    "mpn": "CL21B104KBCNNNC",
+    "lcsc": "C1711",
+    "footprint": "Calibrator:C_0805_2012Metric",
+    "pins": {
+      "1": "VIN_5V",
+      "2": "GND"
+    },
+    "kind": "c",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      88.5,
+      76.0,
+      90.0
+    ]
+  },
+  "C106": {
+    "value": "100nF",
+    "mpn": "CL21B104KBCNNNC",
+    "lcsc": "C1711",
+    "footprint": "Calibrator:C_0805_2012Metric",
+    "pins": {
+      "1": "VIN_5V",
+      "2": "GND"
+    },
+    "kind": "c",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      94.5,
+      76.0,
+      90.0
+    ]
+  },
+  "C107": {
+    "value": "100nF",
+    "mpn": "CL21B104KBCNNNC",
+    "lcsc": "C1711",
+    "footprint": "Calibrator:C_0805_2012Metric",
+    "pins": {
+      "1": "VIN_5V",
+      "2": "GND"
+    },
+    "kind": "c",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      100.5,
+      76.0,
+      90.0
+    ]
+  },
+  "C108": {
+    "value": "100nF",
+    "mpn": "CL21B104KBCNNNC",
+    "lcsc": "C1711",
+    "footprint": "Calibrator:C_0805_2012Metric",
+    "pins": {
+      "1": "VIN_5V",
+      "2": "GND"
+    },
+    "kind": "c",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      106.5,
+      76.0,
+      90.0
+    ]
+  },
+  "C109": {
+    "value": "100nF",
+    "mpn": "CL21B104KBCNNNC",
+    "lcsc": "C1711",
+    "footprint": "Calibrator:C_0805_2012Metric",
+    "pins": {
+      "1": "VIN_5V",
+      "2": "GND"
+    },
+    "kind": "c",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      112.5,
+      76.0,
+      90.0
+    ]
+  },
+  "C110": {
+    "value": "100nF",
+    "mpn": "CL21B104KBCNNNC",
+    "lcsc": "C1711",
+    "footprint": "Calibrator:C_0805_2012Metric",
+    "pins": {
+      "1": "VIN_5V",
+      "2": "GND"
+    },
+    "kind": "c",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      118.5,
+      76.0,
+      90.0
+    ]
+  },
+  "C111": {
+    "value": "100nF",
+    "mpn": "CL21B104KBCNNNC",
+    "lcsc": "C1711",
+    "footprint": "Calibrator:C_0805_2012Metric",
+    "pins": {
+      "1": "VIN_5V",
+      "2": "GND"
+    },
+    "kind": "c",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      124.5,
+      76.0,
+      90.0
+    ]
+  },
+  "C112": {
+    "value": "100nF",
+    "mpn": "CL21B104KBCNNNC",
+    "lcsc": "C1711",
+    "footprint": "Calibrator:C_0805_2012Metric",
+    "pins": {
+      "1": "VIN_5V",
+      "2": "GND"
+    },
+    "kind": "c",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      34.5,
+      88.0,
+      90.0
+    ]
+  },
+  "C113": {
+    "value": "100nF",
+    "mpn": "CL21B104KBCNNNC",
+    "lcsc": "C1711",
+    "footprint": "Calibrator:C_0805_2012Metric",
+    "pins": {
+      "1": "VIN_5V",
+      "2": "GND"
+    },
+    "kind": "c",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      40.5,
+      88.0,
+      90.0
+    ]
+  },
+  "C114": {
+    "value": "100nF",
+    "mpn": "CL21B104KBCNNNC",
+    "lcsc": "C1711",
+    "footprint": "Calibrator:C_0805_2012Metric",
+    "pins": {
+      "1": "VIN_5V",
+      "2": "GND"
+    },
+    "kind": "c",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      46.5,
+      88.0,
+      90.0
+    ]
+  },
+  "C115": {
+    "value": "100nF",
+    "mpn": "CL21B104KBCNNNC",
+    "lcsc": "C1711",
+    "footprint": "Calibrator:C_0805_2012Metric",
+    "pins": {
+      "1": "VIN_5V",
+      "2": "GND"
+    },
+    "kind": "c",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      52.5,
+      88.0,
+      90.0
+    ]
+  },
+  "C116": {
+    "value": "100nF",
+    "mpn": "CL21B104KBCNNNC",
+    "lcsc": "C1711",
+    "footprint": "Calibrator:C_0805_2012Metric",
+    "pins": {
+      "1": "VIN_5V",
+      "2": "GND"
+    },
+    "kind": "c",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      58.5,
+      88.0,
+      90.0
+    ]
+  },
+  "C117": {
+    "value": "100nF",
+    "mpn": "CL21B104KBCNNNC",
+    "lcsc": "C1711",
+    "footprint": "Calibrator:C_0805_2012Metric",
+    "pins": {
+      "1": "VIN_5V",
+      "2": "GND"
+    },
+    "kind": "c",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      64.5,
+      88.0,
+      90.0
+    ]
+  },
+  "C118": {
+    "value": "100nF",
+    "mpn": "CL21B104KBCNNNC",
+    "lcsc": "C1711",
+    "footprint": "Calibrator:C_0805_2012Metric",
+    "pins": {
+      "1": "VIN_5V",
+      "2": "GND"
+    },
+    "kind": "c",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      70.5,
+      88.0,
+      90.0
+    ]
+  },
+  "C119": {
+    "value": "100nF",
+    "mpn": "CL21B104KBCNNNC",
+    "lcsc": "C1711",
+    "footprint": "Calibrator:C_0805_2012Metric",
+    "pins": {
+      "1": "VIN_5V",
+      "2": "GND"
+    },
+    "kind": "c",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      76.5,
+      88.0,
+      90.0
+    ]
+  },
+  "C120": {
+    "value": "100nF",
+    "mpn": "CL21B104KBCNNNC",
+    "lcsc": "C1711",
+    "footprint": "Calibrator:C_0805_2012Metric",
+    "pins": {
+      "1": "VIN_5V",
+      "2": "GND"
+    },
+    "kind": "c",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      82.5,
+      88.0,
+      90.0
+    ]
+  },
+  "C121": {
+    "value": "100nF",
+    "mpn": "CL21B104KBCNNNC",
+    "lcsc": "C1711",
+    "footprint": "Calibrator:C_0805_2012Metric",
+    "pins": {
+      "1": "VIN_5V",
+      "2": "GND"
+    },
+    "kind": "c",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      88.5,
+      88.0,
+      90.0
+    ]
+  },
+  "C122": {
+    "value": "100nF",
+    "mpn": "CL21B104KBCNNNC",
+    "lcsc": "C1711",
+    "footprint": "Calibrator:C_0805_2012Metric",
+    "pins": {
+      "1": "VIN_5V",
+      "2": "GND"
+    },
+    "kind": "c",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      94.5,
+      88.0,
+      90.0
+    ]
+  },
+  "C123": {
+    "value": "100nF",
+    "mpn": "CL21B104KBCNNNC",
+    "lcsc": "C1711",
+    "footprint": "Calibrator:C_0805_2012Metric",
+    "pins": {
+      "1": "VIN_5V",
+      "2": "GND"
+    },
+    "kind": "c",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      100.5,
+      88.0,
+      90.0
+    ]
+  },
+  "C124": {
+    "value": "100nF",
+    "mpn": "CL21B104KBCNNNC",
+    "lcsc": "C1711",
+    "footprint": "Calibrator:C_0805_2012Metric",
+    "pins": {
+      "1": "VIN_5V",
+      "2": "GND"
+    },
+    "kind": "c",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      106.5,
+      88.0,
+      90.0
+    ]
+  },
+  "C125": {
+    "value": "100nF",
+    "mpn": "CL21B104KBCNNNC",
+    "lcsc": "C1711",
+    "footprint": "Calibrator:C_0805_2012Metric",
+    "pins": {
+      "1": "VIN_5V",
+      "2": "GND"
+    },
+    "kind": "c",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      112.5,
+      88.0,
+      90.0
+    ]
+  },
+  "C126": {
+    "value": "100nF",
+    "mpn": "CL21B104KBCNNNC",
+    "lcsc": "C1711",
+    "footprint": "Calibrator:C_0805_2012Metric",
+    "pins": {
+      "1": "VIN_5V",
+      "2": "GND"
+    },
+    "kind": "c",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      118.5,
+      88.0,
+      90.0
+    ]
+  },
+  "C127": {
+    "value": "100nF",
+    "mpn": "CL21B104KBCNNNC",
+    "lcsc": "C1711",
+    "footprint": "Calibrator:C_0805_2012Metric",
+    "pins": {
+      "1": "VIN_5V",
+      "2": "GND"
+    },
+    "kind": "c",
+    "types": {},
+    "names": {},
+    "bom": true,
+    "position": [
+      124.5,
+      88.0,
+      90.0
+    ]
   }
 }

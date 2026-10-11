@@ -4,7 +4,7 @@
 
 ## Optical display
 
-Four identical rows of sixteen green 1206 LEDs (YLED1206G / C30584801) show bit 15 at the left through bit 0 at the right. Rows update together, without multiplexing. Each LED has its own **470 Ω, 1%, 0805** resistor. Sixteen AO3400A MOSFETs switch the columns through two SN74LVC541 buffers, with individual gate resistors and pulldowns. Each column has 100 nF and 10 µF bypass capacitors. All discrete resistors, capacitors and inductors are 0805 or larger; exact substitutions are in `docs/passive-parts-0805.json`.
+Four identical rows of sixteen green 1206 LEDs (YLED1206G / C30584801) show bit 15 at the left through bit 0 at the right. Rows update together, without multiplexing. Each LED has its own **470 Ω, 1%, 0805** resistor. Sixteen AO3400A MOSFETs switch the columns through two SN74LVC541 buffers, with individual gate resistors and pulldowns. Every LED has its own 100 nF bypass beside its resistor (64 identical placements, so all LEDs see the same local supply at turn-on), and each column adds a 10 µF reservoir. All discrete resistors, capacitors and inductors are 0805 or larger; exact substitutions are in `docs/passive-parts-0805.json`.
 
 Expected display current is approximately 0.26–0.33 A with all LEDs on, depending on LED forward voltage. Equal resistors reduce electrical mismatch but do not remove optical bin variation; use a common LED lot and measure brightness, supply bounce and optical edge timing on assembled hardware.
 
