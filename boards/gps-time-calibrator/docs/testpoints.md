@@ -38,7 +38,7 @@ No paste apertures, purchased parts, BOM entries or placement entries. The bare 
 | TP15 | PPS_ESP | `ESP_GPIO38` | 1 | 167.500 / 81.100 |
 | TP16 | CLK_FPGA | `FPGA_IOB_3B_G6` | 1 | 161.171 / 58.059 |
 | TP18 | TRIG_2V5 | `TRIGGER_VREF` | 1 | 185.000 / 58.000 |
-| TP19 | TRIG_CMP | `TRIGGER_5V` | 1 | 179.700 / 57.000 |
+| TP19 | TRIG_CMP | `TRIGGER_5V` | 1 | 183.000 / 53.700 |
 | TP20 | TRIG_3V3 | `TRIGGER_3V3` | 1 | 176.954 / 48.000 |
 | TP23 | OUT_FPGA | `FPGA_IOT_51A` | 1 | 182.613 / 71.350 |
 | TP24 | OUT_DRV | `TRIGGER_DRV` | 1 | 188.588 / 72.500 |

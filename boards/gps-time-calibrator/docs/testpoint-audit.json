@@ -1,5 +1,5 @@
 {
-  "pcb_sha256": "d85e87aa6c8497a43518bc44bef4d336ea83a6d09dff057749050ee58218b6b9",
+  "pcb_sha256": "32ac3e027f5dd1a934412517e0d63a2cf5a9e0f000d23de9921f9be80e724d63",
   "count": 24,
   "findings": [],
   "probe_points": [
@@ -184,11 +184,11 @@
       "label": "TRIG_CMP",
       "net": "TRIGGER_5V",
       "position_mm": [
-        179.7,
-        57.0
+        183.0,
+        53.7
       ],
       "diameter_mm": 1.0,
-      "nearest_body_mm": 0.499
+      "nearest_body_mm": 0.759
     },
     {
       "ref": "TP20",

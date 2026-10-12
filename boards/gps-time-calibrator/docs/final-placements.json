@@ -1320,8 +1320,8 @@
     "footprint": "Calibrator:R_0805_2012Metric"
   },
   "TP19": {
-    "x_mm": 179.7,
-    "y_mm": 57.0,
+    "x_mm": 183.0,
+    "y_mm": 53.7,
     "rotation_deg": 0.0,
     "footprint": "Calibrator:TP_1p0mm"
   },
