@@ -128,8 +128,6 @@ FIXED = {
     "TP26": "Test pad: GPS UART RX (from ESP32 GPIO43).",
     "TP27": "Test pad: GPS receiver RESET_N.",
     "TP30": "Test pad: display output enable LED_OE_N.",
-    "TP63": "Test pad: OLED I2C SCL (ESP GPIO2).",
-    "TP64": "Test pad: OLED I2C SDA (ESP GPIO1).",
 }
 
 

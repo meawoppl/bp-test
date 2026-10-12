@@ -534,48 +534,6 @@
         21.1375
       ],
       "branch_mm": 2.0
-    },
-    {
-      "label": "OLED_SCL",
-      "net": "ESP_GPIO2",
-      "source": [
-        "R174",
-        "2"
-      ],
-      "diameter": 1.0,
-      "group": "control",
-      "target": null,
-      "ref": "TP63",
-      "position": [
-        146.25,
-        68.0875
-      ],
-      "label_position": [
-        141.944999,
-        68.0875
-      ],
-      "branch_mm": 2.0
-    },
-    {
-      "label": "OLED_SDA",
-      "net": "ESP_GPIO1",
-      "source": [
-        "R175",
-        "2"
-      ],
-      "diameter": 1.0,
-      "group": "control",
-      "target": null,
-      "ref": "TP64",
-      "position": [
-        146.25,
-        65.3875
-      ],
-      "label_position": [
-        141.945,
-        65.3875
-      ],
-      "branch_mm": 7.071
     }
   ],
   "missing": []

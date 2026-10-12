@@ -77,12 +77,6 @@
     "rotation_deg": 90.0,
     "footprint": "Calibrator:R_0805_2012Metric"
   },
-  "TP63": {
-    "x_mm": 146.25,
-    "y_mm": 68.0875,
-    "rotation_deg": 0.0,
-    "footprint": "Calibrator:TP_1p0mm"
-  },
   "D73": {
     "x_mm": 122.0,
     "y_mm": 84.0,
@@ -1774,12 +1768,6 @@
     "y_mm": 17.0,
     "rotation_deg": 0.0,
     "footprint": "Calibrator:R_0805_2012Metric"
-  },
-  "TP64": {
-    "x_mm": 146.25,
-    "y_mm": 65.3875,
-    "rotation_deg": 0.0,
-    "footprint": "Calibrator:TP_1p0mm"
   },
   "L1": {
     "x_mm": 192.25,

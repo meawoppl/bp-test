@@ -1,10 +1,10 @@
 # Bring-up test points
 
-26 labeled bare-copper signal/power probe pads. Dedicated ground pads were removed at the user’s request; use the grounded SMA connector shields. The 16 per-channel LED gate/drain pairs were removed at the user’s request; use the existing large LED, resistor and MOSFET pads. TP31–TP62 are deliberately unused reference numbers.
+24 labeled bare-copper signal/power probe pads. Dedicated ground pads were removed at the user’s request; use the grounded SMA connector shields. The 16 per-channel LED gate/drain pairs were removed at the user’s request; use the existing large LED, resistor and MOSFET pads. TP31–TP62 are deliberately unused reference numbers. The OLED I2C pads TP63/TP64 were removed at the user’s request; probe SCL/SDA at the J8 header.
 
 All pads are on the component side, outside the assembled module, OLED, mounting hardware and other component envelopes. Functional labels are 0.9 mm silkscreen text. `testpoint-audit.json` records native pad and label access checks; native DRC separately verifies electrical and silkscreen/mask clearance.
 
-All 26 pads are uniformly 1 mm in diameter. These are bare probe pads, not fitted wire loops. TP6, TP64 and TP63 form a vertical column at X=146.25 mm beside the OCXO.
+All 24 pads are uniformly 1 mm in diameter. These are bare probe pads, not fitted wire loops.
 
 No paste apertures, purchased parts, BOM entries or placement entries. The bare pads connect solidly to same-net copper zones; soldering thermal reliefs are unnecessary for these unpopulated features.
 
@@ -46,13 +46,11 @@ No paste apertures, purchased parts, BOM entries or placement entries. The bare 
 | TP26 | GPS_RX | `ESP_GPIO43_TXD` | 1 | 166.550 / 35.500 |
 | TP27 | GPS_RST_N | `GPS_RESET_N` | 1 | 178.213 / 94.487 |
 | TP30 | LED_OE_N | `FPGA_IOT_44B` | 1 | 58.575 / 21.137 |
-| TP63 | OLED_SCL | `ESP_GPIO2` | 1 | 146.250 / 68.088 |
-| TP64 | OLED_SDA | `ESP_GPIO1` | 1 | 146.250 / 65.388 |
 
 ## Validation
 
 - Native ERC: 0 violations. Native DRC: 0 violations, 0 unconnected items, 0 schematic-parity issues.
-- Access audit: 31 pads and their functional labels clear all component and assembled module/OLED envelopes.
+- Access audit: 24 pads and their functional labels clear all component and assembled module/OLED envelopes.
 - Native drill-to-SMD-pad audit: 0 encroachments, including a 0.05 mm drill margin.
 - GPS-side passives R177/R7/R6/C8/C9/R180/R179 align at X=174 mm. Their local routes and TP13 were adjusted. FPGA_IOT_48B now remains on F.Cu at J2; two unnecessary transition vias were removed. No added branch on CLK_FPGA.
 - Native top-view 3D render inspected for visible pads and labels; fabrication outputs republished with matching source hashes. BOM/CPL remain 36 groups / 290 populated placements.

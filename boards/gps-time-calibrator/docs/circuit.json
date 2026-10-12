@@ -6600,52 +6600,6 @@
       0
     ]
   },
-  "TP63": {
-    "value": "OLED_SCL",
-    "mpn": "",
-    "lcsc": "",
-    "footprint": "Calibrator:TP_1p0mm",
-    "pins": {
-      "1": "ESP_GPIO2"
-    },
-    "kind": "testpoint",
-    "names": {
-      "1": "ESP_GPIO2"
-    },
-    "types": {
-      "1": "passive"
-    },
-    "bom": false,
-    "assembly": "PCB copper",
-    "position": [
-      146.25,
-      68.0875,
-      0
-    ]
-  },
-  "TP64": {
-    "value": "OLED_SDA",
-    "mpn": "",
-    "lcsc": "",
-    "footprint": "Calibrator:TP_1p0mm",
-    "pins": {
-      "1": "ESP_GPIO1"
-    },
-    "kind": "testpoint",
-    "names": {
-      "1": "ESP_GPIO1"
-    },
-    "types": {
-      "1": "passive"
-    },
-    "bom": false,
-    "assembly": "PCB copper",
-    "position": [
-      146.25,
-      65.3875,
-      0
-    ]
-  },
   "TP2": {
     "value": "5V_LOAD",
     "mpn": "",

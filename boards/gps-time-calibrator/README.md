@@ -131,7 +131,7 @@ See [placement and routing review](docs/io-placement-review.md).
 
 ## Bring-up access
 
-The carrier has 27 labeled, unpopulated signal/power probe pads outside the module/display envelopes. See [testpoint map](docs/testpoints.md) and [CSV](docs/testpoints.csv). Per-channel LED probe pads are intentionally omitted; use their existing component pads.
+The carrier has 24 labeled, unpopulated signal/power probe pads outside the module/display envelopes. See [testpoint map](docs/testpoints.md) and [CSV](docs/testpoints.csv). Per-channel LED probe pads are intentionally omitted; use their existing component pads.
 
 ## RFC snapshot — ordering deferred
 

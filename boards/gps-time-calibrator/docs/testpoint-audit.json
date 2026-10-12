@@ -1,6 +1,6 @@
 {
-  "pcb_sha256": "cbd7e8dfc41bbb6e54b870376574bb2d1608cd8fd984362915342f10db48db45",
-  "count": 26,
+  "pcb_sha256": "fe601f5cd19bda4f9980dcfaa2279dd98747ced91fe2d15a24358cb204d8abde",
+  "count": 24,
   "findings": [],
   "probe_points": [
     {
@@ -266,28 +266,6 @@
       ],
       "diameter_mm": 1.0,
       "nearest_body_mm": 0.904
-    },
-    {
-      "ref": "TP63",
-      "label": "OLED_SCL",
-      "net": "ESP_GPIO2",
-      "position_mm": [
-        146.25,
-        68.0875
-      ],
-      "diameter_mm": 1.0,
-      "nearest_body_mm": 1.775
-    },
-    {
-      "ref": "TP64",
-      "label": "OLED_SDA",
-      "net": "ESP_GPIO1",
-      "position_mm": [
-        146.25,
-        65.3875
-      ],
-      "diameter_mm": 1.0,
-      "nearest_body_mm": 0.879
     }
   ],
   "notes": [
