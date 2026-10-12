@@ -1,5 +1,5 @@
 {
-  "pcb_sha256": "79b18d4773d4a285331321b894ee5f90a8038abebce03a3482185b5ef413f40e",
+  "pcb_sha256": "22d18ee9c4406ac70be7bccca70381338e20904dbde02d531aef8ed3afb49986",
   "count": 26,
   "findings": [],
   "probe_points": [
@@ -276,7 +276,7 @@
         68.0875
       ],
       "diameter_mm": 1.0,
-      "nearest_body_mm": 0.712
+      "nearest_body_mm": 1.775
     },
     {
       "ref": "TP64",

@@ -24,15 +24,15 @@
     "footprint": "Calibrator:C_0805_2012Metric"
   },
   "R175": {
-    "x_mm": 151.0,
-    "y_mm": 71.0,
+    "x_mm": 150.81,
+    "y_mm": 79.6,
     "rotation_deg": 90.0,
     "footprint": "Calibrator:R_0805_2012Metric"
   },
   "C77": {
-    "x_mm": 135.0,
-    "y_mm": 71.0,
-    "rotation_deg": 0.0,
+    "x_mm": 140.9,
+    "y_mm": 79.6,
+    "rotation_deg": 90.0,
     "footprint": "Calibrator:C_0805_2012Metric"
   },
   "H2": {
@@ -996,9 +996,9 @@
     "footprint": "Calibrator:R_0805_2012Metric"
   },
   "C76": {
-    "x_mm": 140.0,
-    "y_mm": 71.0,
-    "rotation_deg": 0.0,
+    "x_mm": 143.19,
+    "y_mm": 79.6,
+    "rotation_deg": 90.0,
     "footprint": "Calibrator:C_0805_2012Metric"
   },
   "R59": {
@@ -1614,8 +1614,8 @@
     "footprint": "Calibrator:R_0805_2012Metric"
   },
   "R174": {
-    "x_mm": 145.73,
-    "y_mm": 71.0,
+    "x_mm": 148.27,
+    "y_mm": 79.6,
     "rotation_deg": 90.0,
     "footprint": "Calibrator:R_0805_2012Metric"
   },
