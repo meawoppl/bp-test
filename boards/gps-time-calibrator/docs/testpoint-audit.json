@@ -1,5 +1,5 @@
 {
-  "pcb_sha256": "cbf5bff6d6c574319bac412a065d43fb4a8045f2c98934f819095af5e83e591a",
+  "pcb_sha256": "cbd7e8dfc41bbb6e54b870376574bb2d1608cd8fd984362915342f10db48db45",
   "count": 26,
   "findings": [],
   "probe_points": [
@@ -89,7 +89,7 @@
         77.6333
       ],
       "diameter_mm": 1.0,
-      "nearest_body_mm": 2.334
+      "nearest_body_mm": 2.048
     },
     {
       "ref": "TP10",
@@ -144,7 +144,7 @@
         83.9214
       ],
       "diameter_mm": 1.0,
-      "nearest_body_mm": 1.615
+      "nearest_body_mm": 0.643
     },
     {
       "ref": "TP15",
@@ -155,7 +155,7 @@
         81.1
       ],
       "diameter_mm": 1.0,
-      "nearest_body_mm": 5.505
+      "nearest_body_mm": 4.507
     },
     {
       "ref": "TP16",
