@@ -1,5 +1,5 @@
 {
-  "pcb_sha256": "5c57b2ab6f866dbc7662325933ec8e6006608d951e0aa1ca394f4a016ffb79a0",
+  "pcb_sha256": "813460c9d486823137bfee99359afc304769930f95d7b038688c8f4a133477ce",
   "count": 24,
   "findings": [],
   "probe_points": [
@@ -85,11 +85,11 @@
       "label": "GPS_EN",
       "net": "ESP_GPIO6",
       "position_mm": [
-        168.2458,
+        166.2458,
         77.6333
       ],
       "diameter_mm": 1.0,
-      "nearest_body_mm": 3.917
+      "nearest_body_mm": 3.696
     },
     {
       "ref": "TP10",
@@ -129,33 +129,33 @@
       "label": "PPS_SRC",
       "net": "GPS_PPS",
       "position_mm": [
-        168.2,
+        166.2,
         97.2
       ],
       "diameter_mm": 1.0,
-      "nearest_body_mm": 5.389
+      "nearest_body_mm": 4.844
     },
     {
       "ref": "TP14",
       "label": "PPS_FPGA",
       "net": "FPGA_IOT_46B_G0",
       "position_mm": [
-        169.4089,
+        167.1714,
         83.9214
       ],
       "diameter_mm": 1.0,
-      "nearest_body_mm": 2.606
+      "nearest_body_mm": 4.836
     },
     {
       "ref": "TP15",
       "label": "PPS_ESP",
       "net": "ESP_GPIO38",
       "position_mm": [
-        165.5,
-        81.1
+        164.5,
+        80.1
       ],
       "diameter_mm": 1.0,
-      "nearest_body_mm": 4.144
+      "nearest_body_mm": 3.144
     },
     {
       "ref": "TP16",

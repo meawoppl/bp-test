@@ -240,8 +240,8 @@
     "footprint": "Calibrator:C_0805_2012Metric"
   },
   "TP15": {
-    "x_mm": 165.5,
-    "y_mm": 81.1,
+    "x_mm": 164.5,
+    "y_mm": 80.1,
     "rotation_deg": 0.0,
     "footprint": "Calibrator:TP_1p0mm"
   },
@@ -924,7 +924,7 @@
     "footprint": "Calibrator:R_0805_2012Metric"
   },
   "TP13": {
-    "x_mm": 168.2,
+    "x_mm": 166.2,
     "y_mm": 97.2,
     "rotation_deg": 0.0,
     "footprint": "Calibrator:TP_1p0mm"
@@ -1062,7 +1062,7 @@
     "footprint": "Calibrator:R_0805_2012Metric"
   },
   "TP14": {
-    "x_mm": 169.4089,
+    "x_mm": 167.1714,
     "y_mm": 83.9214,
     "rotation_deg": 0.0,
     "footprint": "Calibrator:TP_1p0mm"
@@ -1836,7 +1836,7 @@
     "footprint": "Calibrator:C_0805_2012Metric"
   },
   "TP9": {
-    "x_mm": 168.2458,
+    "x_mm": 166.2458,
     "y_mm": 77.6333,
     "rotation_deg": 0.0,
     "footprint": "Calibrator:TP_1p0mm"

@@ -6273,7 +6273,7 @@
     "bom": false,
     "assembly": "PCB copper",
     "position": [
-      169.4089,
+      167.1714,
       83.9214,
       0
     ]
@@ -6457,7 +6457,7 @@
     "bom": false,
     "assembly": "PCB copper",
     "position": [
-      168.2458,
+      166.2458,
       77.6333,
       0
     ]
@@ -6710,7 +6710,7 @@
     "bom": false,
     "assembly": "PCB copper",
     "position": [
-      168.2,
+      166.2,
       97.2,
       0
     ]
@@ -6733,8 +6733,8 @@
     "bom": false,
     "assembly": "PCB copper",
     "position": [
-      165.5,
-      81.1,
+      164.5,
+      80.1,
       0
     ]
   },

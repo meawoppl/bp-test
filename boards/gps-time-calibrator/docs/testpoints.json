@@ -162,14 +162,14 @@
       "target": null,
       "ref": "TP9",
       "position": [
-        168.2458,
+        166.2458,
         77.6333
       ],
       "label_position": [
-        168.2458,
+        166.2458,
         75.9333
       ],
-      "branch_mm": 5.536
+      "branch_mm": 7.536
     },
     {
       "label": "PD_SDA",
@@ -246,14 +246,14 @@
       "target": null,
       "ref": "TP13",
       "position": [
-        168.2,
+        166.2,
         97.2
       ],
       "label_position": [
-        164.804999,
-        97.2
+        166.2,
+        98.7
       ],
-      "branch_mm": 3.5
+      "branch_mm": 5.5
     },
     {
       "label": "PPS_FPGA",
@@ -267,12 +267,12 @@
       "target": null,
       "ref": "TP14",
       "position": [
-        169.4089,
+        167.1714,
         83.9214
       ],
       "label_position": [
-        165.353899,
-        83.9214
+        167.1714,
+        85.4
       ],
       "branch_mm": 0.0
     },
@@ -288,14 +288,14 @@
       "target": null,
       "ref": "TP15",
       "position": [
-        165.5,
-        81.1
+        164.5,
+        80.1
       ],
       "label_position": [
         164.5,
-        79.6
+        81.6
       ],
-      "branch_mm": 6.821,
+      "branch_mm": 8.236,
       "branch_points": [
         [
           171.7,
@@ -306,8 +306,8 @@
           82.6
         ],
         [
-          165.5,
-          81.1
+          164.5,
+          80.1
         ]
       ]
     },
