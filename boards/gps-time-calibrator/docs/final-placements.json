@@ -1578,8 +1578,8 @@
     "footprint": "Calibrator:R_0805_2012Metric"
   },
   "R180": {
-    "x_mm": 174.0,
-    "y_mm": 94.0,
+    "x_mm": 174.2,
+    "y_mm": 92.2,
     "rotation_deg": 0.0,
     "footprint": "Calibrator:R_0805_2012Metric"
   },
