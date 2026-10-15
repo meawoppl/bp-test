@@ -69,6 +69,8 @@ static esp_err_t wifi_start(void)
         printf("wifi start failed: %s\n", esp_err_to_name(ret));
         return ret;
     }
+    // Modem sleep adds 100+ ms of latency; keep the radio awake while testing.
+    esp_wifi_set_ps(WIFI_PS_NONE);
     started = true;
     uint8_t mac[6];
     esp_wifi_get_mac(WIFI_IF_STA, mac);
@@ -119,6 +121,9 @@ static int cmd_connect(const char *ssid, const char *pass)
     wifi_config_t cfg = { 0 };
     strlcpy((char *)cfg.sta.ssid, ssid, sizeof(cfg.sta.ssid));
     if (pass) strlcpy((char *)cfg.sta.password, pass, sizeof(cfg.sta.password));
+    // Several APs can share an SSID: scan every channel and join the strongest.
+    cfg.sta.scan_method = WIFI_ALL_CHANNEL_SCAN;
+    cfg.sta.sort_method = WIFI_CONNECT_AP_BY_SIGNAL;
     esp_wifi_disconnect();
     xEventGroupClearBits(events, BIT_GOT_IP | BIT_FAILED);
     ESP_ERROR_CHECK(esp_wifi_set_config(WIFI_IF_STA, &cfg));
