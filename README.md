@@ -72,3 +72,9 @@ revisions; use the current manufacturing notes for ordering requirements.
 ## Tesla coil controller
 
 [Acquisition-first controller development](boards/tesla-coil-controller/README.md): eight simultaneous ADC channels, module v1 carrier interface, and two routed UD2.7-derived GDT bridges. This is an unfinished development board, not a fabrication release.
+
+## License
+
+[MIT](LICENSE). Third-party datasheets, vendor 3D models and imported library
+files included for reference keep their own terms; see the scope note in
+`LICENSE`.
