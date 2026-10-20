@@ -4,7 +4,7 @@
 `tesla-coil-controller` in the workspace selector. The current board contains the module
 interface, acquisition circuit, CST conditioning, and first-pass step-down circuits. Two 24 V GDT full bridges are included, with routed power and gate-drive circuits; the remaining regulator/ESP32/analog routing, input protection and bench qualification remain. J6 has been removed.
 
-Uses the ordered [ESP32-S2/iCE40UP5K module v1 ICD](../esp32-fpga-module/docs/ICD-v1.md)
+Uses the ordered [ESP32-S2/iCE40UP5K module v1 ICD](https://github.com/OrbitalCommons/gumstick/blob/main/current-df40-connectors/docs/ICD-v1.md)
 and the programmer's exact, renumbered mating footprints. J1/J2 centers are 25 mm apart;
 H1 is their midpoint. Correct module outline is shown on Dwgs.User, with 2 mm mating height.
 

@@ -1,15 +1,17 @@
 # Repository map
 
-Current workspace structure, 2026-09-27. The manifest registers five boards;
-the original direction tester lives at repository root.
+Current workspace structure, 2026-10-20. The manifest registers three boards
+(direction tester at the root, MainBoard reference, Tesla coil controller). The
+ESP32 + FPGA module, its programming carrier and the GPS calibrator moved to
+[OrbitalCommons/gumstick](https://github.com/OrbitalCommons/gumstick) and
+[OrbitalCommons/gps-time-calibrator](https://github.com/OrbitalCommons/gps-time-calibrator).
 
 ```mermaid
 flowchart TD
-    R["bp-test/"] --> C[".kicad-pcb.json<br/>Five-board portal manifest"]
+    R["bp-test/"] --> C[".kicad-pcb.json<br/>Three-board portal manifest"]
     R --> B["boards/"]
-    B --> M["esp32-fpga-module/<br/>ESP32 + FPGA daughterboard<br/>releases/v1 — ordered"]
-    B --> P["programming-carrier/<br/>USB programming + GPIO test<br/>releases/v1 — ordered"]
-    B --> G["gps-time-calibrator/<br/>GPS optical timing carrier<br/>releases/rfc-v1 — NOT ORDERED"]
+    B --> TC["tesla-coil-controller/<br/>Tesla coil controller"]
+    R --> GS["third_party/gumstick/<br/>submodule: OrbitalCommons/gumstick"]
     B --> O["mainboard-reference/<br/>Original imported design"]
     R --> D["direction-led-tester.kicad_*<br/>Root-level polarity tester"]
     D --> F["fab/<br/>Tester fabrication outputs"]
@@ -20,7 +22,7 @@ flowchart TD
     R --> LOC["Root local libraries/models<br/>*.pretty/, *.kicad_sym, 3dmodels/, lcsc/"]
 ```
 
-The module, programmer and calibrator each keep their own KiCad sources,
+Each board keeps its own KiCad sources,
 project-local symbols/footprints/models, design notes in `docs/`, current
 exports in `fab/`, and frozen fabrication snapshots in `releases/`.
 

@@ -4,52 +4,6 @@
   "qualityProfile": "docs/pcb-playbook/pcb-profile.yaml",
   "projects": [
     {
-      "id": "esp32-fpga-module",
-      "name": "ESP32 + FPGA module (development)",
-      "root": "boards/esp32-fpga-module",
-      "kicad": {
-        "project": "module.kicad_pro",
-        "schematic": "module.kicad_sch",
-        "pcb": "module.kicad_pcb"
-      },
-      "artifacts": {
-        "gerbers": "fab/gerbers",
-        "jlcpcb": "fab/jlcpcb"
-      },
-      "manufacturer": {
-        "name": "JLCPCB",
-        "profile": "FR4-4L-1oz-0.5oz-0.45-0.20-via-routed",
-        "capabilities_url": "https://jlcpcb.com/capabilities/Capab",
-        "checked_on": "2026-09-24",
-        "rules": "module.kicad_dru",
-        "notes": "Nominal 1.0 mm; 1 oz outer / 0.5 oz inner; explicit JLC04101H-7628. RF feed 0.26 mm / 0.15 mm ground gap based on manufacturer calculator; see docs/antenna/STACKUP-AND-FEED.md. Antenna reference copper and measurement remain open.",
-        "stackup": "JLC04101H-7628"
-      }
-    },
-    {
-      "id": "esp32-fpga-module-v2",
-      "name": "ESP32-C6 + FPGA M.2 module (v2, development)",
-      "root": "boards/esp32-fpga-module-v2",
-      "kicad": {
-        "project": "module.kicad_pro",
-        "schematic": "module.kicad_sch",
-        "pcb": "module.kicad_pcb"
-      },
-      "artifacts": {
-        "gerbers": "fab/gerbers",
-        "jlcpcb": "fab/jlcpcb"
-      },
-      "manufacturer": {
-        "name": "JLCPCB",
-        "profile": "FR4-4L-0.8mm-1oz-0.5oz-0.45-0.20-via",
-        "capabilities_url": "https://jlcpcb.com/capabilities/Capab",
-        "checked_on": "2026-10-08",
-        "rules": "module.kicad_dru",
-        "notes": "0.8 mm 4-layer M.2 2242 card (M.2 0.8 +/- 0.08 mm); JLC04081H-3313 ordered by name with impedance control; RF coated CPWG 0.14 mm / 0.15 mm gap (docs/rf-feed.json). Gold fingers need JLCPCB Standard PCBA as a >= 70 x 70 mm panel. Development draft, not for fabrication.",
-        "stackup": "JLC04081H-3313"
-      }
-    },
-    {
       "id": "direction-led-tester",
       "name": "Direction LED tester",
       "root": ".",
@@ -71,40 +25,6 @@
         "project": "MainBoard.kicad_pro",
         "schematic": "MainBoard.kicad_sch",
         "pcb": "MainBoard.kicad_pcb"
-      }
-    },
-    {
-      "id": "programming-carrier",
-      "name": "Module v1 programming + GPIO test carrier",
-      "root": "boards/programming-carrier",
-      "kicad": {
-        "project": "carrier.kicad_pro",
-        "schematic": "carrier.kicad_sch",
-        "pcb": "carrier.kicad_pcb"
-      },
-      "artifacts": {
-        "gerbers": "fab/gerbers",
-        "jlcpcb": "fab/jlcpcb"
-      }
-    },
-    {
-      "id": "gps-time-calibrator",
-      "name": "GPS optical time calibrator carrier",
-      "root": "boards/gps-time-calibrator",
-      "kicad": {
-        "project": "calibrator.kicad_pro",
-        "schematic": "calibrator.kicad_sch",
-        "pcb": "calibrator.kicad_pcb"
-      },
-      "artifacts": {
-        "gerbers": "fab/gerbers",
-        "jlcpcb": "fab/jlcpcb"
-      },
-      "manufacturer": {
-        "name": "JLCPCB",
-        "stackup": "JLC04161H-7628",
-        "rules": "calibrator.kicad_dru",
-        "notes": "1.6 mm four layer to suit edge-launch SMA; routing complete and native ERC/DRC checked. Review manual OCXO/OLED assembly, JLC placement preview and hardware validation before release. RFC v1: not ordered; hold ordering until module and carrier validation."
       }
     },
     {
