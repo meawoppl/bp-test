@@ -76,5 +76,5 @@ revisions; use the current manufacturing notes for ordering requirements.
 ## License
 
 [MIT](LICENSE). Third-party datasheets, vendor 3D models and imported library
-files included for reference keep their own terms; see the scope note in
-`LICENSE`.
+files included for reference keep their own terms; see
+`NOTICE`.
