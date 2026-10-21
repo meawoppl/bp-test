@@ -4,7 +4,7 @@ import ast,json,uuid,re,shutil,csv,sys
 from pathlib import Path
 import pcbnew as p
 from tesla_cst import populate
-ROOT=Path(__file__).resolve().parents[2];D=ROOT/'boards/tesla-coil-controller';C=ROOT/'boards/programming-carrier'
+ROOT=Path(__file__).resolve().parents[2];D=ROOT/'boards/tesla-coil-controller';C=ROOT/'third_party/gumstick/programming-carrier'
 b=p.LoadBoard(str(D/'controller.kicad_pcb'));parts=json.loads((D/'docs/circuit.json').read_text())
 if 'U40' in parts and '--update' not in sys.argv:raise SystemExit('CST already present; refusing to replace placed parts.')
 nets={n.GetNetname():n for n in b.GetNetInfo().NetsByNetcode().values()};fps={f.GetReference():f for f in b.GetFootprints()}

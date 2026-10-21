@@ -2,7 +2,7 @@
 """Construct the acquisition-first Tesla controller draft. Never overwrites a board without --replace-draft."""
 from pathlib import Path
 import pcbnew as p,json,uuid,re,shutil,sys,csv
-ROOT=Path(__file__).resolve().parents[2]; D=ROOT/'boards/tesla-coil-controller'; C=ROOT/'boards/programming-carrier'
+ROOT=Path(__file__).resolve().parents[2]; D=ROOT/'boards/tesla-coil-controller'; C=ROOT/'third_party/gumstick/programming-carrier'
 if (D/'controller.kicad_pcb').exists() and '--replace-draft' not in sys.argv:raise SystemExit('Existing board: use --replace-draft explicitly; this discards routing.')
 for dn in ['Tesla.pretty','3dmodels','docs','fab/checks']:(D/dn).mkdir(parents=True,exist_ok=True)
 b=p.BOARD();b.SetCopperLayerCount(2);b.GetDesignSettings().SetBoardThickness(p.FromMM(1.6))

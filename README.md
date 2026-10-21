@@ -1,16 +1,22 @@
 # PCB workspace
 
-**[v1: first 10 ESP32 + FPGA modules ordered](boards/esp32-fpga-module/releases/v1/README.md)** — exact fabrication files and checksums preserved by Git tag `v1`.
-
 Choose a board in the portal using the selector configured in [`.kicad-pcb.json`](.kicad-pcb.json).
 
-Integration guides:
+**Moved out (2026-10-20):**
 
-- [Daughterboard v1 ICD](boards/esp32-fpga-module/docs/ICD-v1.md): electrical/mechanical contract and reusable KiCad assets.
-- [Programming fixture firmware guide](boards/programming-carrier/README.md): bank tests, walking LEDs and restricted pins.
-- [GPS calibrator bring-up](boards/gps-time-calibrator/docs/integration/README.md): power sequencing, Affogato, GNSS/event capture and displays.
+- The ESP32 + iCE40 "gumstick" module (v1 DF40 module, v2 M.2 draft) and its
+  programming carrier now live in **[OrbitalCommons/gumstick](https://github.com/OrbitalCommons/gumstick)**
+  (public, history preserved; v1 ordered files under Git tag `v1`). Start with the
+  [v1 ICD](https://github.com/OrbitalCommons/gumstick/blob/main/current-df40-connectors/docs/ICD-v1.md).
+  It is included here as the submodule `third_party/gumstick`
+  (`git submodule update --init`) because the Tesla controller scripts read the carrier.
+- The GPS time calibrator, now named **StratumZero** (board, case, firmware,
+  gateware, validation plan), lives in **[OrbitalCommons/stratumzero](https://github.com/OrbitalCommons/stratumzero)**
+  (private for now).
 
-- [ESP32 + FPGA module](boards/esp32-fpga-module/README.md): routed four-layer prototype; current checks and fabrication previews are included.
+Boards here:
+
+- [Tesla coil controller](boards/tesla-coil-controller/README.md).
 - [Original MainBoard](boards/mainboard-reference): native KiCad import for reference; original Fusion/Eagle exports in [source/fusion](source/fusion).
 - Direction LED tester: existing board and fabrication files described below.
 
@@ -66,3 +72,9 @@ revisions; use the current manufacturing notes for ordering requirements.
 ## Tesla coil controller
 
 [Acquisition-first controller development](boards/tesla-coil-controller/README.md): eight simultaneous ADC channels, module v1 carrier interface, and two routed UD2.7-derived GDT bridges. This is an unfinished development board, not a fabrication release.
+
+## License
+
+[MIT](LICENSE). Third-party datasheets, vendor 3D models and imported library
+files included for reference keep their own terms; see
+`NOTICE`.
