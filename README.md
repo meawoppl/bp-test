@@ -10,8 +10,8 @@ Choose a board in the portal using the selector configured in [`.kicad-pcb.json`
   [v1 ICD](https://github.com/OrbitalCommons/gumstick/blob/main/current-df40-connectors/docs/ICD-v1.md).
   It is included here as the submodule `third_party/gumstick`
   (`git submodule update --init`) because the Tesla controller scripts read the carrier.
-- The GPS time calibrator (board, case, firmware, gateware, validation plan) now
-  lives in **[OrbitalCommons/gps-time-calibrator](https://github.com/OrbitalCommons/gps-time-calibrator)**
+- The GPS time calibrator, now named **StratumZero** (board, case, firmware,
+  gateware, validation plan), lives in **[OrbitalCommons/stratumzero](https://github.com/OrbitalCommons/stratumzero)**
   (private for now).
 
 Boards here:

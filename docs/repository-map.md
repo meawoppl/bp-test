@@ -4,7 +4,7 @@ Current workspace structure, 2026-10-20. The manifest registers three boards
 (direction tester at the root, MainBoard reference, Tesla coil controller). The
 ESP32 + FPGA module, its programming carrier and the GPS calibrator moved to
 [OrbitalCommons/gumstick](https://github.com/OrbitalCommons/gumstick) and
-[OrbitalCommons/gps-time-calibrator](https://github.com/OrbitalCommons/gps-time-calibrator).
+[OrbitalCommons/stratumzero](https://github.com/OrbitalCommons/stratumzero) (the GPS calibrator, now named StratumZero).
 
 ```mermaid
 flowchart TD
