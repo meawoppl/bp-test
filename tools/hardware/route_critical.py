@@ -12,7 +12,7 @@ def line(net,pts,w=.15,layer=p.F_Cu):
   t=p.PCB_TRACK(b);t.SetStart(xy(*a));t.SetEnd(xy(*c));t.SetWidth(p.FromMM(w));t.SetLayer(layer);t.SetNet(n);b.Add(t)
 def via(net,x,y):
  t=p.PCB_VIA(b);t.SetPosition(xy(x,y));t.SetWidth(p.FromMM(.4));t.SetDrill(p.FromMM(.2));t.SetViaType(p.VIATYPE_THROUGH);t.SetLayerPair(p.F_Cu,p.B_Cu);t.SetNet(b.FindNet(net) or b.FindNet('/'+net));b.Add(t)
-# Manual critical routes for the gumstick placement.
+# Manual critical routes for the Affogato module placement.
 line('RF_IN',[pos('U1',2),(13.7,11.1),pos('L3',1)],.18)
 line('RF_IN',[pos('C1',1),(13.7,11.1)],.18)
 line('RF_ANT',[pos('L3',2),(12.2,7.6),(15,7.6),pos('AE1','P$2')],.18)
